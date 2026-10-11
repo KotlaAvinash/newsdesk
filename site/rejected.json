@@ -1,96 +1,6 @@
 {
-  "generated_at": "2026-10-10T07:53:10.295170+00:00",
+  "generated_at": "2026-10-11T07:54:25.073433+00:00",
   "items": [
-    {
-      "cluster_key": "834c9965c0a711f8",
-      "title": "CVE-2026-32579 (CRITICAL 10.0): Unauthenticated Arbitrary File Upload in Kognetiks Chatbot for WordPress <= 2.4.9 versions.",
-      "category": "cyber_attacks",
-      "one_liner": "A CVSS 10.0 vulnerability in a popular WordPress chatbot plugin allows unauthenticated attackers to upload arbitrary files.",
-      "tags": [
-        "appsec",
-        "cve",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "A critical vulnerability, CVE-2026-32579, has been identified in the Kognetiks Chatbot plugin for WordPress, affecting versions up to 2.4.9. The flaw allows for unauthenticated arbitrary file uploads, which could lead to full site compromise. It has been assigned a maximum CVSS score of 10.0. Users are advised to update to a patched version immediately to mitigate the risk of remote code execution.",
-      "key_facts": [
-        "CVE-2026-32579: CVSS 10.0 (Critical)",
-        "Affected software: Kognetiks Chatbot for WordPress",
-        "Affected versions: <= 2.4.9",
-        "Vulnerability type: Unauthenticated Arbitrary File Upload"
-      ],
-      "bottom_line": "WordPress sites using Kognetiks Chatbot <= 2.4.9 are at extreme risk of full takeover due to an unauthenticated file upload flaw.",
-      "claims": [
-        {
-          "text": "CVE-2026-32579 is a critical unauthenticated arbitrary file upload vulnerability in Kognetiks Chatbot.",
-          "support_span": "CVE-2026-32579 (CRITICAL 10.0): Unauthenticated Arbitrary File Upload in Kognetiks Chatbot for WordPress <= 2.4.9 versions.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 82,
-      "interest_score": 75,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "834c9965c0a711f8",
-        "86c87ee6aac6589f",
-        "9f0f0c4e2ce302eb",
-        "ab9e97cc97b23fb8",
-        "c0829a00cd345738"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-94589",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-83526",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-104899",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32579",
-          "domain": "nist.gov",
-          "tier": "A"
-        },
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32557",
-          "domain": "nist.gov",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-32557",
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-32579"
-      ],
-      "published": "2026-10-06T09:17:42.080000+00:00",
-      "trace": [
-        "tier A (+40)",
-        "2 independent outlets (+12)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3-flash-preview",
-        "blend 69 = trust 82 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
     {
       "cluster_key": "0419de820a0c85c8",
       "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
@@ -131,7 +41,7 @@
       ],
       "trust_score": 61,
       "interest_score": 75,
-      "corroboration": 7,
+      "corroboration": 8,
       "blend": 79.0,
       "is_new": false,
       "summary_source": "model",
@@ -140,6 +50,7 @@
         "43d8a91bc2a7ef23",
         "684bbc69036c8e57",
         "700296eea43d7cc4",
+        "79f5c436374a0aa6",
         "84a85dc819b66302",
         "9191921b52e675e3",
         "bae137450da9b253",
@@ -196,248 +107,25 @@
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWhtN2MzSWt3R2pkQVRQSFBFbjhZNzFmUmd2a3dpa2I1OU1KU1E2UFpJek5LbjNrcm1QWmZILUFZUUdydXFfNVRFSWRMT2tJRG5YRDVzZlB6bV90cWt1RW1KWEEtS05PUEFIOG1BdFVBalFyRmh5eWNPRTFuTVRvWktLLU81MDdsVFQzUWFkckZRbTR1eWRSdDgzQTBjUVg5VENCeW1VTW5mdk12UHUtMm4yZVJoMjRpNlRBTFl30gG-AUFVX3lxTFBJaG03YzNJa3dHamRBVFBIUEVuOFk3MWZSZ3Zrd2lrYjU5TUpTUTZQWkl6TktuM2tybVBaZkgtQVlRR3J1cV81VEVJZExPa0lEblhENXNmUHptX3Rxa3VFbUpYQS1LTk9QQUg4bUF0VUFqUXJGaHl5Y09FMW5NVG9aS0stTzUwN2xUVDNRYWRyRlFtNHV5ZFJ0ODNBMGNRWDlUQ0J5bVVNbmZ2TXZQdS0ybjJlUmgyNGk2VEFMWXc?oc=5",
           "domain": "bleepingcomputer.com",
           "tier": "C"
+        },
+        {
+          "name": "The Record from Recorded Future News",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MMFlxVUY0RE9aX0ZmTEpvSWlxTmZ6QmNycjl4WUVnekF0VmgzRnMxaTloLWNtdV9URnBmbWcxM0d1c29heExsZkUtTTJDUTZYZnhsalgzUGpNeXhIQjdzSk1QNnU3SDR0WmRTUV9tT0Qya1B5MmVjYlhUMktYUQ?oc=5",
+          "domain": "the-record-from-recorded-future-news.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
       "published": "2026-10-07T10:03:06+00:00",
       "trace": [
         "tier B (+25)",
-        "7 independent outlets (+36)",
-        "verified: 7 independent outlets",
-        "importance 4/5 from gemini-3-flash-preview",
+        "8 independent outlets (+36)",
+        "verified: 8 independent outlets",
+        "importance 4/5 from cache",
         "blend 79 = trust 61 / interest 75 / corrob 100",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "2 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0a9e34245e8f6611",
-      "title": "Pwn2Own Ireland 2026 - Day Three Results & Master of Pwn",
-      "category": "cyber_tools",
-      "one_liner": "Pwn2Own Ireland 2026 wraps up with Ikotas Labs claiming Master of Pwn after successfully compromising the Google Pixel 10.",
-      "tags": [
-        "agents",
-        "ai",
-        "android",
-        "exploit",
-        "vulnerability"
-      ],
-      "summary": "Pwn2Own Ireland 2026 concluded its third and final day with 17 scheduled attempts and approximately $1.33 million total prize money on the board. Ikotas Labs secured the Master of Pwn title by chaining multiple vulnerabilities to successfully exploit the Google Pixel 10 for a $300,000 payout. Other successful targets included the Oracle Autonomous AI Database, Philips Hue Bridge Pro, Home Assistant Green, and Brother and Canon multifunction printers, while teams like White Noise Club failed to compromise the Garmin Index BPM.",
-      "key_facts": [
-        "Total prize pool: ~$1.33 million",
-        "Google Pixel 10 exploit payout: $300,000",
-        "Master of Pwn winner: Ikotas Labs, Inc."
-      ],
-      "bottom_line": "Complex bug chains against mobile devices, databases, and smart home infrastructure continue to yield significant payouts at security competitions.",
-      "claims": [
-        {
-          "text": "Day Three of Pwn2Own Ireland 2026 wrapsup with 17 attempts scheduled, roughly $1.33 million on the board.",
-          "support_span": "Day Three of Pwn2Own Ireland 2026 wrapsup with 17 attempts scheduled, roughly $1.33 million on the board.",
-          "status": "entailed"
-        },
-        {
-          "text": "300,000!!!!! and 30 Master of Pwn points officially makes Ikotas Labs, Inc. the Master of Pwn as they jump to the top of the leader board after they chained multiple issues together to successfully exploit the Google…",
-          "support_span": "$300,000!!!!! and 30 Master of Pwn points officially makes Ikotas Labs, Inc. the Master of Pwn as they jump to the top of the leader board after they chained multiple issues together to successfully exploit the Google…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 76,
-      "interest_score": 75,
-      "corroboration": 6,
-      "blend": 82.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "0a9e34245e8f6611",
-        "248bb8b9e8abda15",
-        "28324c3759ab8a34",
-        "4360980524f21228",
-        "47bb94b7f6c05570",
-        "4848f9cfa5e4e0ae",
-        "4ce7b1fb140d8588",
-        "5c316d0c8de63acd",
-        "71638ac0f23b91f2",
-        "7e9155b23b2b9a30",
-        "7f92269e749c68f7",
-        "981008b1376997f9",
-        "b6402a19d3c8651c",
-        "d5369bc648f88a77",
-        "da891531bb7106f4",
-        "eafcf5e2ef4262ea"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "ZDI Blog",
-          "url": "https://www.thezdi.com/blog/2026/10/8/pwn2own-ireland-2026-day-three-results-amp-master-of-pwn",
-          "domain": "thezdi.com",
-          "tier": "A"
-        },
-        {
-          "name": "ZDI Blog",
-          "url": "https://www.thezdi.com/blog/2026/10/5/pwn2own-ireland-2026-the-full-schedule",
-          "domain": "thezdi.com",
-          "tier": "A"
-        },
-        {
-          "name": "ZDI Blog",
-          "url": "https://www.thezdi.com/blog/2026/10/7/pwn2own-ireland-2026-day-two-results",
-          "domain": "thezdi.com",
-          "tier": "A"
-        },
-        {
-          "name": "ZDI Blog",
-          "url": "https://www.thezdi.com/blog/2026/10/6/pwn2own-ireland-2026-day-one-results",
-          "domain": "thezdi.com",
-          "tier": "A"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
-        {
-          "name": "Infosecurity Magazine",
-          "url": "https://www.infosecurity-magazine.com/news/pwn2own-hackers-32-zeroday/",
-          "domain": "infosecurity-magazine.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale",
-          "domain": "theverge.com",
-          "tier": "B"
-        },
-        {
-          "name": "SecHarvester",
-          "url": "https://www.zerohack.org/blog/pwn2own-ireland-2026-day-1-32-zero-days-388500-samsung-galaxy-s26",
-          "domain": "zerohack.org",
-          "tier": "C"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGJEN2pRVGRfSWRONWh5U2RkOG9zV1lzNjRNZURjOFFDbjNMMC1SMkIxR1FMYllzWEhIWWFPRU5EejRCVzBFTUFKZjYtSkJJNEkzLWxQVEhDUXdJaDlFUjQzTG5ibUZjZEVNZ1FjOUlzQjdmaVBfREtoemFVZjd2V2NfUW1WVHRZdjdxQmpBTWhQa2s0di1lZjZfdlBnTkdBSnJvaHlIZkRpMFZyeUHSAbMBQVVfeXFMTnJocnNsWDZUUll2WjN0WmxaT290d3RBWHhKV1YySy1EbkZZT2JWcXNCaEhNZ3pKdlkwZnVpZUNvLXJvNmVGVlBsc2RUb1hPZjVfb2hzcElLbnRGX05oOWlNcmcyR0tBQ3JnR2pwdjU1RnVlLVhocHlXMmNJWVlKU3g5SEM4V2VkeHdRN0pVUlVfY21LTmtOeW1tM3ZYcUFMbGVoX0ZXaVJWUW1LY1dnZU5CXzQ?oc=5",
-          "domain": "bleepingcomputer.com",
-          "tier": "C"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdG9aaVlpOTQxcldfdk1qRlA4VGxUQjhTNEZvNzc2WlNMNWR5V0J0dnVybFVWTTRoRDVNZTRqRnBUcWZuMGdPOHpnSzQ4dWVTWnBWYnpBb2o1dFVwNm5iX2IyTTF2YVJmMFdxaG1pM0dqV3E3MzF3ajNJRGtsb2d5U1psOGJxQ2tDMXhGb0M4UWlnWm1IaEJuTC1PVDlmWlVVRHYzOFJPVVhyaGVW0gGyAUFVX3lxTE1BdExqQXlvNVJnZzdMM2EtazAxQ2U5MFg1YTBEWFNHWF9DYXRxTVI3U0ItRm9jUFcyN3JPcXJVRzFmb3lSajFaVktUOHpmakh1UXFDc0s0ZWQzVGNmbC1yYlp0S2luU2RZdDliYUhXZVJiXzdoRDRBY1pxcnJHM0xROE9aUkFmbU5wWWVjdi15dlBQV3FId09pYW9zQjRPc3hpMHQ3MjJWOEV0c044dGdtLVE?oc=5",
-          "domain": "bleepingcomputer.com",
-          "tier": "C"
-        },
-        {
-          "name": "Cybernews",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXlLdE5qT2VrNDhyUXVzQmtCOEg4VXp5UkVqRHFUM3htVzdNWmNZNE9sN0d2a09BMTRHUDFsb202VFk3YmdZQVp4QWN6ZFJmYjdGQlh2VXhtMzI2Vk5odXprYWFkMkFDT3IxNjdsNE5iZ3dCbVMwTXpuQWcxOHJtTFJwaHRjUk5mZGdHRkdjRQ?oc=5",
-          "domain": "cybernews.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Escudo Digital",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY2Rwc1NxTk42MlVYWlppUkVxOEMtODdSN0VhX3FZV21pMWxPSzlEUWR6V2ktS1ZRRGNrZ3ZWNDFyaXhHQTR4YUVoalo1bnIwN0txUGVkUDk4c1EzOE9vNHdIbk04cXllek1Ec0RBU0FfUHFiUmhlOHd4eG9YQjUwaFBNUHdPazUzdy1IRHhyY2MydmZ2X2Etd3VCNVlSZ1JKOXFRN29LajRwQkRk?oc=5",
-          "domain": "escudo-digital.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Infosecurity Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYkt1aFd1V2k0THpBamVwY1NWNTJLcVFmU0FzWXMtVzJYMlBNV1A3Sm1Qa3dDSm9SMFhvUFFNWkl2eWR4T0tLY3VlTl9EdDZyeS01aDZHTGhRaEMyYXlHZ3AyS2gzc182YzhKZ1R4UTQzVW1WR1RCMjBR?oc=5",
-          "domain": "infosecurity-magazine.com",
-          "tier": "C"
-        },
-        {
-          "name": "SammyGuru",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFWkNwQlRnUzRZUU5sNElfZW1tSEVvYWkzY0hXZ3BKQ1liai1VNHIwUHFuUEtRamgwTExoN1hLQjVLLUozajZxOTJTZC1tcHgzcTVHeTEySTBWY0FkSngwUnlZc3lPMjRHeHE5dUt3?oc=5",
-          "domain": "sammyguru.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDSUtGWnZ3LU05Z1hNRUxwNmkyZUpWbGwxWEJqa29KNXYzM1VsdHNDOFZ6N0JmTWYwaUpsUTNOQkxoM1RkeW9CM0J2WHNUT0RLR0VmeE0yNU9pUDFpekNYX0t1R09aREpDS3Nv?oc=5",
-          "domain": "shattered-io.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "thezdi.com",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qdjNERWlVdGQ3bUk3X2w0MjB6WmRkY013dkZORFhhZDlzSkR2R2N3Ry1MRUdkUE1nZC1qejhpVVVnTjByTkJGQndKT0RYalhNZHA0cHEyVkxfNEJlbDBlMC12a2tMTl95UnFJaGg2SDJ3R3pnYUZYSzdhU3hzTmc?oc=5",
-          "domain": "thezdi-com.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-05T18:11:29+00:00",
-      "trace": [
-        "tier A (+40)",
-        "6 independent outlets (+36)",
-        "verified: 6 independent outlets",
-        "importance 4/5 from cache",
-        "blend 83 = trust 76 / interest 75 / corrob 100",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "fc908b2f94cc2c0f",
-      "title": "CVE-2026-104766 - Appointment Booking Plugin <= 5.7.3 - Authenticated (Custom+) Privilege Escalation to 'settings[default_wp_role_for_customer]' Parameter",
-      "category": "cyber_attacks",
-      "one_liner": "A privilege escalation vulnerability in the LatePoint WordPress plugin lets users with specific custom roles elevate new customer accounts to administrators.",
-      "tags": [
-        "agents",
-        "appsec",
-        "cve",
-        "exploit",
-        "vulnerability"
-      ],
-      "summary": "An authenticated privilege escalation vulnerability has been identified in the Appointment Booking Plugin (LatePoint) for WordPress in all versions up to and including 5.7.3. The flaw stems from the `OsSettingsController::update()` handler iterating over unvalidated user-supplied settings and `OsSettingsHelper::prepare_value()` lacking proper role validation for the `default_wp_role_for_customer` setting. Authenticated users holding a custom role with the `settings__edit` capability can exploit this to change the default registration role to administrator. Consequently, any newly registered customer through LatePoint gains full WordPress administrator privileges.",
-      "key_facts": [
-        "Affected software: Appointment Booking Plugin (LatePoint)",
-        "Affected versions: <= 5.7.3",
-        "Required capability: settings__edit"
-      ],
-      "bottom_line": "LatePoint booking plugin up to version 5.7.3 contains a privilege escalation flaw allowing authenticated agents to grant administrator privileges to new customer accounts.",
-      "claims": [
-        {
-          "text": "The Appointment Booking Plugin – LatePoint for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.7.3.",
-          "support_span": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.7.3.",
-          "status": "entailed"
-        },
-        {
-          "text": "Authenticated attackers can overwrite the default WordPress role for new customers with administrator.",
-          "support_span": "This makes it possible for authenticated attackers holding a LatePoint role with the settings__edit capability (such as an agent or custom role) to overwrite the default WordPress role for new customers with administrator, causing any subsequently self-registered LatePoint customer account to be created with full WordPress administrator privileges.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 51.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "fc908b2f94cc2c0f"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-104766",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-10T05:30:57+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "a28bdf0d2772fef4",
@@ -540,10 +228,49 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "c745dde593ed36e8",
+      "title": "I need to decide if 1KB means 1,000 bytes or 1,024 bytes in all of my software I was leaning 1,024 but it looks like macOS and Windows both define…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I need to decide if 1KB means 1,000 bytes or 1,024 bytes in all of my software I was leaning 1,024 but it looks like macOS and Windows both define KB as 1,000 these days I want whatever people are most likely to understand (I do not think most people know what KiB or MiB means) 2026-10-05T21:53:58.162Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "c745dde593ed36e8"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mx5vpoesps2c",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-05T21:53:57.855000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
       "cluster_key": "7cc06ecfd5e77617",
@@ -577,9 +304,9 @@
       "summary_source": "model",
       "alt_keys": [
         "7cc06ecfd5e77617",
-        "7cc34f3671680980",
         "b200d43a39163cde",
-        "bce1e296a4e41052"
+        "bce1e296a4e41052",
+        "f11fba4327d3e941"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -598,37 +325,38 @@
           "tier": "C"
         },
         {
-          "name": "SiliconANGLE",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZ05jajV1RG5hV0FEdHBNX1VUMXNESWg1UE1IMmFfQVd1a0RCeDhxbERFb0RYR0dFMEY3STVkcVVjenNiQWVNcWFSbWJxZzVaa1hUNEtKazlTTFRIRFNfbVg5R0hZWmhSVG8wV3NDRGpwR2xXUU5yWlhmVUYxNk53NlFGM2dMWXYtRUlST2FfSXFGOFZxUHV1SDNlU1BBX0xwbHc?oc=5",
-          "domain": "siliconangle.publisher",
-          "tier": "C"
-        },
-        {
           "name": "Tech in Asia",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0ZTRVY1ckdrYkNtYy1EenpLY1kyTldPQURuS1loeVVDTldfWHNuMTN3TUlvX1JCUkZWV1ZMalpyUHN0UUU5Z3ZfN3N6RTJmUFZTR0xyU3VETlJySWtlMW1jYnZnMDBtUlJtZHBDWTBqV1JXcjA3S3ZZNHJJX1RkVFN0MTRObklEYUpr?oc=5",
           "domain": "tech-in-asia.publisher",
           "tier": "C"
+        },
+        {
+          "name": "TechJuice",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbjlPOEFNbzF3RmY5cUkzUWtCTlJWd3VyZUo1ZWZvYkF2RldROE5oeUhSbnN2dDN4OUhsLWNEQUJvZVMtRjF6cDZDRmxFejl2VFdYLXhENlE5NU5oVVN1U3ZIMjM3T19jUllxYjVjaXM3TDJUdXNKd1pyM0RQS3kxNDl0NkNyVWZ4?oc=5",
+          "domain": "techjuice.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-06T20:28:00+00:00",
+      "published": "2026-10-07T12:31:16+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 2/5 from gemini-3.5-flash-lite",
+        "importance 2/5 from cache",
         "blend 21 = trust 10 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "bfba7a221f052620",
-      "title": "I think my upcoming book, Co-Existence, might be the first to include a blurb written specifically for AI readers, in this case from Tyler Cowen…",
+      "cluster_key": "8d5247c9aaf3c1b3",
+      "title": "Big swing happening from this summer's trend to have AI running on virtual machines on your own computer (Claude and ChatGPT apps) to moving them…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "ai",
+        "llm"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I think my upcoming book, Co-Existence, might be the first to include a blurb written specifically for AI readers, in this case from Tyler Cowen (whom I thought AIs would respect) The book website (with elaborate pre-order bonus) also has a page for AIs. Its out October 20: co-existence.ai 2026-10-03T15:09:39.970Z",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Big swing happening from this summer's trend to have AI running on virtual machines on your own computer (Claude and ChatGPT apps) to moving them back into you having a dedicated VM the cloud (Claude Cowork just announced they were doing this, also Grok Bot, Dot, and others).",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -639,7 +367,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "bfba7a221f052620"
+        "8d5247c9aaf3c1b3"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -647,71 +375,32 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mwy66tfzzs2k",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx63cx3bjs2o",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-03T15:09:37.963000+00:00",
+      "published": "2026-10-05T23:34:13.228000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-03 — outside lookback window"
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
-      "cluster_key": "341be5d3b722db0a",
-      "title": "Just published this post about how we’re going to need default hard budget caps on pretty much everything simonwillison.net/2026/Oct/3/d...",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Just published this post about how we’re going to need default hard budget caps on pretty much everything 2026-10-03T23:35:47.959Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "341be5d3b722db0a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mwz2hvy5ys2j",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-03T23:35:47.414000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-03 — outside lookback window"
-    },
-    {
-      "cluster_key": "738dfad82fa1fb1a",
-      "title": "joeseesun/qiaomu-codex-imagegen — 让任何 Agent 调用 Codex 内置生图（MCP + CLI + Skill），内置小红书、视频封面、Mondo 海报技巧 · Codex image generation for any agent",
+      "cluster_key": "0be20addec3e88d5",
+      "title": "THUROI0787/absent-author — Research and writing can be automated. Authorship cannot. Evidence list + agent skills for spotting AI-produce",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
+        "dfir",
         "llm",
         "opensource",
-        "release",
-        "tool"
+        "research"
       ],
-      "summary": "Every request first gets at least four divergent style directions (24 templates, 48 presets, 20 Mondo artists); you pick, it composes the prompt, generates, and checks the result.",
+      "summary": "An evidence list and two agent skills for spotting research papers that AI produced and no human stood behind. Ruoyu Zhao1,*,† · Zhehao Zou2,* · Jinheng Zhang3 · Yuting Chen4 · Jiaqi Wu1 · Chenyu Zhu1 1City University of Hong Kong · 2The Chinese University of Hong Kong · 3University of Pennsylvania · 4Georgia Institute of Technology * Equal contribution · † Project lead Reviewers now see papers that an agent produced end to end, with no human who steered, checked or owns them. This repository names the signs of that absence, with sources, and provides tools that turn them into evidence a reviewer can cite and an author can fix. git clone && cd absent-author ./install.sh both skills -> ~/.cl…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -722,7 +411,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "738dfad82fa1fb1a"
+        "0be20addec3e88d5"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -730,33 +419,31 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/joeseesun/qiaomu-codex-imagegen",
+          "url": "https://github.com/THUROI0787/absent-author",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-04T08:47:02+00:00",
+      "published": "2026-10-05T08:41:20+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
-      "cluster_key": "8339a78520d3398f",
-      "title": "jimoto-no-llm/rustdsh — Fast Rust launcher for DeepSeek Harness, with clear Claude Code/Codex migration, model setup and lightweight l",
+      "cluster_key": "f8669131317c6bf8",
+      "title": "GTKottman/mortiflix-oss — A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Brin",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "linux",
+        "ai",
+        "howto",
         "llm",
         "opensource",
-        "release",
-        "tool",
-        "windows"
+        "release"
       ],
-      "summary": "An independent community project; not an official DeepSeek or DeepSeek Harness project. rdsh is a drop-in fast path for dsh (the DeepSeek Harness CLI). Instead of rewriting everything, it ports only the hot paths to Rust and delegates conversations and model runs to the original dsh binary. Arguments you already use keep working as-is. version replies in about 0.90 ms with about 2.9 MB peak RSS on Linux x86_64 (original dsh: about 88 ms and 66 MB).",
+      "summary": "A motion design studio on your own machine. Most \"AI video\" tools are one prompt and a slot machine. Mortiflix works like a real motion design studio: a brief, a script, style frames, a transition board, an animatic, a final, and you review each stage before the next one starts. You pin a note on the exact spot of a frame or the exact moment of a video. The next version answers every note, one by one, and shows you what changed.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -764,11 +451,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "8339a78520d3398f",
-        "f07e9dd062a5479b"
+        "f8669131317c6bf8"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -776,23 +462,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/jimoto-no-llm/rustdsh",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+          "url": "https://github.com/GTKottman/mortiflix-oss",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-04T06:05:05+00:00",
+      "published": "2026-10-05T15:15:13+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
       "cluster_key": "077daadba8973a5d",
@@ -825,53 +505,44 @@
       "summary_source": "model",
       "alt_keys": [
         "077daadba8973a5d",
-        "0b1d1f2240204395",
-        "10abd2e790440558",
+        "0859522cc268e772",
+        "0c11269fefde4c20",
+        "0c6e3098cec0e070",
         "2019c30437e02c8b",
-        "263d8acb5638d0aa",
         "2688dfeec49a63de",
         "2a6c13f633aa328d",
-        "2b8f52a7740198f2",
+        "31bbddac57d151f6",
+        "3215d5684efc4065",
         "331044b510479f35",
         "347c206719611de3",
         "354a108c55749121",
-        "3d951f008906def2",
-        "41948eb7de811454",
-        "442b10095b86c305",
         "4869b98163b69826",
         "48e5d9d1ede74d45",
-        "526c7f44bf1bf5d9",
         "541b6b36eda28486",
         "57e2c98c93f5c71e",
+        "5a04006c1dfc5718",
         "5f78a98bd06de234",
         "62e9a30626173086",
-        "69c2ea9329f5b091",
-        "741256d7d6d94a7f",
-        "76a0436185d9ba2a",
         "7bc321c428efb735",
         "81e7ecdf270d08c1",
         "87d8a556423fc941",
+        "8c189f103ff330d0",
         "945343f27bbf3909",
         "99217463462724df",
         "a09317fbe8831f35",
         "a720074045c89ea1",
         "aa126cf86e0acea9",
+        "aaf570b1df64c24f",
         "aef0c28725b4f4e2",
         "af3b955d9907fe64",
-        "b036938ae640f5c5",
         "b0ad3118a82cbf35",
-        "b8de31a7ff85c0d4",
+        "b7d7ca4b968efc9b",
         "c3a2b9b0c6cb55f3",
-        "c47587757669557b",
-        "c6200876b0513897",
-        "cd09f6c4ce4c4574",
         "d42dd6eea45df34a",
         "e190064dbf525239",
         "e1e110af04a833ee",
         "e2cc286cc447a8fd",
         "ea2ed868f1df1eee",
-        "ea343e856de42eca",
-        "ec01e98773edbc5b",
         "eed6d5d5ab6d8e7e",
         "f4bb548808c8a189",
         "f62774b51a0a7985"
@@ -880,6 +551,12 @@
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
+        {
+          "name": "14 News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUFNZEZWMU1GVzNFenBaaS1lcEt4cFFheTlVLThaWXFod0ZyZ1ZXVGsxTDJHWllEWkJrRVhSaWRnN2UzcGNXcVRHV2x1RTVLQ2xLNzlOOFktNzg0QUpHZWxuZlpEX09uOVhHX2J2X0JQN3g2Rk1FeU1IbjFrbFl1aFd4eDZqN0JtSlRlRG9PNzNBc1VOUHFHVFprU2JVMVlwYnc?oc=5",
+          "domain": "14-news.publisher",
+          "tier": "C"
+        },
         {
           "name": "Action News 5",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWNucGZpcmVxNlVQLXdZQURuaUhybDlCaVR3NEVTeW5Uc1lrM1JHQ0ZMY3ZiUkdjdVhNZnYyRV9ORUkyLVoxeFExWkdrTE9YVXFQZkppaVRjNWFPNEpSU2VGSEdITGRTVEk0NlY1aC1xT1IyUFJZd1k1QnpWY0w5TmZmc19Pd0hURHdUUUVtVE0tVVRDTTlSOFVaU2xGd1pVTUw2Z1YtWmY?oc=5",
@@ -929,6 +606,12 @@
           "tier": "C"
         },
         {
+          "name": "KCTV",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeDN5bm92UGdlZVBkamo3VVFZUUJVbWMzRDhXYjdUdmtsWnp2SXVoM1Z1RG14dkZWUXQ5ZGE2VUtpanNlTHAwbG5OUWZuMklYOTRLaFpzazBPV0lybHFGY0F1UjJ5aHlkRjFxeUZXZTRfU2JwSGZRLWFMdUExMVdYdmdjZGJrXzVTWHdMUGlra1JrZUdLYWpKc1Y3VHVRZUh3?oc=5",
+          "domain": "kctv.publisher",
+          "tier": "C"
+        },
+        {
           "name": "KFVS12",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObzkwMWxkMGFyMU9KZ2lDeldMRmJsYW1VcjE2T3U2UDZ3a1JQcW5DZzFWS1VBMHhXLV9zRU9MYUhTZWdQMzluNC1tZE00cG1IVGR5T1lxeWRDdWNHa09uc21oc295Z3ZTdDRHMEZHX2hBb1poSEliaHZHSE13eGVTUDhtSUhCN3huek05RVRFbzFWY2ppbktkY29Ndnh6ejcyMkE?oc=5",
           "domain": "kfvs12.publisher",
@@ -947,12 +630,6 @@
           "tier": "C"
         },
         {
-          "name": "KMVT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRlVkZmJCOTFPejBzc25UeF9TUk1zY1hzLWpYRU9PM0VHNmJfclh5Y3ZKaU9Qc24wMmo1c0t4Wm1KSkFxa3VHcmJjdEdwbklaZFlHVkxsWDhoY2ZrTGNvWGpoYnU4Uno5a2Uwd09tUmYxYU5VTzByUXVKRXVaRE95QWtmTWF0T3Uxa1pDMV9yejNic3JRdTJFMTRjSlZlcHM?oc=5",
-          "domain": "kmvt.publisher",
-          "tier": "C"
-        },
-        {
           "name": "KOTA Territory News",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeVh0RmUzdUpueF9mcC1sempHcVJLNE10bk5TOUszb2x3ZUNCZy0tMTk0RVZhZEVuREg0YnlTanhxZmMxR0hrdDlPU0ZTaGwyckh1YUVFUXhXamJTTVdYZGRUZVZ1TU9rSXpNQy1MT203TWItTjgwVndJOHZmT1B0NmI1M1ViZjJKNEt1bUY5SHdKdy1uREYxQXlTY2p0QWc4eGc?oc=5",
           "domain": "kota-territory-news.publisher",
@@ -965,15 +642,15 @@
           "tier": "C"
         },
         {
-          "name": "KTRE",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjA2c3NQeWdUc284OVhDbXpiYmh4N0tWTHBnWHF5RTZ3UURhU2RrUTBfdEMxUncySXE2ek9jMjdUN2tVVVdMYTdpS1ZQcm1IOGtyMHF6aV9xVkZ3cGdyZEJmRmJ0TzNrclNiOFVjZENscVh4S05UMkxFcUpjZE1CWjBvcC1tMHNpb1U2S25JVXE3ZVdRUFFBaTg1MmcwSzA?oc=5",
-          "domain": "ktre.publisher",
+          "name": "KPTV",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzZOYUtwM1VwNkZ0MS01Zkg4SG03Y0JNRWkwS19WRlhjVVNxQXV0SXJTV09tamV0Z1RKT2RWUXFWWGlkWm1tTnhWenpnS1FMZXNrZnVnWUR2eFhkRjRLNFlONjZnUWliTzFTaVJyUWdvSEFYZWt2RVItdnlvOG4zNC1odTc3VWRxVjlfbE03SDE3OWd1M244cUM1dlBJRjg?oc=5",
+          "domain": "kptv.publisher",
           "tier": "C"
         },
         {
-          "name": "KTTC | Rochester, MN",
+          "name": "KTTC",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYUxsdWJsaE5mOTJLQmk5ZWs0Q0N0aU5EYm9DVTRfclAtMDNYUWNHVmQ0T3RDdTNWa1NWejJQc2J4MVlqOVNEOXZ2ejhSQUQ2Znh0b1h6alhHaUIyZm5Jc3Z0YVg1SUh2aDhtc1JhRnpPbTBmTkRfLXN4TkRnVGlwbUNLY2NtN29JTGY4WDBhbkphMHRyNzVuS1FmSlZUNEE?oc=5",
-          "domain": "kttc-rochester-mn.publisher",
+          "domain": "kttc.publisher",
           "tier": "C"
         },
         {
@@ -989,12 +666,6 @@
           "tier": "C"
         },
         {
-          "name": "KWTX",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPckwtd2FPemVpdEdUNUtheHpkN2NrcHRib3VPMkw3QVRtR1A4ZUdKOWphQmlocXhYd2tKOTZyYmJMQldBUVhPV3ZpcjRVNy0xOWVTS3hGcmE1YW5IWi1Bc3JZYzBSMVEwOS14VlhCNDM5UFREM0ttMlFXSVFnMmVpTW9GbWhDeDJJUUh6ajFSTXkzemVHZzMydVlKM2hZQ1E?oc=5",
-          "domain": "kwtx.publisher",
-          "tier": "C"
-        },
-        {
           "name": "Live 5 News",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlROQmVGSVNnZUFSV1lxT3JCOElobWNuRE45MGhWdHRIam5kV3BZTHF1c2NVX2hzQ3hCRXFLNG9aTUVyNjJEWlJBR2k3U3pIbnU4dkxKSEVoVFNlVS1wWjRORko5ZWg5dmYzaVF1SEszT25KakNmZC01NTdKdjh1RUJ4Tnh3dDd3RHBsQmdudGRySmlLRkt2R3c4aDFJbHEtZExZTFFn?oc=5",
           "domain": "live-5-news.publisher",
@@ -1007,21 +678,21 @@
           "tier": "C"
         },
         {
-          "name": "Upper Michigan's Source",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc3pLMDBrcmVqZnlneDRHLXk5ZWZwc3ZuTFJoS1pYdW1sUW4tanB2QWYxU0ZrN0tmYVpKaS1kTFRoRGVvc1hQUXhNMWdwXzlSR3VNNTVPTVJnMVNLcms4TEhUa3RRY3B2MEVXSkp4a1FhcFRSaS1nNWtrNTUzT1JaZXdUOHhJX2dXY2ttWE8tNHBBUkFiNXlUR0ROM1Q4WW9CSEpjSzU2WG9BdFNaZnlXVkdCb0Q?oc=5",
-          "domain": "upper-michigan-s-source.publisher",
+          "name": "Quartz",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mZWVyeXhkRTRlem9kMWNEdWsxbVFQT29aTTh0U1J4dFBRWE9LWVpDRVhNajFPVVVUVS02T2RfdWpiQjVSMnBlekFoZDIya21PSWgwMnU3LXFzOTZIR2Jpa25BNWNGdFl5ekpMTk9JSUROOHJma3lHM2hpS1NRQQ?oc=5",
+          "domain": "quartz.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Valley News Live",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkE4b3I4RzlsdTVhT1hlN2ppNEozQ0RHZnRSV2NDMlhGUVdfUkd1TTBJNmpUM2xQcFFraFJXUlJpbnRlaFQ1VEh2VW1VTU1iczFXdExwOFlaQ2FsWlI4WmhHcE5wU2NWb3hfWkx5VGp0NkV5TFN5dkFBWE5rLXUwVHFoT1N6UkV0Q1Vhc2hvN0U5QVV4RVNfT09mdWtseHFNZHFNZEJVbnR3VVht?oc=5",
+          "domain": "valley-news-live.publisher",
           "tier": "C"
         },
         {
           "name": "WABI",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDZjRUNhUFMzQ3c4RmI0RXdCa1A0R1oyNXE5RXRsSTl1V1BZbXA4OUZMR0tWQ2J1NGg4MUZTUnRkbWNScUVVa1B3ckpjZXNTS0JrUzdZd21fNnA5d0xPaEw1cS1yXzFlRkRvbTEyUkxDd1QzVjhqMW5jWnFqOHNXNlVMSG8tMlFiOTFvendRZnN1VWZRUDZOZHRVRF93QQ?oc=5",
           "domain": "wabi.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WAFF",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWTJUeTlGUEZ0bmI0cjN3d1pPODVoeG1LZ3dCeU93ZUhNSUNjcWw0SzNsLUFWMG9DNF9VQXpHdmJ5Skt5Q01ZUmt1R24tOVpRdDBUY05OdVMwZTRZSTRtR2dCMG9EcEl3UHZBblBCd0dwX1VSRzltd29xeFh5ZW9NZ05ZMXFMdFJtbnB1TnR3aFhJeFZobE1XRjhCRDNPUEU?oc=5",
-          "domain": "waff.publisher",
           "tier": "C"
         },
         {
@@ -1055,15 +726,9 @@
           "tier": "C"
         },
         {
-          "name": "WBTV",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFc5NENTbWx4czhOejNlSTlJX1lIT0RiYVFBeDMxMFpwSEdTSGFLVVlRZFF5UUQ0eDAxZFlHU0dLOHczSFZsVlhjUmNWXzltYW1zOFIzbFB5MzJQZU5HWkQ0alFfcHhOWDVyS09QRDVFZ1RQb3lWaGpKMGNWYW53ZWRFWktXdVBHamlkTmp6SFRfcEJuOHc1X1I5Y3JWSm8?oc=5",
-          "domain": "wbtv.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WCJB | TV20",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDdnS3piSlkwanlKd1VyRVQyeHZPMzhqZVg4bDkxM3V6YUZYM0dQWnY5YmlaZ19KRXVfcVJtNTA1RFVXQ2lJNlh6azhLcVJIUEFPcHQ4LVd0RmF5V2M1N2szb1c5YVNfbkhQamlTU3NKVE5XWURwa1RZNW51clhGMnVFdURsRHV3LWloM2x5M0ZCRVhsNUFwZkVjWDVMWWM?oc=5",
-          "domain": "wcjb-tv20.publisher",
+          "name": "WBNG",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVNhQ0JaV2dzQk96LXBLcFFhbHhPa0JIcm1LVEhBSFVFcWp1VFN6am1pTWhNZExnNnpYWFo2NW5KeXdDR3J5cjFHRDNKSlE4QjRxcENVTW5RRWpmWTVGVTJsbUI1THRKNnphLU9adnd2VDdKRERDeWpUS3hVTU41QllmdGJidHFxSFBfY0dtYnpuY1R6YUtESkFtU3VRQWc?oc=5",
+          "domain": "wbng.publisher",
           "tier": "C"
         },
         {
@@ -1079,12 +744,6 @@
           "tier": "C"
         },
         {
-          "name": "WECT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXdDUFBLeW5sdTdnVk02ekRnSkV5cVNuelE2VXNFbmpncGZNNzFGTFZNaHZXd1Z2TUdvNlpTSEFPd3hyc2VJX3U3Z3FFX2VmMG0yVXlaeHNNVndkSlJKa0dsdVRnd0Y1REFBNjBrQWR3ZlAwZENhU2ZnQlVaTjB0WXBZR3dhb05LUkR0WDNNUVI0cnVBaFFyeTdGOVpYM28?oc=5",
-          "domain": "wect.publisher",
-          "tier": "C"
-        },
-        {
           "name": "WEEK | 25 News Now",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaUp1bDA4LXRIR0xTQ3pGWWVVT2RqRkdrMklfQ0NKVDJCU09CTlJKcHh1eGF3MmhUeVZrTjk3LTM0djF4S2FIMUt4a095dmtvSkRIaW41SWkxV1U3WGNlQmFJVXZEZ3V0R3hMTi1hNUptQ2FIMERodk11YUVwUmZwLXNIMUNHdnBZTTlSelBOQ25XUk5mLUNjMFZpUGliNENjTGFYOXlR?oc=5",
           "domain": "week-25-news-now.publisher",
@@ -1097,21 +756,9 @@
           "tier": "C"
         },
         {
-          "name": "WILX",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV1hkSUlXbzgwUmh1UTBsSlptYm12WGdrak1Vd2ZSSTJrbndtdFNSM00yMU1lLTkxNFNSWDlIeDI3ZUItZERvdi00RktVa3FIbWhhT0hLa0N2Z1VZbGJSMUI1ODdSUkE2TzY0aUtIYXpBVFZtOFVxZWI0SmdGMFJscG9Ka3dDcWJDR0tMQVlSMklSLThJVXk2WWRxSHk2TEk?oc=5",
-          "domain": "wilx.publisher",
-          "tier": "C"
-        },
-        {
           "name": "WIS News 10",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2lJd2F1bFNzenBCZ2dLdWpVOHB1QWNtSGZucEl6dWwyYTZDRmxMVU5zd1BrSEZFYmltZ3pmSEVROWVIRGxySXlmNkxGanFNZlU3RVFSWlhrRVhyV1U4bTkxbmJxWkQ5aGdtNno3MU00ajlBUW9IM1hmaUFRTXZMa0kyeWJXTWZ0UDV2RWNvbDBtYzFheWhuaTVpcVprY2xo?oc=5",
           "domain": "wis-news-10.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WITN",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWm4zQmpoRXhXTHBnRERrelR5RDBLN3d2UW9TWFFhN2JZdHc5Nk0zQW1UQktxY0pUcll0S1V3Qjh1SVJidnpPS1d3QlFXWGZVVWdVdlNkOEVST0VBT0dIVFlmZDEyYU54Rm9XSldwN3E4T2RCUHk3anRjMWxCbE1aSHI5NkExdGJZcjIzREJxdDA3cnVRVElxT2VIRWRwSFk?oc=5",
-          "domain": "witn.publisher",
           "tier": "C"
         },
         {
@@ -1127,33 +774,15 @@
           "tier": "C"
         },
         {
-          "name": "WLFI",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGctbWl3WXBIQ0lxemxLOVNnQ2FaeXYyUVU3eUdERHpqRWxrdGN6Tk1FMHZSam9ibVM0b1ZBS211LUtPQ21oX25WazBIanJoWWJtWnU5NFBfRE80Y1p6aTlJVDAxdk9UMWoxTEl3czBwb1dLSWRpMTFzVUlDOTUxVE96dW5TQjRQV1QtSGgtYkVieWV5SXhubUJsckEyRm8?oc=5",
-          "domain": "wlfi.publisher",
+          "name": "WLOX",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZm9KU0J0Rk45akRMUTB6RUJMODU3VlpMeHNVQmFseHRiM2d1Wm1YZURwODgzRUFEVFVveHJpY2tYbXNXS2xtNXZEYXZvbFljUzB5V0ZYdkc0SW5KSm01M0pjZkZPc2JXN0x1c21rRnFfUi02TEhnTXVYWU4xazc5eE5MdndwWHFBek5YVGllbzNha3RPMGtZdUhwMHRxYjg?oc=5",
+          "domain": "wlox.publisher",
           "tier": "C"
         },
         {
-          "name": "WMBF",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTnRiTlh4aUduTEd4Z0UtWkpGcXI3RFBzNzlQdmFUSFpjM2hick53X3BkRFdJaXAwYUZDYTJrQ29fRzFQb2QxVVVlTHhNaWZrRFZKd2I3aU5LU0dsdFZ4NjBWRWwxck1HeTJkQlBTd0p3dWV3QV96QVZUcmtuUzdrRWVJaFlxN3prVnZYLWJPS2M1Y0ItZUxaZTJBbHNLWFBOV3BYQw?oc=5",
-          "domain": "wmbf.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WMTV 15 NEWS",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb2stZnliV3J6bVN4dmM1eGYzUE56OThyUTV0MDhMNmVubmZoM3pNejl1cE1fb1hVWkN3OThoT2VZSlRKSVFCRE5FUFpyZGV4RTljVVdabzlBRUdWNnVaMXF2SjdGS3NZckg5SmtmNWNwcHFHUDJyNVhGX2w5Z3JnVEs3WnRWTWxzZHljMVd3X0k0UTdkWTFSdmVBVDQ0VXdWcUgtcW9Ncw?oc=5",
-          "domain": "wmtv-15-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WOWT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT2FzSU5TQmxHY1N1VkM5bG9jNE1ibUoyTnpzQ0FKXy1naEF2b3pRZVJQWXNrS25QVU5EOFZSaTJycHdYbWo5YlU3T1hkNXFNemFEZlpTNnRBMDlaS1NRVC02S1BDNGloajh3alBLU0stR1d6dEF1R2JIT2JzVXBIb29SSzhKV0dmWTRNRERmYnB5VVd5OUtvd1F5dGp3N0k?oc=5",
-          "domain": "wowt.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WSAZ",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS1lyTDBKMV9mQjdRblh3Nl9aeXRrbkNDSXM1MlZFeWl1ak00VXluQm85LU56ZHZYWVJBbC1ZY2N4eWpoRFkyZk5uVzU2ZTRubXdrTmJEc0JhOUZtQWNocXVyTDhCV0ZsNVR3OGtsblhCcm9RRnJMWkliem9BaHF4dlY0VzcwYXpfNlVhMlkyWFNEckFhdXJSbkl4YXhxdW8?oc=5",
-          "domain": "wsaz.publisher",
+          "name": "WSAW",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUDg2OFFTT1RQaG9MVUpHVnZNaEU0NWhQbnZzVXBlZEVuUUpCVmw0SXdCVjNsV1V6akJLTzR0WnV4ZC11MUJlZ0RQWjBWVDJmRlBDLVFaejA2V1N1YlZHRlphUllwQ0Y5TURjeVB5U3R1RFlnLTVmY3NraTI2NnRhcHBPRzhkeFduM19qQ3ByVFB6Wm9yWEo1OExFOER5cjg?oc=5",
+          "domain": "wsaw.publisher",
           "tier": "C"
         },
         {
@@ -1169,94 +798,35 @@
           "tier": "C"
         },
         {
-          "name": "WTVM.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOGt4cFZuc0t0LWVZUnI3czZJdUtXWWVVSDY2TkJma2tSUVpjZ2JKTXhGaW5oNGV1eVRCc2MxMlE5NWI4QlItZXl0RkNrQWJub2IzOVptX3BiX2dVYWhZcThxUWZ0VndNaFBFbGpPdVdMR2s3VU01YkZHQnNoY1ZzOUlUOTZIRUZuY2p3dzZ2cUVLTkVxMF9zSHRGRGNuM2s?oc=5",
-          "domain": "wtvm-com.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WTVY",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0tlc2t4SzJVeFJnMVpBSTB3TDFWZURXeFRpOWNtNDZRbnNUeUN5WUJCNDRVSGVsVy1JX1drMWRUZmVQbExBS0R6ZzBTYlFvTjBVN1NLbXNCWGlCV3BkNXVjUHdSVTVsYnhTNnNXaG8ydVVMMXpZd19zM2JpbFp5Yy1yVHR5VW8wS1pyeW51U2RFSlFUVWU3Z3Bmb0MtZVU?oc=5",
-          "domain": "wtvy.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WWNY",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVVZreEw2Y2VtRE9JUW5yVW5QM09WaVRZTkJzSDJiWVRqajN4NEFjdENZYXBuVFVYREJYLTctckxSQXU4bElsZFg3Yy1wRHBMUUtLZkxTeFZwVW53b3lfOGxubWEtTFhGTHZwU18xckEzSEdBV3FldTdTWVpGWTEyM1dGNVhsQmNJSTlOM01qZW9tQ25jNk5qSTlMdWRyb1FDTlE?oc=5",
-          "domain": "wwny.publisher",
+          "name": "WVLT",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZXpfM0w3aHdzRGxFQWdXY2dsNzdLRDJ3WFRCV3NfTkxERldRaUQxQVB1SGxtOF9Uc0FwRkU3NlZ0UGZpMGhUVTN0Yk51T3VlU010RDg0VUNYQ2tZNFlZWjRGdHVDb1RFLUlmWHdOa1gyTnp3aFZYY0FBM2h1eTF6VmJja0FzT0ZtNm5qemxDd0lXUEdwNjduZldqM1pzUQ?oc=5",
+          "domain": "wvlt.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-09T17:58:00+00:00",
+      "published": "2026-10-09T13:04:07+00:00",
       "trace": [
         "tier C (+10)",
         "2 independent outlets (+12)",
         "corroborated by 2 independent outlets",
-        "importance 2/5 from gemini-3.5-flash-lite",
+        "importance 2/5 from cache",
         "blend 32 = trust 22 / interest 25 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "e58e3ea16d7446aa",
-      "title": "efim0v/brow — Claude Code usage and rate limits in the MacBook notch. Track the 5-hour and weekly limits of multiple Claude ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "hardware",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "A macOS app that shows the usage and rate limits of every Claude Code account you have, right in the MacBook notch: the 5-hour limit, the weekly limit, and when each resets. One click signs you in to an account in a browser profile that belongs to that account alone. It is for people who keep several Claude subscriptions and run a separate stream of AI-assisted work on each. Brow shows at a glance which account is close to its limit, which has room, and when each one frees up. Download Brow for macOS · macOS 26 or later, Apple silicon · install notes Hover the notch: every account's 5-hour and weekly limits open out of it.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e58e3ea16d7446aa"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/efim0v/brow",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-04T21:14:52+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
-    },
-    {
-      "cluster_key": "ce28ba3564b9ecb8",
-      "title": "rakesh0x/OpenCardboard — OpenCardboard — local-first chat-to-edit AI video editor. Your footage never leaves your machine.",
+      "cluster_key": "9a1caa4bf05be403",
+      "title": "uzairansaruzi/p3-stack — pstack reworked for T3 Code: delegated subagents, worktree threads, PR watching, scheduled runs.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "hardware",
-        "linux",
-        "llm",
         "opensource",
-        "research",
         "tool"
       ],
-      "summary": "Watch the real timeline update — cuts, captions, beat sync, motion graphics — while your files never leave your machine. MIT License · macOS / Windows / Linux · Electron + React + ffmpeg The screenshot above is a real session: footage imported, transcribed locally, silence removed, captions generated from the transcript, and the video track re-cut to the beat grid of a music track — all driven through the tool API, all undoable with ⌘Z. Most AI video tools generate fake footage or ship your files to a server. Cutboard is the opposite: - Edits real footage. Nothing enters the output that you didn't import.",
+      "summary": "Same engineering discipline, native T3 orchestration. pstack is poteto's answer to AI slop code. It turns an agent into an engineering team: one mode skill that routes to playbooks, principles that ground every decision, and verification strict enough that you can parallelize with confidence. p3-stack keeps that system and rewires the mechanics to T3 Code's primitives: - Delegation. delegate_task child agents replace Cursor's Task tool, with per-role providers and models resolved from orchestrator_capabilities.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1267,7 +837,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "ce28ba3564b9ecb8"
+        "9a1caa4bf05be403"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1275,17 +845,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/rakesh0x/OpenCardboard",
+          "url": "https://github.com/uzairansaruzi/p3-stack",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-04T09:23:43+00:00",
+      "published": "2026-10-05T07:40:37+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
       "cluster_key": "80b3473354f615b1",
@@ -1341,52 +911,10 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "fd6647e681c16137",
-      "title": "lcandy2/sim-agentation — Annotate a running iOS simulator in your browser, and hand the notes to your coding agent.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "howto",
-        "llm",
-        "opensource"
-      ],
-      "summary": "Annotate a running iOS simulator in your browser, and hand the notes to your coding agent. Features | Getting started | Design Mode | Connect an agent | SDK | Configuration Tip Let your agent set it up. Paste this into Claude Code, Codex, Cursor or any other coding agent: Set up SimAgentation for me by following SimAgentation is Agentation for iOS. Freeze the simulator's screen, click an element or drag a box around anything, and write what should change. Your agent gets the element, the screen it is on, strings to search the source for, and two screenshots: the whole screen with the box drawn in red, and a close-up of the box.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "fd6647e681c16137"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/lcandy2/sim-agentation",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-04T17:33:47+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
     },
     {
       "cluster_key": "6cd6f5cc677d305a",
@@ -1424,14 +952,15 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 25,
+      "trust_score": 37,
       "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
+      "corroboration": 2,
+      "blend": 58.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6cd6f5cc677d305a"
+        "6cd6f5cc677d305a",
+        "e07ad26d1e7d044f"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -1442,15 +971,23 @@
           "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
           "domain": "techcrunch.com",
           "tier": "B"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "domain": "theverge.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
       "published": "2026-10-10T00:18:32+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3-flash-preview",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 4/5 from cache",
+        "blend 58 = trust 37 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1512,162 +1049,7 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "dd20923a4823bb21",
-      "title": "🎵 Wave of distillation 🎵(sung to the tune of the Pixies) US labs say Chinese labs distill their models.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm",
-        "policy"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu 🎵 Wave of distillation 🎵(sung to the tune of the Pixies) US labs say Chinese labs distill their models. And Europe's new “sovereign model” is fine-tuned on data generated by… GLM and Qwen.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "dd20923a4823bb21"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mwysi5xpdk25",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-03T21:12:45.848000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-03 — outside lookback window"
-    },
-    {
-      "cluster_key": "01a0e9a7fc732eb0",
-      "title": "BJP govt will deal with ‘anarchists’ sternly: Nitin Nabin warns Rahul Gandhi, Kejriwal and CJP",
-      "category": "india_world",
-      "one_liner": "BJP President Nitin Nabin warned opposition leaders against conspiring with foreign forces to destabilize India.",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "BJP President Nitin Nabin publicly accused opposition leaders Rahul Gandhi and Arvind Kejriwal, alongside the CJP, of attempting to destabilize India in collaboration with foreign forces. Warning against what he termed 'bikau' politics and manufactured anarchy, Nabin asserted that the Indian government will deal sternly with such actions while party workers thwart these designs on the ground.",
-      "key_facts": [
-        "Date: October 10, 2026"
-      ],
-      "bottom_line": "The ruling party escalated political rhetoric against opposition figures, promising strict administrative and grassroots pushback against destabilization attempts.",
-      "claims": [
-        {
-          "text": "BJP president Nitin Nabin on Saturday (October 10, 2026) accused Congress leader Rahul Gandhi, AAP national convenor Arvind Kejriwal and the CJP of attempting to destabilise the country with the backing of foreign forces, and asserted that the government will deal sternly with their 'ill intentions,' while the party workers will foil their design on the ground.",
-          "support_span": "BJP president Nitin Nabin on Saturday (October 10, 2026) accused Congress leader Rahul Gandhi, AAP national convenor Arvind Kejriwal and the CJP of attempting to destabilise the country with the backing of foreign forces, and asserted that the government will deal sternly with their 'ill intentions,' while the party workers will foil their design on the ground.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "01a0e9a7fc732eb0",
-        "e26227d75c5aec6c"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/bjp-govt-will-deal-with-anarchists-sternly-nitin-nabin-warns-rahul-gandhi-kejriwal-and-cjp/article71567260.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/gyanesh-kumar-will-go-this-government-will-go-rahul-gandhi/article71567234.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-10T06:52:08+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "9a5d99eb41100f88",
-      "title": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
-      "category": "cyber_attacks",
-      "one_liner": "A business that skipped security investments fell to ransomware and shut down months afterward.",
-      "tags": [
-        "incident",
-        "ransomware"
-      ],
-      "summary": "An enterprise owner who refused to invest in proper security assistance experienced a ransomware attack and ultimately went out of business months later. The account illustrates the high business cost of neglecting cybersecurity readiness.",
-      "key_facts": [],
-      "bottom_line": "Failing to invest in proactive cybersecurity can lead to fatal business failure following ransomware incidents.",
-      "claims": [
-        {
-          "text": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
-          "support_span": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "9a5d99eb41100f88",
-        "b88db602c4d9fc2d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Register Security",
-          "url": "https://www.theregister.com/security/2026/10/08/cheapskates-wouldnt-pay-for-security-help-got-hit-by-ransomware-and-went-bust-months-later/5301757",
-          "domain": "theregister.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Register",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWsyRW1sbFV4TFZiVmpDTTY3eFZHN1NXRldHYi1qVG56dlduOV9Ia1lFbU9JbENKSHRYMjU2VmRCMzYtcW1uMEw2U1dJQUJhdG9rNHFZQ1NmRXI3SjExcnVrU0VrRm5LZTBleUktZ1FaSWtPa0hScW11X2t4Mm5yTktvV2RpaWdhLXc3dDZFLVEtRmJNMkVfVV81WDNoRlo4b29aTENvbkdRVVdnbXRxdkdwa21iTmJvSkJBejJyQmZWNkltNm0wcGlmTHhoRDdmdElGbXpkWVVhTHlfeHBn?oc=5",
-          "domain": "theregister.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-08T08:15:00+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 2/5 from gemini-3.5-flash-lite",
+        "importance 2/5 from cache",
         "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -1714,13 +1096,14 @@
       ],
       "trust_score": 61,
       "interest_score": 50,
-      "corroboration": 4,
+      "corroboration": 5,
       "blend": 67.8,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
         "18bcf672f422af67",
         "258958e274f2510a",
+        "484ab9ed726a6ce5",
         "57daa2d32ccf1dc3",
         "fb4b2411ccc7e5fd"
       ],
@@ -1742,6 +1125,12 @@
         },
         {
           "name": "CTI Now",
+          "url": "https://cyberupdates365.com/poellm-malware-github-poem/?source=devto",
+          "domain": "cyberupdates365.com",
+          "tier": "C"
+        },
+        {
+          "name": "CTI Now",
           "url": "https://ift.tt/urkFXmx",
           "domain": "ift.tt",
           "tier": "C"
@@ -1757,200 +1146,299 @@
       "published": "2026-10-07T15:33:51+00:00",
       "trace": [
         "tier B (+25)",
-        "4 independent outlets (+36)",
-        "verified: 4 independent outlets",
-        "importance 3/5 from gemini-3-flash-preview",
+        "5 independent outlets (+36)",
+        "verified: 5 independent outlets",
+        "importance 3/5 from cache",
         "blend 68 = trust 61 / interest 50 / corrob 100",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "aaf936eb3624f2db",
-      "title": "CVE-2026-57458 - Vikunja: Scoped API token can mint unrestricted OAuth session credentials",
-      "category": "cyber_attacks",
-      "one_liner": "Vikunja scoped API token authorization flaw lets users mint unrestricted OAuth credentials.",
+      "cluster_key": "0fab180893cc4f4a",
+      "title": "JetBrains Mellum 2.1: 12B MoE Model Targets Coding Agents [2026] - https://tech-insider.org/",
+      "category": "tech_ai",
+      "one_liner": "JetBrains launches a 12B MoE model tailored for software development and coding agents.",
       "tags": [
-        "appsec",
-        "cve",
-        "identity",
-        "opensource",
-        "release",
-        "vulnerability"
+        "agents",
+        "ai",
+        "llm",
+        "release"
       ],
-      "summary": "Vikunja version 2.3.0 contains an authorization flaw (CVE-2026-57458) where a scoped API token restricted solely to the `oauth.authorize` permission can call authorization endpoints and exchange codes for normal bearer JWT and refresh tokens. These minted credentials lack the restrictions of the original scoped token, granting broader access to other API routes. The issue is resolved in version 2.4.0.",
+      "summary": "JetBrains has released Mellum 2.1, a 12-billion parameter Mixture of Experts (MoE) AI model explicitly targeted at coding agents and developer workflows.",
       "key_facts": [
-        "Vulnerable product: Vikunja",
-        "Vulnerable version: 2.3.0",
-        "Fixed version: 2.4.0",
-        "CVE: CVE-2026-57458"
+        "Model: JetBrains Mellum 2.1",
+        "Architecture: 12B MoE"
       ],
-      "bottom_line": "Scoped API tokens can be escalated to full OAuth bearer tokens, bypassing permission boundaries.",
+      "bottom_line": "JetBrains Mellum 2.1 offers developers a specialized 12B MoE model optimized for automated coding tasks.",
       "claims": [
         {
-          "text": "In version 2.3.0, a scoped API token limited to the oauth.authorize permission can call POST /api/v1/oauth/authorize, obtain an authorization code, and exchange the code at POST /api/v1/oauth/token for a normal bearer JSON Web Token (JWT) and refresh token.",
-          "support_span": "In version 2.3.0, a scoped API token limited to the `oauth.authorize` permission can call `POST /api/v1/oauth/token` for a normal bearer JSON Web Token (JWT) and refresh token.",
+          "text": "JetBrains Mellum 2.1: 12B MoE Model Targets Coding Agents [2026] - https://tech-insider.org/",
+          "support_span": "JetBrains Mellum 2.1: 12B MoE Model Targets Coding Agents [2026] - https://tech-insider.org/",
           "status": "contradicted"
-        },
-        {
-          "text": "Version 2.4.0 fixes the vulnerability.",
-          "support_span": "Version 2.4.0 fixes the vulnerability.",
-          "status": "entailed"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 62.5,
-      "is_new": true,
+      "trust_score": 22,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 43.0,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "aaf936eb3624f2db"
+        "0fab180893cc4f4a",
+        "3a02209391e0e2a2",
+        "5c0e870df00fd727"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-57458",
-          "domain": "cvefeed.io",
-          "tier": "A"
+          "name": "MarkTechPost",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1dXa214MmlITzRLVk9GWUczZFdkQTR4Q3ZqOGVPNDNEZDFhcFpUU2IzVjVuVVFSQjNmNEJCVjZPYjk2VktkdEpFNFhpcGxOUFZkTzdPV0ZVbEtGVlcyM3p2ODhieF9QdFQ4TWs0WlpiWDRkX1RROWZFQ2JwenZvb2ZLbmpOdFRKaFUwZGE0M2pzNFliWV9YbU8zZm02QlRJLW9uZ2FCOW5qT0VC0gGsAUFVX3lxTFBTV1drbXgyaUhPNEtWT0ZZRzNkV2RBNHhDdmo4ZU80M0RkMWFwWlRTYjNWNW5VUVJCM2Y0QkJWNk9iOTZWS2R0SkU0WGlwbE5QVmRPN09XRlVsS0ZWVzIzenY4OGJ4X1B0VDhNazRaWmJYNGRfVFE5ZkVDYnB6dm9vZktuak50VEpoVTBkYTQzanM0WWJZX1htTzNmbTZCVEktb25nYUI5bmpPRUI?oc=5",
+          "domain": "marktechpost.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "GN LLM releases",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YSDBhbzNFUEs3ZkdMN3JyczdVTWlaT1lRZmhLVVFPYWt1NXNXaVNWaEtNWEhacC10RjR0SHk1eVFmNmU4bHFFd2RzQzBVTzlKNzFDVmJTOTE0TWx5MTdwc25KSzRES3Z5SEY3amxpRkowcU1JOENGdmRRUVFZQQ?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
+        },
+        {
+          "name": "shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wNEcxbWhKWjBQcS1LOUJPbFhEcmRkRl9tSUpJOFBwWno1TmJ2c3Y4WEV2SnB6cEgxeUx5T2Nhdy15M1ppbnVCLU03Z0F5c0gxME9IRGh5SlNZTlQ4bnRCNURsUkI2UV9lcXBKMDJvU0s?oc=5",
+          "domain": "shattered-io.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-09T21:17:05+00:00",
+      "published": "2026-10-08T16:17:35+00:00",
       "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 62 = trust 40 / interest 100 / corrob 25",
+        "tier C (+10)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 43 = trust 22 / interest 50 / corrob 50"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "49ddff06e551479a",
+      "title": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
+      "category": "cyber_attacks",
+      "one_liner": "Domain hijackers generated fake security certificates for Google and other major brands to evade browser warnings.",
+      "tags": [
+        "network",
+        "privacy",
+        "vulnerability"
+      ],
+      "summary": "Attackers successfully hijacked top-level domains and minted fraudulent security certificates for Google and other organizations, allowing them to conduct trusted brand impersonation without triggering standard browser certificate warnings.",
+      "key_facts": [],
+      "bottom_line": "Compromised top-level domains enabled attackers to issue valid-looking security certificates for major brands, bypassing standard browser browser security warnings.",
+      "claims": [
+        {
+          "text": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
+          "support_span": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 61,
+      "interest_score": 75,
+      "corroboration": 4,
+      "blend": 79.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "49ddff06e551479a",
+        "55e5ae919c466fe4",
+        "865e91f8c568cec8",
+        "b9f5e1afc2dd31df"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/attackers-hijack-cctlds-obtain/",
+          "domain": "infosecurity-magazine.com",
+          "tier": "B"
+        },
+        {
+          "name": "Malwarebytes Labs",
+          "url": "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services",
+          "domain": "malwarebytes.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+          "domain": "theregister.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-07T18:48:17+00:00",
+      "trace": [
+        "tier B (+25)",
+        "4 independent outlets (+36)",
+        "verified: 4 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 79 = trust 61 / interest 75 / corrob 100",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "25cafc736d6c339c",
-      "title": "Pulse of the Street: Eight-week slide ends, but oil and earnings test recovery",
-      "category": "markets",
-      "one_liner": "The RBI's first rate hike in over three years complicates a fragile market recovery amid $100+ oil prices.",
+      "cluster_key": "490255905b02de66",
+      "title": "Law Firm Data Breaches Hit Holland & Knight, 14 Clients [2026] - https://tech-insider.org/",
+      "category": "cyber_attacks",
+      "one_liner": "Holland & Knight and 14 clients impacted by a law firm data breach.",
       "tags": [
-        "india",
-        "markets"
+        "incident",
+        "privacy"
       ],
-      "summary": "Indian equities ended an eight-week losing streak with a modest weekly gain, though sentiment remains fragile due to Brent crude exceeding $100 and a hawkish RBI. The Reserve Bank of India raised the repo rate by 25 basis points to 5.50%, its first hike since early 2023, while simultaneously upgrading the FY27 growth forecast to 7.1%. While the Nifty 50 rose 1.30% on Friday to 22,520, sectors like realty and metals continued to decline. Analysts warn that sustained recovery depends on easing foreign selling and stabilization of global bond yields.",
+      "summary": "The text is truncated to a headline and URL indicating that a law firm data breach has impacted Holland & Knight alongside 14 clients in 2026.",
       "key_facts": [
-        "Repo rate: 5.50%",
-        "Rate hike: 25 bps",
-        "FY27 growth forecast: 7.1%",
-        "Nifty 50 Friday close: 22,520.45"
+        "Affected clients: 14",
+        "Target: Holland & Knight"
       ],
-      "bottom_line": "The RBI has initiated a new tightening cycle with a 25bps rate hike, even as the Nifty struggles to recover from a two-month decline.",
+      "bottom_line": "Law firm data breaches continue to cascade into client-side exposures.",
       "claims": [
         {
-          "text": "The RBI raised the repo rate by 25 basis points to 5.50%.",
-          "support_span": "The Reserve Bank of India's (RBI) monetary policy committee unanimously raised the repo rate by 25 basis points to 5.50%",
-          "status": "entailed"
-        },
-        {
-          "text": "The Nifty 50 rose 1.30% on Friday to end an eight-week slide.",
-          "support_span": "The Nifty 50 rose 1.30% in the Friday session to 22,520.45... halting the prolonged decline",
+          "text": "Law firm data breaches hit Holland & Knight and 14 clients.",
+          "support_span": "Law Firm Data Breaches Hit Holland & Knight, 14 Clients [2026] - https://tech-insider.org/",
           "status": "contradicted"
-        },
-        {
-          "text": "The RBI upgraded its FY27 growth forecast to 7.1%.",
-          "support_span": "It also raised its FY27 growth forecast to 7.1%",
-          "status": "entailed"
         }
       ],
-      "trust_score": 25,
-      "interest_score": 50,
+      "trust_score": 10,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 10.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "25cafc736d6c339c"
+        "490255905b02de66"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/pulse-of-the-street-eight-week-slide-ends-but-oil-and-earnings-test-recovery-11791551805305.html",
-          "domain": "livemint.com",
-          "tier": "B"
+          "name": "GN Breach watch",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByS0tIMmNXU3NXSGpkRDJWSTVIdVFXX2lVRHl4NzVlTmJrNzl3Mmw0OWlzVlNUbmp1N25YWjBWOEtRdGJ0ZFpvRUtmeHM0MEpNbTVtNjVIMGdfTlNwSU94WWZEUGNqYnpKakN3OVMtOVlodmswdTJF?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-09T13:57:04+00:00",
+      "published": "2026-10-10T18:41:33+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3-flash-preview",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 10 = trust 10 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1adff567e9276a1a",
-      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "category": "india_world",
-      "one_liner": "Monitor international legal and geopolitical fallout from comprehensive US sanctions against the ICC.",
+      "cluster_key": "82827d99d9afd56f",
+      "title": "GitHub Halved Its Bug Bounty Payouts. The People Who Lose Most Aren’t the Ones You Think.",
+      "category": "cyber_tools",
+      "one_liner": "Reduction in GitHub bug bounty payouts disproportionately impacts beginner security researchers trying to enter the market.",
       "tags": [
-        "india",
-        "policy",
-        "political",
-        "release"
+        "appsec",
+        "bugbounty",
+        "research",
+        "vulnerability"
       ],
-      "summary": "The Trump administration has enacted sweeping sanctions against the International Criminal Court as part of an ongoing effort to dismantle the institution. US Secretary of State Marco Rubio announced transactions bans and restrictions to cut off the court's financial operations, citing threats to American sovereignty. The ICC condemned the measures as an assault on the rule of law, while several Western allies reaffirmed their support for the tribunal. A six-month grace period has been provided to allow member states time to negotiate a resolution.",
-      "key_facts": [
-        "Grace period: 6 months",
-        "Member states: 125 countries"
-      ],
-      "bottom_line": "The US imposed severe sanctions on the International Criminal Court to cripple its operations, drawing sharp criticism from allies and the court.",
+      "summary": "GitHub's decision to halve its bug bounty payouts is creating a two-tier market where security beginners face increased difficulty establishing themselves.",
+      "key_facts": [],
+      "bottom_line": "Lowered bug bounty payouts by major platforms like GitHub exacerbate entry barriers for new security researchers.",
       "claims": [
         {
-          "text": "The Trump administration has unveiled sweeping sanctions on the International Criminal Court (ICC) in a significant acceleration of its attempt to 'dismantle' what it sees as a 'rogue' institution.",
-          "support_span": "The Trump administration has unveiled sweeping sanctions on the International Criminal Court (ICC) in a significant acceleration of its attempt to 'dismantle' what it sees as a 'rogue' institution.",
+          "text": "GitHub Halved Its Bug Bounty Payouts. The People Who Lose Most Aren’t the Ones You Think.",
+          "support_span": "GitHub Halved Its Bug Bounty Payouts. The People Who Lose Most Aren’t the Ones You Think.",
           "status": "contradicted"
-        },
-        {
-          "text": "The ICC said the measures were an assault on the rule of law and the foundations of the international legal order.",
-          "support_span": "The ICC said the measures were an assault on the rule of law and the foundations of the international legal order.",
-          "status": "entailed"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 75,
+      "trust_score": 10,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 51.2,
+      "blend": 21.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "1adff567e9276a1a"
+        "82827d99d9afd56f"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
+          "name": "Medium bug bounty",
+          "url": "https://medium.com/@riyalimba/github-halved-its-bug-bounty-payouts-the-people-who-lose-most-arent-the-ones-you-think-21bb9f3481a7?source=rss------bug_bounty-5",
+          "domain": "medium.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-09T18:40:10+00:00",
+      "published": "2026-10-10T13:27:00+00:00",
       "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "d661b39e22e76014",
+      "title": "AI policy right now, especially from the Labs, makes me think of this poem.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "howto"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu AI policy right now, especially from the Labs, makes me think of this poem. If you believe superintelligence is near, you don't need to make hard decisions about how to build AI to make the world better. Just wait for ASI & it will decide for us, for better or worse.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "d661b39e22e76014"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx5qe4df2k2c",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-05T20:18:01.129000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
       "cluster_key": "35fe231cc3881596",
@@ -2028,83 +1516,141 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "0536b4e7fcea8b2a",
-      "title": "Accenture Ransomware Attack: LockBit 2021 and 2026 Breach - 2-Spyware",
-      "category": "cyber_attacks",
-      "one_liner": "Accenture faces renewed scrutiny regarding LockBit ransomware breaches across multiple years.",
+      "cluster_key": "92e4233ce3ff40a3",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "category": "tech_ai",
+      "one_liner": "Text-based AI assistants accessible via standard messaging apps are emerging as versatile alternatives to dedicated productivity applications.",
       "tags": [
-        "incident",
-        "ransomware",
-        "threat-actor"
+        "agents",
+        "ai",
+        "android",
+        "markets",
+        "opensource",
+        "privacy"
       ],
-      "summary": "Accenture has been linked to a ransomware attack involving the LockBit group spanning 2021 and 2026. The 2-Spyware report highlights ongoing or recurring security incidents involving the major consultancy firm and the LockBit ransomware operation.",
-      "key_facts": [],
-      "bottom_line": "Accenture's security history includes prolonged exposure to LockBit ransomware group activities.",
+      "summary": "A growing ecosystem of text-based AI agents allows users to interact via messaging protocols like iMessage, RCS, WhatsApp, and Telegram rather than dedicated applications. Notable options include Caddy, an assistant for organizing scattered phone information; Comma, an open-source task manager spanning devices and messaging apps; and Fambot, a family-focused chief of staff currently in beta with pre-seed funding. These tools integrate with calendars, email, and files to automate scheduling, tracking, and daily briefings.",
+      "key_facts": [
+        "Instinct valuation: $10 billion",
+        "Instinct funding round: $1 billion",
+        "Fambot funding: $3.5 million pre-seed"
+      ],
+      "bottom_line": "Messaging-native AI agents are gaining traction by integrating directly into chat apps to execute cross-platform tasks and manage schedules without extra software.",
       "claims": [
         {
-          "text": "Accenture Ransomware Attack: LockBit 2021 and 2026 Breach - 2-Spyware",
-          "support_span": "Accenture Ransomware Attack: LockBit 2021 and 2026 Breach - 2-Spyware",
+          "text": "Caddy lives in iMessage for iPhone users and RCS for Android users, so there’s no separate app or inbox to constantly check.",
+          "support_span": "Caddy lives in iMessage for iPhone users and RCS for Android users, so there’s no separate app or inbox to constantly check.",
           "status": "contradicted"
+        },
+        {
+          "text": "Comma is free to start and open source.",
+          "support_span": "Comma is free to start and open source.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
+      "trust_score": 37,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 46.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0536b4e7fcea8b2a",
-        "7583337d2454165e",
-        "b6351321aa2e719a"
+        "92e4233ce3ff40a3",
+        "b2f07f7f06e7d422"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GN Ransomware watch",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTVlQSFc2X012Rko1X05YVDdWUnU4clpTVHNTU0xmWFZHbXNVZDlSZXJ1ZHA2TE41Y25fb0JMa3dPR0hITllVTkt6SkJpR01jaE8wejZjWVZiMmplWTlxNlVSRTNZbmZUWDVJendNVnJXUm5YVGptUXhqcHhGNUFqWjhXZWIwVUFlWUJJTmZpd2MwRlYx?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "domain": "techcrunch.com",
+          "tier": "B"
         },
         {
-          "name": "GN Ransomware watch",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNalM2allBTFdiVmdqckhmZkFVZUFzX0Itd2dia0FFUjBWVWl3aS1rNktLWldMWkpzalBEZElKVkFlZkdWRDRFZHQ5VTRXU3o5Q2ExUmpaLTlvQ3lxbFMwUFRzZm84eE5BTENxZzlKeGg3OXN3Z1ZTczRsUEVza191bGhsV1VTNDJmWkM1THJ3?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
-        },
-        {
-          "name": "GN Zero-day watch",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNUJLRDlxdFBzX1haT0tMLTFCS1YtdXdnbXlzTDJGRkdhenZucFpPemRFMm05d2NsajRyb2RYRHFpc3lKMFVxWVdBbWRESUNVYTgzZ3JYa1RwZXFkbHBDQ0xlY2dVTHAtWWM3SEUtSlRWLW90WVFZVTZUT21Yb3FveWd5VGVVQmxsSnhyTQ?oc=5",
-          "domain": "news.google.com",
+          "name": "Medium pentesting",
+          "url": "https://thexssrat.medium.com/the-owasp-top-10-2025-is-here-and-you-can-hack-every-item-live-6b449f74d783?source=rss------penetration_testing-5",
+          "domain": "thexssrat.medium.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T07:00:00+00:00",
+      "published": "2026-10-10T14:00:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 47 = trust 37 / interest 50 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "a2b35b3dd20ca524",
-      "title": "chenxiachan/paperfold — Zoom any paper for your better understanding",
+      "cluster_key": "c3ce66c621dec056",
+      "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+      "category": "india_world",
+      "one_liner": "The US has enacted sweeping financial sanctions against the ICC, drawing sharp international condemnation from the UN and global leaders.",
+      "tags": [
+        "policy",
+        "political"
+      ],
+      "summary": "The US has imposed sweeping sanctions against the International Criminal Court (ICC) as an institution, an action Nobel Peace Prize laureate Navi Pillay and UN officials condemned as unacceptable. The sanctions attempt to restrict the court's financial operations following its issuance of arrest warrants for Israeli officials and past investigations into US actions. Despite the severe measures, the US included a six-month grace period for member states to address Washington's concerns. Several European nations and global leaders expressed deep regret over the decision, viewing it as a severe blow to international justice.",
+      "key_facts": [
+        "Sanctioned entity: International Criminal Court (ICC)",
+        "Grace period: 6 months"
+      ],
+      "bottom_line": "The US sanctioning of the ICC represents an unprecedented assault on international tribunals, straining global diplomatic relations.",
+      "claims": [
+        {
+          "text": "Navi Pillay, the winner of this year's Nobel Peace Prize, has called US sanctions on the International Criminal Court (ICC) 'unheard of' and 'unacceptable'.",
+          "support_span": "Navi Pillay, the winner of this year's Nobel Peace Prize, has called US sanctions on the International Criminal Court (ICC) 'unheard of' and 'unacceptable'.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c3ce66c621dec056"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-10T15:23:47+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "54cf562ae7e217e3",
+      "title": "longsurf-ai/openchart — OSS trading workspace with agents",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "llm",
+        "hardware",
+        "howto",
         "opensource",
         "research"
       ],
-      "summary": "Zoom any text for your better understanding English · 简体中文 Try it → papers from different fields, a Wikipedia article and a GitHub README, nothing to install. Your agent writes more than you have time to read. A Claude Code mod folds every reply the same way, one key per level. More ↓ - October 8, 2026: any GitHub README. Paste a repository's link and read its README at five levels, with its logo, badges and GIFs as on GitHub.",
+      "summary": "Download Desktop · Self-hosting · Features · Tea OpenChart brings AI agents into every step of your investment journey: statistical and technical analysis with code and charts, real-time responses to market events with alerts, opportunity discovery through agentic research, and more. OpenChart is not built to monetize software, but to explore a future where humans and agents manage assets together. If you believe in this future and want to join forces, we want to talk to you. Download Desktop for macOS (Apple Silicon), open the disk image, and install OpenChart. To run Desktop from source, install Node.js 24, npm 11.11.1, Bun 1.4.2, and Just, then run: git clone cd openchart just install --…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -2115,7 +1661,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "a2b35b3dd20ca524"
+        "54cf562ae7e217e3"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -2123,17 +1669,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/chenxiachan/paperfold",
+          "url": "https://github.com/longsurf-ai/openchart",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-04T22:19:52+00:00",
+      "published": "2026-10-05T16:16:41+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
       "cluster_key": "5de8faad0b7c86a4",
@@ -2237,7 +1783,7 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3-flash-preview",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
