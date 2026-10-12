@@ -1,154 +1,26 @@
 {
-  "generated_at": "2026-10-11T07:54:25.073433+00:00",
+  "generated_at": "2026-10-12T08:03:55.814493+00:00",
   "items": [
     {
-      "cluster_key": "0419de820a0c85c8",
-      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-      "category": "cyber_attacks",
-      "one_liner": "A third arrest in the ShinyHunters FBI breach highlights a critical supply-chain failure involving unpatched contractor-managed software.",
+      "cluster_key": "005e2b7890df72e8",
+      "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claud",
+      "category": "tech_ai",
+      "one_liner": "Nous Research consolidates Hermes Agent plugins into a unified, version-pinned catalog repository.",
       "tags": [
-        "dfir",
-        "incident",
-        "ransomware",
-        "supply-chain",
-        "threat-actor",
-        "vulnerability"
-      ],
-      "summary": "The FBI has arrested a Canadian suspect in Pennsylvania believed to be involved in the ShinyHunters breach of the FBI's jobs portal. This marks the third arrest related to the incident, which exposed sensitive medical, psychiatric, and personal data of FBI agents and applicants. The breach was traced to a contractor's failure to apply a security patch on a platform reportedly identified as Oracle PeopleSoft managed by Accenture. FBI Director Kash Patel stated the agency is continuing to work with international partners to dismantle the remaining elements of the ShinyHunters group.",
-      "key_facts": [
-        "Arrest date: October 9, 2026",
-        "Suspect nationality: Canadian",
-        "Platform: Oracle PeopleSoft",
-        "Contractor: Accenture (reported)"
-      ],
-      "bottom_line": "The FBI jobs portal breach, which leaked sensitive agent data, was caused by a contractor's failure to patch a known vulnerability on an Oracle PeopleSoft platform.",
-      "claims": [
-        {
-          "text": "A Canadian suspect was arrested in Pennsylvania for suspected involvement in the ShinyHunters FBI hack.",
-          "support_span": "The suspect is a Canadian citizen who was arrested in Pennsylvania... reported that the arrest was made on suspicion of involvement in the theft of FBI data.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The breach resulted from a contractor failing to implement a security patch.",
-          "support_span": "the breach resulted from a security failure on a platform managed by an outside organization. It happened after \"a contractor failed to implement a security patch explicitly issued to secure the platform\"",
-          "status": "contradicted"
-        },
-        {
-          "text": "The stolen data included psychiatric and medical information of FBI employees.",
-          "support_span": "data that ShinyHunters shared contained extensive personal information on FBI employees, details of sensitive job roles, and psychiatric and medical information",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 61,
-      "interest_score": 75,
-      "corroboration": 8,
-      "blend": 79.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "0419de820a0c85c8",
-        "43d8a91bc2a7ef23",
-        "684bbc69036c8e57",
-        "700296eea43d7cc4",
-        "79f5c436374a0aa6",
-        "84a85dc819b66302",
-        "9191921b52e675e3",
-        "bae137450da9b253",
-        "e046ba1e58c698a5"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
-        {
-          "name": "DarkReading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-          "domain": "darkreading.com",
-          "tier": "B"
-        },
-        {
-          "name": "Malwarebytes Labs",
-          "url": "https://www.malwarebytes.com/blog/news/2026/10/another-shinyhunters-suspect-arrested",
-          "domain": "malwarebytes.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
-          "domain": "therecord.media",
-          "tier": "B"
-        },
-        {
-          "name": "SecHarvester",
-          "url": "https://www.cnn.com/2026/10/09/politics/fbi-arrest-shinyhunters-hack?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit",
-          "domain": "cnn.com",
-          "tier": "C"
-        },
-        {
-          "name": "CTI Now",
-          "url": "https://ift.tt/7LauwRE",
-          "domain": "ift.tt",
-          "tier": "C"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWhtN2MzSWt3R2pkQVRQSFBFbjhZNzFmUmd2a3dpa2I1OU1KU1E2UFpJek5LbjNrcm1QWmZILUFZUUdydXFfNVRFSWRMT2tJRG5YRDVzZlB6bV90cWt1RW1KWEEtS05PUEFIOG1BdFVBalFyRmh5eWNPRTFuTVRvWktLLU81MDdsVFQzUWFkckZRbTR1eWRSdDgzQTBjUVg5VENCeW1VTW5mdk12UHUtMm4yZVJoMjRpNlRBTFl30gG-AUFVX3lxTFBJaG03YzNJa3dHamRBVFBIUEVuOFk3MWZSZ3Zrd2lrYjU5TUpTUTZQWkl6TktuM2tybVBaZkgtQVlRR3J1cV81VEVJZExPa0lEblhENXNmUHptX3Rxa3VFbUpYQS1LTk9QQUg4bUF0VUFqUXJGaHl5Y09FMW5NVG9aS0stTzUwN2xUVDNRYWRyRlFtNHV5ZFJ0ODNBMGNRWDlUQ0J5bVVNbmZ2TXZQdS0ybjJlUmgyNGk2VEFMWXc?oc=5",
-          "domain": "bleepingcomputer.com",
-          "tier": "C"
-        },
-        {
-          "name": "The Record from Recorded Future News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MMFlxVUY0RE9aX0ZmTEpvSWlxTmZ6QmNycjl4WUVnekF0VmgzRnMxaTloLWNtdV9URnBmbWcxM0d1c29heExsZkUtTTJDUTZYZnhsalgzUGpNeXhIQjdzSk1QNnU3SDR0WmRTUV9tT0Qya1B5MmVjYlhUMktYUQ?oc=5",
-          "domain": "the-record-from-recorded-future-news.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-07T10:03:06+00:00",
-      "trace": [
-        "tier B (+25)",
-        "8 independent outlets (+36)",
-        "verified: 8 independent outlets",
-        "importance 4/5 from cache",
-        "blend 79 = trust 61 / interest 75 / corrob 100",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "a28bdf0d2772fef4",
-      "title": "ICPP v0.4.0 is live! 🎉Big changes under the hood: • Apache 2.0 License (Goodbye GPLv2 👋) • AetherVM Integration (Replacing Unicorn) • iOS Support without…",
-      "category": "cyber_tools",
-      "one_liner": "ICPP v0.4.0 brings major engine updates and iOS support, making it a more versatile tool for security analysis.",
-      "tags": [
-        "android",
+        "agents",
+        "ai",
+        "linux",
         "opensource",
         "release",
-        "research",
         "tool"
       ],
-      "summary": "ICPP v0.4.0 has been released with significant architectural changes, including the replacement of Unicorn with AetherVM and a shift to the Apache 2.0 license. The update also introduces non-jailbroken iOS support via icpp-server.ipa. These improvements aim to enhance performance and broaden the tool's accessibility for security researchers.",
-      "key_facts": [
-        "Version: 0.4.0",
-        "License: Apache 2.0"
-      ],
-      "bottom_line": "ICPP v0.4.0 is now live with AetherVM integration and Apache 2.0 licensing.",
+      "summary": "Nous Research released the official plugin repository for Hermes Agent, consolidating first-party integrations like Home Assistant and Spotify into a single catalog. The framework features an installation script and a catalog indexed with pinned commits to ensure reviewed code execution. Users can search, inspect, install, and update plugins independently of the Hermes core lifecycle.",
+      "key_facts": [],
+      "bottom_line": "Hermes Agent extensions now ship through a centralized, reviewed catalog allowing modular installations without core updates.",
       "claims": [
         {
-          "text": "ICPP v0.4.0 is live! 🎉Big changes under the hood: • Apache 2.0 License (Goodbye GPLv2 👋) • AetherVM Integration (Replacing Unicorn) • iOS Support without…",
-          "support_span": "ICPP v0.4.0 is live! 🎉Big changes under the hood: • Apache 2.0 License (Goodbye GPLv2 👋) • AetherVM Integration (Replacing Unicorn) • iOS Support without…",
+          "text": "The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claud",
+          "support_span": "The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claud",
           "status": "contradicted"
         }
       ],
@@ -159,25 +31,26 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "a28bdf0d2772fef4"
+        "005e2b7890df72e8"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "SecHarvester",
-          "url": "https://github.com/vpand/icpp/releases/tag/v0.4.0",
+          "name": "GitHub (new)",
+          "url": "https://github.com/NousResearch/hermes-official-plugins",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-08T21:06:35+00:00",
+      "published": "2026-10-10T20:51:25+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -228,10 +101,50 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "f87b670979c65b4f",
+      "title": "I think most people who have been closely watching AI for the past few years are likely surprised by how relatively rare terrible AI incidents have…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I think most people who have been closely watching AI for the past few years are likely surprised by how relatively rare terrible AI incidents have been, given a billion users overall and hundreds of millions of corporate users. Doesn’t mean that will continue, but still its surprising.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "f87b670979c65b4f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx7q4lupt22f",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-06T15:19:08.460000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-06 — outside lookback window"
     },
     {
       "cluster_key": "c745dde593ed36e8",
@@ -273,79 +186,84 @@
       "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
-      "cluster_key": "7cc06ecfd5e77617",
-      "title": "Silicon Labs Launches Simplicity AI SDK Beta, Hardware Intent, Open-Source Community, and Databricks Partnership for Edge AI - News and Statistics",
+      "cluster_key": "762036df844e6b50",
+      "title": "I released an LLM plugin for sending prompts to OpenAI's new Jev-clone decision model that's based on GPT-6 Luna simonwillison.net/2026/Oct/6/l...",
       "category": "tech_ai",
-      "one_liner": "Silicon Labs launched its Simplicity AI SDK Beta and a Databricks partnership to expand edge AI development capabilities.",
+      "one_liner": "",
       "tags": [
-        "ai",
-        "hardware",
-        "opensource",
+        "llm",
         "release",
-        "tool"
+        "windows"
       ],
-      "summary": "Silicon Labs announced the launch of the Simplicity AI SDK Beta, alongside hardware intent initiatives, an open-source community, and a partnership with Databricks aimed at advancing Edge AI capabilities. The announcement highlights the company's expansion into edge-based artificial intelligence tooling and developer ecosystems.",
-      "key_facts": [
-        "New release: Simplicity AI SDK Beta"
-      ],
-      "bottom_line": "Silicon Labs introduced its Simplicity AI SDK Beta and a Databricks partnership to support edge AI workloads.",
-      "claims": [
-        {
-          "text": "Silicon Labs Launches Simplicity AI SDK Beta, Hardware Intent, Open-Source Community, and Databricks Partnership for Edge AI.",
-          "support_span": "Silicon Labs Launches Simplicity AI SDK Beta, Hardware Intent, Open-Source Community, and Databricks Partnership for Edge AI - News and Statistics Silicon Labs Launches Simplicity AI SDK Beta, Hardware Intent, Open-Source Community, and Databricks Partnership for Edge AI - News and Statistics",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I released an LLM plugin for sending prompts to OpenAI's new Jev-clone decision model that's based on GPT-6 Luna 2026-10-07T00:32:52.330Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 21.2,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "7cc06ecfd5e77617",
-        "b200d43a39163cde",
-        "bce1e296a4e41052",
-        "f11fba4327d3e941"
+        "762036df844e6b50"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORGlrbEh1aXE0NjJ1RHh1dFNLa1cxLTAyZU1VRXNnLTFuRnJrYnMyYkZWa1R0LXNvekV1N2ZsQU44V1lEZ1lIQUkzNGJpbjJhaGZPdFJndXBPUkNoSnVuZlZZMXVNTU1ialoyajZ2bGMxVmVtU2pfeHVXVlhfNE1VVElfS01BQkNfc3VoN3BKc3dRTjlmOG5aOE53ZGZubXRETzZGSktWaWYyUFlsOXV1M09sUHJSaWFlXzBPUmNPWnY0ZGsxbjJ0WWVmVHM2dlpDMV9pMjdLMm5VTDhzc1JVTG1lN1RjYVJCZU1WYkNOa1B5dw?oc=5",
-          "domain": "indexbox.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNV0Y0QTdocWdiTUxMV0R3eGdaN2M4VjhTNzVHcEdTaEpCejV1c3ZRdHNQb1pNc25jX3dYcmFKY0ZlNXI3dXN3MHktQnpneFNKdlkyYWpnQkFQYVRuSFB6RlNWZjhIYk5zTURoanpxTm5BX1JpTlF5d3BaakdlZzc0eHhTYW1Ud3FGWUw2QnNVSXBra0FBVHc?oc=5",
-          "domain": "news-lavx-hu.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Tech in Asia",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0ZTRVY1ckdrYkNtYy1EenpLY1kyTldPQURuS1loeVVDTldfWHNuMTN3TUlvX1JCUkZWV1ZMalpyUHN0UUU5Z3ZfN3N6RTJmUFZTR0xyU3VETlJySWtlMW1jYnZnMDBtUlJtZHBDWTBqV1JXcjA3S3ZZNHJJX1RkVFN0MTRObklEYUpr?oc=5",
-          "domain": "tech-in-asia.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "TechJuice",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbjlPOEFNbzF3RmY5cUkzUWtCTlJWd3VyZUo1ZWZvYkF2RldROE5oeUhSbnN2dDN4OUhsLWNEQUJvZVMtRjF6cDZDRmxFejl2VFdYLXhENlE5NU5oVVN1U3ZIMjM3T19jUllxYjVjaXM3TDJUdXNKd1pyM0RQS3kxNDl0NkNyVWZ4?oc=5",
-          "domain": "techjuice.publisher",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mxap2pofos2t",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T12:31:16+00:00",
+      "published": "2026-10-07T00:32:51.343000+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from cache",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-07 — outside lookback window"
+    },
+    {
+      "cluster_key": "fd1c729be5119c22",
+      "title": "After a brief but institution-eroding slop science era, it increasingly looks like we are going to have 2 revolutions from AI: 1) Everything ever…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu After a brief but institution-eroding slop science era, it increasingly looks like we are going to have 2 revolutions from AI: 1) Everything ever published will be re-read and re-judged in ways that human scientists never anticipated 2) Novel discoveries will start to come faster than we can absorb 2026-10-07T01:38:28.684Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "fd1c729be5119c22"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxasq2guls2c",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-07T01:38:28.500000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-07 — outside lookback window"
     },
     {
       "cluster_key": "8d5247c9aaf3c1b3",
@@ -388,436 +306,8 @@
       "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
-      "cluster_key": "0be20addec3e88d5",
-      "title": "THUROI0787/absent-author — Research and writing can be automated. Authorship cannot. Evidence list + agent skills for spotting AI-produce",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "dfir",
-        "llm",
-        "opensource",
-        "research"
-      ],
-      "summary": "An evidence list and two agent skills for spotting research papers that AI produced and no human stood behind. Ruoyu Zhao1,*,† · Zhehao Zou2,* · Jinheng Zhang3 · Yuting Chen4 · Jiaqi Wu1 · Chenyu Zhu1 1City University of Hong Kong · 2The Chinese University of Hong Kong · 3University of Pennsylvania · 4Georgia Institute of Technology * Equal contribution · † Project lead Reviewers now see papers that an agent produced end to end, with no human who steered, checked or owns them. This repository names the signs of that absence, with sources, and provides tools that turn them into evidence a reviewer can cite and an author can fix. git clone && cd absent-author ./install.sh both skills -> ~/.cl…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "0be20addec3e88d5"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/THUROI0787/absent-author",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-05T08:41:20+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-05 — outside lookback window"
-    },
-    {
-      "cluster_key": "f8669131317c6bf8",
-      "title": "GTKottman/mortiflix-oss — A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Brin",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "llm",
-        "opensource",
-        "release"
-      ],
-      "summary": "A motion design studio on your own machine. Most \"AI video\" tools are one prompt and a slot machine. Mortiflix works like a real motion design studio: a brief, a script, style frames, a transition board, an animatic, a final, and you review each stage before the next one starts. You pin a note on the exact spot of a frame or the exact moment of a video. The next version answers every note, one by one, and shows you what changed.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "f8669131317c6bf8"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/GTKottman/mortiflix-oss",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-05T15:15:13+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-05 — outside lookback window"
-    },
-    {
-      "cluster_key": "077daadba8973a5d",
-      "title": "Judge approves $177 million in AT&T data breach settlement funds - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "category": "cyber_attacks",
-      "one_liner": "A judge has approved a $177 million settlement fund resulting from an AT&T data breach.",
-      "tags": [
-        "incident",
-        "policy",
-        "privacy"
-      ],
-      "summary": "A judge has approved $177 million in settlement funds related to an AT&T data breach. The report serves as a brief local news notification regarding the financial distribution approval for affected class members.",
-      "key_facts": [
-        "Settlement amount: $177 million",
-        "Target entity: AT&T"
-      ],
-      "bottom_line": "A judge approved $177 million in settlement funds for an AT&T data breach class action.",
-      "claims": [
-        {
-          "text": "Judge approves $177 million in AT&T data breach settlement funds.",
-          "support_span": "Judge approves $177 million in AT&T data breach settlement funds - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE Judge approves $177 million in AT&T data breach settlement funds",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 22,
-      "interest_score": 25,
-      "corroboration": 2,
-      "blend": 31.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "077daadba8973a5d",
-        "0859522cc268e772",
-        "0c11269fefde4c20",
-        "0c6e3098cec0e070",
-        "2019c30437e02c8b",
-        "2688dfeec49a63de",
-        "2a6c13f633aa328d",
-        "31bbddac57d151f6",
-        "3215d5684efc4065",
-        "331044b510479f35",
-        "347c206719611de3",
-        "354a108c55749121",
-        "4869b98163b69826",
-        "48e5d9d1ede74d45",
-        "541b6b36eda28486",
-        "57e2c98c93f5c71e",
-        "5a04006c1dfc5718",
-        "5f78a98bd06de234",
-        "62e9a30626173086",
-        "7bc321c428efb735",
-        "81e7ecdf270d08c1",
-        "87d8a556423fc941",
-        "8c189f103ff330d0",
-        "945343f27bbf3909",
-        "99217463462724df",
-        "a09317fbe8831f35",
-        "a720074045c89ea1",
-        "aa126cf86e0acea9",
-        "aaf570b1df64c24f",
-        "aef0c28725b4f4e2",
-        "af3b955d9907fe64",
-        "b0ad3118a82cbf35",
-        "b7d7ca4b968efc9b",
-        "c3a2b9b0c6cb55f3",
-        "d42dd6eea45df34a",
-        "e190064dbf525239",
-        "e1e110af04a833ee",
-        "e2cc286cc447a8fd",
-        "ea2ed868f1df1eee",
-        "eed6d5d5ab6d8e7e",
-        "f4bb548808c8a189",
-        "f62774b51a0a7985"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "14 News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUFNZEZWMU1GVzNFenBaaS1lcEt4cFFheTlVLThaWXFod0ZyZ1ZXVGsxTDJHWllEWkJrRVhSaWRnN2UzcGNXcVRHV2x1RTVLQ2xLNzlOOFktNzg0QUpHZWxuZlpEX09uOVhHX2J2X0JQN3g2Rk1FeU1IbjFrbFl1aFd4eDZqN0JtSlRlRG9PNzNBc1VOUHFHVFprU2JVMVlwYnc?oc=5",
-          "domain": "14-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Action News 5",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWNucGZpcmVxNlVQLXdZQURuaUhybDlCaVR3NEVTeW5Uc1lrM1JHQ0ZMY3ZiUkdjdVhNZnYyRV9ORUkyLVoxeFExWkdrTE9YVXFQZkppaVRjNWFPNEpSU2VGSEdITGRTVEk0NlY1aC1xT1IyUFJZd1k1QnpWY0w5TmZmc19Pd0hURHdUUUVtVE0tVVRDTTlSOFVaU2xGd1pVTUw2Z1YtWmY?oc=5",
-          "domain": "action-news-5.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Alaska's News Source",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbHZON000QzFMQ2xkajVSNnRVX2xMdGR5QjlVbXNJekJiT21TN2NNZXFFM1NlS0dxX21IcVhrTzJud3gzWjMzcFFWbnhPODhGVWs3eEd6aW9QY3JtUlgxOGllaVJEd2YwbjFlTWNGTmpDNF9jVENkWTRub095TWl6Ni1UQzhVQ1EzaVRjekowekt0LTZsWjl4X21QMklJSjJVRUJqUzdCOUhUUFRDaWR1TQ?oc=5",
-          "domain": "alaska-s-news-source.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Cleveland 19 News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbTM5SjBjRTY4Z29hRFJ0VFVha2F6ZmZnZ3prVzJfcHdpeWs2RVFydUVoeWFOX21kdVF3SWtJV052ZncwZWtQUHVjOWpwVjdDakV2Y0pYVzZCRFp4bkpoYVpUOTUxZG14OU1ZUXlDVGh5NnJ3VFRfX2VGeVNaRHJSZFcxcUtRX2J5RjZQLWJTbUM0amk5VklmeUNEVEJrYXFWOTNxLUtYOXo?oc=5",
-          "domain": "cleveland-19-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "FOX Carolina News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWFRmX3pDVlhrMzY2a25vejd5RmlKZWRDYjJSYzM0d2laSlBmeXdLZU9SV2MwZFFvVERWNXgybnRvQXFWblI5WnJxWjBCZUhyRjBrVW9ROXo0NG5jdmlTc2h2aTgzSHZOSEFhZkJ3V1htQ1Y2MlFsc2xBd3pfenJzdWlDU2FLOU84YVBDa0xCNzVxZTlVZ3lublZHOXN6MUJ0Z3RibTF0Unk?oc=5",
-          "domain": "fox-carolina-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "fox10tv.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZGNLbE1EXzRwcXIxSnNZZzJuQ3ZleXBMTnZmMGxkVExpYndqcWxpMDVIb1B3d3J1TlNkYU1EUHFIU3FPRGJfbUhieWFKRGZOSTQzRjZoS3RNc3AwdGxabkdJQnJSeUw3U2F1ci1LT2FQblo1aXBhYVBwbzFLeVlEcGw2blRJSU1Td2w1b0VFaHhxeklLRFBkSzNWb3Z2WGE4dGhJ?oc=5",
-          "domain": "fox10tv-com.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "fox8live.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObDlzZ0VkWnVPTXhUTXdJZzlrQUxoTDJkbjR4MUhlcFkwYkVWWnNRVEg3aDgwblY4aVVMczJfU3lTUW1SZ0NXNS1ZSUFmY0JsOEhjMnc5WmMxVmJjV2FZaWFIcV9TQjRKd001X25VaWZBWUlWVmdDcGlzcXBkRjdDeEN6MWFidHZydzNfZDZCR3RBVTd3NFlDcU1uRGlsZS1jNDFSMw?oc=5",
-          "domain": "fox8live-com.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "K8 News | Jonesboro, Arkansas",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObXlQaGMzbXFfRnJpSExZN2ZkUXBhM0dFU2x4dkpqeEVIa0xrWXduNzZ0Xy1oenRDemZ3dC04aVFZRy05Wk5VX280RWltYk5helNEcHMtRmtVb3ZuaEFENm1hYTlvTGROR2xHbWc5LVRpT09aSGc4MDdMMk9YWnlTbVhtYUcyeUpycE9GOFBsSk5nTUJTdzlndnBXRDlpZkhI?oc=5",
-          "domain": "k8-news-jonesboro-arkansas.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KCRG",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUpRaDFUdWRNLXNCb3hHWEZwUXlGM3BTX2xLVXExcUY4NENUOVhMN2VPSVN5RFE5SFlka1RyTTBTVk93a2tCN3lOQWRZQXA0QllaZHNPdF8ycGdieWpGWUo5ZjNfWnpPNE1PZ1FScWU2TmFjbHd0Q2wtZVpUcFppVVdVU3E3TWpQczJYZi1mTVJWeDd6RmZiQUg1NldZeHc?oc=5",
-          "domain": "kcrg.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KCTV",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeDN5bm92UGdlZVBkamo3VVFZUUJVbWMzRDhXYjdUdmtsWnp2SXVoM1Z1RG14dkZWUXQ5ZGE2VUtpanNlTHAwbG5OUWZuMklYOTRLaFpzazBPV0lybHFGY0F1UjJ5aHlkRjFxeUZXZTRfU2JwSGZRLWFMdUExMVdYdmdjZGJrXzVTWHdMUGlra1JrZUdLYWpKc1Y3VHVRZUh3?oc=5",
-          "domain": "kctv.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KFVS12",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObzkwMWxkMGFyMU9KZ2lDeldMRmJsYW1VcjE2T3U2UDZ3a1JQcW5DZzFWS1VBMHhXLV9zRU9MYUhTZWdQMzluNC1tZE00cG1IVGR5T1lxeWRDdWNHa09uc21oc295Z3ZTdDRHMEZHX2hBb1poSEliaHZHSE13eGVTUDhtSUhCN3huek05RVRFbzFWY2ppbktkY29Ndnh6ejcyMkE?oc=5",
-          "domain": "kfvs12.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KLTV.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT2dVOU52WnB6Y1FYRzE3T19ROFhaSzBLUGN3QnhxSko5TXlBY0hUeXFHMVhpbDJDY3dxeUcxY0JWVXExS3RMOE9rUklsdk5oaTBYcElXdFZfNmNSOHB0MFZVaEhLMS1pamx5SmRUUHpSSjNqX1JrU1F4Mnp3dEVVMlNUX1pFbjRkbTEtY3NoQzFrTDk5ZGF0eFA5UkVnLUk?oc=5",
-          "domain": "kltv-com.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KMOV",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGdLVVVMaTlqSExQa1B3MFNySHdjYlQxbEJGUWk0RWlfWjBFT3dWeGJocjNqaHp6VHVEWUJndEt5RERQVU90RmYwOVNoQ25Cek9zSndBR3ZiMFlhc0ZIWm1acWp1RXBlQUVkTnhTMDlFeFhOdnhJaE9vMWNySlVJSF9OQWhVdUlKWGh0amp4Nm12ZXUxR2lsX2lWZ1A1SVJ0Nms4cG9YbzA?oc=5",
-          "domain": "kmov.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KOTA Territory News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeVh0RmUzdUpueF9mcC1sempHcVJLNE10bk5TOUszb2x3ZUNCZy0tMTk0RVZhZEVuREg0YnlTanhxZmMxR0hrdDlPU0ZTaGwyckh1YUVFUXhXamJTTVdYZGRUZVZ1TU9rSXpNQy1MT203TWItTjgwVndJOHZmT1B0NmI1M1ViZjJKNEt1bUY5SHdKdy1uREYxQXlTY2p0QWc4eGc?oc=5",
-          "domain": "kota-territory-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KPLC 7 News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWDNmSXJKQlZUWnhlbU9Fc09KdVBzNHNqNk1JZzltTFd6bjhfRWVjLWlCX3JIRlpDN1dvNVI1VHc1cGl1QV9CUERZZWJpbzNINlZza0hSVkxSMzJndWZuUmRwQV9jS0RpSDFLMGZiZlExSDFhOHJyc0VDT3cwd21mbnNBYjJYV3RnTHNLaFZNTFlFdnpyWDYwSDl5VGFmUnZ4bmc?oc=5",
-          "domain": "kplc-7-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KPTV",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzZOYUtwM1VwNkZ0MS01Zkg4SG03Y0JNRWkwS19WRlhjVVNxQXV0SXJTV09tamV0Z1RKT2RWUXFWWGlkWm1tTnhWenpnS1FMZXNrZnVnWUR2eFhkRjRLNFlONjZnUWliTzFTaVJyUWdvSEFYZWt2RVItdnlvOG4zNC1odTc3VWRxVjlfbE03SDE3OWd1M244cUM1dlBJRjg?oc=5",
-          "domain": "kptv.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KTTC",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYUxsdWJsaE5mOTJLQmk5ZWs0Q0N0aU5EYm9DVTRfclAtMDNYUWNHVmQ0T3RDdTNWa1NWejJQc2J4MVlqOVNEOXZ2ejhSQUQ2Znh0b1h6alhHaUIyZm5Jc3Z0YVg1SUh2aDhtc1JhRnpPbTBmTkRfLXN4TkRnVGlwbUNLY2NtN29JTGY4WDBhbkphMHRyNzVuS1FmSlZUNEE?oc=5",
-          "domain": "kttc.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KTVF Fairbanks",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWdMU0NReVdUbzhWSm9VSmxWS0pKSjFnRENwejFqc1Nua01EVEJXLUFwMU00OVllVEJMU1FvUHlRZlZ1d3ZMYlYzcGtFTjB2c3RGNVlNemU0ZzZ1RUFmX3ZHMmJuTG9QdXJnMXI1aFR2WGQ0azd1NEJ1WVpsbWFNX0x4MldRelp3R2swTmNHLTM5SXJaRFExMjZDY2VsN2lWelRreE1fak4yQWU2RERQS1p3?oc=5",
-          "domain": "ktvf-fairbanks.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "KWQC",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdzh1dmk1LTVMMHlTdHlfTmRHbU9rZjlHNlNRMDhjemFXemgwVHJuNDFOc0YzVnBFOFNra2ttRU9BWk92TzlDUk03S1VFTm5Ua2JsNzI3UkRxUUhDZ21YNUtLQUFkQjFDZDZZTzFMa0ZXMlZWcUNXeXBJUDRtVmFvazNVSGVmY3lMSUtYUkpnVDBPMnhRNVpVY0VTOUxCcDQ?oc=5",
-          "domain": "kwqc.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Live 5 News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlROQmVGSVNnZUFSV1lxT3JCOElobWNuRE45MGhWdHRIam5kV3BZTHF1c2NVX2hzQ3hCRXFLNG9aTUVyNjJEWlJBR2k3U3pIbnU4dkxKSEVoVFNlVS1wWjRORko5ZWg5dmYzaVF1SEszT25KakNmZC01NTdKdjh1RUJ4Tnh3dDd3RHBsQmdudGRySmlLRkt2R3c4aDFJbHEtZExZTFFn?oc=5",
-          "domain": "live-5-news.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "GN Breach watch",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRm5zMzN2NHRYM2JSdHhQUkhhcXlvd1N2UG1wS1pyNzBFaVp0YUE5ejlzLW5uRXNBczNkVmY3QmZIbWdRTWNuRkhKSkJfMmllVktKWUxWRmRjWXN4OWNONVc0aTBHMWNoOVExbUNZVDIzb0JwRU5rWkR0MFlfdV9RWjQ2Nzh4N0RCaXlWbkY5aXZFcHlZZmtUcGlzQXA5TDk4d2xz?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
-        },
-        {
-          "name": "Quartz",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mZWVyeXhkRTRlem9kMWNEdWsxbVFQT29aTTh0U1J4dFBRWE9LWVpDRVhNajFPVVVUVS02T2RfdWpiQjVSMnBlekFoZDIya21PSWgwMnU3LXFzOTZIR2Jpa25BNWNGdFl5ekpMTk9JSUROOHJma3lHM2hpS1NRQQ?oc=5",
-          "domain": "quartz.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Valley News Live",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkE4b3I4RzlsdTVhT1hlN2ppNEozQ0RHZnRSV2NDMlhGUVdfUkd1TTBJNmpUM2xQcFFraFJXUlJpbnRlaFQ1VEh2VW1VTU1iczFXdExwOFlaQ2FsWlI4WmhHcE5wU2NWb3hfWkx5VGp0NkV5TFN5dkFBWE5rLXUwVHFoT1N6UkV0Q1Vhc2hvN0U5QVV4RVNfT09mdWtseHFNZHFNZEJVbnR3VVht?oc=5",
-          "domain": "valley-news-live.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WABI",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDZjRUNhUFMzQ3c4RmI0RXdCa1A0R1oyNXE5RXRsSTl1V1BZbXA4OUZMR0tWQ2J1NGg4MUZTUnRkbWNScUVVa1B3ckpjZXNTS0JrUzdZd21fNnA5d0xPaEw1cS1yXzFlRkRvbTEyUkxDd1QzVjhqMW5jWnFqOHNXNlVMSG8tMlFiOTFvendRZnN1VWZRUDZOZHRVRF93QQ?oc=5",
-          "domain": "wabi.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WALB",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3JMOWNIWTZMb1pLMHRKb0RFMGR3RXQ2SVRoWEh5OTBuX2tGLTAyX1lETGZXVll2dGFfLXZWZHdvTjBkNGc0QUFoS1VuMWxvSjBKOUlJOWpuQ2lqLXdjVHhRQUpLY2xSejRvRHdqRFJsUDlkQnFwTXhTYThpOXhkWk1KS1JCd0piU3Y2YzBZTjFTd1gtSGU3b3gtNC1XdVU?oc=5",
-          "domain": "walb.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WAND",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGU2LXczbFdpYldPQ3NQSEQxaVZRYmQtY1cwRlpRdDhFem9fRVdLZW5UaEl5WXlzNHFoQThZUENLS3ZwTS1NOWJPSWh3aG1KckZWMzR3UE9SbTNjVkxKNUdGZ0lIYjhmWXFNSHFWc0ZsX05nMzFoa3BGU0hyUGsxX0hXUURCel9uaEM0d0E1NkhJdWgtSG9JX01B0gGuAUFVX3lxTE1jSVBuT2E2dDY3c29MNFVyeXE3UnkzMzBuaTJHeEg0RzNsTVBld2w2RDc4UktQRWNGQXktSkdaVWpYdXFfUnBONDg2Q0gwclhJOThMSndfMGJUS0FtYk9peUlqRVRkSjg1bW1USk1lWHc0YlVDX0VQbTBwb1RzWWFWRVBOb2FHbk9LWXFIRGY3TGJYeUxEUUM5djEtcWp2bXp5SERZbnEyaWhZdkphdw?oc=5",
-          "domain": "wand.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "wandtv.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR0EzZDNPSnU0bDl0b3FDSVZ3b3ZrTDdpYVZ3eExDeGFYemg2U2dxZlI4WUc5QS1lOWN1YjFQNGVuczJnbnBuUUlMR1VZczM5cTNwX0VNTHdsNUVObmFJV0VrTFZWQmh0UG8tMHBHRmRjaFdIWkJyRHNyRWdvT1BHd0lpZE00N080NllfcGhRaGJkby02RTNyYWF2bjhGem9nQWc?oc=5",
-          "domain": "wandtv-com.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WBAY",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOV9QTUUwbmZ6dEZjOEV4R1Npb0F5QjdPY21ZdXI2Y3hGNFJoQWpyZEdmSUZFUG9iTXNMQ1NtOEZvWjBvN1VkWWxTa2ZvaWQyUU4yN2VxTE9JbkdsV2lqQ0VvTUo5b212YVpVaWpZTUtjb094MDBNczVZeW1lTndBbXcxazhqNTV2b3VZUzJJbWFOSFppTkNrZUZlc2dQVkU?oc=5",
-          "domain": "wbay.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WBKO",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9FRGZMN3I2SURpdHdZaVFuZHM3aE1Pcklfc1lkeXJES3BUbXc1T2FrVF9mdGNiZVNWcTdCUXBGNndRM1MyeGN2bDdEbzJBTUpJcHFfcmR2R3FjZTFoUDJfWlgyMHV3SnNyQVJSSlhaT3lRWExwd2lqOW1jZlRYMkw4czhlVmNDelAyME1kZTVGTlpmSzA2RHEtbk4zNVU?oc=5",
-          "domain": "wbko.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WBNG",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVNhQ0JaV2dzQk96LXBLcFFhbHhPa0JIcm1LVEhBSFVFcWp1VFN6am1pTWhNZExnNnpYWFo2NW5KeXdDR3J5cjFHRDNKSlE4QjRxcENVTW5RRWpmWTVGVTJsbUI1THRKNnphLU9adnd2VDdKRERDeWpUS3hVTU41QllmdGJidHFxSFBfY0dtYnpuY1R6YUtESkFtU3VRQWc?oc=5",
-          "domain": "wbng.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WCTV",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYVIzWVo2bTZQckdEYlhIeHp1bENzNERIZ19rRmxMQWk2cGlpVWlWdW5feGFJNTlXSEh6d1BkQnVmUXh5anFrWkV2cnAtYkhBLUtQcll0U2ptUkFDcmIyZjFrYjMyTk9rRGVPSktIQXVvbndnZllSWEJyWjVzcERjT3Y4Ukc3M0k0RDJYSWxkb1BmTDNBNlltUHFVQ05JQQ?oc=5",
-          "domain": "wctv.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WEAU",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQV85blllNWhrMzhrRGJzR0d0RXVYR0F1NkhwMXl5aGNsTHdmR3g4NHE1RUN5TGpqTDJ2WTZncUxGSmp0NmxGMmpDbXdzcmVjaUN1bVVIbkV4MnR5dm4zdUhjVU0xbm04eExxR05xSkhGbFFDdjFPNEYwSEN0cmw4WUpJQkJWNUxsNHJ3czRmMlBhaEVDbC1GZzVHZmNNOWs?oc=5",
-          "domain": "weau.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WEEK | 25 News Now",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaUp1bDA4LXRIR0xTQ3pGWWVVT2RqRkdrMklfQ0NKVDJCU09CTlJKcHh1eGF3MmhUeVZrTjk3LTM0djF4S2FIMUt4a095dmtvSkRIaW41SWkxV1U3WGNlQmFJVXZEZ3V0R3hMTi1hNUptQ2FIMERodk11YUVwUmZwLXNIMUNHdnBZTTlSelBOQ25XUk5mLUNjMFZpUGliNENjTGFYOXlR?oc=5",
-          "domain": "week-25-news-now.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WGEM",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMWo4NjA4cTNuU3VkYW42anc1eGJtSlV1VnNnc1huTlUxREZJTUt4cmRiWTYtaGJublREMXZCM2lOQ245dm5IYTFQbjdLemgyaUlqajVEYkhubXBfSVpvMmFaZzEyc1llMHNxUEtMSnJoTVhvVXk3aV9MdzZQelRGOThZUjZYVTVnMnpsSWdCU0V4dGdiLXc2VXRTVjZWMVE?oc=5",
-          "domain": "wgem.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WIS News 10",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2lJd2F1bFNzenBCZ2dLdWpVOHB1QWNtSGZucEl6dWwyYTZDRmxMVU5zd1BrSEZFYmltZ3pmSEVROWVIRGxySXlmNkxGanFNZlU3RVFSWlhrRVhyV1U4bTkxbmJxWkQ5aGdtNno3MU00ajlBUW9IM1hmaUFRTXZMa0kyeWJXTWZ0UDV2RWNvbDBtYzFheWhuaTVpcVprY2xo?oc=5",
-          "domain": "wis-news-10.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WJHG",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTlk2Q2pZaDVMZU1qRlJRQmZHU3dXQmt4bmhwNFNjTTI3d2lkcWtMYmNJTnc4V210YU9ZS09OS1Y4dDlYLVFtWEVZMm1nbzRsZUtZczJ6bmpmRW9vWXRVZTBlX21oRzRpNE11SU03bGZWUGdBQU81aHpYY3B3anhRclgtYjE4QXhIZXFVM19IM2R6LTBLSjZpUEtIaUN2a1U?oc=5",
-          "domain": "wjhg.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WLBT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUThDTDQyWnVtM3ZnMHN2ODVPWE1hWUhkclVNSVlpaHprZ0xIMG4yeWxieWx4UERNT2lneWFIWjYzWnZibkdWNVpoU3pNQkRyaFNTRE9ZbkNPT3RQZU40THl3eXJ0NDFzMXhIdTVZQ3VaenFIMjNNZnVmamp6NUVyNllyb1lhVHVvLTZtcXktRmxwb2hQMnhuc2dkUGVJeWc?oc=5",
-          "domain": "wlbt.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WLOX",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZm9KU0J0Rk45akRMUTB6RUJMODU3VlpMeHNVQmFseHRiM2d1Wm1YZURwODgzRUFEVFVveHJpY2tYbXNXS2xtNXZEYXZvbFljUzB5V0ZYdkc0SW5KSm01M0pjZkZPc2JXN0x1c21rRnFfUi02TEhnTXVYWU4xazc5eE5MdndwWHFBek5YVGllbzNha3RPMGtZdUhwMHRxYjg?oc=5",
-          "domain": "wlox.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WSAW",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUDg2OFFTT1RQaG9MVUpHVnZNaEU0NWhQbnZzVXBlZEVuUUpCVmw0SXdCVjNsV1V6akJLTzR0WnV4ZC11MUJlZ0RQWjBWVDJmRlBDLVFaejA2V1N1YlZHRlphUllwQ0Y5TURjeVB5U3R1RFlnLTVmY3NraTI2NnRhcHBPRzhkeFduM19qQ3ByVFB6Wm9yWEo1OExFOER5cjg?oc=5",
-          "domain": "wsaw.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WSMV",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRGJjcnNhN1J6TUdvY2NwaWQxLXhIa1BkM21sOEM4eTMwZmw2Z1JleEQyMUVsem5KTmN6T01weU9QOE52SDlFTnZwaDFRdk1DM3EzN0hLMlN0cWxKckN5S0R5ZkNvVXVMYmJCcGZUVnltOHlkR21fWEhsR1hJSnFuZ3RWRDNEa2t4VWw4VWlnYnhHa3VrUkp3VlROMHlnZDg?oc=5",
-          "domain": "wsmv.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WTVG",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzdxOWFYc1RTZHZUYUFyOE5ncEpYaUpHMG1tRnV0VWttdnhpYmJmNmlOUExuSGJ3bHJoV1ZCcUs3U1lIanJRWDFXeTUwV3I4aTF6bkpJbEhUTFRIRzc1UUZTdzJZNnd2aGJ5cFZwblotYkJtZjRkaWtnSVZ1VU9iRjRteDg5cl9OQlV1MjAzckRRdW14RFlvZmZMZjU4djhw?oc=5",
-          "domain": "wtvg.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "WVLT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZXpfM0w3aHdzRGxFQWdXY2dsNzdLRDJ3WFRCV3NfTkxERldRaUQxQVB1SGxtOF9Uc0FwRkU3NlZ0UGZpMGhUVTN0Yk51T3VlU010RDg0VUNYQ2tZNFlZWjRGdHVDb1RFLUlmWHdOa1gyTnp3aFZYY0FBM2h1eTF6VmJja0FzT0ZtNm5qemxDd0lXUEdwNjduZldqM1pzUQ?oc=5",
-          "domain": "wvlt.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-09T13:04:07+00:00",
-      "trace": [
-        "tier C (+10)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 2/5 from cache",
-        "blend 32 = trust 22 / interest 25 / corrob 50"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "9a1caa4bf05be403",
-      "title": "uzairansaruzi/p3-stack — pstack reworked for T3 Code: delegated subagents, worktree threads, PR watching, scheduled runs.",
+      "cluster_key": "a6c12664e4dd32fb",
+      "title": "Dicklesworthstone/frankensonos — Memory-safe Rust controller for your own Sonos speakers on your own LAN — reliable SSDP/UPnP-SOAP/GENA interop",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
@@ -826,7 +316,7 @@
         "opensource",
         "tool"
       ],
-      "summary": "Same engineering discipline, native T3 orchestration. pstack is poteto's answer to AI slop code. It turns an agent into an engineering team: one mode skill that routes to playbooks, principles that ground every decision, and verification strict enough that you can parallelize with confidence. p3-stack keeps that system and rewires the mechanics to T3 Code's primitives: - Delegation. delegate_task child agents replace Cursor's Task tool, with per-role providers and models resolved from orchestrator_capabilities.",
+      "summary": "Command your speakers from anywhere in the world, as long as you're on your Tailscale tailnet. A memory-safe Rust controller and daemon for the Sonos speakers you already own: one binary that runs the whole house from the terminal, an HTTP API, or any AI agent that speaks MCP. Everything below is implemented, and every feature is tested end to end against fsonos-sim, a virtual Sonos house (an S1 and an S2 household speaking SOAP and GENA on loopback, checked against scrubbed captures of real players). Live tests against real players exist but are opt-in; there is no real-hardware CI yet, and interfaces may still change before 0.1.0. Sonos hardware is excellent and lasts for years; the softw…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -837,7 +327,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9a1caa4bf05be403"
+        "a6c12664e4dd32fb"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -845,44 +335,442 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/uzairansaruzi/p3-stack",
+          "url": "https://github.com/Dicklesworthstone/frankensonos",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-05T07:40:37+00:00",
+      "published": "2026-10-06T23:30:08+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-05 — outside lookback window"
+      "reject_reason": "published 2026-10-06 — outside lookback window"
     },
     {
-      "cluster_key": "80b3473354f615b1",
-      "title": "RIL, ICICI Bank, Infosys, and more: Motilal Oswal names 40 stocks to buy during Q2 earnings season — Check full list",
-      "category": "markets",
-      "one_liner": "Motilal Oswal named 40 stock picks for Q2 earnings, expecting robust profit growth following recent market corrections.",
+      "cluster_key": "52e61e45cb38e48b",
+      "title": "LosaLosSantos/aurelio-finance — Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash a",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "india",
-        "markets",
+        "ai",
+        "linux",
+        "llm",
+        "opensource",
+        "research",
+        "windows"
+      ],
+      "summary": "Aurelio is a wealth-management and financial-planning app that runs on your own computer, with an AI advisor you can talk to. The AI part is optional: it goes through OpenRouter with your own key. You need Git, Node.js 22 or later and uv. Then: git clone cd aurelio-finance ./start.sh --demo macOS and Linuxgit clone cd aurelio-finance ./start.ps1 -Demo Windows, in PowerShell If PowerShell says that running scripts is disabled, use powershell -ExecutionPolicy Bypass -File .\\start.ps1 -Demo. The first start installs what it needs inside the folder and opens on an invented household, kept in a file of its own.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "52e61e45cb38e48b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/LosaLosSantos/aurelio-finance",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-06T20:14:19+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-06 — outside lookback window"
+    },
+    {
+      "cluster_key": "07095bf1c85c418e",
+      "title": "pullboard-dev/pullboard — Autonomous development for real products. Agents build from the spec you approve, and nothing ships until anot",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "opensource",
         "release"
       ],
-      "summary": "Motilal Oswal Financial Services released its latest report identifying 40 recommended stocks for the Q2 earnings season, projecting aggregate profit after tax growth of 22% year-on-year. Noting that large- and mid-caps have corrected significantly from recent peaks, the brokerage highlights selective opportunities across banking, IT, manufacturing, and consumer sectors. Its model portfolio emphasizes established leaders like ICICI Bank and Infosys alongside mid-cap platforms with visible earnings momentum.",
-      "key_facts": [
-        "Projected Profit Growth: 22% YoY",
-        "Large-cap Correction: 31%",
-        "Mid-cap Correction: 36%"
+      "summary": "pullboard.dev · lives in your git repo · no account · no dependencies · never calls a model Accumulated judgement for agents. Agents are good at tasks and bad at projects: every new session starts without what you decided, so you become the glue. The agents scale; your judgement doesn't. Pullboard is a structural approach to orchestrating agents coherently over long-term builds, so you can trust your agentic workforce to fill in the blanks the way you would, without re-prompting them. Agents build from a spec you approved, in lanes that keep them out of each other's way, and nothing they build is done until a second agent verifies it against the requirements you agreed.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "07095bf1c85c418e"
       ],
-      "bottom_line": "Valuation corrections and projected earnings recovery offer strategic stock-picking opportunities across Indian equities.",
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/pullboard-dev/pullboard",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-07T04:14:39+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-07 — outside lookback window"
+    },
+    {
+      "cluster_key": "bbbbb3f7b34328f9",
+      "title": "VecSzn/PolyStrata — Run large AI models on your own PC: Qwen3.8-Flash-Next, GLM 5.3 Flash, Qwen3.6, Ornith 1.5 and Gemma 4. One-cl",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "linux",
+        "llm",
+        "opensource",
+        "policy",
+        "windows"
+      ],
+      "summary": "English · 简体中文 · 日本語 · Deutsch · Français · Español · Português Run large AI models on your own PC Qwen3.8-Flash-Next, GLM 5.3 Flash, Qwen3.6, Ornith 1.5 and Gemma 4 · free and open source Claude Code on Qwen3.6-35B-A3B UD-Q3_K_M, on the laptop with the 8 GB card, in real time: it adds a --json option to a small program, writes a test for it and runs the tests. The server had read Claude Code's system prompt when it started (\"warm_start\": true). A voxel pagoda garden, 1 shot prompt running on an RTX 5070 with Strata (Qwen3.8-Flash-Next IQ3_S, 128K context) · full video (49 s) PolyStrata runs large AI models on a normal PC, models that usually need a server. They chat, write code and work wi…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "bbbbb3f7b34328f9"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/VecSzn/PolyStrata",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-06T21:09:40+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-06 — outside lookback window"
+    },
+    {
+      "cluster_key": "17d2a6cabf63f425",
+      "title": "deeplethe/fde-gym — The online judge for the LLM era. Every case is a real customer delivery: you work it with a coding agent, and",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource"
+      ],
+      "summary": "The online judge for the LLM era: beyond code, end to end. AI can get the code right now, so right code no longer tells engineers apart. What is hard is getting the thing done at the customer, and the people who do it are forward deployed engineers (FDEs). Every case on FDE Gym is a real customer delivery: you work it with a coding agent, and your system is judged once it is live. Half a minute on the site: from the case list into a case, reading what the customer handed over, directing the coding agent, asking one of their people, the terminal, and handing over to be graded on traffic the customer never showed you.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "17d2a6cabf63f425"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/deeplethe/fde-gym",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-06T09:04:48+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-06 — outside lookback window"
+    },
+    {
+      "cluster_key": "cffba708f058428f",
+      "title": "When people talk about AI easily replacing workers, I think about this ethnography of copier repair technicians in the 1990s.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu When people talk about AI easily replacing workers, I think about this ethnography of copier repair technicians in the 1990s. Reading it, you see how work is complicated and improvised by workers and informal and badly documented. (But eventually technology did largely eliminate this job) 2026-10-07T06:28:58.757Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "cffba708f058428f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxbcxh52gs2c",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-07T06:28:56.559000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-07 — outside lookback window"
+    },
+    {
+      "cluster_key": "66b85ebb59c0e0bc",
+      "title": "OrgoAI/bops — Bops: a team of AI bots that run your business ops, each with its own computer, email and phone number. bops.b",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "opensource",
+        "release"
+      ],
+      "summary": "A team of AI bots that works for you on real computers. Chat with them like teammates, and they get the work done. Download for Mac · Website · Plans · Roadmap · Self-host Open code, one limit. Use, self-host, change and share Bops for free, at work or at home. The license (FSL) only rules out offering it as a competing product or hosted service, and each version becomes Apache 2.0, fully open source, two years after its release.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "66b85ebb59c0e0bc"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/OrgoAI/bops",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-06T14:45:00+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-06 — outside lookback window"
+    },
+    {
+      "cluster_key": "6f00d786a8b0037c",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "category": "cyber_attacks",
+      "one_liner": "A buffer overflow vulnerability in Palo Alto Networks GlobalProtect app allows MitM attackers to execute code with SYSTEM privileges.",
+      "tags": [
+        "android",
+        "cve",
+        "exploit",
+        "linux",
+        "network",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "A buffer overflow vulnerability, tracked as CVE-2026-0250 with a CVSS base score of 7.7 (MEDIUM), affects the Palo Alto Networks GlobalProtect app during portal and gateway connections. The flaw allows a man-in-the-middle attacker to disrupt system processes and potentially execute arbitrary code with SYSTEM privileges. No special configuration is required to be vulnerable, and iOS apps are unaffected. Palo Alto Networks has issued patches across Windows, macOS, Android, ChromeOS, and Linux editions and advises users to upgrade immediately.",
+      "key_facts": [
+        "CVE ID: CVE-2026-0250",
+        "Severity: MEDIUM (CVSS Base: 7.7, CVSS-BT: 5.2)",
+        "Product: Palo Alto Networks GlobalProtect app",
+        "Impact: Arbitrary code execution with SYSTEM privileges via MitM"
+      ],
+      "bottom_line": "Palo Alto Networks GlobalProtect app users must patch CVE-2026-0250 immediately to prevent potential remote code execution via man-in-the-middle attacks.",
       "claims": [
         {
-          "text": "The brokerage expects aggregate profit after tax across its coverage universe to grow 22% year-on-year in the September 2026 quarter, marking the highest growth in 11 quarters.",
-          "support_span": "The brokerage expects aggregate profit after tax across its coverage universe to grow 22% year-on-year in the September 2026 quarter, marking the highest growth in 11 quarters.",
+          "text": "A buffer overflow vulnerability exists in the Palo Alto Networks GlobalProtect app that enables a man in the middle attacker to disrupt system processes and potentially execute arbitrary code with SYSTEM privileges.",
+          "support_span": "A buffer overflow vulnerability exists in the Palo Alto Networks GlobalProtect app that enables a man in the middle attacker to disrupt system processes and potentially execute arbitrary code with SYSTEM privileges.",
           "status": "contradicted"
         },
         {
-          "text": "Large- and mid-caps have witnessed the steepest valuation corrections of 31% and 36%, respectively, from their respective peaks",
-          "support_span": "Large- and mid-caps have witnessed the steepest valuation corrections of 31% and 36%, respectively, from their respective peaks",
+          "text": "The GlobalProtect app on iOS is not affected.",
+          "support_span": "The GlobalProtect app on iOS is not affected.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 82,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 80.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "6f00d786a8b0037c",
+        "949fb0f1d27d58a9",
+        "a3c36e87a94b475a"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-66086",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0250",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0307",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://security.paloaltonetworks.com/CVE-2026-0250",
+        "https://security.paloaltonetworks.com/CVE-2026-0307"
+      ],
+      "published": "2026-09-30T06:15:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 82 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "33f0dc99aec03f27",
+      "title": "INR vs USD: RBI's rupee support move shows results as Indian currency jumps 1% post dollar-demand curbs: Investors guide",
+      "category": "markets",
+      "one_liner": "The Indian rupee surges nearly 1% after the RBI implements direct dollar-supply windows for oil firms and curbs speculative currency hedging.",
+      "tags": [
+        "howto",
+        "india",
+        "markets",
+        "policy",
+        "windows"
+      ],
+      "summary": "The Indian rupee appreciated by nearly 1% against the US dollar on Monday, reaching 95.76 from its previous close of 96.73 following sweeping currency-support measures introduced by the Reserve Bank of India. The RBI intervened by redirecting oil marketing companies' dollar purchases directly through a special central bank window to ease spot market pressure, alongside mandating a 20% foreign exchange risk reserve on derivative contracts over $2 million and lowering unhedged derivative limits. While these steps offer near-term relief and curb speculative positioning, economists note they do not eliminate underlying balance of payment pressures driven by elevated crude oil prices and continuous foreign institutional outflows.",
+      "key_facts": [
+        "Rupee rate: Opened at 95.76 against USD (previous close 96.73)",
+        "FX risk reserve mandate: 20% on derivative contracts exceeding $2 million",
+        "Unhedged derivative limit reduction: From $100 million to $5 million",
+        "Involved state oil firms: IOC, HPCL, BPCL"
+      ],
+      "bottom_line": "The RBI's direct dollar-supply interventions and derivative curbs have provided immediate relief to the sliding Indian rupee, though structural pressures remain.",
+      "claims": [
+        {
+          "text": "The Indian rupee surged nearly 1% on Monday, 12 October after the Reserve Bank of India redirected oil companies’ dollar purchases away from the spot market and introduced measures to curb corporate demand for forward dollars.",
+          "support_span": "The Indian rupee surged nearly 1% on Monday, 12 October after the Reserve Bank of India redirected oil companies’ dollar purchases away from the spot market and introduced measures to curb corporate demand for forward dollars.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The rupee opened at 95.76 against the US dollar, compared with Friday’s close of 96.73.",
+          "support_span": "The rupee opened at 95.76 against the US dollar, compared with Friday’s close of 96.73.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "33f0dc99aec03f27"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/inr-vs-usd-rbis-rupee-support-move-shows-results-as-indian-currency-jumps-1-post-dollar-demand-curbs-investors-guide-11791787022692.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T07:32:44+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "ef189e8849d927d0",
+      "title": "RIL shares: Reliance Industries stock slides 6% in a month, can Jio Platforms IPO aid the bounce back? Experts' views",
+      "category": "markets",
+      "one_liner": "Reliance Industries shares slide 6% ahead of the Jio Platforms IPO, creating potential entry points for investors eyeing long-term value unlocking.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "Reliance Industries Ltd (RIL) shares have declined about 6% over the past month, trading around ₹1,165 amid selling pressure and a lower-than-anticipated valuation of approximately $114 billion for the upcoming Jio Platforms IPO. Market analysts view the dip as an opportunity for primary market investors to gain exposure to RIL near the Jio IPO price band of ₹1,065 to ₹1,119, offering potential long-term value unlocking once primary demand stabilizes. Technical analysts note immediate support at ₹1145 and major support at ₹1120, while the stock faces resistance near the ₹1,200 level before a potential move toward ₹1,265.",
+      "key_facts": [
+        "RIL Share Price: ~₹1,165 (-6% in one month)",
+        "Jio IPO Valuation: ~$114 billion (~₹10.3 lakh crore)",
+        "Support Levels: ₹1,145 (immediate), ₹1,120 (major)",
+        "Resistance Level: ₹1,200"
+      ],
+      "bottom_line": "RIL shares are experiencing a pre-IPO pullback to around ₹1,165, offering investors an accumulation opportunity near key support levels ahead of the Jio listing.",
+      "claims": [
+        {
+          "text": "Shares of Reliance Industries Ltd (RIL) have been under selling pressure ahead of the Jio Platform IPO launch, clocking around 6% dip in one month.",
+          "support_span": "Shares of Reliance Industries Ltd (RIL) have been under selling pressure ahead of the Jio Platform IPO launch... Reliance share price today is around ₹1165, clocking around 6% dip in one month.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Immediate support for the Reliance Industries shares is placed at ₹1145, whereas ₹1120 is acting as major support for RIL shares.",
+          "support_span": "Immediate support for the Reliance Industries shares is placed at ₹1145, whereas ₹1120 is acting as major support for RIL shares.",
           "status": "entailed"
         }
       ],
@@ -893,7 +781,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "80b3473354f615b1"
+        "ef189e8849d927d0"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -901,17 +789,17 @@
       "sources": [
         {
           "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/ril-icici-bank-infosys-and-more-motilal-oswal-names-40-stocks-to-buy-during-q2-earnings-season-check-full-list-11791605694356.html",
+          "url": "https://www.livemint.com/market/stock-market-news/ril-shares-reliance-industries-stock-slides-6-in-a-month-can-jio-platforms-ipo-aid-the-bounce-back-experts-views-11791781439943.html",
           "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-10T05:12:14+00:00",
+      "published": "2026-10-12T05:31:22+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
+        "importance 3/5 from gemini-3.5-flash-lite",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -952,15 +840,15 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 25,
       "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
+      "corroboration": 1,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
         "6cd6f5cc677d305a",
-        "e07ad26d1e7d044f"
+        "b6a5f2801116ec2c"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -973,430 +861,676 @@
           "tier": "B"
         },
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-          "domain": "theverge.com",
-          "tier": "B"
+          "name": "TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUERhLUhnR09BSHZaQkZDc0g4X1RZU0Q0WUdjTlI1TTVqbUlmQ0lGejlfVjBJMDM5cXYzN05sSHlJcjJMNGZGZWtxOEEzSVA2NS02TXBHbFFHSTlVRFR6S2Jic0xNTERlWFZ0b3JDOW9tcjBCS0JwZjR1Umw2MkFZUWJxRUgzc0JMV1EwaHlUbk5IM3RnRzVIS3RhRHZ1Y2QyWHctbFlTOTRKMGNKakh5a2pXRi00eE9DeWhqS0ctdzFDUDJoZ2pSLUM4QWtnRm1VbGVxdnZIbVRiaWpwVFRF?oc=5",
+          "domain": "techcrunch.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
       "published": "2026-10-10T00:18:32+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
+        "single outlet, established publication (tier B)",
         "importance 4/5 from cache",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "9c223c2286d16c67",
+      "title": "Two Indian seafarers missing, nine rescued after drone attack on tanker at Sohar Anchorage, says Sonowal",
+      "category": "india_world",
+      "one_liner": "A drone attack on the MT PETRO DOLPHIN tanker at Sohar Anchorage left two Indian seafarers missing and nine rescued.",
+      "tags": [
+        "incident",
+        "india",
+        "political"
+      ],
+      "summary": "Shipping Minister Sarbananda Sonowal reported that the tanker MT PETRO DOLPHIN, carrying 11 Indian seafarers, was struck by a drone at Sohar Anchorage. While nine crew members were successfully rescued and remain safe, two Indian nationals are missing. Local Coast Guard teams are actively conducting search-and-rescue operations while coordinating with relevant authorities.",
+      "key_facts": [
+        "Vessel: MT PETRO DOLPHIN",
+        "Location: Sohar Anchorage",
+        "Indian Seafarers: 11 total (9 rescued, 2 missing)"
+      ],
+      "bottom_line": "A drone attack on a commercial tanker carrying Indian crew members has resulted in missing personnel and ongoing international rescue operations.",
+      "claims": [
+        {
+          "text": "Tanker MT PETRO DOLPHIN, carrying 11 Indian seafarers, was subjected to a drone attack at Sohar Anchorage.",
+          "support_span": "tanker MT PETRO DOLPHIN, carrying 11 Indian seafarers, was subjected to a drone attack at Sohar Anchorage.",
+          "status": "entailed"
+        },
+        {
+          "text": "Nine Indian crew members had been successfully rescued and were safe, while two Indian nationals remained missing.",
+          "support_span": "nine Indian crew members had been successfully rescued and were safe, but two Indian nationals remained missing.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "9c223c2286d16c67"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/two-indian-seafarers-missing-nine-rescued-after-drone-attack-on-tanker-at-sohar-anchorage-says-sonowal/article71573679.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T07:08:12+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1cd002d43eb79080",
-      "title": "SEBI Settlement Regulations 2026: New formula,  ₹10 lakh fast-track, and other key changes investors must know",
-      "category": "markets",
-      "one_liner": "SEBI's 2026 settlement regulations introduce a predictable base-amount calculation, separate disgorgement of wrongful gains, and a ₹10 lakh fast-track route.",
+      "cluster_key": "0dc2d92158e45c69",
+      "title": "AI vulnerability patching has a grading problem",
+      "category": "cyber_attacks",
+      "one_liner": "",
       "tags": [
-        "india",
-        "markets",
-        "policy",
-        "tool"
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "research",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "SEBI has introduced the Settlement Regulations 2026 to create a simpler and more transparent framework for securities market violations, featuring a revised formula linked to minimum statutory penalties. The updated rules eliminate double counting by separating wrongful gains and investor losses, mandating that they be disgorged independently alongside remedial and regulatory terms. Additionally, SEBI established a monetary threshold-based fast-track mechanism for settlements not exceeding ₹10 lakh to expedite case resolution through a panel of whole-time members. These changes are intended to reduce inconsistent or unpredictable outcomes when entities settle regulatory proceedings.",
-      "key_facts": [
-        "Threshold: ₹10 lakh fast-track settlement limit"
-      ],
-      "bottom_line": "SEBI's new settlement framework removes double counting of wrongful gains and introduces a ₹10 lakh fast-track route for quicker resolutions.",
-      "claims": [
-        {
-          "text": "SEBI has introduced a fresh set of rules aimed at making the regulatory framework for securities market violations simpler and more transparent.",
-          "support_span": "The Securities and Exchange Board of India (SEBI) has introduced a fresh set of rules aimed at making the regulatory framework for securities market violations simpler and more transparent.",
-          "status": "entailed"
-        },
-        {
-          "text": "The new regulations specify three components of settlement terms: Settlement amount, Disgorgement, and Remedial and regulatory terms.",
-          "support_span": "The new regulations specify three components of settlement terms: - Settlement amount: The amount calculated under the revised formula. - Disgorgement: Recovery of wrongful gains, losses avoided or losses caused to investors, wherever applicable and quantified. - Remedial and regulatory terms (RRT): Measures that the entity must undertake as part of the settlement.",
-          "status": "entailed"
-        },
-        {
-          "text": "The regulations introduce a monetary threshold-based fast-track settlement mechanism for cases where the settlement amount does not exceed ₹10 lakh.",
-          "support_span": "The regulations introduce a monetary threshold-based fast-track mechanism for cases where the settlement amount does not exceed ₹10 lakh.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
+      "summary": "AI vulnerability patching has a grading problem Researchers at Northwestern University tested AI coding agents on 112 real security bugs. They found that a patch which stops a crash often fails the checks the project’s maintainers wrote for the fix. With Claude Opus 4.7, third of the patches that made the crash go away still failed those maintainer tests. If you’re thinking about letting an AI tool patch vulnerabilities for you, this is the number to look at. Many security patching benchmarks grade a fix on one question: does the proof-of-concept input, the sample that triggers the bug, still crash the program?",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 7,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "1cd002d43eb79080"
+        "0dc2d92158e45c69",
+        "169a208b79ccb6f8",
+        "28c7b3a734110a72",
+        "29efd38f83e917fb",
+        "35734a3e1c59d0f6",
+        "35a584d4add84164",
+        "36a13318cfdf8730",
+        "3af64ae3b9b34696",
+        "52456f0dcde46898",
+        "66373417ac5f2579",
+        "791a1d576ba43c97",
+        "7e8e975779c89c23",
+        "829bf5c63f81d041",
+        "83577033df62966f",
+        "8b5bf925dcad44b7",
+        "9e2313dbba068206",
+        "a028cc9b2f350970",
+        "c080605f8fa3d70f",
+        "d1a6df22cd1ff247",
+        "d6c21e90289a3031",
+        "e07f3c001e57c338",
+        "e7a109eb66d56046",
+        "e9745e7b2eb36271",
+        "f301e41b3992c292"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/sebi-settlement-regulations-2026-new-formula-rs-10-lakh-fast-track-and-other-key-changes-investors-must-know-11791609224473.html",
-          "domain": "livemint.com",
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+          "domain": "helpnetsecurity.com",
           "tier": "B"
+        },
+        {
+          "name": "Analytics Insight",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHM2X3Z0amNnZWdwdzM5V09Sb0k1MXpGbTFBMVJyMWQzYlVDaWxKM09rM0hqX05GWFJib3RUZk5FaU9XSDJLMEIwZm94R0FGU09LNnNJOC1pbkx2X04weWRDQ05ITU1SQlA1U0QwdFpFemtURElvaUJyYW9ic2VNRGJOdEwtcmNUUXhuWEJEZ3QzbFpnWjJvb1NuSE1Ia3EwUEl5QVRoVlJhbFdBNUdqTXd5bXhpTFd0QmMzOWlWSl9ybVBT0gHSAUFVX3lxTE9lVXA2T1FVSU5MMUo3Xzc4T2Z4UEwwVVYyZVd1V2xGVk5Sa1R4SEZjSU5ZTXR2WHhGZG9BWXc5X3NHbGFaQzZNRjk3LUNRcTBLaHZLMFk0SU01YUYtUUVwQzZQNXpKd2NzNjl4R2pSNGFHS25hMmFOc3hDZnd2dGZMbTV5ZnVaZUVONkdvcWVKYkxWOWdmUFRNUXh0V202SFlCYmVlWFdZNE5OU2Q4b2RLb0lGd2I3TXFESzNiY18xczNmY1ZEN3pyNDR5M0RyWDk2Zw?oc=5",
+          "domain": "analytics-insight.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Android Headlines",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf?oc=5",
+          "domain": "android-headlines.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "BankInfoSecurity",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEp5Z3lYaG1TU0o3UVlZQ01pb0FLRC1sSUxXbUNwOHVJLUJfOVp2c1NITUV4UWdDZkpORnBhSG9sRzlmSVl6clVNLXRwT2pZN2pPMXVOT3NfbHhSTGtwQUFrUXQ1Z0trTGk5UkRSZFFNclEyZVJNczhhSDNhT0tWQ3AyZFNxeHNkVEZIT2VrNW1aZk9BOXdWWElLOFZHU0E?oc=5",
+          "domain": "bankinfosecurity.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "BGR",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFhqT0ZiMkQyNDJrR3hnVDF2b09CYXV3VkhmYU1yeXgxdG9lVEQ4bFlRVEZYNFE3NmlXczI5bzhqWThKNmsxblFKVVpCdEs2UV9KNEZ3eXdJeFQ5andCbjNtZWxyRTJFMjNBLXM1THY4M2NMT254SFRESGNsLVdReA?oc=5",
+          "domain": "bgr.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXNuRGM5SjNSczAxOEhpd0dUcjhsaXpVLUZwSENKelRCZmtWU1lyQ3loMGRKN1hQbHFUU2swVXY2SlJVam50Vmx2b0FpQTdVWi1QNTcta2pZb2NFRl9iNXk2M3Y3ZFJHdER1NGlnRHZGX1JwbUQzbDBEdXpyLTNpVG8xQ2hHLW5KQ3JiR2ZoMVYtWHU0Yi1ESVN0NlYtZlYxQzlNb2xlWUpEYkNN0gGyAUFVX3lxTE5TTk1HZUJnemZQNGhGSmJSNmR5X3kyU2E1a2pzb2dvd2poSUNVZVdMSjRZOGp1RXl5OU1FNmk3X0pGYXUxTllLNWI3aGYyWDZZdlZ3WWdNVDlkSTlPNkdLUmV5ZzAxMGFJUDRrUzZVU1cycjIxbHl2RnROX3B6TmppYmdkbF9ZVkxuTDZTaU9TYVdTU0tzaVNRVjQzM3l2VkZ4WWxlc1Z4NkFLLXoyM01kVVE?oc=5",
+          "domain": "bleepingcomputer.com",
+          "tier": "C"
+        },
+        {
+          "name": "Cyber Press",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jMnF3U2pJSHdTaF9mYkVndGJxR0xWUF9VS3lfbWV4ZUdBQUNXZ2NWQlBFSlVHUk4tblZ1VF9UR1U3dTl4RkU2Z1FwQUtOR0dudEdlUi0waUtpTXBxdmJtcFVCVDl4M0U2UEFYOUJkZmVfZHF1YnA00gF3QVVfeXFMTmMycXdTaklId1NoX2ZiRWd0YnFHTFZQX1VLeV9tZXhlR0FBQ1dnY1ZCUEVKVUdSTi1uVnVUX1RHVTd1OXhGRTZnUXBBS05HR250R2VSLTBpS2lNcHF2Ym1wVUJUOXgzRTZQQVg5QmRmZV9kcXVicDQ?oc=5",
+          "domain": "cyber-press.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Digital Watch Observatory",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wa0U3djJhbGsxT0tXcXVzV0lST2djbDdwdFBMYUFwVU5UX2NOLWxhdlV4WElvMGQtUXVCVVFTV2RhS0trVHNzRXMwV3Zjd09IV1hpQ013Yy1lYm40TjQxQmNsT2lTYjNiMHZnN0lBU1U0V1FZUGc?oc=5",
+          "domain": "digital-watch-observatory.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYjZYaHRoTDFWNG4xZHUyTldhdDU0b0hKNmtDLWdHS2w4cmpSWlRUTjdCd0Q4cmdOaWxKRktlb2JYVDZGZkVPRG9EcVJncFI2Mlc4ZjRodEk3XzNHS3FnQ3dPbTdub2ZVM2h6UXpCTEZySEZ5YThyVXBXSEwxSnF3eTRlMF9sYmpIN1cwX1R3bHAzZG9ESHc?oc=5",
+          "domain": "helpnetsecurity.com",
+          "tier": "C"
+        },
+        {
+          "name": "Infosecurity Magazine",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GMmg5V1RUSnp1X1NTSWxmYkVQOC03d1BhSUloOVkwd2dSeWNYQVktenZwY2s3Qng2aEx1M2pFVUhwRDJEMWpyZHp0UVl6d25XZE9RaTdzN3pxd3NfdXZuMFIyMjBEbW1ZVnJxMjMyOHdCdWpNVGtMc01Qa2tIRmc?oc=5",
+          "domain": "infosecurity-magazine.com",
+          "tier": "C"
+        },
+        {
+          "name": "Malwarebytes",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORXRpT1htbHpaVUs0Nk1ieDVmRFpPYlVzamxvbU5td0pSdHhGQUhpUGNrRExyRHo1UFlxNzJMbEFhWVhHMGJGcHphSlNZRkpHSGNicFRNZTFtbExVVXJDS0ZRSDNYNGw2NTA3T1o0T19NcVJiLTRfNGk5ZU1SNW5xZ094U2NreTZuOVlTQUlpVlNEU0U3b0VINlZURmFpSzc5REgxbWtLVmlaNUFwY0ZHcUNwd25NYXRZM0Z1MA?oc=5",
+          "domain": "malwarebytes.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Martin Cid Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaU04Y3d2UkpkTENXalZQOTY4T1BxZXZNamJwVlp5UWtIOVlaX3FWRWFrZkpqbmFMV3NaR2wwWTk3Z01PY3ZxNkQ4aUtjcVNnUFl2Q25la1Fabm1MTmV2N2VRUG55UjVzTVRVMEp4Q2ZKa1hWM0pmRXVFQ1p4Y0lVQ29DMGRMMTYyUFNN?oc=5",
+          "domain": "martin-cid-magazine.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUDFOTWdVZFRiNVBFWXBvUjJHcDl3TGlicl9KX1JTd3AzQVFWMWdhOFRYd2sxOHN6QzBhTm5lWUxCRFdFV01lQkoxb1RWZEFGeTljMnhNZThmYklaSFRtczhrTjlNaGdPTUhVeE90LU9NYmhiVVZyYkpJZDhIaklYRmdtVDJPT0RhdFdPcl9mT2lta2o2SjJXaXAtZlptS2tjVUpZVDNZS3lSYjNRMlJNOFY1TQ?oc=5",
+          "domain": "news-lavx-hu.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "GN Bug bounty",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fb08xbmZhUHN6LXNpckRxY3pic19vQ011dW1aWV82TzB3SHJZeDZlcnlIR0lOc1FkcUpKamNYSnZVSEJYSlJ5NTZObG9qMXl6TUhPYW9HVzZpTnR2ZG10eHNBS1RXbk1PcFBPaA?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
+        },
+        {
+          "name": "GN Bug bounty",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdWljcW96Z2E4QzNpZmNKOTBmd25wOFFwbFBIRUZSVWpGcTk4VjNvUS1DNmRoYlc3N2pPanBaemJmREE1Z2xzQmdYN0QxbHBfUnZDSlpObXhGN2x2elJwMFo5NkhPUkFQcTR6QnNhMGQ4VmcyRTNTeER4MkpvX2RoeFkzMWt6WFY2LUREcE93?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
+        },
+        {
+          "name": "samaa tv",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYUJKOW5ES2FpTjg5bnhPWnV5UTNqdHdDQlI3cEVpNzZEN3dJMk44VXQ3WXg1NmR1WFM0VVBLN3c0VHU5eW1qSlhZeGtXR0Q1RF9yNGNnNzVUdkdQaWVMSTZydERuQlVKZ2lhaE1SZnlXZGlmNjFrWDlPTFlvWkE4YWNfbWlyZzlRLWQ5NHNmVkNZUQ?oc=5",
+          "domain": "samaa-tv.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "SC Media",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdWs1QWM0MlR2eXpzeGVRSGhIdHhRVWpaWDhmeHhTQzlxcF82UTBFTTdrb08yU0dzN2lMdHI0NW1XbjVXS04wT2x0OWs2R0cxeVl3OTAyVVM3d0JhZGdNM0hKdWI5cGtLUEYzTHFpbzFnbVNEV3pXeVZmcEhiSE1zX2JVTkhvbHJBTlFhS0lCLUNXeF9FaGJSMmxURDQ4MndO?oc=5",
+          "domain": "sc-media.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVUZYYllfRlQ0ekFUU2pnUmk4QTdtdTdSQUljOXVzRlhxVlh2LXBXcmhaSWJnTF9kSGNLMXBwRGoxTGpESTlJaE4yQzh4Rmw1TEpUUi1PSFcxdmEwWWNyX2NfZUFwc3hhaVhJRGxsNnBQXzVST2pFUm00TTVBUkNsLXZfcC1tTjd6NHdOdmJMVTFEcGpwYVN1aC1iYzFsclhMcHQ0X2RjTjA2UdIBrwFBVV95cUxQcmtHZ21xREFTQllGVFB1Um1TYlhuX0FpeG45QVYxd3BpLWV3SWpfT3QyTTFfSDl0RGlZUFdQZmkwbDZIYXlCTElyNkFfTHdETzZieUZUV3ZIeVNzcmoweUhsenNwWHBMeUQ1WW1fR19JeVAydUtRZGlFZjZzSVJpUTF4Z1VnelVVd1BnNEF4TWl6NmphallyZ3lsc0VTQWhEeDItMlp1b2cxOG5WRVd3?oc=5",
+          "domain": "securityweek.com",
+          "tier": "C"
+        },
+        {
+          "name": "Technology Org",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdmN6dENYZWVEUndXdUUzd2tHWURvckNnUDJYOTBQOHcwem81ZkhCRk1RbkZickQzWV9YLVk2aDh1S0lRaVJNZXdhQTB0OVBrR3l5NkZLVFhIUlhRbF9ZX1g1R1BuZnd4aUtwbW9HYkswcEVkMExRWks1LVMxblhuTWMwM3RCdGdGNEtCRHhpeERSQU11?oc=5",
+          "domain": "technology-org.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd3dCTzFyQWpDYS1OaUI1enB1eDIxczNSaXZ2N1cwQWgyVXZGTTBXT21KZms5Nkg2aGFIcWhCbGpuN2EwMG1XRWNldUxRM0Jzdno5S05JeFRlcTRFUUdmVWNGdnphM3RhMFhTRm8wR0dzODhkeU5BSDVLUUdpVDQwY0lrN0w3YVdhdnZXNE9LY3I0YXRBVmpkUFgyaGxGVWdDYmNhVlZGdmU4QlYtUjhGcXBvMFJUWWhvamI5SjUyckl5MUNnRk92dw?oc=5",
+          "domain": "techradar.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The420.in",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hQ1M5MUkwRHl2VTlNNTJyTlhYU0tReVVEanpabUZHb3BKaV9QNnlwMnVTS0M2bjBYVU5xdG5qbjZDSWs1YmhQSnFmZlQweVN4VzVvajFMWm1yTmhobHdyYVNkZERlMncxcGdPVURCMDdsTlFhVWhJ?oc=5",
+          "domain": "the420-in.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU3p2NHRTelNycnZEenh3dnRwcFZwUEVfVEE0YUxNWHI2RE01RGNmUHFId1ZVWkpQY2lmYk9LeWxlX2VleV9sMXJGdF9EU3Y4T01PNlo0aXhwMDB4YWtHaWZSZHJhNFZ5NnpBUWF5WmJYYXB4dUxOZWgwUl85SlUxWg?oc=5",
+          "domain": "thehackernews.com",
+          "tier": "C"
+        },
+        {
+          "name": "TweakTown",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUFZjZjZvSU9HNVdQV0dmbzM5NGV6X2NyYXliRmpJaTkzR0NVeGxwLXJJMC1LdkJkWDZDejZHSWxTMVZVYXNzY015VkRnVFNlaUU0UTVCalVicm5ES29kV0JRUTUxS2FFOENIYkx1TkE3bGQ2a093YlJXVWFYWHFPT3BVaXZ3QWJWOF9QOV9QWHozSXhscWhqM1lQVGU5ZUl3V2dZQngzN3RaNm5JZHFyTHB6emQ2SDNUUXB4N3VKLUZtaV9pVEVFNy1R?oc=5",
+          "domain": "tweaktown.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "VOI.ID",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5ManNfM081YkFNWGdpa0FfNUhMZzktYTRZcFlfM1NYUkRBcWxaaC0wUnFpeUpxNTIzbXZOdm00XzlJS1ZGSGVQbDN3?oc=5",
+          "domain": "voi-id.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-10T05:29:55+00:00",
+      "published": "2026-10-05T07:37:21+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from cache",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-05 — outside lookback window"
     },
     {
-      "cluster_key": "18bcf672f422af67",
-      "title": "Poetry is the new AI security threat as PoeLLM malware infects 3K+ servers",
-      "category": "cyber_attacks",
-      "one_liner": "A broad set of updates covering SharePoint zero-days, local AI file access, and major shifts in the Nvidia-Microsoft hardware partnership.",
+      "cluster_key": "f6704f8deaf4ed85",
+      "title": "Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents",
+      "category": "tech_ai",
+      "one_liner": "DREAM is a neuro-inspired, training-free memory repair framework that protects LLM agents from backdoor and poisoning attacks with high efficiency.",
       "tags": [
         "agents",
         "ai",
-        "appsec",
-        "exploit",
-        "hardware",
+        "llm",
         "malware",
-        "ransomware",
-        "vulnerability"
+        "research",
+        "tool"
       ],
-      "summary": "This industry digest highlights several critical developments, including Microsoft's plan to allow Copilot local file system access and a failed patch for on-prem SharePoint currently under zero-day attack. In hardware, Nvidia committed $1B to secure US scientific computing, while Microsoft opted for Nvidia SoCs over Intel for the Surface Laptop Ultra. Security threats noted include Russian actors impersonating Signal support for phishing and the emergence of PoeLLM malware affecting over 3,000 servers. Additionally, Ubuntu's 'Stonking Stingray' beta has launched with deeper Rust integration and LLM-based speech-to-text features.",
+      "summary": "Researchers have introduced DREAM (Dynamic Reactivation for Engram Attenuation in Memory), a training-free memory repair framework designed to protect LLM agents against memory-poisoning and backdoor attacks. Inspired by neuroscientific memory reconsolidation, DREAM operates via a three-stage pipeline involving perturbation-induced implicit reactivation, adaptive anomaly diagnosis using activation patterns, and dynamic memory repair that suppresses malicious entries while reinforcing benign ones. Experiments show DREAM reduces attack success rates by over 95% against backdoor poisoning while achieving up to a 2.13x speedup and 37.7% token reduction compared to existing baselines like A-MemGuard. The framework effectively secures multi-agent systems and maintains high task utility without external isolation modules.",
       "key_facts": [
-        "Malware scale: 3,000+ servers",
-        "Nvidia investment: $1B",
-        "Surface Laptop Ultra price: $2,599 - $5,899",
-        "Acronis valuation: $3.5B+"
+        "Framework Name: DREAM (Dynamic Reactivation for Engram Attenuation in Memory)",
+        "Attack reduction: >95% against backdoor poisoning",
+        "Performance boost: Up to 2.13x speedup",
+        "Token reduction: 37.7%"
       ],
-      "bottom_line": "On-prem SharePoint is facing active zero-day exploitation following a failed Microsoft patch, while AI agents are gaining deeper local OS integration.",
+      "bottom_line": "LLM agents can effectively mitigate memory-poisoning attacks without external audit modules by using neuro-inspired selective forgetting frameworks like DREAM.",
       "claims": [
         {
-          "text": "On-prem SharePoint is under zero-day attack after a failed Microsoft patch.",
-          "support_span": "Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack",
+          "text": "DREAM is an agent-intrinsic training-free memory repair framework that enables selective functional forgetting of poisoned memories.",
+          "support_span": "we propose an agent-intrinsic training-free memory repair framework, DREAM (Dynamic Reactivation for Engram Attenuation in Memory), that enables selective functional forgetting of poisoned memories.",
           "status": "entailed"
         },
         {
-          "text": "PoeLLM malware has infected more than 3,000 servers.",
-          "support_span": "PoeLLM malware infects 3K+ servers",
+          "text": "DREAM reduces attack success rates by over 95% against backdoor poisoning while preserving strong benign utility.",
+          "support_span": "DREAM reduces attack success rates by over 95% against backdoor poisoning while preserving strong benign utility.",
           "status": "contradicted"
-        },
-        {
-          "text": "Microsoft is enabling Copilot to access local file systems.",
-          "support_span": "Microsoft is about to let Copilot loose on your file system",
-          "status": "entailed"
         }
       ],
-      "trust_score": 61,
-      "interest_score": 50,
-      "corroboration": 5,
-      "blend": 67.8,
-      "is_new": false,
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "18bcf672f422af67",
-        "258958e274f2510a",
-        "484ab9ed726a6ce5",
-        "57daa2d32ccf1dc3",
-        "fb4b2411ccc7e5fd"
+        "f6704f8deaf4ed85"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Register Security",
-          "url": "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
-          "domain": "theregister.com",
-          "tier": "B"
-        },
-        {
-          "name": "CTI Now",
-          "url": "https://cyberupdates365.com/poellm-malware-github-poem/?source=devto",
-          "domain": "cyberupdates365.com",
-          "tier": "C"
-        },
-        {
-          "name": "CTI Now",
-          "url": "https://ift.tt/urkFXmx",
-          "domain": "ift.tt",
-          "tier": "C"
-        },
-        {
-          "name": "Lumen Technologies",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVHQycjRqeE9yMklOYTVYVGx0UU53LXV3RnBYTkRIdEExalhPdUxQdHVrVG9lRXFiMlRuZzV6YXFMTkd6YWYxWnZhSFV6eFNXbHBNaTUzUG9tN0xrLW9pZmRTT1dpNE45eDVWbHhzMm9ZVThzSFZuNEtYVnFZazFxZkZR?oc=5",
-          "domain": "lumen-technologies.publisher",
-          "tier": "C"
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.13267",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-07T15:33:51+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2610.13267"
+      ],
+      "published": "2026-10-12T04:00:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "5 independent outlets (+36)",
-        "verified: 5 independent outlets",
-        "importance 3/5 from cache",
-        "blend 68 = trust 61 / interest 50 / corrob 100",
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "0fab180893cc4f4a",
-      "title": "JetBrains Mellum 2.1: 12B MoE Model Targets Coding Agents [2026] - https://tech-insider.org/",
-      "category": "tech_ai",
-      "one_liner": "JetBrains launches a 12B MoE model tailored for software development and coding agents.",
+      "cluster_key": "9a5d99eb41100f88",
+      "title": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
+      "category": "cyber_attacks",
+      "one_liner": "Organizations skipping security investments fall prey to ransomware, while major AI and infrastructure shifts unfold.",
       "tags": [
         "agents",
         "ai",
-        "llm",
-        "release"
+        "cloud",
+        "exploit",
+        "incident",
+        "malware",
+        "ransomware",
+        "vulnerability"
       ],
-      "summary": "JetBrains has released Mellum 2.1, a 12-billion parameter Mixture of Experts (MoE) AI model explicitly targeted at coding agents and developer workflows.",
+      "summary": "A news roundup highlights prominent technology and security developments, noting that cost-cutting organizations avoiding security investments frequently fall victim to ransomware and go bust. Other items cover Nvidia's $1B commitment to secure American scientific computing, Microsoft's upcoming local file-system agent integration, and ongoing zero-day attacks targeting unpatched on-premises SharePoint servers. Additionally, reports detail Russian threat actors posing as Signal support and EQT's majority acquisition of Swiss cybersecurity firm Acronis.",
       "key_facts": [
-        "Model: JetBrains Mellum 2.1",
-        "Architecture: 12B MoE"
+        "Valuation: $3.5B+ (Acronis acquisition)"
       ],
-      "bottom_line": "JetBrains Mellum 2.1 offers developers a specialized 12B MoE model optimized for automated coding tasks.",
+      "bottom_line": "Failing to invest in foundational cybersecurity practices leaves organizations highly vulnerable to fatal ransomware attacks and operational collapse.",
       "claims": [
         {
-          "text": "JetBrains Mellum 2.1: 12B MoE Model Targets Coding Agents [2026] - https://tech-insider.org/",
-          "support_span": "JetBrains Mellum 2.1: 12B MoE Model Targets Coding Agents [2026] - https://tech-insider.org/",
+          "text": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
+          "support_span": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
           "status": "contradicted"
+        },
+        {
+          "text": "EQT buys majority share in Swiss cybersecurity biz Acronis",
+          "support_span": "EQT buys majority share in Swiss cybersecurity biz Acronis",
+          "status": "entailed"
         }
       ],
-      "trust_score": 22,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 43.0,
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "0fab180893cc4f4a",
-        "3a02209391e0e2a2",
-        "5c0e870df00fd727"
+        "9a5d99eb41100f88",
+        "b88db602c4d9fc2d"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "MarkTechPost",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1dXa214MmlITzRLVk9GWUczZFdkQTR4Q3ZqOGVPNDNEZDFhcFpUU2IzVjVuVVFSQjNmNEJCVjZPYjk2VktkdEpFNFhpcGxOUFZkTzdPV0ZVbEtGVlcyM3p2ODhieF9QdFQ4TWs0WlpiWDRkX1RROWZFQ2JwenZvb2ZLbmpOdFRKaFUwZGE0M2pzNFliWV9YbU8zZm02QlRJLW9uZ2FCOW5qT0VC0gGsAUFVX3lxTFBTV1drbXgyaUhPNEtWT0ZZRzNkV2RBNHhDdmo4ZU80M0RkMWFwWlRTYjNWNW5VUVJCM2Y0QkJWNk9iOTZWS2R0SkU0WGlwbE5QVmRPN09XRlVsS0ZWVzIzenY4OGJ4X1B0VDhNazRaWmJYNGRfVFE5ZkVDYnB6dm9vZktuak50VEpoVTBkYTQzanM0WWJZX1htTzNmbTZCVEktb25nYUI5bmpPRUI?oc=5",
-          "domain": "marktechpost.publisher",
-          "tier": "C"
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/10/08/cheapskates-wouldnt-pay-for-security-help-got-hit-by-ransomware-and-went-bust-months-later/5301757",
+          "domain": "theregister.com",
+          "tier": "B"
         },
         {
-          "name": "GN LLM releases",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YSDBhbzNFUEs3ZkdMN3JyczdVTWlaT1lRZmhLVVFPYWt1NXNXaVNWaEtNWEhacC10RjR0SHk1eVFmNmU4bHFFd2RzQzBVTzlKNzFDVmJTOTE0TWx5MTdwc25KSzRES3Z5SEY3amxpRkowcU1JOENGdmRRUVFZQQ?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
-        },
-        {
-          "name": "shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wNEcxbWhKWjBQcS1LOUJPbFhEcmRkRl9tSUpJOFBwWno1TmJ2c3Y4WEV2SnB6cEgxeUx5T2Nhdy15M1ppbnVCLU03Z0F5c0gxME9IRGh5SlNZTlQ4bnRCNURsUkI2UV9lcXBKMDJvU0s?oc=5",
-          "domain": "shattered-io.publisher",
+          "name": "The Register",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWsyRW1sbFV4TFZiVmpDTTY3eFZHN1NXRldHYi1qVG56dlduOV9Ia1lFbU9JbENKSHRYMjU2VmRCMzYtcW1uMEw2U1dJQUJhdG9rNHFZQ1NmRXI3SjExcnVrU0VrRm5LZTBleUktZ1FaSWtPa0hScW11X2t4Mm5yTktvV2RpaWdhLXc3dDZFLVEtRmJNMkVfVV81WDNoRlo4b29aTENvbkdRVVdnbXRxdkdwa21iTmJvSkJBejJyQmZWNkltNm0wcGlmTHhoRDdmdElGbXpkWVVhTHlfeHBn?oc=5",
+          "domain": "theregister.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-08T16:17:35+00:00",
+      "published": "2026-10-08T08:15:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 43 = trust 22 / interest 50 / corrob 50"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "49ddff06e551479a",
-      "title": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
+      "cluster_key": "546e9eecee117dd0",
+      "title": "CVE-2026-108859 - mcp-go through 1.2.1 Denial of Service via Unbounded POST Body Buffering",
       "category": "cyber_attacks",
-      "one_liner": "Domain hijackers generated fake security certificates for Google and other major brands to evade browser warnings.",
+      "one_liner": "mcp-go up to 1.2.1 contains an unauthenticated DoS vulnerability via unbounded POST body buffering.",
       "tags": [
+        "agents",
+        "cve",
+        "exploit",
         "network",
-        "privacy",
         "vulnerability"
       ],
-      "summary": "Attackers successfully hijacked top-level domains and minted fraudulent security certificates for Google and other organizations, allowing them to conduct trusted brand impersonation without triggering standard browser certificate warnings.",
-      "key_facts": [],
-      "bottom_line": "Compromised top-level domains enabled attackers to issue valid-looking security certificates for major brands, bypassing standard browser browser security warnings.",
+      "summary": "CVE-2026-108859 is a denial of service vulnerability affecting mcp-go versions up to 1.2.1 within the StreamableHTTPServer.ServeHTTP function. Remote unauthenticated attackers can exploit this flaw by sending oversized or numerous concurrent POST bodies that are read entirely via io.ReadAll before validation. This behavior causes memory exhaustion, which can degrade performance or trigger an OOM-kill of the server process.",
+      "key_facts": [
+        "Vulnerability: CVE-2026-108859",
+        "Affected Software: mcp-go through 1.2.1",
+        "Impact: Denial of Service via memory exhaustion"
+      ],
+      "bottom_line": "Unauthenticated attackers can crash mcp-go servers up to version 1.2.1 through memory exhaustion via oversized POST bodies.",
       "claims": [
         {
-          "text": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
-          "support_span": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
+          "text": "CVE-2026-108859 mcp-go through 1.2.1 contains a denial of service vulnerability in StreamableHTTPServer.ServeHTTP that allows remote unauthenticated attackers to exhaust memory by sending oversized POST bodies.",
+          "support_span": "CVE-2026-108859 mcp-go through 1.2.1 contains a denial of service vulnerability in StreamableHTTPServer.ServeHTTP that allows remote unauthenticated attackers to exhaust memory by sending oversized POST bodies.",
           "status": "contradicted"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "546e9eecee117dd0"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-108859",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-11T14:17:05+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0bb537de93aa86aa",
+      "title": "CPRI Recruitment 2026: Registration Closing Today For 110 Posts, Check Selection Process",
+      "category": "india_world",
+      "one_liner": "Truncated notice regarding the closing of CPRI Recruitment 2026 registrations for 110 posts.",
+      "tags": [
+        "india"
+      ],
+      "summary": "This article is a truncated or headline-only notice indicating that registration for CPRI Recruitment 2026 across 110 posts closes today. No comprehensive details regarding the selection process or job requirements are included in the text.",
+      "key_facts": [
+        "Vacancies: 110 posts"
+      ],
+      "bottom_line": "This article is incomplete and provides no actionable briefing beyond registration closing notification.",
+      "claims": [
+        {
+          "text": "Registration closing today for 110 posts.",
+          "support_span": "CPRI Recruitment 2026: Registration Closing Today For 110 Posts, Check Selection Process",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 13.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0bb537de93aa86aa"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/education/cpri-recruitment-2026-registration-closing-today-for-110-posts-check-selection-process-12171761#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T02:53:32+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0419de820a0c85c8",
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "category": "cyber_attacks",
+      "one_liner": "A third arrest in the ShinyHunters FBI breach highlights a critical supply-chain failure involving unpatched contractor-managed software.",
+      "tags": [
+        "dfir",
+        "incident",
+        "ransomware",
+        "supply-chain",
+        "threat-actor",
+        "vulnerability"
+      ],
+      "summary": "The FBI has arrested a Canadian suspect in Pennsylvania believed to be involved in the ShinyHunters breach of the FBI's jobs portal. This marks the third arrest related to the incident, which exposed sensitive medical, psychiatric, and personal data of FBI agents and applicants. The breach was traced to a contractor's failure to apply a security patch on a platform reportedly identified as Oracle PeopleSoft managed by Accenture. FBI Director Kash Patel stated the agency is continuing to work with international partners to dismantle the remaining elements of the ShinyHunters group.",
+      "key_facts": [
+        "Arrest date: October 9, 2026",
+        "Suspect nationality: Canadian",
+        "Platform: Oracle PeopleSoft",
+        "Contractor: Accenture (reported)"
+      ],
+      "bottom_line": "The FBI jobs portal breach, which leaked sensitive agent data, was caused by a contractor's failure to patch a known vulnerability on an Oracle PeopleSoft platform.",
+      "claims": [
+        {
+          "text": "A Canadian suspect was arrested in Pennsylvania for suspected involvement in the ShinyHunters FBI hack.",
+          "support_span": "The suspect is a Canadian citizen who was arrested in Pennsylvania... reported that the arrest was made on suspicion of involvement in the theft of FBI data.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The breach resulted from a contractor failing to implement a security patch.",
+          "support_span": "the breach resulted from a security failure on a platform managed by an outside organization. It happened after \"a contractor failed to implement a security patch explicitly issued to secure the platform\"",
+          "status": "contradicted"
+        },
+        {
+          "text": "The stolen data included psychiatric and medical information of FBI employees.",
+          "support_span": "data that ShinyHunters shared contained extensive personal information on FBI employees, details of sensitive job roles, and psychiatric and medical information",
+          "status": "entailed"
         }
       ],
       "trust_score": 61,
       "interest_score": 75,
       "corroboration": 4,
       "blend": 79.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "49ddff06e551479a",
-        "55e5ae919c466fe4",
-        "865e91f8c568cec8",
-        "b9f5e1afc2dd31df"
+        "0419de820a0c85c8",
+        "43d8a91bc2a7ef23",
+        "684bbc69036c8e57",
+        "79f5c436374a0aa6"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Infosecurity Magazine",
-          "url": "https://www.infosecurity-magazine.com/news/attackers-hijack-cctlds-obtain/",
-          "domain": "infosecurity-magazine.com",
-          "tier": "B"
-        },
-        {
-          "name": "Malwarebytes Labs",
-          "url": "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services",
-          "domain": "malwarebytes.com",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+          "domain": "bleepingcomputer.com",
           "tier": "B"
         },
         {
           "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+          "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
           "domain": "thehackernews.com",
           "tier": "B"
         },
         {
-          "name": "The Register Security",
-          "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
-          "domain": "theregister.com",
+          "name": "The Record",
+          "url": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
+          "domain": "therecord.media",
           "tier": "B"
+        },
+        {
+          "name": "The Record from Recorded Future News",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MMFlxVUY0RE9aX0ZmTEpvSWlxTmZ6QmNycjl4WUVnekF0VmgzRnMxaTloLWNtdV9URnBmbWcxM0d1c29heExsZkUtTTJDUTZYZnhsalgzUGpNeXhIQjdzSk1QNnU3SDR0WmRTUV9tT0Qya1B5MmVjYlhUMktYUQ?oc=5",
+          "domain": "the-record-from-recorded-future-news.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T18:48:17+00:00",
+      "published": "2026-10-09T15:41:00+00:00",
       "trace": [
         "tier B (+25)",
         "4 independent outlets (+36)",
         "verified: 4 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 79 = trust 61 / interest 75 / corrob 100",
         "demoted: critical capped at 5"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "490255905b02de66",
-      "title": "Law Firm Data Breaches Hit Holland & Knight, 14 Clients [2026] - https://tech-insider.org/",
-      "category": "cyber_attacks",
-      "one_liner": "Holland & Knight and 14 clients impacted by a law firm data breach.",
+      "cluster_key": "fbb1a4f8347eda5e",
+      "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+      "category": "tech_ai",
+      "one_liner": "JANUS uses co-evolving world models to forecast and prune paths for long-horizon autonomous AI research agents.",
       "tags": [
-        "incident",
-        "privacy"
-      ],
-      "summary": "The text is truncated to a headline and URL indicating that a law firm data breach has impacted Holland & Knight alongside 14 clients in 2026.",
-      "key_facts": [
-        "Affected clients: 14",
-        "Target: Holland & Knight"
-      ],
-      "bottom_line": "Law firm data breaches continue to cascade into client-side exposures.",
-      "claims": [
-        {
-          "text": "Law firm data breaches hit Holland & Knight and 14 clients.",
-          "support_span": "Law Firm Data Breaches Hit Holland & Knight, 14 Clients [2026] - https://tech-insider.org/",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 10.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "490255905b02de66"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GN Breach watch",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByS0tIMmNXU3NXSGpkRDJWSTVIdVFXX2lVRHl4NzVlTmJrNzl3Mmw0OWlzVlNUbmp1N25YWjBWOEtRdGJ0ZFpvRUtmeHM0MEpNbTVtNjVIMGdfTlNwSU94WWZEUGNqYnpKakN3OVMtOVlodmswdTJF?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-10T18:41:33+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 10 = trust 10 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "82827d99d9afd56f",
-      "title": "GitHub Halved Its Bug Bounty Payouts. The People Who Lose Most Aren’t the Ones You Think.",
-      "category": "cyber_tools",
-      "one_liner": "Reduction in GitHub bug bounty payouts disproportionately impacts beginner security researchers trying to enter the market.",
-      "tags": [
-        "appsec",
-        "bugbounty",
+        "agents",
+        "ai",
+        "llm",
         "research",
-        "vulnerability"
+        "tool"
       ],
-      "summary": "GitHub's decision to halve its bug bounty payouts is creating a two-tier market where security beginners face increased difficulty establishing themselves.",
-      "key_facts": [],
-      "bottom_line": "Lowered bug bounty payouts by major platforms like GitHub exacerbate entry barriers for new security researchers.",
+      "summary": "Researchers proposed JANUS, a framework to enhance long-horizon autonomous scientific research by combining future forecasting and past reflection via a co-evolving world model. Operating inside an evolving graph, the world model scores candidate branches on value improvement and information gain before tool execution, pruning inefficient paths. Evaluations on MLS-Bench-Lite show that JANUS outperforms state-of-the-art baselines in both evolutionary efficiency and performance ceiling.",
+      "key_facts": [
+        "Benchmark: MLS-Bench-Lite"
+      ],
+      "bottom_line": "Co-evolving world models mitigate feedback delays in autonomous AI research by pre-evaluating hypotheses before costly execution steps.",
       "claims": [
         {
-          "text": "GitHub Halved Its Bug Bounty Payouts. The People Who Lose Most Aren’t the Ones You Think.",
-          "support_span": "GitHub Halved Its Bug Bounty Payouts. The People Who Lose Most Aren’t the Ones You Think.",
+          "text": "To address this challenge, we propose JANUS, a framework that unifies future outcomes forecasting and past experience reflection through a Predict-Verify-Evolve loop driven by a co-evolving world model.",
+          "support_span": "To address this, we propose JANUS, a framework that unifies future outcomes forecasting and past experience reflection through a Predict-Verify-Evolve loop driven by a co-evolving world model.",
           "status": "contradicted"
         }
       ],
-      "trust_score": 10,
-      "interest_score": 25,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 21.2,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "82827d99d9afd56f"
+        "fbb1a4f8347eda5e"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Medium bug bounty",
-          "url": "https://medium.com/@riyalimba/github-halved-its-bug-bounty-payouts-the-people-who-lose-most-arent-the-ones-you-think-21bb9f3481a7?source=rss------bug_bounty-5",
-          "domain": "medium.com",
-          "tier": "C"
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.13194",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-10T13:27:00+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2610.13194"
+      ],
+      "published": "2026-10-12T04:00:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1547,18 +1681,17 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 25,
       "interest_score": 50,
-      "corroboration": 2,
-      "blend": 46.8,
+      "corroboration": 1,
+      "blend": 36.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "92e4233ce3ff40a3",
-        "b2f07f7f06e7d422"
+        "92e4233ce3ff40a3"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
@@ -1566,22 +1699,16 @@
           "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
           "domain": "techcrunch.com",
           "tier": "B"
-        },
-        {
-          "name": "Medium pentesting",
-          "url": "https://thexssrat.medium.com/the-owasp-top-10-2025-is-here-and-you-can-hack-every-item-live-6b449f74d783?source=rss------penetration_testing-5",
-          "domain": "thexssrat.medium.com",
-          "tier": "C"
         }
       ],
       "primary_links": [],
       "published": "2026-10-10T14:00:00+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 47 = trust 37 / interest 50 / corrob 50"
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from cache",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1632,159 +1759,178 @@
       "trace": [
         "tier A (+40)",
         "single outlet, established publication (tier A)",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "54cf562ae7e217e3",
-      "title": "longsurf-ai/openchart — OSS trading workspace with agents",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "0e5436a59437ca47",
+      "title": "Appointments in Election Commission of India | Explained",
+      "category": "india_world",
+      "one_liner": "IAS officer Prakash Rajpurohit is appointed as Deputy Election Commissioner in the ECI following Sanjay Kumar's repatriation.",
       "tags": [
-        "agents",
-        "ai",
-        "hardware",
         "howto",
-        "opensource",
-        "research"
+        "india",
+        "policy",
+        "political"
       ],
-      "summary": "Download Desktop · Self-hosting · Features · Tea OpenChart brings AI agents into every step of your investment journey: statistical and technical analysis with code and charts, real-time responses to market events with alerts, opportunity discovery through agentic research, and more. OpenChart is not built to monetize software, but to explore a future where humans and agents manage assets together. If you believe in this future and want to join forces, we want to talk to you. Download Desktop for macOS (Apple Silicon), open the disk image, and install OpenChart. To run Desktop from source, install Node.js 24, npm 11.11.1, Bun 1.4.2, and Just, then run: git clone cd openchart just install --…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "54cf562ae7e217e3"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/longsurf-ai/openchart",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-05T16:16:41+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-05 — outside lookback window"
-    },
-    {
-      "cluster_key": "5de8faad0b7c86a4",
-      "title": "\"create the ultimate brutalist city builder.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu \"create the ultimate brutalist city builder. you should have lots of controls over buildings in ways that are delightful and intuitive to people...\" Here is Fable 5.1, a little over a year since GPT-5 below & a single shot (compared with many rounds with GPT-5.6) Quite good: brut-city.netlify.app [contains quote post or other embedded content] 2026-10-04T15:29:52.466Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "5de8faad0b7c86a4"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx2prvytik2c",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-04T15:29:51.298000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-04 — outside lookback window"
-    },
-    {
-      "cluster_key": "38f8cbc7334120ae",
-      "title": "llm-openai-decisions 0.1a0",
-      "category": "tech_ai",
-      "one_liner": "A new CLI plugin enables easy access to OpenAI's multimodal Decisions API for structured classification tasks.",
-      "tags": [
-        "ai",
-        "howto",
-        "llm",
-        "release",
-        "tool",
-        "windows"
-      ],
-      "summary": "OpenAI has released the Decisions API, a new tool for classification tasks that supports text and image inputs. A new plugin, `llm-openai-decisions`, has been developed to integrate this API with the LLM CLI tool, allowing users to run predicate, choice, or score queries. The underlying `gpt-6-luna` model is priced at 10 cents per million input tokens, with no charge for output tokens. This follows the pattern of the Jev-style API but adds multimodal capabilities.",
+      "summary": "Prakash Rajpurohit, a 2010-batch IAS officer, has been appointed as a Deputy Election Commissioner in the Election Commission of India, filling the vacancy left by Sanjay Kumar's premature repatriation. Sanjay Kumar previously signed the ECI's June 2025 order initiating the nationwide Special Intensive Revision (SIR) of electoral rolls and was central to internal administrative disputes regarding file routing. The appointment process falls under the Central Staffing Scheme managed by the Department of Personnel and Training (DoPT) and requires approval from the Appointments Committee of the Cabinet. This administrative structure governs central deputation across constitutional bodies and ministries.",
       "key_facts": [
-        "Model: gpt-6-luna",
-        "Input cost: $0.10 per million tokens",
-        "Output cost: $0.00",
-        "Plugin name: llm-openai-decisions"
+        "New Appointee: Prakash Rajpurohit (IAS, 2010 batch)",
+        "Position: Deputy Election Commissioner (DEC)",
+        "Predecessor: Sanjay Kumar"
       ],
-      "bottom_line": "OpenAI's new Decisions API offers a cost-effective way to perform image and text classification with zero output token costs.",
+      "bottom_line": "The appointment of a new Deputy Election Commissioner in the ECI follows internal controversies regarding electoral roll revisions and file routing procedures.",
       "claims": [
         {
-          "text": "OpenAI released the Decisions API which supports image and text input.",
-          "support_span": "OpenAI released their new Jev-style Decisions API... the new gpt-6-luna decision model supports image input in addition to text.",
+          "text": "Prakash Rajpurohit, an IAS officer of the 2010 batch, has been appointed as a Deputy Election Commissioner in the Election Commission of India.",
+          "support_span": "Prakash Rajpurohit, an IAS officer of the 2010 batch, has been appointed as a Deputy Election Commissioner (DEC) in the Election Commission of India (ECI)",
+          "status": "entailed"
+        },
+        {
+          "text": "The vacancy was caused by the premature repatriation of Sanjay Kumar, who signed the ECI’s June 24, 2025, order initiating the SIR in the country.",
+          "support_span": "filling the vacancy caused by the premature repatriation of Sanjay Kumar, who was in-charge of the Electoral Rolls and IT division... who had signed the ECI’s June 24, 2025, order initiating the SIR in the country.",
           "status": "contradicted"
-        },
-        {
-          "text": "The gpt-6-luna model costs 10 cents per million input tokens.",
-          "support_span": "OpenAI's is 10 cents per million input tokens",
-          "status": "entailed"
-        },
-        {
-          "text": "The llm-openai-decisions plugin allows running queries against image attachments.",
-          "support_span": "llm -m openai-decisions/gpt-6-luna \\ -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \\ -s 'Does this image contain any mammals?'",
-          "status": "entailed"
         }
       ],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 36.2,
-      "is_new": false,
+      "blend": 25.0,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "38f8cbc7334120ae"
+        "0e5436a59437ca47"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-          "domain": "simonwillison.net",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/appointments-in-election-commission-of-india-explained/article71573891.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-06T23:04:13+00:00",
+      "published": "2026-10-12T05:58:01+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "b0f68a37d5d0c0cd",
+      "title": "Collaborative Learning and Reasoning over Model Slices",
+      "category": "tech_ai",
+      "one_liner": "Collaborative learning over heterogeneous model slices improves reasoning accuracy while maintaining high inference efficiency.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers proposed collaborative learning to replace single large language models with heterogeneous smaller model slices under equivalent parameter budgets. Using 'pyramid supervision' combining protocol distillation and step-level supervision, the framework coordinates interactions across models to reassess reasoning steps. Evaluations across multi-hop QA, mathematical reasoning, and code generation demonstrate that the sliced models achieve comparable or superior task performance with higher inference efficiency than multi-agent baselines.",
+      "key_facts": [],
+      "bottom_line": "Replacing a monolithic LLM with coordinated, heterogeneous smaller model slices eliminates blind spots and increases execution efficiency.",
+      "claims": [
+        {
+          "text": "Specifically, \textit{model slicing} replaces a large model with smaller, heterogeneous models under a comparable parameter budget, enabling prior reasoning to be reassessed across distinct model parameterizations.",
+          "support_span": "Specifically, \textit{model slicing} replaces a large model with smaller, heterogeneous models under a comparable parameter budget, enabling prior reasoning to be reassessed across distinct model parameterizations.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b0f68a37d5d0c0cd"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.12927",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.12927"
+      ],
+      "published": "2026-10-12T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0956bcc82289f17f",
+      "title": "Web$hell: A Unified Interface for Agentic Web Access",
+      "category": "tech_ai",
+      "one_liner": "Web$hell provides a unified interface and caching architecture to streamline agentic web access, navigation, and research tasks.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "research"
+      ],
+      "summary": "Researchers have introduced Web$hell, a unified interface designed to handle agentic web access across search-augmented, browser-based, and filesystem-based models. By utilizing a schema called WebContract, WebCompiler compiles live webpages into addressable information and action objects stored in WebCache, giving LLM agents a persistent and consistent interface. Experiments across web search, navigation, and deep research benchmarks demonstrate that Web$hell achieves high task performance at a lower operational cost.",
+      "key_facts": [],
+      "bottom_line": "Web$hell unifies fragmented web access paradigms for LLM agents into a single persistent cache and compiler architecture, improving efficiency.",
+      "claims": [
+        {
+          "text": "To this end, we present WebŞhell, an interface that unifies web access under a single access model.",
+          "support_span": "To this end, we present WebŞhell, an interface that unifies web access under a single access model.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0956bcc82289f17f"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.13416",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.13416"
+      ],
+      "published": "2026-10-12T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }
