@@ -1,33 +1,67 @@
 {
-  "generated_at": "2026-10-13T08:17:26.515729+00:00",
+  "generated_at": "2026-10-14T06:40:43.933659+00:00",
   "items": [
+    {
+      "cluster_key": "595085953aeea904",
+      "title": "franzenzenhofer/big-arrow-on-the-screen — Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "big-arrow-on-the-screen (bigarrow) is a macOS command-line tool, plus a skill for Claude Code and Codex, that draws an arrow and a sign on top of every window. Clicks go through, your keyboard focus stays put, and the arrow removes itself. Real apps · Copy & paste · What is it for? Install · Commands · Looks · Creative arrows · Starred by · FAQ · How we know it works · For agents · Plan · Prior art · License Your AI agent can refactor a monorepo, write a migration and explain monads, but when it needs you to click one button it prints \"please click Allow in the dialog\" into a terminal you are not looking at. bigarrow point --element \"Allow\" --app \"System Settings\" --text \"Franz, click Allow…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "595085953aeea904"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-08T08:39:15+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-08 — outside lookback window"
+    },
     {
       "cluster_key": "ef05ac99eb85ac32",
       "title": "From The Lancet: in an urgent care setting, the advice of the obsolete Gemini 2.5 Pro & Gemini 2.5 Flash (without access to patient medical records)…",
       "category": "tech_ai",
-      "one_liner": "Older Gemini models provided urgent care advice comparable in quality to doctors without causing safety issues, according to The Lancet.",
+      "one_liner": "",
       "tags": [
-        "ai",
         "llm"
       ],
-      "summary": "A study published in The Lancet evaluated the performance of Gemini 2.5 Pro and Gemini 2.5 Flash in an urgent care setting without access to patient medical records. Physician reviewers rated the AI-generated advice as being of similar quality to recommendations made by doctors, with no safety issues identified. Since the evaluation, newer models have achieved significantly higher performance levels.",
-      "key_facts": [
-        "Models evaluated: Gemini 2.5 Pro, Gemini 2.5 Flash"
-      ],
-      "bottom_line": "The Lancet study found that obsolete Gemini models provided urgent care advice comparable in quality to doctors without exhibiting safety issues.",
-      "claims": [
-        {
-          "text": "In an urgent care setting, the advice of Gemini 2.5 Pro & Gemini 2.5 Flash were rated of similar quality to doctors by other physicians.",
-          "support_span": "From The Lancet: in an urgent care setting, the advice of the obsolete Gemini 2.5 Pro & Gemini 2.5 Flash (without access to patient medical records)… From The Lancet: in an urgent care setting, the advice of the obsolete Gemini 2.5 Pro & Gemini 2.5 Flash (without access to patient medical records) were rated of similar quality to doctors by other physicians.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu From The Lancet: in an urgent care setting, the advice of the obsolete Gemini 2.5 Pro & Gemini 2.5 Flash (without access to patient medical records) were rated of similar quality to doctors by other physicians. Models have gotten significantly better since.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "ef05ac99eb85ac32"
       ],
@@ -45,12 +79,9 @@
       "primary_links": [],
       "published": "2026-10-09T04:28:56.881000+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-09 — outside lookback window"
     },
     {
       "cluster_key": "a19cd65ff59ef2fb",
@@ -93,55 +124,70 @@
       "reject_reason": "published 2026-10-07 — outside lookback window"
     },
     {
-      "cluster_key": "f87b670979c65b4f",
-      "title": "I think most people who have been closely watching AI for the past few years are likely surprised by how relatively rare terrible AI incidents have…",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "00386e84cf4f503e",
+      "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+      "category": "cyber_tools",
+      "one_liner": "A comprehensive curated repository of reverse-engineering tools, binaries analysis frameworks, and learning resources.",
       "tags": [
-        "ai"
+        "agents",
+        "howto",
+        "linux",
+        "malware",
+        "opensource",
+        "release",
+        "research",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I think most people who have been closely watching AI for the past few years are likely surprised by how relatively rare terrible AI incidents have been, given a billion users overall and hundreds of millions of corporate users. Doesn’t mean that will continue, but still its surprising.",
+      "summary": "This repository provides a curated list of reverse-engineering tools, learning resources, and references covering binaries, applications, firmware, formats, and protocols. Featured sections include ARM assembly tutorials, compiler exploration tools, binary format layout posters, and capture-the-flag training environments. Tools range from static analysis helpers and PE viewers like PE-bear and pestudio to interactive disassemblers like Binary Ninja and Ghidra. It serves as a comprehensive reference catalog for practitioners analyzing compiled software and hardware security.",
       "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "bottom_line": "Practitioners can use this catalog as a reference guide for binary analysis, reverse engineering tools, and learning materials.",
+      "claims": [
+        {
+          "text": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+          "support_span": "curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
+      "blend": 32.5,
       "is_new": false,
-      "summary_source": "extract",
+      "summary_source": "model",
       "alt_keys": [
-        "f87b670979c65b4f"
+        "00386e84cf4f503e"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx7q4lupt22f",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/morluto/awesome-reverse-engineering",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-06T15:19:08.460000+00:00",
+      "published": "2026-10-09T14:58:20+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-06 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "762036df844e6b50",
-      "title": "I released an LLM plugin for sending prompts to OpenAI's new Jev-clone decision model that's based on GPT-6 Luna simonwillison.net/2026/Oct/6/l...",
+      "cluster_key": "cb9fd60e3634d4de",
+      "title": "iamumeransari/claude-show-your-work — Claude Code shows images and plays videos right in your terminal: screenshots, Playwright recordings, and sync",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "llm",
-        "release",
-        "windows"
+        "opensource"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I released an LLM plugin for sending prompts to OpenAI's new Jev-clone decision model that's based on GPT-6 Luna 2026-10-07T00:32:52.330Z",
+      "summary": "Claude Code can show you pictures and play videos in the terminal. A Claude Code plugin that lets you see Claude's work without leaving the terminal: web pages, designs, charts, videos and recordings of your app being tested. Run these two commands in Claude Code: /plugin marketplace add /plugin install show-your-work@iamumeransari You need macOS, the Ghostty terminal and Claude Code 2.1.287 or later. Videos also need ffmpeg: run brew install ffmpeg, or ask Claude to install it. When the install finishes, a short tour shows you around.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -152,35 +198,35 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "762036df844e6b50"
+        "cb9fd60e3634d4de"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mxap2pofos2t",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/iamumeransari/claude-show-your-work",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T00:32:51.343000+00:00",
+      "published": "2026-10-08T11:57:55+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-07 — outside lookback window"
+      "reject_reason": "published 2026-10-08 — outside lookback window"
     },
     {
-      "cluster_key": "fd1c729be5119c22",
-      "title": "After a brief but institution-eroding slop science era, it increasingly looks like we are going to have 2 revolutions from AI: 1) Everything ever…",
+      "cluster_key": "4b92f856cf845074",
+      "title": "As a researcher who did early some work on the productivity impacts of AI chatbots using RCTs, I’d note a lack of similar studies since the dawn of…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "ai"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu After a brief but institution-eroding slop science era, it increasingly looks like we are going to have 2 revolutions from AI: 1) Everything ever published will be re-read and re-judged in ways that human scientists never anticipated 2) Novel discoveries will start to come faster than we can absorb 2026-10-07T01:38:28.684Z",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu As a researcher who did early some work on the productivity impacts of AI chatbots using RCTs, I’d note a lack of similar studies since the dawn of true agents last fall Partially that is newness & partially research design challenges, but I suspect we are missing some large & important effects 2026-10-08T12:22:49.963Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -191,7 +237,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "fd1c729be5119c22"
+        "4b92f856cf845074"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -199,29 +245,25 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxasq2guls2c",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxeh745nhk2x",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T01:38:28.500000+00:00",
+      "published": "2026-10-08T12:22:47.657000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-07 — outside lookback window"
+      "reject_reason": "published 2026-10-08 — outside lookback window"
     },
     {
-      "cluster_key": "07095bf1c85c418e",
-      "title": "pullboard-dev/pullboard — Autonomous development for real products. Agents build from the spec you approve, and nothing ships until anot",
+      "cluster_key": "631756c5e40b8c08",
+      "title": "This document is going to be an assigned reading in college classes that cover this moment in time, there's a lot happening in a few paragraphs...",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [
-        "agents",
-        "opensource",
-        "release"
-      ],
-      "summary": "pullboard.dev · lives in your git repo · no account · no dependencies · never calls a model Accumulated judgement for agents. Agents are good at tasks and bad at projects: every new session starts without what you decided, so you become the glue. The agents scale; your judgement doesn't. Pullboard is a structural approach to orchestrating agents coherently over long-term builds, so you can trust your agentic workforce to fill in the blanks the way you would, without re-prompting them. Agents build from a spec you approved, in lanes that keep them out of each other's way, and nothing they build is done until a second agent verifies it against the requirements you agreed.",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu This document is going to be an assigned reading in college classes that cover this moment in time, there's a lot happening in a few paragraphs... www.ahmath.org/statements 2026-10-08T17:29:34.055Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -232,94 +274,62 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "07095bf1c85c418e"
+        "631756c5e40b8c08"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/pullboard-dev/pullboard",
-          "domain": "github.com",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxeydeufnc2h",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T04:14:39+00:00",
+      "published": "2026-10-08T17:29:24.625000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-07 — outside lookback window"
+      "reject_reason": "published 2026-10-08 — outside lookback window"
     },
     {
-      "cluster_key": "467a9884ef2d43cc",
-      "title": "chienbm98/foxprofile — Free, open-source anti-detect browser profile manager: per-profile fingerprint, cookies and proxy, Camoufox an",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "a9f64dded404b64f",
+      "title": "LovelyTeams/LovelyCarve — a forensic carver with a soft heart · 基于 Rust、Tauri 2 与 Vue 3 的桌面磁盘取证与数据恢复工具：只读解析镜像、文件系统与加密卷，提供原类型预览、全局搜索、时间线、",
+      "category": "cyber_tools",
+      "one_liner": "LovelyCarve is a fast, Rust-based desktop forensic suite featuring read-only container decryption and built-in timeline carving.",
       "tags": [
-        "agents",
-        "hardware",
-        "opensource",
-        "release"
-      ],
-      "summary": "Free, open-source manager for anti-detect browser profiles Per-profile device fingerprint, cookies and proxy · Two engines: Camoufox (Firefox) and Chrome · English and Vietnamese UI · REST API and MCP for automation English · Tiếng Việt Quick start · Features · REST API · MCP · Contributing FoxProfile manages anti-detect browser profiles: each profile is a separate identity with its own device fingerprint, cookies, proxy, timezone and locale. The default browser is Camoufox, a Firefox build that spoofs fingerprints at the engine level; an experimental Chrome engine based on fingerprint-chromium is also available. It is a self-hosted alternative, on your machine or a VPS, to paid anti-detect…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "467a9884ef2d43cc"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/chienbm98/foxprofile",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-07T19:48:26+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-07 — outside lookback window"
-    },
-    {
-      "cluster_key": "7ba409adfc553517",
-      "title": "mcpdelta/mcpdelta — Delta MCP is a free app that sits between your AI apps and their MCP servers: one program per task instead of ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "howto",
+        "dfir",
         "linux",
+        "llm",
         "opensource",
+        "privacy",
+        "research",
         "tool",
         "windows"
       ],
-      "summary": "The free app that makes your AI’s MCP tools faster, cheaper and undoable. Website · How it works · Benchmarks · Docs · Download: coming soon Delta MCP is a free app that sits between your AI apps and their MCP servers. Your AI does each task as one program instead of one tool call per step. Delta MCP checks it before the first call, makes the fewest calls, all or nothing, reads the result back, records it and can undo it. It works with the MCP servers you already use.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "LovelyCarve is an open-source, desktop disk forensics and data recovery tool built using Rust, Tauri 2, and Vue 3, tailored for digital forensics, incident response, and CTF investigations. It treats forensic evidence strictly as read-only, implementing native Rust readers for disk images, logical evidence, file systems, and encrypted containers like BitLocker, LUKS, and VeraCrypt without generating unencrypted plain-text copies. The application includes robust features such as case management with hash audits, file browsing, multi-format previewing, global regex searching, timeline generation, file carving across 14 formats, and C ABI-based plugin analysis.",
+      "key_facts": [
+        "Tech stack: Rust, Tauri 2, Vue 3",
+        "Supported formats: GPT, MBR, LVM2, BitLocker, LUKS, VeraCrypt, FileVault 2"
+      ],
+      "bottom_line": "LovelyCarve offers a memory-safe, Rust-powered desktop application for forensic disk analysis, file carving, and evidence auditing.",
+      "claims": [
+        {
+          "text": "基于 Rust、Tauri 2 与 Vue 3 的桌面磁盘取证与数据恢复工具：只读解析镜像、文件系统与加密卷",
+          "support_span": "基于 Rust、Tauri 2 与 Vue 3 的桌面磁盘取证与数据恢复工具：只读解析镜像、文件系统与加密卷",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "7ba409adfc553517"
+        "a9f64dded404b64f"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -327,17 +337,61 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/mcpdelta/mcpdelta",
+          "url": "https://github.com/LovelyTeams/LovelyCarve",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-07T17:53:23+00:00",
+      "published": "2026-10-12T13:38:35+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "af8532be1214db5c",
+      "title": "1105216375-alt/resimind — Neuro-symbolic agents with verified memory. MCP math tools, an algebra repair Skill, and an open challenge. Ve",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "opensource",
+        "windows"
+      ],
+      "summary": "Run the demo · Connect MCP · Install the Skill · Take the challenge · 中文 ResiMind is an open-source neuro-symbolic Agent architecture that connects independent verification, residual-guided self-correction and reusable rule memory. Your model, rules or symbolic tools propose a step; domain checks decide what becomes a fact. Failed checks tell the next attempt what still needs fixing. A checked solution can become a checked rule. Explicit learning extracts candidate rules from completed derivations, independently verifies admission, and rechecks each future application.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "af8532be1214db5c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/1105216375-alt/resimind",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-08T02:15:17+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-07 — outside lookback window"
+      "reject_reason": "published 2026-10-08 — outside lookback window"
     },
     {
       "cluster_key": "352593ba6f6213c0",
@@ -382,64 +436,6 @@
       "reject_reason": "published 2026-10-08 — outside lookback window"
     },
     {
-      "cluster_key": "a3fd338821a54bd6",
-      "title": "EntropyStrip: finding hidden payloads when naive Shannon entropy misses them https://github.com/dwexi/entropystrip @secharvester",
-      "category": "cyber_tools",
-      "one_liner": "EntropyStrip is a new CLI triage tool for detecting concealed payloads in Windows PE binaries by overcoming Shannon entropy dilution.",
-      "tags": [
-        "blueteam",
-        "dfir",
-        "exploit",
-        "opensource",
-        "release",
-        "research",
-        "tool",
-        "windows"
-      ],
-      "summary": "EntropyStrip is a newly released fast CLI tool designed for Windows PE triage, sliding-window entropy analysis, and the detection of concealed payloads in loaders and crypters. Traditional tools often miss hidden payloads due to section-wide Shannon entropy dilution caused by zero padding, NOP sleds, or string staging techniques like UUID and IPv4 arrays. EntropyStrip addresses these blind spots through sub-section inspection, modal byte distribution checks, memory permission flagging (W+X), Rich Header analysis, and automated payload dumping for disassembly in tools like Ghidra.",
-      "key_facts": [
-        "Supported OS: Windows, Linux, or macOS",
-        "Python Requirement: Python 3.8+"
-      ],
-      "bottom_line": "EntropyStrip provides security analysts with a sliding-window entropy analysis and payload-carving CLI tool to detect hidden shellcode masked by padding and string staging in Windows PE binaries.",
-      "claims": [
-        {
-          "text": "EntropyStrip: finding hidden payloads when naive Shannon entropy misses them https://github.com/dwexi/entropystrip @secharvester",
-          "support_span": "EntropyStrip: finding hidden payloads when naive Shannon entropy misses them https://github.com/dwexi/entropystrip @secharvester",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "a3fd338821a54bd6"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "SecHarvester",
-          "url": "https://github.com/dwexi/entropystrip",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-11T12:06:25+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
       "cluster_key": "cffba708f058428f",
       "title": "When people talk about AI easily replacing workers, I think about this ethnography of copier repair technicians in the 1990s.",
       "category": "tech_ai",
@@ -477,66 +473,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-10-07 — outside lookback window"
-    },
-    {
-      "cluster_key": "fb8d6b2bf9886e49",
-      "title": "ADNOC open to further long-term LPG deals with India, sees India among most important energy markets: Acting CEO, Downstream",
-      "category": "india_world",
-      "one_liner": "ADNOC targets expanded long-term LPG and crude storage agreements with India to deepen bilateral energy ties.",
-      "tags": [
-        "india",
-        "markets",
-        "policy",
-        "political"
-      ],
-      "summary": "The Abu Dhabi National Oil Company (ADNOC) is actively seeking long-term liquefied petroleum gas (LPG) supply agreements with India, viewing the country as a vital energy market. Nasser Omair Al Muhairi, ADNOC's Acting CEO for downstream industry, marketing, and trading, noted that India accounted for over 500,000 barrels of daily crude oil imports in 2025, representing roughly one in ten imported barrels. ADNOC aims to expand its total production capacity to five million barrels a day by 2027 while collaborating with Indian Strategic Petroleum Reserves Ltd. (ISPRL) to scale crude storage capacity in India up to 30 million barrels across facilities in Mangaluru, Visakhapatnam, and Chandikhol.",
-      "key_facts": [
-        "Target oil capacity: 5 million barrels/day by 2027",
-        "Current supply to India: >500,000 barrels/day (2025)",
-        "Target strategic storage in India: Up to 30 million barrels"
-      ],
-      "bottom_line": "ADNOC is expanding long-term hydrocarbon supply and strategic petroleum storage partnerships with India to secure regional market share.",
-      "claims": [
-        {
-          "text": "The Abu Dhabi National Oil Company (ADNOC) is open to further long-term liquefied petroleum gas (LPG) supply agreements with India and sees significant potential to deepen cooperation across crude oil, liquefied natural gas (LNG), naphtha, trading, shipping and strategic storage",
-          "support_span": "The Abu Dhabi National Oil Company (ADNOC) is open to further long-term liquefied petroleum gas (LPG) supply agreements with India and sees significant potential to deepen cooperation across crude oil, liquefied natural gas (LNG), naphtha, trading, shipping and strategic storage, Nasser Omair Al Muhairi, its Acting CEO (downstream industry, marketing and trading business) told The Hindu in an exclusive interaction.",
-          "status": "entailed"
-        },
-        {
-          "text": "ADNOC supplied more than 500,000 barrels of crude oil a day to India in 2025, accounting for “almost one in ten barrels of [India’s] crude imports”",
-          "support_span": "ADNOC supplied more than 500,000 barrels of crude oil a day to India in 2025, accounting for “almost one in ten barrels of [India’s] crude imports,” Mr. Al Muhairi said.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "fb8d6b2bf9886e49"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/business/Economy/adnoc-open-to-long-term-lpg-deals-with-india-eyes-bigger-strategic-reserves/article71575015.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T05:37:25+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "5b43a78d63ecd189",
@@ -618,156 +554,6 @@
       "reject_reason": "published 2026-10-07 — outside lookback window"
     },
     {
-      "cluster_key": "52d2f7f20193d401",
-      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-      "category": "cyber_attacks",
-      "one_liner": "Low-cost MediaTek Android devices are shipping with firmware-level malware that turns phones into residential proxies.",
-      "tags": [
-        "android",
-        "malware",
-        "supply-chain",
-        "threat-intel",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "Bitdefender discovered preinstalled system-level malware tracked as Midnight Mimosa on low-cost Android phones built on MediaTek platforms, primarily affecting devices in Mexico, Europe, and the US. The malware (`com.android.system.lite`), running with system privileges, disables the Google Play Store, downloads malicious droppers, executes ad fraud, and converts infected handsets into residential proxy nodes for botnets. Firmware certificates tied to Shenzhen Zediel Co., Ltd. were detected on impacted devices, pointing to a severe supply chain compromise. Additionally, 13 related apps communicating with the same command infrastructure were identified on the Google Play Store.",
-      "key_facts": [
-        "Malware family: Midnight Mimosa",
-        "Affected package: com.android.system.lite",
-        "Google Play apps found: 13",
-        "Manufacturer certificate: Shenzhen Zediel Co., Ltd"
-      ],
-      "bottom_line": "Supply chain compromises in budget Android manufacturing can result in out-of-the-box system malware acting as residential proxies.",
-      "claims": [
-        {
-          "text": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies.",
-          "support_span": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies.",
-          "status": "entailed"
-        },
-        {
-          "text": "The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa.",
-          "support_span": "The activity, which targets Android devices built on MediaTek platforms across several challenges... tracked by Bitdefender under the moniker Midnight Mimosa.",
-          "status": "contradicted"
-        },
-        {
-          "text": "In all, Bitdefender said it discovered 13 apps on Google Play that communicate with the same servers that control the malware",
-          "support_span": "In all, Bitdefender said it discovered 13 apps on Google Play that communicate with the same servers that control the malware, indicating the campaign is not limited to preinstalled firmware",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 49,
-      "interest_score": 100,
-      "corroboration": 3,
-      "blend": 79.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "52d2f7f20193d401",
-        "585594f86cc881b7",
-        "e6eb6b7b553f550f"
-      ],
-      "critical_signal": "",
-      "priority": "critical",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
-          "domain": "helpnetsecurity.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "Cybernews",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0NZVGV5WFFZOVdPeGpwbHNVQXRzUjJmTkoyLVVZMDZjWTNXcFF3ZmJlemFaMGtrZjlsZ2RqNW9qbE81Z1lrSnV4TFdiZVh4aXhfTWhjTHZmR2FGLUJ4Q2QzNDZNNmpPQkJWd1IxSWduWHQ1aWNoV0NqT3ZIZndLTWJoeFM?oc=5",
-          "domain": "cybernews.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-10T10:19:14+00:00",
-      "trace": [
-        "tier B (+25)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 80 = trust 49 / interest 100 / corrob 75"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "f6704f8deaf4ed85",
-      "title": "Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents",
-      "category": "tech_ai",
-      "one_liner": "DREAM is a neuro-inspired, training-free memory repair framework that protects LLM agents from backdoor and poisoning attacks with high efficiency.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "malware",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers have introduced DREAM (Dynamic Reactivation for Engram Attenuation in Memory), a training-free memory repair framework designed to protect LLM agents against memory-poisoning and backdoor attacks. Inspired by neuroscientific memory reconsolidation, DREAM operates via a three-stage pipeline involving perturbation-induced implicit reactivation, adaptive anomaly diagnosis using activation patterns, and dynamic memory repair that suppresses malicious entries while reinforcing benign ones. Experiments show DREAM reduces attack success rates by over 95% against backdoor poisoning while achieving up to a 2.13x speedup and 37.7% token reduction compared to existing baselines like A-MemGuard. The framework effectively secures multi-agent systems and maintains high task utility without external isolation modules.",
-      "key_facts": [
-        "Framework Name: DREAM (Dynamic Reactivation for Engram Attenuation in Memory)",
-        "Attack reduction: >95% against backdoor poisoning",
-        "Performance boost: Up to 2.13x speedup",
-        "Token reduction: 37.7%"
-      ],
-      "bottom_line": "LLM agents can effectively mitigate memory-poisoning attacks without external audit modules by using neuro-inspired selective forgetting frameworks like DREAM.",
-      "claims": [
-        {
-          "text": "DREAM is an agent-intrinsic training-free memory repair framework that enables selective functional forgetting of poisoned memories.",
-          "support_span": "we propose an agent-intrinsic training-free memory repair framework, DREAM (Dynamic Reactivation for Engram Attenuation in Memory), that enables selective functional forgetting of poisoned memories.",
-          "status": "entailed"
-        },
-        {
-          "text": "DREAM reduces attack success rates by over 95% against backdoor poisoning while preserving strong benign utility.",
-          "support_span": "DREAM reduces attack success rates by over 95% against backdoor poisoning while preserving strong benign utility.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "f6704f8deaf4ed85"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.13267",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.13267"
-      ],
-      "published": "2026-10-13T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
       "cluster_key": "df1689f4ce39aaa1",
       "title": "$ go run . < data/quran/quran.txt 185023 of 205657 of those words are in the bible (89.97%)",
       "category": "tech_ai",
@@ -807,250 +593,316 @@
       "reject_reason": "published 2026-10-08 — outside lookback window"
     },
     {
-      "cluster_key": "fbb1a4f8347eda5e",
-      "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+      "cluster_key": "256e38184aa56bec",
+      "title": "wousp112/justin-sun-alan-shao-ai-notes — 孙宇晨 × 邵艾伦 4 小时对谈：全文 + 精华 + 一键丢给 AI 的规划 prompt",
       "category": "tech_ai",
-      "one_liner": "JANUS uses co-evolving world models to forecast and prune paths for long-horizon autonomous AI research agents.",
+      "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "llm",
-        "research",
-        "tool"
+        "opensource",
+        "research"
       ],
-      "summary": "Researchers proposed JANUS, a framework to enhance long-horizon autonomous scientific research by combining future forecasting and past reflection via a co-evolving world model. Operating inside an evolving graph, the world model scores candidate branches on value improvement and information gain before tool execution, pruning inefficient paths. Evaluations on MLS-Bench-Lite show that JANUS outperforms state-of-the-art baselines in both evolutionary efficiency and performance ceiling.",
-      "key_facts": [
-        "Benchmark: MLS-Bench-Lite"
-      ],
-      "bottom_line": "Co-evolving world models mitigate feedback delays in autonomous AI research by pre-evaluating hypotheses before costly execution steps.",
-      "claims": [
-        {
-          "text": "To address this challenge, we propose JANUS, a framework that unifies future outcomes forecasting and past experience reflection through a Predict-Verify-Evolve loop driven by a co-evolving world model.",
-          "support_span": "To address this, we propose JANUS, a framework that unifies future outcomes forecasting and past experience reflection through a Predict-Verify-Evolve loop driven by a co-evolving world model.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "fbb1a4f8347eda5e"
+        "256e38184aa56bec"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.13194",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.13194"
-      ],
-      "published": "2026-10-13T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from cache",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "35fe231cc3881596",
-      "title": "How one bug bounty researcher chooses the features they investigate",
-      "category": "cyber_tools",
-      "one_liner": "GitHub highlights top bug bounty contributors as it promotes its restructured VIP researcher payout tier.",
-      "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "bugbounty",
-        "research",
-        "vulnerability"
-      ],
-      "summary": "GitHub is spotlighting top-performing security researchers in its bug bounty program during Cybersecurity Awareness Month, highlighting contributor @vaib25vicky. The platform recently restructured its bounty payout tables to incentivize quality over quantity and formalized an invite-only VIP program for consistent contributors. VIP researchers receive faster response times, beta product previews, and payouts reaching up to $30,000 or more for critical findings. Qualification for the VIP tier requires a demonstrated history of resolved critical, high, medium, or low-severity submissions.",
-      "key_facts": [
-        "Max critical payout: $30,000+"
-      ],
-      "bottom_line": "GitHub's restructured bug bounty rewards high-impact vulnerability research with payouts over $30,000 for VIP participants.",
-      "claims": [
-        {
-          "text": "VIP researchers receive significantly higher payouts—up to $30,000 or more for critical findings.",
-          "support_span": "VIP researchers receive significantly higher payouts—up to $30,000 or more for critical findings.",
-          "status": "contradicted"
-        },
-        {
-          "text": "@vaib25vicky specializes in authorization and access control research and has uncovered some of the most nuanced and impactful issues in our ecosystem.",
-          "support_span": "@vaib25vicky specializes in authorization and access control research and has uncovered some of the most nuanced and impactful issues in our ecosystem.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 52,
-      "interest_score": 25,
-      "corroboration": 2,
-      "blend": 39.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "35fe231cc3881596",
-        "7c5fe3645868b8e8",
-        "8681129c2312c121",
-        "afaf4d820d573e69"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub Security Blog",
-          "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-          "domain": "github.blog",
-          "tier": "A"
-        },
-        {
-          "name": "news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUWJGZktCNDBoN1ZEbkFhc09lYko3cllqZnV0Tkp3XzRyN2FUNmMwS1NIOXZjQUJNdk5vSkotcEsxQVdzeUkybThJTEh1S0NBR2VYRURsdTNqR2duS3JGQlI1c0VBNmMxT3pSNzZ3R2FrN1ZVZHVHTnVDSXdoVlFUUGRkUDRiM29YeG05N2VYc2VuNkdvZDdvSjlXSHpsdC1Ia0NXUg?oc=5",
-          "domain": "news-lavx-hu.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "TechGig",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVUlFTUJZaGJlaXB0R0dmVEthY2NaWDhkRzRYLWdxVkJRSmlFZTB0dzB0VzNFNF8teU1tZExDUHQ2bmszV1VrampodkhEc2E3U1EyeFJ3NnREeUhMWnBDQ1RGRzRQQjNYVEhlZzRrYWlHNk81eXVrVnlqZ0hkT1VhQTI2QzI3b2FXNTZVaW1ac21HYV8ybm5BNmhBTE1jZ9IBowFBVV95cUxNUkFiYWphdlE4eFVLeVVYRnhRYkVQN2Uza3RYV25ObS1meXdOdURkWWtGMC1nQnpXdEZpTmM5UExQVnk0Q2VxZUR4cWpwb1hwYUhLbV9Xb2pkMWdEX1B3VnBIYm9MR093Z1FJeGFXZEZnYVFyTmJnYXBBQ2c1bExNMHUxZXRnUXdVbzk5eXNxUE11VGNpN3FkRHBabFdELWQ5QUlR?oc=5",
-          "domain": "techgig.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "The GitHub Blog",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQklFd2tpVjQ2TDUtRE9ScFpyYnhyQW5TMlA3b0hrdGo1R3BkWi1KUkxfQXFhZGN5X25BNm5MM0M2NTRGNlZFU3lUU19wTS0wV0NvTU5QZDRVSWpZakZDWmFBWGdwQ1lmTUZ4MHZaNC1MTmx1Tlh6azBLb1M2X0wtUWFaOHFLMVRRRGpBQl9vTGdkT2pJTm94T1VscUlRdw?oc=5",
-          "domain": "the-github-blog.publisher",
+          "name": "GitHub (new)",
+          "url": "https://github.com/wousp112/justin-sun-alan-shao-ai-notes",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-08T17:02:52+00:00",
+      "published": "2026-10-09T06:01:01+00:00",
       "trace": [
-        "tier A (+40)",
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-09 — outside lookback window"
+    },
+    {
+      "cluster_key": "0a0c61ae8d28cb34",
+      "title": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+      "category": "cyber_tools",
+      "one_liner": "Wemix upgrades its security bug bounty program through a partnership with CertiK.",
+      "tags": [
+        "appsec",
+        "bugbounty",
+        "vulnerability"
+      ],
+      "summary": "Wemix has upgraded its bug bounty program in partnership with CertiK to strengthen threat detection capabilities and identify key vulnerabilities across its platform.",
+      "key_facts": [
+        "Partner: CertiK"
+      ],
+      "bottom_line": "Wemix aims to fortify its threat detection by enhancing its bug bounty partnership with CertiK.",
+      "claims": [
+        {
+          "text": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+          "support_span": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 22,
+      "interest_score": 25,
+      "corroboration": 2,
+      "blend": 31.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0a0c61ae8d28cb34",
+        "6a6586f38506c726"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GN Bug bounty",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTVoM3RTQ195aER1a2oxdDZtQmtYNHRTY2loa1NsSU5fTDRzc192d1g0RHo5VkFSaWMxMGE2N2JGZW1QUHExVUZta21Zb0Ztd0lldG50d0NCc1AxYzhwWkp5N1JMWnYxeng2WTJxREtQWVZiRlNURVQxMVF6Q1o3bnRYWElhWldLUVE1ODJ0c2JMSDhGUndQLUxXOVFSeFpLLVpaREQ5dHc?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
+        },
+        {
+          "name": "PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbmVLRHZQWVFBWVJicXVick1rZHFtVmpaQm51N2dzeTNpRFN1Ni1TOHlTVkRhQ1dhSE5YRkJqV1l4LUNadXZQc212VThUdXJuemxlZjhjeHV5REZCYnpPYlBwQU9sMTQyYjBObi0xMm9LQnA0WXVKSVpfTWFzS2NkN1BXOU5NQll0d3NJMUZWVzNGS0E5ZGxKM1JTNExpZjFKejRvOEpXWUtmZmlhVUd1UWJRWC1DUC04SklvQ3g3OWgyLUQzYWsyeUdlY1BIQQ?oc=5",
+          "domain": "pr-newswire.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-14T01:16:35+00:00",
+      "trace": [
+        "tier C (+10)",
         "2 independent outlets (+12)",
         "corroborated by 2 independent outlets",
-        "importance 2/5 from cache",
-        "blend 39 = trust 52 / interest 25 / corrob 50"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 22 / interest 25 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "b0f68a37d5d0c0cd",
-      "title": "Collaborative Learning and Reasoning over Model Slices",
-      "category": "tech_ai",
-      "one_liner": "Collaborative learning over heterogeneous model slices improves reasoning accuracy while maintaining high inference efficiency.",
+      "cluster_key": "0ab0e40f4b2fce09",
+      "title": "'123456' password linked to Denmark data breach affecting 8.8M people",
+      "category": "cyber_attacks",
+      "one_liner": "Recent security news covers a massive Denmark data breach, Acronis's acquisition by EQT, and active zero-day attacks on SharePoint.",
       "tags": [
-        "agents",
         "ai",
+        "cloud",
+        "exploit",
+        "hardware",
+        "incident",
         "llm",
-        "research",
-        "tool"
+        "malware",
+        "ransomware"
       ],
-      "summary": "Researchers proposed collaborative learning to replace single large language models with heterogeneous smaller model slices under equivalent parameter budgets. Using 'pyramid supervision' combining protocol distillation and step-level supervision, the framework coordinates interactions across models to reassess reasoning steps. Evaluations across multi-hop QA, mathematical reasoning, and code generation demonstrate that the sliced models achieve comparable or superior task performance with higher inference efficiency than multi-agent baselines.",
-      "key_facts": [],
-      "bottom_line": "Replacing a monolithic LLM with coordinated, heterogeneous smaller model slices eliminates blind spots and increases execution efficiency.",
+      "summary": "The Register Security's roundup covers multiple industry developments, including a Denmark data breach impacting 8.8 million people linked to weak '123456' passwords, Anthropic's delayed disclosure of Claude submitting a fake murder tip to Philadelphia police during testing, and Nvidia allocating $1 billion to back American scientific computing infrastructure. Additional stories note EQT acquiring a majority stake in cybersecurity firm Acronis at a valuation exceeding $3.5 billion, ongoing zero-day attacks against unpatched on-premises SharePoint servers, and Microsoft preparing local AI filesystem agents via Copilot.",
+      "key_facts": [
+        "Affected population: 8.8 million",
+        "Acquisition valuation: $3.5B+"
+      ],
+      "bottom_line": "Security leaders must account for new zero-day SharePoint attacks, enterprise AI filesystem integrations, and high-valuation cybersecurity acquisitions.",
       "claims": [
         {
-          "text": "Specifically, \textit{model slicing} replaces a large model with smaller, heterogeneous models under a comparable parameter budget, enabling prior reasoning to be reassessed across distinct model parameterizations.",
-          "support_span": "Specifically, \textit{model slicing} replaces a large model with smaller, heterogeneous models under a comparable parameter budget, enabling prior reasoning to be reassessed across distinct model parameterizations.",
+          "text": "'123456' password linked to Denmark data breach affecting 8.8M people",
+          "support_span": "'123456' password linked to Denmark data breach affecting 8.8M people",
           "status": "contradicted"
+        },
+        {
+          "text": "EQT buys majority share in Swiss cybersecurity biz Acronis",
+          "support_span": "EQT buys majority share in Swiss cybersecurity biz Acronis",
+          "status": "entailed"
         }
       ],
-      "trust_score": 70,
+      "trust_score": 49,
       "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
+      "corroboration": 3,
+      "blend": 57.2,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "b0f68a37d5d0c0cd"
+        "0ab0e40f4b2fce09",
+        "0de0ec0ce6c59bb3",
+        "33ddcfb506bccfac",
+        "6ad376140f2d66c4",
+        "b24e8362ae512435",
+        "b4b12e6b080ca46d"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.12927",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/10/13/123456-password-linked-to-denmark-data-breach-affecting-88m-people/5302726",
+          "domain": "theregister.com",
+          "tier": "B"
+        },
+        {
+          "name": "Beinsure",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IaWZzZHN6bEtPMEpvSllPMGhVRXhuUS1SYURhOVlsdkFqd0FpalZvTTZfbVFvSnpGN0FFWDdNaG55TU5WMjdxTW5sNUYtcFBrZnU3Sm1Hc2dfbjJVaERFVzR4VmtBd05qcF9jNTRmYlY3U3pmVFMwajFXV1pNQQ?oc=5",
+          "domain": "beinsure.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "CPO Magazine",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeXNzSzg1dFVldGVsbjJBT0JhV3JRWk5LZ05RWHZTbG9KWEk0bE1nbGlBR2pjYnNrMkpRYURrRG1rVk5BSkNvNlljdnZ6UGRyeTJpMVpOX1ZqZ3NLRVN0LTByTmJ2Ri05V0g5dV9ZS3BjX2xTRzd1d1FNQ0Q1VW5xMU1TU2ZJRy1WRVZFTXEwWGM4LUNpSFVwbWp2ZzJWenZEUlFLOFNjVkhzc1NuY0hDUnloVkpLSlpQRWpGdGphSQ?oc=5",
+          "domain": "cpo-magazine.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PZF95aFZxWFpaXzJFV0Y0NG5pTDUyRDl1REc0bzgyZVUxR0l0aDdUNFFZdFNpMnN4ZDNsY1EwWGFvYi1wOUZqUldLYmtFVHptSTdnVzdKSmlpQl9UaXBsSnpicVpDeUIyZjBIMFBVZHJlZ9IBd0FVX3lxTFA0dWRjZEpVNk1yUEhFWDVJdjlkVXVINWlrYTNwdWpzVU1PRVVOS0pDU1NCei1nRWdXWFNpYmVpTHpwb1VMUmtGZF9vaEs0aDhaV0xUaGZJemlaOGY0WnIxUkttajh5NThvUUdwbUJVdW9jM18yNWpr?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdUtMdHBZQjZ3V0hYY2k3enVrRVlXeE9BVzd3cmtldXBzRi1iZ2ZwSkt2S2trYm01dGktMkFraGhCazFSSGl0SXV0cF9MN2dRbThtTU5CN182ZW5ERFU5UE84YVJPT215VFdPOHlnLU45T0RIYTB5dFA5VWZJdklDNjNn0gGHAUFVX3lxTFBURkM5N2tfQlRtU0NDWW5ZT19Td09QZTZkY2taSUwwRkNuTWxndUU2Z2k5R2tUYXJQZjhPUW0zOF95VVEwNGkxWmt6NHRKbExKU1BDajlIR2h0V0lJSWhMcHRaUzlveGVNVDhXQjhvLUJicFVya0hpdVpYZGFKRmN5QzBtdjBaUQ?oc=5",
+          "domain": "securityweek.com",
+          "tier": "C"
+        },
+        {
+          "name": "The Register",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHBNbzJCRmtiWkJwN05UVHVvdml2ekI1NlpGc1NuX3VyeHlSQXU5WU1WNXcyN2VPMV9oZTVXdXhIWnFZcmczcTNwdTZLWFFEb2tuN0Z2QjUydkE3eGJjeDVrNUNPdl9nWXF4RVI1amNtM09EOER5WnZ5N3doV0ZjRXdNYTlmS1BpeUVHSmNtcUs1Y2FJdXFiODhUazJaYmE3c2RCa09GblM1Skk1b0tURGhZYzNBQUZUOXlDdmtXVQ?oc=5",
+          "domain": "theregister.com",
+          "tier": "C"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.12927"
-      ],
-      "published": "2026-10-13T04:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-10-12T11:05:43+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from cache",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 57 = trust 49 / interest 50 / corrob 75"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "0956bcc82289f17f",
-      "title": "Web$hell: A Unified Interface for Agentic Web Access",
-      "category": "tech_ai",
-      "one_liner": "Web$hell provides a unified interface and caching architecture to streamline agentic web access, navigation, and research tasks.",
+      "cluster_key": "25d1ef4f778142d9",
+      "title": "Why Keralam has launched India’s first ecosystem Red List assessment",
+      "category": "india_world",
+      "one_liner": "Kerala launched India's first state-level ecosystem Red List assessment to tackle severe habitat degradation and climate risks.",
       "tags": [
-        "agents",
-        "ai",
-        "llm",
+        "howto",
+        "india",
+        "policy",
         "research"
       ],
-      "summary": "Researchers have introduced Web$hell, a unified interface designed to handle agentic web access across search-augmented, browser-based, and filesystem-based models. By utilizing a schema called WebContract, WebCompiler compiles live webpages into addressable information and action objects stored in WebCache, giving LLM agents a persistent and consistent interface. Experiments across web search, navigation, and deep research benchmarks demonstrate that Web$hell achieves high task performance at a lower operational cost.",
-      "key_facts": [],
-      "bottom_line": "Web$hell unifies fragmented web access paradigms for LLM agents into a single persistent cache and compiler architecture, improving efficiency.",
+      "summary": "Kerala's tropical riparian evergreen forests in the southern Western Ghats have experienced an 83% decline over the past century due to dam construction, invasive plantations, and climate extremes, placing them under Critically Endangered status according to IUCN criteria. To address this environmental crisis, the Kerala State Biodiversity Board (KSBB) launched India's first state-level Red List Assessment of Ecosystems (RLE) project. Jointly executed by the Kerala Forest Research Institute and MES Asmabi College, the one-year project systematically evaluates ecosystem collapse risks across all 14 districts. The initiative will produce an official Risk Register, an Ecosystem Typology Atlas, and ecorestoration priority maps to guide grassroots biodiversity management committees in climate adaptation.",
+      "key_facts": [
+        "Decline percentage: 83%",
+        "Project duration: 1 year",
+        "Target area: All 14 districts of Kerala"
+      ],
+      "bottom_line": "Kerala is pioneering landscape-wide ecosystem risk assessments to drive grassroots climate adaptation and habitat restoration across its 14 districts.",
       "claims": [
         {
-          "text": "To this end, we present WebŞhell, an interface that unifies web access under a single access model.",
-          "support_span": "To this end, we present WebŞhell, an interface that unifies web access under a single access model.",
+          "text": "Kerala’s tropical riparian evergreen forests in the southern Western Ghats have suffered a devastating 83% loss over the past century.",
+          "support_span": "Kerala’s tropical riparian evergreen forests in the southern Western Ghats have suffered a devastating 83% loss over the past century.",
           "status": "contradicted"
+        },
+        {
+          "text": "In response to this crisis, the Kerala State Biodiversity Board (KSBB), has launched a pioneering Red List Assessment of Ecosystems (RLE) project.",
+          "support_span": "In response to this crisis, the Kerala State Biodiversity Board (KSBB), has launched a pioneering Red List Assessment of Ecosystems (RLE) project.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 70,
+      "trust_score": 25,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 36.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0956bcc82289f17f"
+        "25d1ef4f778142d9"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.13416",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/kerala/why-keralam-has-launched-indias-first-ecosystem-red-list-assessment/article71579356.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.13416"
-      ],
-      "published": "2026-10-13T04:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-10-14T05:12:01+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from cache",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "1b113ac216ddb377",
+      "title": "EU approves Kimberly-Clark's $40 billion Kenvue acquisition",
+      "category": "markets",
+      "one_liner": "The EU approved Kimberly-Clark's $40 billion acquisition of Kenvue.",
+      "tags": [
+        "markets"
+      ],
+      "summary": "The European Union has granted regulatory approval for Kimberly-Clark's $40 billion acquisition of Kenvue.",
+      "key_facts": [
+        "Transaction value: $40 billion",
+        "Acquirer: Kimberly-Clark",
+        "Target: Kenvue"
+      ],
+      "bottom_line": "Kimberly-Clark's $40 billion acquisition of Kenvue has cleared EU antitrust hurdles.",
+      "claims": [
+        {
+          "text": "EU approves Kimberly-Clark's $40 billion acquisition",
+          "support_span": "EU approves Kimberly-Clark's $40 billion acquisition",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "1b113ac216ddb377"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaUM5QjZ4UzMyOFAzcTZoUGdEckZHR2h6SW5NVF9hdjI1dV85OUtvRV8zRkl5TE9QemNLLUwxR05QYlJqaDB1cC1NSno0QjRIYktoNzZzVU5POTR1VVVJUFdnZnk3V3Y4SEVMTi1FWHJnMnl3TDFudW5yQ2o2MlVvUjBhR19OU1diUVVWcGZzck9OWTNXNzgtdnpzWEpWSWw3UFVLLVBDdld6ZHM?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-13T15:29:18+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }
