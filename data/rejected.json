@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T06:12:50.029631+00:00",
+  "generated_at": "2026-10-18T06:41:15.926931+00:00",
   "items": [
     {
       "cluster_key": "b5be692e65d9c2ac",
@@ -47,19 +47,94 @@
       "reject_reason": "published 2026-10-12 — outside lookback window"
     },
     {
-      "cluster_key": "a1097dcd46a9932f",
-      "title": "onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision m",
+      "cluster_key": "0ce3895ad36ed9c2",
+      "title": "If you haven’t made sure to turn on two-factor authentication on all accounts, have passwords with family in case you get voice calls asking for…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu If you haven’t made sure to turn on two-factor authentication on all accounts, have passwords with family in case you get voice calls asking for money, etc, now would be a good time. AI gains mean the costs of mass targeting individuals with very sophisticated attacks are dropping.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "0ce3895ad36ed9c2"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxoxbpm5nk2z",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T16:37:12.421000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-12 — outside lookback window"
+    },
+    {
+      "cluster_key": "4d25eefb5e9d3484",
+      "title": "GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
         "ai",
-        "linux",
-        "opensource",
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret formula that nobody else knew about. Now there are are 19 AI models that can run on a modern smartphone that are better than GPT-4!",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "4d25eefb5e9d3484"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxq4bhezas2q",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-13T03:39:12.245000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-13 — outside lookback window"
+    },
+    {
+      "cluster_key": "2b1aa5f0b2ae0fc5",
+      "title": "Shared some notes on Python 3.15, using it with uv, and features from Python 3.11 I'm excited to use now that 3.10 is no longer the minimum…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
         "release",
         "windows"
       ],
-      "summary": "Let an AI model use a real iPhone with a $7 ESP32. Just the phone and the board: no computer, no jailbreak. English · 简体中文 Demo video and updates: X @iamhenryyuan · YouTube demo Warning Only follow the install steps in this README. Never run commands from issues or comments (for example a \"quick install\" one-liner such as PowerShell iex(irm ...)); these are not from the maintainers. The board is now the AirPlay receiver and the mouse, and the agent runs in an iPhone app on the same phone.",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Shared some notes on Python 3.15, using it with uv, and features from Python 3.11 I'm excited to use now that 3.10 is no longer the minimum supported version for my own projects 2026-10-12T18:22:23.361Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -70,7 +145,50 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "a1097dcd46a9932f"
+        "2b1aa5f0b2ae0fc5"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mxp55chsbc2c",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T18:22:06.876000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-12 — outside lookback window"
+    },
+    {
+      "cluster_key": "d4f6e31122d4eb8a",
+      "title": "raullenchai/esp32-thinks — A multi-model Muse: personal AI voice assistant on ESP32 - wake word or knob, any OpenAI-compatible brain (STT",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource",
+        "policy",
+        "vulnerability"
+      ],
+      "summary": "A multi-model Muse — a personal AI assistant on ESP32, talking out of the box. Think of it as a Muse that thinks with your models: say \"Hi, ESP\" (or press the knob), ask anything, and it answers out loud — streaming sentence-by-sentence while the model is still writing, in English, Chinese or Korean, on a small gadget with a mic, a speaker and a round display. No vendor lock on the brain: speech, transcription and chat are three independent endpoints, each pointed at any OpenAI-compatible server — one provider for all three, or a different one per task. ESP32-S3 · built on Meta's open-source muse-gadget-sdk · license notices - Models: OpenAI, QuickSilver, or any mix — presets for the common…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "d4f6e31122d4eb8a"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -78,33 +196,29 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+          "url": "https://github.com/raullenchai/esp32-thinks",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-11T19:10:25+00:00",
+      "published": "2026-10-12T23:47:40+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-11 — outside lookback window"
+      "reject_reason": "published 2026-10-12 — outside lookback window"
     },
     {
-      "cluster_key": "4538ae7c6eb8d899",
-      "title": "sepehr071/awesome-iran-mcp — 19 open-source MCP servers (308 tools) that give AI agents the Iranian web: Digikala, Snappfood, Jabama, MrBil",
+      "cluster_key": "dff922dfd8a88fec",
+      "title": "zhuyansen/new-term-radar — Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and s",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
-        "blueteam",
-        "llm",
         "opensource",
-        "supply-chain",
         "tool"
       ],
-      "summary": "English · فارسی Give your AI agent the Iranian web. 20 unofficial, open-source Persian-web MCP servers for Digikala, Divar, Snappfood, Jabama, MrBilit, Paziresh24, Taaghche and more, plus official ones from ExirYab, Pasavard and SwapWallet. Search, compare prices in Toman, find free slots and today's deals from Claude, Cursor, GitHub Copilot in VS Code or any MCP client. Install them as Claude Code plugins with skills, or as Agent Skills for Codex, Cursor, Antigravity and Grok Build. What's new · Quick start · The servers · For AI agents · All tools · FAQ - About 62% fewer tokens per tool call and a 19% smaller tool list across the 19 package servers, with the same rankings and cheapest pri…",
+      "summary": "A daily report of the names that are starting to surge in AI: new models, products, tools and repos, caught where they are said first, before they show up in keyword tools. Built for people who make pages, posts or products around new terms: SEO for AI tool sites, newsletters, directories, anyone who wants to know about \"Strata\" or \"Seedance\" the day it appears and not two weeks later. A new name leaves a trail, in this order: - A lab or a well-followed account says it on X; a model enters Hugging Face's trending list. Directories and competitors add pages for it; someone registers a domain for it and the site starts to rank. Your own site gets its first search impressions for it.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -115,7 +229,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "4538ae7c6eb8d899"
+        "dff922dfd8a88fec"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -123,67 +237,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/sepehr071/awesome-iran-mcp",
+          "url": "https://github.com/zhuyansen/new-term-radar",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-11T12:42:59+00:00",
+      "published": "2026-10-12T07:11:01+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-11 — outside lookback window"
-    },
-    {
-      "cluster_key": "4f77cfc63cf41c94",
-      "title": "SouravBeraAkaSpeed/xiryn — Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "linux",
-        "llm",
-        "opensource",
-        "windows"
-      ],
-      "summary": "It does everything Muse, Grok Bot and Dots do — on your own computer. Each agent gets its own Linux desktop in Docker, so it works in the background and never interrupts what you're doing on your laptop. Control it from anywhere through Telegram. xiryn.com · Quick start · Why Xiryn · Compare · Telegram · Architecture · Contribute xiryn.mp4 This year every major lab shipped a personal agent that works on a cloud machine for you — Muse from Meta, Grok Bot from xAI, Dots from OpenAI. They're also closed, gated behind subscriptions, and they run on someone else's servers with your conversations, your logins and — when they shop for you — your payment details.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4f77cfc63cf41c94",
-        "7b4fa0c692930912"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "https://www.ababnews.com/",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03QVgzVEc2OUlYVmV0NnR1aGlZbkJHSnE2bF9ZT3V6UDM1c2o1czNiaWVXcWRhQVJfRldPc3c4UkY4MDJjcTUxSE9jN0lkWV9uWmhBVnBNVHlQVTUxYmxtUHhjVDN0S3ZUMVM5VC16cTVZRzFy?oc=5",
-          "domain": "https-www-ababnews-com.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-11T13:12:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-11 — outside lookback window"
+      "reject_reason": "published 2026-10-12 — outside lookback window"
     },
     {
       "cluster_key": "b0fe6d1a0b7ddba0",
@@ -281,8 +345,73 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0e2c87ce4ffca5a5",
+      "title": "CVE-2026-50218 (HIGH 8.5): Akamai GPA (Guardicore Platform Agent) client on all platforms before 7.4 improperly validates JWT tokens use…",
+      "category": "cyber_attacks",
+      "one_liner": "A critical JWT validation flaw in Akamai Guardicore Platform Agent clients (CVE-2026-50218) allows full remote application compromise.",
+      "tags": [
+        "agents",
+        "cve",
+        "identity",
+        "network",
+        "vulnerability"
+      ],
+      "summary": "Akamai GPA (Guardicore Platform Agent) client versions across all platforms prior to 7.4 improperly validate JWT tokens used for seeding, leading to a high-severity vulnerability (CVSS 8.5, CVE-2026-50218). An attacker can trick a user into interacting with a malicious link, leveraging a spoofed JWT token to inject arbitrary parameters into the client software. This results in unauthorized application reconfiguration and full functional compromise.",
+      "key_facts": [
+        "CVE: CVE-2026-50218",
+        "CVSS Score: 8.5 HIGH",
+        "Affected Versions: All platforms before 7.4"
+      ],
+      "bottom_line": "Akamai GPA clients prior to 7.4 must be updated to patch an insecure JWT token validation flaw that enables full agent compromise.",
+      "claims": [
+        {
+          "text": "Akamai GPA (Guardicore Platform Agent) client versions across all platforms prior to 7.4 improperly validate JWT tokens used for seeding, leading to a high-severity vulnerability (CVSS 8.5, CVE-2026-50218).",
+          "support_span": "Akamai GPA (Guardicore Platform Agent) client on all platforms before 7.4 improperly validates JWT tokens use…",
+          "status": "contradicted"
+        },
+        {
+          "text": "An attacker can trick a user into interacting with a malicious link, leveraging a spoofed JWT token to inject arbitrary parameters into the client software, resulting in unauthorized application reconfiguration and full functional compromise.",
+          "support_span": "By convincing a user to interact with a malicious link, an attacker can use a spoofed JWT token to inject arbitrary parameters into the client software, resulting in unauthorized reconfiguration and full compromise of the application's functionality.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 70.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0e2c87ce4ffca5a5"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50218",
+          "domain": "nist.gov",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-50218"
+      ],
+      "published": "2026-10-14T06:17:06.900000+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 70 = trust 70 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -342,70 +471,175 @@
       "trace": [
         "tier A (+40)",
         "single outlet, established publication (tier A)",
-        "importance 5/5 from gemini-3.1-flash-lite",
+        "importance 5/5 from cache",
         "blend 62 = trust 40 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "283b0886e43af851",
-      "title": "RayenMlayeh/jevcrawl — MCP server and CLI that crawls websites for AI agents: finds the answer page 2x more often than Crawl4AI, 10x ",
+      "cluster_key": "a9f64dded404b64f",
+      "title": "LovelyTeams/LovelyCarve — a forensic carver with a soft heart · 基于 Rust、Tauri 2 与 Vue 3 的桌面磁盘取证与数据恢复工具：只读解析镜像、文件系统与加密卷，提供原类型预览、全局搜索、时间线、",
+      "category": "cyber_tools",
+      "one_liner": "LovelyCarve is a feature-rich, Rust-based open-source forensic carver and disk analysis tool supporting encrypted containers, timelines, and plugins.",
+      "tags": [
+        "dfir",
+        "linux",
+        "llm",
+        "opensource",
+        "research",
+        "tool",
+        "windows"
+      ],
+      "summary": "LovelyCarve is an open-source, read-only desktop and CLI disk forensics and data recovery utility built with Rust, Tauri 2, and Vue 3. It provides comprehensive evidence ingestion supporting physical disks, logical images, AD1, Docker/OCI images, iOS backups, and RAID reconstructions alongside decrypted views for BitLocker, LUKS, VeraCrypt, and FileVault 2. The tool features directory tree browsing, raw type previews, multi-format global regex search, NTFS USN log timeline projections, and signature-based file carving across 14 formats. It also includes C ABI-based plugin isolation for extending analysis capabilities, such as the built-in linuxinfo module, and offers headless automation via a companion CLI tool.",
+      "key_facts": [
+        "Tech Stack: Rust, Tauri 2, Vue 3",
+        "Supported Encryption: BitLocker, LUKS, VeraCrypt, FileVault 2, iOS backups",
+        "License: AGPL-3.0-only"
+      ],
+      "bottom_line": "Forensic investigators and incident responders can leverage LovelyCarve's read-only multi-format ingestion, decryption, and timeline capabilities for robust disk analysis.",
+      "claims": [
+        {
+          "text": "LovelyCarve 面向电子数据取证、应急响应和 CTF 取证题：加载磁盘镜像、逻辑证据或物理磁盘，识别分区与文件系统，浏览、预览、检索、校验并导出证据，再用时间线、文件恢复和插件分析补全线索。",
+          "support_span": "LovelyCarve 面向电子数据取证、应急响应和 CTF 取证题：加载磁盘镜像、逻辑证据或物理磁盘，识别分区与文件系统，浏览、预览、检索、校验并导出证据，再用时间线、文件恢复和插件分析补全线索。",
+          "status": "entailed"
+        },
+        {
+          "text": "镜像、文件系统与加密容器的读取器均为纯 Rust 实现，证据始终只读打开；界面以中文为主，提供浅色、深色和樱花色三套主题。",
+          "support_span": "镜像、文件系统与加密容器的读取器均为纯 RustExpired 或纯 Rust 实现，证据始终只读打开；界面以中文为主，提供浅色、深色和樱花色三套主题。",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "a9f64dded404b64f"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/LovelyTeams/LovelyCarve",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T13:38:35+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "356221a44768d85a",
+      "title": "NB-Corp/gpt-with-taste — Better judgment. Better taste. Less ceremony. System instructions and source-aware steering for GPT in Codex.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "llm",
+        "opensource"
+      ],
+      "summary": "English · 简体中文 A drop-in behavioral recipe across coding harnesses: make ordinary decisions, digest complexity, and deliver work with engineering and visual craft. Built for the GPT reasoning family, especially GPT-6.1 Sol and GPT-6 Astra. Replies follow the language you write in. Harnesses · Install Codex · What changes · Comparison · How it works · Research GPT with Taste compiles from a single behavioral recipe into native instructions and event steering for each supported host: Running in another host? Maintainers edit the single English authoring source in recipe/ and compile across targets: see docs/authoring.md.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "356221a44768d85a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/NB-Corp/gpt-with-taste",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T16:40:29+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-12 — outside lookback window"
+    },
+    {
+      "cluster_key": "a0d087706fb65ebb",
+      "title": "Danielxu0208/rsi_eval — A lightweight Python SDK and CLI for evaluating recursive self-improvement (RSI) methods across agent benchmar",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "howto",
+        "opensource",
+        "research",
+        "tool"
+      ],
+      "summary": "A lightweight Python SDK and CLI for evaluating recursive self-improvement (RSI) methods across agent benchmarks. Bring your own improvement loop, choose your tasks, and evaluate each candidate through one interface. candidate -> evaluate() -> task feedback -> your next candidate Quick Start · Installation · Usage Examples · Custom RSI Integration · Custom Benchmark Integration An RSI method needs to run candidates, collect feedback, and decide what to change next. RSI Eval supplies the evaluation boundary so that your method can use existing benchmarks without implementing their execution and result handling from scratch. You choose candidate generation, memory, selection, stopping rules,…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a0d087706fb65ebb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Danielxu0208/rsi_eval",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T12:19:33+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-12 — outside lookback window"
+    },
+    {
+      "cluster_key": "8fb521d434843d57",
+      "title": "vakandi/opencode-rust — The open source AI coding agent, in Rust. CLI, TUI and HTTP server for local AI agents — no Docker required.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
+        "appsec",
+        "linux",
         "llm",
         "opensource",
-        "release",
-        "tool"
-      ],
-      "summary": "A small decision model picks every link and every passage, so your agent's LLM reads only what answers its question at a few cents per crawl. Quick start · Benchmarks · Tools · How it works · Configuration Agents that browse a site have two bad options. They can read everything a crawler fetches, which buries the answer in navigation and boilerplate and burns tokens. Or they can let the LLM pick each link, which is slow and costs dollars per question. jevcrawl does neither: - 🎯 Finds the answer page more often.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "283b0886e43af851"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/RayenMlayeh/jevcrawl",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-11T17:06:36+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-11 — outside lookback window"
-    },
-    {
-      "cluster_key": "ec10f04f989cac51",
-      "title": "YuyaoGe/doc2harness — Official Code for the paper \"Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agen",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "dfir",
-        "opensource",
-        "research",
         "tool",
-        "vulnerability"
+        "windows"
       ],
-      "summary": "🌐 Website • 📄 Paper • ⚡ Quick start • 🧪 Scenarios • 🏆 Leaderboard • 📝 Citation Doc2Harness measures how well a model can build a working coding agent — the harness itself — rather than how well it writes a patch inside one. A build model, working through OpenCode in an isolated container, receives a development document and an interface-only skeleton and has to implement a complete agent harness. The harness is frozen, moved to a separate container, and driven end to end by a scripted mock model. Each scenario reads four observable channels — requests sent to the model, files on disk, exit code, command output — and positive controls rule out vacuous passes. Note 📦 This is a partial open-so…",
+      "summary": "The open source AI coding agent, in Rust. A Rust implementation of OpenCode — CLI, TUI and HTTP server for local AI agents. Sessions, tool execution, MCP, LSP and a TypeScript plugin bridge, with no container runtime. They install the same engine under the same opr command, but they are not interchangeable — opr is a dispatcher in some and the engine binary itself in others. npm install -g opencode-rust The launcher is a Node script, which is what makes Windows work at all — install.sh writes a bash case statement that Windows cannot execute.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -413,10 +647,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "ec10f04f989cac51"
+        "8fb521d434843d57"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -424,17 +658,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/YuyaoGe/doc2harness",
+          "url": "https://github.com/vakandi/opencode-rust",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-11T10:12:47+00:00",
+      "published": "2026-10-13T03:36:43+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-11 — outside lookback window"
+      "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
       "cluster_key": "8a2d8e8cc03e5405",
@@ -473,6 +707,52 @@
       ],
       "primary_links": [],
       "published": "2026-10-12T00:01:44+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-12 — outside lookback window"
+    },
+    {
+      "cluster_key": "46d092e458e55f61",
+      "title": "arcmira/mcp — YouTube transcript search for your AI. Find who said what with timestamps, mentions, sponsors, and recommendat",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "hardware",
+        "howto",
+        "llm",
+        "opensource",
+        "research",
+        "tool"
+      ],
+      "summary": "Search YouTube video and podcast transcripts, retrieve timestamped quotes, find entity mentions and media appearances, inspect organic endorsements and ad reads, and monitor new mentions with your agent. Add the remote MCP server at and sign in through your host. For setup instructions, use Connect your agent. For a coding agent, paste: Fetch and execute the appropriate instructions to set me up for Arcmira from Ask your agent: Search YouTube and podcast transcripts for GPU financing over the last 60 days. Return the relevant quotes with speakers when available, publication dates, transcript sources, and timestamped links.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "46d092e458e55f61"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/arcmira/mcp",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T20:51:36+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
@@ -532,9 +812,63 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "7b319bf880a4313d",
+      "title": "Wall Street Week Ahead - Earnings expectations:  All eyes on Meta, Tesla, Netflix, and SpaceX; this survey also in focus",
+      "category": "markets",
+      "one_liner": "Wall Street prepares for a heavy Q3 earnings week featuring Meta, Tesla, Netflix, and SpaceX amidst recent volatility in AI and semiconductor shares.",
+      "tags": [
+        "ai",
+        "dfir",
+        "hardware",
+        "markets"
+      ],
+      "summary": "Wall Street investors are preparing for a major earnings week starting October 19, focusing on quarterly reports from Meta Platforms, Tesla, Netflix, and SpaceX following recent drawdowns in AI and semiconductor shares. Meta is projected to post revenue of $63.18 billion with an 8% dip in EPS, while Tesla faces an anticipated 14% drop in quarterly earnings. Netflix reports will center on free cash flow generation, and SpaceX will issue its second public earnings report detailing Starlink expansion and Starship launch updates. Markets will also parse US economic metrics including consumer sentiment and purchasing managers' indices.",
+      "key_facts": [
+        "Meta Expected EPS: $6.67",
+        "Meta Expected Revenue: $63.18 billion",
+        "Tesla Expected EPS: $0.43"
+      ],
+      "bottom_line": "Upcoming quarterly reports from major tech firms like Meta, Tesla, and Netflix will dictate market sentiment and test valuations across AI and consumer segments.",
+      "claims": [
+        {
+          "text": "Wall Street investors will turn their attention to quarterly earnings from major companies, including Meta Platforms, Tesla, Netflix, and SpaceX, in the week beginning October 19.",
+          "support_span": "Wall Street investors will turn their attention to quarterly earnings from major companies, including Meta Platforms, Tesla, Netflix, and SpaceX, in the week beginning October 19, following recent declines in artificial intelligence (AI)-linked and semiconductor stocks.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "7b319bf880a4313d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-earnings-expectations-all-eyes-on-meta-tesla-netflix-and-spacex-this-survey-also-in-focus-11792254700438.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-17T18:06:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -604,7 +938,7 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
+        "importance 2/5 from cache",
         "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -661,73 +995,8 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "7141452c5976adf9",
-      "title": "🤖 Inside a PaperCut attacker’s AI toolkit: 1,005 hosts in recon pool, 46 AD domains, 45 live pivots at time of capture…",
-      "category": "cyber_tools",
-      "one_liner": "Exposed attacker tooling revealed an AI-orchestrated PaperCut campaign utilizing a secondary XML-RPC exploit and reverse SOCKS proxies.",
-      "tags": [
-        "agents",
-        "cve",
-        "exploit",
-        "incident",
-        "malware",
-        "threat-actor",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "Security researchers analyzed open directories exposed at IP 45.142.193[.]132 related to an AI-orchestrated campaign targeting PaperCut NG/MF installations. The exposed infrastructure contained an active exploitation workbench, AI-agent instructions, vulnerability triage results, and a previously undocumented XML-RPC RCE path using api.setConfigValue and api.lookUpUserNameByCardNo. The threat actor's tooling revealed a structured post-exploitation pipeline that utilized chisel and cron for reverse SOCKS5 persistence on Linux hosts alongside automated Windows credential harvesting. Telemetry captured from the attacker's own files identified 1,005 reconnaissance targets across 45 countries, with 46 active Active Directory domains and 45 live reverse SOCKS5 pivots.",
-      "key_facts": [
-        "Attacker IP: 45.142.193.132",
-        "Ports exposed: 8000, 18080, 18081",
-        "Reconnaissance pool: 1,005 hosts across 45 countries",
-        "Compromised Active Directory domains: 46"
-      ],
-      "bottom_line": "An exposed AI-driven attacker infrastructure has revealed novel PaperCut RCE vectors and global post-exploitation reach across 45 countries.",
-      "claims": [
-        {
-          "text": "Using AttackCapture™, we found three open directories exposed at IP 45.142.193[.]132 on ports 8000, 18080, and 18081.",
-          "support_span": "Using AttackCapture™, we found three open directories exposed at IP 45.142.193[.]132 on ports 8000, 18080, and 18081.",
-          "status": "entailed"
-        },
-        {
-          "text": "The exposed tooling revealed a second PaperCut RCE path through XML-RPC, using api.setConfigValue and api.lookUpUserNameByCardNo when API access controls were weak.",
-          "support_span": "The exposed tooling revealed a second PaperCut RCE path through XML-RPC, using api.setConfigValue and api.lookUpUserNameByCardNo when API access controls were successful.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "7141452c5976adf9"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "SecHarvester",
-          "url": "https://hunt.io/blog/papercut-attacker-ai-toolkit-exploit-code-second-rce",
-          "domain": "hunt.io",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-15T18:10:30+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 5/5 from cache",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -783,35 +1052,145 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "0cbf08c353693120",
-      "title": "Supreme Court backs T.N. Speaker’s decision to drop disqualification proceedings against AIADMK MLAs",
+      "cluster_key": "919ec04c752d4d4d",
+      "title": "Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid submissions",
       "category": "india_world",
-      "one_liner": "Supreme Court upholds Tamil Nadu Speaker's decision to drop disqualification proceedings against dissident AIADMK MLAs.",
+      "one_liner": "The Maharashtra FDA's online portal resolved nearly 72% of grievances in three months, while an AI filter rejected over 11,000 invalid submissions.",
       "tags": [
+        "ai",
         "india",
-        "policy",
-        "political"
+        "policy"
       ],
-      "summary": "The Supreme Court dismissed a petition challenging the Tamil Nadu Assembly Speaker's decision to drop disqualification proceedings against AIADMK legislators who supported the TVK-led government during a trust vote. The court ruled that third-party petitioners have no locus standi to interfere in internal party matters, and noted that the AIADMK general secretary's letter condoning the lawmakers' floor-crossing brought the defection proceedings to a legally valid end.",
+      "summary": "The Maharashtra Food and Drug Administration (FDA) received 13,857 complaints through its online portal in the three months following its July 14 launch, resolving 71.8% of them. An automated artificial intelligence screening system filtered out 11,491 invalid, misleading, or jurisdictionally misplaced submissions at the initial stage without human intervention. The portal automatically routed valid grievances—comprising 13,017 food-related and 840 drug-related issues—to designated officers and generated 4,068 notices against officials who failed to act within prescribed deadlines. Geographically, Pune and Greater Mumbai accounted for nearly 60% of all registered complaints, with unhygienic manufacturing conditions and foreign objects in food topping the grievance categories.",
       "key_facts": [
-        "Date of ruling: October 9, 2026"
+        "Agency: Maharashtra FDA",
+        "Timeframe: July 14 to October 14, 2026",
+        "Total complaints received: 13,857",
+        "Resolution rate: 71.8%",
+        "AI-rejected submissions: 11,491"
       ],
-      "bottom_line": "Third-party challenges cannot overturn a political party leader's decision to condone legislative floor-crossing and drop disqualification proceedings.",
+      "bottom_line": "Automated AI screening and strict escalation protocols have enabled the Maharashtra FDA to process thousands of food and drug complaints efficiently.",
       "claims": [
         {
-          "text": "The Supreme Court on Friday (October 9, 2026) declined to intervene in the Tamil Nadu Assembly Speaker’s decision to close disqualification proceedings against a group of All India Anna Dravida Munnetra Kazhagam (AIADMK) legislators who had supported C. Joseph Vijay’s Tamilaga Vettri Kazhagam (TVK)-led government during the trust vote in May.",
-          "support_span": "The Supreme Court on Friday (October 9, 2026) declined to intervene in the Tamil Nadu Assembly Speaker’s decision to close disqualification proceedings against a group of All India Anna Dravida Munnetra Kazhagam (AIADMK) legislators who had supported C. Joseph Vijay’s Tamilaga Vettri Kazhagam (TVK)-led government during the trust vote in May.",
+          "text": "The Maharashtra Food and Drug Administration (FDA) received 13,857 complaints through its online grievance redressal portal in the three months since its launch on July 14, resolving 71.8% of them.",
+          "support_span": "The Maharashtra Food and Drug Administration (FDA) received 13,857 complaints through its online grievance redressal portal in the three months since its launch on July 14, resolving 71.8% of them.",
           "status": "entailed"
         },
         {
-          "text": "A Bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana dismissed a plea filed by advocate P.V. Selvakumar...",
-          "support_span": "A Bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana dismissed a plea filed by advocate P.V. Selvakumar...",
+          "text": "an artificial intelligence (AI)-based screening system rejected 11,491 submissions at the initial stage, filtering out grievances deemed invalid, misleading or outside the department’s jurisdiction.",
+          "support_span": "an artificial intelligence (AI)-based screening system rejected 11,491 submissions at the initial stage, filtering out grievances deemed invalid, misleading or outside the department’s jurisdiction.",
+          "status": "entailed"
+        },
+        {
+          "text": "13,017 complaints concerned food-related issues, while 840 were related to drugs.",
+          "support_span": "13,017 complaints concerned food-related issues, while 840 were related to drugs.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "919ec04c752d4d4d"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-fda-resolves-72-of-13857-complaints-in-three-months-ai-filters-out-over-11000-invalid-submissions/article71588249.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-18T04:03:41+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "baffc898b4fc07d3",
+      "title": "deeplethe/solid-glass — A design system for AI applications. Material, physical, tactile, technical.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "opensource",
+        "policy"
+      ],
+      "summary": "A refined glass-inspired aesthetic that feels solid from afar and reveals its subtle materiality up close. Delicate highlights, fine borders, and soft shadows create depth, while a restrained finish emphasizes clarity, stability, and a sense of solidity over transparency, refraction, and fluidity. That is one of the blocks: whole screens made of the components, to look at, read and copy in. It stands between flat design and liquid glass. Flat is an opaque block with no finish to speak of; liquid glass is nearly clear, and on a page with a lot of text the reader is always fighting the background for the words.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "baffc898b4fc07d3"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/deeplethe/solid-glass",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-12T09:19:02+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-12 — outside lookback window"
+    },
+    {
+      "cluster_key": "d07f44e1c54fa84b",
+      "title": "Anti-CEC protest LIVE | Delhi Police allows Congress to hold rally at Ramlila Maidan on November 1",
+      "category": "india_world",
+      "one_liner": "Delhi Police allows Congress rally at Ramlila Maidan as political protests continue over electoral roll revisions.",
+      "tags": [
+        "india",
+        "policy",
+        "political",
+        "research",
+        "threat-intel"
+      ],
+      "summary": "Delhi Police has permitted the Congress party to hold a rally at Ramlila Maidan on November 1 against the Special Intensive Revision (SIR) of electoral rolls. Meanwhile, the Supreme Court-appointed probe panel is prioritizing investigations into pellet gun use and the harassment of female protesters during the July 20 Parliament march, while a separate petition challenges prohibitory orders under Section 163 of the BNSS.",
+      "key_facts": [
+        "Rally Date: November 1, 2026",
+        "Resolved SIR Cases: 26 lakh out of 33.12 lakh"
+      ],
+      "bottom_line": "Political agitation in Delhi over electoral roll revisions and past protest violence continues to escalate as authorities grant rally permissions and judicial probes proceed.",
+      "claims": [
+        {
+          "text": "The Delhi Police has allowed the Congress to hold a rally at Ramlila Maidan on November 1",
+          "support_span": "Delhi Police allows Congress to hold rally at Ramlila Maidan on November 1 The Delhi Police has allowed the Congress to hold a rally at Ram",
+          "status": "entailed"
+        },
+        {
+          "text": "About 26 lakh of the 33.12 lakh cases of “no-mapping” or “logical discrepancy” have been resolved during the ongoing Special Intensive Revision (SIR)",
+          "support_span": "About 26 lakh of the 33.12 lakh cases of “no-mapping” , “logical discrepancy” have been resolved during the ongoing Special Intensive Revision (SIR), the office of the Chief Electoral Officer (CEO) of Delhi, said on Saturday (October 17, 2026).",
           "status": "contradicted"
         }
       ],
@@ -822,7 +1201,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0cbf08c353693120"
+        "d07f44e1c54fa84b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -830,18 +1209,87 @@
       "sources": [
         {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/supreme-court-backs-tn-speakers-decision-to-drop-disqualification-proceedings-against-aiadmk-mlas/article71564397.ece",
+          "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-17T05:13:58+00:00",
+      "published": "2026-10-18T05:49:32+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "importance 2/5 from gemini-3.5-flash-lite",
         "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "45e401eebf29f643",
+      "title": "CVE-2026-111923 - Fleet before 4.89.0 Unauthenticated DoS via Apple MDM Enrollment Plist Parsing",
+      "category": "cyber_attacks",
+      "one_liner": "A critical unauthenticated DoS vulnerability in Fleet server versions prior to 4.89.0 can crash systems via malformed Apple MDM plists.",
+      "tags": [
+        "appsec",
+        "cve",
+        "network",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "Fleet before version 4.89.0 is vulnerable to an unauthenticated denial of service vulnerability caused by unbounded recursion during Apple MDM enrollment property list parsing. Attackers can transmit a crafted binary property list payload of approximately 150 bytes to enrollment endpoints, triggering exponential memory allocation or infinite recursion. This flaw completely exhausts server CPU and memory resources, causing crashes.",
+      "key_facts": [
+        "Vulnerability: CVE-2026-111923",
+        "Affected Versions: Fleet before 4.89.0",
+        "Payload Size: ~150 bytes"
+      ],
+      "bottom_line": "Fleet versions prior to 4.89.0 must be patched immediately to prevent unauthenticated server crashes via malicious Apple MDM plist payloads.",
+      "claims": [
+        {
+          "text": "Fleet before version 4.89.0 is vulnerable to an unauthenticated denial of service vulnerability caused by unbounded recursion during Apple MDM enrollment property list parsing.",
+          "support_span": "CVE-2026-111923 Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated attackers to crash the server.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Attackers can transmit a crafted binary property list payload of approximately 150 bytes to enrollment endpoints, triggering exponential memory allocation or infinite recursion.",
+          "support_span": "Attackers can send a crafted binary plist payload of about 150 bytes to the enrollment endpoints, triggering exponential allocation or infinite recursion that exhausts CPU and memory.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 62.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "45e401eebf29f643",
+        "6ca0013fe311c30a"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-111923",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-111924",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-17T19:16:35+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 62 = trust 40 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -883,21 +1331,18 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 49,
+      "trust_score": 37,
       "interest_score": 100,
-      "corroboration": 3,
-      "blend": 79.8,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
         "0f91fa9470602fa6",
         "353080dbeb12cfa0",
         "35b63afbe202ab0c",
-        "38319246edd6d4aa",
-        "6fe936533c4e7480",
         "75323eb39fb83c82",
         "ad0709d7323b3a85",
-        "c77121d5269a387c",
         "ec05ea0f6c6b7766",
         "f0be7cd188e5d416"
       ],
@@ -905,12 +1350,6 @@
       "priority": "important",
       "verdict": "rejected",
       "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
         {
           "name": "Security Affairs",
           "url": "https://securityaffairs.com/201054/cyber-crime/centerpoint-energy-data-breach-more-than-1-million-texans-affected.html",
@@ -921,18 +1360,6 @@
           "name": "ABC13 Houston",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObWF5aENQWlRlT1JWb0VzZkZPLVZIWUJKV2VBMTh3ZVpENFVzUFVObU5CSkI5LUwxeVJJOUVQZ3VJTEgwR3NDQWFUbjNSbXJxV3c0c0FYcE4yczMwQlFZaHNObFVtNFI5UGJXNFZYRUtZd1lBZ1M2b3Z3VEpVZlJKU3BWQWFtbjI4bjdkelFsWmR4TVMwWDd5eWFfNE9LcEQzazV1R3RYNTFmTUw4TXNnQk1ScW5fYmFkZjZ0RtIBwgFBVV95cUxQMUo0R1hVZzV4bDkwVXdkbU5zV3BrMVFFT3VhVmx4SFpTeVptbFFfNG5qUUNzLW16WDBXS3RfVl9RR1h5N0FodzdvQzFQeVFhWlg3MWttSHh6ZjZvbGJPbnRzR2lCTkdPRUpNOHZpVGlVRVZYZjk1ZGRVZk51ZjBCQ0ZwOFBxMmJ3TmRNZTVwa2NXOE1NVkh1MUdIaW1IXzBfaWJGUDZsZl96Z2dKRWhaRDNXeEVZWjFTMzUwb0JSblBwZw?oc=5",
           "domain": "abc13-houston.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUXM5eGViaTM3QTRXSjBQV3RrdW5qQUM5WHdKd0tKMjNBbWZ6TnJkWS02RTZGTi1STDUzWHZmME82QlI1c1ozQjNGX00yUGNCX0x0a0tjaXhyMXo5dFllNTd4ZlVYdTRBRFRQTnNxMmN5R3NTdTQwUlJWOVkydzdBaXJCTFJ5Y2dsOG1nZk0tam91VjBkcFM4Q0JrczI3dWR2alZHazNfOG9ENGlPRUh0bFhwd9IBuAFBVV95cUxQcUZBUVRxdjFGOEptajBuWk0wSjNMdTdqUUZ6VUNaNmMwNlZVTWxCVDI1Wk1OTHdxclJnM0xPUTVZbVVhejhDV01VNFlCSzNOejlhV3JvNVNTRzdMeVRIZ0duOGFTeV8wQVNhNnlncUNuRjFaeGVkeGYtVmZBc29taThtSUhZVjkyUlNod1FnSkxSTlQycVdqY3ZCUTViazRMellpVGtzbVo1dTJkR19aOTJzVVVFSlJm?oc=5",
-          "domain": "bleepingcomputer.com",
-          "tier": "C"
-        },
-        {
-          "name": "chronicleonline.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWHJ5MVg0ZFRnZmZkeVBPSU80cWJ5TWRyZkhQSGRNcVdLWk1qREhrVGRyR2ZkbXBlemZyV0lxX3R6MWk4WTdMTUpoYkx6bDlNQkl6SnBULUlsQnRhR0hBR1RHTHhBUDFEX2pvTUJndVV0V0dPa0QzZDJsQ3ZfaThUTDVmOC1yNThsN25ZckFkb2dCS2pIV0kxVEZmMmRTT0R3ZFI1eWVKNldIYm1lc0ZxLU5rM2luSmUyaGJheS0yWGZfdGk4QU1GMDVYV0dqVm5mTGpBaXdR?oc=5",
-          "domain": "chronicleonline-com.publisher",
           "tier": "C"
         },
         {
@@ -970,70 +1397,11 @@
       "published": "2026-10-14T18:55:07+00:00",
       "trace": [
         "tier B (+25)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from cache",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "5daeea85afc59df6",
-      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
-      "category": "markets",
-      "one_liner": "China plans to keep rare earth supplies flowing to Europe independently of upcoming U.S. trade deal expiration deadlines.",
-      "tags": [
-        "markets",
-        "policy",
-        "political",
-        "supply-chain"
-      ],
-      "summary": "China has indicated that it intends to continue exporting rare earths and approving export licenses to Europe regardless of whether its trade deal with the United States is extended past January. The move follows a previous tightening of Chinese export controls after U.S. blacklisting measures targeting Chinese entities. Trade tensions between the European Union and Beijing recently eased following discussions between European and Chinese trade officials. Beijing has proposed using a 'green channel' mechanism to ensure a steady flow of rare earth materials to European markets.",
-      "key_facts": [
-        "Target region: Europe",
-        "Deadline context: January U.S. trade deal expiration"
-      ],
-      "bottom_line": "China will maintain rare earth exports to Europe regardless of US trade deal extensions, easing supply concerns through a bilateral green channel mechanism.",
-      "claims": [
-        {
-          "text": "China intends to keep exporting rare earths to Europe regardless of whether a U.S. trade deal with Beijing gets extended past January.",
-          "support_span": "China intends to keep exporting rare earths to Europe regardless of whether a U.S. trade deal with Beijing gets extended past January.",
-          "status": "entailed"
-        },
-        {
-          "text": "China said it was willing to use a 'green channel' mechanism to keep rare earths flowing to Europe",
-          "support_span": "China said it was willing to use a 'green channel' mechanism to keep rare earths flowing to Europe, while asking for the bloc to support China's imports of certain products in dual-use sectors.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "5daeea85afc59df6"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
-          "domain": "cnbc.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-15T09:02:31+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from cache",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1077,99 +1445,186 @@
       "reject_reason": "published 2026-10-12 — outside lookback window"
     },
     {
-      "cluster_key": "1fd194e19c3dd4f6",
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "category": "cyber_attacks",
-      "one_liner": "Chinese espionage group Armory Castle exploited a BeyondTrust Remote Support zero-day to deploy web shells and steal credentials.",
+      "cluster_key": "33d80e63c717b1f6",
+      "title": "Inside a Bug Bounty Investigation : From Reconnaissance to a Reproducible Security Finding",
+      "category": "cyber_tools",
+      "one_liner": "This truncated bug bounty tutorial provides minimal content beyond a headline introduction.",
       "tags": [
-        "cve",
-        "exploit",
-        "identity",
-        "incident",
-        "malware",
-        "redteam",
-        "threat-actor",
+        "bugbounty",
+        "howto",
         "vulnerability"
       ],
-      "summary": "The China-nexus cyber espionage group Armory Castle (UNC5221) exploited a zero-day vulnerability in BeyondTrust Remote Support appliances in late August 2026. Tracked as CVE-2026-102764 with a CVSS score of 9.3, the flaw involves improper origin validation in an internal messaging component that permits file operations by remote attackers. Successful exploitation is followed by deploying the SAWFLY PHP web shell, SUID permission manipulation of system binaries to establish root persistence, and extensive credential theft for lateral movement.",
-      "key_facts": [
-        "CVE-2026-102764: CVSS 9.3",
-        "Threat Actor: Armory Castle (UNC5221)",
-        "Affected versions: Self-hosted versions 24.3.1 through 26.2.3",
-        "Web shell: SAWFLY"
-      ],
-      "bottom_line": "BeyondTrust Remote Support deployments running vulnerable versions face complete appliance takeover and credential theft via actively exploited zero-day CVE-2026-102764.",
+      "summary": "The article is truncated and consists only of a title and a subtitle indicating a walkthrough on bug bounty investigations ranging from reconnaissance to reproducible security findings.",
+      "key_facts": [],
+      "bottom_line": "This article is truncated and provides no actionable bug bounty investigation techniques.",
       "claims": [
         {
-          "text": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.",
-          "support_span": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.",
-          "status": "entailed"
-        },
-        {
-          "text": "The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a remote attacker to perform file operations on an affected appliance.",
-          "support_span": "The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a remote attacker to perform file operations on an അന്തരിച്ച appliance.",
+          "text": "Inside a Bug Bounty Investigation : From Reconnaissance to a Reproducible Security Finding",
+          "support_span": "Inside a Bug Bounty Investigation : From Reconnaissance to a Reproducible Security Finding",
           "status": "contradicted"
         }
       ],
-      "trust_score": 49,
-      "interest_score": 100,
-      "corroboration": 3,
-      "blend": 79.8,
-      "is_new": false,
+      "trust_score": 10,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 10.0,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "1fd194e19c3dd4f6",
-        "369ba3b261b5d0e3",
-        "ba6d7035fb54a804",
-        "d0e0e442d4718f04",
-        "e2213d6274feba16"
+        "33d80e63c717b1f6"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "Unit42",
-          "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-          "domain": "unit42.paloaltonetworks.com",
-          "tier": "B"
-        },
-        {
-          "name": "Cybersecurity Dive",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFJLaW1xU210TFVkX1V2X1o3M3RveHo1MnpROXFyZDNpMjJ1Ti1CTF9ibXVvQVo4YUNvQTJNdnluMkZkZkN6WExKalFVZTlla1RrQW0zM3dkdktsSkdKTDdXTW5QZ0RpUVBEMnRqek5PckNZXzFVNlA4XzM3V09TODZpTEJiMmZLMk5jLVpSbFVJMDFI?oc=5",
-          "domain": "cybersecurity-dive.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbjFJeDhLX3FpWHFXZ2tJTnYxdEJNX0U2WVRPUk03b2xjZjJVOHZtaVU5TVlydTROeVJYdFQwZXNhUHh6clp2ejBWWHB6d0dyUWQ2cnpZUEhJNUQ1Zy16VVhJc1RsQUp5Vnl4VFdVRGJFU01lRkRXTXB6VDZoaVhCLTd0R0tNM2FyNlYwNjhpNW16cHU5dGd2U21BMUVkc1FFWkZRVGU2LWVjbk51djF1VzlaMldRekE?oc=5",
-          "domain": "news-lavx-hu.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52TGNNelNLMmlNcDA3MmJUWUVqVWtXRkctQ21KdUtTem1JQUkzQzYyXzkzVl9ENk5BTE53SWFySFNNc2xFdXVuaFgySTJQMVozY0Y4emNPQUd4dHhidEE0aTg0aGFIUW5ob0phRl9fZDQ1bXRTNzB3MQ?oc=5",
-          "domain": "thehackernews.com",
+          "name": "Medium pentesting",
+          "url": "https://medium.com/@Akarsh_Chaturvedi/inside-a-bug-bounty-investigation-from-reconnaissance-to-a-reproducible-security-finding-1b7c3cce9165?source=rss------penetration_testing-5",
+          "domain": "medium.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-15T22:00:09+00:00",
+      "published": "2026-10-17T19:25:41+00:00",
       "trace": [
-        "tier B (+25)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 80 = trust 49 / interest 100 / corrob 75",
-        "demoted: critical capped at 5"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 10 = trust 10 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "073f1d173a18d03e",
+      "title": "Hardware implants were put in Ledger wallets to steal recovery seeds for crypto accounts.",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Kim Zetter kimzetter.bsky.social did:plc:mfam7sumoyb6lmiemlmhrwup Hardware implants were put in Ledger wallets to steal recovery seeds for crypto accounts. Someone used the seeds last week to hijack $100 million from 300 crypto accounts. Ledger was warned last March about implants but did little. There's evidence the stolen seeds were sent to Hong Kong.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "073f1d173a18d03e"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Kim Zetter",
+          "url": "https://bsky.app/profile/kimzetter.bsky.social/post/3mxrba65xs22k",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-13T14:40:37.472000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-13 — outside lookback window"
+    },
+    {
+      "cluster_key": "3313d9c88feba79f",
+      "title": "Woodside natural gas project unit paused after Greenpeace protest off Western Australia",
+      "category": "markets",
+      "one_liner": "Greenpeace protests off Western Australia temporarily halted operations at a Woodside natural gas project unit.",
+      "tags": [
+        "markets"
+      ],
+      "summary": "Woodside's natural gas project unit operations were temporarily paused following a protest led by Greenpeace activists off the coast of Western Australia.",
+      "key_facts": [
+        "Company: Woodside",
+        "Activist group: Greenpeace",
+        "Location: Western Australia"
+      ],
+      "bottom_line": "Activist protests have forced a temporary operational pause at a Woodside natural gas facility in Western Australia.",
+      "claims": [
+        {
+          "text": "Woodside natural gas project unit unit paused after Greenpeace protest off Western Australia",
+          "support_span": "Woodside natural gas project unit unit paused after Greenpeace protest off Western Australia",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 21.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "3313d9c88feba79f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcEtSYkpzYzU2WUhsb0V2bGwyamh6Z3dVYzZnaThBanotNU0wakx2RHdsLURpNWlTWXpDZllDZUQ1ZktNUThWXzVKWkZ4LVVWSWk2bXBwREd3MGRDelpPRHAtTmxfclh0WG1MQXBZQ01tbWxZa0VhZEFyWWJfdTV6cWpXWDFHb0syMFdTb3NfWl9TcjhzUm9pYUlTbDNVQ0t4RDEwb1RTRi1vVXpIeXh4YmZmN05zNVpHZkNiUi00ZUVheWcwazBhNw?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-17T23:56:00+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "11f1c27eb2feef3c",
+      "title": "WilderNoTrack/mcd-calorie-butler — 麦麦热量管家：减脂不是少吃你爱的，是先换掉不值这口热量的。基于麦当劳 MCP 的味热比点餐 Skill。",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "11f1c27eb2feef3c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WilderNoTrack/mcd-calorie-butler",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-13T02:30:41+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
       "cluster_key": "5b0a6526f043fa42",
@@ -1212,105 +1667,72 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T00:57:00+00:00",
+      "published": "2026-10-16T18:35:09+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "24192e24a5ea92d1",
-      "title": "De-skilling myself on doing CAPTCHAS and navigating dark patterns in customer service.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu De-skilling myself on doing CAPTCHAS and navigating dark patterns in customer service.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
+      "cluster_key": "0a0c61ae8d28cb34",
+      "title": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+      "category": "cyber_tools",
+      "one_liner": "Wemix upgrades its security bug bounty program through a partnership with CertiK.",
+      "tags": [
+        "appsec",
+        "bugbounty",
+        "vulnerability"
+      ],
+      "summary": "Wemix has upgraded its bug bounty program in partnership with CertiK to strengthen threat detection capabilities and identify key vulnerabilities across its platform.",
+      "key_facts": [
+        "Partner: CertiK"
+      ],
+      "bottom_line": "Wemix aims to fortify its threat detection by enhancing its bug bounty partnership with CertiK.",
+      "claims": [
+        {
+          "text": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+          "support_span": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 22,
+      "interest_score": 25,
+      "corroboration": 2,
+      "blend": 31.8,
       "is_new": false,
-      "summary_source": "extract",
+      "summary_source": "model",
       "alt_keys": [
-        "24192e24a5ea92d1"
+        "0a0c61ae8d28cb34",
+        "6a6586f38506c726"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxjsft4z7c2x",
-          "domain": "bsky.app",
+          "name": "GN Bug bounty",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTVoM3RTQ195aER1a2oxdDZtQmtYNHRTY2loa1NsSU5fTDRzc192d1g0RHo5VkFSaWMxMGE2N2JGZW1QUHExVUZta21Zb0Ztd0lldG50d0NCc1AxYzhwWkp5N1JMWnYxeng2WTJxREtQWVZiRlNURVQxMVF6Q1o3bnRYWElhWldLUVE1ODJ0c2JMSDhGUndQLUxXOVFSeFpLLVpaREQ5dHc?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
+        },
+        {
+          "name": "PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbmVLRHZQWVFBWVJicXVick1rZHFtVmpaQm51N2dzeTNpRFN1Ni1TOHlTVkRhQ1dhSE5YRkJqV1l4LUNadXZQc212VThUdXJuemxlZjhjeHV5REZCYnpPYlBwQU9sMTQyYjBObi0xMm9LQnA0WXVKSVpfTWFzS2NkN1BXOU5NQll0d3NJMUZWVzNGS0E5ZGxKM1JTNExpZjFKejRvOEpXWUtmZmlhVUd1UWJRWC1DUC04SklvQ3g3OWgyLUQzYWsyeUdlY1BIQQ?oc=5",
+          "domain": "pr-newswire.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-10T15:26:42.931000+00:00",
+      "published": "2026-10-14T01:16:35+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-10 — outside lookback window"
-    },
-    {
-      "cluster_key": "0337c17a4aa20668",
-      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
-      "category": "india_world",
-      "one_liner": "Italy's defence minister warns that U.S. restrictions on intelligence support for Ukraine would be a strategic error.",
-      "tags": [
-        "political"
-      ],
-      "summary": "Italy's defence minister, Guido Crosetto, has criticized the U.S. for potentially limiting Ukraine's access to satellite systems and intelligence, calling it a major mistake that risks prolonging the war. Despite this, the Italian government remains a strong supporter of Ukraine, though internal political pressure is growing as elections approach. The minister emphasized that peace will only be achieved when Russia realizes it cannot advance further, and he reaffirmed Italy's commitment to providing aid as long as the current government remains in power.",
-      "key_facts": [
-        "Minister: Guido Crosetto",
-        "Stance: Pro-Ukraine aid"
-      ],
-      "bottom_line": "The potential reduction of U.S. support for Ukraine is causing friction within the Western alliance, threatening to undermine the unified stance against Russian aggression.",
-      "claims": [
-        {
-          "text": "Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against Russian attacks.",
-          "support_span": "Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against Russian attacks.",
-          "status": "entailed"
-        },
-        {
-          "text": "Crosetto vowed that Italian military support would continue \"for as long as this government is in place\"",
-          "support_span": "Crosetto vowed that Italian military support would continue \"for as long as this government is in place\"",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 51.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "0337c17a4aa20668"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-16T23:54:35+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 4/5 from gemini-3.1-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
+        "tier C (+10)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 2/5 from cache",
+        "blend 32 = trust 22 / interest 25 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1378,35 +1800,31 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "254a5abc651768b7",
-      "title": "IndiaAI Fellowship 2026-27 Applications Open: Students Can Get Up To Rs 2 Lakh",
+      "cluster_key": "8003943d7869da7f",
+      "title": "4 Killed After Part Of Chimney Collapses At Power Plant In Bengal's Asansol",
       "category": "india_world",
-      "one_liner": "IndiaAI Fellowship 2026-27 applications open, offering student researchers up to Rs 2 lakh.",
+      "one_liner": "A fatal industrial accident at a West Bengal power plant highlights ongoing safety concerns in regional infrastructure.",
       "tags": [
-        "ai",
-        "india",
-        "research"
+        "india"
       ],
-      "summary": "Applications for the IndiaAI Fellowship 2026-27 have opened, offering financial support of up to Rs 2 lakh to empower the country's next generation of AI researchers.",
-      "key_facts": [
-        "Fellowship amount: Up to Rs 2 Lakh"
-      ],
-      "bottom_line": "Student AI researchers in India can apply for fellowships providing up to Rs 2 lakh under the IndiaAI initiative.",
+      "summary": "A chimney collapse at a power plant in Asansol, West Bengal, has resulted in four fatalities. Local officials have stated that there was no negligence involved in the incident. Investigations into the structural failure are expected to follow.",
+      "key_facts": [],
+      "bottom_line": "Four people were killed following a chimney collapse at a power plant in Asansol, West Bengal.",
       "claims": [
         {
-          "text": "IndiaAI Fellowship 2026-27 Applications Open: Students Can Get Up To Rs 2 Lakh",
-          "support_span": "IndiaAI Fellowship 2026-27 Applications Open: Students Can Get Up To Rs 2 Lakh",
+          "text": "4 Killed After Part Of Chimney Collapses At Power Plant In Bengal's Asansol",
+          "support_span": "4 Killed After Part Of Chimney Collapses At Power Plant In Bengal's Asansol",
           "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 25.0,
+      "blend": 36.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "254a5abc651768b7"
+        "8003943d7869da7f"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1414,18 +1832,18 @@
       "sources": [
         {
           "name": "NDTV India",
-          "url": "https://www.ndtv.com/education/indiaai-fellowship-2026-27-applications-open-students-can-get-up-to-rs-2-lakh-12197679#publisher=newsstand",
+          "url": "https://www.ndtv.com/india-news/4-killed-after-part-of-chimney-collapses-at-power-plant-in-bengals-asansol-12200624#publisher=newsstand",
           "domain": "ndtv.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-17T03:00:03+00:00",
+      "published": "2026-10-17T19:31:26+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1494,9 +1912,70 @@
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "332f9a8b099810dc",
+      "title": "Is this link safe? Find out with Malwarebytes Scam Link Check",
+      "category": "cyber_attacks",
+      "one_liner": "Malwarebytes introduced Scam Link Check to let users inspect suspicious URLs for threats before clicking.",
+      "tags": [
+        "appsec",
+        "howto",
+        "malware",
+        "policy",
+        "threat-intel",
+        "tool"
+      ],
+      "summary": "Malwarebytes has launched a free tool called Scam Link Check designed to let users inspect suspicious links before clicking them. When a link is pasted into the tool, Malwarebytes uses threat intelligence technology to scan for phishing, scams, and malware, providing a domain reputation and safety verdict within seconds. The tool is intended to help users evaluate unexpected texts, emails, or QR codes requesting sensitive actions.",
+      "key_facts": [
+        "Tool name: Malwarebytes Scam Link Check"
+      ],
+      "bottom_line": "Users can now leverage Malwarebytes' free tool to vet suspicious URLs for phishing and malware prior to interaction.",
+      "claims": [
+        {
+          "text": "Malwarebytes Scam Link Check is a new free tool that lets users check a suspicious link before clicking.",
+          "support_span": "Malwarebytes Scam Link Check is a new free tool that lets users check a suspicious link before clicking.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The tool scans websites using threat intelligence technology for signs of phishing, scams, and malware.",
+          "support_span": "When you paste a link, Malwarebytes Scam Link Check analyzes the website using our threat intelligence technology. Along with a safety verdict, you’ll learn more about what we found, including: - Information about the website’s domain and reputation - Signs that the site may be impersonating a known brand - Where the link ultimately leads - A preview of the website - Recommended next steps",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "332f9a8b099810dc"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Malwarebytes Labs",
+          "url": "https://www.malwarebytes.com/blog/product/2026/10/is-this-link-safe-find-out-with-malwarebytes-scam-link-check",
+          "domain": "malwarebytes.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-15T12:55:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1558,61 +2037,9 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "48f8b8deed71a4ab",
-      "title": "File Inclusion Explained | Find LFI & RFI Bugs in Bug Bounty",
-      "category": "cyber_tools",
-      "one_liner": "A quick bug bounty reminder on tracking down high-impact LFI and RFI vectors via unvalidated file parameters.",
-      "tags": [
-        "appsec",
-        "bugbounty",
-        "howto",
-        "privacy",
-        "vulnerability"
-      ],
-      "summary": "A short advisory highlighting how improper handling of file inclusion parameters can expose entire applications to Local File Inclusion (LFI) and Remote File Inclusion (RFI) vulnerabilities during bug bounty assessments.",
-      "key_facts": [],
-      "bottom_line": "Vulnerable file parameters can fully compromise applications via file inclusion flaws, making them crucial targets in bug bounty hunting.",
-      "claims": [
-        {
-          "text": "File Inclusion Explained | Find LFI & RFI Bugs in Bug Bounty",
-          "support_span": "File Inclusion Explained | Find LFI & RFI Bugs in Bug Bounty",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "48f8b8deed71a4ab"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Medium bug bounty",
-          "url": "https://medium.com/@pentesterclubpvtltd/file-inclusion-explained-find-lfi-rfi-bugs-in-bug-bounty-705466c5b97e?source=rss------bug_bounty-5",
-          "domain": "medium.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-16T15:37:20+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1672,72 +2099,6 @@
         "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "f976e762241aab1a",
-      "title": "Repeal recent Assembly polls, INDIA bloc urges President",
-      "category": "india_world",
-      "one_liner": "India's opposition bloc petitioned the President to repeal recent assembly elections and replace EVMs with paper ballots over alleged vote theft.",
-      "tags": [
-        "incident",
-        "india",
-        "policy",
-        "political",
-        "research",
-        "threat-intel"
-      ],
-      "summary": "The opposition INDIA bloc petitioned President Droupadi Murmu to repeal all assembly elections held over the past two years, claiming they possess incontrovertible evidence of widespread vote theft (\"vote chori\"). Opposition leaders, including Rahul Gandhi, alleged that electronic voting machines have compromised democracy and called for a return to paper ballots, the resignation of Chief Election Commissioner Gyanesh Kumar, and the repeal of laws granting immunity to election commissioners. The bloc plans to present a similar memorandum to Chief Justice of India Surya Kant. Rahul Gandhi asserted that continued pressure could force the central government to collapse before completing its term.",
-      "key_facts": [
-        "Date of Petition: October 9, 2026",
-        "Deleted Voters Cited: 13.30 crore"
-      ],
-      "bottom_line": "The political standoff between the opposition INDIA bloc and the government escalates as leaders formally request the President to nullify recent elections and overhaul the election commission.",
-      "claims": [
-        {
-          "text": "The Opposition INDIA bloc on Friday (October 9, 2026) urged President Droupadi Murmu to “repeal” all Assembly elections held over the last two years, saying they have “incontrovertible proof” of “vote chori” (theft).",
-          "support_span": "The Opposition INDIA bloc on Friday (October 9, 2026) urged President Droupadi Murmu to “repeal” all Assembly elections held over the last two years, saying they have “incontrovertible proof” of “vote chori” (theft).",
-          "status": "entailed"
-        },
-        {
-          "text": "The Opposition bloc is also scheduled to meet Chief Justice of India Surya Kant on Monday (October 12) with a similar memorandum.",
-          "support_span": "The Opposition bloc is also scheduled to meet Chief Justice of India Surya Kant on Monday (October 12) with a similar memorandum.",
-          "status": "entailed"
-        },
-        {
-          "text": "The memorandum reiterated the Opposition’s demands seeking Chief Election Commissioner Gyanesh Kumar’s resignation and repeal of the 2023 law that provides life-long immunity to the CEC and ECs.",
-          "support_span": "The memorandum reiterated the Opposition’s demands seeking Chief Election Commissioner Gyanesh Kumar’s resignation and expiry of the 2023 law...",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "f976e762241aab1a"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/repeal-recent-assembly-polls-india-bloc-urges-president/article71565504.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-17T05:06:38+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }
