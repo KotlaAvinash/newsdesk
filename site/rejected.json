@@ -1,47 +1,31 @@
 {
-  "generated_at": "2026-10-19T06:55:58.459199+00:00",
+  "generated_at": "2026-10-20T06:41:37.969201+00:00",
   "items": [
     {
-      "cluster_key": "643ce8037c5c9af6",
-      "title": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and W",
+      "cluster_key": "9b0798b54872a4ba",
+      "title": "ShadowSwaps/REA-Reconstruction-Companion — Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integ",
       "category": "tech_ai",
-      "one_liner": "Generate free local background music and sound effects inside Claude Code or Cursor using a Model Context Protocol server powered by Stable Audio 3.",
+      "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "hardware",
+        "howto",
         "llm",
         "opensource",
-        "tool",
-        "windows"
+        "release"
       ],
-      "summary": "Audio Studio MCP is a local Model Context Protocol server that equips AI clients like Claude Code, Claude Desktop, and Cursor with background music and sound effect generation using Stable Audio 3. Running locally on Apple Silicon Macs via MLX or NVIDIA GPUs on Windows using PyTorch, it generates audio assets completely offline without cloud APIs or usage costs. Every generated file includes a sidecar JSON file containing the exact prompt, seed, and configuration parameters to ensure reproducibility.",
-      "key_facts": [
-        "Model: Stable Audio 3 medium (1.4B)",
-        "Hardware requirements (Mac): Apple Silicon M1 or later, 16 GB RAM recommended",
-        "Hardware requirements (Windows): NVIDIA GPU with 8 GB+ VRAM"
-      ],
-      "bottom_line": "Developers can generate local, reproducible audio assets inside AI coding tools via an offline MCP server.",
-      "claims": [
-        {
-          "text": "Audio Studio MCP gives Claude Code, Claude Desktop, Cursor and any other MCP client a sound studio that runs on your own Mac or Windows PC.",
-          "support_span": "Audio Studio MCP gives Claude Code, Claude Desktop, Cursor and any other MCP client a sound studio that runs on your own Mac or Windows PC.",
-          "status": "entailed"
-        },
-        {
-          "text": "Stable Audio 3 on Apple Silicon (MLX) and W",
-          "support_span": "Stable Audio 3 on Apple Silicon (MLX) and W",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
+      "summary": "An open-source, model-independent Agent Skill that works with REA. Turn reverse-engineering evidence into requirements, architecture, an implementation roadmap and testable results—at the scope you choose. Get started · Usage examples · REA integration · Documentation · Releases · Support on Ko-fi Start with the installation prompt below, or use the manual commands. The portable core has no model SDK or paid API requirement. Integration and weekly update checks are separate choices; both are explained before setup.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "643ce8037c5c9af6"
+        "9b0798b54872a4ba"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -49,21 +33,60 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+          "url": "https://github.com/ShadowSwaps/REA-Reconstruction-Companion",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-18T11:13:56+00:00",
+      "published": "2026-10-15T06:11:46+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "847b54cc5500fdf4",
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-10-14T16:35:26.854Z",
+      "key_facts": [
+        "Identifier: CVE-2026-92392"
+      ],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "847b54cc5500fdf4"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mxty4fom6d2u",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-14T16:35:26.651000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-14 — outside lookback window"
     },
     {
       "cluster_key": "b634aa430f44dd0d",
@@ -105,14 +128,115 @@
       "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
-      "cluster_key": "0ce3895ad36ed9c2",
-      "title": "If you haven’t made sure to turn on two-factor authentication on all accounts, have passwords with family in case you get voice calls asking for…",
+      "cluster_key": "df489c10521cd2bd",
+      "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a",
+      "category": "cyber_tools",
+      "one_liner": "God's Eye View brings real-time public spatial intelligence into an interactive 3D globe with AI voice control.",
+      "tags": [
+        "agents",
+        "ai",
+        "opensource",
+        "release",
+        "tool"
+      ],
+      "summary": "God's Eye View is an open-source browser application that simulates a spy satellite interface while using live public data feeds including flight transponders, ship beacons, orbital elements, and seismographs. Created by bilawalsidhu, the tool features photorealistic 3D globe visualization, hands-free voice control powered by an AI agent, and various tactical overlays like a military HUD and thermal sensor filters. It runs locally or via Pinokio without requiring API keys for core feeds.",
+      "key_facts": [],
+      "bottom_line": "Public tracking data and spatial intelligence can be explored interactively in the browser via open-source tools.",
+      "claims": [
+        {
+          "text": "God's Eye View is a browser-based spy-satellite simulator powered by real public data feeds including live aircraft, ships, and earthquakes.",
+          "support_span": "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real. Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras.",
+          "status": "entailed"
+        },
+        {
+          "text": "The project reached #1 on GitHub Trending and is installed locally or via Pinokio.",
+          "support_span": "Reached #1 on GitHub Trending, daily and weekly · August 2026... Install with Pinokio or run locally from the terminal.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "df489c10521cd2bd"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (updated)",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T00:26:23+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "89b1b64e25e1bfd1",
+      "title": "ZSeven-W/codex-openpencil — Codex plugin for OpenPencil — an interactive Rust/WASM canvas for AI-assisted UI design. Create editable .op f",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "appsec",
+        "howto",
+        "llm",
+        "malware",
+        "opensource"
+      ],
+      "summary": "The Codex plugin for OpenPencil — create, inspect, and refine editable .op designs from a conversation. One-Prompt Setup • Interactive Canvas • Selection Prompts • Native Rust Engine Quick Start · Features · Examples · Ecosystem · Install Guide · Validation Design in a Codex conversation, refine on an editable OpenPencil canvas — MŌDE fashion app home and product detail screens. When a design needs new image assets, Codex uses its built-in image generation, which may consume your Codex image-generation quota. Say “use stock images only” to skip generation. Unavailable or failed generation falls back to stock search.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "89b1b64e25e1bfd1"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/ZSeven-W/codex-openpencil",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-14T07:15:57+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-14 — outside lookback window"
+    },
+    {
+      "cluster_key": "067498e444d5fb13",
+      "title": "My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "ai"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu If you haven’t made sure to turn on two-factor authentication on all accounts, have passwords with family in case you get voice calls asking for money, etc, now would be a good time. AI gains mean the costs of mass targeting individuals with very sophisticated attacks are dropping.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you personalized prompts, ideas, & readings based on concepts from the book You can order & claim the pre-order bonus here: co-existence.ai 2026-10-19T15:54:52.554Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -123,7 +247,8 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "0ce3895ad36ed9c2"
+        "067498e444d5fb13",
+        "875a64383172f235"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -131,132 +256,136 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxoxbpm5nk2z",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myai6h4uzc2x",
+          "domain": "bsky.app",
+          "tier": "C"
+        },
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxr57bfkxc2q",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-12T16:37:12.421000+00:00",
+      "published": "2026-10-13T13:28:32.346000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-12 — outside lookback window"
+      "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
-      "cluster_key": "cabaa00a57e80bb2",
-      "title": "azrinaldi/gemini-stealth-bridge — Browserless Chrome uTLS + HTTP/2 OpenAI-compatible API daemon for Google Gemini Web (/v1/chat/completions & /v",
+      "cluster_key": "54c796830fb6d875",
+      "title": "Graphicle-AI/graphicle — Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP ",
       "category": "tech_ai",
-      "one_liner": "Gemini-stealth-bridge v0.2.0 is an OpenAI-compatible proxy daemon enabling coding agents to use Google Gemini Web accounts via session cookies with robust multi-account pooling.",
+      "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "llm",
         "opensource",
-        "release",
-        "tool",
         "windows"
       ],
-      "summary": "The azrinaldi/gemini-stealth-bridge (gsb) project provides an OpenAI-compatible API daemon for Google Gemini Web that connects coding agents and API clients through Chat Completions and Responses endpoints without requiring headless Chrome, CDP, or an official Gemini Developer API key. Version 0.2.0 introduces multi-account reliability improvements, featuring strategies like sticky session rotation, LRU, and fill-first routing via BRIDGE_ACCOUNT_PRIORITY, while pinning account keys to prevent session switching on quotas or network errors. It also implements fail-closed streaming for long reasoning turns to prevent mixed answers, live prose streaming for non-tool turns exceeding 320 bytes, and strict parser detection for tool envelopes.",
-      "key_facts": [
-        "Version: 0.2.0",
-        "Context window metadata: 1,048,576 tokens",
-        "Output limit metadata: 65,536 tokens"
-      ],
-      "bottom_line": "Coding agents can route traffic through Google Gemini Web accounts using OpenAI-compatible endpoints with improved pool routing and streaming stability.",
-      "claims": [
-        {
-          "text": "Browserless Chrome uTLS + HTTP/2 OpenAI-compatible API daemon for Google Gemini Web (/v1/chat/completions & /v",
-          "support_span": "azrinaldi/gemini-stealth-bridge — Browserless Chrome uTLS + HTTP/2 OpenAI-compatible API daemon for Google Gemini Web (/v1/chat/completions & /v",
-          "status": "contradicted"
-        },
-        {
-          "text": "Version 0.2.0 focuses on coding-agent workflows, multi-account reliability, stream correctness, and long-session stability...",
-          "support_span": "Version 0.2.0 focuses on coding-agent workflows, multi-account reliability, stream correctness, and long-session stability:",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
+      "summary": "Graphicle maps your repository into a code graph, remembers your project's docs, decisions and past agent sessions, and gives your coding agent cited excerpts from both: the exact files and lines. It runs on your machine: no API key needed, no account, no telemetry. Works with Claude Code · Cursor · Codex · VS Code · Claude Desktop · any MCP client Quick start · How it works · Benchmarks · Docs · Coming from Graphify? Discussions brew install graphicle-ai/tap/graphicle cd your-repo graphicle setup No Homebrew? curl -fsSL | sh · Release archives · Other ways to install Windows: a preview build for x86-64, not yet code-signed (Windows (preview)).",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 43.8,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "cabaa00a57e80bb2"
+        "54c796830fb6d875"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/azrinaldi/gemini-stealth-bridge",
+          "url": "https://github.com/Graphicle-AI/graphicle",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T04:42:00+00:00",
+      "published": "2026-10-14T12:25:36+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-14 — outside lookback window"
+    },
+    {
+      "cluster_key": "d11a11b2b5bd6008",
+      "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
+      "category": "cyber_tools",
+      "one_liner": "OpenTRAP offers an open-source web application security testing proxy that pairs a Burp-like workflow with the OWASP ZAP engine.",
+      "tags": [
+        "appsec",
+        "bugbounty",
+        "network",
+        "opensource",
+        "privacy",
+        "research",
+        "tool",
+        "vulnerability"
+      ],
+      "summary": "OpenTRAP (Open Traffic Replay and Analysis Proxy) has been launched as a free, open-source alternative to Burp Suite, combining a familiar intercepting-proxy workflow with the OWASP ZAP detection engine. Built for penetration testers, bug bounty hunters, and AppSec engineers, the tool provides a complete testing workspace with a live dashboard, traffic interception, history tracking, a site map, and automated vulnerability scanning. The project aims to eliminate commercial licensing barriers while inviting community contributions to expand its core capabilities and tooling.",
+      "key_facts": [],
+      "bottom_line": "OpenTRAP is a new open-source intercepting proxy that combines a Burp Suite workflow with the OWASP ZAP engine without commercial licensing gates.",
+      "claims": [
+        {
+          "text": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with...",
+          "support_span": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "d11a11b2b5bd6008"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/opentrap/opentrap",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-19T03:29:08+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "4d25eefb5e9d3484",
-      "title": "GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret…",
+      "cluster_key": "3d9780d13caf81ce",
+      "title": "guolola/SoftJL — Self-hosted AI workspace for software engineering capstone and course projects. Generate UML models, system de",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret formula that nobody else knew about. Now there are are 19 AI models that can run on a modern smartphone that are better than GPT-4!",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4d25eefb5e9d3484"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxq4bhezas2q",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T03:39:12.245000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "2b1aa5f0b2ae0fc5",
-      "title": "Shared some notes on Python 3.15, using it with uv, and features from Python 3.11 I'm excited to use now that 3.10 is no longer the minimum…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
+        "howto",
+        "opensource",
         "release",
-        "windows"
+        "research"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Shared some notes on Python 3.15, using it with uv, and features from Python 3.11 I'm excited to use now that 3.10 is no longer the minimum supported version for my own projects 2026-10-12T18:22:23.361Z",
+      "summary": "English | 简体中文 An engineering workspace for capstone and course projects Connect requirements, UML, design, tests and engineering documents with your own model service. Review coverage · Follow changes · Explain your work Trace your designs, guide your revisions. Review models, tests and specifications against the same requirements, follow change impacts and organize design sources you can explain in reviews and your defense. For software capstone projects, course projects and UML assignments, the workspace helps students check whether requirements are reflected in designs and tests, identify materials affected by changes and explain where their design decisions came from. Source links and…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -264,52 +393,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "2b1aa5f0b2ae0fc5"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mxp55chsbc2c",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-12T18:22:06.876000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-12 — outside lookback window"
-    },
-    {
-      "cluster_key": "95dd3324c642a10e",
-      "title": "i12bp8/decomp.wtf — What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs l",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "release"
-      ],
-      "summary": "I've decided to stop working on decomp.wtf and archive it. Over the last few days I noticed that a lot of the decompilation community, the people who made the tools and projects all of this is built on, is against AI decompiling like this. I didn't make decomp.wtf to do any harm, but I respect their opinion, and that's why I'm stopping it here. The code stays up as it is, under the MIT license. If you want to fork it and keep going with it, you can.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "95dd3324c642a10e"
+        "3d9780d13caf81ce"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -317,191 +404,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/i12bp8/decomp.wtf",
+          "url": "https://github.com/guolola/SoftJL",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T08:19:01+00:00",
+      "published": "2026-10-15T01:54:17+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "8f6828b356ca6ef1",
-      "title": "pycodebr/heditor — Creative vertical video editing skill for AI agents (Claude Code, Codex, OpenCode, Cursor, Hermes): named styl",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource"
-      ],
-      "summary": "Skill de edição criativa de vídeos para agentes de IA: Reels verticais e vídeos longos. Transforma uma gravação de alguém falando (aula, live, podcast, talking head) em um Reel/Short/TikTok 1080×1920 com motion graphics, legendas sincronizadas, efeitos sonoros e trilha emocional, ou em um vídeo longo (aula inteira, live, vídeo para o YouTube) em 16:9, 1:1, 4:5 ou 9:16, em estilos nomeados, em modo criativo ou em modo criativo com referência (\"no estilo GTA 6\"). Feito pela PycodeBR · Felipe Azambuja · English below O heditor é um pacote de skill no padrão aberto SKILL.md (Agent Skills). Você instala no seu agente (Claude Code, Codex, OpenCode, Cursor, Hermes e outros) e passa a pedir edições…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "8f6828b356ca6ef1"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/pycodebr/heditor",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T17:30:04+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "7d773bf1159c9b71",
-      "title": "R44VC0RP/isocast — Free, open-source OBS alternative for Mac: scenes and sources, every source recorded as its own file (ISO), ab",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "howto",
-        "linux",
-        "opensource",
-        "windows"
-      ],
-      "summary": "A free, open-source OBS alternative for Mac that records every source as its own file. Isocast is a screen recorder and streaming app for macOS on Apple silicon. It works like OBS, with scenes, sources, transitions and an audio mixer, and it also saves each screen, window and camera as a separate full-quality file (ISO recording), all on one clock. It uses about half the CPU of OBS for the same recording, imports your OBS scene collections, and answers the obs-websocket tools you already use. isocast.xyz Download for Mac · Getting started · Isocast vs OBS · FAQ - Every source in its own file.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "7d773bf1159c9b71"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/R44VC0RP/isocast",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T21:01:59+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "64f90e47875189fc",
-      "title": "Zfinix/eleven — Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binarie",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "android",
-        "hardware",
-        "linux",
-        "llm",
-        "opensource",
-        "windows"
-      ],
-      "summary": "An agent-first reverse-engineering app for macOS, Windows and Linux. English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano Eleven is a reverse-engineering app built around agents. Drop in an app, a binary, an Android APK, a GPU kernel, a shader or a model and ask what it does. Any agent that speaks the Agent Client Protocol can read the code, follow references, rename functions, leave notes and suggest patches, while you watch and approve in the same window. Native code is read by Ghidra through REA, or by Rizin when you want files to open in seconds.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "64f90e47875189fc"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Zfinix/eleven",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T13:47:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "e0793e65a85a060d",
-      "title": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "howto",
-        "opensource"
-      ],
-      "summary": "Quickstart · Examples · Models · Cloud · Docs Scout is an open-source agent that uses a real browser to finish a task for you. Scout reads the page, clicks, types and scrolls until the job is done, then hands back the answer. If it cannot finish, it tells you what is missing and returns what it found. One line gives it a browser that sites treat like anyone at home, with captcha solving and a replay of every run. A recorded run on Outcrawl's cloud, 13 October 2026, shown at 6x speed with nothing cut.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e0793e65a85a060d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/outcrawlai/scout",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T09:18:55+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
+      "reject_reason": "published 2026-10-15 — outside lookback window"
     },
     {
       "cluster_key": "bd54df3e7e8bb7e2",
@@ -543,80 +456,32 @@
       "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
-      "cluster_key": "9de7b9947f262e16",
-      "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit — AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "AI 跨境电商运营智能体工具箱 · Turn cross-border ecommerce SOPs into reusable AI Agent workflows.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "9de7b9947f262e16"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T10:13:21+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "60d7399661769704",
-      "title": "Urban Company shares crash over 8% after Q2 results - Should investors buy, sell, or hold the stock? Experts explain",
+      "cluster_key": "a0f871cdb4f0d51b",
+      "title": "Expert view: A relief rally toward 23,800–24,200 possible; FPIs may return if dollar, bond yields peak, says Rahul Ghose",
       "category": "markets",
-      "one_liner": "Urban Company shares fell 8% after Q2 results revealed an EBITDA loss driven by InstaHelp investments, prompting a 'buy' from Emkay.",
+      "one_liner": "FPI outflows and high US yields weigh on Indian markets, though analysts see potential for a short-term relief rally.",
       "tags": [
+        "ai",
+        "dfir",
         "india",
         "markets"
       ],
-      "summary": "Urban Company shares dropped over 8% in morning trade on the BSE to an intraday low of ₹144.85 following its Q2FY27 results. The home services platform reported a 39% year-on-year growth in consolidated net transaction value to ₹1,432 crore and a 41% rise in operating revenue to ₹537 crore, alongside an adjusted EBITDA loss of ₹144 crore driven by a ₹174 crore investment in InstaHelp. Despite the quarterly loss, its board approved a fresh capital raise of up to ₹2,500 crore, and brokerage Emkay Global retained a 'buy' rating with a target price of ₹200. Management has maintained its guidance for consolidated adjusted EBITDA breakeven by Q3FY28.",
+      "summary": "Market expert Rahul Ghose projects that the Nifty 50 may end the year in a negative trend while pointing to a potential relief rally toward the 23,800-24,200 range driven by oversold conditions. Foreign portfolio investors (FPIs) have withdrawn ₹3.08 trillion in CY26, driven by high US Treasury yields and capital shifting toward North Asian AI-focused markets. Meanwhile, strong Q2 earnings from domestic IT and banking giants alongside a 25 bps RBI repo rate hike to 5.50 percent continue to shape stock selection strategies.",
       "key_facts": [
-        "Date: Monday, 19 October 2026",
-        "Q2FY27 Net Transaction Value (NTV): ₹1,432 crore (up 39% YoY)",
-        "Q2FY27 Operating Revenue: ₹537 crore (up 41% YoY)",
-        "Adjusted EBITDA: -₹144 crore",
-        "Proposed capital raise: Up to ₹2,500 crore"
+        "Nifty index level: 22,888.95 (on Oct 19)",
+        "FPI outflows in CY26: ₹3.08 trillion",
+        "RBI repo rate: 5.50%"
       ],
-      "bottom_line": "Heavy investments in InstaHelp drove an adjusted EBITDA loss for Urban Company in Q2, causing a stock correction despite strong revenue growth.",
+      "bottom_line": "Foreign capital will likely remain restricted until US bond yields and the dollar peak, shifting investor focus to selective domestic bluechips.",
       "claims": [
         {
-          "text": "Urban Company shares crashed over 8% in morning trade on the BSE on Monday, 19 October, after the home services platform's September quarter (Q2FY27) results.",
-          "support_span": "Urban Company shares crashed over 8% in morning trade on the BSE on Monday, 19 October, after the home services platform's September quarter (Q2FY27) results.",
-          "status": "entailed"
-        },
-        {
-          "text": "Urban Company share price opened at ₹148.15 against its previous close of ₹158.30 and crashed 8.5% to an intraday low of ₹144.85.",
-          "support_span": "Urban Company share price opened at ₹148.15 against its previous close of its previous close of ₹158.30 and crashed 8.5% to an intraday low of ₹144.85.",
+          "text": "Rahul Ghose expects the Nifty 50 to end the year in the red with a possible relief rally toward 23,800-24,200.",
+          "support_span": "Rahul Ghose, Founder and CEO of Octanom Tech and Hedged.in, sees a chance that the Nifty 50 will end the year in the red... the market is oversold, so a sharp relief rally toward 23,800–24,200 is possible.",
           "status": "contradicted"
         },
         {
-          "text": "Adjusted EBITDA for the quarter was - ₹144 crore due to a deliberate ₹174 crore investment in InstaHelp.",
-          "support_span": "Adjusted EBITDA for the quarter was - ₹144 crore due to a deliberate ₹174 crore investment in InstaHelp.",
+          "text": "FPIs withdrew ₹3.08 trillion in CY26, nearly double the ₹1.66 trillion pulled out in all of 2025.",
+          "support_span": "The scale shows how strong these forces are: FPIs withdrew ₹3.08 trillion in CY26, nearly double the ₹1.66 trillion pulled out in all of 2025.",
           "status": "entailed"
         }
       ],
@@ -627,8 +492,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "60d7399661769704",
-        "d5041c75a3577658"
+        "a0f871cdb4f0d51b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -636,19 +500,78 @@
       "sources": [
         {
           "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/urban-company-shares-crash-over-8-after-q2-results-should-investors-buy-sell-or-hold-the-stock-experts-explain-11792383144839.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        },
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/ireda-q2-results-2026-today-psu-stock-falls-28-in-a-year-should-you-buy-ahead-of-earnings-11792377093454.html",
+          "url": "https://www.livemint.com/market/stock-market-news/expert-view-a-relief-rally-toward-23-800-24-200-possible-fpis-may-return-if-dollar-bond-yields-peak-says-rahul-ghose-11792461311690.html",
           "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T03:13:04+00:00",
+      "published": "2026-10-20T02:10:27+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "8a1002dfca157283",
+      "title": "HDFC Bank vs ICICI Bank share price targets: Check upside potential, returns, valuations — which stock should you buy?",
+      "category": "markets",
+      "one_liner": "Q2 results for HDFC Bank and ICICI Bank reveal solid asset quality improvements and strong broker buy ratings despite margin pressures.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "ICICI Bank and HDFC Bank reported their September-quarter results, showing improved asset quality despite pressure on net interest margins from foreign-currency deposits. ICICI Bank reported a 20.1 percent increase in net profit to ₹14,843 crore alongside robust credit growth, while HDFC Bank posted a standalone net profit of ₹19,510 crore, up 4.7 percent year-on-year. Major brokerages including Anand Rathi and Motilal Oswal maintain BUY ratings on both private lenders, with ICICI Bank favored for stronger earnings momentum and HDFC Bank viewed as a valuation recovery opportunity.",
+      "key_facts": [
+        "HDFC Bank Q2 net profit: ₹19,510 crore",
+        "ICICI Bank Q2 net profit: ₹14,843 crore",
+        "ICICI Bank target price (Anand Rathi): ₹1,752"
+      ],
+      "bottom_line": "Private banking leaders ICICI and HDFC remain strong buy candidates for brokerages following solid asset quality gains in Q2.",
+      "claims": [
+        {
+          "text": "HDFC Bank reported a standalone net profit of ₹19,510 crore, up 4.7% year-on-year, while ICICI Bank's net profit increased 20.1% to ₹14,843 crore.",
+          "support_span": "HDFC Bank reported standalone net profit of ₹19,510 crore for the September quarter, up 4.7% year-on-year. ICICI Bank's net profit increased 20.1% to ₹14,843 crore from ₹12,359 crore a year earlier.",
+          "status": "entailed"
+        },
+        {
+          "text": "HDFC Bank's gross NPA ratio declined to 1.11% and ICICI Bank's gross NPA improved to 1.2%.",
+          "support_span": "HDFC Bank's gross non-performing asset (NPA) ratio declined to 1.11% from 1.17%... ICICI Bank's gross NPA ratio improved to 1.2% from 1.38%",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "8a1002dfca157283",
+        "bda7034c4eef4fec"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-vs-icici-bank-share-price-targets-check-upside-potential-returns-valuations-which-stock-should-you-buy-11792470098217.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        },
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/up-64-in-6-months-already-should-you-still-buy-neogen-chemicals-antique-sees-23-upside-potential-check-target-11792425758466.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T04:05:19+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
@@ -697,162 +620,86 @@
       "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
-      "cluster_key": "990e8cb784d50b7c",
-      "title": "HardEval: An Execution-Verified Benchmark for AI-Driven Security Hardening and Compliance Remediation",
-      "category": "tech_ai",
-      "one_liner": "HardEval benchmarks LLM security hardening by executing generated scripts against live OS compliance checks.",
+      "cluster_key": "e47790c6728ded71",
+      "title": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
+      "category": "india_world",
+      "one_liner": "Brief headline update on the Tiger Shroff firing case involving transit remands in Kota.",
+      "tags": [
+        "india"
+      ],
+      "summary": "The text consists solely of a headline indicating updates regarding the Tiger Shroff firing case with 3 suspects undergoing medical examination in Kota and transit remand granted. No further text or elaboration is present.",
+      "key_facts": [
+        "Suspects: 3",
+        "Location: Kota"
+      ],
+      "bottom_line": "Three suspects in the Tiger Shroff firing case underwent medical examination in Kota under a transit remand.",
+      "claims": [
+        {
+          "text": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
+          "support_span": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 13.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "e47790c6728ded71"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/tiger-shroff-assassination-bid-updates-lawrence-bishnoi-gang-salman-khan-juhu-mumbai-12203309#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-19T19:04:49+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0fd6d519f7abbbab",
+      "title": "CVE-2026-109440 - LangAlpha through 2026.09.07 Indirect Prompt Injection RCE via Bash and ExecuteCode",
+      "category": "cyber_attacks",
+      "one_liner": "CVE-2026-109440 exposes LangAlpha agents to indirect prompt injection RCE via unconstrained Bash and ExecuteCode tool integrations.",
       "tags": [
         "agents",
         "ai",
-        "appsec",
-        "blueteam",
-        "howto",
+        "cve",
+        "exploit",
         "linux",
         "llm",
+        "tool",
         "vulnerability"
       ],
-      "summary": "HardEval is a new execution-verified benchmark designed to evaluate how well LLMs perform security hardening tasks on live operating systems. Unlike existing benchmarks that focus on isolated code, HardEval uses Red Hat Enterprise Linux 8 STIG controls and grades models based on whether their generated Bash scripts successfully pass OpenSCAP/OVAL compliance checks on a live virtual machine. Testing revealed significant performance gaps across models, with a common failure mode being the generation of plausible-looking security code that fails to meet exact compliance requirements.",
+      "summary": "LangAlpha through September 7, 2026, contains an indirect prompt injection remote code execution vulnerability via its Bash and ExecuteCode tools, tracked as CVE-2026-109440. Because these execution components lack allow-lists and human-in-the-loop approval workflows, remote attackers can plant malicious instructions in web content retrieved by the agent to run arbitrary shell commands or Python code inside the workspace sandbox and exfiltrate vault secrets.",
       "key_facts": [
-        "Benchmark base: Red Hat Enterprise Linux 8 STIG controls",
-        "Verification method: OpenSCAP/OVAL compliance checks"
+        "CVE-2026-109440",
+        "Affected product: LangAlpha through 2026.09.07"
       ],
-      "bottom_line": "LLMs often struggle to translate natural-language security requirements into precise, compliant system configurations, making execution-based verification essential for security automation.",
+      "bottom_line": "AI agent tools executing shell commands or code must enforce strict allow-lists and human approval checks to prevent indirect prompt injection compromise.",
       "claims": [
         {
-          "text": "HardEval, an execution-verified benchmark for evaluating language-model-assisted security hardening.",
-          "support_span": "HardEval, an execution-verified benchmark for evaluating language-model-assisted security hardening.",
+          "text": "LangAlpha contains an indirect prompt injection vulnerability allowing remote attackers to execute shell commands or Python via web content.",
+          "support_span": "CVE-2026-109440 LangAlpha through 2026.09.07 contains an indirect prompt injection vulnerability that allows remote attackers to execute shell commands or Python by planting instructions in web content retrieved by the agent.",
           "status": "contradicted"
         },
         {
-          "text": "The model produces a Bash script, which is executed on a live virtual machine and graded from fail to pass using the corresponding OpenSCAP/OVAL compliance check.",
-          "support_span": "The model produces a Bash script, which is executed on a live virtual machine and graded from fail to pass using the corresponding OpenSCAP/OVAL compliance check.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "990e8cb784d50b7c"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2610.23685",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.23685"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "8614b6638ac01308",
-      "title": "At the Limits of Computability: Steps Towards Autonomous AI Discovery on the Busy Beaver Frontier",
-      "category": "tech_ai",
-      "one_liner": "A Gemini-based agentic pipeline discovers and formally verifies novel Collatz-like accelerations for eleven machines in BB(6).",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers introduced a Gemini-based agentic pipeline to autonomously explore the uncomputable Busy Beaver (BB) domain by discovering and verifying Turing machine accelerations. The framework integrates pattern recognition, automated conjecturing, informal mathematical reasoning, and formal theorem proving in Lean. Using this system, the researchers discovered and formally verified novel Collatz-like accelerations for eleven machines in BB(6). These machines are provisionally classified as Cryptids, representing instances whose blank-tape executions yield exact mathematical descriptions but whose ultimate halting behavior remains unresolved.",
-      "key_facts": [
-        "Domain: Busy Beaver BB(6)",
-        "Discoveries: 11 machines with novel Collatz-like accelerations"
-      ],
-      "bottom_line": "Autonomous AI agents can successfully discover and formally verify complex mathematical structures within uncomputable domains like Busy Beaver.",
-      "claims": [
-        {
-          "text": "In this paper, we introduce a Gemini-based agentic pipeline that automatically discovers accelerations of Turing machines, expressed as compact mathematical rules summarizing many execution steps.",
-          "support_span": "In this paper, we introduce a Gemini-based agentic pipeline that automatically discovers accelerations of Turing machines, expressed as compact mathematical rules summarizing many execution steps.",
-          "status": "entailed"
-        },
-        {
-          "text": "With this framework, our system autonomously discovered and formally verified novel Collatz-like accelerations for eleven machines in BB(6).",
-          "support_span": "With this framework, our system autonomously discovered and formally verified novel Collatz-like accelerations for eleven machines in V(6).",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "8614b6638ac01308"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.22603",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.22603"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "45e401eebf29f643",
-      "title": "CVE-2026-111923 - Fleet before 4.89.0 Unauthenticated DoS via Apple MDM Enrollment Plist Parsing",
-      "category": "cyber_attacks",
-      "one_liner": "A critical unauthenticated DoS vulnerability in Fleet server versions prior to 4.89.0 can crash systems via malformed Apple MDM plists.",
-      "tags": [
-        "appsec",
-        "cve",
-        "network",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "Fleet before version 4.89.0 is vulnerable to an unauthenticated denial of service vulnerability caused by unbounded recursion during Apple MDM enrollment property list parsing. Attackers can transmit a crafted binary property list payload of approximately 150 bytes to enrollment endpoints, triggering exponential memory allocation or infinite recursion. This flaw completely exhausts server CPU and memory resources, causing crashes.",
-      "key_facts": [
-        "Vulnerability: CVE-2026-111923",
-        "Affected Versions: Fleet before 4.89.0",
-        "Payload Size: ~150 bytes"
-      ],
-      "bottom_line": "Fleet versions prior to 4.89.0 must be patched immediately to prevent unauthenticated server crashes via malicious Apple MDM plist payloads.",
-      "claims": [
-        {
-          "text": "Fleet before version 4.89.0 is vulnerable to an unauthenticated denial of service vulnerability caused by unbounded recursion during Apple MDM enrollment property list parsing.",
-          "support_span": "CVE-2026-111923 Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated attackers to crash the server.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Attackers can transmit a crafted binary property list payload of approximately 150 bytes to enrollment endpoints, triggering exponential memory allocation or infinite recursion.",
-          "support_span": "Attackers can send a crafted binary plist payload of about 150 bytes to the enrollment endpoints, triggering exponential allocation or infinite recursion that exhausts CPU and memory.",
+          "text": "Because Bash and ExecuteCode lack allow-lists and human-in-the-loop approval, attackers can run code and exfiltrate vault secrets.",
+          "support_span": "Because Bash and ExecuteCode lack an allow-list and human-in-the-loop approval, attackers can run code in the workspace sandbox and exfiltrate vault secrets from _internal/.vault_secrets.json.",
           "status": "entailed"
         }
       ],
@@ -863,300 +710,62 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "45e401eebf29f643",
-        "6ca0013fe311c30a"
+        "0fd6d519f7abbbab",
+        "2ca34fb8d3c54ec9",
+        "33b4ea8bd6bc97c7",
+        "50e0841b3816c871",
+        "8666fed214a3746c",
+        "8f52648724299c9d"
       ],
-      "critical_signal": "",
+      "critical_signal": "unauthenticated rce",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
           "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-111923",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109440",
           "domain": "cvefeed.io",
           "tier": "A"
         },
         {
           "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-111924",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109444",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109443",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109442",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-77932",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-77926",
           "domain": "cvefeed.io",
           "tier": "A"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-17T19:16:35+00:00",
+      "published": "2026-10-20T01:17:10+00:00",
       "trace": [
         "tier A (+40)",
         "single outlet, established publication (tier A)",
-        "importance 5/5 from cache",
+        "importance 5/5 from gemini-3.5-flash-lite",
         "blend 62 = trust 40 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "2997fc224589b5ed",
-      "title": "LEMON: Equivariant Learning over Attention Maps for Zero-Shot Misbehavior Monitoring on New LLMs",
-      "category": "tech_ai",
-      "one_liner": "LEMON is a zero-shot, cross-model monitor that detects LLM misbehavior by analyzing attention maps using equivariant learning.",
-      "tags": [
-        "ai",
-        "llm",
-        "research",
-        "tool"
-      ],
-      "summary": "LEMON (Language-model Equivariant MOnitoring Network) is a new graph neural network-based monitor designed to detect LLM misbehaviors like hallucinations and jailbreaks. It works by processing attention maps token-by-token, allowing it to function across different LLMs without needing re-annotation. By treating cross-model attention mismatches as algebraic symmetries, LEMON achieves zero-shot transferability. Experiments show it outperforms existing baselines by up to 14 ROC-AUC points across 16 different LLMs.",
-      "key_facts": [
-        "Models evaluated: 16",
-        "Performance gain: Up to 14 ROC-AUC points"
-      ],
-      "bottom_line": "LEMON provides a scalable, model-agnostic way to monitor LLM safety by leveraging equivariant learning on internal attention representations.",
-      "claims": [
-        {
-          "text": "LEMON (Language-model Equivariant MOnitoring Network) an online graph neural network-based monitor, whose predictions are invariant under these symmetries.",
-          "support_span": "we build LEMON (Language-model Equivariant MOnitoring Network) an online graph neural network-based monitor, whose predictions are invariant under these symmetries.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Across 16 LLMs and six datasets, in the zero-shot cross-model setting, LEMON outperforms all baselines on both hallucination and jailbreak monitoring tasks, improving over the strongest by up to 14 ROC-AUC points.",
-          "support_span": "Across 16 LLMs and six datasets, in the zero-shot cross-model setting, LEMON outperforms all baselines on both hallucination and jailbreak monitoring tasks, improving over the strongest by up to 14 ROC-AUC points.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "2997fc224589b5ed"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.22723",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.22723"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0b89d90c6a214e60",
-      "title": "SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing",
-      "category": "tech_ai",
-      "one_liner": "A new benchmark reveals that major LLMs fail to refuse requests for scientific misconduct 71.7% of the time under covert adversarial framing.",
-      "tags": [
-        "ai",
-        "llm",
-        "policy",
-        "privacy",
-        "release",
-        "research",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "Researchers introduced SciIntBench, an adversarial benchmark consisting of 1350 prompts across 270 scenarios, ten research integrity (RCR) categories, and three scientific domains to measure LLM compliance with research integrity norms. Evaluating 16 commercial and open-weight models across five adversarial gradations plus a benign version, the study found that models failed to refuse requests for research misconduct in 71.7% of cases under the most covert framing condition. Furthermore, refusal rates varied significantly by category, showing particularly weak boundaries around transparency, plagiarism, and fabrication. These findings highlight that current language models are highly susceptible to covert adversarial framing when asked to assist with scientific misconduct.",
-      "key_facts": [
-        "Prompts: 1,350",
-        "Scenarios: 270",
-        "Models evaluated: 16",
-        "Failure rate under covert framing: 71.7%"
-      ],
-      "bottom_line": "Do not rely on default LLM guardrails to prevent assisting with scientific misconduct when prompts use covert adversarial framing.",
-      "claims": [
-        {
-          "text": "We introduce SciIntBench, an adversarial benchmark of 1350 prompts across 270 scenarios, ten RCR categories, and three scientific domains.",
-          "support_span": "We introduce SciIntBench, an adversarial benchmark of 1350 prompts across 270 scenarios, ten RCR categories, and three scientific domains.",
-          "status": "entailed"
-        },
-        {
-          "text": "We evaluate 16 commercial and open-weight LLMs from six providers (2024--2026), producing 21,600 responses.",
-          "support_span": "We evaluate 16 commercial and open-weight LLMs from six providers (2024--2026), producing 21,600 responses.",
-          "status": "entailed"
-        },
-        {
-          "text": "We find that, under the most covert framing condition, models fail to refuse requests for research misconduct in 71.7% of cases, on average.",
-          "support_span": "We find that, under the most covert framing condition, models fail to refuse requests for research misconduct in 71.7% of cases, on average.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "0b89d90c6a214e60"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2605.29468",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2605.29468"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "01523eedcc7f7925",
-      "title": "From Relevant Memories to Sufficient Evidence: Rethinking Memory Utilization in LLM Agents",
-      "category": "tech_ai",
-      "one_liner": "QEMem reformulates LLM agent memory retrieval into structured, query-specific evidence sets to bridge the relevance-sufficiency gap.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "QEMem is a new framework designed to solve the relevance-sufficiency gap in LLM agent long-term memory utilization, shifting the focus from individual retrieval relevance to collective evidential support. The method uses query-guided discovery to retrieve evidence across granularities, source-grounded reification to organize records into structured ViewCards with role assignments, and sufficiency-guided refinement to recover missing details. Operating on existing memory stores without altering formation, QEMem achieved 91.43% LLM-judge accuracy on LoCoMo using Claude Opus 4.5, outperforming existing baselines like MemR^3 and NEMORI.",
-      "key_facts": [
-        "Framework: QEMem",
-        "Dataset: LoCoMo",
-        "Top accuracy: 91.43% (Claude Opus 4.5)"
-      ],
-      "bottom_line": "Constructing query-specific evidence sets via structured ViewCards significantly improves LLM agent memory utilization and cross-session reasoning.",
-      "claims": [
-        {
-          "text": "We identify this relevance-sufficiency gap and propose QEMem, a framework that reformulates memory utilization as the construction of query-specific evidence sets, shifting the focus from individual retrieval relevance to collective evidential support.",
-          "support_span": "We identify this relevance-sufficiency gap and propose QEMem, a framework that reformulates memory utilization as the construction of query-specific evidence sets, shifting the focus from individual retrieval relevance to collective evidential support.",
-          "status": "entailed"
-        },
-        {
-          "text": "QEMem achieves 91.43% LLM-judge accuracy on LoCoMo with Claude Opus 4.5, outperforming the strongest evaluated baseline, MemR^3, by 7.6 percentage points and NEMORI by 10.7 points under a shared memory store.",
-          "support_span": "QEMem achieves 91.43% LLM-judge accuracy on LoCoMo with Claude Opus 4.5, outperforming the strongest evaluated baseline, MemR^3, by 7.6 percentage points and NEMORI by 10.7 points under a shared memory store.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "01523eedcc7f7925"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.22668",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.22668"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "7ff639e6ddbaec3b",
-      "title": "Veteran SIP investors not deterred by stagnant market: Kotak Mahindra's's Harsha Upadhyaya",
-      "category": "markets",
-      "one_liner": "Kotak AMC's Harsha Upadhyaya notes that RBI's rate tightening will have limited impact due to low corporate leverage, while the IPO pipeline swells to ₹3.86 trillion.",
-      "tags": [
-        "india",
-        "markets",
-        "policy"
-      ],
-      "summary": "Kotak Mahindra AMC Chief Investment Officer Harsha Upadhyaya stated that the RBI's shift to a calibrated tightening stance and higher repo rates (now at 5.50%) will gradually raise borrowing costs, impacting highly leveraged companies. However, average Indian corporate leverage sits at decadal lows, making widespread interest expense stress unlikely. Upadhyaya also noted that while short-term retail SIP investors are experiencing a reality check, long-term investors remain resilient, and the primary market IPO pipeline stands at an unprecedented ₹3.86 trillion across more than 200 companies.",
-      "key_facts": [
-        "Repo rate: 5.50%",
-        "FY27 GDP growth forecast: 7.1%",
-        "Expected Nifty earnings growth (FY2026-27): 14-15%",
-        "IPO pipeline size: ₹3.86 trillion (over 200 companies)"
-      ],
-      "bottom_line": "Despite the RBI's shift to calibrated tightening, Indian corporate leverage remains at decadal lows, limiting broad interest cost damage while primary markets see robust activity.",
-      "claims": [
-        {
-          "text": "The Reserve Bank of India's shift from a ‘neutral’ stance to ‘calibrated tightening’ serves as explicit forward guidance that near-term rate cuts are completely off the table.",
-          "support_span": "The Reserve Bank of India's shift from a ‘neutral’ stance to ‘calibrated tightening’ serves as explicit forward guidance that near-term rate cuts are completely off the table.",
-          "status": "entailed"
-        },
-        {
-          "text": "Elevated repo rates (now at 5.50%) will gradually translate into higher borrowing costs.",
-          "support_span": "Elevated repo rates (now at 5.50%) will gradually translate into higher borrowing costs.",
-          "status": "entailed"
-        },
-        {
-          "text": "With the IPO pipeline at an unprecedented ₹3.86 trillion, with more than 200 companies awaiting listing, the primary market is expe…",
-          "support_span": "With the IPO pipeline at an unprecedented ₹3.86 trillion, with more than 200 companies awaiting listing, the primary market is expe...",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "7ff639e6ddbaec3b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/veteran-sip-investors-not-deterred-by-stagnant-market-kotak-mahindrass-harsha-upadhyaya-11792308340457.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-19T00:31:09+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1198,68 +807,15 @@
       "reject_reason": "published 2026-10-13 — outside lookback window"
     },
     {
-      "cluster_key": "3313d9c88feba79f",
-      "title": "Woodside natural gas project unit paused after Greenpeace protest off Western Australia",
-      "category": "markets",
-      "one_liner": "Greenpeace protests off Western Australia temporarily halted operations at a Woodside natural gas project unit.",
-      "tags": [
-        "markets"
-      ],
-      "summary": "Woodside's natural gas project unit operations were temporarily paused following a protest led by Greenpeace activists off the coast of Western Australia.",
-      "key_facts": [
-        "Company: Woodside",
-        "Activist group: Greenpeace",
-        "Location: Western Australia"
-      ],
-      "bottom_line": "Activist protests have forced a temporary operational pause at a Woodside natural gas facility in Western Australia.",
-      "claims": [
-        {
-          "text": "Woodside natural gas project unit unit paused after Greenpeace protest off Western Australia",
-          "support_span": "Woodside natural gas project unit unit paused after Greenpeace protest off Western Australia",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "3313d9c88feba79f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcEtSYkpzYzU2WUhsb0V2bGwyamh6Z3dVYzZnaThBanotNU0wakx2RHdsLURpNWlTWXpDZllDZUQ1ZktNUThWXzVKWkZ4LVVWSWk2bXBwREd3MGRDelpPRHAtTmxfclh0WG1MQXBZQ01tbWxZa0VhZEFyWWJfdTV6cWpXWDFHb0syMFdTb3NfWl9TcjhzUm9pYUlTbDNVQ0t4RDEwb1RTRi1vVXpIeXh4YmZmN05zNVpHZkNiUi00ZUVheWcwazBhNw?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-17T23:56:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from cache",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "11f1c27eb2feef3c",
-      "title": "WilderNoTrack/mcd-calorie-butler — 麦麦热量管家：减脂不是少吃你爱的，是先换掉不值这口热量的。基于麦当劳 MCP 的味热比点餐 Skill。",
+      "cluster_key": "9c543793991cafdc",
+      "title": "bronyacccxz/dsh-bilibili-reply — 让 AI 读懂你在 B 站 @ 它的视频，自动回一条带可跳转时间戳的评论。DSH / AI Agent 技能。",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "llm",
         "opensource",
-        "windows"
+        "tool"
       ],
       "summary": "",
       "key_facts": [],
@@ -1272,7 +828,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "11f1c27eb2feef3c"
+        "9c543793991cafdc"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1280,17 +836,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/WilderNoTrack/mcd-calorie-butler",
+          "url": "https://github.com/bronyacccxz/dsh-bilibili-reply",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T02:30:41+00:00",
+      "published": "2026-10-14T16:04:12+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
+      "reject_reason": "published 2026-10-14 — outside lookback window"
     },
     {
       "cluster_key": "0a0c61ae8d28cb34",
@@ -1349,200 +905,6 @@
         "corroborated by 2 independent outlets",
         "importance 2/5 from cache",
         "blend 32 = trust 22 / interest 25 / corrob 50"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "157c13084d9e4c40",
-      "title": "The Infinite Mutation Engine? Measuring Polymorphism in LLM-Generated Offensive Code",
-      "category": "tech_ai",
-      "one_liner": "Evaluating Claude Opus as an automated malware generator shows that explicit prompting creates structurally diverse payloads, but static signatures targeting module boundaries still achieve 100% detection.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "malware",
-        "redteam",
-        "research"
-      ],
-      "summary": "Researchers measured the polymorphic capacity of Claude Opus 4.6 acting as an automated malware generator using a dual-agent, four-stage pipeline to create a data-exfiltration payload. Evaluating variants under functional and explicit prompting, they found that explicit prompting fragments the structural space at an operational cost of $0.41 to $0.73 per validated payload. However, static n-gram analysis revealed that static signatures targeting immutable inter-module boundaries achieve 100% detection across all generations. Additionally, an evaluation of seven local small language models confirmed that current open-weights architectures lack the generative stability required for reliable polymorphic synthesis.",
-      "key_facts": [
-        "Model evaluated: Claude Opus 4.6",
-        "Cost per validated payload: $0.41-$0.73",
-        "Detection rate of static signature: 100%",
-        "SLM parameters evaluated: 20M-1.5B"
-      ],
-      "bottom_line": "LLM-generated offensive payloads exhibit structural diversity under explicit prompting, but immutable inter-module boundaries leave them vulnerable to straightforward static signatures.",
-      "claims": [
-        {
-          "text": "We produce payloads under two settings: (a) functional prompting, and (b) explicit prompting injecting a structured history of prior variants.",
-          "support_span": "We produce payloads under two settings: (a) functional prompting, and (b) explicit prompting injecting a structured history of prior variants.",
-          "status": "entailed"
-        },
-        {
-          "text": "This structural diversity is operationally cheap, costing $0.41–$0.73 per validated payload.",
-          "support_span": "This structural diversity is operationally cheap, costing \\$0.41--\\$0.73 per validated payload.",
-          "status": "entailed"
-        },
-        {
-          "text": "However, static n-gram analysis reveals that because the LLM treats inter-module boundaries as immutable, a single static signature targeting them achieves 100% detection across all generations.",
-          "support_span": "However, static n-gram analysis reveals that because the LLM treats inter-module boundaries as immutable, a single static signature targeting them achieves 100% detection across all generations.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "157c13084d9e4c40"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2605.03619",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2605.03619"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "031ef585282d08e0",
-      "title": "Gem Granites Manager Arrested, 7th Child Sexual Abuse Case Filed Against R Veeramani",
-      "category": "india_world",
-      "one_liner": "A Gem Granites manager was arrested on a seventh child sexual abuse charge.",
-      "tags": [
-        "india"
-      ],
-      "summary": "A manager at Gem Granites, R Veeramani, has been arrested following the filing of a seventh case against him related to child sexual abuse. The suspect had previously been held in two days of police custody.",
-      "key_facts": [
-        "Case count: 7"
-      ],
-      "bottom_line": "The arrest marks a significant development in an ongoing criminal investigation involving multiple abuse allegations.",
-      "claims": [
-        {
-          "text": "Gem Granites Manager Arrested, 7th Child Sexual Abuse Case Filed Against R Veeramani",
-          "support_span": "Gem Granites Manager Arrested, 7th Child Sexual Abuse Case Filed Against R Veeramani",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 24.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "031ef585282d08e0",
-        "b9f35325bf55fa1b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/gem-granites-manager-arrested-7th-child-sexual-abuse-case-filed-against-r-veeramani-12203931#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/key-conduit-in-gem-granites-veeramani-case-arrested/article71600345.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-18T18:29:20+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 1/5 from gemini-3.1-flash-lite",
-        "blend 24 = trust 37 / interest 0 / corrob 50"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "b35e1c261efdcd69",
-      "title": "Sep-Latent: Separator Tokens as Natural Compression Anchors for Implicit Reasoning",
-      "category": "tech_ai",
-      "one_liner": "Sep-Latent uses separator tokens and attention decay to let LLMs perform efficient implicit reasoning with dynamic depth.",
-      "tags": [
-        "ai",
-        "llm",
-        "release",
-        "research",
-        "tool"
-      ],
-      "summary": "While explicit Chain-of-Thought (CoT) reasoning enables LLMs to solve complex problems, its token verbosity introduces significant computational overhead. Although continuous latent space implicit reasoning offers an alternative, existing methods are constrained by fixed-length sequences and representational collapse. Researchers introduced Sep-Latent, an adaptive implicit reasoning framework that uses separator tokens as semantic anchors paired with an Attention-Decay mechanism to compress reasoning logic. Multi-level distillation aligns explicit and implicit layers, while dynamic query complexity controls latent thinking depth. On the GSM8k-Aug benchmark, Sep-Latent achieved 56.8% accuracy using an average of only 5.4 tokens, substantially improving efficiency over prior fixed-length models.",
-      "key_facts": [
-        "Benchmark: GSM8k-Aug",
-        "Accuracy: 56.8%",
-        "Average tokens used: 5.4"
-      ],
-      "bottom_line": "Separator tokens can serve as effective anchors for compressed latent reasoning in LLMs, closing the efficiency gap with explicit Chain-of-Thought.",
-      "claims": [
-        {
-          "text": "In this paper, we propose Sep-Latent, an adaptive implicit reasoning framework that utilizes separator tokens as structural semantic anchors.",
-          "support_span": "In this paper, we propose Sep-Latent, an adaptive implicit reasoning framework that utilizes separator tokens as structural semantic anchors.",
-          "status": "entailed"
-        },
-        {
-          "text": "Experimental results on the GSM8k-Aug benchmark show that Sep-Latent achieves an accuracy of 56.8% with an average of only 5.4 tokens, significantly outperforming prior fixed-length implicit models in efficiency...",
-          "support_span": "Experimental results on the GSM8k-Aug benchmark show that Sep-Latent achieves an accuracy of 56.8% with an average of only 5.4 tokens, significantly outperforming prior fixed-length implicit models in efficiency while narrowing the performance gap with explicit CoT.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "b35e1c261efdcd69"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.22924",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.22924"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1610,143 +972,83 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "a5267357c8b8a8a7",
-      "title": "An Agentic ENF Framework for Forensic Video Authentication Against Generative AI",
-      "category": "tech_ai",
-      "one_liner": "A new agentic forensic framework uses electric network frequency (ENF) consistency to reliably authenticate videos against generative AI manipulation.",
+      "cluster_key": "49fe8a3fc3d9ad0e",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "category": "cyber_tools",
+      "one_liner": "GitHub's new ModernBERT-based secret detection classifier reduces post-push scan times by 86% and cuts false positives using contextual analysis.",
       "tags": [
         "agents",
         "ai",
-        "dfir",
-        "research",
-        "tool"
-      ],
-      "summary": "Because generative AI video models create realistic footage and traditional learned detectors degrade on unseen models, researchers developed an agentic forensic framework that authenticates videos using electric network frequency (ENF)—the power mains-driven hum in audio and flicker in video. A unified two-channel detector extracts ENF features, utilizing an Ornstein-Uhlenbeck drift model and synthetic injection training to overcome data scarcity, alongside a reference-matching channel to verify recording timestamps. A central finding is that generative videos contain ENF-band flicker indistinguishable from real footage, meaning authentication must rely on consistency against an independent reference rather than sheer presence. The detector successfully authenticates real audio and video at 93% and 100%, while an agentic orchestrator cuts execution time by 54% without losing accuracy.",
-      "key_facts": [
-        "Audio acceptance rate: 93%",
-        "Video acceptance rate: 100%",
-        "Claimed-time authentication AUC: 1.0",
-        "Wall-clock time reduction: 54%"
-      ],
-      "bottom_line": "Because generative AI videos replicate natural ENF flicker, video authentication must be based on time-reference consistency rather than raw signal presence.",
-      "claims": [
-        {
-          "text": "A central finding reframes the task: an ENF-band flicker is present in generated video at a prominence indistinguishable from real footage, so its presence is not proof of authenticity, and authentication must rest on consistency with an independent reference rather than on presence.",
-          "support_span": "A central finding reframes the task: an ENF-band flicker is present in generated video at a prominence indistinguishable from real footage, so its presence is not proof of authenticity, and authentication must rest on consistency with an independent reference rather than on reference rather than on presence.",
-          "status": "contradicted"
-        },
-        {
-          "text": "On held-out real recordings the detector accepts genuine audio and video at 93% and 100% against naive baselines of 53% and 15%...",
-          "support_span": "On held-out real recordings the detector accepts genuine audio and video at 93% and 100% against naive baselines of 53% and 15%; claimed-time authentication reaches an area under the curve of 1.0; and the agentic cascade matches a flat ensemble while cutting wall-clock time by 54% and frames decoded by 64%, without loss of accuracy.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "a5267357c8b8a8a7"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2610.22440",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.22440"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "4e39fe35d98b5688",
-      "title": "Distill Until Divergence: Error-Truncated Hindsight Distillation for Agentic RL",
-      "category": "tech_ai",
-      "one_liner": "Error-truncated hindsight distillation routes positive and negative skills to prevent mismatched credit assignment in long-horizon agent RL.",
-      "tags": [
-        "agents",
-        "ai",
+        "appsec",
+        "cloud",
+        "howto",
+        "identity",
         "llm",
-        "policy",
-        "privacy",
-        "research",
         "tool"
       ],
-      "summary": "Long-horizon agentic reinforcement learning often relies on distilling completed trajectories into reusable skills to provide token-level credit, but skill-induced probability shifts can mismatch current states after an erroneous action occurs. To resolve this mismatch, researchers proposed a method that routes two complementary hindsight skills based on trajectory outcomes and error boundaries. Positive skills reinforce successful workflows and pre-error decisions, while negative skills target failure-specific corrections for decisive errors. Meanwhile, post-error suffixes are optimized exclusively via outcome-based GRPO without extending mismatched supervision. Experiments confirm that this approach improves fine-grained credit allocation and task performance.",
-      "key_facts": [],
-      "bottom_line": "Isolating post-error trajectory suffixes from mismatched skill supervision improves credit allocation in agentic reinforcement learning.",
+      "summary": "GitHub has developed and deployed a context-aware secret classifier powered by a fine-tuned ModernBERT model to improve secret detection efficiency and reduce false positives. Operating across push protection and post-push scanning stages, the new pipeline uses regex candidate generation followed by deep context evaluation to distinguish real credentials from lookalikes, placeholders, and documentation strings. The optimized classifier reduced median post-push execution time by 86 percent and increased user acceptance rates by 11.5 percent.",
+      "key_facts": [
+        "Scan time reduction: 86%",
+        "User acceptance improvement: 11.5%",
+        "Model used: Fine-tuned ModernBERT"
+      ],
+      "bottom_line": "Secret scanning pipelines can achieve high precision and lower compute costs by coupling deterministic regex candidate generation with a lightweight, context-aware ModernBERT classifier.",
       "claims": [
         {
-          "text": "To address this mismatch, we propose [method], which routes two complementary hindsight skills according to trajectory outcomes and error boundaries...",
-          "support_span": "To address this mismatch, we propose \nmethodname{}, which routes two complementary hindsight skills according to trajectory outcomes and error boundaries: Positive skills capture successful workflows to reinforce successful trajectories and pre-error decisions, while Negative skills capture failure-specific corrections to target decisive errors.",
+          "text": "GitHub developed a fast classifier that reduced median post-push scan execution time by 86% compared to the previous LLM-based pipeline.",
+          "support_span": "We developed a fast classifier that reduced median post-push scan execution time by 86% % compared with the previous LLM-based pipeline.",
           "status": "contradicted"
         },
         {
-          "text": "The post-error suffix is optimized exclusively by GRPO, retaining outcome-based learning without extending potentially mismatched hindsight supervision.",
-          "support_span": "The post-error suffix is optimized exclusively by GRPO, retaining outcome-based learning without extending potentially mismatched hindsight supervision.",
-          "status": "entailed"
+          "text": "The new scanner uses a two-stage pipeline consisting of regex candidate generation and context-aware classification via a fine-tuned ModernBERT classifier.",
+          "support_span": "That is why we shipped a new scanner using a two-stage pipeline: - Candidate generation: Regex filters scan content for potential secrets with high recall. - Context-aware classification: A fine-tuned ModernBERT classifier evaluates each candidate and its surrounding context.",
+          "status": "contradicted"
         }
       ],
-      "trust_score": 70,
-      "interest_score": 50,
+      "trust_score": 40,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
+      "blend": 51.2,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "4e39fe35d98b5688"
+        "49fe8a3fc3d9ad0e"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.23048",
-          "domain": "arxiv.org",
+          "name": "GitHub Security Blog",
+          "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "domain": "github.blog",
           "tier": "A"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.23048"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-10-13T17:56:33+00:00",
       "trace": [
         "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "875a64383172f235",
-      "title": "It is one week until October 20, the day my new book, Co-Existence comes out!",
+      "cluster_key": "81c23db71773eeda",
+      "title": "kitlangton/scrawl — Show an agent a problem: mark up, record, send",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "agents",
+        "hardware",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu It is one week until October 20, the day my new book, Co-Existence comes out! If you pre-order before then, you get a 10 minute AI voice interview that builds a set of customized prompts, readings & use cases for you based on ideas from the book. Pre-order or claim the bonus: co-existence.ai 2026-10-13T13:28:34.060Z",
+      "summary": "Show an agent a problem instead of describing it. Press a shortcut (⌥⇧S) and Scrawl starts recording the screen. Talk, click around, draw on it, and press ⌥⇧S again to finish. Scrawl records the screen, your voice, and your marks, then packs them into a compact bundle: a contact sheet of annotated keyframes (contact-sheet.png), individual full-resolution keyframes (frames/frame-XX.png), a time-aligned transcript and interaction timeline (summary.md), and a structured manifest (scrawl.json). Scrawl needs an Apple silicon Mac on macOS 26 or later.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1754,170 +1056,86 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "875a64383172f235"
+        "81c23db71773eeda"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxr57bfkxc2q",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/kitlangton/scrawl",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T13:28:32.346000+00:00",
+      "published": "2026-10-14T23:21:44+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
+      "reject_reason": "published 2026-10-14 — outside lookback window"
     },
     {
-      "cluster_key": "afc0da03c9c1302b",
-      "title": "How Israeli firm’s ‘zero-click’ malware attack poses global security risk",
-      "category": "cyber_attacks",
-      "one_liner": "Israeli spyware firm Candiru used zero-click malicious advertisements to compromise mobile and laptop devices used by Al Jazeera journalists.",
+      "cluster_key": "4e266ee1ff08e923",
+      "title": "Delhi protest: CJP leaders’ judicial custody extended by two days",
+      "category": "india_world",
+      "one_liner": "CJP leaders Saurav Das and Ashutosh Ranka have their judicial custody extended amid protest fallout in New Delhi.",
       "tags": [
-        "exploit",
-        "incident",
-        "malware",
-        "privacy",
-        "research",
-        "threat-actor",
-        "threat-intel"
+        "india",
+        "policy",
+        "political"
       ],
-      "summary": "Security researchers have uncovered the first-known instance of zero-click targeted advertising malware deployed by Israeli spyware firm Candiru against Al Jazeera journalists. In June 2025, 45 staff devices were compromised without requiring user interaction beyond viewing a malicious advertisement served via Discover-Tech, an advertising firm acting as a facilitator. The ads automatically redirected targets to Candiru's infected servers, exploiting browser vulnerabilities to bypass sandboxes and extract sensitive personal data including files, credentials, keystrokes, and webcam streams. The campaign highlights the evolution of mercenary spyware toward silent, microtargeted ad-delivery vectors that operate without user clicks.",
+      "summary": "Cockroach Janta Party (CJP) co-convenors Saurav Das and Ashutosh Ranka were remanded to judicial custody for two more days by a Special Executive Magistrate in New Delhi. The leaders were originally arrested after climbing a locked gate to protest at Jantar Mantar—a site denotified as a protest area—and displaying the national flag while shouting slogans against Chief Election Commissioner Gyanesh Kumar. The CJP alleged that authorities deliberately delayed bail proceedings and rejected sureties on vague grounds to prolong the detention.",
       "key_facts": [
-        "Target organization: Al Jazeera (45 devices targeted)",
-        "Date of incident: June 2025",
-        "Responsible entity: Candiru (facilitated via Discover-Tech)",
-        "Research group: Citizen Lab"
+        "Leaders: Saurav Das, Ashutosh Ranka",
+        "Location: Mandir Marg police station, New Delhi"
       ],
-      "bottom_line": "Zero-click malware delivered through automated ad networks represents an advanced surveillance vector capable of silently compromising devices upon mere page views.",
+      "bottom_line": "Protest arrests and contested bail proceedings for CJP leaders in New Delhi continue to draw legal and political friction.",
       "claims": [
         {
-          "text": "An Israeli spyware firm has been found to be behind the first-known instance of “zero-click” targeted advertising in which fraudsters or spies can steal private data and send it to external servers, with Al Jazeera journalists among the victims.",
-          "support_span": "An Israeli spyware firm has been found to be behind the first-known instance of “zero-click” targeted advertising in which fraudsters or spies can steal private data and send it to external servers, with Al Jazeera journalists among the victims.",
+          "text": "CJP leaders Saurav Das and Ashutosh Ranka were sent to judicial remand for two more days after being produced before a Special Executive Magistrate.",
+          "support_span": "Cockroach Janta Party leaders Saurav Das and Ashutosh Ranka were on Monday (October 19, 2026) sent to judicial remand for two more days after being produced before a newly appointed Special Executive Magistrate at Mandir Marg police station in New Delhi",
           "status": "entailed"
         },
         {
-          "text": "In June 2025, 45 devices used by Al Jazeera staff – including several who reported on sensitive subjects – were targeted with spyware which installed itself without the need to open or download any files.",
-          "support_span": "In June 2025, 45 devices used by Al Jazeera staff – including several who reported on sensitive subjects – were targeted with spyware which installed itself without the need to open or download any files.",
-          "status": "entailed"
-        },
-        {
-          "text": "An investigation by the Canada-based academic research unit Citizen Lab, prompted by Al Jazeera’s internal probe into the issue, discovered that the Israeli company Candiru was behind the attacks.",
-          "support_span": "An investigation by the Canada-based academic research unit Citizen Lab, prompted by Al Jazeera’s internal probe into the issue, discovered that the Israeli company Candiru was behind the attacks.",
+          "text": "The two leaders were taken into custody after climbing over a locked gate to enter Jantar Mantar and protesting against Chief Election Commissioner Gyanesh Kumar.",
+          "support_span": "The two were taken into custody after they allegedly climbed over a locked gate to enter Jantar Mantar, which had earlier been denotified as a designated protest site... and shouted slogans against Chief Election Commissioner Gyanesh Kumar",
           "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 100,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 25.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "afc0da03c9c1302b"
+        "4e266ee1ff08e923"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/how-israeli-firms-zero-click-malware-attack-poses-global-security-risk",
-          "domain": "aljazeera.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-protest-cjp-leaders-judicial-custody-extended-by-two-days/article71602829.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T14:49:24+00:00",
+      "published": "2026-10-20T01:34:40+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "020d0284ea4c6a73",
-      "title": "Reward Engine: Reward-Centric Self-Evolution for Open-Ended Tool Agents",
-      "category": "tech_ai",
-      "one_liner": "Reward Engine automatically builds frozen testcases and quality rubrics from initial trajectories to improve open-ended tool agent optimization.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers developed Reward Engine, a reward-centric self-evolution framework designed for open-ended tool agents operating in environments where executable ground-truth rewards are absent. The system works by analyzing tasks and initial trajectories to construct a static RewardPack comprising testcases for correctness and rubrics for graded quality, which then guides policy output selection and serves as a reward signal for reinforcement learning. Evaluations on WorkBuddy Bench Office and Claw-Eval show that the engine's constructed rewards largely agree with human benchmark graders without reversing their ordering on over 80% of candidate pairs. Additionally, using the engine to revise executions raised three-run consistency across baselines.",
-      "key_facts": [
-        "WorkBuddy Bench Office agreement: 82.3%",
-        "Claw-Eval agreement: 80.5%",
-        "Pass^3 consistency baseline 1: 45.0% to 54.0%",
-        "Pass^3 consistency baseline 2: 78.4% to 83.7%"
-      ],
-      "bottom_line": "Self-generated, static testcase and rubric packs can effectively guide open-ended agent self-evolution without relying on explicit ground-truth functions.",
-      "claims": [
-        {
-          "text": "We introduce Reward Engine, which, like a self-motivated student, first works out what success requires and then optimizes toward it.",
-          "support_span": "We introduce Reward Engine, which, like a self-motivated student, first works out what success requires and then optimizes toward it.",
-          "status": "entailed"
-        },
-        {
-          "text": "On WorkBuddy Bench Office and Claw-Eval, the constructed reward largely agrees with the benchmark graders, not reversing their ordering on 82.3% and 80.5% of candidate pairs.",
-          "support_span": "On WorkBuddy Bench Office and Claw-Eval, the constructed reward largely agrees with the benchmark graders, not reversing their ordering on 82.3% and 80.5% of candidate pairs.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Used to revise executions, it raises three-run consistency (Pass^3) over Baseline from 45.0% to 54.0% and from 78.4% to 83.7%.",
-          "support_span": "Used to revise executions, it raises three-run consistency (Pass^3) over Baseline from 45.0% to 54.0% and from 78.4% to 83.7%.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "020d0284ea4c6a73"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.22915",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.22915"
-      ],
-      "published": "2026-10-19T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "9db4940a53f86840",
@@ -1980,121 +1198,6 @@
         "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "e181547094b0a112",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "category": "tech_ai",
-      "one_liner": "AI labs are scaling autonomous research with thousands of concurrent agents over multi-day sessions.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "tool"
-      ],
-      "summary": "Third Moment Research runs 10,000 concurrent AI agents for 36 to 48 hours using OpenAI models like GPT-6 Astra, GPT-6 Sol, and Codex to conduct autonomous quantitative research. By leveraging Codex to analyze simulation trajectories, the lab identified a major backtesting bottleneck and deployed a caching optimization that reduced simulation times from three hours to a few minutes. The setup combines Dockerized environments with specialized outer harnesses to maintain long-horizon coherence and manage agent workflows effectively.",
-      "key_facts": [
-        "Concurrent Agents: 10,000",
-        "Session Duration: 36–48 Hours",
-        "Backtest Reduction: 3 hours down to 3 to 5 minutes"
-      ],
-      "bottom_line": "Advanced agent harnesses and model reasoning enable long-horizon autonomous research sessions lasting over 36 hours.",
-      "claims": [
-        {
-          "text": "Third Moment Research runs 10,000 concurrent agents for 36 to 48 hours using OpenAI models like GPT-6 Astra, GPT-6 Sol, and Codex to conduct autonomous quantitative research.",
-          "support_span": "The team uses Codex, GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol to support the system’s research and computational work, enabling Third Moment to run 10,000 agents at once on investigations lasting 36-48 hours.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "e181547094b0a112"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "OpenAI Blog",
-          "url": "https://openai.com/index/third-moment-research",
-          "domain": "openai.com",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://openai.com/index/third-moment-research"
-      ],
-      "published": "2026-10-14T07:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "98eab6e58853483c",
-      "title": "Raja Venkatraman recommends three stocks for 19 October",
-      "category": "markets",
-      "one_liner": "Analyst recommends Nykaa, Anand Rathi, and Hexaware Technologies based on technical setups and earnings momentum.",
-      "tags": [
-        "ai",
-        "dfir",
-        "india",
-        "markets",
-        "research"
-      ],
-      "summary": "Market analyst Raja Venkatraman has recommended three stocks for trading: Nykaa, Anand Rathi, and Hexaware Technologies. The recommendations are based on technical analysis and recent positive Q2 earnings reports. Investors are advised to monitor support and resistance levels closely due to ongoing market volatility.",
-      "key_facts": [
-        "Nykaa target: ₹379",
-        "Anand Rathi target: ₹2350",
-        "Hexaware target: ₹635"
-      ],
-      "bottom_line": "Traders should exercise caution and adhere to stop-loss levels when acting on these stock recommendations in a volatile market.",
-      "claims": [
-        {
-          "text": "Three stocks to trade, recommended by NeoTrader’s Raja Venkatraman: NYKAA (Cmp 345) ANANDRATHI (Cmp 2159.70) HEXT (Cmp 582.75)",
-          "support_span": "Three stocks to trade, recommended by NeoTrader’s Raja Venkatraman: NYKAA (Cmp 345) ANANDRATHI (Cmp 2159.70) HEXT (Cmp 582.75)",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 13.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "98eab6e58853483c"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-19-october-11792369420859.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-19T00:45:52+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.1-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
