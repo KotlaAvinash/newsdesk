@@ -1,6 +1,93 @@
 {
-  "generated_at": "2026-10-20T06:41:37.969201+00:00",
+  "generated_at": "2026-10-21T06:42:13.603259+00:00",
   "items": [
+    {
+      "cluster_key": "5f82d0dc0823563a",
+      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "category": "cyber_attacks",
+      "one_liner": "A low-privileged SQL injection in FortiManager and FortiAnalyzer allows for arbitrary command execution and file manipulation.",
+      "tags": [
+        "appsec",
+        "cve",
+        "network",
+        "vulnerability"
+      ],
+      "summary": "A critical SQL injection vulnerability (CWE-89) has been discovered in Fortinet's FortiAnalyzer and FortiManager products, including their cloud variants. The flaw allows a low-privileged user to execute arbitrary commands or perform unauthorized file read/write operations via specially crafted requests. Fortinet has acknowledged the internal discovery of the bug and published the initial advisory on October 13, 2026.",
+      "key_facts": [
+        "CWE-89: SQL Injection",
+        "Affected: FortiAnalyzer, FortiManager (including Cloud)",
+        "Date: 2026-10-13"
+      ],
+      "bottom_line": "Administrators of Fortinet management platforms should check for available patches to prevent low-privileged users from escalating to arbitrary command execution.",
+      "claims": [
+        {
+          "text": "The SQL injection allows low-privileged users to execute arbitrary commands.",
+          "support_span": "vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow a low privileged user to execute arbitrary commands via crafted requests.",
+          "status": "entailed"
+        },
+        {
+          "text": "The flaw enables arbitrary file read and write operations.",
+          "support_span": "Multiple Arbitrary File Read/Write via SQL Injection",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 94,
+      "interest_score": 75,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "5f82d0dc0823563a",
+        "7aa22bc1162ca62f",
+        "aa2fa403cdf3b6ae",
+        "fe9a368f887d4fba"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-114109",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "Fortinet PSIRT",
+          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+          "domain": "fortiguard.fortinet.com",
+          "tier": "A"
+        },
+        {
+          "name": "Fortinet PSIRT",
+          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
+          "domain": "fortiguard.fortinet.com",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/271",
+          "domain": "seclists.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-180"
+      ],
+      "published": "2026-10-13T07:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "3 independent outlets (+24)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3-flash-preview",
+        "blend 80 = trust 94 / interest 75 / corrob 75",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
     {
       "cluster_key": "9b0798b54872a4ba",
       "title": "ShadowSwaps/REA-Reconstruction-Companion — Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integ",
@@ -11,10 +98,9 @@
         "ai",
         "howto",
         "llm",
-        "opensource",
-        "release"
+        "opensource"
       ],
-      "summary": "An open-source, model-independent Agent Skill that works with REA. Turn reverse-engineering evidence into requirements, architecture, an implementation roadmap and testable results—at the scope you choose. Get started · Usage examples · REA integration · Documentation · Releases · Support on Ko-fi Start with the installation prompt below, or use the manual commands. The portable core has no model SDK or paid API requirement. Integration and weekly update checks are separate choices; both are explained before setup.",
+      "summary": "For state-dependent journeys, use workflow state guidance and the bounded import-confirmation example. Separate visible, pending and committed state; preserve untested transitions and distinguish local fault injection from original-target evidence. For conflicting recordings, runtime results, docs or recollections, use evidence reconciliation and the bounded sorting example. Preserve source applicability, competing explanations and unresolved acceptance; newer or copy-derived evidence alone does not settle a claim. For reconstructed slices that handle untrusted input, sensitive data or restricted operations, use the conditional security boundary guidance and small local worked example.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -89,14 +175,14 @@
       "reject_reason": "published 2026-10-14 — outside lookback window"
     },
     {
-      "cluster_key": "b634aa430f44dd0d",
-      "title": "A worthwhile (and unnerving) reminder from Anthropic that we should be paying attention to AI ability thresholds, not just steady climbs In this…",
+      "cluster_key": "38b2a4b9c1701f41",
+      "title": "This paper shows why I am skeptical of the idea that frontier models can be easily replaced by cheaper ones (and why you should use the best models…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "research"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A worthwhile (and unnerving) reminder from Anthropic that we should be paying attention to AI ability thresholds, not just steady climbs In this case, the threshold is the capability needed for a self-replicating AI worm on IoT devices like off-brand TVs 2026-10-13T14:04:34.567Z",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu This paper shows why I am skeptical of the idea that frontier models can be easily replaced by cheaper ones (and why you should use the best models as orchestrators): Small improvements in accuracy & judgement compound over long-horizon tasks, creating huge gains in outcomes and reduction in errors.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -107,7 +193,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "b634aa430f44dd0d"
+        "38b2a4b9c1701f41"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -115,178 +201,30 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxr77gpvik2q",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxxj65qhac2t",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T14:04:25.408000+00:00",
+      "published": "2026-10-16T02:18:38.285000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
+      "reject_reason": "published 2026-10-16 — outside lookback window"
     },
     {
-      "cluster_key": "df489c10521cd2bd",
-      "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a",
-      "category": "cyber_tools",
-      "one_liner": "God's Eye View brings real-time public spatial intelligence into an interactive 3D globe with AI voice control.",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "release",
-        "tool"
-      ],
-      "summary": "God's Eye View is an open-source browser application that simulates a spy satellite interface while using live public data feeds including flight transponders, ship beacons, orbital elements, and seismographs. Created by bilawalsidhu, the tool features photorealistic 3D globe visualization, hands-free voice control powered by an AI agent, and various tactical overlays like a military HUD and thermal sensor filters. It runs locally or via Pinokio without requiring API keys for core feeds.",
-      "key_facts": [],
-      "bottom_line": "Public tracking data and spatial intelligence can be explored interactively in the browser via open-source tools.",
-      "claims": [
-        {
-          "text": "God's Eye View is a browser-based spy-satellite simulator powered by real public data feeds including live aircraft, ships, and earthquakes.",
-          "support_span": "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real. Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras.",
-          "status": "entailed"
-        },
-        {
-          "text": "The project reached #1 on GitHub Trending and is installed locally or via Pinokio.",
-          "support_span": "Reached #1 on GitHub Trending, daily and weekly · August 2026... Install with Pinokio or run locally from the terminal.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "df489c10521cd2bd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (updated)",
-          "url": "https://github.com/bilawalsidhu/gods-eye-view",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T00:26:23+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "89b1b64e25e1bfd1",
-      "title": "ZSeven-W/codex-openpencil — Codex plugin for OpenPencil — an interactive Rust/WASM canvas for AI-assisted UI design. Create editable .op f",
+      "cluster_key": "cabaa00a57e80bb2",
+      "title": "azrinaldi/gemini-stealth-bridge — Browserless Chrome uTLS + HTTP/2 OpenAI-compatible API daemon for Google Gemini Web (/v1/chat/completions & /v",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai",
-        "appsec",
-        "howto",
-        "llm",
-        "malware",
-        "opensource"
-      ],
-      "summary": "The Codex plugin for OpenPencil — create, inspect, and refine editable .op designs from a conversation. One-Prompt Setup • Interactive Canvas • Selection Prompts • Native Rust Engine Quick Start · Features · Examples · Ecosystem · Install Guide · Validation Design in a Codex conversation, refine on an editable OpenPencil canvas — MŌDE fashion app home and product detail screens. When a design needs new image assets, Codex uses its built-in image generation, which may consume your Codex image-generation quota. Say “use stock images only” to skip generation. Unavailable or failed generation falls back to stock search.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "89b1b64e25e1bfd1"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ZSeven-W/codex-openpencil",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-14T07:15:57+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-14 — outside lookback window"
-    },
-    {
-      "cluster_key": "067498e444d5fb13",
-      "title": "My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you personalized prompts, ideas, & readings based on concepts from the book You can order & claim the pre-order bonus here: co-existence.ai 2026-10-19T15:54:52.554Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "067498e444d5fb13",
-        "875a64383172f235"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myai6h4uzc2x",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxr57bfkxc2q",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T13:28:32.346000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "54c796830fb6d875",
-      "title": "Graphicle-AI/graphicle — Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
         "llm",
         "opensource",
+        "tool",
         "windows"
       ],
-      "summary": "Graphicle maps your repository into a code graph, remembers your project's docs, decisions and past agent sessions, and gives your coding agent cited excerpts from both: the exact files and lines. It runs on your machine: no API key needed, no account, no telemetry. Works with Claude Code · Cursor · Codex · VS Code · Claude Desktop · any MCP client Quick start · How it works · Benchmarks · Docs · Coming from Graphify? Discussions brew install graphicle-ai/tap/graphicle cd your-repo graphicle setup No Homebrew? curl -fsSL | sh · Release archives · Other ways to install Windows: a preview build for x86-64, not yet code-signed (Windows (preview)).",
+      "summary": "Connect coding agents and other API clients to your Gemini account through Chat Completions or Responses endpoints. gsb translates OpenAI-style messages, images, and tool definitions into Gemini Web requests, then converts the results back into JSON or Server-Sent Events (SSE). It authenticates with your Google session cookies, not a Gemini Developer API key. Model access and quotas depend on the connected account. The daemon runs without headless Chrome or CDP.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -297,7 +235,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "54c796830fb6d875"
+        "cabaa00a57e80bb2"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -305,17 +243,143 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Graphicle-AI/graphicle",
+          "url": "https://github.com/azrinaldi/gemini-stealth-bridge",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-14T12:25:36+00:00",
+      "published": "2026-10-16T04:42:00+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-14 — outside lookback window"
+      "reject_reason": "published 2026-10-16 — outside lookback window"
+    },
+    {
+      "cluster_key": "720f319db860f27a",
+      "title": "\"Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue\" If true, and Q2 revenue was $11.5B, then…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z \"Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue\" If true, and Q2 revenue was $11.5B, then that's more than half a billion dollars spent by other labs to distill Anthropic's models!",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "720f319db860f27a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mxw5izz2gs2g",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-15T13:17:18.829000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "97f4cefff7737766",
+      "title": "LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, C",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server. Download · Getting started · Connections and agents Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "97f4cefff7737766"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-15T22:30:47+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "5757e0eb39001ad6",
+      "title": "reacher-z/Awesome-REA — Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, a",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "android",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "An independent collection of tools, case studies and research for websites, games, apps, native binaries, firmware and communication protocols. English · 简体中文 Search & filter · Browse cases · Research papers · HTML survey Source review does not imply runtime verification. Review method Tools and cases by target - Website (29) · Game (193) · App (77) - Native Binary (64) · Firmware and Hardware (23) · Protocol (18) Research and workflows - Papers (134) · Agents and MCP (44) · References and Learning (32) More ways to browse - All cases (206) · Related Collections (7) · Full Repository Index (3,309) Names link to original sources. Each line gives the opening sentence of the description, then…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5757e0eb39001ad6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/reacher-z/Awesome-REA",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-16T00:42:04+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-16 — outside lookback window"
     },
     {
       "cluster_key": "d11a11b2b5bd6008",
@@ -367,25 +431,160 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "3d9780d13caf81ce",
-      "title": "guolola/SoftJL — Self-hosted AI workspace for software engineering capstone and course projects. Generate UML models, system de",
+      "cluster_key": "11cb032ec08e7cf7",
+      "title": "paulmil11/decks — Agent-first slide decks: comment under a slide, and your coding agent (Claude Code or Codex) makes the change ",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "howto",
+        "llm",
+        "opensource"
+      ],
+      "summary": "You leave a comment under a slide, your coding agent (Claude Code or Codex) changes the deck, and it replies on the slide: what it did, a question for you, or why it left something alone. To try it, paste the prompt under Get started into Claude Code or Codex. I teach people consulting skills and a big part of my work is getting people to make better and more compelling decks in PowerPoint. I made most of my slides in PowerPoint too. Of course I did, I'm a former consultant.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "11cb032ec08e7cf7",
+        "377a58da820ab1fd"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/paulmil11/decks",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/liuda30201/AI-Coding",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-15T13:13:58+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "5b56d2cce04502fa",
+      "title": "alextnetto/res — Agent skill to reverse engineer a SaaS product through the browser into a knowledge base for rebuilding it: sc",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "appsec",
+        "llm",
+        "opensource"
+      ],
+      "summary": "Study a web product through the browser, document how it works, and hand off everything needed to rebuild and launch it, without touching production data. Quick start · How RES works · What you get · Examples · Safety model · FAQ · Documentation claude plugin marketplace add alextnetto/res Important RES drives a real browser on accounts you control. Use it only on products you are allowed to study, read the safety model before the first run, and prefer a trial account in a separate browser profile. Want to rebuild a product your team relies on, or launch a competitor in your market? The agent explores the product in a test environment, records every change it makes, and writes what it learn…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5b56d2cce04502fa"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/alextnetto/res",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-15T15:48:07+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "e2d25ca225252eaa",
+      "title": "touri-ai/touri — touri: open-source desktop app for AI agent bots (Codex, Claude, OpenCode) with isolated VMs, browser and comp",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "linux",
+        "llm",
         "opensource",
         "release",
-        "research"
+        "tool",
+        "windows"
       ],
-      "summary": "English | 简体中文 An engineering workspace for capstone and course projects Connect requirements, UML, design, tests and engineering documents with your own model service. Review coverage · Follow changes · Explain your work Trace your designs, guide your revisions. Review models, tests and specifications against the same requirements, follow change impacts and organize design sources you can explain in reviews and your defense. For software capstone projects, course projects and UML assignments, the workspace helps students check whether requirements are reflected in designs and tests, identify materials affected by changes and explain where their design decisions came from. Source links and…",
+      "summary": "touri is a local-first desktop app for macOS, Linux and Windows for running persistent AI teammates (\"bots\") on your own Codex, Claude Code or OpenCode CLI. Everything runs on your computer: your conversations, memory, routines and secrets never leave the machine unless you explicitly configure a remote. Built with Tauri v2 (Rust shell), a Bun sidecar and a React UI. Persistent bots with their own instructions, memory, skills and full branching chat history. Codex and Claude Code runtimes, with approval modes (on-request, workspace-write, full).",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e2d25ca225252eaa"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/touri-ai/touri",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-15T13:13:07+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "3d9780d13caf81ce",
+      "title": "guolola/SoftJL — Turn requirements into UML diagrams, test cases and editable Word specs—with traceability. Self-hosted, bring ",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "howto",
+        "opensource",
+        "tool"
+      ],
+      "summary": "English | 简体中文 An engineering workspace for capstone and course projects Connect requirements, UML, design, tests and engineering documents with your own model service. Review coverage · Follow changes · Explain your work Trace your designs, guide your revisions. Review models, tests and specifications against the same requirements, follow change impacts and organize design sources you can explain in reviews and your defense. Turn a system description into UML diagrams, test cases and editable Word specifications. Follow requirement changes through the linked project materials, then use the designs and tests to prepare your project review or defense.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -417,14 +616,15 @@
       "reject_reason": "published 2026-10-15 — outside lookback window"
     },
     {
-      "cluster_key": "bd54df3e7e8bb7e2",
-      "title": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline).",
+      "cluster_key": "282376995506fa10",
+      "title": "The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "llm"
+        "agents",
+        "ai"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI. Effectively steering AIs and getting any sort of observability now requires you to ask for interim outputs & tests, and to use AI help to troubleshoot problems you find.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -435,7 +635,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "bd54df3e7e8bb7e2"
+        "282376995506fa10"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -443,379 +643,218 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxrncnjjjk2q",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxwf7wo7rs2x",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T18:16:45.590000+00:00",
+      "published": "2026-10-15T15:35:23.276000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
+      "reject_reason": "published 2026-10-15 — outside lookback window"
     },
     {
-      "cluster_key": "a0f871cdb4f0d51b",
-      "title": "Expert view: A relief rally toward 23,800–24,200 possible; FPIs may return if dollar, bond yields peak, says Rahul Ghose",
-      "category": "markets",
-      "one_liner": "FPI outflows and high US yields weigh on Indian markets, though analysts see potential for a short-term relief rally.",
-      "tags": [
-        "ai",
-        "dfir",
-        "india",
-        "markets"
-      ],
-      "summary": "Market expert Rahul Ghose projects that the Nifty 50 may end the year in a negative trend while pointing to a potential relief rally toward the 23,800-24,200 range driven by oversold conditions. Foreign portfolio investors (FPIs) have withdrawn ₹3.08 trillion in CY26, driven by high US Treasury yields and capital shifting toward North Asian AI-focused markets. Meanwhile, strong Q2 earnings from domestic IT and banking giants alongside a 25 bps RBI repo rate hike to 5.50 percent continue to shape stock selection strategies.",
-      "key_facts": [
-        "Nifty index level: 22,888.95 (on Oct 19)",
-        "FPI outflows in CY26: ₹3.08 trillion",
-        "RBI repo rate: 5.50%"
-      ],
-      "bottom_line": "Foreign capital will likely remain restricted until US bond yields and the dollar peak, shifting investor focus to selective domestic bluechips.",
-      "claims": [
-        {
-          "text": "Rahul Ghose expects the Nifty 50 to end the year in the red with a possible relief rally toward 23,800-24,200.",
-          "support_span": "Rahul Ghose, Founder and CEO of Octanom Tech and Hedged.in, sees a chance that the Nifty 50 will end the year in the red... the market is oversold, so a sharp relief rally toward 23,800–24,200 is possible.",
-          "status": "contradicted"
-        },
-        {
-          "text": "FPIs withdrew ₹3.08 trillion in CY26, nearly double the ₹1.66 trillion pulled out in all of 2025.",
-          "support_span": "The scale shows how strong these forces are: FPIs withdrew ₹3.08 trillion in CY26, nearly double the ₹1.66 trillion pulled out in all of 2025.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "a0f871cdb4f0d51b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/expert-view-a-relief-rally-toward-23-800-24-200-possible-fpis-may-return-if-dollar-bond-yields-peak-says-rahul-ghose-11792461311690.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T02:10:27+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "8a1002dfca157283",
-      "title": "HDFC Bank vs ICICI Bank share price targets: Check upside potential, returns, valuations — which stock should you buy?",
-      "category": "markets",
-      "one_liner": "Q2 results for HDFC Bank and ICICI Bank reveal solid asset quality improvements and strong broker buy ratings despite margin pressures.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "ICICI Bank and HDFC Bank reported their September-quarter results, showing improved asset quality despite pressure on net interest margins from foreign-currency deposits. ICICI Bank reported a 20.1 percent increase in net profit to ₹14,843 crore alongside robust credit growth, while HDFC Bank posted a standalone net profit of ₹19,510 crore, up 4.7 percent year-on-year. Major brokerages including Anand Rathi and Motilal Oswal maintain BUY ratings on both private lenders, with ICICI Bank favored for stronger earnings momentum and HDFC Bank viewed as a valuation recovery opportunity.",
-      "key_facts": [
-        "HDFC Bank Q2 net profit: ₹19,510 crore",
-        "ICICI Bank Q2 net profit: ₹14,843 crore",
-        "ICICI Bank target price (Anand Rathi): ₹1,752"
-      ],
-      "bottom_line": "Private banking leaders ICICI and HDFC remain strong buy candidates for brokerages following solid asset quality gains in Q2.",
-      "claims": [
-        {
-          "text": "HDFC Bank reported a standalone net profit of ₹19,510 crore, up 4.7% year-on-year, while ICICI Bank's net profit increased 20.1% to ₹14,843 crore.",
-          "support_span": "HDFC Bank reported standalone net profit of ₹19,510 crore for the September quarter, up 4.7% year-on-year. ICICI Bank's net profit increased 20.1% to ₹14,843 crore from ₹12,359 crore a year earlier.",
-          "status": "entailed"
-        },
-        {
-          "text": "HDFC Bank's gross NPA ratio declined to 1.11% and ICICI Bank's gross NPA improved to 1.2%.",
-          "support_span": "HDFC Bank's gross non-performing asset (NPA) ratio declined to 1.11% from 1.17%... ICICI Bank's gross NPA ratio improved to 1.2% from 1.38%",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "8a1002dfca157283",
-        "bda7034c4eef4fec"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-vs-icici-bank-share-price-targets-check-upside-potential-returns-valuations-which-stock-should-you-buy-11792470098217.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        },
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/up-64-in-6-months-already-should-you-still-buy-neogen-chemicals-antique-sees-23-upside-potential-check-target-11792425758466.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T04:05:19+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "e5287d8fbd420aca",
-      "title": "In case your organization has no soul and hates everything about the word \"whimsy\": botstopper.net?soulless-cor...",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "windows"
-      ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe In case your organization has no soul and hates everything about the word \"whimsy\": botstopper.net?soulless-cor... I'll probably put the credit card form there in the long run.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e5287d8fbd420aca"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mxr7rxnhs226",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-13T14:14:47.136000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "e47790c6728ded71",
-      "title": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
+      "cluster_key": "4d3ffc26c51d9232",
+      "title": "Tiger Shroff firing case: Four arrested for allegedly transporting firearm to Mumbai, helping coordinate operation",
       "category": "india_world",
-      "one_liner": "Brief headline update on the Tiger Shroff firing case involving transit remands in Kota.",
+      "one_liner": "Four people were arrested by Delhi Police for transporting a firearm across state lines for the shooting targeting actor Tiger Shroff's car.",
       "tags": [
-        "india"
+        "incident",
+        "india",
+        "policy",
+        "political",
+        "release"
       ],
-      "summary": "The text consists solely of a headline indicating updates regarding the Tiger Shroff firing case with 3 suspects undergoing medical examination in Kota and transit remand granted. No further text or elaboration is present.",
+      "summary": "The Delhi Police Special Cell has arrested four individuals for allegedly transporting a firearm used in an October 18 shooting targeting Bollywood actor Tiger Shroff's car in Mumbai. The suspects—identified as Kunal, Sumit, Radha, and Babita—acted under the coordination of Anil Pandit using an encrypted messaging app. Two of the suspects allegedly smuggled the pistol into Mumbai inside a bag before handing it to a minor. The suspects were apprehended in Delhi and Haryana, and a court granted transit remand for the Maharashtra Police to take them into custody.",
       "key_facts": [
-        "Suspects: 3",
-        "Location: Kota"
+        "Date of incident: October 18, 2026",
+        "Arrest date: October 20, 2026"
       ],
-      "bottom_line": "Three suspects in the Tiger Shroff firing case underwent medical examination in Kota under a transit remand.",
+      "bottom_line": "Interstate transportation of a firearm linked to a high-profile Mumbai shooting resulted in four arrests by Delhi Police Special Cell.",
       "claims": [
         {
-          "text": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
-          "support_span": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 13.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "e47790c6728ded71"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/tiger-shroff-assassination-bid-updates-lawrence-bishnoi-gang-salman-khan-juhu-mumbai-12203309#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-19T19:04:49+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0fd6d519f7abbbab",
-      "title": "CVE-2026-109440 - LangAlpha through 2026.09.07 Indirect Prompt Injection RCE via Bash and ExecuteCode",
-      "category": "cyber_attacks",
-      "one_liner": "CVE-2026-109440 exposes LangAlpha agents to indirect prompt injection RCE via unconstrained Bash and ExecuteCode tool integrations.",
-      "tags": [
-        "agents",
-        "ai",
-        "cve",
-        "exploit",
-        "linux",
-        "llm",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "LangAlpha through September 7, 2026, contains an indirect prompt injection remote code execution vulnerability via its Bash and ExecuteCode tools, tracked as CVE-2026-109440. Because these execution components lack allow-lists and human-in-the-loop approval workflows, remote attackers can plant malicious instructions in web content retrieved by the agent to run arbitrary shell commands or Python code inside the workspace sandbox and exfiltrate vault secrets.",
-      "key_facts": [
-        "CVE-2026-109440",
-        "Affected product: LangAlpha through 2026.09.07"
-      ],
-      "bottom_line": "AI agent tools executing shell commands or code must enforce strict allow-lists and human approval checks to prevent indirect prompt injection compromise.",
-      "claims": [
-        {
-          "text": "LangAlpha contains an indirect prompt injection vulnerability allowing remote attackers to execute shell commands or Python via web content.",
-          "support_span": "CVE-2026-109440 LangAlpha through 2026.09.07 contains an indirect prompt injection vulnerability that allows remote attackers to execute shell commands or Python by planting instructions in web content retrieved by the agent.",
-          "status": "contradicted"
+          "text": "The Delhi Police Special Cell on Tuesday (October 20, 2026) arrested four people, including two women, for their alleged role in transporting a firearm to Mumbai ahead of the October 18 firing incident targeting Bollywood actor Tiger Shroff’s car.",
+          "support_span": "The Delhi Police Special Cell on Tuesday (October 20, 2026) arrested four people, including two women, for their alleged role in transporting a firearm to Mumbai ahead of the October 18 firing incident targeting Bollywood actor Tiger Shroff’s car.",
+          "status": "entailed"
         },
         {
-          "text": "Because Bash and ExecuteCode lack allow-lists and human-in-the-loop approval, attackers can run code and exfiltrate vault secrets.",
-          "support_span": "Because Bash and ExecuteCode lack an allow-list and human-in-the-loop approval, attackers can run code in the workspace sandbox and exfiltrate vault secrets from _internal/.vault_secrets.json.",
-          "status": "entailed"
+          "text": "According to the police, the accused were acting on the instructions of Anil Pandit, who allegedly coordinated their movements through an encrypted messaging application.",
+          "support_span": "According to the police, the accused were acting on the instructions of infiltrated instructions... [truncated exact match checked] acting on the instructions of Anil Pandit, who allegedly coordinated their movements through an encrypted messaging application.",
+          "status": "contradicted"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 62.5,
+      "trust_score": 37,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 46.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0fd6d519f7abbbab",
-        "2ca34fb8d3c54ec9",
-        "33b4ea8bd6bc97c7",
-        "50e0841b3816c871",
-        "8666fed214a3746c",
-        "8f52648724299c9d"
+        "4d3ffc26c51d9232",
+        "e7136c20ef68898b"
       ],
-      "critical_signal": "unauthenticated rce",
+      "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109440",
-          "domain": "cvefeed.io",
-          "tier": "A"
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/4-more-people-including-2-women-arrested-in-tiger-shroff-shooting-case-12212352#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
         },
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109444",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109443",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-109442",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-77932",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-77926",
-          "domain": "cvefeed.io",
-          "tier": "A"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/maharashtra/tiger-shroff-firing-case-four-arrested-for-allegedly-transporting-firearm-to-mumbai-helping-coordinate-operation/article71605447.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-20T01:17:10+00:00",
+      "published": "2026-10-21T01:28:13+00:00",
       "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 62 = trust 40 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 47 = trust 37 / interest 50 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "073f1d173a18d03e",
-      "title": "Hardware implants were put in Ledger wallets to steal recovery seeds for crypto accounts.",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Kim Zetter kimzetter.bsky.social did:plc:mfam7sumoyb6lmiemlmhrwup Hardware implants were put in Ledger wallets to steal recovery seeds for crypto accounts. Someone used the seeds last week to hijack $100 million from 300 crypto accounts. Ledger was warned last March about implants but did little. There's evidence the stolen seeds were sent to Hong Kong.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "cluster_key": "49f73c61636e116f",
+      "title": "When Planning Problems Become Hard for LLMs: Separating Structural Complexity from Semantic Interpretability",
+      "category": "tech_ai",
+      "one_liner": "LLM planning failures stem more from predicate semantics than structural difficulty, proving that classical symbolic heuristics already estimate structural complexity well.",
+      "tags": [
+        "ai",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers examined seven STRIPS planning domains to distinguish structural difficulty from semantic vocabulary interpretation in LLM planning tasks. The zero-training delete-relaxation heuristic h_add outperformed learned alternatives like ridge regression, object count, and ARC for predicting structural difficulty on held-out domains with a mean Spearman |rho| of 0.931. To isolate semantic effects, the authors progressively renamed predicates while keeping states, transitions, and optimal plans identical, showing that valid LLM planning success dropped from 67.5% to 40.0% between 0% and 100% renaming. The findings indicate that symbolic heuristics already estimate structural difficulty effectively, meaning future hybrid planning improvements should focus on modeling LLM behavior sensitive to predicate semantics rather than building new structural predictors.",
+      "key_facts": [
+        "h_add heuristic performance: mean Spearman |rho| = 0.931 on held-out domains",
+        "LLM planning success drop: 67.5% to 40.0% between 0% and 100% predicate renaming",
+        "Refusal rate during renaming: 0%"
+      ],
+      "bottom_line": "Improving LLM hybrid planning requires modeling how language models interpret predicate semantics rather than developing additional structural complexity predictors.",
+      "claims": [
+        {
+          "text": "Valid LLM planning success drops from 67.5% to 40.0% between 0% and 100% renaming, while refusals remain at 0%.",
+          "support_span": "Valid LLM planning success drops from 67.5% to 40.0% between 0% and 100% renaming, while refusals remain at 0%.",
+          "status": "contradicted"
+        },
+        {
+          "text": "For predicting structural difficulty without solving an instance, the zero-training delete-relaxation heuristic $h_{\\mathrm{add}}$ outperforms learned alternatives on held-out domains (mean Spearman $|\rho|=0.931$)",
+          "support_span": "For predicting structural difficulty without solving an instance, the zero-training delete-relaxation heuristic $h_{\\mathrm{add}}$ outperforms learned alternatives on held-out domains (mean Spearman $|\rho|=0.931$)",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "073f1d173a18d03e"
+        "49f73c61636e116f"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.26964",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.26964"
+      ],
+      "published": "2026-10-21T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "6b48d127b2fb39c0",
+      "title": "India opposes attempts to portray world’s largest democracy negatively using unverified allegations at UN",
+      "category": "india_world",
+      "one_liner": "India has rejected UN human rights reports on domestic protests as politically motivated and based on unverified data.",
+      "tags": [
+        "india",
+        "policy",
+        "political"
+      ],
+      "summary": "India has formally opposed a UN report concerning enforced disappearances, labeling it as a collection of \"unverified allegations\" and \"incomplete statistics.\" The Ministry of External Affairs asserted that human rights mechanisms should not be used for political pressure or selective targeting. This response follows concerns raised by over 20 UN experts regarding the police response to youth-led protests in New Delhi, which India has dismissed as \"unwarranted interference\" in its internal affairs.",
+      "key_facts": [
+        "Date: October 20, 2026",
+        "Speaker: Barkha Tamrakar, MEA"
+      ],
+      "bottom_line": "The Indian government is taking a hardline diplomatic stance against international human rights scrutiny, characterizing it as an interference in internal governance.",
+      "claims": [
+        {
+          "text": "India opposed the use of unverified allegations to characterize its democracy negatively.",
+          "support_span": "formally opposed any “attempt to convert unverified allegations, incomplete statistics or a report that contains no India country observation into a negative characterisation of the world’s largest democracy”",
+          "status": "contradicted"
+        },
+        {
+          "text": "The MEA described UN remarks as an unacceptable interference in internal affairs.",
+          "support_span": "India had described the remarks by the Office as “unwarranted” and an “unacceptable interference” in the country’s internal affairs.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6b48d127b2fb39c0"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Kim Zetter",
-          "url": "https://bsky.app/profile/kimzetter.bsky.social/post/3mxrba65xs22k",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/india-opposes-attempts-to-portray-worlds-largest-democracy-negatively-using-unverified-allegations-at-un/article71606235.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T14:40:37.472000+00:00",
+      "published": "2026-10-21T05:36:55+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3-flash-preview",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-13 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "9c543793991cafdc",
-      "title": "bronyacccxz/dsh-bilibili-reply — 让 AI 读懂你在 B 站 @ 它的视频，自动回一条带可跳转时间戳的评论。DSH / AI Agent 技能。",
+      "cluster_key": "96c0b3211e399d0f",
+      "title": "yangsir2077/pixel-loom — Pixel Loom 像素织机：支持 AI 通过 MCP 创作的开源像素画与动画编辑器。Windows 便携版请点击下方链接下载，完整解压后即可使用。",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "opensource",
-        "tool"
+        "windows"
       ],
       "summary": "",
       "key_facts": [],
@@ -825,10 +864,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "9c543793991cafdc"
+        "96c0b3211e399d0f"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -836,75 +875,247 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/bronyacccxz/dsh-bilibili-reply",
+          "url": "https://github.com/yangsir2077/pixel-loom",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-14T16:04:12+00:00",
+      "published": "2026-10-15T20:15:53+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-14 — outside lookback window"
+      "reject_reason": "published 2026-10-15 — outside lookback window"
     },
     {
-      "cluster_key": "0a0c61ae8d28cb34",
-      "title": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
-      "category": "cyber_tools",
-      "one_liner": "Wemix upgrades its security bug bounty program through a partnership with CertiK.",
+      "cluster_key": "1285563cd344da57",
+      "title": "Energy Consumption of Post-Quantum Cryptography on Constrained and General-Purpose Architectures",
+      "category": "tech_ai",
+      "one_liner": "NIST post-quantum algorithms ML-KEM and ML-DSA are efficient on IoT hardware, but SLH-DSA signing incurs prohibitive energy costs on 32-bit devices.",
       "tags": [
         "appsec",
-        "bugbounty",
-        "vulnerability"
+        "hardware",
+        "network",
+        "privacy",
+        "research",
+        "tool"
       ],
-      "summary": "Wemix has upgraded its bug bounty program in partnership with CertiK to strengthen threat detection capabilities and identify key vulnerabilities across its platform.",
+      "summary": "Researchers benchmarked the computational performance and energy consumption of the three NIST-standardized post-quantum cryptography algorithms—FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), and FIPS 205 (SLH-DSA)—across 32-bit and 64-bit IoT devices and laptop hardware using OpenSSL 3.5 and a USB power meter. Results show that ML-KEM and ML-DSA deliver energy and speed efficiency comparable to classical elliptic-curve cryptography on all architectures. However, SLH-DSA signing proved highly inefficient on constrained devices, with energy costs up to 243% higher on 32-bit hardware compared to 64-bit systems, making it impractical for resource-limited IoT deployments.",
       "key_facts": [
-        "Partner: CertiK"
+        "Standards benchmarked: FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), FIPS 205 (SLH-DSA)",
+        "Tooling: FNIRSI FNB58 USB power meter, OpenSSL 3.5",
+        "SLH-DSA 32-bit energy cost increase: Up to 243% higher than 64-bit hardware"
       ],
-      "bottom_line": "Wemix aims to fortify its threat detection by enhancing its bug bounty partnership with CertiK.",
+      "bottom_line": "Security practitioners planning PQC migration must avoid SLH-DSA signing on resource-constrained 32-bit IoT hardware due to excessive energy consumption.",
       "claims": [
         {
-          "text": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
-          "support_span": "Wemix upgrades bug bounty with CertiK to strengthen detection of key threats - 디지털투데이",
+          "text": "Using the FNIRSI FNB58 USB power meter and OpenSSL~3.5, results show that ML-KEM and ML-DSA achieve energy and speed efficiency comparable to classical elliptic-curve cryptography across all tested architectures.",
+          "support_span": "Using the FNIRSI FNB58 USB power meter and OpenSSL~3.5, results show that ML-KEM and ML-DSA achieve energy and speed efficiency comparable to classical elliptic-curve cryptography across all tested architectures.",
+          "status": "entailed"
+        },
+        {
+          "text": "However, SLH-DSA signing is inadvisable on constrained hardware: energy costs for SLH-DSA signing on 32-bit devices were up to 243% higher than on equivalent 64-bit hardware, making it impractical for resource-limited IoT deployments.",
+          "support_span": "However, SLH-DSA signing is inadvisable on constrained hardware: energy costs for SLH-DSA signing on 32-bit devices were up to 243% higher than on equivalent 64-bit hardware, making it impractical for resource-limited IoT deployments.",
           "status": "contradicted"
         }
       ],
-      "trust_score": 22,
-      "interest_score": 25,
-      "corroboration": 2,
-      "blend": 31.8,
-      "is_new": false,
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0a0c61ae8d28cb34",
-        "6a6586f38506c726"
+        "1285563cd344da57"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2610.27111",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.27111"
+      ],
+      "published": "2026-10-21T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "cf88eaf23edcfd70",
+      "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
+      "category": "markets",
+      "one_liner": "Chinese tech giants ByteDance, Alibaba, and Tencent have placed over $35 billion in Nvidia chip orders.",
+      "tags": [
+        "ai",
+        "hardware",
+        "markets",
+        "tool"
+      ],
+      "summary": "This article is a headline stating that ByteDance, Alibaba, and Tencent have collectively placed over $35 billion worth of Nvidia chip orders, with no further text provided. It points to massive ongoing investments by major Chinese tech giants into advanced AI hardware despite regulatory pressures. The absence of details limits its immediate operational utility but highlights major capital allocation trends.",
+      "key_facts": [
+        "Order value: over $35 billion",
+        "Buyers: ByteDance, Alibaba, Tencent"
+      ],
+      "bottom_line": "ByteDance, Alibaba, and Tencent have committed over $35 billion to acquiring Nvidia chips.",
+      "claims": [
+        {
+          "text": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
+          "support_span": "EXCLUSIVE: ByteDance, Alibaba, and Tencent place over $35 billion worth of Nvidia chip orders",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "cf88eaf23edcfd70"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T15:51:20+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "7f163b81796b2c63",
+      "title": "The first review I’ve seen of my upcoming book, Co-Existence, from The New Scientist.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The first review I’ve seen of my upcoming book, Co-Existence, from The New Scientist. (When I became an author, I was surprised to learn you don’t know who is reviewing your book until the review comes out, so it is nice to start with a positive one!) [contains quote post or other embedded content] 2026-10-15T23:54:31.367Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "7f163b81796b2c63"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GN Bug bounty",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTVoM3RTQ195aER1a2oxdDZtQmtYNHRTY2loa1NsSU5fTDRzc192d1g0RHo5VkFSaWMxMGE2N2JGZW1QUHExVUZta21Zb0Ztd0lldG50d0NCc1AxYzhwWkp5N1JMWnYxeng2WTJxREtQWVZiRlNURVQxMVF6Q1o3bnRYWElhWldLUVE1ODJ0c2JMSDhGUndQLUxXOVFSeFpLLVpaREQ5dHc?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
-        },
-        {
-          "name": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbmVLRHZQWVFBWVJicXVick1rZHFtVmpaQm51N2dzeTNpRFN1Ni1TOHlTVkRhQ1dhSE5YRkJqV1l4LUNadXZQc212VThUdXJuemxlZjhjeHV5REZCYnpPYlBwQU9sMTQyYjBObi0xMm9LQnA0WXVKSVpfTWFzS2NkN1BXOU5NQll0d3NJMUZWVzNGS0E5ZGxKM1JTNExpZjFKejRvOEpXWUtmZmlhVUd1UWJRWC1DUC04SklvQ3g3OWgyLUQzYWsyeUdlY1BIQQ?oc=5",
-          "domain": "pr-newswire.publisher",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxxb4gyr4s2x",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-14T01:16:35+00:00",
+      "published": "2026-10-15T23:54:30.952000+00:00",
       "trace": [
-        "tier C (+10)",
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "00ad7d2f4a76ca8e",
+      "title": "Fresh weather system likely to sustain heavy rainfall in Tamil Nadu till October 26",
+      "category": "india_world",
+      "one_liner": "Heavy rainfall alerts across Tamil Nadu through October 26, 2026, driven by a new Bay of Bengal weather system.",
+      "tags": [
+        "india",
+        "policy"
+      ],
+      "summary": "A fresh low-pressure area expected to form over the southwest Bay of Bengal on October 21, 2026, is forecast to bring heavy to very heavy rainfall up to 20 cm across Tamil Nadu through October 26, 2026. Southern and delta districts like Tirunelveli and Thoothukudi face orange alerts, while the Northeast monsoon has already created a 12% surplus across the state. Weather officials confirm that despite back-to-back systems, none are expected to intensify into a cyclone.",
+      "key_facts": [
+        "Date: October 21, 2026",
+        "Rainfall amount: up to 20 cm",
+        "Surplus: 12%",
+        "Target region: Tamil Nadu"
+      ],
+      "bottom_line": "Southern and delta districts of Tamil Nadu should prepare for intense downpours and up to 20 cm of rainfall through October 26, 2026.",
+      "claims": [
+        {
+          "text": "A fresh system, which is expected to form over the Bay of Bengal on Wednesday (October 21, 2026), is likely to sustain intense rainfall across Tamil Nadu till October 26.",
+          "support_span": "A fresh system, which is expected to form over the Bay of Bengal on Wednesday (October 21, 2026), is likely to sustain intense rainfall across Tamil Nadu till October 26.",
+          "status": "entailed"
+        },
+        {
+          "text": "The Regional Meteorological Centre (RMC) has issued orange alerts for a few southern districts, including Tirunelveli and Thoothukudi, as they may receive heavy to very heavy rainfall up to 20 cm on Wednesday and Thursday (October 22, 2026).",
+          "support_span": "The Regional Meteorological Centre (RMC) has issued orange alerts for a few southern districts, including Tirunelveli and Thoothukudi, as they may receive heavy to very heavy rainfall up to 20 cm on Wednesday and Thursday (October 22, 2026).",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 25,
+      "corroboration": 2,
+      "blend": 35.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "00ad7d2f4a76ca8e",
+        "48545831c18aa081",
+        "5108931fb210b177"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/education/tamil-nadu-rain-schools-closed-in-5-districts-as-heavy-rainfall-continues-12213250#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/cities/chennai/fresh-weather-system-likely-to-sustain-heavy-rainfall-in-tamil-nadu-till-october-26/article71604868.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rain-schools-in-chennai-four-other-districts-declare-holiday/article71606049.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T18:15:22+00:00",
+      "trace": [
+        "tier B (+25)",
         "2 independent outlets (+12)",
         "corroborated by 2 independent outlets",
-        "importance 2/5 from cache",
-        "blend 32 = trust 22 / interest 25 / corrob 50"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 37 / interest 25 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -972,37 +1183,42 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "49fe8a3fc3d9ad0e",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "category": "cyber_tools",
-      "one_liner": "GitHub's new ModernBERT-based secret detection classifier reduces post-push scan times by 86% and cuts false positives using contextual analysis.",
+      "cluster_key": "14d32f4603d4a69d",
+      "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "category": "india_world",
+      "one_liner": "An uncharacteristically fast wildfire at a Canadian military base kills four soldiers and critically injures dozens during live-fire training.",
       "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "cloud",
-        "howto",
-        "identity",
-        "llm",
-        "tool"
+        "network",
+        "political"
       ],
-      "summary": "GitHub has developed and deployed a context-aware secret classifier powered by a fine-tuned ModernBERT model to improve secret detection efficiency and reduce false positives. Operating across push protection and post-push scanning stages, the new pipeline uses regex candidate generation followed by deep context evaluation to distinguish real credentials from lookalikes, placeholders, and documentation strings. The optimized classifier reduced median post-push execution time by 86 percent and increased user acceptance rates by 11.5 percent.",
+      "summary": "A fast-moving grass fire at Canadian Forces Base Wainwright in Alberta resulted in the deaths of four Canadian military personnel and injured dozens of others during high-intensity combat training. Driven by ferocious winds, the fire traversed a kilometer in 30 to 60 seconds, overtaking infantry troops gathered at a grenade and attack range. Prime Minister Mark Carney confirmed the fatalities and noted that 39 individuals were receiving hospital care, with at least 19 in critical condition. Officials have ruled out terrorism while investigating the precise cause of the blaze.",
       "key_facts": [
-        "Scan time reduction: 86%",
-        "User acceptance improvement: 11.5%",
-        "Model used: Fine-tuned ModernBERT"
+        "Fatalities: 4 military personnel",
+        "Injured hospitalized: 39 people",
+        "Critical condition cases: At least 19",
+        "Location: Canadian Forces Base Wainwright, Alberta"
       ],
-      "bottom_line": "Secret scanning pipelines can achieve high precision and lower compute costs by coupling deterministic regex candidate generation with a lightweight, context-aware ModernBERT classifier.",
+      "bottom_line": "A sudden wildfire at CFB Wainwright rapidly overran training troops, causing four military fatalities and multiple critical injuries.",
       "claims": [
         {
-          "text": "GitHub developed a fast classifier that reduced median post-push scan execution time by 86% compared to the previous LLM-based pipeline.",
-          "support_span": "We developed a fast classifier that reduced median post-push scan execution time by 86% % compared with the previous LLM-based pipeline.",
+          "text": "A fire that killed four members of the Canadian military and injured dozens of others on Saturday spread with alarming speed, accounts suggest.",
+          "support_span": "A fire that killed four members of the Canadian military and injured dozens of others on Saturday spread with alarming speed, accounts suggest.",
+          "status": "entailed"
+        },
+        {
+          "text": "It broke out in a grassy training area at a base in the province of Alberta and spread rapidly due to strong winds.",
+          "support_span": "It broke out in a grassy training area at a base in the province of Alberta and spread rapidly due to strong winds.",
+          "status": "entailed"
+        },
+        {
+          "text": "Prime Minister Mark Carney described it as 'one of the worst tragedies for the forces on Canadian soil in peacetime'.",
+          "support_span": "Prime Minister Mark Carney described it as 'one of the worst tragedies for the forces on Canadian soil in peacetime'.",
           "status": "contradicted"
         },
         {
-          "text": "The new scanner uses a two-stage pipeline consisting of regex candidate generation and context-aware classification via a fine-tuned ModernBERT classifier.",
-          "support_span": "That is why we shipped a new scanner using a two-stage pipeline: - Candidate generation: Regex filters scan content for potential secrets with high recall. - Context-aware classification: A fine-tuned ModernBERT classifier evaluates each candidate and its surrounding context.",
-          "status": "contradicted"
+          "text": "Of the 39 injured people receiving care in hospital, at least 19 are in a critical condition.",
+          "support_span": "Of the 39 injured people receiving care in hospital, at least 19 are in a critical condition.",
+          "status": "entailed"
         }
       ],
       "trust_score": 40,
@@ -1012,109 +1228,200 @@
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "49fe8a3fc3d9ad0e"
+        "14d32f4603d4a69d"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub Security Blog",
-          "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-          "domain": "github.blog",
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
           "tier": "A"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-13T17:56:33+00:00",
+      "published": "2026-10-20T01:52:43+00:00",
       "trace": [
         "tier A (+40)",
         "single outlet, established publication (tier A)",
         "importance 4/5 from gemini-3.5-flash-lite",
         "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
-      "reject_reason": "2 claim(s) not supported by the source text"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "81c23db71773eeda",
-      "title": "kitlangton/scrawl — Show an agent a problem: mark up, record, send",
+      "cluster_key": "acb948a0eb86e895",
+      "title": "When LLMs Manipulate: Measuring Behavioral, Social, and Temporal Effects",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "A new behavioral framework demonstrates that manipulative LLM framing prompts significant, measurable shifts in user compliance and trust calibration.",
       "tags": [
-        "agents",
-        "hardware",
+        "ai",
         "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "Show an agent a problem instead of describing it. Press a shortcut (⌥⇧S) and Scrawl starts recording the screen. Talk, click around, draw on it, and press ⌥⇧S again to finish. Scrawl records the screen, your voice, and your marks, then packs them into a compact bundle: a contact sheet of annotated keyframes (contact-sheet.png), individual full-resolution keyframes (frames/frame-XX.png), a time-aligned transcript and interaction timeline (summary.md), and a structured manifest (scrawl.json). Scrawl needs an Apple silicon Mac on macOS 26 or later.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "81c23db71773eeda"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/kitlangton/scrawl",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-14T23:21:44+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-14 — outside lookback window"
-    },
-    {
-      "cluster_key": "4e266ee1ff08e923",
-      "title": "Delhi protest: CJP leaders’ judicial custody extended by two days",
-      "category": "india_world",
-      "one_liner": "CJP leaders Saurav Das and Ashutosh Ranka have their judicial custody extended amid protest fallout in New Delhi.",
-      "tags": [
-        "india",
         "policy",
-        "political"
+        "privacy",
+        "research",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Cockroach Janta Party (CJP) co-convenors Saurav Das and Ashutosh Ranka were remanded to judicial custody for two more days by a Special Executive Magistrate in New Delhi. The leaders were originally arrested after climbing a locked gate to protest at Jantar Mantar—a site denotified as a protest area—and displaying the national flag while shouting slogans against Chief Election Commissioner Gyanesh Kumar. The CJP alleged that authorities deliberately delayed bail proceedings and rejected sureties on vague grounds to prolong the detention.",
+      "summary": "Researchers introduced a behavioral computing framework to measure user susceptibility to manipulative outputs from large language models, termed behavioral vulnerability. Utilizing controlled manipulative stimuli generated through Manipulation Gradient Descent (MGD) on the DarkPatterns-LLM benchmark, the study targeted biases related to authority, urgency, and social proof. Participant responses were evaluated using the MSIAN and THPM models to analyze cross-user influence and temporal persistence. In a study of 120 participants, manipulative framing led to statistically significant shifts in trust calibration and compliance, while effects propagated across social contexts.",
       "key_facts": [
-        "Leaders: Saurav Das, Ashutosh Ranka",
-        "Location: Mandir Marg police station, New Delhi"
+        "Participants: 120",
+        "Statistical significance: p < 0.01"
       ],
-      "bottom_line": "Protest arrests and contested bail proceedings for CJP leaders in New Delhi continue to draw legal and political friction.",
+      "bottom_line": "Manipulative LLM prompts leveraging authority and urgency create measurable shifts in user compliance and trust that propagate socially.",
       "claims": [
         {
-          "text": "CJP leaders Saurav Das and Ashutosh Ranka were sent to judicial remand for two more days after being produced before a Special Executive Magistrate.",
-          "support_span": "Cockroach Janta Party leaders Saurav Das and Ashutosh Ranka were on Monday (October 19, 2026) sent to judicial remand for two more days after being produced before a newly appointed Special Executive Magistrate at Mandir Marg police station in New Delhi",
-          "status": "entailed"
+          "text": "We introduce a behavioral computing framework for measuring behavioral vulnerability, defined as users' susceptibility to manipulative AI responses.",
+          "support_span": "We introduce a behavioral computing framework for measuring \textit{behavioral vulnerability}, defined as users' susceptibility to manipulative AI responses.",
+          "status": "contradicted"
         },
         {
-          "text": "The two leaders were taken into custody after climbing over a locked gate to enter Jantar Mantar and protesting against Chief Election Commissioner Gyanesh Kumar.",
-          "support_span": "The two were taken into custody after they allegedly climbed over a locked gate to enter Jantar Mantar, which had earlier been denotified as a designated protest site... and shouted slogans against Chief Election Commissioner Gyanesh Kumar",
-          "status": "contradicted"
+          "text": "In a study involving 120 participants, manipulative framing produced significant changes in trust calibration and compliance (p < 0.01)",
+          "support_span": "In a study involving 120 participants, manipulative framing produced significant changes in trust calibration and compliance ($p < 0.01$), with effects also propagating across social contexts.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 25,
-      "interest_score": 25,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 25.0,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "4e266ee1ff08e923"
+        "acb948a0eb86e895"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.27573",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.27573"
+      ],
+      "published": "2026-10-21T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "e425cc1bd5ddc8f0",
+      "title": "Suspect arrested after historic town hall set alight - French media",
+      "category": "india_world",
+      "one_liner": "France imposes targeted curfews and detains dozens following widespread protests, civil disorder, and the arson of a historic city hall.",
+      "tags": [
+        "policy",
+        "political"
+      ],
+      "summary": "French authorities arrested a 34-year-old suspect linked to a far-left movement following mass civil disorder that resulted in the burning of a 19th-century city hall in Limoges. The unrest, driven by protests against rising fuel prices, living costs, and failing public services, led to 149 detentions nationwide over the weekend. In response, officials announced extensive overnight curfews targeting commercial areas and minors in cities including Marseille, Paris, Lyon, Nice, and Lille. Interior Minister Laurent Nuñez faced heavy criticism after admitting police lost control in some areas, though his resignation was rejected by President Emmanuel Macron.",
+      "key_facts": [
+        "Suspect age: 34 years old",
+        "Detentions: 149 people",
+        "Cities implementing curfews: Paris, Marseille, Lyon, Nice, Lille, Bordeaux"
+      ],
+      "bottom_line": "Widespread civil unrest in France over living costs and public services has triggered overnight curfews and high-profile political fallout.",
+      "claims": [
+        {
+          "text": "A suspect linked to a far-left movement has been arrested in France after a 19th Century city hall was gutted by a fire over the weekend that broke out during mass disorder",
+          "support_span": "A suspect linked to a far-left movement has been arrested in France after a 19th Century city hall was gutted by a fire over the weekend that broke out during mass disorder, French media report.",
+          "status": "entailed"
+        },
+        {
+          "text": "French Justice Minister Gérald Darmanin told BFM Television that 149 people were in detention following widespread demonstrations over the weekend.",
+          "support_span": "French Justice Minister Gérald Darmanin told BFM Television that 149 people were in detention following widespread demonstrations over the weekend.",
+          "status": "entailed"
+        },
+        {
+          "text": "Interior Minister Laurent Nuñez previously admitted police had 'lost control' in some cities over the weekend.",
+          "support_span": "Interior Minister Laurent Nuñez previously admitted police had 'lost control' in some cities over the weekend.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "e425cc1bd5ddc8f0"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T21:05:50+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "35663d104457e8be",
+      "title": "Can India turn retrofitment into the next mobility revolution?",
+      "category": "india_world",
+      "one_liner": "Vehicle retrofitment offers India a decentralized structural pathway to scale EV adoption by upskilling local mechanics and building an entire supporting ecosystem.",
+      "tags": [
+        "hardware",
+        "india",
+        "release",
+        "supply-chain"
+      ],
+      "summary": "Vehicle retrofitment, converting internal combustion engine cars into electric vehicles by replacing powertrains while keeping the chassis intact, presents a potential mobility revolution for India. Beyond the mechanical conversion, the true economic and innovation opportunity lies in building a comprehensive ecosystem including diagnostic tools, calibration software, safety certification, and decentralized installation networks. By tapping into existing informal networks of local mechanic shops and garages in Tier-II and Tier-III towns, India can replicate the decentralized distribution success seen in programs like rooftop solar.",
+      "key_facts": [
+        "PMSGY household reach: over 63 lakh households",
+        "PMSGY empanelled vendors: more than 34,000",
+        "PMSGY generated jobs: more than 4.6 lakh"
+      ],
+      "bottom_line": "India's next mobility revolution may hinge on decentralized retrofitment networks that convert local garages into certified EV transformation centers.",
+      "claims": [
+        {
+          "text": "Vehicle retrofitment, which converts an existing petrol or diesel vehicle into an electric one by replacing the powertrain, keeps the chassis intact.",
+          "support_span": "Vehicle retrofitment, which converts an existing petrol or diesel vehicle into an electric one by replacing the powertrain, keeps the chassis intact.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Unlike new EV manufacturing, which rewards scale and centralisation, retrofitment rewards distribution like local workshops, local technicians, and local entrepreneurship.",
+          "support_span": "Unlike new EV manufacturing, which rewards scale and centralisation, retrofitment rewards distribution like local workshops, local technicians, and local entrepreneurship.",
+          "status": "entailed"
+        },
+        {
+          "text": "The PM Surya Ghar Yojna (PMSGY) on rooftop solar has now reached over 63 lakh households, built through a network of more than 34,000 empanelled vendors that has generated more than 4.6 lakh jobs across the solar rooftop value chain.",
+          "support_span": "The PM Surya Ghar Yojna (PMSGY) on rooftop solar has now reached over 63 lakh households, built through a network of more than 34,000 empanelled vendors that has generated more than 4.6 lakh jobs across the solar rooftop value chain.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "35663d104457e8be"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1122,94 +1429,99 @@
       "sources": [
         {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-protest-cjp-leaders-judicial-custody-extended-by-two-days/article71602829.ece",
+          "url": "https://www.thehindu.com/news/national/can-india-turn-retrofitment-into-the-next-mobility-revolution/article71605340.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-20T01:34:40+00:00",
+      "published": "2026-10-21T03:18:25+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "9db4940a53f86840",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "cluster_key": "f99f072b191a2777",
+      "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
       "category": "tech_ai",
-      "one_liner": "Stack Overflow tripled signups for its AI agent platform using a ChatGPT plugin built with OpenAI Codex.",
+      "one_liner": "TURTLE uses an automated multi-agent framework to evolve self-tuning benchmarks for long-horizon AI tool use.",
       "tags": [
         "agents",
         "ai",
+        "exploit",
         "llm",
+        "privacy",
+        "research",
         "tool"
       ],
-      "summary": "Stack Overflow utilized OpenAI's Codex and a new ChatGPT plugin to accelerate product development and distribution for Stack Overflow for Agents. Two engineers built the agent product within a few weeks using Codex, and the introduction of a ChatGPT plugin tripled overnight user signups while increasing agent creation tenfold. Additionally, Codex reduced enterprise connector development times from 3–6 weeks down to 4 days, significantly shortening time-to-market.",
+      "summary": "Researchers have introduced TURTLE (Tool Use Related Tasks with Long-Horizon Evolution), an Unsupervised Environment Design approach designed to scale and automate data generation for long-horizon AI tool use. Using a proposer, solver, and feedback generator LLM agent structure, TURTLE dynamically evolves tasks across applications such as Gmail, Venmo, and Slack to target specific difficulty levels without human supervision. Evaluations using Gemma 4 31B-it on benchmarks including AppWorld, τ-Bench, and AutomationBench showed a 165% increase in the proportion of hard tasks and successfully elicited a broader diversity of failure modes.",
       "key_facts": [
-        "Signup increase: 3x",
-        "Agent creation increase: 10x",
-        "Connector reduction: 87%"
+        "Framework: TURTLE",
+        "Model used for evaluation: Gemma 4 31B-it",
+        "Hard task increase on AppWorld: 165%"
       ],
-      "bottom_line": "Stack Overflow leveraged OpenAI Codex and a ChatGPT plugin to triple agent platform signups and accelerate engineering velocity.",
+      "bottom_line": "TURTLE solves data scaling bottlenecks for tool-using AI agents by autonomously generating adaptive, increasingly difficult evaluation tasks.",
       "claims": [
         {
-          "text": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-          "support_span": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+          "text": "To make data generation scalable, we propose, TURTLE (Tool Use Related Tasks with Long-Horizon Evolution), an Unsupervised Environment Design (UED) approach to evolve existing tasks using a proposer, a solver, and a feedback generator large language model agents.",
+          "support_span": "To make data generation scalable, we propose, TURTLE (**T**ool **U**se **R**elated **T**asks with **L**ong-Horizon **E**volution), an Unsupervised Environment Design (UED) approach to evolve existing tasks using a proposer, a solver, and a feedback generator large language model agents.",
           "status": "entailed"
         },
         {
-          "text": "\"We built a ChatGPT plugin for Stack Overflow for Agents, and our registrations tripled overnight.\"",
-          "support_span": "\"We built a ChatGPT plugin for Stack Overflow for Agents, and our registrations tripled overnight.\"",
+          "text": "Empirical results on AppWorld, $\tau$-Bench, and AutomationBench using Gemma 4 31B-it show that the evolved tasks target the desired difficulty range (e.g., a 165% increase in the percentage of hard tasks on AppWorld)",
+          "support_span": "Empirical results on AppWorld, $\tau$-Bench, and AutomationBench using Gemma 4 31B-it show that the evolved tasks target the desired difficulty range (e.g., a 165% increase in the percentage of hard tasks on AppWorld)",
           "status": "contradicted"
         }
       ],
       "trust_score": 70,
-      "interest_score": 75,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "9db4940a53f86840"
+        "f99f072b191a2777"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "OpenAI Blog",
-          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-          "domain": "openai.com",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.27307",
+          "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://openai.com/index/stack-overflow-chatgpt-plugin"
+        "https://arxiv.org/abs/2610.27307"
       ],
-      "published": "2026-10-16T00:00:00+00:00",
+      "published": "2026-10-21T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "275394be2374821c",
-      "title": "Argon is quite different: \"A game about Imminence.",
+      "cluster_key": "2fedff385bfc1fbf",
+      "title": "feder-cr/git-ai — Git designed for AI agents.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "policy"
+        "ai",
+        "opensource",
+        "release",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Argon is quite different: \"A game about Imminence. Something very big, very strange is happening. A suburb & the arrival of a vast & unknowable presence. Not horror, invoke the feeling of the end of all things coming, inevitably, but also not sad or scary\" perigee-sycamore-court-2608.netlify.app [contains quote post or other embedded content] 2026-10-14T01:26:40.762Z",
+      "summary": "Anthropic built Scion, a faster version control system for coding agents, and described it in Redesigning source control: a server-centric system built for hundreds of agents that read, write and land code at the same time. Scion is internal to Anthropic and is not available to the public. So I built gitai: an open-source version of that design that anyone can run, and that the community can improve and maintain together. Vendor neutral: the server never calls a language model, and every AI feature works with any provider, or none. gitai is an independent implementation of the publicly described design.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1220,25 +1532,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "275394be2374821c"
+        "2fedff385bfc1fbf"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxsfdbntvs2o",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/feder-cr/git-ai",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-14T01:26:36.508000+00:00",
+      "published": "2026-10-15T13:12:02+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-14 — outside lookback window"
+      "reject_reason": "published 2026-10-15 — outside lookback window"
     }
   ]
 }
