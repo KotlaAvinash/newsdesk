@@ -159,11 +159,23 @@ def run(items: list[Item], bodies: dict[str, str]) -> list[Item]:
 
         try:
             budget.wait(tier)
-            budget.record(tier)
             results = llm_gemini.raw_json(
                 tier.model, key, JUDGE_SYSTEM, prompt, JUDGE_SCHEMA)
+            # Record AFTER success, matching stage 5. Debiting first wrote a
+            # successful call into usage.json for a tier that had just 503'd,
+            # so the daily counter — which CI commits, and which the ladder's
+            # cold-streak logic now reads back — counted failures as spend.
+            # record() also clears tier.failures and tier.cool_until, so the
+            # judge was erasing the strike state stage 5 had accumulated
+            # earlier in the same run.
+            budget.record(tier)
         except llm_gemini.RateLimited as exc:
             budget.block(tier, str(exc)[:80], persist=True)
+            continue
+        except llm_gemini.Overloaded as exc:
+            # Busy, not broken: bench it and let the ladder fall through,
+            # the same way stage 5 treats a 5xx.
+            budget.cool(tier, str(exc)[:60])
             continue
         except llm_gemini.GeminiError as exc:
             # A failed judge must never reject anything. Unjudged is the safe

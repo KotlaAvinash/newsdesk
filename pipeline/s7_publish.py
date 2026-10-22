@@ -325,13 +325,23 @@ def run(items: list[Item], dry_run: bool = False) -> dict:
     # The site is served as a plain static directory, so its data file lives
     # beside index.html rather than being fetched from ../data.
     snapshot(payload, SITE_DIR / "news.json", "site copy")
-    rejects = {"generated_at": payload["generated_at"],
-               "items": [i.to_json() for i in dead]}
-    snapshot(rejects, REJECTS_JSON, "rejects")
-    # The page links its "not published" count to this file, so it has to sit
-    # beside news.json in the served directory. A count a reader cannot open
-    # is a claim they have to take on faith.
-    snapshot(rejects, SITE_DIR / "rejected.json", "site rejects")
+
+    # data/ keeps the FULL record, prose and all — it is the local audit trail
+    # and is not served to anyone.
+    snapshot({"generated_at": payload["generated_at"],
+              "items": [i.to_json() for i in dead]}, REJECTS_JSON, "rejects")
+
+    # site/ gets the SAME defanging news.json gets. _held_back strips the
+    # model prose from claim-failure items precisely because "a label does not
+    # make a claim traceable" — and then this file published it verbatim
+    # anyway. Measured on the committed output: 16 of 26 held-back items had
+    # summary == "" in news.json and a full 507-873 character summary, a
+    # bottom_line and two claims in rejected.json. The policy was enforced in
+    # one file and defeated in the other, and rejected.json is the one the
+    # page's "not published" counter opens.
+    snapshot({"generated_at": payload["generated_at"],
+              "items": _held_back(dead)},
+             SITE_DIR / "rejected.json", "site rejects")
 
     # Mark published sources as seen so tomorrow's run skips them.
     # Both forms: the harvested url so stage 2 can match it next run, and the

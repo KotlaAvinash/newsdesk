@@ -68,6 +68,21 @@ jobs:
         run: python run.py --quiet
 
       - name: Commit results
+        # ALWAYS, even when the pipeline exited non-zero or the 75-minute cap
+        # killed it. This step used to default to success(), which meant a
+        # crash in any stage threw away not just the page but the RECORD OF
+        # WHAT THE RUN HAD ALREADY SPENT:
+        #   usage.json      written incrementally on every successful call.
+        #                   Uncommitted, tomorrow starts from a stale counter,
+        #                   overspends and collects 429s.
+        #   summaries.json  written once at the end of stage 5. A stage-6
+        #                   crash discarded every summary paid for that day
+        #                   and they were bought again tomorrow.
+        # A half-finished run still has real, costly state worth keeping, and
+        # the caches are append-mostly so committing them is safe on its own.
+        # `git add` tolerates a missing file here (|| true) because a run that
+        # died in stage 2 never wrote news.json at all.
+        if: always()
         run: |
           set -euo pipefail
           git config user.name  "newsdesk-bot"
@@ -80,7 +95,7 @@ jobs:
           #                   kill switch across runs
           #   gnews_urls.json re-resolves links that never change
           #   seen.json       loses de-duplication history
-          git add -f \
+          for f in \
             data/news.json \
             data/rejected.json \
             data/cache/seen.json \
@@ -91,13 +106,24 @@ jobs:
             data/cache/iffy_blocklist.txt \
             site/news.json \
             site/rejected.json
+          do
+            [ -f "$f" ] && git add -f "$f" || true
+          done
 
           if git diff --staged --quiet; then
             echo "nothing changed"
             exit 0
           fi
 
-          git commit -m "newsdesk: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          # Say so when the pipeline did not finish. The commit log is the
+          # only record anyone reads to judge whether the thing is healthy,
+          # and a partial run that commits caches must not look like a clean
+          # publish — "runs resumed on 10-03" was read straight off this log.
+          if [ "${{ job.status }}" = "success" ]; then
+            git commit -m "newsdesk: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          else
+            git commit -m "newsdesk: $(date -u '+%Y-%m-%d %H:%M') UTC (PARTIAL — pipeline ${{ job.status }}, caches only)"
+          fi
 
           # Another run (or a human) may have pushed since checkout. Rebase
           # rather than force — losing someone else's commit to publish a
