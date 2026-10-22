@@ -52,10 +52,26 @@ def _load() -> dict:
     return {}
 
 
+def _calls_per_batch(tier: "ModelBudget", batch_size: int) -> int:
+    """How many API calls one batch of `batch_size` costs this tier.
+
+    The gemma tiers cap a batch at 3 items, so a 20-item batch is 7 calls to
+    them and 1 to a Flash tier. Both the capacity estimate and the tier
+    SELECTION have to use the same number, or they disagree: capacity()
+    divided while next_model() only checked `remaining > 0`, so a gemma tier
+    with one call of allowance left was still handed a whole 20-item batch
+    and made all seven — measured overdraft, 14 calls against a per_run of 8.
+    """
+    if batch_size <= 0 or not tier.batch_size or tier.batch_size >= batch_size:
+        return 1
+    return -(-batch_size // tier.batch_size)      # ceil
+
+
 class ModelBudget:
     """One model's allowance for today."""
 
-    def __init__(self, spec: dict, used_today: int, reserve: float) -> None:
+    def __init__(self, spec: dict, used_today: int, reserve: float,
+                 strikes: int = 3, cold: bool = False) -> None:
         self.model: str = spec["model"]
         self.rpm: int = spec.get("rpm", 5)
         self.rpd: int = spec.get("rpd", 20)
@@ -81,16 +97,44 @@ class ModelBudget:
         self.cool_until: float = 0.0
         self.failures: int = 0          # transient failures seen this run
 
+        # How many transient failures this model is allowed in one run before
+        # it is retired. Three for a model that has answered recently; one for
+        # a model on a cold streak (see Budget._cold_streak).
+        #
+        # Measured over 14 consecutive day-records in usage.json: the four
+        # flagship tiers were attempted THREE times each, every single run,
+        # and delivered zero summaries — 12 attempts a run for nothing. The
+        # usage file only ever showed two, because the third strike went
+        # straight to block() and was never recorded. A simulation of the real
+        # ladder put ~1,116s of a 1,595s run inside those failed attempts.
+        #
+        # They stay first on the ladder, because a direct probe confirms they
+        # are contended rather than broken (gemini-3.5-flash served a full
+        # 20-article batch in 29s), so a good day should still be used. One
+        # probe keeps that upside and drops 8 of the 12 wasted attempts.
+        self.max_strikes: int = max(1, strikes)
+        self.cold: bool = cold
+
     @property
     def cooling(self) -> bool:
         return time.monotonic() < self.cool_until
 
     @property
+    def allowance(self) -> int:
+        """Calls left today ignoring benches and blocks.
+
+        `remaining` reports 0 while a model is cooling, which is right for
+        selection and wrong for deciding whether waiting out the bench could
+        help — a model with no allowance left will still be useless in 45s.
+        """
+        return max(0, min(self.usable_rpd - self.used_today,
+                          self.per_run - self.this_run))
+
+    @property
     def remaining(self) -> int:
         if self.blocked or self.cooling:
             return 0
-        return max(0, min(self.usable_rpd - self.used_today,
-                          self.per_run - self.this_run))
+        return self.allowance
 
     @property
     def min_interval(self) -> float:
@@ -99,7 +143,8 @@ class ModelBudget:
 
     def __str__(self) -> str:
         return (f"{self.model} {self.used_today}/{self.usable_rpd} today "
-                f"(cap {self.rpd}), {self.remaining} left")
+                f"(cap {self.rpd}), {self.remaining} left"
+                + (" [cold streak: probe only]" if self.cold else ""))
 
 
 class Budget:
@@ -111,13 +156,24 @@ class Budget:
         self.enabled: bool = bcfg.get("enabled", True)
         self.pace: bool = bcfg.get("pace", True)
         reserve: float = bcfg.get("reserve_fraction", 0.15)
+        self.strikes: int = int(bcfg.get("strikes", 3))
+        self.cold_strikes: int = int(bcfg.get("cold_strikes", 1))
+        self.cold_days: int = int(bcfg.get("cold_streak_days", 3))
+        self.wait_allowance: float = float(
+            bcfg.get("cooldown_wait_seconds", 240.0))
+        self._waited: float = 0.0
 
         self._data = _load()
         day = self._data.get(_today(), {})
         blocked_today = set(day.get("_blocked", []))
+        cold = self._cold_streak()
         self.tiers = []
         for spec in cfg["tiers"]:
-            tier = ModelBudget(spec, day.get(spec["model"], 0), reserve)
+            model = spec["model"]
+            tier = ModelBudget(
+                spec, day.get(model, 0), reserve,
+                strikes=self.cold_strikes if model in cold else self.strikes,
+                cold=model in cold)
             if tier.model in _RUN_BLOCKS:
                 tier.blocked = _RUN_BLOCKS[tier.model]
             elif tier.model in blocked_today:
@@ -128,12 +184,66 @@ class Budget:
         if blocked_today:
             log("budget", f"skipping {len(blocked_today)} model(s) already "
                           f"refused today: {', '.join(sorted(blocked_today))}")
+        if cold:
+            log("budget", f"{len(cold)} model(s) on a cold streak — one probe "
+                          f"each, not {self.strikes}: {', '.join(sorted(cold))}")
         self._last_call: dict[str, float] = {}
         self.stopped_reason: str = ""
 
+    def _cold_streak(self) -> set[str]:
+        """Models tried on each of the last few days that never once answered.
+
+        The usage file is the only evidence a run has about which models are
+        actually reachable, and nothing was reading it. Fourteen consecutive
+        day-records show the same four flagships failing every run and
+        contributing nothing, while each run paid three attempts apiece for
+        them — and the day BEFORE said exactly the same thing.
+
+        Deliberately conservative, because the flagships are better when they
+        do answer and must not be dropped from the ladder:
+
+          - it needs a full `cold_streak_days` of history, so a fresh usage
+            file (or a new install) treats every model as healthy;
+          - a single success anywhere in the window clears the streak, so one
+            good day puts a model back on full strikes;
+          - the streak only reduces the model's STRIKE budget. Its position on
+            the ladder does not move, so a flagship is still the first thing
+            tried and a day when it recovers is used immediately.
+
+        The success counts are only as honest as record() (see its contract).
+        A caller that debits before the call inflates them, which can clear a
+        streak that was real — so the failure mode is a model keeping its full
+        three strikes when it had earned one probe. That costs two extra
+        attempts and never demotes a model that was working, which is the
+        direction this should fail in.
+        """
+        days = sorted(self._data)[-self.cold_days:]
+        if len(days) < self.cold_days:
+            return set()
+        wins: dict[str, int] = {}
+        losses: dict[str, int] = {}
+        for key in days:
+            rec = self._data.get(key)
+            if not isinstance(rec, dict):
+                continue
+            for model, n in rec.items():
+                if not model.startswith("_") and isinstance(n, int):
+                    wins[model] = wins.get(model, 0) + n
+            failed = rec.get("_failed")
+            if isinstance(failed, dict):
+                for model, n in failed.items():
+                    if isinstance(n, int):
+                        losses[model] = losses.get(model, 0) + n
+        # At least one recorded failure per day in the window, and not one
+        # success in it.
+        return {m for m, n in losses.items()
+                if n >= len(days) and not wins.get(m)}
+
     # --- selection -------------------------------------------------------
 
-    def next_model(self, prefer: str = "premium") -> ModelBudget | None:
+    def next_model(self, prefer: str = "premium", batch_size: int = 0,
+                   skip: "set[str] | frozenset[str]" = frozenset()
+                   ) -> ModelBudget | None:
         """Pick a model for the next call.
 
         `prefer` routes by what the work is worth, not just by batch order:
@@ -147,12 +257,28 @@ class Budget:
 
         Both fall back through the whole ladder, so "bulk" still gets served
         by a flagship model if the cheap tiers are exhausted, and vice versa.
+
+        `batch_size` is the size of the batch about to be sent. A tier that
+        slices the batch needs that many CALLS of allowance, not one, and
+        checking only `remaining > 0` meant a gemma tier with a single call
+        left still took a 20-item batch and made all seven — 14 calls against
+        a per_run of 8. Zero keeps the old "any allowance will do" meaning.
+
+        `skip` names models already tried for THIS batch. The bench is 45s but
+        a 503 can take 93s to come back (2 attempts at a 45s timeout), so a
+        benched model was already eligible again by the time the caller looped
+        — and _generate re-picked the model it had just benched, inside the
+        same batch, until all three strikes were gone. Measured: 3 attempts
+        per flagship per run, all of them on batch 1. The point of the ladder
+        is that a DIFFERENT model is likelier to answer, so the same one must
+        not be offered twice for one batch.
         """
         # `enabled: false` disables the QUOTA accounting, not the tier ladder.
         # Returning tiers[0] unconditionally ignored `blocked`, so a caller
         # looping until next_model() returns None — which _generate does —
         # would spin forever against a permanently failing model.
-        order = self.tiers if prefer == "premium" else list(reversed(self.tiers))
+        order = [t for t in (self.tiers if prefer == "premium"
+                             else reversed(self.tiers)) if t.model not in skip]
         if not self.enabled:
             for tier in order:
                 if not tier.blocked:
@@ -160,12 +286,62 @@ class Budget:
             self.stopped_reason = "every model has failed this run"
             return None
         for tier in order:
-            if tier.remaining > 0:
+            if tier.remaining >= _calls_per_batch(tier, batch_size):
                 return tier
 
         self.stopped_reason = ("all model quotas exhausted for today — "
                                "remaining items use extractive summaries")
         return None
+
+    # --- cooldowns -------------------------------------------------------
+
+    def cooldown_eta(self) -> float:
+        """Seconds until the earliest benched model with allowance returns.
+
+        0.0 when waiting cannot help: nothing is cooling, or the models that
+        are have no allowance left anyway so they will still be useless when
+        the bench expires.
+        """
+        now = time.monotonic()
+        etas = [t.cool_until - now for t in self.tiers
+                if not t.blocked and t.cooling and t.allowance > 0]
+        return max(0.0, min(etas)) if etas else 0.0
+
+    def wait_out_cooldown(self) -> bool:
+        """Sleep until the next benched model comes back. True if it waited.
+
+        THE MEASURED SHORTFALL. A bench is 45 seconds and a run is tens of
+        minutes, but _generate had no state between "every tier is cooling"
+        and "give up on this batch". So the instant a contention burst benched
+        the whole ladder at once, next_model() returned None and EVERY
+        remaining batch fell to an extractive summary — all of them resolved
+        inside the same 45-second window the bench was about to end.
+        Reproduced against the real ladder: capacity(20) promised 34 batches,
+        12 were served, and batches 13-20 all died at one identical
+        timestamp. That is the 2026-10-22 run exactly (calls=12 against the 20
+        a 400-item budget needs).
+
+        Bounded by llm.budget.cooldown_wait_seconds, so a genuinely dead
+        ladder still terminates rather than sleeping out the workflow.
+        """
+        eta = self.cooldown_eta()
+        if eta <= 0:
+            return False
+        left = self.wait_allowance - self._waited
+        if left <= 0:
+            self.stopped_reason = (
+                f"every model is benched and the {self.wait_allowance:.0f}s "
+                f"cooldown wait allowance is spent — remaining items use "
+                f"extractive summaries")
+            return False
+        # Half a second past the bench, so `cooling` is certainly false after.
+        nap = min(eta + 0.5, left)
+        log("budget", f"all tiers benched — waiting {nap:.0f}s for the next "
+                      f"one ({self._waited:.0f}s of {self.wait_allowance:.0f}s "
+                      f"already spent waiting)")
+        time.sleep(nap)
+        self._waited += nap
+        return True
 
     def capacity(self, batch_size: int = 0) -> int:
         """How many batches of `batch_size` the ladder can really serve.
@@ -190,11 +366,17 @@ class Budget:
             return sum(t.remaining for t in self.tiers)
         total = 0
         for t in self.tiers:
-            per_batch = 1
-            if t.batch_size and t.batch_size < batch_size:
-                # ceil: a 20-item batch at batch_size 3 costs 7 calls.
-                per_batch = -(-batch_size // t.batch_size)
-            total += t.remaining // per_batch
+            if t.cold:
+                # A tier on a cold streak has delivered nothing for days. It
+                # is still TRIED — one probe, first on the ladder — but
+                # PROMISING its batches is how a run that needed 20 batches
+                # convinced itself it had 34: eight of those were flagship
+                # batches with a measured 14-day delivery rate of zero. The
+                # pre-emptive truncation then never fired and the shortfall
+                # arrived as silent extractive summaries at the end of the
+                # run instead. Count only what the ladder reliably serves.
+                continue
+            total += t.remaining // _calls_per_batch(t, batch_size)
         return total
 
     # --- execution -------------------------------------------------------
@@ -212,8 +394,31 @@ class Budget:
             time.sleep(gap)
 
     def record(self, tier: ModelBudget) -> None:
+        """Count a call that SUCCEEDED. Never call this before the call.
+
+        That is a contract, not a style note, and two things now depend on it:
+
+          - the per-model day counter, which _cold_streak() reads as evidence
+            that a model is reachable at all;
+          - the strike reset below, which treats the call as proof of life.
+
+        Debit-then-call makes both of those lie in the same direction: a model
+        that 503s on every batch is written down as having answered. Caught
+        once already in _generate (a 429 or 503 returns nothing but still
+        spent the local allowance, so the counter drifted pessimistic against
+        the provider); the isolated single-success rows against the gemma
+        tiers in data/cache/usage.json — 2026-10-11 and 2026-10-20, one
+        success apiece beside two recorded failures — are what that looks like
+        from the outside, and the judge stage selects exactly those tiers.
+        """
         tier.this_run += 1
         tier.used_today += 1
+        # CONSECUTIVE failures, not failures all run. `failures` was cumulative,
+        # so gemini-3.5-flash-lite — which served 11 batches on 2026-10-22 —
+        # was still retired by three scattered 503s. A call that answered is
+        # proof the model is alive; the strike count starts again from there.
+        tier.failures = 0
+        tier.cool_until = 0.0
         self._last_call[tier.model] = time.monotonic()
 
         day = self._data.setdefault(_today(), {})
@@ -225,18 +430,31 @@ class Budget:
     def cool(self, tier: ModelBudget, why: str, seconds: float = 45.0) -> None:
         """Bench a model briefly instead of retiring it for the run.
 
-        Overload is a property of the moment, not of the model. Three strikes
+        Overload is a property of the moment, not of the model. Enough strikes
         in one run does start to look like the model, so at that point it is
-        blocked properly and the ladder moves on for good.
+        blocked properly and the ladder moves on for good. How many is
+        `tier.max_strikes` — three normally, one for a model that has not
+        answered on any of the last few days.
         """
         tier.failures += 1
-        if tier.failures >= 3:
-            self.block(tier, f"{why} (3 strikes this run)")
-            return
-        tier.cool_until = time.monotonic() + seconds
+        # BEFORE the strike check, not after. The blocking strike used to
+        # return early and was never recorded, which is why usage.json read
+        # "exactly twice each, every day" for the four flagships while the run
+        # was really attempting them three times each: a constant 2 is the
+        # signature of a 3-strike block whose last strike is invisible. The
+        # cold-streak check above reads these numbers, so they have to be true.
         self._record_failure(tier)
+        if tier.failures >= tier.max_strikes:
+            self.block(tier, f"{why} ({tier.failures} consecutive strike(s))")
+            return
+        # Doubling, not flat. A flat 45s bench against a contention window
+        # that lasts a minute or two just spends the strike budget at the
+        # fastest possible rate: 45s, then blocked. 45/90/180 rides out ~4
+        # minutes of contention on a tier that is otherwise serving the run.
+        seconds *= 2 ** (tier.failures - 1)
+        tier.cool_until = time.monotonic() + seconds
         log("budget", f"{tier.model} busy — benched {seconds:.0f}s "
-                      f"(strike {tier.failures}/3): {why}")
+                      f"(strike {tier.failures}/{tier.max_strikes}): {why}")
 
     def _record_failure(self, tier: ModelBudget) -> None:
         """Count an attempt that did not succeed, in the usage file.

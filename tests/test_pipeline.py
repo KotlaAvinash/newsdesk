@@ -1630,3 +1630,353 @@ class TestDeployConfig:
         ignored = (root / ".vercelignore").read_text(encoding="utf-8").split()
         assert ".env" in ignored
         assert "data/" in ignored
+
+
+# ---------------------------------------------------------------------------
+# The ladder: wasted attempts, and the run that served 12 of 20 batches.
+#
+# Evidence these were written against, from data/cache/usage.json (14
+# consecutive day-records) and a simulation driving the real Budget/_generate:
+#
+#   2026-10-22  calls=12  {'gemini-3.5-flash-lite': 11, 'gemini-3.1-flash-lite': 1}
+#               failed = 8 entries, every one of them exactly 2
+#
+#   capacity(20) promised 34 batches; 12 were served; batches 13-20 all fell
+#   back to extractive summaries at ONE identical timestamp, inside the 45s
+#   bench that was about to expire.
+# ---------------------------------------------------------------------------
+
+class _Clock:
+    """Virtual monotonic clock, so a 45s bench costs no test time."""
+
+    def __init__(self):
+        self.t = 1000.0
+        self.slept = 0.0
+
+    def monotonic(self):
+        return self.t
+
+    def sleep(self, seconds):
+        self.slept += seconds
+        self.t += seconds
+
+
+class _FakeLLM:
+    """Stands in for pipeline.llm_gemini. `dead` names models that 503."""
+
+    class GeminiError(RuntimeError):
+        pass
+
+    class RateLimited(GeminiError):
+        pass
+
+    class Overloaded(GeminiError):
+        pass
+
+    # What a 503 really costs: _post_with_retries makes 2 attempts at a 45s
+    # timeout with a 2s backoff between them. That is LONGER than the 45s
+    # bench, which is the whole reason a benched tier was eligible again by
+    # the time _generate looped round to it.
+    FAIL_SECONDS = 93.0
+
+    def __init__(self, dead=(), until=None, clock=None, fail_seconds=None):
+        self.dead = set(dead)
+        self.until = until          # 503 for EVERY model while t < until
+        self.clock = clock
+        self.fail_seconds = (self.FAIL_SECONDS if fail_seconds is None
+                             else fail_seconds)
+        self.attempts = {}
+        self.calls = {}
+
+    def call(self, model, key, profile, payload, tags=""):
+        self.attempts[model] = self.attempts.get(model, 0) + 1
+        busy = model in self.dead
+        if self.until is not None and self.clock.monotonic() < self.until:
+            busy = True
+        if busy:
+            self.clock.t += self.fail_seconds
+            raise self.Overloaded(f"HTTP 503 on {model}")
+        self.clock.t += 5.0
+        self.calls[model] = self.calls.get(model, 0) + 1
+        return [{"id": p["id"], "summary": "s", "one_liner": "o",
+                 "bottom_line": "b", "importance": 3, "claims": []}
+                for p in payload]
+
+
+def _batch(size=20, tag="b"):
+    return [{"id": f"{tag}{i}", "title": "t", "source": "s", "body": "x"}
+            for i in range(size)]
+
+
+def _history(days, failed_models, wins_on_last=None):
+    """A usage.json body: `days` day-records all of the same shape."""
+    out = {}
+    for n in range(1, days + 1):
+        out[f"2026-09-{n:02d}"] = {"_failed": {m: 2 for m in failed_models}}
+    if wins_on_last:
+        out[f"2026-09-{days:02d}"][wins_on_last] = 1
+    return out
+
+
+@pytest.fixture
+def _clock(monkeypatch):
+    """Replace the `time` module inside pipeline.budget with a virtual one.
+
+    budget.py reaches for time.monotonic() and time.sleep() only, so swapping
+    the name in its namespace makes benches and cooldown waits instantaneous
+    without touching the real clock anywhere else.
+    """
+    import pipeline.budget as B
+    clk = _Clock()
+
+    class _T:
+        monotonic = staticmethod(clk.monotonic)
+        sleep = staticmethod(clk.sleep)
+
+    monkeypatch.setattr(B, "time", _T)
+    return clk
+
+
+def _budget_with(data=None):
+    import json
+    import pipeline.budget as B
+    if data is None:
+        B.USAGE_PATH.unlink(missing_ok=True)
+    else:
+        B.USAGE_PATH.write_text(json.dumps(data), encoding="utf-8")
+    return B.Budget()
+
+
+class TestColdStreakCostsOneProbeNotThree:
+    """Yesterday's usage file is the only evidence a run has about which
+    models are reachable, and nothing was reading it.
+
+    Fourteen consecutive day-records show the four flagship tiers failing and
+    contributing nothing, while every run paid three attempts each for them —
+    12 attempts a run, ~1,116s of a simulated 1,595s run, zero summaries.
+    They must stay on the ladder (a direct probe shows they are contended, not
+    broken: gemini-3.5-flash served a full 20-article batch in 29s) but they
+    must stop costing three attempts to learn what yesterday already knew.
+    """
+
+    def test_no_history_means_no_model_is_cold(self):
+        """A fresh usage file, or a new install, must not demote anything —
+        and the existing three-strikes contract depends on this."""
+        b = _budget_with()
+        assert not [t for t in b.tiers if t.cold]
+        assert all(t.max_strikes == 3 for t in b.tiers)
+
+    def test_failing_every_day_with_no_success_earns_one_probe(self):
+        model = _budget_with().tiers[0].model
+        b = _budget_with(_history(3, [model]))
+        top = b.tiers[0]
+        assert top.cold, f"{model} failed 3 days running and never answered"
+        assert top.max_strikes == 1, "a cold streak is worth one probe"
+
+    def test_one_probe_really_does_block_on_the_first_failure(self, _clock):
+        model = _budget_with().tiers[0].model
+        b = _budget_with(_history(3, [model]))
+        b.cool(b.tiers[0], "HTTP 503")
+        assert b.tiers[0].blocked, (
+            "a model on a cold streak must retire on its probe, not after "
+            "three attempts")
+
+    def test_a_single_success_in_the_window_restores_full_strikes(self):
+        """One good day puts a model back on the full strike budget, or a
+        model could never climb out of a streak."""
+        model = _budget_with().tiers[0].model
+        b = _budget_with(_history(3, [model], wins_on_last=model))
+        assert not b.tiers[0].cold
+        assert b.tiers[0].max_strikes == 3
+
+    def test_a_cold_tier_keeps_its_place_at_the_top_of_the_ladder(self):
+        """Demoted on strikes, NOT on priority. The flagships are better when
+        they answer, so a day when they recover has to be used immediately."""
+        model = _budget_with().tiers[0].model
+        b = _budget_with(_history(3, [model]))
+        assert b.tiers[0].model == model
+        assert b.next_model("premium") is b.tiers[0], (
+            "a cold tier must still be the first thing tried")
+
+    def test_capacity_does_not_promise_batches_a_cold_tier_never_serves(self):
+        """capacity(20) said 34 batches for a 20-batch run while 8 of those
+        were flagship batches with a 14-day delivery rate of zero. The
+        pre-emptive truncation never fired, so the shortfall arrived as silent
+        extractive summaries at the end of the run instead."""
+        warm = _budget_with()
+        cold = [t.model for t in warm.tiers[:4]]
+        chilled = _budget_with(_history(3, cold))
+        assert chilled.capacity(20) < warm.capacity(20)
+        assert chilled.capacity(20) == warm.capacity(20) - sum(
+            t.remaining for t in warm.tiers if t.model in cold)
+
+    def test_the_blocking_strike_is_recorded_too(self, _clock):
+        """usage.json read 'exactly 2' for every flagship every single day,
+        which is the signature of a 3-strike block whose last strike went
+        straight to block() and was never written down. The cold-streak check
+        reads these numbers, so they have to be true."""
+        import json
+        import pipeline.budget as B
+        b = _budget_with()
+        top = b.tiers[0]
+        for _ in range(top.max_strikes):
+            b.cool(top, "HTTP 503")
+        assert top.blocked
+        day = next(iter(json.loads(
+            B.USAGE_PATH.read_text(encoding="utf-8")).values()))
+        assert day["_failed"][top.model] == top.max_strikes, (
+            "the strike that blocks a model must be counted like the others")
+
+
+class TestOneAttemptPerModelPerBatch:
+    """A bench is 45s but a 503 surfaces after up to 93s (two attempts at a
+    45s timeout), so a benched model was eligible again the instant _generate
+    looped — and the same tier was handed the same batch until its strikes ran
+    out. Measured: all three flagship attempts in a run landed on batch 1.
+    """
+
+    def test_next_model_honours_the_skip_set(self):
+        from pipeline.budget import Budget
+        b = Budget()
+        first = b.next_model("premium")
+        assert b.next_model("premium", skip={first.model}) is not first
+
+    def test_a_dead_ladder_costs_one_attempt_per_tier_not_three(self, _clock):
+        """The fake's 503 costs 93s against a 45s bench, exactly as the real
+        retry loop does — which is what made a benched tier selectable again
+        inside the same batch."""
+        from pipeline.budget import Budget
+        from pipeline.s5_summarize import _generate
+        b = Budget()
+        b.wait_allowance = 0.0        # isolate: no cooldown waiting here
+        llm = _FakeLLM(dead=[t.model for t in b.tiers], clock=_clock)
+        assert llm.fail_seconds > 45.0, "the bug needs a 503 slower than a bench"
+        res, _used = _generate(_batch(), b, "k", "p", "", llm, 1, 1)
+        assert res is None
+        assert max(llm.attempts.values()) == 1, (
+            f"a model was retried inside one batch: {llm.attempts}")
+        assert sum(llm.attempts.values()) == len(b.tiers)
+
+
+class TestStrikesAreConsecutive:
+    def test_a_success_clears_the_strike_count(self, _clock):
+        """gemini-3.5-flash-lite served ELEVEN batches on 2026-10-22 and was
+        still retired by three scattered 503s, because the strike count was
+        cumulative over the whole run. A call that answered is proof the model
+        is alive, so the count starts again from there."""
+        from pipeline.budget import Budget
+        b = Budget()
+        t = b.tiers[-1]
+        b.cool(t, "503")
+        b.cool(t, "503")
+        assert not t.blocked
+        b.record(t)                         # it answered
+        assert t.failures == 0
+        b.cool(t, "503")
+        b.cool(t, "503")
+        assert not t.blocked, ("a model that answered in between must not be "
+                               "retired by non-consecutive failures")
+
+    def test_the_bench_lengthens_with_each_strike(self, _clock):
+        """A flat 45s bench against a contention window lasting minutes just
+        spends the strike budget at the fastest possible rate."""
+        from pipeline.budget import Budget
+        b = Budget()
+        t = b.tiers[-1]
+        b.cool(t, "503")
+        first = t.cool_until - _clock.monotonic()
+        t.cool_until = 0.0
+        b.cool(t, "503")
+        second = t.cool_until - _clock.monotonic()
+        assert second > first, f"bench did not grow: {first}s then {second}s"
+
+
+class TestAllTiersBenchedDoesNotAbandonTheRun:
+    """THE 2026-10-22 SHORTFALL. _generate had no state between 'every tier is
+    cooling' and 'give up on this batch', so one contention burst that benched
+    the whole ladder sent every remaining batch to an extractive summary in
+    the same instant — 12 of 20 batches served, batches 13-20 all resolving at
+    one identical timestamp inside a bench about to expire.
+    """
+
+    def _all_benched(self, clock, seconds=30.0):
+        from pipeline.budget import Budget
+        b = Budget()
+        for t in b.tiers:
+            t.cool_until = clock.monotonic() + seconds
+        return b
+
+    def test_nothing_is_selectable_but_waiting_would_help(self, _clock):
+        b = self._all_benched(_clock)
+        assert b.next_model("premium", 20) is None
+        assert b.cooldown_eta() > 0, (
+            "a benched tier with allowance left means waiting is worthwhile")
+
+    def test_generate_waits_for_the_bench_rather_than_falling_back(self, _clock):
+        from pipeline.s5_summarize import _generate
+        b = self._all_benched(_clock)
+        llm = _FakeLLM(clock=_clock)
+        res, used = _generate(_batch(), b, "k", "p", "", llm, 13, 20)
+        assert res is not None, "the batch was abandoned inside a 45s bench"
+        assert _clock.slept > 0, "it did not actually wait"
+        assert used
+
+    def test_the_wait_is_bounded_so_a_dead_ladder_still_finishes(self, _clock):
+        """Waiting must never be able to sleep out the workflow."""
+        from pipeline.s5_summarize import _generate
+        b = self._all_benched(_clock)
+        b.wait_allowance = 0.0
+        llm = _FakeLLM(clock=_clock)
+        res, _used = _generate(_batch(), b, "k", "p", "", llm, 13, 20)
+        assert res is None
+        assert not llm.attempts, "no call should have been made"
+        assert "cooldown wait allowance" in b.stopped_reason
+
+    def test_no_eta_when_waiting_cannot_possibly_help(self, _clock):
+        """A benched model with no allowance left will still be useless when
+        the bench expires, so there is nothing worth waiting for."""
+        from pipeline.budget import Budget
+        b = Budget()
+        for t in b.tiers:
+            t.this_run = t.per_run                    # allowance gone
+            t.cool_until = _clock.monotonic() + 30
+        assert b.cooldown_eta() == 0.0
+        assert not b.wait_out_cooldown()
+
+    def test_a_burst_at_the_start_does_not_kill_the_whole_run(self, _clock):
+        """The regression in one line: a transient outage early in the run
+        must not send every later batch to an extractive summary."""
+        from pipeline.budget import Budget
+        from pipeline.s5_summarize import _generate
+        b = Budget()
+        # Every model 503s for the first 60 virtual seconds, then recovers.
+        llm = _FakeLLM(until=_clock.monotonic() + 60, clock=_clock)
+        served = []
+        for n in range(1, 6):
+            res, _used = _generate(_batch(tag=f"n{n}"), b, "k", "p", "", llm,
+                                   n, 5)
+            served.append(res is not None)
+        assert served[-1], (
+            f"the run never recovered from a 60s outage: served={served}")
+        assert sum(served) >= 3, f"only {sum(served)}/5 batches served"
+
+
+class TestSlicedTierIsNotOverdrawn:
+    def test_a_tier_that_cannot_cover_a_whole_batch_is_not_chosen(self):
+        """capacity() divided by calls-per-batch but next_model only checked
+        `remaining > 0`, so a gemma tier (batch_size 3) with ONE call of
+        allowance left was still handed a 20-item batch and made all seven —
+        measured 14 calls against a per_run of 8."""
+        from pipeline.budget import Budget
+        b = Budget()
+        sliced = next(t for t in b.tiers if t.batch_size and t.batch_size < 20)
+        for t in b.tiers:
+            if t is not sliced:
+                t.blocked = "test: force the sliced tier"
+        sliced.this_run = sliced.per_run - 1          # one call of allowance
+        assert sliced.remaining == 1
+        assert b.capacity(20) == 0
+        assert b.next_model("premium", 20) is None, (
+            "a tier with one call left cannot serve a 20-item batch")
+        # ...but it is still fine for a batch it can actually cover.
+        assert b.next_model("premium", sliced.batch_size) is sliced

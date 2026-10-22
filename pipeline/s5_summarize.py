@@ -371,9 +371,33 @@ def _generate(batch, budget, key, profile, tag_list, llm_gemini,
 
     Returns (results, model_name), or (None, "") if every tier is spent.
     """
+    # Models that have already failed on THIS batch. A bench is 45s but a 503
+    # takes up to 93s to surface, so a benched model was eligible again the
+    # moment this loop came round and the same tier was picked over and over
+    # until its strikes ran out — all three flagship attempts a run landed on
+    # batch 1. The ladder's premise is that a different model is likelier to
+    # answer, so each model gets at most one go per batch.
+    tried: set[str] = set()
     while True:
-        tier = budget.next_model(prefer)
+        # The batch size goes in so a tier that SLICES the batch is only
+        # chosen when it has enough calls for the whole thing. Without it a
+        # gemma tier with one call of allowance left still took a 20-item
+        # batch and made all seven, overdrawing per_run by six.
+        tier = budget.next_model(prefer, len(batch), skip=tried)
         if tier is None:
+            # "No tier available" and "no tier left today" are not the same
+            # thing. A bench is 45 seconds; abandoning the batch is for the
+            # rest of the run. Every batch after the first all-benched moment
+            # used to fall to an extractive summary in the same instant —
+            # measured 12 of 20 batches served on 2026-10-22 with eight dying
+            # inside one 45s window. Wait for the first model to come back.
+            if budget.wait_out_cooldown():
+                # Having deliberately waited out the shortest bench, walking
+                # the ladder again from the top is the whole point, so the
+                # per-batch skip list starts over. Termination still holds:
+                # strikes per tier and the total wait are both bounded.
+                tried.clear()
+                continue
             return None, ""
 
         # A tier with a tighter token ceiling takes the batch in slices.
@@ -397,6 +421,7 @@ def _generate(batch, budget, key, profile, tag_list, llm_gemini,
 
         except llm_gemini.RateLimited as exc:
             # Quota refusals last until the quota resets, so remember them.
+            tried.add(tier.model)
             budget.block(tier, f"rate limited — {str(exc)[:60]}", persist=True)
         except llm_gemini.Overloaded as exc:
             # Busy, not broken. Bench it briefly so a LATER batch can come
@@ -405,12 +430,14 @@ def _generate(batch, budget, key, profile, tag_list, llm_gemini,
             # the run and everything fell to the cheap tiers.
             log("summarize", f"  batch {n}/{total}: {tier.model} busy, "
                              f"trying the next tier")
+            tried.add(tier.model)
             budget.cool(tier, str(exc)[:60])
         except llm_gemini.GeminiError as exc:
             # Config errors (bad key, retired model) are permanent for this
             # model but say nothing about the others, so block and move on.
             log("summarize", f"! batch {n}/{total} on {tier.model}: "
                              f"{str(exc)[:90]}")
+            tried.add(tier.model)
             budget.block(tier, "call failed")
 
 def top_up(items: list[Item], bodies: dict[str, str]) -> list[Item]:

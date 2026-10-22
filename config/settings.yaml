@@ -484,6 +484,35 @@ llm:
     reserve_fraction: 0.15  # keep 15% of each model's RPD spare for --test-llm
     pace: true              # sleep between calls to respect RPM
 
+    # TRANSIENT FAILURES. A 503 benches a model for 45s; this many benches in
+    # one run retires it. Three is right for a model that answers most days.
+    strikes: 3
+    # ...and wrong for one that has not answered in days. Measured over the 14
+    # day-records in data/cache/usage.json: the four flagship tiers were
+    # attempted three times each, every run, and produced zero summaries —
+    # 12 attempts a run for nothing. (usage.json showed only two apiece
+    # because the blocking strike was never recorded; that is fixed.) A
+    # simulation of the real ladder put ~1,116s of a 1,595s run inside those
+    # attempts.
+    #
+    # They are NOT removed from the ladder: a direct probe confirms they are
+    # contended rather than broken — gemini-3.5-flash served a full 20-article
+    # batch in 29s — so a day when they recover is worth having. They keep
+    # their place at the top and get ONE probe instead of three, which drops
+    # 8 of the 12 wasted attempts and promotes a model back to full strikes
+    # the moment it answers once.
+    cold_strikes: 1
+    cold_streak_days: 3     # days of failures with no success = a cold streak
+
+    # When EVERY tier is benched at once, wait rather than abandon the batch.
+    # This is the 2026-10-22 shortfall: the run served 12 of the 20 batches a
+    # 400-item budget needs, and batches 13-20 all fell back to extractive
+    # summaries at one identical instant, inside the 45s bench that was about
+    # to expire. Capped so a genuinely dead ladder still finishes the run:
+    # four minutes of waiting against a ~75-minute workflow budget, to rescue
+    # up to eight batches of 20 items each.
+    cooldown_wait_seconds: 240
+
 # --- Stage 6b: independent cross-model validation --------------------------
 # A second model re-checks whether each claim is actually supported by the
 # source. Deliberately a DIFFERENT model than the one that wrote the summary:
