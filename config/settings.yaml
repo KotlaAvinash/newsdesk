@@ -96,17 +96,18 @@ schedule:
   # On a rare fast day it finishes around 04:30 IST and that morning's news
   # lands in the NEXT run instead — the harvest uses a 24-48h lookback, so
   # those stories are not lost, they arrive a day later flagged as new.
-  cron_utc: "30 1 * * *"    # 01:30 UTC, aiming to finish by 04:30 UTC
+  cron_utc: "15 23 * * *"   # 23:15 UTC, aiming to finish by 04:30 UTC
   display_tz: "Asia/Kolkata"
   display_name: "by 10:00 IST"
   # Added to the cron time to estimate when the page really refreshes. The
   # site prints that estimate; printing the raw cron time told the reader the
   # page was overdue every morning for five hours while nothing was wrong.
-  # Re-measured over the last 12 runs: median 2.8h, min 2.4h, max 4.4h.
-  # GitHub's queue has roughly halved since the 5.5h measured in September,
-  # so the old figure was telling readers the page was overdue when it was
-  # early. 3.0 is the median rounded up, which puts the estimate on 10:00.
-  typical_delay_hours: 3.0
+  # Re-measured 2026-10-22 over the last 10 runs: median 5.2h, min 4.7h,
+  # max 6.8h. This number DRIFTS — 5.5h in September, 2.8h on 7 October,
+  # 5.2h now — so it is worth re-measuring whenever the page looks overdue.
+  # At 3.0h the cron said "by 10:00 IST" while runs actually finished around
+  # 12:11, so the page flagged itself overdue for two hours every morning.
+  typical_delay_hours: 5.25
 
 dedupe:
   # A dashboard shows a rolling window, so an article seen in an earlier run
