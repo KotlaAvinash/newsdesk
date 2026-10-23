@@ -1,6 +1,75 @@
 {
-  "generated_at": "2026-10-22T06:43:15.589008+00:00",
+  "generated_at": "2026-10-23T01:40:04.392462+00:00",
   "items": [
+    {
+      "cluster_key": "bd56b92d5fb748e4",
+      "title": "Vidar Stealer — Chrome Injection & Malicious JS Targeting Google & Reddit Sessions https://github.com/kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-T…",
+      "category": "cyber_tools",
+      "one_liner": "Vidar Stealer utilizes custom XOR string encryption, anti-forensic DNS flushing, and browser process injection to exfiltrate session tokens filelessly.",
+      "tags": [
+        "appsec",
+        "blueteam",
+        "dfir",
+        "malware",
+        "network",
+        "opensource",
+        "redteam",
+        "research"
+      ],
+      "summary": "An analysis of a Vidar Stealer sample in Binary Ninja demonstrates heavy obfuscation, including random function names, custom XOR string encryption, and runtime memory assembly designed to bypass static antivirus signatures. The malware performs system reconnaissance and anti-forensic cleanup by resolving WinAPI calls to flush DNS caches (DnsFlushResolverCache), query network adapters (GetIfEntry), and execute deletion tasks via WinExec. It ultimately utilizes process hollowing and pipe redirection to inject its payload directly into browser memory spaces, such as chrome.exe, allowing fileless execution while targeting Google and Reddit session data.",
+      "key_facts": [
+        "Malware Family: Vidar Stealer",
+        "Target Process: chrome.exe (PID 8944)",
+        "Key APIs: DnsFlushResolverCache, GetIfEntry, WinExec, CreatePipe"
+      ],
+      "bottom_line": "Advanced infostealers like Vidar bypass static file scanners by executing entirely in-memory and injecting payloads directly into active browser processes.",
+      "claims": [
+        {
+          "text": "The Vidar Stealer sample loaded in Binary Ninja displays heavily obfuscated code within the main.vxormo function.",
+          "support_span": "The Vidar Stealer sample loaded in Binary Ninja displays heavily obfuscated code within the main.vxormo function.",
+          "status": "entailed"
+        },
+        {
+          "text": "The \u0000 payload is never dropped to disk; it is allocated and executed directly in memory (RWX), evading file scanners.",
+          "support_span": "The \u0000 payload is never dropped to disk; it is allocated and executed directly in memory (RWX), evading file scanners.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The Process Hacker memory view of the chrome.exe process (PID 8944) confirms that the Vidar Stealer has injected its payload directly into the browser's memory space.",
+          "support_span": "The Process Hacker memory view of the chrome.exe process (PID 8944) confirms that the Vidar Stealer has injected its payload directly into the browser's memory space.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "bd56b92d5fb748e4"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "SecHarvester",
+          "url": "https://github.com/kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T00:09:17+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
     {
       "cluster_key": "38b2a4b9c1701f41",
       "title": "This paper shows why I am skeptical of the idea that frontier models can be easily replaced by cheaper ones (and why you should use the best models…",
@@ -41,18 +110,15 @@
       "reject_reason": "published 2026-10-16 — outside lookback window"
     },
     {
-      "cluster_key": "cabaa00a57e80bb2",
-      "title": "azrinaldi/gemini-stealth-bridge — Browserless Chrome uTLS + HTTP/2 OpenAI-compatible API daemon for Google Gemini Web (/v1/chat/completions & /v",
+      "cluster_key": "fab2812e0db07efb",
+      "title": "A consequential choice will be made soon by government and companies as they are increasingly flooded with agentic AI inquiries that overcome the…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
+        "ai"
       ],
-      "summary": "Point coding agents, routers, and OpenAI SDK clients at gsb and use your Gemini account through Chat Completions or Responses — with account pooling, quota-aware failover, native image/video generation, Google Search grounding, and a built-in MCP server. gsb translates OpenAI-style messages, images, and tool definitions into Gemini Web requests, then converts the results back into JSON or Server-Sent Events (SSE). It authenticates with your Google session cookies, not a Gemini Developer API key. Model access and quotas depend on the connected account. The daemon runs without headless Chrome or CDP.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A consequential choice will be made soon by government and companies as they are increasingly flooded with agentic AI inquiries that overcome the frictions that gated access (see the graphs - it has already started!) Two options: do you make services worse or better as a result?",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -63,220 +129,40 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "cabaa00a57e80bb2"
+        "fab2812e0db07efb"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/azrinaldi/gemini-stealth-bridge",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-16T04:42:00+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-16 — outside lookback window"
-    },
-    {
-      "cluster_key": "720f319db860f27a",
-      "title": "\"Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue\" If true, and Q2 revenue was $11.5B, then…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z \"Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue\" If true, and Q2 revenue was $11.5B, then that's more than half a billion dollars spent by other labs to distill Anthropic's models!",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "720f319db860f27a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mxw5izz2gs2g",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-15T13:17:18.829000+00:00",
+      "published": "2026-10-17T23:08:45.300000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-15 — outside lookback window"
+      "reject_reason": "published 2026-10-17 — outside lookback window"
     },
     {
-      "cluster_key": "757282000beeb048",
-      "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
-      "category": "cyber_attacks",
-      "one_liner": "A critical integer overflow vulnerability in musl libc's regcomp allows out-of-bounds heap writes when parsing untrusted regexes.",
-      "tags": [
-        "blueteam",
-        "cve",
-        "exploit",
-        "opensource",
-        "release",
-        "research",
-        "vulnerability"
-      ],
-      "summary": "Multiple integer overflow vulnerabilities identified as CVE-2026-107891 affect the regcomp function in musl libc versions 0.5.0 through 1.2.6. Triggered by complex or oversized regular expressions from untrusted sources, these overflows cause incorrect heap allocation sizes and out-of-bounds heap writes. The flaw can lead to application crashes or potential arbitrary code execution depending on heap layout and execution context. Users are advised to apply the provided patch or upgrade to version 1.2.7.",
-      "key_facts": [
-        "CVE-2026-107891: Integer overflow in musl libc regcomp",
-        "Affected Versions: 0.5.0 through 1.2.6",
-        "Fixed Version: 1.2.7"
-      ],
-      "bottom_line": "Update musl libc to version 1.2.7 or apply the patch to fix CVE-2026-107891 and prevent heap corruption.",
-      "claims": [
-        {
-          "text": "The regcomp function in musl libc is affected by multiple integer overflow issues leading to incorrectly-sized allocations and out-of-bounds heap writes.",
-          "support_span": "The regcomp function in musl libc is affected by multiple integer overflow issues which can lead to incorrectly-sized allocations and possibly out-of-bounds heap writes.",
-          "status": "entailed"
-        },
-        {
-          "text": "All subsequent versions up through 1.2.6 are affected, starting from version 0.5.0.",
-          "support_span": "All subsequent versions up through 1.2.6 are affected. The vulnerable code has been present since version 0.5.0.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 64,
-      "interest_score": 100,
-      "corroboration": 3,
-      "blend": 83.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "757282000beeb048",
-        "86469be845f8c0dc",
-        "96dbbf04b3638cfc"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-110264",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "oss-security",
-          "url": "https://seclists.org/oss-sec/2026/q4/289",
-          "domain": "seclists.org",
-          "tier": "A"
-        },
-        {
-          "name": "Rapid7 Blog",
-          "url": "https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
-          "domain": "rapid7.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-16T13:31:56+00:00",
-      "trace": [
-        "tier A (+40)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 84 = trust 64 / interest 100 / corrob 75",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "b75d942e7fdadc0c",
-      "title": "CyberHorizon-be/sleuthline — Windows DFIR pipeline: from a KAPE collection, a memory image and network captures to an evidence-backed incid",
-      "category": "cyber_tools",
-      "one_liner": "Sleuthline automates Windows DFIR investigations and report generation from triage collections using LLMs and DuckDB.",
-      "tags": [
-        "agents",
-        "ai",
-        "blueteam",
-        "dfir",
-        "howto",
-        "llm",
-        "network",
-        "tool"
-      ],
-      "summary": "CyberHorizon-be/sleuthline is an open-source Windows DFIR pipeline designed for isolated analysis VMs to automate incident investigations from KAPE triage collections, memory images, and network captures. The pipeline parses artifacts using recognized tools such as Volatility 3 and Suricata, normalizes outputs into a DuckDB database with a UTC timeline, and leverages an LLM agent to investigate cases step by step. The agent generates a comprehensive technical Word report where every finding cites verifiable database records. Tested successfully on public threat hunting and DFIR exercises, the pipeline supports local models or API backends like Claude to ensure analysis data remains secure.",
-      "key_facts": [
-        "Tool Integration: Volatility 3, Suricata, DuckDB",
-        "Supported Inputs: KAPE collection, memory image, network captures (.pcap)"
-      ],
-      "bottom_line": "Sleuthline integrates KAPE triage, memory images, and network captures into a DuckDB database, using an LLM agent to produce evidence-backed incident response reports.",
-      "claims": [
-        {
-          "text": "Sleuthline is a Windows DFIR pipeline for an isolated analysis VM.",
-          "support_span": "Sleuthline is a Windows DFIR pipeline for an isolated analysis VM.",
-          "status": "entailed"
-        },
-        {
-          "text": "It takes a KAPE triage collection... and parses them with recognized forensic tools...",
-          "support_span": "It takes a KAPE triage collection (e.g. !SANS_Triage) and, if you have them, a memory image of the machine and network captures of the incident, parses them with recognized forensic tools (Volatility 3 for the memory, Suricata for the network)...",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "b75d942e7fdadc0c"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/CyberHorizon-be/sleuthline",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-18T21:50:57+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "5757e0eb39001ad6",
-      "title": "reacher-z/Awesome-REA — Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, a",
+      "cluster_key": "63ec0374cbab5ddf",
+      "title": "justxor/deepseek-local-guide-ru — 🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama,",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "android",
+        "ai",
+        "howto",
+        "linux",
+        "llm",
         "opensource",
-        "tool",
-        "windows"
+        "tool"
       ],
-      "summary": "An independent collection of tools, case studies and research for websites, games, apps, native binaries, firmware and communication protocols. English · 简体中文 Search & filter · Browse cases · Research papers · HTML survey Source review does not imply runtime verification. Review method Tools and cases by target - Website (29) · Game (193) · App (77) - Native Binary (64) · Firmware and Hardware (23) · Protocol (18) Research and workflows - Papers (134) · Agents and MCP (44) · References and Learning (32) More ways to browse - All cases (206) · Related Collections (7) · Full Repository Index (3,309) Names link to original sources. Each line gives the opening sentence of the description, then…",
+      "summary": "Нужен Docker Desktop: docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \\ -v open-webui:/app/backend/data --name open-webui --restart always \\ ghcr.io/open-webui/open-webui:main Открой создай аккаунт администратора (он локальный) и выбери модель deepseek-r1:8b. Linux: sudo systemctl edit ollama и добавь: [Service] Environment=\"OLLAMA_FLASH_ATTENTION=1\" Environment=\"OLLAMA_KV_CACHE_TYPE=q8_0\" Environment=\"OLLAMA_CONTEXT_LENGTH=32768\" Environment=\"OLLAMA_KEEP_ALIVE=-1\" потомsudo systemctl daemon-reload && sudo systemctl restart ollama. 📖 Подробнее: docs/03-ollama.md flowchart LR subgraph Клиенты CLI[\"ollama run\"] WEB[\"Open WebUI\"] IDE[\"VS Code / Continue\"] PY[\"Python / J…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -287,7 +173,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "5757e0eb39001ad6"
+        "63ec0374cbab5ddf"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -295,21 +181,21 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/reacher-z/Awesome-REA",
+          "url": "https://github.com/justxor/deepseek-local-guide-ru",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T00:42:04+00:00",
+      "published": "2026-10-17T10:03:36+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-16 — outside lookback window"
+      "reject_reason": "published 2026-10-17 — outside lookback window"
     },
     {
-      "cluster_key": "17bd4145ec305c23",
-      "title": "reason-machines/reason-network — Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+      "cluster_key": "7b8b08ad8cdeeabe",
+      "title": "sit-in/awesome-grokbot-playbooks — 中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot playbooks",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
@@ -318,10 +204,9 @@
         "linux",
         "llm",
         "opensource",
-        "tool",
-        "windows"
+        "tool"
       ],
-      "summary": "Your agents, talking to your teammates' agents. AI agent asked to join the Reason Network? Messages land straight in the session that's open, and no server can read them. Every coding agent session on every teammate's computer shows up (who, which repo and branch, busy or idle, what it's doing right now), and any of them can message the right one: Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI, Grok CLI, opencode, pi, DeepSeek Harness and Reason. Paste this line to your coding agent (Claude Code, Codex, Cursor, Gemini CLI, …): Join the Reason Network: Or run it yourself, in a terminal: curl -fsSL | bash -s -- network How it works: - Sign in, and you have a network.",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -332,7 +217,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "17bd4145ec305c23"
+        "7b8b08ad8cdeeabe"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -340,31 +225,34 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/reason-machines/reason-network",
+          "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T15:34:34+00:00",
+      "published": "2026-10-17T15:47:00+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-16 — outside lookback window"
+      "reject_reason": "published 2026-10-17 — outside lookback window"
     },
     {
-      "cluster_key": "589d6ed716f8c268",
-      "title": "fzn0x/idx — Analyze the Indonesian stock market (IDX/IHSG) from web terminal, CLI, or any AI agents via MCP server. IHSG P",
+      "cluster_key": "fd6181e478c1fecc",
+      "title": "eliasbiondo/antirion — ⚡ The fastest open-source AI gateway — one Rust binary with a built-in console to route, secure, budget and ob",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
+        "cloud",
+        "howto",
+        "llm",
         "opensource",
         "research",
         "tool"
       ],
-      "summary": "Indonesian stock market (IDX / IHSG) analysis for people and AI agents. One binary: a CLI that prints tables, a JSON mode for scripts, and an MCP server for agents. idx stocks quote BBCA,BBRI,TLKM╭────────┬──────────────────────────────┬───────┬──────┬─────────┬───────┬───────┬───────┬───────────────┬─────────┬───────┬────────╮ │ Symbol ┆ Name ┆ Price ┆ Chg ┆ Chg % ┆ Open ┆ High ┆ Low ┆ Volume ┆ Mkt Cap ┆ P/E ┆ Div % │ ╞════════╪══════════════════════════════╪═══════╪══════╪═════════╪═══════╪═══════╪═══════╪═══════════════╪═════════╪═══════╪════════╡ │ BBCA ┆ PT Bank Central Asia Tbk ┆ 5,175 ┆ -900 ┆ -14.81% ┆ 5,825 ┆ 5,825 ┆ 5,175 ┆ 1,241,098,200 ┆ 635.7T ┆ 10.96 ┆ 6.27% │ │ BBRI ┆ PT Bank…",
+      "summary": "One Rust binary, with the admin console built in, between your apps and every model provider. Performance · Getting started · Deploy · Features · Architecture · Docs Tip Faster than Bifrost and LiteLLM. On the same dedicated machine, Antirion adds a fraction of Bifrost's overhead with a fraction of its CPU and memory, and keeps serving at rates where LiteLLM fails. Sub-millisecond overhead at thousands of requests per second on 4 vCPUs, and several times the throughput of the next fastest gateway on the same machine (Performance). Rust, no garbage collector, no interpreter, one data thread per CPU.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -375,7 +263,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "589d6ed716f8c268"
+        "fd6181e478c1fecc"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -383,28 +271,31 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/fzn0x/idx",
+          "url": "https://github.com/eliasbiondo/antirion",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T17:51:21+00:00",
+      "published": "2026-10-17T21:43:39+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-16 — outside lookback window"
+      "reject_reason": "published 2026-10-17 — outside lookback window"
     },
     {
-      "cluster_key": "282376995506fa10",
-      "title": "The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI.",
+      "cluster_key": "1750a5a142afc2df",
+      "title": "stkoecn/im-mcp — Fast, local, read-only MCP Server for WeChat (4.x/3.x) & DingTalk (7.x V2/V3) chat history with FTS5 search",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "ai"
+        "ai",
+        "llm",
+        "opensource",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI. Effectively steering AIs and getting any sort of observability now requires you to ask for interim outputs & tests, and to use AI help to troubleshoot problems you find.",
+      "summary": "静默全量删除（适合自动化脚本） im-clean -y 客户端通过 uvx 动态拉取执行，并在 env 中显式固化全局数据目录，杜绝工作目录变动影响： { \"mcpServers\": { \"wechat\": { \"command\": \"uvx\", \"args\": [ \"--from\", \"git+ \"wechat-mcp\" ], \"env\": { \"PYTHONIOENCODING\": \"utf-8\", \"PYTHONUTF8\": \"1\" }, \"description\": \"绿泡泡聊天记录与群聊检索 MCP\" }, \"dingtalk\": { \"command\": \"uvx\", \"args\": [ \"--from\", \"git+ \"dingtalk-mcp\" ], \"env\": { \"PYTHONIOENCODING\": \"utf-8\", \"PYTHONUTF8\": \"1\" }, \"description\": \"DuangDuang聊天记录、群聊与通讯录检索 MCP\" } } } 若当前环境未受沙箱拦截，且已执行 uv tool install \"git+ --with \"im-mcp[all]\"，直接使用系统 PATH 中的命令： 💡 PATH 说明：若安装后 uv 提示 warning: ...",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -412,28 +303,161 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "282376995506fa10"
+        "1750a5a142afc2df"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxwf7wo7rs2x",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/stkoecn/im-mcp",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-15T15:35:23.276000+00:00",
+      "published": "2026-10-17T07:41:51+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-15 — outside lookback window"
+      "reject_reason": "published 2026-10-17 — outside lookback window"
+    },
+    {
+      "cluster_key": "c2b68a1bc0083e52",
+      "title": "Ghidra 12.2 has been released! https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build @secharvester",
+      "category": "cyber_tools",
+      "one_liner": "Ghidra 12.2 has been released on GitHub with updated binaries for reverse engineering workflows.",
+      "tags": [
+        "opensource",
+        "release",
+        "tool"
+      ],
+      "summary": "Ghidra version 12.2 has been officially released and is available for download on GitHub. The release includes standard updates and binaries maintained by the National Security Agency.",
+      "key_facts": [
+        "Version: 12.2"
+      ],
+      "bottom_line": "Reverse engineers and security analysts can now download Ghidra 12.2 from the official GitHub repository.",
+      "claims": [
+        {
+          "text": "Ghidra 12.2 has been released! https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build @secharvester",
+          "support_span": "Ghidra 12.2 has been released! https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build @secharvester",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c2b68a1bc0083e52"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "SecHarvester",
+          "url": "https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-22T09:07:26+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "97c79a938d798fbf",
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "category": "cyber_attacks",
+      "one_liner": "A critical CVSS 10.0 regular expression integer overflow in GitLab allows unauthenticated RCE across 12 years of self-managed releases.",
+      "tags": [
+        "cve",
+        "exploit",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "GitLab has patched a maximum-severity CVSS 10.0 vulnerability, tracked as CVE-2026-110264, which allows unauthenticated remote code execution on self-managed instances across every version released over the past 12 years going back to version 7.0. The flaw is caused by an integer overflow during the compilation of crafted regular expressions within Ruby's built-in Onigmo engine, which GitLab bundles in its packages. While GitLab.com and GitLab Dedicated are already patched, self-managed administrators must upgrade immediately, as earlier patches from October 12 did not cover versions prior to 19.2. GitLab has backported fixes to branches 18.11, 19.0, 19.1, and 19.2, and released Sigma detection rules to help identify exploitation attempts.",
+      "key_facts": [
+        "CVE-2026-110264: CVSS 10.0, unauthenticated RCE",
+        "Affected Versions: All versions from 7.0 (2014) to 19.x",
+        "Engine: Onigmo regular-expression compiler"
+      ],
+      "bottom_line": "Self-managed GitLab instances running any version since 2014 are vulnerable to unauthenticated RCE and must be patched immediately.",
+      "claims": [
+        {
+          "text": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
+          "support_span": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
+          "status": "entailed"
+        },
+        {
+          "text": "The flaw, tracked as CVE-2026-110264, is rated 10.0 on the CVSS scale, the maximum.",
+          "support_span": "The flaw, tracked as CVE-2026-110264, is rated 10.0 on the CVSS scale, the maximum.",
+          "status": "entailed"
+        },
+        {
+          "text": "GitLab said that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression.",
+          "support_span": "GitLab said that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "97c79a938d798fbf",
+        "a9726704f0fa70f0",
+        "bf3939d336fae68e"
+      ],
+      "critical_signal": "unauthenticated rce",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "Howl.link",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBrcnIzNEVfSGstYTlpZVloUy1VX2E5QzBCQWJKNHBiREJkbHFfT1E2c19ERjVRekJGdkMw?oc=5",
+          "domain": "howl-link.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUYWp2NjhKVmlxcU5uWFhHTU5veEhRVVhCNlFGc1YyT2doY05aVU5ERExoZVRYTUNFYVpscDNHRFFFOTFaQzNzTTk2MkVqN1VmQmZaY2RQbzM4SF85RHZaOTNsRDB2aXhmbnRadUUteE96Vlp4V21wZl8tb0J1NzA?oc=5",
+          "domain": "thehackernews.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-21T18:57:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from cache",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "49f73c61636e116f",
@@ -499,63 +523,62 @@
       "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "e8adf9eb3110e13e",
-      "title": "Why is stock market down today? Sensex drops over 700 points, Nifty crashes 1% - Top 3 reasons explained",
-      "category": "markets",
-      "one_liner": "Indian markets plummet 1% as surging crude prices and US Federal Reserve rate hike fears compound pressures.",
+      "cluster_key": "82279de487474418",
+      "title": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer…",
+      "category": "cyber_tools",
+      "one_liner": "Cisco Packet Tracer .pkt and .pka file formats reverse-engineered to allow offline lab generation and decoding without running the application.",
       "tags": [
-        "howto",
-        "india",
-        "markets",
-        "tool"
+        "network",
+        "opensource",
+        "release",
+        "tool",
+        "writeup"
       ],
-      "summary": "The Indian stock market suffered steep losses in intraday trading on Thursday, with the Sensex dropping over 700 points and the Nifty 50 falling past 1% as broader indices crashed up to 2%. Brent crude trading above $110 per barrel amid West Asian tensions and safety evacuations in Saudi Arabia fueled severe inflation concerns. Additionally, caution ahead of the US Federal Reserve's upcoming interest rate decision and rising US bond yields weighed heavily on investor sentiment, causing the Indian rupee to slip to 94.50 against the US dollar.",
+      "summary": "A security research project has reverse-engineered the proprietary file formats of Cisco Packet Tracer (.pkt and .pka files spanning versions 4.1 through 9.0.1), enabling users to build, export, and decrypt labs completely offline without running Packet Tracer. The reverse-engineering details the file container structure, which uses Twofish encryption in EAX mode, byte reversal, position XOR wrapping, and zlib compression. The project includes a type-safe Python library (pkt_core) and CLI tools that allow developers to programmatically generate networks, configure IOS device commands, define IP addresses, and build scored activity files directly from code.",
       "key_facts": [
-        "Sensex Drop: Over 700 points (intraday low 73,005)",
-        "Nifty 50 Drop: Over 250 points (intraday low 22,555)",
-        "Brent Crude: Above $110 per barrel",
-        "Indian Rupee: Declined by 12 paise to 94.50 against the USD"
+        "Supported Versions: PT 4.1 through 9.0.1",
+        "Encryption: Twofish in EAX mode"
       ],
-      "bottom_line": "Surging Brent crude prices above $110 per barrel and mounting macroeconomic headwinds have driven a sharp sell-off across Indian equities and weakened the rupee.",
+      "bottom_line": "Understanding the internal encryption and XML structures of Packet Tracer files enables programmatic creation and decryption of network labs without proprietary software dependencies.",
       "claims": [
         {
-          "text": "The Indian stock market suffered strong losses in intraday trading on Thursday, 22 October, with the Sensex and the Nifty 50 dropping almost 1%.",
-          "support_span": "The Indian stock market suffered strong losses in intraday trading on Thursday, 22 October, with the Sensex and the Nifty 50 dropping almost 1훨.",
+          "text": "The project reverse-engineers Packet Tracer file formats for versions 4.1 through 9.0.1.",
+          "support_span": "This repo reverse-engineers the Packet Tracer file format — both container families, PT 4.1 through 9.0.1 — and ships a byte-exact codec plus a generator...",
           "status": "contradicted"
         },
         {
-          "text": "Brent crude now trades above $110 per barrel, fuelling concerns over its impact on the overall Indian economy and corporate profitability.",
-          "support_span": "Brent crude now trades above $110 per barrel, fuelling concerns over its impact on the overall Indian economy and corporate profitability.",
+          "text": "The container uses Twofish encryption in EAX mode.",
+          "support_span": "- Cipher: Twofish in EAX (AEAD) mode, 128-bit key = 0x89 repeated, IV = 0x10 repeated, 16-byte tag appended.",
           "status": "entailed"
         }
       ],
-      "trust_score": 25,
-      "interest_score": 75,
+      "trust_score": 10,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 32.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "e8adf9eb3110e13e"
+        "82279de487474418"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/why-is-stock-market-down-today-sensex-drops-over-700-points-top-3-reasons-explained-11792641284679.html",
-          "domain": "livemint.com",
-          "tier": "B"
+          "name": "SecHarvester",
+          "url": "https://github.com/aacanadaa/packet-tracer-pkt-format",
+          "domain": "github.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-22T04:02:38+00:00",
+      "published": "2026-10-23T00:09:12+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -613,73 +636,144 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "a9726704f0fa70f0",
-      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-      "category": "cyber_attacks",
-      "one_liner": "A critical CVSS 10.0 regular expression integer overflow in GitLab allows unauthenticated RCE across 12 years of self-managed releases.",
+      "cluster_key": "560e1e072c397328",
+      "title": "IIT-Madras announces research projects on AI, seeks to study feasibility of small data centres",
+      "category": "india_world",
+      "one_liner": "IIT-Madras announces research into frugal 'pico' data centres for AI inference and launches tools for responsible AI evaluation.",
       "tags": [
-        "cve",
-        "exploit",
+        "ai",
+        "cloud",
+        "howto",
+        "india",
+        "policy",
         "release",
-        "vulnerability"
+        "research"
       ],
-      "summary": "GitLab has patched a maximum-severity CVSS 10.0 vulnerability, tracked as CVE-2026-110264, which allows unauthenticated remote code execution on self-managed instances across every version released over the past 12 years going back to version 7.0. The flaw is caused by an integer overflow during the compilation of crafted regular expressions within Ruby's built-in Onigmo engine, which GitLab bundles in its packages. While GitLab.com and GitLab Dedicated are already patched, self-managed administrators must upgrade immediately, as earlier patches from October 12 did not cover versions prior to 19.2. GitLab has backported fixes to branches 18.11, 19.0, 19.1, and 19.2, and released Sigma detection rules to help identify exploitation attempts.",
+      "summary": "IIT-Madras announced a feasibility study to develop small, distributed data centres known as \"pico centres\" to handle inference tasks across domains like agriculture, healthcare, and education using frugal engineering. Announced during the AI Measurement and Governance conclave by Director V. Kamakoti, the initiative includes Bodhan AI exploring frugal data centres to power personalized AI tutors for India's 25 crore students. Additionally, the Centre for Responsible AI (CeRAI) launched a software platform for evaluating AI tools across 50 metrics, partnered to produce 500 case study videos on responsible AI, and released white papers addressing future job market projections.",
       "key_facts": [
-        "CVE-2026-110264: CVSS 10.0, unauthenticated RCE",
-        "Affected Versions: All versions from 7.0 (2014) to 19.x",
-        "Engine: Onigmo regular-expression compiler"
+        "Institution: IIT-Madras",
+        "Student Population Impact: 25 crore students"
       ],
-      "bottom_line": "Self-managed GitLab instances running any version since 2014 are vulnerable to unauthenticated RCE and must be patched immediately.",
+      "bottom_line": "Developing frugal, distributed pico data centres and evaluation frameworks can significantly lower the resource barriers for deploying AI inference across India.",
       "claims": [
         {
-          "text": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
-          "support_span": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
-          "status": "entailed"
+          "text": "IIT-Madras announced a feasibility study for small data centres used for inference.",
+          "support_span": "The IIT-Madras on Thursday announced that it would take up a feasibility study for small data centres to be used for inference across a wide spectrum of subjects...",
+          "status": "contradicted"
         },
         {
-          "text": "The flaw, tracked as CVE-2026-110264, is rated 10.0 on the CVSS scale, the maximum.",
-          "support_span": "The flaw, tracked as CVE-2026-110264, is rated 10.0 on the CVSS scale, the maximum.",
-          "status": "entailed"
-        },
-        {
-          "text": "GitLab said that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression.",
-          "support_span": "GitLab said that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression.",
+          "text": "Dr. Kamakoti launched a software platform for the evaluation of AI tools using over 50 metrics.",
+          "support_span": "Dr. Kamakoti also launched a software platform for the evaluation of AI tools using over 50 metrics and 100 sub-metrics in multiple languages...",
           "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 100,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "a9726704f0fa70f0"
+        "560e1e072c397328"
       ],
-      "critical_signal": "unauthenticated rce",
+      "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-          "domain": "thehackernews.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/iit-madras-announces-research-projects-on-ai-seeks-to-study-feasibility-of-small-data-centres/article71612148.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T18:57:34+00:00",
+      "published": "2026-10-22T19:11:16+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "2ddf786e3c861829",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "category": "tech_ai",
+      "one_liner": "Frontier AI models proactively uncovered critical PHP vulnerabilities, enabling defenders to patch systems ahead of wide exploitation.",
+      "tags": [
+        "ai",
+        "blueteam",
+        "exploit",
+        "llm",
+        "opensource",
+        "release",
+        "research",
+        "vulnerability"
+      ],
+      "summary": "OpenAI highlighted its 'Patch the Planet' initiative, revealing that frontier AI models like GPT-5.6 Sol helped researchers independently uncover critical memory-corruption vulnerabilities in PHP before attackers could exploit them. The discovery prompted a coordinated global response involving maintainers, Wiz, and Cloudflare to release patches and mitigations ahead of disclosure. OpenAI is also committing $1 billion in subsidized access to security tools for frontline defenders to scale AI-driven vulnerability discovery.",
+      "key_facts": [
+        "Funding commitment: $1 billion in subsidized Daybreak access",
+        "Model used: GPT-5.6 Sol"
+      ],
+      "bottom_line": "OpenAI's 'Patch the Planet' initiative demonstrated that frontier AI models can discover critical zero-days like the PHP RCE flaws ahead of threat actors, establishing a proactive defender's window.",
+      "claims": [
+        {
+          "text": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
+          "support_span": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
+          "status": "contradicted"
+        },
+        {
+          "text": "To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services.",
+          "support_span": "To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 82,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "2ddf786e3c861829",
+        "d3f519557f32dd3d"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "domain": "openai.com",
+          "tier": "A"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYXI4MDQ5UDdXZDNuUUpwYkVwY3RYM05lZzhqcFhlb0NfeDVacEFfYkNQWkRuNDZPM05pRndYcjZ2QXBxeHA1ZnpaSVZjNEhXRnZvdkhTZTR3aFppbVlxUXJpeHRhSXRvV0R1VFRuUmhNeTdmdkJ5ZVNmSGFmWlNPbjZ3?oc=5",
+          "domain": "openai.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+      ],
+      "published": "2026-10-21T07:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 82 / interest 75 / corrob 50",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -745,73 +839,308 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "7f163b81796b2c63",
-      "title": "The first review I’ve seen of my upcoming book, Co-Existence, from The New Scientist.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The first review I’ve seen of my upcoming book, Co-Existence, from The New Scientist. (When I became an author, I was surprised to learn you don’t know who is reviewing your book until the review comes out, so it is nice to start with a positive one!) [contains quote post or other embedded content] 2026-10-15T23:54:31.367Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "cluster_key": "ff79f31b2b2a0c01",
+      "title": "‘IFP’s priorities at the moment are built around  preservation of our collections’",
+      "category": "india_world",
+      "one_liner": "Celebrating its 70th anniversary, the French Institute of Pondicherry highlights its interdisciplinary research and work in combating antiquity trafficking.",
+      "tags": [
+        "india"
+      ],
+      "summary": "The French Institute of Pondicherry (IFP) is celebrating its 70th anniversary from October 22 to 28 under the theme '70 Years of Shared Knowledge', highlighting research across Indology, ecology, social sciences, and geomatics. Director Renaud Colson notes that the institute's foundational work began with investigations into the Shaiva Agamas and continues today through UNESCO-acknowledged palm leaf manuscript collections and South Indian forest research. IFP also collaborates closely with international and Indian police networks to combat the trafficking of antiquities, recently aiding in the restitution of a dancing Shiva idol from the Smithsonian Museum to the Indian government. Looking forward, the institute aims to balance rapid economic growth in Tamil Nadu with pressing ecological and climate change research challenges.",
+      "key_facts": [
+        "Anniversary: 70th",
+        "Celebration dates: October 22 to 28"
+      ],
+      "bottom_line": "The French Institute of Pondicherry marks 70 years of research across South India, highlighting manuscript preservation and anti-antiquity trafficking work.",
+      "claims": [
+        {
+          "text": "The French Institute of Pondicherry (IFP) is organising several programmes as part of the week-long celebrations being held to mark its 70th anniversary from October 22 to 28 under the theme ‘70 Years of Shared Knowledge’.",
+          "support_span": "The French Institute of Pondicherry (IFP) is organising several programmes as part of the week-long celebrations being held to mark its 70th anniversary from October 22 to 28 under the theme ‘70 Years of Shared Knowledge’.",
+          "status": "entailed"
+        },
+        {
+          "text": "Very recently, we had the restitution of a dancing Shiva idol from the Smithsonian Museum in Washington to the Indian government, and this was done thanks to the competency of the staff working at the photo collection.",
+          "support_span": "Very recently, we had the restitution of a dancing Shiva idol from the Smithsonian Museum in Washington to the Indian government, and this was done thanks to the competency of the staff working at the port photo collection.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "7f163b81796b2c63"
+        "ff79f31b2b2a0c01"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxxb4gyr4s2x",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/cities/puducherry/ifps-priorities-at-the-moment-are-built-around-preservation-of-our-collections/article71606650.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-15T23:54:30.952000+00:00",
+      "published": "2026-10-22T18:52:16+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-15 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "d91703c608ecfb91",
-      "title": "ztt0216/MyAgent — 从零实现的通用 Agent Runtime：Agent Loop、权限、MCP、子 Agent、上下文折叠与 Skills 自进化",
+      "cluster_key": "098181a87689c854",
+      "title": "Around 3,000 Stranded Umrah Pilgrims Return From Saudi Over Past Week: Ministry",
+      "category": "india_world",
+      "one_liner": "Approximately 3,000 stranded Indian Umrah pilgrims returned from Saudi Arabia over the past week while the Indian Embassy monitors the situation.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "Around 3,000 stranded Indian Umrah pilgrims have returned from Saudi Arabia over the past week. Ministry spokesperson Randhir Jaiswal stated that the Indian Embassy is monitoring the situation closely.",
+      "key_facts": [
+        "Pilgrims Returned: Around 3,000",
+        "Location: Saudi Arabia to India"
+      ],
+      "bottom_line": "Stranded Indian pilgrims in Saudi Arabia have begun returning home as diplomatic missions oversee their repatriation.",
+      "claims": [
+        {
+          "text": "Around 3,000 Stranded Umrah Pilgrims Return From Saudi Over Past Week: Ministry",
+          "support_span": "Around 3,000 Stranded Umrah Pilgrims Return From Saudi Over Past Week: Ministry",
+          "status": "contradicted"
+        },
+        {
+          "text": "Spokesperson Randhir Jaiswal stated that the Indian Embassy are monitoring the situation closely.",
+          "support_span": "Spokesperson Randhir Jaiswal stated that the Indian Embassy are monitoring the situation closely.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "098181a87689c854"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/3-000-stranded-umrah-pilgrims-return-from-saudi-over-past-week-ministry-12222828#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-22T22:06:50+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0c6fe061465aa1a5",
+      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "category": "cyber_attacks",
+      "one_liner": "Federal civilian agencies and government contractors are legally barred from using or procuring DeepSeek AI tools under a new DHS supply-chain security order.",
+      "tags": [
+        "ai",
+        "cloud",
+        "llm",
+        "markets",
+        "policy",
+        "privacy",
+        "supply-chain"
+      ],
+      "summary": "U.S. Department of Homeland Security Secretary Markwayne Mullin issued an order under the Federal Acquisition Supply Chain Security Act of 2018 requiring federal civilian agencies to remove DeepSeek products and related implementations from their IT systems. The order also bars these agencies from purchasing new IT products or services from Hangzhou DeepSeek Artificial Intelligence Co., Ltd. or its affiliates. Furthermore, the restriction impacts federal contractors by incorporating FAR clause 52.204-30, requiring them to screen supply chains, check SAM.gov every three months, and report any covered products within three business days. The notice, dated July 24, 2026, was published in the Federal Register on October 20 without providing reasons.",
+      "key_facts": [
+        "Order Date: July 24, 2026",
+        "Publication Date: October 20, 2026",
+        "Target Entity: Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+        "Docket Number: DHS-2026-0628"
+      ],
+      "bottom_line": "U.S. civilian agencies and government contractors must immediately strip DeepSeek AI products from their systems and halt new procurement.",
+      "claims": [
+        {
+          "text": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems under a Department of Homeland Security order.",
+          "support_span": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.",
+          "status": "entailed"
+        },
+        {
+          "text": "Homeland Security Secretary Markwayne Mullin issued the order on July 24, 2026, which was published in the Federal Register on October 20.",
+          "support_span": "Homeland Security Secretary Markwayne Mullin issued the order, dated July 24, 2026, under the Federal Acquisition Supply Chain Security Act of 2018, and the department published it in the Federal Register on October 20.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 49,
+      "interest_score": 100,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "0c6fe061465aa1a5",
+        "5284103de5a2389c",
+        "d700940f7639cf36"
+      ],
+      "critical_signal": "emergency patch",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/201417/ai/us-government-orders-deepseek-out-of-federal-civilian-systems.html",
+          "domain": "securityaffairs.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+          "domain": "theregister.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T00:11:10+00:00",
+      "trace": [
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from cache",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "demoted: critical capped at 5",
+        "claims entailed 2/2 (100%)",
+        "judge (gemini-3.1-flash-lite): contradicted — rejected"
+      ],
+      "reject_reason": "gemini-3.1-flash-lite found a claim contradicted by the source"
+    },
+    {
+      "cluster_key": "c8c78520cc43672c",
+      "title": "Collective urges recognised political parties to boycott CEO‘s meeting on SSR",
+      "category": "india_world",
+      "one_liner": "Activists in Tamil Nadu are urging political parties to boycott the CEO's meeting on electoral roll revisions amid transparency concerns.",
+      "tags": [
+        "india",
+        "policy",
+        "political"
+      ],
+      "summary": "The Independent Young Citizens Collective urged recognized political parties in Tamil Nadu to boycott a meeting convened by Chief Electoral Officer Archana Patnaik regarding the Special Summary Revision of electoral rolls. Activists demanded that the Election Commission reschedule the meeting, conduct door-to-door surveys, and provide searchable electoral rolls instead of shifting enrollment onus entirely to citizens. The call follows the 'People's March to Restore Democracy' protests against voter roll revisions.",
+      "key_facts": [
+        "Date: October 23, 2026",
+        "Official: Archana Patnaik"
+      ],
+      "bottom_line": "Political parties in Tamil Nadu are under pressure from civil society to boycott upcoming electoral roll revision meetings.",
+      "claims": [
+        {
+          "text": "The Independent Young Citizens Collective urged recognised political parties in Tamil Nadu to boycott the meeting convened by Chief Electoral Officer Archana Patnaik.",
+          "support_span": "Activists and volunteers of the Independent Young Citizens Collective have urged recognised political parties in Tamil Nadu to boycott the meeting convened by Chief Electoral Officer Archana Patnaik Archana Patnaik on October 23 to discuss the Special Summary Revision (SSR) of electoral rolls.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c8c78520cc43672c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/collective-urges-recognised-political-parties-to-boycott-ceos-meeting-on-ssr/article71611606.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-22T19:15:22+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "b23a7839cb11fb8d",
+      "title": "kukemc/bili-cli — 为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "bili-agent provides CLI and MCP integrations for AI agents to autonomously manage Bilibili creator accounts safely.",
       "tags": [
         "agents",
+        "ai",
+        "hardware",
+        "linux",
         "llm",
         "opensource",
-        "privacy",
+        "supply-chain",
         "tool"
       ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "bili-cli (packaged on PyPI as bili-agent) is a command-line and Model Context Protocol (MCP) tool designed for AI agents to interact with Bilibili as fully functional creators. It provides over 80 commands and 17 MCP tools that enable agents to check messages, reply to comments, browse personalized feeds, watch videos with multimodal support, and publish video content with automated tagging. To protect user accounts, the tool includes local rate limiting, daily coin usage limits, audit logging, and dry-run previews for write operations.",
+      "key_facts": [
+        "Package name: bili-agent",
+        "Python requirement: Python 3.10+",
+        "Command count: 80+",
+        "MCP tools: 17"
+      ],
+      "bottom_line": "bili-cli equips AI agents with 80+ commands and 17 MCP tools to securely manage Bilibili accounts, create content, and interact with followers.",
+      "claims": [
+        {
+          "text": "bili-cli——让 AI 不再只是刷 B 站，而是真正当上 UP 主。",
+          "support_span": "于是有了 bili-cli——让 AI 不再只是刷 B 站，而是真正当上 UP 主。",
+          "status": "entailed"
+        },
+        {
+          "text": "bili-cli 再往前走一步：你的 Agent 不只是刷，它会自己做内容、自己运营账号、自己和粉丝打成一片。",
+          "support_span": "bili-cli 再往前走一步：你的 Agent 不只是刷，它会自己做内容、自己运营账号、自己和粉丝打成一片。",
+          "status": "entailed"
+        },
+        {
+          "text": "把 bili-cli 交给 Claude Code、Codex、Cursor、Gemini CLI、OpenClaw、DeepSeek Harness 或任何能执行命令的 Agent，它就变成一个真正会玩 B 站的 Agent",
+          "support_span": "把 bili-cli 交给 Claude Code、Codex、Cursor、Gemini CLI、OpenClaw、DeepSeek Harness 或任何能执行命令的 Agent，It就变成一个真正会玩 B 站的 Agent：",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "d91703c608ecfb91"
+        "b23a7839cb11fb8d"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -819,202 +1148,19 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/ztt0216/MyAgent",
+          "url": "https://github.com/kukemc/bili-cli",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-16T02:51:05+00:00",
+      "published": "2026-10-19T22:44:50+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-16 — outside lookback window"
-    },
-    {
-      "cluster_key": "b10e3f4f57c3faca",
-      "title": "India rejects UN rapporteur's 'India-based' label for Dawood Ibrahim's D-Company",
-      "category": "india_world",
-      "one_liner": "India sharply rebukes a UN special rapporteur for labeling D-Company as an India-based criminal group.",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "New Delhi has strongly rejected a UN special rapporteur's description of Dawood Ibrahim's D-Company as an \"India-based\" criminal group during a UN General Assembly committee meeting. Raghoo Puri, First Secretary in India's Permanent Mission to the UN, highlighted glaring inaccuracies in the report and criticized the lack of accountability for special mandate holders. Puri pointed out that Dawood Ibrahim fled India prior to his 2003 UN listing and currently resides in the same country where Osama bin Laden was located. India argued that such reporting errors cause tremendous harm to the world body.",
-      "key_facts": [
-        "Date of Rebuttal: October 21, 2026",
-        "Named Individual: Dawood Ibrahim",
-        "Representative: Raghoo Puri"
-      ],
-      "bottom_line": "India officially repudiated the UN report's characterization of D-Company as India-based, calling out factual inaccuracies and incompetence.",
-      "claims": [
-        {
-          "text": "New Delhi has strongly rejected a UN special rapporteur's description of gangster Dawood Ibrahim-led D-company as an \"India-based\" criminal group, flagging \"glaring inaccuracies\" in the report and cautioning that such incompetence causes tremendous harm to the world body.",
-          "support_span": "New Delhi has strongly rejected a UN special rapporteur's description of gangster Dawood Ibrahim-led D-company as an \"India-based\" criminal group, flagging \"glaring inaccuracies\" in the report and cautioning that such incompetence causes tremendous harm to the world body.",
-          "status": "entailed"
-        },
-        {
-          "text": "First Secretary in India's Permanent Mission to the UN, Raghoo Puri, delivered the strong rebuttal on Wednesday (October 21, 2026) in the Third Committee of the UN General Assembly...",
-          "support_span": "First Secretary in India's Permanent Mission to the UN, Raghoo Puri, delivered the strong rebuttal on Wednesday (October 21, 2026) in the Third Committee of the UN General Assembly...",
-          "status": "contradicted"
-        },
-        {
-          "text": "Strongly rejecting the description of D-Company as India-based, Mr. Puri said the criminal organisation and its listed leader, Dawood Ibrahim, have been wanted in India in connection with terror attacks since 1993.",
-          "support_span": "Strongly rejecting the description of D-Company as India-based, Mr. Puri said the criminal organisation and its listed leader, Dawood Ibrahim, have been wanted in India in connection with terror attacks since 1993.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "b10e3f4f57c3faca"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/india-rejects-un-rapporteurs-india-based-label-for-dawood-ibrahims-d-company/article71610134.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-22T05:30:44+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "44a4f37b7064968a",
-      "title": "Andhra Pradesh SEC halts election process for 100 ULBs after Supreme Court order",
-      "category": "india_world",
-      "one_liner": "Andhra Pradesh SEC halts local body elections following Supreme Court intervention over nomination disputes.",
-      "tags": [
-        "india",
-        "policy",
-        "political"
-      ],
-      "summary": "Andhra Pradesh State Election Commissioner Anil Chandra Punetha has halted the election process for 100 Urban Local Bodies following directions from the Supreme Court. The notification for 13 Municipal Corporations, 87 Municipalities, and Nagar Panchayats was originally issued on October 14, with nominations concluding between October 16 and 18. The Supreme Court mandated that the SEC postpone publishing the final candidate list until October 25 to evaluate grievances from the YSRCP and other candidates regarding law and order obstructions during filing. The SEC will decide on further steps after gathering reports from District Collectors and Police Commissioners.",
-      "key_facts": [
-        "Urban Local Bodies Affected: 100 (13 Municipal Corporations, 87 Municipalities and Nagar Panchayats)",
-        "Postponement Deadline: Final list publication postponed until October 25"
-      ],
-      "bottom_line": "The Andhra Pradesh State Election Commissioner suspended the election process for 100 urban local bodies in compliance with Supreme Court orders to review candidate nomination grievances.",
-      "claims": [
-        {
-          "text": "Andhra Pradesh State Election Commissioner (SEC) Anil Chandra Punetha has ordered that the election process for all 100 Urban Local Bodies (ULBs) for which the notification was issued on October 14 be stopped forthwith in view of the Supreme Court’s directions.",
-          "support_span": "Andhra Pradesh State Election Commissioner (SEC) Anil Chandra Punetha has ordered that the election process for all 100 Urban Local Bodies (ULBs) for which the notification was issued on October 14 be stopped forthwith in view of the Supreme Court’s directions.",
-          "status": "entailed"
-        },
-        {
-          "text": "Meanwhile, the Supreme Court has directed the SEC to postpone the publication of the final list of candidates for the ULB elections till October 25.",
-          "support_span": "Meanwhile, the Supreme Court has directed the SEC to postpone the publication of the final list of candidates for the ULB elections till October 25.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "44a4f37b7064968a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-sec-stops-election-process-for-100-ulbsafter-supreme-court-order/article71608801.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-22T01:28:44+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "a7db8149d96b7a48",
-      "title": "CII urges exporters, MSMEs to tap opportunities under India-New Zealand FTA",
-      "category": "india_world",
-      "one_liner": "CII encourages Indian MSMEs and exporters to leverage duty-free market access under the new India-New Zealand FTA.",
-      "tags": [
-        "cloud",
-        "india",
-        "markets",
-        "policy",
-        "political"
-      ],
-      "summary": "The Confederation of Indian Industry (CII) has urged domestic exporters and MSMEs to utilize the newly implemented India-New Zealand free trade agreement. CII National Committee on Exports Chairman Sanjay Budhia highlighted that the pact provides duty-free access across all tariff lines in New Zealand, eliminating up to 10% tariffs on engineering goods, textiles, leather, and footwear. Exporters were advised to verify product-specific rules of origin, engage with buyers, and leverage the Export Promotion Mission. Additionally, New Zealand can serve as a strategic entry point to wider Oceania and Pacific Island markets.",
-      "key_facts": [
-        "Agreement Date: October 20, 2026",
-        "Representative: Sanjay Budhia",
-        "Target Sectors: Engineering goods, textiles, leather, footwear"
-      ],
-      "bottom_line": "The India-New Zealand FTA provides immediate duty-free access across all tariff lines, offering new export opportunities for Indian MSMEs.",
-      "claims": [
-        {
-          "text": "Domestic exporters, including MSMEs, should engage with New Zealand buyers, check product-specific rules of origin and leverage schemes such as the Export Promotion Mission to maximise the benefits from the recently implemented bilateral free trade agreement...",
-          "support_span": "Domestic exporters, including MSMEs, should engage with New Zealand buyers, check product-specific rules of origin and leverage schemes such as the Export Promotion Mission to maximise the benefits from the recently implemented bilateral free trade agreement...",
-          "status": "contradicted"
-        },
-        {
-          "text": "On October 20, the two countries implemented a free trade agreement to boost trade and investment ties.",
-          "support_span": "On October 20, the two countries implemented a free trade agreement to boost trade and investment ties.",
-          "status": "entailed"
-        },
-        {
-          "text": "The pact, Mr. Budhia said, gives Indian exporters duty-free access across all tariff lines in New Zealand, with tariffs of up to 10% on engineering goods, textiles, leather and footwear now at zero.",
-          "support_span": "The pact, Mr. Budhia said, gives Indian exporters duty-free access across all tariff lines in New Zealand, with tariffs of up to 10% on engineering goods, textiles, leather and footwear now at zero.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "a7db8149d96b7a48"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/business/Industry/cii-urges-exporters-and-msmes-to-leverage-indias-nz-fta-benefits/article71610296.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-22T06:06:13+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1125,207 +1271,167 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "6cf189c2717d8fdd",
-      "title": "Japan is known for world-class events - but the Asian Games were chaotic",
-      "category": "india_world",
-      "one_liner": "Severe accommodation and logistical failures at the Asian Games in Japan spark international criticism and calls for investigations.",
+      "cluster_key": "ac1282b8d8fb5c3b",
+      "title": "lululynne/maimai-xianpin — 麦麦现拼：到店自取、同店陌生人现场拼一个大套餐（麦当劳 MCP 开发者大赛）",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "policy",
-        "political"
+        "agents",
+        "opensource"
       ],
-      "summary": "Japan's Aichi Prefecture and the city of Nagoya faced widespread operational chaos hosting the Asian Games, marred by severe accommodation shortages, transport errors, and diplomatic gaffes. Organizers chose hotels and container-style units instead of a traditional athletes' village to cut costs, leaving delegations scrambling and forcing the emergency use of an Italian cruise ship for 1,500 cabins after participant numbers surged to over 17,000. Incidents included athletes bussed to wrong venues, national anthems and flags mixed up for South Korea, and a temporary ban on Taiwan's sports minister at a flag-raising event. GL Events, the French company managing venue operations under a 63 billion yen contract, drew intense local criticism as critics warned the fiasco could harm Japan's international reputation for event management.",
-      "key_facts": [
-        "Contract Value: 63bn yen (£306m; $405m)",
-        "Total Participants: 17,000",
-        "Host Locations: Nagoya and Aichi Prefecture"
-      ],
-      "bottom_line": "Logistical collapses and protocol blunders at a major international sporting event in Japan threaten future bidding confidence.",
-      "claims": [
-        {
-          "text": "This year's Asian Games in Nagoya and the wider Aichi Prefecture were marred by problems.",
-          "support_span": "This year's Asian Games in Nagoya and the wider Aichi Prefecture were marred by problems.",
-          "status": "entailed"
-        },
-        {
-          "text": "Organisers had decided to forgo building a traditional athletes' village to cut costs, and were instead housing participants in hotels and container-style units across Nagoya.",
-          "support_span": "Organisers had decided to forgo building a traditional athletes' village to cut costs, and were instead housing participants in hotels and container-style units across Nagoya.",
-          "status": "entailed"
-        },
-        {
-          "text": "GL Events had won the 63bn yen (£306m; $405m) contract over Dentsu Group, an advertising giant with a long history...",
-          "support_span": "GL Events had won the 63bn yen (£306m; $405m) contract over Dentsu Group, an advertising giant with a long hi…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 25,
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 28.8,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "6cf189c2717d8fdd"
+        "ac1282b8d8fb5c3b"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvze414811jlo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
+          "name": "GitHub (new)",
+          "url": "https://github.com/lululynne/maimai-xianpin",
+          "domain": "github.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T22:00:58+00:00",
+      "published": "2026-10-17T23:46:32+00:00",
       "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 29 = trust 40 / interest 25 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-17 — outside lookback window"
     },
     {
-      "cluster_key": "4fbb6ba5082f98d8",
-      "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
-      "category": "india_world",
-      "one_liner": "The Trump administration appeals to the Supreme Court to lift the injunction halting the Big Bend border wall.",
+      "cluster_key": "ad159f5b036bef89",
+      "title": "Traders’ Cost of Hedging Against Big Treasuries Rally Is Soaring",
+      "category": "markets",
+      "one_liner": "Hedging costs against a massive US Treasury rally hit a multi-month high as oil price spikes and French fiscal turmoil drive a flight to safety.",
       "tags": [
-        "howto",
-        "policy",
-        "political"
+        "ai",
+        "markets",
+        "network",
+        "research"
       ],
-      "summary": "The Trump administration has filed an emergency request with the US Supreme Court asking to lift a federal judge's injunction that halted construction of a border wall through the Big Bend region of West Texas. The $1.7bn project, led by the Department of Homeland Security, involves vehicle barriers, patrol roads, and lighting, and relies on waivers of environmental and historical laws issued by administration officials. Environmental groups and local plaintiffs sued to block the project to preserve the local landscape and a historic church. A lower court judge previously found that the administrative waivers exceeded statutory authority.",
+      "summary": "The cost of options hedging against further gains in US Treasuries surged to its highest level since March as investors fled to government bonds following escalating oil prices and a deepening fiscal crisis in France. The benchmark 10-year Treasury yield dropped below 5% for the first time in a month while traders poured millions into call options and closed out short positions. Prominent market positions targeted a 10-year yield drop to 4.6% within a month, backed by massive options volumes and short squeezes.",
       "key_facts": [
-        "Project Cost: $1.7bn",
-        "Border Length in Big Bend: ~805km (500 miles)",
-        "Injunction Date: October 2, 2026"
+        "Benchmark: 10-year Treasury yield fell below 5%",
+        "Hedging Cost Peak: Highest level since March"
       ],
-      "bottom_line": "The Justice Department has asked the Supreme Court to override a lower court injunction and allow the resumption of the Big Bend border wall project.",
+      "bottom_line": "Geopolitical oil shocks and European fiscal instability are driving a heavy flight into US government bonds, compressing yields and driving up hedging costs.",
       "claims": [
         {
-          "text": "The Trump administration has asked the Supreme Court to allow it to resume plans to build a border wall through the Big Bend region of West Texas...",
-          "support_span": "The Trump administration has asked the Supreme Court to allow it to resume plans to build a border wall through the Big Bend region of West Texas...",
-          "status": "contradicted"
-        },
-        {
-          "text": "The Justice Department filed an emergency request on Wednesday asking the court to lift a federal judge’s injunction in a lower court that has halted construction while a lawsuit against the project, brought by an environmental group and other challengers, plays out.",
-          "support_span": "The Justice Department filed an emergency request on Wednesday asking the court to lift a federal judge’s injunction in a lower court that has halted construction while a lawsuit against the project, brought by an environmental group and other challengers, permits plays out.",
-          "status": "contradicted"
-        },
-        {
-          "text": "US District Judge Kathleen Cardone issued an injunction in El Paso on October 2 halting work “until and unless Defendants comply with all applicable laws,” she wrote in her order.",
-          "support_span": "US District Judge Kathleen Cardone issued an injunction in El Paso on October 2 halting work “until and unless Defendants comply with all applicable laws,” she wrote in her order.",
+          "text": "The cost of options hedges against more gains in Treasuries surged to its highest level since March on Thursday, as investors sought the safety of US government bonds following a spike in oil prices and a deepening fiscal crisis in France.",
+          "support_span": "The cost of options hedges against more gains in Treasuries surged to its highest level since March on Thursday, as investors sought the safety of US government bonds following a spike in oil prices and a deepening fiscal crisis in France.",
           "status": "entailed"
+        },
+        {
+          "text": "Yields on the benchmark 10-year Treasury fell below 5% for the first time in about a month, with traders shelling out millions to hedge against an even deeper decline.",
+          "support_span": "Yields on the benchmark 10-year Treasury fell below 5% for the first time in about a month, with traders shelling out millions to hedge against an even drier decline.",
+          "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "4fbb6ba5082f98d8"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-22T03:19:38+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "6d9d7db77ab12819",
-      "title": "Decades-Old Windows Utility Powers Modern ClickFix Attack",
-      "category": "cyber_attacks",
-      "one_liner": "A ClickFix campaign abuses the vintage Windows finger utility as a living-off-the-land binary to deploy infostealers and RMM tools.",
-      "tags": [
-        "malware",
-        "release",
-        "research",
-        "threat-actor",
-        "threat-intel",
-        "tool",
-        "windows",
-        "writeup"
-      ],
-      "summary": "Threat actors are weaponizing a decades-old Windows utility, the finger command, in a novel ClickFix social engineering campaign targeting users searching for commercial services. Discovered by Huntress, the attack starts with sponsored search results for \"amazon business\" that redirect to a fake Amazon login page featuring a deceptive CAPTCHA. When users interact with the CAPTCHA, finger.exe is executed to fetch a remote .plan file, initiating a complex chain that installs IronPython, obfuscated loaders, Lumma Stealer, and a hidden NetSupport Client RMM tool. This living-off-the-land technique allows attackers to evade standard network detection mechanisms while delivering modular payloads.",
-      "key_facts": [
-        "Tool: finger.exe",
-        "Malware: Lumma Stealer, NetSupport Client RMM",
-        "Initial Access: Google sponsored search results, fake CAPTCHA"
-      ],
-      "bottom_line": "Attackers are successfully abusing legacy built-in Windows utilities like finger to execute multi-stage malware chains via fake CAPTCHAs.",
-      "claims": [
-        {
-          "text": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
-          "support_span": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
-          "status": "entailed"
-        },
-        {
-          "text": "A finger command kicks off a complex, multilayered attack chain that ends with the dropping of multiple payloads, including a pirated copy of the NetSupport Client remote monitoring and management (RMM) tool and a version of Lumma Stealer.",
-          "support_span": "A finger command kicks off a complex, multilayered attack chain that ends with the dropping of multiple payloads, including a pirated copy of the NetSupport Client remote monitoring and management (RMM) tool and a version of Lumma Stealer.",
-          "status": "entailed"
-        },
-        {
-          "text": "Instead of moving directly from the user's action to one payload, a fake CAPTCHA used finger.exe, which executes a remote .plan file, installs IronPython, multiple obfuscated loaders, an alleged Lumma Stealer sample, and a hidden NetSupport Client.",
-          "support_span": "Instead of moving directly from the user's action to one payload, a fake CAPTCHA used finger. erroneous, but rather: \"Instead of moving directly from the user's action to one payload, a fake CAPTCHA used finger.exe, which executes a remote .plan file, installs IronPython, multiple obfuscated loaders, an alleged Lumma Stealer sample, and a hidden NetSupport Client.\"",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 37,
       "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
+      "corroboration": 1,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6d9d7db77ab12819",
-        "a095b120dcc9a820"
+        "ad159f5b036bef89"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "DarkReading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
-          "domain": "darkreading.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/traders-cost-of-hedging-against-big-treasuries-rally-is-soaring-11792695026739.html",
+          "domain": "livemint.com",
           "tier": "B"
-        },
-        {
-          "name": "CTI Now",
-          "url": "https://ift.tt/c6UAkiF",
-          "domain": "ift.tt",
-          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T13:00:00+00:00",
+      "published": "2026-10-22T18:50:26+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
+        "single outlet, established publication (tier B)",
         "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "e5671a3ac43e66f2",
+      "title": "CALLIOPE: Private Insights into AI Use, Without Embeddings",
+      "category": "tech_ai",
+      "one_liner": "CALLIOPE uses direct LLM capabilities instead of vector embeddings to extract private topic hierarchies from unstructured text.",
+      "tags": [
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers introduce CALLIOPE, a top-down framework for discovering topic hierarchies in unstructured text corpora such as large LLM conversations while maintaining differential privacy (DP). Unlike traditional and recent methods that rely on clustering vector embeddings, CALLIOPE directly leverages LLM capabilities for the entire pipeline. Experimental evaluations demonstrate superior utility over embedding-based approaches under differential privacy settings, particularly in high-privacy regimes.",
+      "key_facts": [],
+      "bottom_line": "CALLIOPE achieves superior utility over embedding-based clustering for differential privacy topic discovery in LLM conversation corpora.",
+      "claims": [
+        {
+          "text": "We introduce CALLIOPE, a top-down framework for discovering topic hierarchies in large corpora of unstructured data (e.g., LLM conversations), while supporting differential privacy (DP).",
+          "support_span": "We introduce CALLIOPE, a top-down framework for discovering topic hierarchies in large corpora of unstructured data (e.g., LLM conversations), while supporting differential privacy (DP).",
+          "status": "entailed"
+        },
+        {
+          "text": "Unlike traditional and even recent LLM-augmented approaches that ultimately rely on clustering vector embeddings, our framework leverages LLM capabilities directly for the entire pipeline.",
+          "support_span": "Unlike traditional and even recent LLM-augmented approaches that ultimately rely on clustering vector embeddings, our framework leverages LLM capabilities directly for the entire pipeline.",
+          "status": "entailed"
+        },
+        {
+          "text": "Experiments demonstrate that this approach provides better utility over existing (embedding-based) methods in the DP setting, especially in the high privacy regime.",
+          "support_span": "Experiments that this approach provides better utility over existing (embedding-based) methods in the DP setting, especially in the high privacy regime.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "e5671a3ac43e66f2"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2610.28797",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.28797"
+      ],
+      "published": "2026-10-22T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1384,57 +1490,8 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "d320bb961c038975",
-      "title": "Extended Stable Update for Desktop",
-      "category": "cyber_tools",
-      "one_liner": "Desktop release notes stub with no additional details.",
-      "tags": [],
-      "summary": "This article is a placeholder announcement for an Extended Stable Update for Desktop published on Thursday, October 15, 2026, containing no further details or technical content.",
-      "key_facts": [],
-      "bottom_line": "The article contains no substantive information.",
-      "claims": [
-        {
-          "text": "Extended Stable Update for Desktop",
-          "support_span": "Extended Stable Update for Desktop",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "d320bb961c038975"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Chromium Releases",
-          "url": "http://chromereleases.googleblog.com/2026/10/extended-stable-update-for-desktop_01598036246.html",
-          "domain": "chromereleases.googleblog.com",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "http://chromereleases.googleblog.com/2026/10/extended-stable-update-for-desktop_01598036246.html"
-      ],
-      "published": "2026-10-15T21:20:05+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 70 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }
