@@ -13,15 +13,23 @@
   --line:#e6e3dc; --line2:#d5d1c7; --accent:#8a5a2b;
   /* --imp was #a8701a at 3.99:1 and --minor #8f8b83 at 3.22:1 on this
      background: both under the 4.5:1 AA floor for the small, bold text
-     they are used on. Darkened to clear it while keeping the hue. */
+     they are used on. Darkened to clear it while keeping the hue.
+     --warn was #9a6a12, which measures 4.49:1 here — one hundredth under the
+     same floor, and it carries .chip-warn, 10.5px uppercase bold, on the 160
+     cards a day whose verdict is "unverified". #946510 is 4.83:1. */
   --crit:#b3341f; --imp:#8a5a15; --minor:#6e6a63;
-  --ok:#1c6b45; --warn:#9a6a12; --bad:#7a3f96;
+  --ok:#1c6b45; --warn:#946510; --bad:#7a3f96;
   --factbg:#f4f2ec;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
   --bg:#14140f; --card:#1c1c18; --ink:#eae7df; --ink2:#c9c5bb; --muted:#928e85;
   --line:#2c2b26; --line2:#3a3833; --accent:#d9a066;
-  --crit:#ff7a63; --imp:#e3a94f; --minor:#7d7a72;
+  /* The light palette was audited for AA, the dark one was not. --minor was
+     #7d7a72, 4.31:1 on this background, and it carries the two smallest bold
+     strings on every card: the "unsummarised" chip (530 cards a day) and the
+     "Source:" label (all 835). #847f78 is 4.65:1 — a seven-point lift, which
+     is below the threshold of noticing but above the AA floor. */
+  --crit:#ff7a63; --imp:#e3a94f; --minor:#847f78;
   --ok:#5fc999; --warn:#e0bb5c; --bad:#c58ede;
   --factbg:#232320;
 }}
@@ -68,11 +76,20 @@ h1{margin:0;font-family:"Newsreader",Georgia,serif;font-weight:600;
      story was visible. Everything that is a refinement rather than an entry
      point now lives inside the Filters panel, which is closed by default;
      what remains on the opening screen is the title, one meta line, the
-     search box and a single scrolling row of sections. */
-  .stats{display:none}
+     stats row, the search box and two scrolling rows of chips. Measured
+     again at 375x812: the first headline is at y=362.
+     This block sits BEFORE the base rules for .stats, .controls and .tagbar,
+     and a media query does not add specificity — so three declarations that
+     used to live here (.stats{display:none}, .controls{padding:8px 0 6px},
+     .tagbar{margin-top:8px}) were being overwritten by the plain .stats /
+     .controls / .tagbar rules further down and had never once taken effect.
+     The two that are still wanted have moved to the small-screen block at
+     the bottom of the sheet, which comes after them. The third,
+     .stats{display:none}, is deliberately NOT reinstated: hiding the counts
+     would buy 64px of header and cost the only route to "5 need attention"
+     on a phone, which is the most valuable filter on a page of 835 cards.
+     The later block tightens the row instead. */
   header{margin-bottom:8px}
-  .controls{padding:8px 0 6px}
-  .tagbar{margin-top:8px}
   h1{font-size:21px}
 }
 .stats{display:flex;flex-wrap:wrap;gap:2px 14px;margin-top:6px;font-size:12.5px;
@@ -101,9 +118,15 @@ h1{margin:0;font-family:"Newsreader",Georgia,serif;font-weight:600;
 #applied .ap-n b{color:var(--ink);font-weight:600;
  font-variant-numeric:tabular-nums}
 #applied .ap-list{display:flex;flex-wrap:wrap;gap:5px;flex:1 1 auto;min-width:0}
+/* nowrap keeps a two-word label like "Since yesterday" from breaking in half,
+   but one of these pills is the search string the reader typed. Measured at
+   375px with a 71-character query: the pill rendered 464px wide inside a
+   345px bar and the Clear button went off the right edge of the screen.
+   Truncate instead — the full query is still in the search box above and in
+   the "Nothing matches" line below. */
 #applied .ap-b{background:var(--card);border:1px solid var(--line2);
  border-radius:999px;padding:2px 9px;color:var(--ink2);font-size:12px;
- white-space:nowrap}
+ white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
 #applied .ap-x{margin-left:auto;border:1px solid var(--accent);
  background:transparent;color:var(--accent);border-radius:7px;
  padding:3px 11px;font:inherit;font-size:12px;cursor:pointer;flex:0 0 auto}
@@ -163,8 +186,21 @@ ul.rejlist .dom{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 
 /* Everything secondary. Closed on load; opening it costs one tap and the
    reader keeps the whole first screen for stories until they ask for it. */
-#panel{max-height:0;overflow:hidden;transition:max-height .25s ease}
-#panel.open{max-height:60vh;overflow:auto}
+/* Collapsing with max-height:0 hides a control visually but leaves it in the
+   tab order and in the accessibility tree. Measured on a phone with the
+   panel shut: 46 focusable controls — five date bands, New only, three
+   sorts, two buttons and all 36 tag chips — sit between the search box and
+   the first story, every one of them painted into a zero-height clip so the
+   focus ring is invisible. A keyboard reader tabbing from search pressed Tab
+   46 times against a page that appeared not to react.
+   visibility carries a zero-length transition with a delay rather than none
+   at all: opening flips it immediately (delay 0) so the chips are painted
+   while the box grows, closing holds it until .25s has passed so the content
+   does not blink out before the box has finished collapsing. */
+#panel{max-height:0;overflow:hidden;visibility:hidden;
+ transition:max-height .25s ease, visibility 0s linear .25s}
+#panel.open{max-height:60vh;overflow:auto;visibility:visible;
+ transition:max-height .25s ease, visibility 0s linear 0s}
 #activeTags{margin-top:8px}
 #activeTags:empty{display:none}
 
@@ -189,9 +225,13 @@ ul.rejlist .dom{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 .toggle.clear:not(:disabled):hover{background:var(--accent);color:var(--bg)}
 .active-tags{display:flex;flex-wrap:wrap;gap:5px}
 .active-tags .chip{background:var(--accent);color:var(--bg);border-color:var(--accent)}
-#tagchips{margin-top:8px;max-height:0;overflow:hidden;
- transition:max-height .25s ease}
-#tagchips.open{max-height:230px;overflow:auto}
+/* Same clipped-but-focusable problem as #panel, and worse: this one holds 36
+   chips. It genuinely collapses at every width, so unlike #panel it needs no
+   desktop exception. */
+#tagchips{margin-top:8px;max-height:0;overflow:hidden;visibility:hidden;
+ transition:max-height .25s ease, visibility 0s linear .25s}
+#tagchips.open{max-height:230px;overflow:auto;visibility:visible;
+ transition:max-height .25s ease, visibility 0s linear 0s}
 #q{flex:1 1 auto;min-width:0;padding:9px 13px;font:inherit;font-size:15px;
  color:var(--ink);background:var(--card);border:1px solid var(--line2);
  border-radius:9px}
@@ -297,7 +337,12 @@ details{margin-top:12px}
 summary{cursor:pointer;color:var(--muted);font-size:12.5px;list-style:none;
  display:inline-block}
 summary::-webkit-details-marker{display:none}
-summary:before{content:"\203A  ";display:inline-block;transition:transform .15s}
+/* The gap after the marker was two spaces inside the content string, and an
+   inline-block strips its own trailing whitespace — so every disclosure on
+   every card rendered as "›Full summary", marker jammed against the word. A
+   margin cannot be stripped. */
+summary:before{content:"\203A";display:inline-block;margin-right:.45em;
+ transition:transform .15s}
 details[open] summary:before{transform:rotate(90deg)}
 details ul{margin:9px 0 0;padding-left:19px;color:var(--muted);font-size:13px;
  line-height:1.6}
@@ -369,8 +414,10 @@ details ul.tr{margin-top:10px}
   .row1 #q{width:100%}
   /* .open can survive a resize from a narrow window; both states are the
      same up here, so pin them together rather than leaving a 60vh cap on a
-     rail that is already scrollable. */
-  #panel, #panel.open{max-height:none;overflow:visible}
+     rail that is already scrollable. The panel is permanently open in the
+     rail and usually carries no .open class, so visibility has to be pinned
+     with it or the whole rail would disappear. */
+  #panel, #panel.open{max-height:none;overflow:visible;visibility:visible}
   .strip{overflow:visible;margin-top:12px;
          -webkit-mask-image:none;mask-image:none}
   .strip .chips{flex-wrap:wrap;padding-right:0}
@@ -414,8 +461,11 @@ kbd{font:inherit;font-size:.86em;border:1px solid var(--line2);
   /* The stats row wraps to two lines on a phone; tighten it so the header
      does not eat half the first screen. */
   .stats{gap:4px 12px;font-size:12.5px}
+  /* Rescued from the phone block at the top of the sheet, where they sat
+     ahead of the base .controls / .tagbar rules and never applied. */
+  .controls{padding:8px 0 6px}
+  .tagbar{margin-top:8px}
   article{padding:22px 0}
-  .facts{padding:12px 14px}
   /* A retracting bar is more disruptive on a short viewport than a static
      one, so on phones it simply scrolls away with the page. */
   .controls{position:static}
@@ -428,9 +478,26 @@ kbd{font:inherit;font-size:.86em;border:1px solid var(--line2);
 }
 
 /* --- Tablet ----------------------------------------------------------- */
+/* This band carried .wrap{max-width:100%}, which threw the measure cap away
+   for every width from 601 to 900 — the one constraint the top of this sheet
+   argues for hardest. Measured at 768px: the deck ran 86 characters per line
+   and the key facts 95, wider than the 81 that is recorded up there as
+   "past the 45-75 band entirely" and well past the ~70 ceiling it sets.
+   Every other width honours the cap — 42 cpl at 375, 73 at 935, 74 at 1265 —
+   so only the gutters belong in this block. Removing the one declaration
+   brings 768 to 68 cpl for the deck and 76 for the facts, in line with the
+   desktop column rather than half again as wide. */
 @media (min-width:601px) and (max-width:900px){
-  .wrap{max-width:100%;padding-left:clamp(20px,5vw,44px);
+  .wrap{padding-left:clamp(20px,5vw,44px);
         padding-right:clamp(20px,5vw,44px)}
+  /* The touch floors and the 16px search field were scoped to <=600px, but
+     601-900 is tablets: touch devices, with the same iOS zoom-on-focus. The
+     focus chips measured 25px tall here and the search field 15px. Only the
+     floors are raised, not the type scale, so nothing reflows. */
+  .chip,.toggle{min-height:32px}
+  .tag{min-height:30px}
+  .srcs a, summary{min-height:32px;display:inline-flex;align-items:center}
+  #q{font-size:16px}
 }
 
 /* Respect a reduced-motion preference: the retracting bar is decoration. */
@@ -478,7 +545,11 @@ footer p{margin:14px 0 0}
       <div class="tagbar">
         <span class="lbl2">Sort</span>
         <div class="chips" id="sorts"></div>
-        <span class="count" id="count" aria-live="polite"></span>
+        <!-- The live region moved to #applied. This one sits inside the
+             Filters panel, which is now visibility:hidden while collapsed —
+             and a hidden live region announces nothing, so on a phone it
+             would have gone quiet exactly when it was needed. -->
+        <span class="count" id="count"></span>
       </div>
       <div class="tagbar">
         <button class="toggle" id="tagToggle" aria-expanded="false">Tags</button>
@@ -488,7 +559,10 @@ footer p{margin:14px 0 0}
     </div>
   </div>
 
-  <div id="applied" hidden></div>
+  <!-- role=status carries the "N of 835" announcement, because this is the
+       one summary that is on screen at every width whenever there is
+       anything to report. -->
+  <div id="applied" role="status" hidden></div>
   <main id="feed"></main>
   <footer id="foot"></footer>
 </div>
@@ -699,7 +773,12 @@ function card(it){
   // worse than no notation: it makes the whole card look unfinished. Every
   // line now says what it means in words, and the block is collapsed behind
   // a heading that names it.
-  const trace=(it.trace||[]).map(t=>"<li>"+esc(human(t))+"</li>").join("");
+  // De-duplicated: the pipeline appends "summary: the article's opening
+  // sentences…" once per stage that falls back to the extract, so 37 cards a
+  // day printed the same sentence twice in a row. A reasoning trace that
+  // repeats itself reads as a bug in the reasoning, not in the logging.
+  const trace=[...new Set(it.trace||[])]
+    .map(t=>"<li>"+esc(human(t))+"</li>").join("");
   const CLAIM_MARK={entailed:"✓", contradicted:"✗", neutral:"?"};
   const claims=(it.claims||[]).map(c=>
     '<li class="cl '+esc(c.status||"unchecked")+'">'+
@@ -744,14 +823,33 @@ function card(it){
   // prose (a held-back card, where the summary was removed): the scoring
   // block on its own, because "Full summary" would be a promise of something
   // that is not there.
+  //
+  // The label has to follow the same rule. 530 of today's 835 cards are
+  // extractive, carry the "unsummarised" chip whose tooltip reads "No model
+  // summary and no fact-check", and then offered a disclosure labelled "Full
+  // summary and how it was checked" four lines below it. Opening it produced
+  // the article's scraped opening paragraph and no claim list at all, which
+  // is exactly what the chip said. Checked against the data: an extractive
+  // card never has claims and never has a one_liner, so the shorter label is
+  // not hiding anything.
+  const detailLabel = it.summary_source==="extract"
+    ? "The article’s opening lines"
+    : "Full summary and how it was checked";
   const detail = prose
-    ? '<details><summary>Full summary and how it was checked</summary>'+
+    ? '<details><summary>'+detailLabel+'</summary>'+
       prose+scoreBlock+'</details>'
     : scoreBlock;
 
+  // Rail order is rarest first, because the rail is read left to right and
+  // the reader is scanning for the few cards that matter. Today's counts:
+  // critical 5, not published 26, unverified 160, new 464, unsummarised 530.
+  // "new" used to lead, so on the five cards that are both critical and new
+  // the first thing the eye met was the chip shared with 463 others, and
+  // "critical" sat third. Sorted by how much each chip narrows the page,
+  // the loudest position now belongs to the rarest signal.
   return '<article class="'+esc(it.priority)+'">'+
     (pri||vd||isNew||held||raw
-      ? '<div class="rail">'+isNew+held+pri+vd+raw+'</div>' : "")+
+      ? '<div class="rail">'+pri+held+vd+isNew+raw+'</div>' : "")+
     '<h3><a href="'+esc(it.sources[0].url)+'" target="_blank" rel="noopener">'+
       hl(it.title)+'</a></h3>'+
     (it.bottom_line?'<p class="deck">'+hl(it.bottom_line)+'</p>':"")+
@@ -952,6 +1050,14 @@ function paintApplied(count){
   if(x) x.onclick=()=>clearAll();
 }
 
+// The stylesheet honours prefers-reduced-motion, but scroll-behavior set in
+// CSS only governs scrolls that ask for "auto"; an explicit behavior:"smooth"
+// in script wins over it. The three scripted scrolls on this page all passed
+// "smooth" literally, so the one accessibility preference the page can read
+// was the one thing still animating for readers who had switched it off.
+const REDUCED=window.matchMedia("(prefers-reduced-motion:reduce)");
+const easing=()=>REDUCED.matches?"auto":"smooth";
+
 function toTop(){
   if(window.scrollY>0) window.scrollTo({top:0, behavior:"auto"});
 }
@@ -1027,7 +1133,7 @@ function draw(){
     const first=shown;            // keep the reader's place
     shown+=PAGE; draw();
     const cards=document.querySelectorAll("article");
-    if(cards[first]) cards[first].scrollIntoView({block:"start",behavior:"smooth"});
+    if(cards[first]) cards[first].scrollIntoView({block:"start",behavior:easing()});
   };
   drawTags(items);
 }
@@ -1056,14 +1162,24 @@ const FOCUS=[["cve","CVEs"],["threat-actor","Threat actors"],
              ["bugbounty","Bug bounty"],["writeup","Write-ups"],
              ["tool","Tools"],["howto","How-to"]];
 
-function drawFocus(){
-  const box=document.getElementById("focus");
-  if(!box) return;
-  // Counted against everything EXCEPT the focus tags themselves, so the
-  // numbers say what each one would add rather than what survives the
-  // selection already made.
-  const base=DATA.items.filter(it=>{
+// The population every facet count is measured against: everything the reader
+// has already narrowed to, EXCEPT the tags themselves, so each number says
+// what that chip would still leave rather than what survives a selection
+// already made.
+//
+// The focus row computed this; the tag drawer counted against the category
+// alone, although the comment above it promised "the facets never offer a
+// filter that would return nothing". With "need attention" pressed — five
+// stories — the drawer still offered "ai 343" and "research 234", and either
+// one emptied the page. One base now feeds both, so the two rows of facets
+// can no longer disagree about what is on screen.
+//
+// Search is deliberately excluded. Recounting 36 chips on every keystroke
+// would make the drawer reflow under the reader's hand while they type.
+function facetBase(){
+  return DATA.items.filter(it=>{
     if(cat!=="all" && it.category!==cat) return false;
+    if(onlyNew && !it.is_new) return false;
     if(flag && FLAGS[flag] && !FLAGS[flag](it)) return false;
     const lim=AGES[age] && AGES[age].hours;
     if(lim){
@@ -1072,6 +1188,12 @@ function drawFocus(){
     }
     return true;
   });
+}
+
+function drawFocus(){
+  const box=document.getElementById("focus");
+  if(!box) return;
+  const base=facetBase();
   const rows=FOCUS
     .map(([t,label])=>[t,label,base.filter(i=>(i.tags||[]).includes(t)).length])
     .filter(r=>r[2]>0);
@@ -1084,8 +1206,7 @@ function drawFocus(){
 
 function drawTags(visible){
   const counts={};
-  for(const it of DATA.items){
-    if(cat!=="all" && it.category!==cat) continue;
+  for(const it of facetBase()){
     for(const t of it.tags||[]) counts[t]=(counts[t]||0)+1;
   }
   const ordered=Object.entries(counts).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
@@ -1158,15 +1279,23 @@ function boot(d){
   DATA=d;
   readState();
   document.getElementById("q").value = query;
-  const c=d.counts;
   document.getElementById("meta").innerHTML=updateLine(d);
   // Plain language, and only counts that are actually meaningful. "Blocked at
   // the gate" was internal jargon that meant nothing to a reader. Each count
   // is a button that filters to exactly the stories it counts — a number you
   // cannot open is a number you cannot check.
-  const stat=(n,label,title,f)=>
+  // Every count is derived from the very predicate that will filter the page
+  // when it is clicked, rather than read out of news.json's `counts` block.
+  // Those two had drifted: counts.new said 450 because the pipeline tallies
+  // new stories among the PUBLISHED ones, while FLAGS.new matches every
+  // is_new item including the 14 that were held back — so the button read
+  // "450 new today" and the bar under it answered "464 of 835". A number you
+  // can click has to be the number you get, or checking it once teaches the
+  // reader to trust none of them.
+  const nFlag=f=>d.items.filter(FLAGS[f]).length;
+  const stat=(label,title,f)=>
     '<button class="stat" data-flag="'+esc(f)+'" title="'+esc(title)+'"'+
-    ' aria-pressed="'+(flag===f)+'"><b>'+n+'</b> '+label+'</button>';
+    ' aria-pressed="'+(flag===f)+'"><b>'+nFlag(f)+'</b> '+label+'</button>';
   document.getElementById("stats").innerHTML=
     // Today's haul leads. It is the one number that answers "is there
     // anything I have not already read", which is why the page is open.
@@ -1174,17 +1303,17 @@ function boot(d){
       esc("Stories that were not on this page after any previous run. Zero is "
           +"a real answer: it means today's harvest found nothing the last "
           +"run had not already published.")+'" aria-pressed="'+(flag==="new")+
-      '"><b>'+(c.new||0)+'</b> new today</button>'+
-    stat(c.published,"stories","Passed the checks and published normally",
+      '"><b>'+nFlag("new")+'</b> new today</button>'+
+    stat("stories","Passed the checks and published normally",
          "published")+
-    stat(c.critical,"need attention",
+    stat("need attention",
          "Highest priority — worth acting on today","critical")+
-    stat(c.verified||0,"verified",
+    stat("verified",
          "Backed by an official source (CISA, a CVE record, a vendor advisory) "
          +"or reported independently by 3+ outlets","verified")+
-    stat(c.corroborated||0,"corroborated",
+    stat("corroborated",
          "Two independent outlets report the same story","corroborated")+
-    stat(c.rejected,"not published",
+    stat("not published",
          "Refused before publishing: either too old for the window, or a "
          +"sentence in the summary could not be traced back to its source "
          +"article. They are on the page, marked, with the reason on each "
@@ -1291,7 +1420,7 @@ function boot(d){
   document.getElementById("feed").addEventListener("click",e=>{
     const b=e.target.closest("button.tag"); if(!b) return;
     activeTags.clear(); activeTags.add(b.dataset.tag);
-    window.scrollTo({top:0,behavior:"smooth"}); draw();
+    window.scrollTo({top:0,behavior:easing()}); draw();
   });
 
   let timer;
@@ -1371,7 +1500,7 @@ function boot(d){
     all.forEach(c=>c.classList.remove("cursor"));
     const el=all[cursor];
     el.classList.add("cursor");
-    el.scrollIntoView({block:"center",behavior:"smooth"});
+    el.scrollIntoView({block:"center",behavior:easing()});
   }
   document.addEventListener("keydown",e=>{
     const typing = /^(INPUT|TEXTAREA)$/.test(e.target.tagName);
