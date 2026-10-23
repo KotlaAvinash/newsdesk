@@ -23,6 +23,7 @@ import html
 import re
 import ssl
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
@@ -62,6 +63,10 @@ _TAG = re.compile(r"<[^>]+>")
 _BR = re.compile(r"<br\s*/?>", re.I)
 
 # Hosts that only ever redirect. Their domain says nothing about the source.
+# Shorteners chain at most a couple of times in practice; past that it is
+# either a loop or someone being clever.
+_MAX_HOPS = 3
+
 SHORTENERS = {"ift.tt", "bit.ly", "buff.ly", "t.co", "dlvr.it", "ow.ly",
               "tinyurl.com", "lnkd.in", "trib.al", "shorturl.at", "rb.gy"}
 
@@ -180,14 +185,43 @@ def _resolve_short(url: str, ua: str, timeout: int) -> str:
     host = (urlsplit(url).hostname or "").lower().removeprefix("www.")
     if host not in SHORTENERS:
         return url
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": ua},
-                                     method="HEAD")
-        with urllib.request.urlopen(req, timeout=timeout, context=_SSL) as resp:
-            final = resp.geturl()
-        return final if netguard.is_safe(final, resolve_dns=False) else url
-    except Exception:
-        return url
+    # Check EVERY hop before following it, and never let urllib follow one on
+    # its own. The old version let urlopen chase the whole redirect chain and
+    # only inspected the final URL afterwards — with resolve_dns=False, so a
+    # scheme check and nothing more. By then the request had already been
+    # made: a shortener pointing at http://169.254.169.254/ (or any host on
+    # the LAN) was fetched first and vetted second, which is the wrong order
+    # for the one thing netguard exists to prevent. The surviving link was
+    # then published as the card's destination.
+    #
+    # Unlike stage 3, there is no library guard underneath this — trafilatura
+    # vets peers post-connect on every hop, urllib does not — so the check has
+    # to be here.
+    class _NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, req, fp, code, msg, headers, newurl):
+            return None            # stop; the caller inspects Location itself
+
+    opener = urllib.request.build_opener(_NoRedirect)
+    seen = 0
+    while seen <= _MAX_HOPS:
+        reason = netguard.check(url)
+        if reason:
+            log("telegram", f"! refusing redirect to {url[:48]}: {reason}")
+            return ""
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": ua},
+                                         method="HEAD")
+            with opener.open(req, timeout=timeout) as resp:
+                return url                      # 2xx: this is the destination
+        except urllib.error.HTTPError as exc:
+            nxt = exc.headers.get("Location") if 300 <= exc.code < 400 else None
+            if not nxt:
+                return url
+            url = urllib.parse.urljoin(url, nxt)
+            seen += 1
+        except Exception:
+            return url
+    return url
 
 
 def _parse(block: str) -> tuple[str, str | None]:

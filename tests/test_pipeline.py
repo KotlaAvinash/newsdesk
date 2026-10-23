@@ -859,6 +859,79 @@ class TestExtractionDoesNotParseConcurrently:
         assert s3_extract._parse("") == ""
 
 
+class TestExtractionHonoursItsOwnTimeout:
+    """harvest.timeout_seconds was threaded all the way down to _download and
+    then dropped — fetch_url ran with no config, so every request used
+    trafilatura's DEFAULT_CONFIG instead. Measured on 2.3.1 that default is
+    30s, double what this project configures, and at extract.max_items 1400
+    over 8 workers the difference is ~87 minutes of timeouts against a
+    75-minute workflow cap."""
+
+    def test_the_configured_timeout_reaches_trafilatura(self):
+        from pipeline.s3_extract import _traf_config
+        assert _traf_config(15).get("DEFAULT", "DOWNLOAD_TIMEOUT") == "15"
+        assert _traf_config(7).get("DEFAULT", "DOWNLOAD_TIMEOUT") == "7"
+
+    def test_ssrf_protection_is_pinned_on_not_merely_defaulted(self):
+        """trafilatura vets the peer address AFTER connecting, on every hop,
+        so a feed link redirecting to the metadata endpoint is refused even
+        though netguard only saw the first URL. Verified against a private
+        address that was actually listening: on -> blocked, off -> 78,345
+        bytes. That makes it load-bearing, so it is asserted rather than
+        left to a library default that could change."""
+        from pipeline.s3_extract import _traf_config
+        assert _traf_config(15).get("DEFAULT", "SSRF_PROTECTION") == "on"
+
+    def test_download_passes_the_config_through(self):
+        import inspect
+        from pipeline import s3_extract
+        src = inspect.getsource(s3_extract._download)
+        code = " ".join(l.split("#")[0] for l in src.splitlines())
+        assert "config=" in code, "fetch_url called without a config again"
+
+
+class TestShortenerRedirectsAreVettedPerHop:
+    """_resolve_short let urlopen chase the whole redirect chain and only
+    inspected the final URL afterwards, with resolve_dns=False — a scheme
+    check and nothing more. By then the request had been made. Unlike stage
+    3 there is no library guard underneath this one."""
+
+    def test_a_redirect_into_link_local_space_is_never_fetched(self, monkeypatch):
+        import urllib.error, urllib.request
+        from pipeline import s1d_telegram as T
+        seen = []
+
+        def fake_open(self, req, timeout=None):
+            seen.append(req.full_url)
+            raise urllib.error.HTTPError(
+                req.full_url, 302, "Found",
+                {"Location": "http://169.254.169.254/latest/meta-data/"}, None)
+
+        monkeypatch.setattr(urllib.request.OpenerDirector, "open", fake_open)
+        out = T._resolve_short("https://bit.ly/abc", "ua", 5)
+        assert not any("169.254" in u for u in seen), (
+            f"metadata endpoint was requested: {seen}")
+        assert seen == ["https://bit.ly/abc"]
+        # Empty is correct: the caller's netguard.is_safe("") is False, so the
+        # post is dropped rather than published with a poisoned link.
+        assert out == ""
+
+    def test_a_redirect_chain_is_bounded(self, monkeypatch):
+        import urllib.error, urllib.request
+        from pipeline import s1d_telegram as T
+        seen = []
+
+        def fake_open(self, req, timeout=None):
+            seen.append(req.full_url)
+            raise urllib.error.HTTPError(
+                req.full_url, 302, "Found",
+                {"Location": f"https://bit.ly/{len(seen)}"}, None)
+
+        monkeypatch.setattr(urllib.request.OpenerDirector, "open", fake_open)
+        T._resolve_short("https://bit.ly/start", "ua", 5)
+        assert len(seen) <= T._MAX_HOPS + 1, f"unbounded chain: {len(seen)}"
+
+
 class TestNoSecretsInRepo:
     def test_env_is_gitignored(self):
         """A key reaching a git remote is the one unrecoverable mistake here."""

@@ -8,6 +8,7 @@ trafilatura is installed.
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from functools import lru_cache
 
 from . import netguard
 from .config import settings
@@ -16,9 +17,41 @@ from .utils import log
 
 try:
     import trafilatura
+    from trafilatura.settings import use_config
     AVAILABLE = True
 except ImportError:                     # pipeline must survive without it
     AVAILABLE = False
+
+
+@lru_cache(maxsize=1)
+def _traf_config(timeout: int):
+    """trafilatura's own settings, with OUR timeout and SSRF guard pinned.
+
+    `harvest.timeout_seconds` was threaded all the way down to _download and
+    then dropped on the floor — fetch_url was called with no config at all,
+    so every request used trafilatura's DEFAULT_CONFIG instead. Measured
+    against 2.3.1: DOWNLOAD_TIMEOUT is 30, double the 15 this project
+    configures. Proven by timing a connect to a non-routable address —
+    3.0s with the config, 21.0s without.
+
+    That gap is the difference between a slow day and a lost one. At
+    extract.max_items 1400 over 8 workers, 175 serial fetches per worker at
+    30s each is ~87 minutes of timeouts alone, past the workflow's 75-minute
+    cap — the job is killed and the whole run discarded.
+
+    SSRF_PROTECTION is pinned on rather than merely left at its default.
+    trafilatura 2.3.1 installs a pool whose connections vet the peer address
+    AFTER connecting, on every hop, so a feed link that redirects to the
+    cloud metadata endpoint is refused even though netguard only ever saw
+    the first URL — and post-connect vetting also closes the DNS-rebinding
+    window netguard's pre-connect resolve leaves open. Verified both ways
+    against a private address that was actually listening: on -> blocked,
+    off -> 78,345 bytes. It is load-bearing, so it is written down.
+    """
+    cfg = use_config()
+    cfg.set("DEFAULT", "DOWNLOAD_TIMEOUT", str(timeout))
+    cfg.set("DEFAULT", "SSRF_PROTECTION", "on")
+    return cfg
 
 
 def _download(url: str, timeout: int) -> str:
@@ -30,7 +63,7 @@ def _download(url: str, timeout: int) -> str:
     if reason:
         log("extract", f"! refusing {url[:52]}: {reason}")
         return ""
-    return trafilatura.fetch_url(url) or ""
+    return trafilatura.fetch_url(url, config=_traf_config(timeout)) or ""
 
 
 def _parse(html: str) -> str:
