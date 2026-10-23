@@ -23,7 +23,7 @@ import json
 import time
 from datetime import datetime, timezone
 
-from .config import CACHE_DIR, settings
+from .config import CACHE_DIR, settings, writes_enabled
 from .utils import log
 
 USAGE_PATH = CACHE_DIR / "usage.json"
@@ -438,7 +438,8 @@ class Budget:
         day[tier.model] = tier.used_today          # "_blocked" key is preserved
         for old in sorted(self._data)[:-14]:       # keep a fortnight
             self._data.pop(old, None)
-        USAGE_PATH.write_text(json.dumps(self._data, indent=2), encoding="utf-8")
+        if writes_enabled():
+            USAGE_PATH.write_text(json.dumps(self._data, indent=2), encoding="utf-8")
 
     def cool(self, tier: ModelBudget, why: str, seconds: float = 45.0) -> None:
         """Bench a model briefly instead of retiring it for the run.
@@ -484,7 +485,8 @@ class Budget:
             fails = day.setdefault("_failed", {})
             if isinstance(fails, dict):
                 fails[tier.model] = fails.get(tier.model, 0) + 1
-                USAGE_PATH.write_text(json.dumps(self._data, indent=2),
+                if writes_enabled():
+                    USAGE_PATH.write_text(json.dumps(self._data, indent=2),
                                       encoding="utf-8")
         except Exception:
             pass          # accounting must never break a run
@@ -508,7 +510,8 @@ class Budget:
         if persist:
             day = self._data.setdefault(_today(), {})
             day.setdefault("_blocked", []).append(tier.model)
-            USAGE_PATH.write_text(json.dumps(self._data, indent=2), encoding="utf-8")
+            if writes_enabled():
+                USAGE_PATH.write_text(json.dumps(self._data, indent=2), encoding="utf-8")
             log("budget", f"  {tier.model} stays blocked for the rest of the UTC day")
 
     # --- reporting -------------------------------------------------------

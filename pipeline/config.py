@@ -149,6 +149,26 @@ def clean_secret(value: str | None, name: str = "secret") -> str | None:
     return cleaned or None
 
 
+# --dry-run promises "run everything, write nothing". It was only ever
+# honoured by stage 7 and stage 8: the summariser still called the API and
+# still wrote summaries.json, and Budget still wrote usage.json on every
+# call. So reproducing a bug with --dry-run spent the day's free-tier quota
+# and left the counters claiming it had been spent by the real run, which
+# then started from a stale number. _tally already fixed its own instance of
+# this; these are the rest. One flag, set once, consulted by every writer.
+WRITES_ENABLED = True
+
+
+def set_dry_run() -> None:
+    """Switch off every cache write and every paid API call for this process."""
+    global WRITES_ENABLED
+    WRITES_ENABLED = False
+
+
+def writes_enabled() -> bool:
+    return WRITES_ENABLED
+
+
 def api_key() -> str | None:
     """LLM key: real environment first, then .env. Never from committed config."""
     name = settings()["llm"]["api_key_env"]

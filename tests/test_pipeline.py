@@ -995,6 +995,59 @@ class TestSummaryCacheEvictsWhatIsUnused:
         assert len(cache) == S.CACHE_MAX
 
 
+class TestDryRunWritesNothingAndSpendsNothing:
+    """run.py documents --dry-run as "run everything, write nothing". Only
+    stages 7 and 8 honoured it: the summariser still called the API and
+    still wrote summaries.json, and Budget still wrote usage.json on every
+    call. Reproducing a bug with --dry-run therefore spent the day's
+    free-tier quota AND left the counters claiming the real run had spent
+    it, so the scheduled run started from a stale number."""
+
+    def test_the_flag_gates_every_cache_write(self, tmp_path, monkeypatch):
+        import json
+        from pipeline import config, budget as B, s5_summarize as S
+        usage = tmp_path / "usage.json"
+        summaries = tmp_path / "summaries.json"
+        usage.write_text("{}", encoding="utf-8")
+        summaries.write_text("{}", encoding="utf-8")
+        monkeypatch.setattr(B, "USAGE_PATH", usage)
+        monkeypatch.setattr(S, "SUMMARY_CACHE", summaries)
+        monkeypatch.setattr(config, "WRITES_ENABLED", False)
+
+        bud = B.Budget()
+        bud.record(bud.tiers[0])
+        bud.cool(bud.tiers[0], "503")
+        S._save_cache({"k": {"summary": "x"}})
+
+        assert usage.read_text(encoding="utf-8") == "{}", "usage.json written"
+        assert summaries.read_text(encoding="utf-8") == "{}", "cache written"
+
+    def test_writes_resume_when_the_flag_is_on(self, tmp_path, monkeypatch):
+        """The guard must not be a permanent off switch."""
+        from pipeline import config, s5_summarize as S
+        f = tmp_path / "summaries.json"
+        monkeypatch.setattr(S, "SUMMARY_CACHE", f)
+        monkeypatch.setattr(config, "WRITES_ENABLED", True)
+        S._save_cache({"k": {"summary": "x"}})
+        assert f.exists() and "summary" in f.read_text(encoding="utf-8")
+
+    def test_no_api_call_is_attempted(self, monkeypatch):
+        """Falls back to extractive rather than spending quota."""
+        from pipeline import config, s5_summarize as S
+        from pipeline.models import Item, Priority, Verdict
+        monkeypatch.setattr(config, "WRITES_ENABLED", False)
+
+        def explode(*a, **k):
+            raise AssertionError("an API call was attempted during a dry run")
+        monkeypatch.setattr(S, "api_key", explode)
+
+        items = [Item(cluster_key="k", title="A flaw", category="cyber_attacks",
+                      priority=Priority.IMPORTANT, verdict=Verdict.ESTABLISHED)]
+        out = S.run(items, {"k": "A critical vulnerability was disclosed "
+                                 "today and is being exploited widely."})
+        assert out[0].summary_source == "extract"
+
+
 class TestNoSecretsInRepo:
     def test_env_is_gitignored(self):
         """A key reaching a git remote is the one unrecoverable mistake here."""

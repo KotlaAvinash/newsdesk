@@ -182,6 +182,12 @@ def main() -> int:
     ap.add_argument("--quiet", action="store_true", help="no console render")
     args = ap.parse_args()
 
+    if args.dry_run:
+        # Before anything imports a Budget or loads a cache.
+        from pipeline.config import set_dry_run
+        set_dry_run()
+        log("run", "DRY RUN - no disk writes, no API calls")
+
     if args.update_blocklist:
         update_blocklist()
         return 0

@@ -22,7 +22,7 @@ import json
 import re
 from pathlib import Path
 
-from .config import CACHE_DIR, api_key, interests, settings
+from .config import CACHE_DIR, api_key, interests, settings, writes_enabled
 from . import tagging
 from .budget import Budget
 from .models import Claim, Item, Verdict
@@ -78,6 +78,8 @@ def _save_cache(cache: dict[str, dict]) -> None:
     if len(cache) > CACHE_MAX:
         for key in list(cache)[:len(cache) - CACHE_MAX]:
             del cache[key]
+    if not writes_enabled():
+        return
     SUMMARY_CACHE.write_text(json.dumps(cache, ensure_ascii=False),
                              encoding="utf-8")
 
@@ -554,6 +556,9 @@ def run(items: list[Item], bodies: dict[str, str],
         return _fallback_all(items, bodies,
                              f"provider=none — extractive fallback for {len(items)} items")
 
+    if not writes_enabled():
+        return _fallback_all(items, bodies,
+                             "dry run - extractive, no API calls, no cache write")
     key = api_key()
     if not key:
         return _fallback_all(
