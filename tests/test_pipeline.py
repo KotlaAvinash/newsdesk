@@ -2169,3 +2169,277 @@ class TestSlicedTierIsNotOverdrawn:
             "a tier with one call left cannot serve a 20-item batch")
         # ...but it is still fine for a batch it can actually cover.
         assert b.next_model("premium", sliced.batch_size) is sliced
+
+
+class TestFeedShipsTheWholeArticle:
+    """Atom feeds put the article in <content> and a teaser in <summary>,
+    and only <summary> was read — so stage 3 spent an HTTP request
+    re-downloading text already sitting in the harvest response. Measured
+    across the 120 feeds in the registry on 2026-10-22: 938 entries ship a
+    <content> block of 1000+ characters, 107 of them cluster leads."""
+
+    def test_content_is_preferred_over_summary_as_the_body(self):
+        from pipeline.s1_harvest import _feed_text
+        blurb, full = _feed_text({"summary": "teaser",
+                                  "content": [{"value": "x" * 4000}]})
+        assert blurb == "teaser", "the card blurb stays the feed teaser"
+        assert len(full) == 4000, "the body must be the <content> block"
+
+    def test_a_short_content_block_is_not_trusted_as_the_article(self):
+        """Below the floor it is a teaser and the article still has to be
+        fetched: 11 of 25 leads whose feed block was 400-999 chars went on
+        to fetch a body over 2000 chars."""
+        from pipeline.s1_harvest import _feed_text, FULL_TEXT_MIN_CHARS
+        _, full = _feed_text(
+            {"summary": "s",
+             "content": [{"value": "x" * (FULL_TEXT_MIN_CHARS - 1)}]})
+        assert full == ""
+
+    def test_content_only_entries_still_get_a_blurb(self):
+        """Some feeds carry no <summary> at all. Those entries used to end up
+        with an EMPTY summary_raw, so a card whose fetch failed showed
+        nothing whatsoever."""
+        from pipeline.s1_harvest import _feed_text
+        blurb, full = _feed_text({"content": [{"value": "y" * 4000}]})
+        assert len(blurb) == 1200, "blurb stays capped"
+        assert len(full) == 4000
+
+    def test_markup_never_survives_into_either_field(self):
+        from pipeline.s1_harvest import _feed_text
+        blurb, full = _feed_text(
+            {"content": [{"value": "<p>hello</p><script>evil()</script>"
+                                   + "z" * 2000}]})
+        assert "<" not in blurb and "evil()" not in blurb
+        assert "<" not in full and "evil()" not in full
+
+    def test_the_longest_content_block_wins(self):
+        from pipeline.s1_harvest import _feed_text
+        _, full = _feed_text({"content": [{"value": "a" * 1100},
+                                          {"value": "b" * 3000}]})
+        assert full.startswith("b") and len(full) == 3000
+
+    def test_blurb_cap_is_unchanged_so_stage_4_scoring_is_unchanged(self):
+        """Stage 4 keyword-scans summary_raw. Letting a 20,000-character
+        article in through that field would silently change scoring, which
+        is why the full text goes to body instead."""
+        from pipeline.s1_harvest import _feed_text
+        blurb, _ = _feed_text({"summary": "s" * 9000,
+                               "content": [{"value": "c" * 9000}]})
+        assert len(blurb) == 1200
+
+
+class TestExtractionSpendsNoRequestItCannotUse:
+    """The whole extraction problem, measured on a frozen harvest of
+    1,168 cluster leads (2026-10-22):
+
+        google news links   315 targets    0 bodies    0.0%
+        everything else     853 targets  810 bodies   95.0%
+
+    315 of the 358 failures were a redirect stub that cannot contain an
+    article. Resolving the token first extracted 184 of 200 (92%)."""
+
+    GNEWS = ("https://news.google.com/rss/articles/"
+             "CBMiowFBVV95cUxQb01tdHB5MzNheF85bTVjQjBs")
+
+    def _one(self, art):
+        return [Cluster(key=art.uid, articles=[art])]
+
+    def test_an_article_that_already_has_its_text_is_not_fetched(self, monkeypatch):
+        from pipeline import s3_extract
+        art = _art("feed shipped this one")
+        art.body = "already full text " * 80
+        called = []
+        monkeypatch.setattr(s3_extract, "_download",
+                            lambda url, timeout: called.append(url) or "")
+        s3_extract.run(self._one(art))
+        assert called == [], "stage 3 re-fetched an article it already had"
+        assert art.body.startswith("already full text")
+
+    def test_an_unresolved_google_news_link_is_not_fetched(self, monkeypatch):
+        from pipeline import s3_extract
+        art = _art("wrapped story", domain="example.com")
+        art.url = self.GNEWS
+        art.summary_raw = "a short blurb"
+        monkeypatch.setattr(s3_extract, "_resolve_aggregator_links",
+                            lambda targets, limit: {})
+        called = []
+        monkeypatch.setattr(s3_extract, "_download",
+                            lambda url, timeout: called.append(url) or "")
+        s3_extract.run(self._one(art))
+        assert called == [], "fetched a redirect stub that has never worked"
+        assert art.body == "a short blurb"
+
+    def test_a_resolved_google_news_link_is_fetched_at_the_publisher(self, monkeypatch):
+        from pipeline import s3_extract
+        art = _art("wrapped story", domain="example.com")
+        art.url = self.GNEWS
+        real = "https://example.com/the-actual-article"
+        monkeypatch.setattr(s3_extract, "_resolve_aggregator_links",
+                            lambda targets, limit: {art.url: real})
+        called = []
+        monkeypatch.setattr(s3_extract, "_download",
+                            lambda url, timeout: called.append(url) or "")
+        monkeypatch.setattr(s3_extract, "_parse", lambda html: "")
+        s3_extract.run(self._one(art))
+        assert called == [real], f"fetched {called}, not the publisher url"
+
+    def test_resolving_never_rewrites_the_article_url(self, monkeypatch):
+        """uid is a hash of the url and the seen store is keyed on it, so
+        swapping in the publisher url here would make every previously
+        published Google News item look new."""
+        from pipeline import s3_extract
+        art = _art("wrapped story", domain="example.com")
+        art.url = self.GNEWS
+        before = art.url, art.uid
+        monkeypatch.setattr(s3_extract, "_resolve_aggregator_links",
+                            lambda targets, limit:
+                            {art.url: "https://example.com/real"})
+        monkeypatch.setattr(s3_extract, "_download", lambda url, timeout: "")
+        s3_extract.run(self._one(art))
+        assert (art.url, art.uid) == before
+
+    def test_a_skip_domain_is_never_fetched(self, monkeypatch):
+        from pipeline import s3_extract
+        from pipeline.config import settings
+        dead = settings()["extract"]["skip_domains"][0]
+        art = _art("walled off", domain=dead)
+        art.url = f"https://www.{dead}/story"
+        art.summary_raw = "blurb"
+        called = []
+        monkeypatch.setattr(s3_extract, "_download",
+                            lambda url, timeout: called.append(url) or "")
+        s3_extract.run(self._one(art))
+        assert called == [], f"fetched {dead}, which is on the skip list"
+        assert art.body == "blurb"
+
+    def test_a_skip_domain_is_not_even_resolved(self, monkeypatch):
+        """A Google News entry already knows its publisher from the title, so
+        a wall we have measured can be honoured without first spending the
+        two resolution requests. Worth 108 requests a run on Reuters."""
+        from pipeline import s3_extract
+        from pipeline.config import settings
+        dead = settings()["extract"]["skip_domains"][0]
+        art = _art("walled off", domain=dead)
+        art.url = self.GNEWS
+        asked = []
+        monkeypatch.setattr(s3_extract, "_resolve_aggregator_links",
+                            lambda targets, limit: asked.append(targets) or {})
+        monkeypatch.setattr(s3_extract, "_download", lambda url, timeout: "")
+        s3_extract.run(self._one(art))
+        assert asked and asked[0] == [], (
+            "a skip-list domain was sent for link resolution anyway")
+
+    def test_link_resolution_failing_does_not_break_the_stage(self, monkeypatch):
+        """It scrapes Google's own front-end endpoint. When that changes the
+        run must degrade to blurbs, not die."""
+        from pipeline import gnews, s3_extract
+
+        def boom(urls):
+            raise RuntimeError("endpoint moved")
+
+        monkeypatch.setattr(gnews, "resolve_many", boom)
+        art = _art("wrapped", domain="example.com")
+        art.url = self.GNEWS
+        art.summary_raw = "blurb"
+        monkeypatch.setattr(s3_extract, "_download", lambda url, timeout: "")
+        s3_extract.run(self._one(art))
+        assert art.body == "blurb"
+
+
+class TestFetchOrderIsSpreadAcrossHosts:
+    """Ranking the targets lines one host's articles up consecutively, and
+    eight workers then hit it with a burst. Measured on the same harvest,
+    ranked but not spread: ndtv.com 20/20 bodies -> 0/20, exploit-db.com
+    7/7 -> 0/7, technologyreview.com 5/5 -> 0/5. 45 articles lost, not one
+    of them a failure of the extractor."""
+
+    def test_consecutive_requests_go_to_different_hosts(self):
+        from pipeline.s3_extract import _spread
+        pairs = ([(f"a{i}", f"https://a.com/{i}") for i in range(3)] +
+                 [(f"b{i}", f"https://b.com/{i}") for i in range(3)])
+        hosts = [url.split("/")[2] for _, url in _spread(pairs)]
+        assert all(x != y for x, y in zip(hosts, hosts[1:])), hosts
+
+    def test_each_host_keeps_its_own_ranking(self):
+        from pipeline.s3_extract import _spread
+        pairs = [("best", "https://a.com/1"), ("worst", "https://a.com/2"),
+                 ("other", "https://b.com/1")]
+        order = [k for k, _ in _spread(pairs) if k in ("best", "worst")]
+        assert order == ["best", "worst"]
+
+    def test_nothing_is_dropped_or_duplicated(self):
+        from pipeline.s3_extract import _spread
+        pairs = [(i, f"https://h{i % 4}.com/{i}") for i in range(37)]
+        assert sorted(_spread(pairs)) == sorted(pairs)
+
+
+class TestVulnRecordsNeedNoFetch:
+    def test_kev_and_nvd_articles_arrive_with_their_text(self):
+        """All four leads pointing at nvd.nist.gov/vuln/detail/ returned the
+        same 2,453-byte 'enable JavaScript' shell and extracted to nothing,
+        while the JSON API had already supplied the description."""
+        import inspect
+        from pipeline import s1e_vulns
+        for fn in (s1e_vulns._kev, s1e_vulns._nvd):
+            src = inspect.getsource(fn)
+            assert "body=" in src, (
+                f"{fn.__name__} must set body, or stage 3 fetches a JS shell")
+
+
+class TestExtractSettingsAreSane:
+    def test_the_new_knobs_exist_and_have_usable_values(self):
+        from pipeline.config import settings
+        ex = settings()["extract"]
+        assert ex["max_link_resolutions"] >= 0
+        assert ex["max_seconds"] > 60, "a tight budget would cut a healthy run"
+        assert isinstance(ex["skip_domains"], list)
+
+    def test_skip_domains_are_bare_hosts(self):
+        """They are compared against domain_of(url), which is lowercase and
+        carries no scheme, no www. and no path."""
+        from pipeline.config import settings
+        for d in settings()["extract"]["skip_domains"]:
+            assert d == d.lower().strip()
+            assert "/" not in d and not d.startswith("www.")
+
+    def test_no_feed_in_the_registry_is_on_the_skip_list(self):
+        """Skipping a host whose own feed we harvest would mean fetching the
+        feed and then refusing to read any of its articles."""
+        from pipeline.config import feeds, settings
+        from pipeline.utils import domain_of
+        dead = set(settings()["extract"]["skip_domains"])
+        for cat, specs in feeds().items():
+            for s in specs:
+                assert domain_of(s["url"]) not in dead, (
+                    f"{s['name']} feeds a skipped host")
+
+
+class TestFeedRegistryHygiene:
+    def test_no_duplicate_feed_urls(self):
+        from pipeline.config import feeds
+        seen = {}
+        for cat, specs in feeds().items():
+            for s in specs:
+                assert s["url"] not in seen, (
+                    f"{s['name']} duplicates {seen.get(s['url'])}")
+                seen[s["url"]] = s["name"]
+
+    def test_nothing_from_the_documented_exclusion_list_was_re_added(self):
+        """feeds.yaml names feeds that must not come back: they 403 to every
+        user-agent, publish nothing dated, or have no RSS at all."""
+        from pipeline.config import feeds
+        banned = ("msrc.microsoft.com", "synacktiv.com", "reddit.com",
+                  "oracle.com", "akamai.com", "hackread.com", "socket.dev",
+                  "outpost24.com", "pentester.land", "hackerone.com",
+                  "bugcrowd.com")
+        urls = " ".join(s["url"].lower()
+                        for specs in feeds().values() for s in specs)
+        for host in banned:
+            assert host not in urls, f"{host} is on the do-not-re-add list"
+
+    def test_a_per_feed_user_agent_is_a_non_empty_string(self):
+        from pipeline.config import feeds
+        for cat, specs in feeds().items():
+            for s in specs:
+                if "user_agent" in s:
+                    assert isinstance(s["user_agent"], str) and s["user_agent"]

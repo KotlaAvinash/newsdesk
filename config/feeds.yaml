@@ -53,7 +53,13 @@ cyber_attacks:
   - {name: "Check Point Research", url: "https://research.checkpoint.com/feed/", tier: B}
   - {name: "Google Threat Intel", url: "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v", tier: B, window_hours: 720}
   - {name: "Sekoia TDR", url: "https://www.sekoia.com/blog/rss.xml", tier: B}
-  - {name: "Huntress", url: "https://www.huntress.com/blog/rss.xml", tier: B}
+  # 403s the global browser user-agent on every attempt and serves the feed
+  # happily to a plain reader one — measured three times on 2026-10-23:
+  # chrome -> 403, 403, 403; plain -> 200 with 742 entries, newest 14h old,
+  # 7 of them inside this category's 96h window. The feed was not dead, the
+  # user-agent was.
+  - {name: "Huntress", url: "https://www.huntress.com/blog/rss.xml", tier: B,
+     user_agent: "newsdesk/0.1 feed reader (+https://github.com/)"}
   - {name: "Red Canary", url: "https://redcanary.com/feed/", tier: B}
   - {name: "Recorded Future", url: "https://www.recordedfuture.com/feed", tier: B}
   - {name: "The DFIR Report", url: "https://thedfirreport.com/feed/", tier: B, window_hours: 2160}
@@ -93,7 +99,11 @@ cyber_tools:
   - {name: "Trail of Bits",        url: "https://blog.trailofbits.com/feed/",                         tier: B, window_hours: 504}
   # GitHub tool discovery is not RSS — see the `github:` block in settings.yaml
   - {name: "Elastic Security Labs", url: "https://www.elastic.co/security-labs/rss/feed.xml",        tier: B}
-  - {name: "GitHub Security Lab", url: "https://github.blog/tag/github-security-lab/feed/",          tier: A}
+  # window_hours to match its sibling GitHub Security Blog below, which has
+  # had 720h all along. Without it this feed is invisible: newest entry 571h
+  # old against the category's 168h, so it scored zero on every run while
+  # being perfectly alive.
+  - {name: "GitHub Security Lab", url: "https://github.blog/tag/github-security-lab/feed/",          tier: A, window_hours: 720}
   - {name: "OALabs Research",     url: "https://research.openanalysis.net/feed.xml",                 tier: B, window_hours: 720}
   - {name: "Intigriti Blog", url: "https://blog.intigriti.com/feed/", tier: C}
   - {name: "ProjectDiscovery", url: "https://blog.projectdiscovery.io/rss/", tier: B}
@@ -103,7 +113,10 @@ cyber_tools:
   - {name: "SpecterOps", url: "https://specterops.io/feed/", tier: B, window_hours: 720}
   - {name: "Bishop Fox", url: "https://bishopfox.com/feeds/blog.rss", tier: B, window_hours: 720}
   - {name: "Quarkslab", url: "https://blog.quarkslab.com/feeds/all.rss.xml", tier: B, window_hours: 720}
-  - {name: "Pentest Partners", url: "https://www.pentestpartners.com/feed/", tier: C}
+  # 194h since its newest post against a 168h category window — a fortnightly
+  # blog judged on a weekly clock, so it contributed nothing. 720h is what
+  # every comparable lab in this section already uses.
+  - {name: "Pentest Partners", url: "https://www.pentestpartners.com/feed/", tier: C, window_hours: 720}
   - {name: "StarLabs SG", url: "https://starlabs.sg/blog/index.xml", tier: B, window_hours: 1440}
   - {name: "Shielder", url: "https://www.shielder.com/blog/index.xml", tier: C, window_hours: 2160}
   - {name: "Detectify Labs", url: "https://labs.detectify.com/feed/", tier: C, window_hours: 3600}
@@ -124,13 +137,19 @@ cyber_tools:
   # Measured cadence 2026-08-24 (newest post age): Sonar 12 items inside 30d,
   # PortSwigger 3, Trail of Bits 2, watchTowr 1, Include Security 1;
   # Doyensec 68d, OALabs 69d, Project Zero 103d, Assetnote 949d.
-  # The last four contribute nothing most weeks and that is fine — they cost
-  # one HTTP request and appear the day they publish. Assetnote looks
-  # abandoned rather than slow; kept only because it is free to keep.
+  # The slow ones contribute nothing most weeks and that is fine — they cost
+  # one HTTP request and appear the day they publish.
   # "How they did it" content: disclosed bugs with the methodology attached,
   # not just the announcement that a bug existed. All probed live 2026-08-24.
+  #
+  # REMOVED 2026-10-23: Assetnote Research (blog.assetnote.io/feed.xml).
+  # "Kept only because it is free to keep" stopped being true. The feed
+  # fetches fine — 200, 10 entries — but its newest post is 24,193 hours
+  # old (1,008 days, up from the 949 recorded above), against the 720h
+  # window it was harvested under. It cannot contribute, on any run, until
+  # they publish again; this is arithmetic, not a judgement about the blog.
+  # Not an exclusion: re-add it the day assetnote.io posts something.
   - {name: "watchTowr Labs",      url: "https://labs.watchtowr.com/rss/",                       tier: A, window_hours: 720}
-  - {name: "Assetnote Research",  url: "https://blog.assetnote.io/feed.xml",                    tier: A, window_hours: 720}
   - {name: "Doyensec",            url: "https://blog.doyensec.com/atom.xml",                    tier: A, window_hours: 720}
   - {name: "Include Security",    url: "https://blog.includesecurity.com/feed/",                tier: B, window_hours: 720}
   - {name: "Sonar Research",      url: "https://www.sonarsource.com/blog/rss.xml",              tier: B, window_hours: 720}

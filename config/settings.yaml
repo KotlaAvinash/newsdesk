@@ -77,6 +77,61 @@ extract:
   # argument left for a cap below the number of clusters.
   max_items: 1400
 
+  # Google News links are redirect stubs, and fetching one has NEVER worked.
+  # Measured on a frozen harvest of 2026-10-22 (1,168 cluster leads):
+  #
+  #   gnews links      315 targets    0 bodies    0.0%
+  #   everything else  853 targets  810 bodies   95.0%
+  #
+  # — 315 of the 358 extraction failures, i.e. 88% of the whole problem, and
+  # 315 HTTP requests per run that could not have succeeded.
+  #
+  # Resolving the token to the publisher URL first fixes it: 238/238 tokens
+  # resolved, and extraction on the resolved URL succeeded for 184 of 200
+  # (92%), median body 4,834 characters against an 88-character feed blurb.
+  #
+  # Two requests per resolution, so it is capped. Set just above the measured
+  # 315 so it does not bind at today's volume; it is a ceiling on requests to
+  # one host, not a target. Results land in the same permanent cache stage 7
+  # reads (publish.max_link_resolutions), so a link resolved here costs
+  # stage 7 nothing — the two stages share one resolution instead of paying
+  # for it twice. Anything still unresolved is not fetched at all.
+  max_link_resolutions: 350
+
+  # Hosts that answer, but never with an article. Only goes in with a
+  # measured 0-for-N, because a wrong entry here silently deletes a source.
+  #   arstechnica.com   0/16 in the run; then 0/163 across three user-agents
+  #                     and two further passes. Returns 403 to a plain UA and
+  #                     405 to a browser one. Its feed ships <content> of
+  #                     1000+ chars for about half its entries, which is now
+  #                     used instead, so the good half is not lost.
+  #   nvd.nist.gov      0/4, every one the same 2,453-byte "enable
+  #                     JavaScript" shell. The CVE text already arrives from
+  #                     the KEV/NVD JSON APIs in stage 1e.
+  #   reuters.com       0/54, and the refusal is explicit: HTTP 401 with an
+  #                     identical 771-byte body on every URL, re-probed three
+  #                     times. That is a subscription wall saying no, not a
+  #                     rate limit, so the polite reading is to stop asking.
+  #                     54 fetches plus 108 link resolutions saved per run.
+  #
+  # NOT listed, deliberately: ndtv.com, exploit-db.com, wiz.io,
+  # darkreading.com and medium.com all returned 403 late in the measuring
+  # session after serving 200s earlier the same day — that is this project
+  # being rate-limited for probing them repeatedly, not a permanent wall.
+  # A domain goes in here on a stable refusal, never on one bad afternoon.
+  skip_domains:
+    - arstechnica.com
+    - nvd.nist.gov
+    - reuters.com
+
+  # Wall-clock floor under the stage. The per-URL ceiling is the timeout plus
+  # trafilatura's retry backoff, so a day where many hosts hang is unbounded
+  # in aggregate — and this runs inside a 75-minute workflow that kills the
+  # whole run, publishing nothing, if stage 3 overruns. Degrading to blurbs
+  # beats losing the day. Generous on purpose: a healthy run of 1,168 fetches
+  # measured 74 seconds, so this is a 12x headroom tripwire, not a budget.
+  max_seconds: 900
+
 # When the pipeline is scheduled to run. This is metadata only — the actual
 # schedule lives in .github/workflows/newsdesk.yml and must be kept in step.
 # The site reads it to tell the reader when the page will next refresh, which

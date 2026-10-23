@@ -97,6 +97,14 @@ def _kev(cfg: dict, cutoff: datetime) -> list[Article]:
             tier="A",
             published=added,
             summary_raw=body,
+            # This record IS the artifact — there is no article behind the
+            # link to fetch. Measured 2026-10-22: all four cluster leads
+            # pointing at nvd.nist.gov/vuln/detail/ returned the same
+            # 2,453-byte "enable JavaScript" shell and extracted to nothing,
+            # while the KEV JSON above had already supplied a 937-1,013
+            # character description. Setting body here means stage 3 skips
+            # the fetch instead of making it and discarding the result.
+            body=body,
             is_primary=True,     # inclusion means confirmed exploitation
         ))
     if out:
@@ -147,6 +155,8 @@ def _nvd(cfg: dict, cutoff: datetime, cvss_floor: float,
         except (KeyError, ValueError):
             continue
 
+        record = (f"{desc}\n\nCVSS base score {score} ({severity}). "
+                  f"Published {cve['published'][:10]}.")
         out.append(Article(
             url=f"https://nvd.nist.gov/vuln/detail/{cve_id}",
             title=f"{cve_id} ({severity} {score}): {truncate(desc, 110)}",
@@ -155,8 +165,11 @@ def _nvd(cfg: dict, cutoff: datetime, cvss_floor: float,
             category="cyber_attacks",
             tier="A",
             published=published,
-            summary_raw=f"{desc}\n\nCVSS base score {score} ({severity}). "
-                        f"Published {cve['published'][:10]}.",
+            summary_raw=record,
+            # Same as KEV above: the API response is the artifact and the
+            # detail page is a JavaScript shell, so stage 3 has nothing to
+            # gain by fetching it.
+            body=record,
             is_primary=True,
         ))
     if out:
