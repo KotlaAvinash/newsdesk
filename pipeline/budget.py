@@ -46,9 +46,22 @@ def _today() -> str:
 def _load() -> dict:
     if USAGE_PATH.exists():
         try:
-            return json.loads(USAGE_PATH.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
+            loaded = json.loads(USAGE_PATH.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError, ValueError):
             log("budget", "! usage counter corrupt, starting fresh")
+            return {}
+        # Valid JSON that is not an object gets through json.loads untouched
+        # — a truncated write, a hand edit, a half-committed file from an
+        # interrupted run all produce a list or None. Budget.__init__ then
+        # does self._data.get(_today(), {}) and dies with AttributeError,
+        # which is NOT a JSONDecodeError, taking stage 5 with it after
+        # stages 1-4 have spent their whole network budget. This file is
+        # committed by CI every run, so a bad one is persistent, and
+        # _cold_streak now reads its day history to size strike budgets.
+        if not isinstance(loaded, dict):
+            log("budget", "! usage counter is not an object, starting fresh")
+            return {}
+        return loaded
     return {}
 
 

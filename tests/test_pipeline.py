@@ -932,6 +932,69 @@ class TestShortenerRedirectsAreVettedPerHop:
         assert len(seen) <= T._MAX_HOPS + 1, f"unbounded chain: {len(seen)}"
 
 
+class TestCommittedCachesSurviveCorruption:
+    """All five caches under data/cache/ are committed by CI every run, so a
+    bad one is persistent rather than a one-day problem. _tally already
+    learned that json.loads returns a list, a string or None just as happily
+    for valid-but-not-object input; these two had only a JSONDecodeError
+    guard, which does not catch it."""
+
+    JUNK = ("[]", "null", '"x"', "42", '{"truncated')
+
+    def test_budget_survives_every_junk_shape(self, tmp_path, monkeypatch):
+        """Budget.__init__ does self._data.get(...), which raises
+        AttributeError on a list — not a JSONDecodeError — killing stage 5
+        after stages 1-4 have spent the whole network budget."""
+        from pipeline import budget as B
+        f = tmp_path / "usage.json"
+        monkeypatch.setattr(B, "USAGE_PATH", f)
+        for junk in self.JUNK:
+            f.write_text(junk, encoding="utf-8")
+            assert len(B.Budget().tiers) == 8, junk
+
+    def test_summary_cache_survives_every_junk_shape(self, tmp_path, monkeypatch):
+        """cache[ckey] = ... raises TypeError on a list."""
+        from pipeline import s5_summarize as S
+        f = tmp_path / "summaries.json"
+        monkeypatch.setattr(S, "SUMMARY_CACHE", f)
+        for junk in self.JUNK:
+            f.write_text(junk, encoding="utf-8")
+            assert S._load_cache() == {}, junk
+
+
+class TestSummaryCacheEvictsWhatIsUnused:
+    """The trim was list(cache.items())[-5000:], described as "keep the most
+    recent". Dict order is INSERTION order and re-assigning a key does not
+    move it, so a summary reused every day kept its original position and was
+    evicted as soon as 5,000 newer entries arrived — while 5,000 write-once
+    entries survived. Measured on the committed file: 5,000 entries at the
+    cap, 7.8 MB, only 4,907 distinct payloads."""
+
+    def test_a_reused_entry_survives_the_trim(self, tmp_path, monkeypatch):
+        from pipeline import s5_summarize as S
+        monkeypatch.setattr(S, "SUMMARY_CACHE", tmp_path / "c.json")
+        cache = {"hot": {"v": 1}}
+        for i in range(S.CACHE_MAX + 1000):
+            cache[f"cold{i}"] = {"v": i}
+        S._touch(cache, "hot", "hot")        # what a cache hit does
+        S._save_cache(cache)
+        assert "hot" in cache, "the entry being reused was evicted"
+        assert len(cache) == S.CACHE_MAX
+
+    def test_refiling_under_a_new_key_leaves_no_duplicate(self):
+        from pipeline.s5_summarize import _touch
+        cache = {"oldkey": {"v": 9}}
+        _touch(cache, "oldkey", "newkey")
+        assert list(cache) == ["newkey"], f"duplicate left behind: {list(cache)}"
+
+    def test_the_cap_is_actually_enforced(self, tmp_path, monkeypatch):
+        from pipeline import s5_summarize as S
+        monkeypatch.setattr(S, "SUMMARY_CACHE", tmp_path / "c.json")
+        cache = {f"k{i}": {"v": i} for i in range(S.CACHE_MAX + 500)}
+        S._save_cache(cache)
+        assert len(cache) == S.CACHE_MAX
+
+
 class TestNoSecretsInRepo:
     def test_env_is_gitignored(self):
         """A key reaching a git remote is the one unrecoverable mistake here."""

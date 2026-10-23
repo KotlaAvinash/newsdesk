@@ -29,6 +29,8 @@ from .models import Claim, Item, Verdict
 from .utils import log, truncate
 
 SUMMARY_CACHE = CACHE_DIR / "summaries.json"
+# Entries, not bytes. At ~1.5 KB a summary this is roughly 7.5 MB.
+CACHE_MAX = 5000
 
 
 # ---------------------------------------------------------------- cache ----
@@ -36,17 +38,59 @@ SUMMARY_CACHE = CACHE_DIR / "summaries.json"
 def _load_cache() -> dict[str, dict]:
     if SUMMARY_CACHE.exists():
         try:
-            return json.loads(SUMMARY_CACHE.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
+            loaded = json.loads(SUMMARY_CACHE.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError, ValueError):
             log("summarize", "! summary cache corrupt, starting fresh")
+            return {}
+        # json.loads returns a list, a string or None just as happily for
+        # input that is valid JSON but not an object — a truncated write, a
+        # hand edit, a half-committed file from an interrupted run. The very
+        # next thing done with this is `cache[ckey] = ...`, which raises
+        # TypeError on a list and kills stage 5 after stages 1-4 have already
+        # spent the whole network budget. _tally learned this the hard way;
+        # the same guard belongs here.
+        if not isinstance(loaded, dict):
+            log("summarize", "! summary cache is not an object, starting fresh")
+            return {}
+        return loaded
     return {}
 
 
 def _save_cache(cache: dict[str, dict]) -> None:
-    # Bounded: keep the most recent entries so the file cannot grow forever.
-    trimmed = dict(list(cache.items())[-5000:])
-    SUMMARY_CACHE.write_text(json.dumps(trimmed, ensure_ascii=False),
+    """Bound the cache, evicting what has NOT been used rather than what was
+    written longest ago.
+
+    The trim was `list(cache.items())[-5000:]`, described as "keep the most
+    recent entries". Dict order is INSERTION order, and re-assigning an
+    existing key does not move it, so a summary reused every single day kept
+    its original position and was evicted as soon as 5,000 newer entries
+    arrived — while 5,000 write-once entries survived. Exactly backwards, and
+    every eviction of a hot entry is a summary re-bought tomorrow.
+
+    Measured on the committed file: 5,000 entries, at the cap, 7.8 MB, with
+    only 4,907 distinct payloads — 93 slots spent on duplicates left behind
+    when a cluster re-keyed. A probe re-filing one hot entry behind 6,000
+    cold ones confirmed it did not survive the trim.
+
+    `_touch` now moves an entry to the end on every hit, so the tail really
+    is the least recently used.
+    """
+    if len(cache) > CACHE_MAX:
+        for key in list(cache)[:len(cache) - CACHE_MAX]:
+            del cache[key]
+    SUMMARY_CACHE.write_text(json.dumps(cache, ensure_ascii=False),
                              encoding="utf-8")
+
+
+def _touch(cache: dict[str, dict], old_key: str, new_key: str) -> None:
+    """Re-file a cache hit under the current key, at the END of the order.
+
+    Also drops the old key when it differs, instead of leaving a duplicate
+    behind — that is where the 93 duplicate payloads came from, and each one
+    accelerates the eviction above.
+    """
+    payload = cache.pop(old_key)
+    cache[new_key] = payload
 
 
 def _apply(item: Item, payload: dict, source: str, body: str = "") -> None:
@@ -565,7 +609,10 @@ def run(items: list[Item], bodies: dict[str, str],
                     if k in cache), None)
         if hit:
             _apply(item, cache[hit], "cache", body)
-            cache[ckey] = cache[hit]        # re-file under the current key
+            # Moves it to the END of the order, so the trim in _save_cache
+            # evicts what is genuinely unused rather than what was written
+            # longest ago, and drops the old key instead of duplicating it.
+            _touch(cache, hit, ckey)
             cached += 1
             continue
         pending.append({"id": item.cluster_key, "title": item.title,
