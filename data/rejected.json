@@ -1,65 +1,117 @@
 {
-  "generated_at": "2026-10-25T01:24:06.697004+00:00",
+  "generated_at": "2026-10-26T01:20:50.445102+00:00",
   "items": [
     {
-      "cluster_key": "18d2f324f662423b",
-      "title": "CVE-2026-113877: HTTP::Headers::ActionPack versions before 0.10 for Perl allow CPU exhaustion via Accept-Language ranges matched as regular expressions",
+      "cluster_key": "5949ffc6603764cf",
+      "title": "Cloudflare reported that the number of exploitation attempts for the 'PHP2Shell' vulnerability increased to millions after its disclosure, and has developed and enabled a new firewall for its customers.",
       "category": "cyber_attacks",
-      "one_liner": "Review Perl applications using HTTP::Headers::ActionPack for unescaped Accept-Language parsing to prevent DoS.",
+      "one_liner": "The 'PHP2Shell' vulnerability triggered a massive spike in exploitation attempts immediately following its disclosure, necessitating emergency patches and WAF-level intervention.",
       "tags": [
+        "appsec",
         "cve",
-        "opensource",
+        "exploit",
+        "network",
         "release",
-        "tool",
         "vulnerability"
       ],
-      "summary": "HTTP::Headers::ActionPack versions before 0.10 for Perl contain a CPU exhaustion vulnerability caused by unescaped Accept-Language header ranges being interpolated directly into regular expressions. Because the input is not sanitized, a remote attacker can supply a malicious range like `(a?|b?){26}z` to trigger exponential backtracking or make the parsing function die. Applications that pass untrusted Accept-Language headers to this library are vulnerable to denial of service. The issue is resolved by upgrading to version 0.10 or later.",
+      "summary": "Exploitation attempts for the 'PHP2Shell' vulnerability surged from a few thousand to millions within 12 hours of the vulnerability's public disclosure. The vulnerability, which affects PHP, allows for potential data theft and unauthorized website modification. In response, the PHP Foundation released emergency updates (versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35) on October 21, 2026. Cloudflare developed and enabled a specialized Web Application Firewall (WAF) protection for all customers prior to the public leak to mitigate the threat.",
       "key_facts": [
-        "CVE ID: CVE-2026-113877",
-        "Affected versions: before 0.10",
-        "Fixed version: 0.10",
-        "CWE: CWE-624 Executable Regular Expression Error"
+        "Vulnerability: PHP2Shell",
+        "PHP versions: 8.5.12, 8.4.27, 8.3.36, 8.2.35",
+        "Disclosure date: October 21, 2026",
+        "Exploitation scale: Millions of attempts within 12 hours"
       ],
-      "bottom_line": "Unsanitized Accept-Language ranges in HTTP::Headers::ActionPack < 0.10 allow remote CPU exhaustion via regex backtracking.",
+      "bottom_line": "Public disclosure of critical vulnerabilities leads to near-instantaneous, large-scale exploitation, making rapid WAF deployment and patching essential for survival.",
       "claims": [
         {
-          "text": "HTTP::Headers::ActionPack versions before 0.10 for Perl allow CPU exhaustion via Accept-Language ranges matched as regular expressions.",
-          "support_span": "HTTP::Headers::ActionPack versions before 0.10 for Perl allow CPU exhaustion via Accept-Language ranges matched as regular expressions",
-          "status": "entailed"
+          "text": "Cloudflare has reported that in the wake of the emergency update following the discovery of a critical vulnerability called 'PHP2Shell' in PHP, the number of exploitation attempts, which was only a few thousand before the announcement, exploded afterward, increasing to millions within about 12 hours of the announcement.",
+          "support_span": "Cloudflare has reported that in the wake of the emergency update following the discovery of a critical vulnerability called 'PHP2Shell' in PHP, the number of exploitation attempts, which was only a few thousand before the announcement, exploded afterward, increasing to millions within about 12 hours of the announcement.",
+          "status": "contradicted"
         },
         {
-          "text": "_language_match interpolates each Accept-Language range into the pattern `/^$range\n/i` without escaping it, so regular expression syntax in the header reaches the regex engine.",
-          "support_span": "_language_match interpolates each Accept-Language range into the pattern `/^$range\n/i` without escaping it, so regular expression syntax in the header reaches the regex engine.",
-          "status": "contradicted"
+          "text": "The PHP Foundation and several security companies have collaborated to address these vulnerabilities, and an emergency update was released late at night on October 21, 2026.",
+          "support_span": "The PHP Foundation and several security companies have collaborated to address these vulnerabilities, and an emergency update was released late at night on October 21, 2026.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 75,
+      "trust_score": 10,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 51.2,
-      "is_new": true,
+      "blend": 55.0,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "18d2f324f662423b"
+        "5949ffc6603764cf",
+        "5f3d634b4955d162",
+        "8c3523568bf0fec4",
+        "abe1de9fb6bfd846",
+        "bb6281cb2b01dcca",
+        "cc357f06961caa48",
+        "f00c8bdc52d909ca",
+        "f4e883c1dc458dcd"
       ],
-      "critical_signal": "",
+      "critical_signal": "unauthenticated rce",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "oss-security",
-          "url": "https://seclists.org/oss-sec/2026/q4/363",
-          "domain": "seclists.org",
-          "tier": "A"
+          "name": "Cisco Talos Blog",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zN3ZxNXRYbmtlVzVQNU53dTAwLXk1WUxZckEyZ0RaU1pvNXVDQnctWGE3anY3MUt1NGdsUlB2bzhsQXBkcXljdmtTWFFENkVacVFnUF9kdmp2aXNkWmw1dWkxX2IzMERMa2g5TlJOWlJPVE0?oc=5",
+          "domain": "cisco-talos-blog.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "GIGAZINE",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTVRNmQxU3poLWlzN295cmY3eERuV2tWb3JJLW1nbl92Nl9fNy1vWlhHR3Q3eWpyRlRtSFZTSU1RRHJHQzFqQS1oSndnM1VLUkhMSE45N3EzMWx6MFNVNjZWQlFTbzE0bFRNUEdVR1YtM2pfQVo0QnM0WWhaN1R3WF9nZE4?oc=5",
+          "domain": "gigazine.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "INSIGHTS IAS",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UZU93cl9VZnFreEFpbHI1TkI0SGUxdjVfT3VlS1hyRWwwNnk1S2Q1V1JsZmEybFNwRVZrN2gxaHlUeVBxRnBqazJaR3NXa0lybFRfd2MwS1JQb2IwanZHUHZ4WkhvS0Rt?oc=5",
+          "domain": "insights-ias.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "newskarnataka.com",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8tdVp5NXZZMkhSTU9mTnFjQW83THNpU2ppTzBnTEsycG05R0FjWjVyTlQ2RjVrMHE0YjFrWjMyeXZJaWllbXFnTGFB?oc=5",
+          "domain": "newskarnataka-com.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "OODA Loop",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZUVFemNxSEg2enE2cTNyREVnbi1XQWs3UUFDRHJYdmRkaHk1eHBoemtuM0ZVdlZxZ1VhYjdTV001UWhpTkdOYnVjVk41bXV2akRUWnEzNEhaMUdaNTNFdHVROG1hQ3lRdGtyYWlYQnktMzlJTWtKRkV4dmdmcnJ1TFFLeXVuV0xONXQ0aWFWUmtYNmx1V1BYTmVBWWhaOVhadzFlM3FadjZJTUdnNktQekN6QV85OE45cy03d3JkdWxMckJBOEo2cQ?oc=5",
+          "domain": "ooda-loop.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Recorded Future",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90WWtVamxpMWlHekU2WHR2dThRaFdLZGp0S21ZMDRSUXI2aERDTHBtNmRMZXUyUlZPX1NVbmJkTF8zUXN5NzhnM1B5YXJOWjRjOEV2N3NqTjV3dXg5S0sxRGhSdmlQYW11Q0FiYU5CdF9BcS10T1V1ZzVGdXY?oc=5",
+          "domain": "recorded-future.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Snyk",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNEZPbF9GS1d0V3A5cDd1Ny1EeDZlR1dBZWFjak03RV9paEpzNGNNYTZpU01fZXlFcy1tSS1yMDBfak0zbk9HNWJNU3ZDS2ZzNlBRT0lxSnlvRzh5akg5LXZrTFpKdVZOVUUxMDZpdF8?oc=5",
+          "domain": "snyk.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Technology Org",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPelNjVTJlLW9IX3VwbFdycTRLNmdYZWsxTXRWSmxZc0djYmM2VTA1NW8wN3BsUmVJVm5yS09DcjhsU2FITU9zZnppNS1faGgtOFdMNDFfUGduYnFyYmZvdUR4RW9VV2h3S3dYN19ZTkhTQmd4czBvY0tSZFpfaW1hb19lZW9QTmpURTFTRUN0UG82aHFLUHZqbVJR?oc=5",
+          "domain": "technology-org.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-23T22:16:18+00:00",
+      "published": "2026-10-22T05:16:34+00:00",
       "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 4/5 from cache",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25",
+        "escalated to CRITICAL by signal: 'unauthenticated rce'",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -106,32 +158,21 @@
       "cluster_key": "d384d5d1d3d724dd",
       "title": "I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device…",
       "category": "tech_ai",
-      "one_liner": "Simon Willison released 'Battle Drones', a browser RTS built via Claude featuring audio-link multiplayer.",
+      "one_liner": "",
       "tags": [
-        "ai",
         "llm",
-        "release",
-        "tool",
         "windows"
       ],
-      "summary": "Developer Simon Willison has built 'Battle Drones', a browser-based Command & Conquer style RTS game primarily created using Claude Opus 5.5. The game runs smoothly in mobile and desktop browsers and notably features device-to-device multiplayer capability operating over an audio link. The source project demonstrates advanced capabilities in generating playable web applications with novel peer-to-peer audio communication protocols via LLM coding assistance.",
-      "key_facts": [
-        "Tool: Claude Opus 5.5"
-      ],
-      "bottom_line": "LLM-assisted development can successfully produce functional browser games featuring experimental audio-based local multiplayer.",
-      "claims": [
-        {
-          "text": "Developer Simon Willison has built 'Battle Drones', a browser-based Command & Conquer style RTS game primarily created using Claude Opus 5.5.",
-          "support_span": "I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device… https://simonwillison.net/2026/Oct/20/battledrones/",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device multiplayer over an audio link 2026-10-20T19:43:24.538Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "d384d5d1d3d724dd"
       ],
@@ -149,22 +190,84 @@
       "primary_links": [],
       "published": "2026-10-20T19:43:20.267000+00:00",
       "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-20 — outside lookback window"
+    },
+    {
+      "cluster_key": "e26f3d8d6fe51e54",
+      "title": "BRANDEFENSE/threat-actor-dataset — Open threat actor dataset: APT groups, ransomware groups, malware and MITRE ATT&CK techniques with aliases, TT",
+      "category": "cyber_tools",
+      "one_liner": "A new, open-source threat intelligence dataset provides structured, machine-readable profiles for APTs, ransomware, and malware.",
+      "tags": [
+        "malware",
+        "opensource",
+        "policy",
+        "ransomware",
+        "release",
+        "threat-actor",
+        "threat-intel",
+        "tool"
+      ],
+      "summary": "Brandefense has released an open-source, machine-readable threat actor dataset containing profiles for 52 APT groups, 26 ransomware groups, and 57 malware families. The dataset maps these entities to MITRE ATT&CK techniques and includes suspected origins, tools, and public source references. The data is available in JSON and STIX 2.1 formats, intended for integration into threat intelligence platforms like OpenCTI and MISP.",
+      "key_facts": [
+        "Entities: 52 APTs, 26 ransomware groups, 57 malware families",
+        "Format: JSON, STIX 2.1, CSV",
+        "License: CC BY 4.0"
+      ],
+      "bottom_line": "Security teams can now integrate this standardized, public-source-backed threat actor data into their existing threat intelligence workflows.",
+      "claims": [
+        {
+          "text": "An open, machine-readable dataset of 52 APT groups, 26 ransomware groups, 57 malware families and 41 MITRE ATT&CK techniques.",
+          "support_span": "An open, machine-readable dataset of 52 APT groups, 26 ransomware groups, 57 malware families and 41 MITRE ATT&CK techniques",
+          "status": "contradicted"
+        },
+        {
+          "text": "A STIX 2.1 bundle of the whole dataset is in data/stix/threat-actors.stix.json.",
+          "support_span": "A STIX 2.1 bundle of the whole dataset is in data/stix/threat-actors.stix.json.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "e26f3d8d6fe51e54"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/BRANDEFENSE/threat-actor-dataset",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T09:14:42+00:00",
+      "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "7e3e14de49096f87",
-      "title": "In a move that is both fascinating and viscerally unsettling, AI world model company Odyssey took a simulation of a fruit fly's brain, Google's…",
+      "cluster_key": "2835fb19b94642de",
+      "title": "My new book, Co-Existence, is out today. It is a guide to how to live and work in a world where AI is sometimes, but not always, better than you.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "ai",
+        "howto"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu In a move that is both fascinating and viscerally unsettling, AI world model company Odyssey took a simulation of a fruit fly's brain, Google's connectome map of a fly's actual neurons and connections, and placed it inside an AI-generated world. A simulated brain exploring a simulated reality.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My new book, Co-Existence, is out today. It is a guide to how to live and work in a world where AI is sometimes, but not always, better than you. (And, for the release, I worked with Opus 5.5 to make a quite interesting experience for the book's new website: co-existence.ai) 2026-10-20T17:03:43.937Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -175,7 +278,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "7e3e14de49096f87"
+        "2835fb19b94642de"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -183,82 +286,17 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myd4idyjkk2c",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-18T06:23:59.004000+00:00",
+      "published": "2026-10-20T17:03:38.598000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-18 — outside lookback window"
-    },
-    {
-      "cluster_key": "105a357cc43cacf5",
-      "title": "CVE-2026-114053 (CRITICAL 9.2): vLLM from 0.7.3 before 0.31.0 forwards the request-supplied mm_processor_kwargs.code_revision to Transformers…",
-      "category": "cyber_attacks",
-      "one_liner": "CVE-2026-114053 enables unauthenticated RCE via malicious model code revisions in vulnerable vLLM deployments.",
-      "tags": [
-        "ai",
-        "cve",
-        "exploit",
-        "hardware",
-        "llm",
-        "vulnerability"
-      ],
-      "summary": "A critical vulnerability identified as CVE-2026-114053 with a CVSS score of 9.2 exists in vLLM versions 0.7.3 up to 0.31.0. The flaw allows request-supplied `mm_processor_kwargs.code_revision` values to be forwarded to Transformers `AutoProcessor.from_pretrained`, permitting clients to choose which revision of a model's dynamic processor code is imported when `trust_remote_code` is enabled. An attacker controlling a revision in a served model repository can exploit this by sending a malicious multimodal request to the unauthenticated `/tokenize` endpoint to achieve arbitrary Python code execution inside the vLLM API process.",
-      "key_facts": [
-        "CVE-2026-114053: CVSS 9.2 CRITICAL",
-        "Affected versions: vLLM 0.7.3 up to 0.31.0"
-      ],
-      "bottom_line": "vLLM instances between versions 0.7.3 and 0.31.0 allow unauthenticated remote code execution via the /tokenize endpoint if remote code execution is trusted.",
-      "claims": [
-        {
-          "text": "vLLM from 0.7.3 before 0.31.0 forwards mm_processor_kwargs.code_revision to Transformers AutoProcessor.from_pretrained.",
-          "support_span": "vLLM from 0.7.3 before 0.31.0 forwards the request-supplied mm_processor_kwargs.code_revision to Transformers AutoProcessor.from_pretrained, letting clients select which revision of a model's dynamic processor code is imported when trust_remote_code is enabled.",
-          "status": "entailed"
-        },
-        {
-          "text": "An attacker can send a multimodal request to the unauthenticated /tokenize endpoint to execute arbitrary Python.",
-          "support_span": "An attacker controlling a revision in a served model repository can send a multimodal request to the unauthenticated /tokenize endpoint to execute arbitrary Python in the vLLM API process.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 70.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "105a357cc43cacf5"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114053",
-          "domain": "nist.gov",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-114053"
-      ],
-      "published": "2026-10-21T01:17:28.083000+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 70 = trust 70 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
       "cluster_key": "067498e444d5fb13",
@@ -300,159 +338,38 @@
       "reject_reason": "published 2026-10-19 — outside lookback window"
     },
     {
-      "cluster_key": "666b7fd63db10893",
-      "title": "CVE-2026-113736 (HIGH 8.9): A vulnerability has been found in D-Link DHP-W610AV 1.02EUb03. The impacted element is the function login_pre…",
-      "category": "cyber_attacks",
-      "one_liner": "CVE-2026-113736 is an 8.9-rated vulnerability in D-Link DHP-W610AV routers that results in empty configuration passwords.",
-      "tags": [
-        "cve",
-        "exploit",
-        "hardware",
-        "network",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "A high-severity vulnerability tracked as CVE-2026-113736 with a CVSS base score of 8.9 has been identified in the D-Link DHP-W610AV router running firmware version 1.02EUb03. The flaw exists in the login_prepare_hnap function located within the 'etc/defnodes/defaultvalue.xml' file of the HNAP Login component. Manipulating the Password argument leads to an empty password being stored in the configuration file, allowing remote attackers to initiate exploitation. Public disclosure of the exploit increases the risk of active targeting.",
-      "key_facts": [
-        "CVE-ID: CVE-2026-113736",
-        "CVSS Score: 8.9 HIGH",
-        "Affected Product: D-Link DHP-W610AV 1.02EUb03",
-        "Vulnerable Component: HNAP Login (login_prepare_hnap)"
-      ],
-      "bottom_line": "D-Link DHP-W610AV routers running firmware 1.02EUb03 contain a remote high-severity configuration flaw via CVE-2026-113736.",
-      "claims": [
-        {
-          "text": "A high-severity vulnerability tracked as CVE-2026-113736 with a CVSS base score of 8.9 has been identified in the D-Link DHP-W610AV router running firmware version 1.02EUb03.",
-          "support_span": "CVE-2026-113736 (HIGH 8.9): A vulnerability has been found in D-Link DHP-W610AV 1.02EUb03. The impacted element is the function login_pre…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 70.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "666b7fd63db10893"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113736",
-          "domain": "nist.gov",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-113736"
-      ],
-      "published": "2026-10-21T01:17:25.187000+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 70 = trust 70 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "1ec9b23489ef17a0",
-      "title": "Railtown AI Open Sources Railtracks Swift ADK, Expanding Apple Developer Access and Creating New Pathways to Conductr Platform Adoption",
-      "category": "cyber_tools",
-      "one_liner": "Railtown AI's new open-source Swift ADK enables developers to build agentic applications within the Apple ecosystem.",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "release",
-        "tool"
-      ],
-      "summary": "Railtown AI has open-sourced its Railtracks Swift Agent Development Kit (ADK) under the MIT license. This framework allows Swift developers to build intelligent, agentic applications with support for reasoning, tool invocation, and multi-agent orchestration. The release is part of a strategy to expand the company's developer ecosystem and encourage adoption of its commercial Conductr platform. The open-source nature of the ADK is intended to foster trust and transparency in agentic development.",
-      "key_facts": [
-        "License: MIT"
-      ],
-      "bottom_line": "The release of the Railtracks Swift ADK provides a new tool for Swift developers to build and deploy intelligent AI agents.",
-      "claims": [
-        {
-          "text": "Railtown today announced the open-source release of its Railtracks Swift Agent Development Kit (ADK), making its native Swift framework for developing intelligent AI agents publicly available on GitHub under the permissive MIT license.",
-          "support_span": "Railtown today announced the open-source release of its Railtracks Swift Agent Development Kit (ADK), making its native Swift framework for developing intelligent AI agents publicly available on GitHub under the permissive MIT license.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The framework supports agent reasoning, tool invocation, structured outputs, multi-agent orchestration, execution tracing and configurable guardrails.",
-          "support_span": "The framework supports agent reasoning, tool invocation, structured outputs, multi-agent orchestration, execution tracing and configurable guardrails.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "1ec9b23489ef17a0",
-        "fb7a9d56c18620b9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNMm1jWUNlREdtbHRoWW9rb0UzWXJHZ0NSNEhPOTVxODBpNTVRYUNTdjVNaER6c1ZEVGFWc24xdG8ySzBFRE1YdkdjV2M1LXlvMms4emMxNlg1M1JnRWNRczZVX1U1UWVtcXlKQjB3VnpVMWtxendwMzBfcWtLY3g3VDAyRjhaQXdUZ0VfZFo5STI3QVF3RnFRWjZyaUpNVXBJR2RLQ1ZsSlBEMGxWZTIybWpwNHYyd2xHRTVmMmNoY2M2ZlRELTlVbEs1NURXZ0VPclJSaWdsdFVSdWNKRDFnMzNGeHB5LWh2WFE0VVhQZEswX2VjQ0ZKQThsTE44MURzVXVUem5fTkp2WThUNE1PWkVqUmk4SVBRUkU0UGV6N1VOMms?oc=5",
-          "domain": "tradingview.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWEpabWFwV0RkZWkxTVVsMDZmdXJtdmhSMzNCNGUzTUxoNDNHYUVYZm94T1FaN09jcjlwQVlnODRQaXQ1UVhEMGc5bGxzSVJJejZPZlhFOWRJbEZKNHprdWJhWGpnVU1kWFZNcGFkWXpFaHBxbWh3N080MTZIaVhMTEhMZ0ZoWXNVM2c0cElTYUpvVlUtb2NwSlV2bEtRSkxq?oc=5",
-          "domain": "yahoo-finance.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T12:00:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from cache",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "b1af7f42e9d8d742",
-      "title": "rextail-ai/lessloc — Keeps AI coding agents such as Claude Code, Codex, GitHub Copilot, Gemini CLI and Cursor to the least code tha",
+      "cluster_key": "58da40b0b62bf110",
+      "title": "liyupi/dafeiyu-cleaner — DeepSeek 蓝色大肥鱼消除计划：识别并清理 B 站（Bilibili）评论区中由 DeepSeek 大模型、AI Agent 驱动的机器人账号（大肥鱼）的 Chrome / Edge / Firefox 浏览器插件",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "A new browser extension helps Bilibili users identify and filter AI-driven bot comments using local heuristics and optional DeepSeek API calls.",
       "tags": [
         "agents",
         "ai",
-        "howto",
         "llm",
         "opensource",
         "tool"
       ],
-      "summary": "Up to 36% less code and 26% lower cost, with the same results. For Claude Code, Codex, OpenCode, GitHub Copilot, Gemini CLI, Cursor and many more. Tell your coding agent: Install lessloc for this project by following Claude Code? Or type these in its prompt box: /plugin marketplace add /plugin install lessloc@lessloc To remove it: Remove lessloc by following On npm? Install it with the sentence above; your agent sets up the hooks.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "summary": "The 'dafeiyu-cleaner' is an open-source browser extension for Chrome, Edge, and Firefox designed to identify and hide AI-generated bot comments on Bilibili. It uses a combination of local heuristic rules and optional DeepSeek API integration to flag and filter accounts driven by AI agents. The tool provides a 'minimalist mode' for users who prefer to hide bot content without visual animations or social features.",
+      "key_facts": [
+        "Supported browsers: Chrome, Edge, Firefox",
+        "Detection method: Local heuristics + DeepSeek API"
+      ],
+      "bottom_line": "Users can now automate the removal of AI-generated spam on Bilibili using this local, privacy-focused browser extension.",
+      "claims": [
+        {
+          "text": "大肥鱼消除计划（dafeiyu-cleaner）是一个免费开源的 Chrome / Edge / Firefox 浏览器插件，专门识别 B 站（Bilibili）上由 DeepSeek 等大模型、AI Agent 驱动的机器人账号。",
+          "support_span": "大肥鱼消除计划（dafeiyu-cleaner）是一个免费开源的 Chrome / Edge / Firefox 浏览器插件，专门识别 B 站（Bilibili）上由 DeepSeek 等大模型、AI Agent 驱动的机器人账号。",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "b1af7f42e9d8d742",
-        "bcbbf40ed4961863"
+        "58da40b0b62bf110"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -460,23 +377,62 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/rextail-ai/lessloc",
+          "url": "https://github.com/liyupi/dafeiyu-cleaner",
           "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yNGlXeHQ2NV9mMmxmOVdPSGtJLXpoQ0xpaHRKU1hraTNkamlOT1FPdDQ4MTMzNVVOcTl1TDJVQUlfSEVTS2lMWEVvOFFqYldhRllQcVBjaEZwZ1Nkb0ZwV0JmUFE4Z25RWklTVDd3?oc=5",
-          "domain": "shattered-io.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T12:12:04+00:00",
+      "published": "2026-10-23T03:39:33+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "e67495d51e8fecb6",
+      "title": "Zafer-Liu/claude-super-sidebar — A visual sidebar for Claude Code and Codex: agent trees, live status, and conversation task flows.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "A native Claude pane and a local Codex session panel. English · 简体中文 Preview · Installation · Usage · Codex · Development · Validation Claude Super Sidebar brings the main agent, subagent relationships, execution details, and the current conversation’s work steps into one panel. Claude Code uses a native plugin pane; standalone Codex CLI/App uses a read-only local session dashboard. The repository and product are Claude Super Sidebar (claude-super-sidebar). The plugin installs as super-sidebar, with a native pane titled 状态 · Status.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e67495d51e8fecb6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Zafer-Liu/claude-super-sidebar",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-20T06:18:04+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
       "cluster_key": "4aa7bf207740c82b",
@@ -595,7 +551,7 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-10-20T08:03:19+00:00",
+      "published": "2026-10-25T09:50:08+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
@@ -605,19 +561,16 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "e8fa649bf34169f5",
-      "title": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free wit",
+      "cluster_key": "dd9a81b0fe522847",
+      "title": "YOLOW92/pagesift — Rust web content engine: clean Markdown, incremental collections, isolated HTTP sessions and verified media ar",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
         "llm",
-        "opensource",
-        "policy",
-        "tool"
+        "opensource"
       ],
-      "summary": "Bring your agents over from Dialogflow CX and CX Agent Studio, or start fresh. Build, test and run them on your own machine or servers, in one command, for about $0.02–0.17 a call instead of $0.50. 🚀 Quick start · 📋 Free phone evals · 🔁 Import from Google · 👀 Tour · 🧠 Models · 📞 Phone and SIP · 🗺️ Roadmap · 📘 Engine docs · 🧩 vk CLI Import a Dialogflow CX agent, test it, and grade a real phone call to it. Sample agent and made-up data; replies from Lampline's test model. Lampline imports your Dialogflow CX and CX Agent Studio agents, flows, pages, playbooks, forms and tools included, and runs them on hardware you control.",
+      "summary": "High-performance, memory-bounded web scraping and extraction engine built for AI agents and LLM pipelines. Turn any website, document, or archive into clean Markdown and structured data — one Rust binary, native SDKs, dual Firecrawl v1/v2 & Jina Reader APIs, at a fraction of the memory. The engine underneath the numbers was replaced. 0.60 proved PageSift could finish 100,000,000 tasks; 0.70 rebuilds the data plane that does it and puts the whole system under one closed-loop controller. ⚙️ Hand-written NUMA-local HTTP data plane — fixed-slot NUMA executors, a minimal HTTP/1.1 reactor, hybrid reactor↔content scheduling, per-origin adaptive connections and sharded intake with bounded work stea…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -625,73 +578,13 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e8fa649bf34169f5"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/C4rohan/Lampline",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-19T06:50:54+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
-    },
-    {
-      "cluster_key": "dd9a81b0fe522847",
-      "title": "YOLOW92/pagesift — Rust web content engine: clean Markdown, incremental collections, isolated HTTP sessions and verified media ar",
-      "category": "tech_ai",
-      "one_liner": "PageSift 0.60 processes 100 million web pages in Rust with a flat 11.59 GB memory footprint, tailored for web-scale AI pipelines.",
-      "tags": [
-        "ai",
-        "llm",
-        "network",
-        "opensource",
-        "tool"
-      ],
-      "summary": "PageSift 0.60 is a high-performance, memory-bounded web extraction engine built in Rust to process content for AI agents and LLM pipelines. In benchmarks using 100 million real public web pages across 80 vCPUs, it achieved a sustained live throughput of 42,124 pages per second while maintaining a flat peak RSS memory consumption of 11.59 GB. The engine uses zero-disk retention streaming with a 16 KB constant memory buffer to prevent disk exhaustion. It handles extensive network errors, WAF challenges, and DNS drops automatically.",
-      "key_facts": [
-        "Engine: PageSift 0.60",
-        "Language: Rust",
-        "Benchmark Scale: 100,000,000 public web pages",
-        "Execution Time: 2,373.9 seconds (39.56 minutes)",
-        "Peak Memory RSS: 11.59 GB"
-      ],
-      "bottom_line": "AI engineers scaling web scraping and RAG pipelines can deploy PageSift for high-throughput, memory-bounded Markdown extraction.",
-      "claims": [
-        {
-          "text": "PageSift 0.60 is a high-performance, memory-bounded web scraping and extraction engine built for AI agents and LLM pipelines.",
-          "support_span": "YOLOW92/pagesift — Rust web content engine: clean Markdown, incremental collections, isolated HTTP sessions and verified media ar",
-          "status": "contradicted"
-        },
-        {
-          "text": "Total Web Pages Processed: 100,000,000 (One Hundred Million) Pages",
-          "support_span": "Total Web Pages Processed | 100,000,000 (One Hundred Million) Pages |",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
       "is_new": true,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "dd9a81b0fe522847"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
@@ -704,29 +597,24 @@
       "primary_links": [],
       "published": "2026-10-20T17:30:59+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
-      "cluster_key": "11480f126425b4e2",
-      "title": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, write",
+      "cluster_key": "8c743a0b9bc0b97e",
+      "title": "yuatemycat/SuperGhidra — SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "howto",
         "llm",
         "opensource",
         "release",
-        "research",
         "tool"
       ],
-      "summary": "Install · Example · How it works · Results · Changelog Coding agents learn libraries from training data that stops at a cutoff date. When your project pins newer versions, the agent writes code for the old API: maxSteps against AI SDK 7, required_error against zod 4, middleware.ts against Next 16. stalemap finds the dependencies that changed after your model's training cutoff and tells the agent what changed, in three ways: - Notes: a short, ranked list of changes written into AGENTS.md or CLAUDE.md, so the agent reads it before it starts. Edit-time guard: after each edit, the project's own type-check. If the code uses an API that changed after the cutoff, the agent gets the compiler error…",
+      "summary": "SuperGhidra: Compilable C Rewriter & Guardrailed Agent MCP Suite. Python tools that make Ghidra faster to script against, rewrite raw decompiler output into compilable C, and run static binary analyses Ghidra does not include out of the box: MSVC RTTI and MFC CRuntimeClass recovery, Serialize() archive layout tracing, cross-version function and struct-shift matching, and a Z3 equivalence checker for P-code. Instead of paying 5–15 seconds of JVM startup per headless run or fighting .rep project lock contention while the Ghidra GUI is open, SuperGhidra keeps a single read-only Ghidra instance warm in a background daemon (127.0.0.1:5073) backed by an L2 SQLite cache and a non-destructive JSON…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -737,7 +625,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "11480f126425b4e2"
+        "8c743a0b9bc0b97e"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -745,90 +633,44 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Umair/stalemap",
+          "url": "https://github.com/yuatemycat/SuperGhidra",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T19:21:32+00:00",
+      "published": "2026-10-20T08:22:31+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
-      "cluster_key": "61df08ac7b59892b",
-      "title": "tshi-dev/UrTV — Arabic home screen and Saudi screensaver for Android TV / Google TV, plus a safe speed-up. Your AI agent sets ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "android",
-        "howto",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "An Arabic home screen and a Saudi screensaver for Android TV / Google TV, and a safe speed-up. ويندوز: ركّب Git وPython أول (winget install --source winget Git.Git Python.Python.3.12). optimize/run.sh again Settings → About → press OK on Build 7 times. Then go to Developer options → turn on USB debugging. Windows: install Git and Python first (winget install --source winget Git.Git Python.Python.3.12).",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "61df08ac7b59892b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/tshi-dev/UrTV",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-19T08:00:59+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
-    },
-    {
-      "cluster_key": "6bd4ff2e01c4b73b",
-      "title": "Silver price has broken below  ₹2 lakh for the first time since December 2025: Is this the right time to buy for returns?",
+      "cluster_key": "3fdcf22dca178612",
+      "title": "Kotak Mahindra Bank shares in focus on Mon Oct 26 after Q2 results 2026: Should you buy, sell or hold? Experts weigh in",
       "category": "markets",
-      "one_liner": "Silver prices crashed below ₹2 lakh per kg on the MCX due to surging energy costs and monetary tightening fears.",
+      "one_liner": "Kotak Mahindra Bank's Q2 earnings show strong profit growth despite margin pressure from FCNR(B) deposit mobilization.",
       "tags": [
         "india",
-        "markets",
-        "release"
+        "markets"
       ],
-      "summary": "Silver prices dropped below ₹2,00,000 per kilogram on the Multi Commodity Exchange (MCX) for the first time since December 2025, falling to ₹1,92,800 amid broader corrections. The steep sell-off was fueled by surging energy costs, persistent inflation concerns, and a strong US dollar raising expectations of tighter Federal Reserve monetary policy. Gold prices also drifted near three-month lows as cross-asset liquidations and rising bond yields increased the opportunity cost of holding precious metals.",
+      "summary": "Kotak Mahindra Bank reported a 26% year-on-year increase in consolidated net profit to ₹5,645 crore for the September quarter. While credit growth was strong at 25%, net interest margins (NIM) contracted by 22 basis points to 4.3% due to the mobilization of FCNR(B) deposits. Analysts suggest that the deployment of these funds and interest rate cycles may help the bank recover margins in the coming quarters.",
       "key_facts": [
-        "Silver Price: ₹1,92,800 per kg on MCX",
-        "Decline from August Peak: 22.5%"
+        "Consolidated net profit: ₹5,645 crore",
+        "NIM: 4.3%",
+        "Credit growth: 25%"
       ],
-      "bottom_line": "Precious metals are experiencing heavy corrections as escalating energy prices and higher bond yields drive a broad sell-off.",
+      "bottom_line": "Investors should monitor the bank's ability to deploy FCNR(B) funds and improve NIMs over the next two to three quarters to justify current valuations.",
       "claims": [
         {
-          "text": "Silver prices have plunged below ₹2 lakh per kg on the Multi Commodity Exchange (MCX) for the first time since December 2025...",
-          "support_span": "Silver prices have plunged below ₹2 lakh per kg on the Multi Commodity Exchange (MCX) for the first time since December 2025...",
+          "text": "Kotak Mahindra Bank reported a strong earnings performance for the September quarter, with consolidated net profit rising 26% year-on-year to ₹5,645 crore.",
+          "support_span": "Kotak Mahindra Bank reported a strong earnings performance for the September quarter, with consolidated net profit rising 26% year-on-year to ₹5,645 crore.",
           "status": "contradicted"
         },
         {
-          "text": "The white metal fell to ₹1,92,800 per kg on Friday after losing around ₹6,800 in a single session...",
-          "support_span": "The white metal fell to ₹1,92,800 per kg on Friday after losing around ₹6,800 in a single session...",
-          "status": "contradicted"
+          "text": "Net interest margin (NIM) contracted by 0.23 percentage points during the quarter, partly due to the bank's mobilisation of ₹55,344 crore in FCNR(B) deposits",
+          "support_span": "Net interest margin (NIM) contracted by 0.23 percentage points during the quarter, partly due to the bank's mobilisation of ₹55,344 crore in FCNR(B) deposits",
+          "status": "entailed"
         }
       ],
       "trust_score": 25,
@@ -838,7 +680,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6bd4ff2e01c4b73b"
+        "3fdcf22dca178612"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -846,20 +688,20 @@
       "sources": [
         {
           "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/silver-price-has-broken-below-2-lakh-for-the-first-time-since-december-2025-is-this-the-right-time-to-buy-for-returns-11792841534411.html",
+          "url": "https://www.livemint.com/market/stock-market-news/kotak-mahindra-bank-shares-in-focus-on-mon-oct-26-after-q2-results-2026-should-you-buy-sell-or-hold-experts-weigh-in-11792905299621.html",
           "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": null,
+      "published": "2026-10-25T06:31:30+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from gemini-3.1-flash-lite",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "2 claim(s) not supported by the source text"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "4d8dac7ced143fd6",
@@ -901,318 +743,43 @@
       "reject_reason": "published 2026-10-19 — outside lookback window"
     },
     {
-      "cluster_key": "97c79a938d798fbf",
-      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-      "category": "cyber_attacks",
-      "one_liner": "A critical CVSS 10.0 regular expression integer overflow in GitLab allows unauthenticated RCE across 12 years of self-managed releases.",
+      "cluster_key": "16a29e57dcb7f7a2",
+      "title": "I wrote about the exponential curve of the last 30 months of AI development: www.oneusefulthing.org/p/30-months-...",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "cve",
-        "exploit",
-        "release",
-        "vulnerability"
+        "ai"
       ],
-      "summary": "GitLab has patched a maximum-severity CVSS 10.0 vulnerability, tracked as CVE-2026-110264, which allows unauthenticated remote code execution on self-managed instances across every version released over the past 12 years going back to version 7.0. The flaw is caused by an integer overflow during the compilation of crafted regular expressions within Ruby's built-in Onigmo engine, which GitLab bundles in its packages. While GitLab.com and GitLab Dedicated are already patched, self-managed administrators must upgrade immediately, as earlier patches from October 12 did not cover versions prior to 19.2. GitLab has backported fixes to branches 18.11, 19.0, 19.1, and 19.2, and released Sigma detection rules to help identify exploitation attempts.",
-      "key_facts": [
-        "CVE-2026-110264: CVSS 10.0, unauthenticated RCE",
-        "Affected Versions: All versions from 7.0 (2014) to 19.x",
-        "Engine: Onigmo regular-expression compiler"
-      ],
-      "bottom_line": "Self-managed GitLab instances running any version since 2014 are vulnerable to unauthenticated RCE and must be patched immediately.",
-      "claims": [
-        {
-          "text": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
-          "support_span": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
-          "status": "entailed"
-        },
-        {
-          "text": "The flaw, tracked as CVE-2026-110264, is rated 10.0 on the CVSS scale, the maximum.",
-          "support_span": "The flaw, tracked as CVE-2026-110264, is rated 10.0 on the CVSS scale, the maximum.",
-          "status": "entailed"
-        },
-        {
-          "text": "GitLab said that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression.",
-          "support_span": "GitLab said that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "97c79a938d798fbf",
-        "a9726704f0fa70f0",
-        "bf3939d336fae68e"
-      ],
-      "critical_signal": "unauthenticated rce",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "Howl.link",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBrcnIzNEVfSGstYTlpZVloUy1VX2E5QzBCQWJKNHBiREJkbHFfT1E2c19ERjVRekJGdkMw?oc=5",
-          "domain": "howl-link.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUYWp2NjhKVmlxcU5uWFhHTU5veEhRVVhCNlFGc1YyT2doY05aVU5ERExoZVRYTUNFYVpscDNHRFFFOTFaQzNzTTk2MkVqN1VmQmZaY2RQbzM4SF85RHZaOTNsRDB2aXhmbnRadUUteE96Vlp4V21wZl8tb0J1NzA?oc=5",
-          "domain": "thehackernews.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T18:57:00+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from cache",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "00d9c6c07315a551",
-      "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
-      "category": "cyber_attacks",
-      "one_liner": "SecurityWeek's roundup covers self-rebuilding macOS ransomware, new ISO AI security standards, and platform breach updates.",
-      "tags": [
-        "ai",
-        "cloud",
-        "identity",
-        "incident",
-        "malware",
-        "ransomware",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "SecurityWeek's weekly threat roundup covers multiple significant cybersecurity developments, including Patrick Wardle's analysis of Heartbreaker, a Rust-based macOS ransomware that attempts to self-rebuild its source code. Other key updates include the publication of ISO/IEC 27090 guidance for mitigating AI data poisoning and model theft, a federal judge declining to hold NSO Group in contempt over WhatsApp's injunction allegations, seized chat evidence connecting consultants to the Shinywire extortion site, and Bullhorn forcing password and API credential resets after restoring its hacked ATS/CRM platform.",
-      "key_facts": [
-        "Standard Published: ISO/IEC 27090",
-        "Malware Analyzed: Heartbreaker (macOS ransomware)"
-      ],
-      "bottom_line": "Recent cybersecurity developments highlight emerging risks ranging from self-recompiling macOS ransomware to standardized guidance for AI data poisoning threats.",
-      "claims": [
-        {
-          "text": "Researcher Patrick Wardle has analyzed Heartbreaker, a Rust-based macOS ransomware sample that encrypts files and attempts to recompile itself from embedded source code.",
-          "support_span": "Researcher Patrick Wardle has analyzed Heartbreaker, a Rust-based macOS ransomware sample that uploaded to VirusTotal in May 2025 and, as of his writing, was still undetected by every antivirus engine on the service... It then tries to change its hash by taking its own embedded source code... and recompiling itself",
-          "status": "contradicted"
-        },
-        {
-          "text": "ISO and IEC have published ISO/IEC 27090, guidance for detecting and mitigating threats specific to AI systems including data poisoning and model theft.",
-          "support_span": "ISO and IEC have published ISO/IEC 27090, guidance for detecting and mitigating threats specific to AI systems (including data poisoning and model theft) across their life cycle.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "00d9c6c07315a551",
-        "a8c5eecae22ca508"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
-          "domain": "securityweek.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T10:30:27+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 4/5 from cache",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "55cb423df875467e",
-      "title": "U.S. CISA adds Arista VeloCloud Orchestrator flaw to its Known Exploited Vulnerabilities catalog",
-      "category": "cyber_attacks",
-      "one_liner": "CISA flags a critical Arista VeloCloud Orchestrator SQL injection flaw actively exploited to grant superuser access.",
-      "tags": [
-        "appsec",
-        "cloud",
-        "cve",
-        "exploit",
-        "network",
-        "policy",
-        "vulnerability"
-      ],
-      "summary": "CISA added a critical SQL injection vulnerability in on-premises Arista VeloCloud Orchestrator, tracked as CVE-2026-114625 with a CVSS score of 9.4, to its Known Exploited Vulnerabilities catalog. The flaw allows any authenticated user—even those with the lowest permission level—to gain operator privileges and masquerade as a local superuser operator account. This grants remote attackers access to internal functions not meant to be remotely exposed, threatening the confidentiality, integrity, and availability of managed networks. Federal agencies are mandated to remediate the flaw by October 26, 2026.",
-      "key_facts": [
-        "CVE: CVE-2026-114625",
-        "CVSS Score: 9.4",
-        "Remediation Deadline: October 26, 2026"
-      ],
-      "bottom_line": "Authenticated low-privilege users can exploit a SQL injection flaw in on-premises VeloCloud Orchestrator to achieve full superuser control, necessitating immediate remediation.",
-      "claims": [
-        {
-          "text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a critical Arista VeloCloud Orchestrator flaw, tracked as CVE-2026-114625 (CVSS score of 9.4), to its Known Exploited Vulnerabilities (KEV) catalog .",
-          "support_span": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a critical Arista VeloCloud Orchestrator flaw, tracked as CVE-2026-114625 (CVSS score of 9.4), to its Known Exploited Vulnerabilities (KEV) catalog .",
-          "status": "entailed"
-        },
-        {
-          "text": "The flaw is a SQL Injection issue that affects on-premises VeloCloud Orchestrator (VCO). It allows an authenticated user to gain operator privileges and impersonate a local superuser operator account.",
-          "support_span": "The flaw is a SQL Injection issue that affects on-premises VeloCloud Orchestrator (VCO). It allows an authenticated user to gain operator privileges and impersonate a local superuser operator account.",
-          "status": "entailed"
-        },
-        {
-          "text": "CISA orders federal agencies to fix the flaw by October 26, 2026.",
-          "support_span": "CISA orders federal infrastructure agencies to fix the flaw by October 26, 2026.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 100,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I wrote about the exponential curve of the last 30 months of AI development: And I asked Opus 5.5 to create the ultimate response to the test I use for all AI image generation models (make a picture of an otter on a plane using wifi), and it made this video.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "55cb423df875467e"
-      ],
-      "critical_signal": "known exploited vulnerabilities catalog",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201609/hacking/u-s-cisa-adds-arista-velocloud-orchestrator-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-24T08:30:44+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0698a38b1b130bd2",
-      "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
-      "category": "cyber_attacks",
-      "one_liner": "PingCAP's breach by extortion group Fulcrum Security exposed customer billing and business data via stolen service account credentials.",
-      "tags": [
-        "ai",
-        "cloud",
-        "dfir",
-        "incident",
-        "opensource",
-        "ransomware",
-        "vulnerability"
-      ],
-      "summary": "Software maker PingCAP disclosed that it suffered a breach between September 9 and October 7, 2026, where unauthorized actors used stolen service account credentials to access internal systems, copy data, and obtain source code. The extortion group Fulcrum Security carried out the compromise, which gave them access to cloud management, financial, analytics, and storage systems. While third-party forensic investigations found no evidence that production customer databases were impacted, the intruders did access downstream customer billing and business data, contract terms, pricing, and cloud account details.",
-      "key_facts": [
-        "Incident Date: Sept 9 - Oct 7, 2026",
-        "Vendor: PingCAP",
-        "Threat Actor: Fulcrum Security"
-      ],
-      "bottom_line": "A security breach at database vendor PingCAP exposed downstream customer billing, contract terms, and cloud account details.",
-      "claims": [
-        {
-          "text": "Software maker PingCAP disclosed that it suffered a breach between September 9 and October 7, 2026, where unauthorized actors used stolen service account credentials to access internal systems, copy data, and obtain source code.",
-          "support_span": "Between September 9 and October 7, 2026, an unauthorized party used stolen service account credentials to access certain PingCAP internal systems, copy data, and obtain source code.",
-          "status": "entailed"
-        },
-        {
-          "text": "The extortion group Fulcrum Security carried out the compromise, which gave them access to cloud management, financial, analytics, and storage systems.",
-          "support_span": "The perpetrator — the somewhat deceptively named \"Fulcrum Security,\" or FulcrumSec, for short — is a relatively new extortionist group whose leak site already includes major organizations like LexisNexis, Novo Nordisk, and the Manchester Airports Group (MAG).",
-          "status": "entailed"
-        },
-        {
-          "text": "Third-party forensic investigations found no evidence that production customer databases were impacted, but the intruders did access downstream customer billing and business data.",
-          "support_span": "Our investigation, supported by outside counsel and third-party forensic specialists, has found no evidence that data stored by customers in our TiDB cloud production services was impacted... Exported records included certain TiDB Cloud account infor…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "0698a38b1b130bd2",
-        "180b23b05e8e4cf2",
-        "a01f6726f0398035",
-        "dca4429c96409268"
+        "16a29e57dcb7f7a2"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "DarkReading",
-          "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
-          "domain": "darkreading.com",
-          "tier": "B"
-        },
-        {
-          "name": "Rescana",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG5HbHFQR1NSeFpzUF84RFYzdXAtYVVHR0ppNGFaSjFRX08tNUhjeXpQUWM4TGZLd0dXVGFzLUgwVF8zX2NQRFNrVl96Wkl0UU41Q0dCcWVOU1gtdW9GS0ZDWWRVeFRCcGpVeklKU2NVTU54eUtPNnBQZnZ1UU1wVE1xb1dkZlpweFV4WFIwZmJVTUZmNXo3alNPRG5fT3JWdFh6MEpVQTdCZmdpWmw1SlpEeW5tUFFqZ3c0TF9OVFI?oc=5",
-          "domain": "rescana.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "TechRadar",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdW56TmhrMHpqWU0weVhOdlBYYmdXZ08xbFlaanI3c3RhbHl1aEROcGlWQi02UXJ6M0xTYXBUd3psQy1YSXRJSjZkVS1iYmhPaHI1cy15VG5mUlFMS2hHNnBRMlJZbmM0TW8zSXhrMVhfcDE2ZjZhNTZIa2s2SEpxRktCSnNaUGNpUTBORmNUTkVNWHRTYU90SXRVLXNaRGZtbVU0Wkg3NXRTNGQ4THF2TFN4TDJfSVZWWXpyQ29xbGJHQjBC?oc=5",
-          "domain": "techradar.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "TweakTown",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjlKeTgxQnc3VHpiWG9Ra2kxaUdqTE5yUDNrN3NPYTl5Ujl2aDc2UFhDQ0tqZEFWdWIwQ2ctVGJoTnVuajJrMjhkNEtSZUJVdU41RnB6d2dtSDBNZjdoaS01dzlwakdWcVZyLWdWYVBxdlZKUG9SR0JrLTlEMHlUN3dnY25HQ3UwalowYlROZTk4dTVrTUh5QVpLQXdFNXJuTHNpSGloQWFIbFJWaWRackFpWGkteUR3?oc=5",
-          "domain": "tweaktown.publisher",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mydlag277k2c",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T21:15:39+00:00",
+      "published": "2026-10-20T21:27:38.447000+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from cache",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
       "cluster_key": "015a882ee27441d9",
@@ -1287,7 +854,6 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 5/5 from cache",
         "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
@@ -1295,190 +861,165 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "7fda805c06897416",
-      "title": "The “Bug” that is on 80% of WordPress sites but that pay only 1/2 times | Bug Bounty Story",
-      "category": "cyber_tools",
-      "one_liner": "A Medium bug bounty article teases a widespread WordPress vulnerability.",
+      "cluster_key": "d3f519557f32dd3d",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "category": "tech_ai",
+      "one_liner": "GPT-5.6 Sol helped uncover critical PHP flaws, prompting OpenAI to launch a $1 billion defense initiative and secure response framework.",
       "tags": [
-        "bugbounty",
+        "ai",
         "llm",
+        "opensource",
+        "release",
+        "research",
+        "tool",
         "vulnerability"
       ],
-      "summary": "This article is paywalled and consists only of a title and a redirection prompt pointing to Medium for a bug bounty story concerning a vulnerability allegedly present on 80% of WordPress sites. No technical details, vulnerability types, affected product versions, or actionable remediation steps are included in the provided text. Readers cannot learn the specifics of the bug without visiting the external link.",
-      "key_facts": [],
-      "bottom_line": "The text is paywalled and provides no actionable details regarding the purported widespread WordPress bug.",
-      "claims": [
-        {
-          "text": "This article is paywalled and consists only of a title and a redirection prompt pointing to Medium for a bug bounty story concerning a vulnerability allegedly present on 80% of WordPress sites.",
-          "support_span": "The “Bug” that is on 80% of WordPress sites but that pay only 1/2 times | Bug Bounty Story",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 10.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "7fda805c06897416"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Medium bug bounty",
-          "url": "https://medium.com/@sadinfinite/the-bug-that-is-on-80-of-wordpress-sites-but-that-pay-only-1-2-times-bug-bounty-story-f98506a146e7?source=rss------bug_bounty-5",
-          "domain": "medium.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-24T10:00:10+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 10 = trust 10 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "cdbaff472bef3f2c",
-      "title": "Cisco Secure Client Secure Firewall Posture Module Privilege Escalation Vulnerability",
-      "category": "cyber_attacks",
-      "one_liner": "A local privilege escalation bug in Cisco Secure Client's posture module lets attackers achieve root or SYSTEM privileges.",
-      "tags": [
-        "appsec",
-        "exploit",
-        "linux",
-        "network",
-        "release",
-        "vulnerability",
-        "windows"
-      ],
-      "summary": "A high-severity privilege escalation vulnerability exists in the interprocess communication channel of the Secure Firewall Posture module in Cisco Secure Client due to insufficient validation of user-supplied input. An authenticated local attacker can exploit this flaw by sending crafted IPC messages to a local socket, allowing them to execute limited file writes with SYSTEM or root privileges. On macOS and Linux, this vulnerability can be leveraged to achieve full root privileges, prompting Cisco to assign it a High Security Impact Rating. Software updates have been released by Cisco to address the issue, as no workarounds are available.",
+      "summary": "OpenAI led a coalition of security researchers, maintainers, and providers to address critical vulnerabilities in the PHP programming language discovered by Calif using GPT-5.6 Sol and independently by Wiz. To help organizations detect vulnerable installations, OpenAI is sharing a PHP version checker as a Codex skill alongside a proposed framework for coordinating rapid responses to software flaws in the AI era. The discovery highlights how frontier AI models can accelerate vulnerability research, prompting OpenAI to commit $1 billion in subsidized Daybreak access for organizations defending essential services. The collaborative disclosure process aims to establish a repeatable model for securing widely used infrastructure before malicious actors can weaponize the flaws.",
       "key_facts": [
-        "Severity: High",
-        "Affected Product: Cisco Secure Client (Secure Firewall Posture module)",
-        "Impact: SYSTEM or root privilege escalation"
+        "Affected product: PHP",
+        "Funding commitment: $1 billion in Daybreak access"
       ],
-      "bottom_line": "Cisco Secure Client users must update immediately to patch an IPC input validation flaw that allows local attackers to escalate to root or SYSTEM privileges.",
+      "bottom_line": "AI models are now uncovering critical vulnerabilities in foundational web languages like PHP before attackers can exploit them.",
       "claims": [
         {
-          "text": "A vulnerability in the interprocess communication channel of the Secure Firewall Posture module in Cisco Secure Client could allow an authenticated, local attacker to elevate privileges.",
-          "support_span": "A vulnerability in the interprocess communication channel of the Secure Firewall Posture module in Cisco Secure Client could allow an authenticated, local attacker to elevate privileges on an affected device.",
+          "text": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
+          "support_span": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
           "status": "contradicted"
         },
         {
-          "text": "Cisco has assigned this security advisory a Security Impact Rating of High.",
-          "support_span": "For that reason Cisco has assigned this security advisory a Security Impact Rating (SIR) of High rather than Medium as the score indicates.",
+          "text": "To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services.",
+          "support_span": "To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services.",
           "status": "entailed"
         }
       ],
       "trust_score": 70,
-      "interest_score": 75,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
+      "blend": 70.0,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "cdbaff472bef3f2c"
+        "d3f519557f32dd3d"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Cisco PSIRT",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sec-client-priv-esc-muF8eZdm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Client%20Secure%20Firewall%20Posture%20Module%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-          "domain": "sec.cloudapps.cisco.com",
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "domain": "openai.com",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sec-client-priv-esc-muF8eZdm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Client%20Secure%20Firewall%20Posture%20Module%20Privilege%20Escalation%20Vulnerability%26vs_k=1"
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
       ],
-      "published": "2026-10-21T16:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 70 = trust 70 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "47e93827c58ae981",
-      "title": "littlebordercollie/mcd-together-order — 麦麦一起点：培智学生用图片表达选择，家长接手核对。麦当劳 MCP 点餐沟通原型。",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "160b5ca93fbd82fe",
+      "title": "PHP vulnerability — Global Web Websites at Risk as AI Discovers Zero-Day Flaws - 미주중앙일보",
+      "category": "cyber_attacks",
+      "one_liner": "An AI-discovered unauthenticated RCE zero-day affecting 70% of global PHP websites requires immediate patching or system shutdown.",
       "tags": [
-        "agents",
-        "opensource"
+        "ai",
+        "blueteam",
+        "cve",
+        "dfir",
+        "exploit",
+        "incident",
+        "india",
+        "vulnerability"
       ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "A global security crisis emerged after artificial intelligence successfully uncovered two zero-day PHP vulnerabilities that allowed unauthenticated remote code execution. PHP developers released patched code on October 21 after finding the flaws during a self-audit, prompting the South Korean government to raise its cyber crisis alert level to 'Caution' and international agencies to issue urgent advisories. Vulnerable sites remain widespread, with CybelAngel reporting that roughly 25,000 servers in South Korea alone run unsupported PHP 8.1 or older versions that require upgrades to version 8.3 or higher. Cybersecurity firm Caliph used OpenAI's GPT-5.6 Sol model to uncover the flaws, highlighting how AI-driven discovery can accelerate threat identification.",
+      "key_facts": [
+        "Affected share: 70% of global websites utilizing PHP",
+        "Alert level raised: Caution (South Korea, Oct. 22)",
+        "Vulnerable servers in SK: ~25,000 running PHP 8.1 or older",
+        "AI model used: GPT-5.6 Sol by Caliph"
+      ],
+      "bottom_line": "Unauthenticated remote code execution zero-days in PHP discovered via AI put millions of websites at risk until administrators upgrade to version 8.3 or higher.",
+      "claims": [
+        {
+          "text": "On Oct. 22, the Ministry of Science and ICT and the Korea Internet & Security Agency (KISA) raised the private-sector cyber crisis alert level from ‘Interest’ to ‘Caution’",
+          "support_span": "On Oct. 22, the Ministry of Science and ICT and the Korea Internet & Security Agency (KISA) raised the private-sector cyber crisis alert level from ‘Interest’ to ‘Caution’, the second lowest on a four-tier scale",
+          "status": "contradicted"
+        },
+        {
+          "text": "PHP developers announced they had discovered security flaws during a routine self-audit and urgently released a patched code on Oct. 21.",
+          "support_span": "The crisis came to light on Oct. 21 when PHP developers announced they had discovered security flaws during a routine self-audit and urgently released a patched code.",
+          "status": "entailed"
+        },
+        {
+          "text": "CybelAngel reported that approximately 25,000 servers in South Korea run PHP 8.1 or older versions.",
+          "support_span": "According to French security firm CybelAngel, approximately 25,000 servers in South Korea run PHP 8.1 or older versions, accounting for 82% of servers where versions could be identified.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
+      "blend": 55.0,
+      "is_new": false,
+      "summary_source": "model",
       "alt_keys": [
-        "47e93827c58ae981"
+        "160b5ca93fbd82fe"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/littlebordercollie/mcd-together-order",
-          "domain": "github.com",
+          "name": "GN Zero-day watch",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yV2M3dFlUQ09uR0s0YXVHWkhvUEFnTXBYUWN3MXJCVGNJbVJ6amFLZ2pVUFRWb1ZIYVp2dU92bGFYMWxLV1A3WlZLamwxWkxwNWtvamMwWURCMTRoaTNMczgtbWY2eE5tLWFyOU1jVQ?oc=5",
+          "domain": "news.google.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T11:04:17+00:00",
+      "published": "2026-10-22T09:09:19+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "bfe27e413dd236ff",
-      "title": "Telangana to unveil new Aerospace and Defence Policy 2.0  soon, says Revanth",
-      "category": "india_world",
-      "one_liner": "Telangana is launching Aerospace and Defence Policy 2.0 to position Hyderabad as a premier hub for high-tech manufacturing.",
+      "cluster_key": "575f1dc5a13d35b2",
+      "title": "Security Affairs newsletter Round 601 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "category": "cyber_attacks",
+      "one_liner": "This weekly threat roundup highlights major breach disclosures like Capcom, large-scale law enforcement takedowns, and a surge in critical infrastructure vulnerabilities.",
       "tags": [
         "ai",
-        "india",
-        "markets",
-        "policy",
-        "political"
+        "exploit",
+        "incident",
+        "malware",
+        "ransomware",
+        "threat-actor",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Telangana Chief Minister A. Revanth Reddy announced that the state will soon unveil its Aerospace and Defence Policy 2.0 to expand industrial manufacturing in defence, AI, drones, and cybersecurity. Speaking ahead of Raksha Expo-2026, he emphasized Hyderabad's strategic research footprint and targeted increasing Telangana's GDP contribution to 10% by 2047. He also invited global investors to the Invest Telangana Global Summit scheduled for December 2026.",
-      "key_facts": [
-        "State: Telangana",
-        "Target GDP share by 2047: 10%"
-      ],
-      "bottom_line": "Telangana is actively positioning itself as a dominant defense and technology manufacturing hub with its upcoming policy and global summit.",
+      "summary": "Security Affairs published its weekly newsletter covering international cybersecurity developments, notable breaches, and major threat intelligence updates. Key items include a massive Capcom data breach exposing 11.7 million email addresses, a $25 billion penalty faced by Meta regarding Cambridge Analytica, and INTERPOL's Operation Serengeti III resulting in 1,462 arrests. The update also highlights numerous emerging vulnerabilities and ransomware campaigns affecting critical infrastructure worldwide.",
+      "key_facts": [],
+      "bottom_line": "Security teams should review the latest threat landscape updates, including widespread vulnerability exploits and law enforcement actions, to prioritize patch management.",
       "claims": [
         {
-          "text": "Chief Minister A. Revanth Reddy said Telangana aimed to emerge as the country’s largest industrial hub for the defence industry...",
-          "support_span": "Chief Minister A. Revanth Reddy said Telangana aimed to emerge as the country’s largest industrial hub for the defence industry...",
+          "text": "INTERPOL announced the results of Operation Serengeti III, a multinational cybercrime crackdown that led to 1,462 arrests, disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.",
+          "support_span": "INTERPOL announced the results of Operation Serengeti III, a multinational cybercrime crackdown that led to 1,462 arrests, disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.",
           "status": "contradicted"
-        },
-        {
-          "text": "The government would soon unveil its Aerospace and Defence Policy 2.0, aligned with the Telangana Rising Vision 2047, he said.",
-          "support_span": "The government would soon unveil its Aerospace and Defence Policy 2.0, aligned with the Telangana Rising Vision 2047, he said.",
-          "status": "entailed"
         }
       ],
       "trust_score": 25,
@@ -1488,148 +1029,132 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "bfe27e413dd236ff"
+        "575f1dc5a13d35b2",
+        "855fe413d4b79534",
+        "99aa0d462116352a"
       ],
-      "critical_signal": "",
-      "priority": "minor",
+      "critical_signal": "exploited in the wild",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-new-aerospace-and-defence-policy-20-soon-says-revanth/article71621205.ece",
-          "domain": "thehindu.com",
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/201698/breaking-news/security-affairs-newsletter-round-601-by-pierluigi-paganini-international-edition.html",
+          "domain": "securityaffairs.com",
+          "tier": "B"
+        },
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/201718/ai/security-affairs-ai-cybersecurity-newsletter-round-5.html",
+          "domain": "securityaffairs.com",
+          "tier": "B"
+        },
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/201709/security/security-affairs-malware-newsletter-round-120.html",
+          "domain": "securityaffairs.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-24T17:10:20+00:00",
+      "published": "2026-10-25T12:28:47+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "blend 36 = trust 25 / interest 50 / corrob 25",
+        "escalated to CRITICAL by signal: 'exploited in the wild'",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "57897cae1eb284da",
-      "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
-      "category": "india_world",
-      "one_liner": "Serbia's Vučić faces his toughest political challenge yet from a student-led anti-corruption opposition movement in snap parliamentary elections.",
+      "cluster_key": "f15d0aca9b7b4208",
+      "title": "Sequoia-Backed Blacksmith Raises $66M at $1B to Fix CI Broken by AI Coding Agents",
+      "category": "tech_ai",
+      "one_liner": "Blacksmith hit unicorn status by addressing the massive CI infrastructure strain caused by the proliferation of AI coding agents.",
       "tags": [
-        "policy",
-        "political",
-        "threat-intel"
+        "agents",
+        "ai",
+        "llm",
+        "markets",
+        "opensource",
+        "tool"
       ],
-      "summary": "Serbia's parliamentary elections feature a formidable challenge to long-serving leader Aleksandar Vučić from an opposition movement known as the Student List. Born out of anti-corruption protests following a fatal canopy collapse in Novi Sad, the student movement has put forward 250 candidates led by university professor Ilija Srdanović. Vučić has framed the movement as foreign-backed while campaigning on past economic growth, but polls predict an extremely tight contest.",
+      "summary": "Blacksmith has raised $66 million in a Series C funding round, reaching a $1 billion valuation in under two years. The startup focuses on optimizing continuous integration (CI) infrastructure, which has faced significant strain due to the surge in AI coding agents. AI agents have drastically increased the volume of pull requests and CI runs, causing infrastructure bottlenecks for engineering teams. Blacksmith aims to solve these scaling issues by providing more efficient CI compute resources.",
       "key_facts": [
-        "Candidates: 250",
-        "Leading candidate: Ilija Srdanović"
+        "Funding: $66M Series C",
+        "Valuation: $1B",
+        "Total funding: $125M",
+        "CI job growth: 5M/week (Jan 2026) to 90M/week (Oct 2026)"
       ],
-      "bottom_line": "Serbia's parliamentary elections present a neck-and-neck contest between longtime leader Aleksandar Vučić and a student-led anti-corruption movement.",
+      "bottom_line": "The widespread adoption of AI coding agents has fundamentally broken traditional CI infrastructure, creating a massive new market for specialized optimization tools.",
       "claims": [
         {
-          "text": "The Student List has emerged from almost two years of anti-corruption protests led by young Serbians, outraged by the deaths of 16 people when a railway station's canopy collapsed in Serbia's second city Novi Sad.",
-          "support_span": "The Student List has emerged from almost two years of anti-corruption protests led by young Serbians, outraged by the deaths of 16 people when a railway station's canopy collapse in Serbia's second city Novi Sad.",
+          "text": "Blacksmith has raised $66 million in a Series C funding round, reaching a $1 billion valuation in under two years.",
+          "support_span": "Sequoia Capital led Blacksmith's $66 million Series C on October 21, 2026, valuing the San Francisco-based continuous integration startup at $1 billion — a unicorn crossing that happened in under two years from founding",
+          "status": "entailed"
+        },
+        {
+          "text": "AI agents have drastically increased the volume of pull requests and CI runs, causing infrastructure bottlenecks for engineering teams.",
+          "support_span": "AI coding agents have turned a decades-old infrastructure problem into an acute crisis. ... An AI agent running an iterative debugging loop — submit code, watch CI, diagnose failure, amend code, resubmit — can trigger 10 to 20 CI runs per task.",
           "status": "contradicted"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 50,
+      "trust_score": 10,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 40.0,
-      "is_new": true,
+      "blend": 43.8,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "57897cae1eb284da"
+        "f15d0aca9b7b4208"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-23T23:08:23+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 40 = trust 40 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "b23a7839cb11fb8d",
-      "title": "kukemc/bili-cli — 为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "linux",
-        "llm",
-        "opensource",
-        "supply-chain",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "b23a7839cb11fb8d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/kukemc/bili-cli",
-          "domain": "github.com",
+          "name": "Tech Times",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMF85ampqZmNlTHVfdE1rTnNINXk3SERmaGtaTDA1N0xDWlJ1c3g0dkI4OHphWWpXWTMyc0NhUkc5eUJnODYyNVZ4V1JuQkdSZjdhQndXVXp5aTNSVWwxcXQ0RXlkUWFndUJlYVVNQm1XWHBfSWVrTk94YkE5VlhtVUxMWnVYVjAtdk9uNEkyTTdVb0hnN0o5ak1KRjd1bFdGUWJlZ1Q0TzN3WlMtLXlWVzNsRjZrSGFKTlBYa1lWWk93U1U?oc=5",
+          "domain": "tech-times.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T22:44:50+00:00",
+      "published": "2026-10-22T14:12:20+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "bf51688758f4f4ab",
-      "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
+      "cluster_key": "ff345c810e43b664",
+      "title": "India, Rotterdam Port Authorities To Digitalise Cargo Processes: Piyush Goyal",
       "category": "india_world",
-      "one_liner": "Arsenal joined Manchester City at the top of the Premier League following City's loss to Aston Villa.",
+      "one_liner": "India and Rotterdam Port collaborate to digitalize cargo shipping processes.",
       "tags": [
-        "threat-intel"
+        "india",
+        "markets"
       ],
-      "summary": "Arsenal tied with Manchester City at the top of the Premier League table after defeating Everton 2-0 following City's 2-1 defeat against Aston Villa. Meanwhile, Tottenham Hotspur secured a rare 2-0 away victory against Chelsea at Stamford Bridge. Manchester City continues to play under the shadow of an independent commission's findings regarding 114 alleged breaches of Premier League financial rules.",
-      "key_facts": [],
-      "bottom_line": "The Premier League title race tightened as Arsenal drew level with Manchester City after weekend match upsets.",
+      "summary": "India and the Rotterdam Port Authorities are collaborating to digitalize cargo processes, as announced by Piyush Goyal. The Rotterdam port serves as Europe's largest port facility.",
+      "key_facts": [
+        "Partner port: Rotterdam Port (Europe's largest port)"
+      ],
+      "bottom_line": "India and Rotterdam Port are modernizing global trade lanes through joint cargo process digitalization.",
       "claims": [
         {
-          "text": "Arsenal joined Manchester City at the top of the Premier League table after a 2-0 victory over Everton in torrential rain at the Emirates Stadium on Saturday...",
-          "support_span": "Arsenal joined Manchester City at the top of the Premier League table after a 2-0 victory over Everton in torrential rain at the Emirates Stadium on Saturday...",
+          "text": "India, Rotterdam Port Authorities To Digitalise Cargo Processes: Piyush Goyal",
+          "support_span": "India, Rotterdam Port Authorities To Digitalise Cargo Processes: Piyush Goyal",
           "status": "contradicted"
         },
         {
-          "text": "City had left the door open when they fell to a 2-1 loss at Aston Villa, where Nicolas Jackson struck twice to end the visitors’ perfect start to the league campaign.",
-          "support_span": "City had left the door open when they fell to a 2-1 loss at Aston Villa, where Nicolas Jackson struck twice to end the visitors’ perfect start to the league campaign.",
+          "text": "Rotterdam port is Europe's largest port.",
+          "support_span": "Rotterdam port is Europe's largest port.",
           "status": "entailed"
         }
       ],
@@ -1640,21 +1165,21 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "bf51688758f4f4ab"
+        "ff345c810e43b664"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/10/24/arsenal-join-man-city-at-premier-league-summit-spurs-shock-chelsea-2-0?traffic_source=rss",
-          "domain": "aljazeera.com",
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/india-rotterdam-port-authorities-to-digitalise-cargo-processes-piyush-goyal-12234447#publisher=newsstand",
+          "domain": "ndtv.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-24T20:03:29+00:00",
+      "published": "2026-10-25T16:32:56+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
@@ -1664,52 +1189,118 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "2aa05de2002703d4",
-      "title": "Himanta Sarma Backs PM's Attack On Congress At NDTV World Summit",
+      "cluster_key": "52620080d97db7a4",
+      "title": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit",
       "category": "india_world",
-      "one_liner": "Himanta Biswa Sarma backs the Prime Minister's remarks against Congress at the NDTV World Summit.",
+      "one_liner": "US Attorney General Todd Blanche defends the DOJ's unusual lawsuit challenging Alaska's Senate election certification.",
       "tags": [
-        "incident",
-        "india",
+        "linux",
+        "policy",
         "political"
       ],
-      "summary": "Himanta Biswa Sarma expressed strong support for the Prime Minister's criticisms directed at the Congress party during the NDTV World Summit. Sarma noted that he had drawn similar political comparisons in a prior interview. The excerpt provides no further elaboration on the specific policy topics discussed.",
-      "key_facts": [],
-      "bottom_line": "Himanta Biswa Sarma echoed the Prime Minister's criticism of the opposition Congress party at the NDTV World Summit.",
+      "summary": "US Attorney General Todd Blanche has defended the Department of Justice's decision to file a lawsuit attempting to prevent the certification of a Republican loss in Alaska's tight Senate race. The controversial lawsuit, authorized directly by President Donald Trump and filed on October 22 ahead of the November 3 midterm elections, argues that the inclusion of independent candidate Daniel J Sullivan on the ballot tainted the election and confused voters. The race features Republican incumbent Senator Dan S Sullivan against Democratic former Representative Mary Peltola and the second Sullivan, who denies acting as a spoiler. Bipartisan critics and legal experts have slammed the DOJ's unusual intervention into state election administration as likely illegal.",
+      "key_facts": [
+        "Lawsuit filing date: October 22",
+        "Election date: November 3"
+      ],
+      "bottom_line": "The DOJ's unprecedented lawsuit seeking to block certification of Alaska's Senate race has drawn bipartisan condemnation.",
       "claims": [
         {
-          "text": "Sarma backed the PM's attack on Congress at the NDTV World Summit.",
-          "support_span": "Himanta Sarma Backs PM's Attack On Congress At NDTV World Summit",
+          "text": "United States Attorney General Todd Blanche has defended the Department of Justice’s decision to sue to prevent the certification of a Republican loss in Alaska’s tight Senate race.",
+          "support_span": "United States Attorney General Todd Blanche has defended the Department of Justice’s decision to sue to prevent the certification of a Republican loss in Alaska’s tight Senate race.",
+          "status": "entailed"
+        },
+        {
+          "text": "The Department of Justice has argued that its lawsuit – filed less than two weeks before the midterm elections – is necessary “to protect the integrity” of the election.",
+          "support_span": "The Department of Justice has argued that its lawsuit – filed less than two weeks before the midterm elections – is necessary “to protect the integrity” of the election.",
           "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 0,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 13.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "2aa05de2002703d4"
+        "52620080d97db7a4"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/himanta-sarma-backs-pms-attack-on-congress-at-ndtv-world-summit-12231282#publisher=newsstand",
-          "domain": "ndtv.com",
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss",
+          "domain": "aljazeera.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-24T18:03:34+00:00",
+      "published": "2026-10-25T21:41:10+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "73d9ae37fffd9c21",
+      "title": "Lula holds off far right with victory in Brazil presidential election",
+      "category": "india_world",
+      "one_liner": "Lula da Silva defeats Flavio Bolsonaro to win an unprecedented fourth term as Brazil's president.",
+      "tags": [
+        "policy",
+        "political"
+      ],
+      "summary": "Leftist incumbent President Luiz Inacio Lula da Silva has won Brazil's presidential runoff election against right-wing Senator Flavio Bolsonaro, securing an unprecedented fourth non-consecutive term. Lula captured over 51 percent of the vote (more than 64 million ballots) to defeat Bolsonaro's 48 percent after trailing him in the first round of voting. The election was marked by allegations of voter suppression, including reduced public transport availability in working-class areas, prompting the Supreme Court to extend voting hours. Lula's victory preserves a major leftist stronghold in Latin America and makes him the oldest president to take office since Brazil's return to democracy.",
+      "key_facts": [
+        "Lula vote share: >51% (64+ million votes)",
+        "Bolsonaro vote share: 48% (59+ million votes)",
+        "Inauguration date: January 5, 2027"
+      ],
+      "bottom_line": "Lula da Silva's runoff victory over Flavio Bolsonaro secures an unprecedented fourth term and halts right-wing momentum in Brazil.",
+      "claims": [
+        {
+          "text": "Leftist President Luiz Inacio Lula da Silva has defeated right-wing Senator Flavio Bolsonaro in Brazil’s contentious presidential race, pulling off a remarkable comeback after a first-round loss that galvanised the country’s political right.",
+          "support_span": "Leftist President Luiz Inacio Lula da Silva has defeated right-wing Senator Flavio Bolsonaro in Brazil’s contentious presidential race, pulling off a remarkable comeback after a first-round loss that galvanised the country’s political right.",
+          "status": "entailed"
+        },
+        {
+          "text": "Lula had earned more than 51 percent of the vote. More than 64 million ballots were cast for the incumbent. Bolsonaro, meanwhile, netted 48 percent, or north of 59 million ballots.",
+          "support_span": "Lula had earned more than 51 percent of the vote. More than 64 million ballots were cast for the incumbent. Bolsonaro, meanwhile, netted 48 percent, or north of 59 million ballots.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "73d9ae37fffd9c21"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T00:16:29+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1754,83 +1345,136 @@
       "reject_reason": "published 2026-10-19 — outside lookback window"
     },
     {
-      "cluster_key": "d5bbf521d2fcdbde",
-      "title": "MemTensor/MemT-1.0 — Official repository for MemT-1.0",
+      "cluster_key": "b07d752aced57875",
+      "title": "Reduck Secures $3M to Cut AI Agent Web Tasks 3x [2026]",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Reduck provides an MCP-based platform that enables AI agents to automate web interactions on sites without formal APIs.",
       "tags": [
         "agents",
         "ai",
-        "opensource",
+        "markets",
         "tool"
       ],
-      "summary": "MemT-1.0 is a new generation of memory foundation models that makes persistent, dynamically evolving memory an intrinsic part of model computation. MemT-1.0 integrates dynamic local memory and trainable hyper memory to retain and leverage historical information without accessing original context at inference. Its persistent state remains constant in size, reducing storage by approximately 66× versus full-context KV cache at 128K history length. The project makes three main contributions: - Memory architecture. Introduce MemT-1.0 with improved memory storage and utilization, and Mixture-of-Storage (MoS) for scalable memory capacity.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "Reduck has raised $3 million to develop Reduck MCP, a platform designed to bridge the gap for AI agents interacting with websites lacking APIs. The platform allows agents to discover, execute, and generate browser-automation scripts using the Model Context Protocol. It currently hosts over 1,200 automation scripts across 250 websites to facilitate agentic web tasks.",
+      "key_facts": [
+        "Funding: $3M pre-seed",
+        "Automation library: 1,200+ scripts",
+        "Supported websites: 250+"
+      ],
+      "bottom_line": "You can now offload browser-automation script management to Reduck MCP, allowing agents to execute or generate web interactions without custom API integrations.",
+      "claims": [
+        {
+          "text": "Reduck’s core product, Reduck MCP, is built around the Model Context Protocol, the open standard that lets AI models call external tools in a structured way.",
+          "support_span": "Reduck’s core product, Reduck MCP, is built around the Model Context Protocol, the open standard that lets AI models call external tools in a structured way.",
+          "status": "entailed"
+        },
+        {
+          "text": "That library already contains more than 1,200 ready-to-run automation scripts spanning over 250 websites.",
+          "support_span": "That library already contains more than 1,200 ready-to-run automation scripts spanning over 250 websites.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 0.0,
+      "blend": 43.8,
       "is_new": false,
-      "summary_source": "extract",
+      "summary_source": "model",
       "alt_keys": [
-        "d5bbf521d2fcdbde"
+        "b07d752aced57875"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/MemTensor/MemT-1.0",
-          "domain": "github.com",
+          "name": "shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xemRnSVZpS2ZFSDhkYlhnZUxwd0pyZ25DYXFKcmlrbFhVeVlaa3hjQmFmRnFFcG5HV1BuX0NMa1F4dk52dGw4RzVmX1BqY3dtbWtsdGZQS3p6R1FDOVVQbUppaXNDSmQ5azlWaVNnb0F4TWgyZWJV?oc=5",
+          "domain": "shattered-io.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T03:29:30+00:00",
+      "published": "2026-10-22T09:17:11+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "717f152abc570949",
-      "title": "Fable 5.1: \"Implement Borges's short stories.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Fable 5.1: \"Implement Borges's short stories. Do it, make them creative & beautiful & in different styles & help us understand the point. Figure it out.\" I had to tell it that it was okay to quote Borges. Play them: borges-in-3d.netlify.app 2026-10-18T06:08:22.855Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "cluster_key": "5f82d0dc0823563a",
+      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "category": "cyber_attacks",
+      "one_liner": "A low-privileged SQL injection in FortiManager and FortiAnalyzer allows for arbitrary command execution and file manipulation.",
+      "tags": [
+        "appsec",
+        "cve",
+        "network",
+        "vulnerability"
+      ],
+      "summary": "A critical SQL injection vulnerability (CWE-89) has been discovered in Fortinet's FortiAnalyzer and FortiManager products, including their cloud variants. The flaw allows a low-privileged user to execute arbitrary commands or perform unauthorized file read/write operations via specially crafted requests. Fortinet has acknowledged the internal discovery of the bug and published the initial advisory on October 13, 2026.",
+      "key_facts": [
+        "CWE-89: SQL Injection",
+        "Affected: FortiAnalyzer, FortiManager (including Cloud)",
+        "Date: 2026-10-13"
+      ],
+      "bottom_line": "Administrators of Fortinet management platforms should check for available patches to prevent low-privileged users from escalating to arbitrary command execution.",
+      "claims": [
+        {
+          "text": "The SQL injection allows low-privileged users to execute arbitrary commands.",
+          "support_span": "vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow a low privileged user to execute arbitrary commands via crafted requests.",
+          "status": "entailed"
+        },
+        {
+          "text": "The flaw enables arbitrary file read and write operations.",
+          "support_span": "Multiple Arbitrary File Read/Write via SQL Injection",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 0.0,
+      "blend": 58.8,
       "is_new": false,
-      "summary_source": "extract",
+      "summary_source": "model",
       "alt_keys": [
-        "717f152abc570949"
+        "5f82d0dc0823563a",
+        "fe9a368f887d4fba"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my4wwt7wdk2t",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "Fortinet PSIRT",
+          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+          "domain": "fortiguard.fortinet.com",
+          "tier": "A"
+        },
+        {
+          "name": "Fortinet PSIRT",
+          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
+          "domain": "fortiguard.fortinet.com",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-18T06:08:23.455000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+      "primary_links": [
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-180"
       ],
-      "reject_reason": "published 2026-10-18 — outside lookback window"
+      "published": "2026-10-13T07:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from cache",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     }
   ]
 }
