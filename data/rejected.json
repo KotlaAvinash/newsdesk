@@ -1,129 +1,22 @@
 {
-  "generated_at": "2026-10-26T01:20:50.445102+00:00",
+  "generated_at": "2026-10-27T02:17:22.896667+00:00",
   "items": [
     {
-      "cluster_key": "5949ffc6603764cf",
-      "title": "Cloudflare reported that the number of exploitation attempts for the 'PHP2Shell' vulnerability increased to millions after its disclosure, and has developed and enabled a new firewall for its customers.",
-      "category": "cyber_attacks",
-      "one_liner": "The 'PHP2Shell' vulnerability triggered a massive spike in exploitation attempts immediately following its disclosure, necessitating emergency patches and WAF-level intervention.",
-      "tags": [
-        "appsec",
-        "cve",
-        "exploit",
-        "network",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "Exploitation attempts for the 'PHP2Shell' vulnerability surged from a few thousand to millions within 12 hours of the vulnerability's public disclosure. The vulnerability, which affects PHP, allows for potential data theft and unauthorized website modification. In response, the PHP Foundation released emergency updates (versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35) on October 21, 2026. Cloudflare developed and enabled a specialized Web Application Firewall (WAF) protection for all customers prior to the public leak to mitigate the threat.",
-      "key_facts": [
-        "Vulnerability: PHP2Shell",
-        "PHP versions: 8.5.12, 8.4.27, 8.3.36, 8.2.35",
-        "Disclosure date: October 21, 2026",
-        "Exploitation scale: Millions of attempts within 12 hours"
-      ],
-      "bottom_line": "Public disclosure of critical vulnerabilities leads to near-instantaneous, large-scale exploitation, making rapid WAF deployment and patching essential for survival.",
-      "claims": [
-        {
-          "text": "Cloudflare has reported that in the wake of the emergency update following the discovery of a critical vulnerability called 'PHP2Shell' in PHP, the number of exploitation attempts, which was only a few thousand before the announcement, exploded afterward, increasing to millions within about 12 hours of the announcement.",
-          "support_span": "Cloudflare has reported that in the wake of the emergency update following the discovery of a critical vulnerability called 'PHP2Shell' in PHP, the number of exploitation attempts, which was only a few thousand before the announcement, exploded afterward, increasing to millions within about 12 hours of the announcement.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The PHP Foundation and several security companies have collaborated to address these vulnerabilities, and an emergency update was released late at night on October 21, 2026.",
-          "support_span": "The PHP Foundation and several security companies have collaborated to address these vulnerabilities, and an emergency update was released late at night on October 21, 2026.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "5949ffc6603764cf",
-        "5f3d634b4955d162",
-        "8c3523568bf0fec4",
-        "abe1de9fb6bfd846",
-        "bb6281cb2b01dcca",
-        "cc357f06961caa48",
-        "f00c8bdc52d909ca",
-        "f4e883c1dc458dcd"
-      ],
-      "critical_signal": "unauthenticated rce",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Cisco Talos Blog",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zN3ZxNXRYbmtlVzVQNU53dTAwLXk1WUxZckEyZ0RaU1pvNXVDQnctWGE3anY3MUt1NGdsUlB2bzhsQXBkcXljdmtTWFFENkVacVFnUF9kdmp2aXNkWmw1dWkxX2IzMERMa2g5TlJOWlJPVE0?oc=5",
-          "domain": "cisco-talos-blog.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "GIGAZINE",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTVRNmQxU3poLWlzN295cmY3eERuV2tWb3JJLW1nbl92Nl9fNy1vWlhHR3Q3eWpyRlRtSFZTSU1RRHJHQzFqQS1oSndnM1VLUkhMSE45N3EzMWx6MFNVNjZWQlFTbzE0bFRNUEdVR1YtM2pfQVo0QnM0WWhaN1R3WF9nZE4?oc=5",
-          "domain": "gigazine.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "INSIGHTS IAS",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UZU93cl9VZnFreEFpbHI1TkI0SGUxdjVfT3VlS1hyRWwwNnk1S2Q1V1JsZmEybFNwRVZrN2gxaHlUeVBxRnBqazJaR3NXa0lybFRfd2MwS1JQb2IwanZHUHZ4WkhvS0Rt?oc=5",
-          "domain": "insights-ias.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "newskarnataka.com",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8tdVp5NXZZMkhSTU9mTnFjQW83THNpU2ppTzBnTEsycG05R0FjWjVyTlQ2RjVrMHE0YjFrWjMyeXZJaWllbXFnTGFB?oc=5",
-          "domain": "newskarnataka-com.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "OODA Loop",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZUVFemNxSEg2enE2cTNyREVnbi1XQWs3UUFDRHJYdmRkaHk1eHBoemtuM0ZVdlZxZ1VhYjdTV001UWhpTkdOYnVjVk41bXV2akRUWnEzNEhaMUdaNTNFdHVROG1hQ3lRdGtyYWlYQnktMzlJTWtKRkV4dmdmcnJ1TFFLeXVuV0xONXQ0aWFWUmtYNmx1V1BYTmVBWWhaOVhadzFlM3FadjZJTUdnNktQekN6QV85OE45cy03d3JkdWxMckJBOEo2cQ?oc=5",
-          "domain": "ooda-loop.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Recorded Future",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90WWtVamxpMWlHekU2WHR2dThRaFdLZGp0S21ZMDRSUXI2aERDTHBtNmRMZXUyUlZPX1NVbmJkTF8zUXN5NzhnM1B5YXJOWjRjOEV2N3NqTjV3dXg5S0sxRGhSdmlQYW11Q0FiYU5CdF9BcS10T1V1ZzVGdXY?oc=5",
-          "domain": "recorded-future.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Snyk",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNEZPbF9GS1d0V3A5cDd1Ny1EeDZlR1dBZWFjak03RV9paEpzNGNNYTZpU01fZXlFcy1tSS1yMDBfak0zbk9HNWJNU3ZDS2ZzNlBRT0lxSnlvRzh5akg5LXZrTFpKdVZOVUUxMDZpdF8?oc=5",
-          "domain": "snyk.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Technology Org",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPelNjVTJlLW9IX3VwbFdycTRLNmdYZWsxTXRWSmxZc0djYmM2VTA1NW8wN3BsUmVJVm5yS09DcjhsU2FITU9zZnppNS1faGgtOFdMNDFfUGduYnFyYmZvdUR4RW9VV2h3S3dYN19ZTkhTQmd4czBvY0tSZFpfaW1hb19lZW9QTmpURTFTRUN0UG82aHFLUHZqbVJR?oc=5",
-          "domain": "technology-org.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-22T05:16:34+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25",
-        "escalated to CRITICAL by signal: 'unauthenticated rce'",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "1b58cc166eccb97a",
-      "title": "Weekly update is up! Building HIBP AI/SI First: The way we build and manage HIBP is fundamentally different today than it was a year ago, here's how…",
+      "cluster_key": "516e28b59d6ca0e2",
+      "title": "A Microsoft investigation has revealed that cyber attackers linked to the Chinese government used the AI agent 'ARTEX' to launch attacks against hundreds of organizations worldwide.",
       "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "ai"
+        "agents",
+        "ai",
+        "hardware",
+        "incident",
+        "release",
+        "supply-chain",
+        "threat-actor",
+        "tool"
       ],
-      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Weekly update is up! Building HIBP AI/SI First: The way we build and manage HIBP is fundamentally different today than it was a year ago, here's how it looks now 2026-10-19T07:42:05.753Z",
+      "summary": "A Microsoft investigation has revealed that cyber attackers linked to the Chinese government used the AI agent 'ARTEX' to launch attacks against hundreds of organizations worldwide. Microsoft has released the results of its investigation into 'Storm-0940,' a cyber attacker allegedly linked to the Chinese government. It has been revealed that Storm-0940 used the AI agent 'ARTEX' to carry out attacks against hundreds of organizations. AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise | Microsoft Security Blog According to Microsoft, Storm-0940 activity has been observed since 2021, and attacks using ARTEX began in September 2026. Note that 'Storm-0940' i…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -134,25 +27,172 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "1b58cc166eccb97a"
+        "516e28b59d6ca0e2"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Troy Hunt",
-          "url": "https://bsky.app/profile/troyhunt.com/post/3my7mn6uqch2f",
+          "name": "GIGAZINE",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGX25WbTRYOFZKZlMtX0l2R2l5XzJDVnZrbWw2RUtUYzUwSFpxc2RtNkxLdEhndTZNVGRtWjBHOFdGb0hZMTFjcWI4RzhONF9PS012U20ydFQ3M3JlWHVTY0FSb3loQVR3TlZGVVcyUl9kTkR4bF9LNmE2dnU?oc=5",
+          "domain": "gigazine.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T02:04:00+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-23 — outside lookback window"
+    },
+    {
+      "cluster_key": "b389659a27e97e4d",
+      "title": "sirioberati/YouTube-AI-Video-Editing-System — Open-source YouTube AI video editing system: Eyeline teleprompter, editing agents, JSON, Claude Design, animat",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "windows",
+        "writeup"
+      ],
+      "summary": "The included boards are starter templates, not a finished visual identity. Customize the colors, fonts, shapes, and layouts for your own videos. The animation examples are there to adapt. An open-source workflow for recording, AI-assisted editing, design, Claude Design, animation, motion graphics, and the final editor handoff. Want more open-source AI filmmaking workflows?",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "b389659a27e97e4d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/sirioberati/YouTube-AI-Video-Editing-System",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-21T14:12:50+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-21 — outside lookback window"
+    },
+    {
+      "cluster_key": "60c5d20025ea454a",
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-10-23T15:38:47.439Z",
+      "key_facts": [
+        "Identifier: CVE-2026-89078"
+      ],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "60c5d20025ea454a",
+        "dcf31aa288786048",
+        "effb305fe7660484",
+        "f1684a1522ffb5d0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mykj5evi4x2z",
+          "domain": "bsky.app",
+          "tier": "C"
+        },
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3myhzlccpmg2p",
+          "domain": "bsky.app",
+          "tier": "C"
+        },
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3myg5l7vc7v2y",
+          "domain": "bsky.app",
+          "tier": "C"
+        },
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3myg4ka6gi526",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T07:42:01.438000+00:00",
+      "published": "2026-10-21T21:42:40.892000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "published 2026-10-21 — outside lookback window"
+    },
+    {
+      "cluster_key": "7398e85e6df3d84c",
+      "title": "Companies I talk to are struggling with the rate of patches they need to do thanks to AI defenses finding issues before the coming wave of incoming…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Companies I talk to are struggling with the rate of patches they need to do thanks to AI defenses finding issues before the coming wave of incoming cyberattacks by other AIs. Now consumers are going to have the same experience of getting everything updated often & fast.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "7398e85e6df3d84c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myffkbheuc2e",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-21T14:51:06.205000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-21 — outside lookback window"
     },
     {
       "cluster_key": "d384d5d1d3d724dd",
@@ -299,14 +339,15 @@
       "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
-      "cluster_key": "067498e444d5fb13",
-      "title": "My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you…",
+      "cluster_key": "1232c0a56695e4b8",
+      "title": "Monopoly0024/simple-reviewer-v1 — Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and ",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "ai",
+        "opensource"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you personalized prompts, ideas, & readings based on concepts from the book You can order & claim the pre-order bonus here: co-existence.ai 2026-10-19T15:54:52.554Z",
+      "summary": "Understand and verify the code behind your Vibe Coding workflow. Simple Reviewer is a Codex skill for people who build and iterate with AI coding agents. It breaks AI-written code into functional blocks, explains what each block does and where it lives, and checks whether the implementation actually meets your goals using recorded evidence. Use it after a Vibe Coding session, when inheriting unfamiliar AI-generated code, or before accepting a change. Start with a readable explanation, then inspect the behavior, evidence, and remaining gaps.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -317,25 +358,69 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "067498e444d5fb13"
+        "1232c0a56695e4b8"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myai6h4uzc2x",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/Monopoly0024/simple-reviewer-v1",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T15:54:52.033000+00:00",
+      "published": "2026-10-21T04:22:59+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "published 2026-10-21 — outside lookback window"
+    },
+    {
+      "cluster_key": "e5eacc3fb228e643",
+      "title": "h9-tec/ai-roadmap-2026 — AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, w",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "opensource",
+        "research"
+      ],
+      "summary": "Per the market analysis this roadmap is built on, AI engineering in 2026 shifted from \"train models\" to \"build reliable agentic systems\" on top of models that already exist. The same analysis finds three skills repeated in every job description: RAG, Agents, and Evals. Per LinkedIn Jobs on the Rise 2026, AI Engineer is the fastest-growing job in the US, with 143% growth. This roadmap takes a beginner through those skills in five layers, each ending in a mini-project you can show. For job titles and the rest of the numbers, see Careers.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e5eacc3fb228e643"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/h9-tec/ai-roadmap-2026",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-21T12:23:43+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-21 — outside lookback window"
     },
     {
       "cluster_key": "58da40b0b62bf110",
@@ -387,107 +472,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "e67495d51e8fecb6",
-      "title": "Zafer-Liu/claude-super-sidebar — A visual sidebar for Claude Code and Codex: agent trees, live status, and conversation task flows.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "A native Claude pane and a local Codex session panel. English · 简体中文 Preview · Installation · Usage · Codex · Development · Validation Claude Super Sidebar brings the main agent, subagent relationships, execution details, and the current conversation’s work steps into one panel. Claude Code uses a native plugin pane; standalone Codex CLI/App uses a read-only local session dashboard. The repository and product are Claude Super Sidebar (claude-super-sidebar). The plugin installs as super-sidebar, with a native pane titled 状态 · Status.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e67495d51e8fecb6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Zafer-Liu/claude-super-sidebar",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T06:18:04+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window"
-    },
-    {
-      "cluster_key": "4aa7bf207740c82b",
-      "title": "Best AI Agent for GIS: Free AI Agent for QGIS Scores 43.8 on Google Research’s Geospatial AI Benchmarks, Ahead of Claude and GPT-6",
-      "category": "tech_ai",
-      "one_liner": "TerraLab's QGIS AI agent outperforms general frontier models on geospatial benchmarks for automated mapping tasks.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "markets",
-        "opensource",
-        "release",
-        "research",
-        "tool"
-      ],
-      "summary": "TerraLab released an AI agent plugin for QGIS that scored 43.8 out of 100 on Google Research's GeoKTools and GeoExpertQueries geospatial AI benchmarks, outperforming Claude Sonnet 5.5 and GPT-6 configurations. The tool allows users to execute GIS mapping and spatial analysis tasks using natural language prompts within the open-source QGIS application. It automates data acquisition, analysis tool execution, and styled layer generation. The plugin is available for free on the official QGIS repository.",
-      "key_facts": [
-        "Benchmark score: 43.8 / 100",
-        "Platform: QGIS 3.28 and later",
-        "Developer: TerraLab"
-      ],
-      "bottom_line": "Domain-specific QGIS agent plugins outperform generic LLM tool setups on specialized geospatial analysis benchmarks.",
-      "claims": [
-        {
-          "text": "It scored 43.8 out of 100 on 41 public questions from GeoKTools and GeoExpertQueries",
-          "support_span": "It scored 43.8 out of 100 on 41 public questions from GeoKTools and GeoExpertQueries, and GeoExpertQueries, the benchmarks Google Research published on October 11, 2026, the top score of the publicly available AI agents TerraLab tested inside QGIS, the open-source desktop GIS.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "4aa7bf207740c82b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "FinancialContent",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPNmhYcXNZUnZQTjBSZTZzaHdkUnIzdVNCcDlKTl84MDJiWk1vU3J1eU5yUXhRMEJqQWtvSkd6OXMzNTZxbk05bVhualluOGtFQlFVMGI4Sm1zeUpXT1FVc2NnNHlXVlBESk5vTWhnWTFENkFEN0phMjlvTHVGNGR4MGhtU2NLb3VWVlBrQjUyUjhna3VkQmdEM3Z5QUh5bV9ZMHV0RW1zWWw0eGgtN2hZSXA0ZFpkcE1HWHItbGJISTlzWkIwbTVpQWJUNWJVNHBLMFBHcS1kWWhCZTRqMmJmN19Od2o2R3BWT0hOc1hSZWUtQnJBSlBRdmRsTWo4NTY4MXBiVERBVzlJMjFnUGR6bzgxcURLVWF3?oc=5",
-          "domain": "financialcontent.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-23T16:18:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
@@ -551,7 +536,7 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-10-25T09:50:08+00:00",
+      "published": "2026-10-26T08:25:05+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
@@ -561,157 +546,14 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "dd9a81b0fe522847",
-      "title": "YOLOW92/pagesift — Rust web content engine: clean Markdown, incremental collections, isolated HTTP sessions and verified media ar",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm",
-        "opensource"
-      ],
-      "summary": "High-performance, memory-bounded web scraping and extraction engine built for AI agents and LLM pipelines. Turn any website, document, or archive into clean Markdown and structured data — one Rust binary, native SDKs, dual Firecrawl v1/v2 & Jina Reader APIs, at a fraction of the memory. The engine underneath the numbers was replaced. 0.60 proved PageSift could finish 100,000,000 tasks; 0.70 rebuilds the data plane that does it and puts the whole system under one closed-loop controller. ⚙️ Hand-written NUMA-local HTTP data plane — fixed-slot NUMA executors, a minimal HTTP/1.1 reactor, hybrid reactor↔content scheduling, per-origin adaptive connections and sharded intake with bounded work stea…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "dd9a81b0fe522847"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/YOLOW92/pagesift",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T17:30:59+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window"
-    },
-    {
-      "cluster_key": "8c743a0b9bc0b97e",
-      "title": "yuatemycat/SuperGhidra — SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "release",
-        "tool"
-      ],
-      "summary": "SuperGhidra: Compilable C Rewriter & Guardrailed Agent MCP Suite. Python tools that make Ghidra faster to script against, rewrite raw decompiler output into compilable C, and run static binary analyses Ghidra does not include out of the box: MSVC RTTI and MFC CRuntimeClass recovery, Serialize() archive layout tracing, cross-version function and struct-shift matching, and a Z3 equivalence checker for P-code. Instead of paying 5–15 seconds of JVM startup per headless run or fighting .rep project lock contention while the Ghidra GUI is open, SuperGhidra keeps a single read-only Ghidra instance warm in a background daemon (127.0.0.1:5073) backed by an L2 SQLite cache and a non-destructive JSON…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "8c743a0b9bc0b97e"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/yuatemycat/SuperGhidra",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T08:22:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window"
-    },
-    {
-      "cluster_key": "3fdcf22dca178612",
-      "title": "Kotak Mahindra Bank shares in focus on Mon Oct 26 after Q2 results 2026: Should you buy, sell or hold? Experts weigh in",
-      "category": "markets",
-      "one_liner": "Kotak Mahindra Bank's Q2 earnings show strong profit growth despite margin pressure from FCNR(B) deposit mobilization.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "Kotak Mahindra Bank reported a 26% year-on-year increase in consolidated net profit to ₹5,645 crore for the September quarter. While credit growth was strong at 25%, net interest margins (NIM) contracted by 22 basis points to 4.3% due to the mobilization of FCNR(B) deposits. Analysts suggest that the deployment of these funds and interest rate cycles may help the bank recover margins in the coming quarters.",
-      "key_facts": [
-        "Consolidated net profit: ₹5,645 crore",
-        "NIM: 4.3%",
-        "Credit growth: 25%"
-      ],
-      "bottom_line": "Investors should monitor the bank's ability to deploy FCNR(B) funds and improve NIMs over the next two to three quarters to justify current valuations.",
-      "claims": [
-        {
-          "text": "Kotak Mahindra Bank reported a strong earnings performance for the September quarter, with consolidated net profit rising 26% year-on-year to ₹5,645 crore.",
-          "support_span": "Kotak Mahindra Bank reported a strong earnings performance for the September quarter, with consolidated net profit rising 26% year-on-year to ₹5,645 crore.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Net interest margin (NIM) contracted by 0.23 percentage points during the quarter, partly due to the bank's mobilisation of ₹55,344 crore in FCNR(B) deposits",
-          "support_span": "Net interest margin (NIM) contracted by 0.23 percentage points during the quarter, partly due to the bank's mobilisation of ₹55,344 crore in FCNR(B) deposits",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "3fdcf22dca178612"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/kotak-mahindra-bank-shares-in-focus-on-mon-oct-26-after-q2-results-2026-should-you-buy-sell-or-hold-experts-weigh-in-11792905299621.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T06:31:30+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "4d8dac7ced143fd6",
-      "title": "Anyone else's TikTok occasionally decide to show them promotional videos from Chinese industrial machinery suppliers?",
+      "cluster_key": "62e8c68129d06525",
+      "title": "It's been less than 24 hours and there's already a French fork of Battle Drones that reimagines it as Belle Époque steampunk!",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Anyone else's TikTok occasionally decide to show them promotional videos from Chinese industrial machinery suppliers?",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z It's been less than 24 hours and there's already a French fork of Battle Drones that reimagines it as Belle Époque steampunk! [contains quote post or other embedded content] 2026-10-21T16:52:47.343Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -722,7 +564,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "4d8dac7ced143fd6"
+        "62e8c68129d06525"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -730,17 +572,248 @@
       "sources": [
         {
           "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3myahrcpxu22s",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3myfmdrox3k2u",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T15:47:31.202000+00:00",
+      "published": "2026-10-21T16:52:44.533000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "published 2026-10-21 — outside lookback window"
+    },
+    {
+      "cluster_key": "53cea17e45af8983",
+      "title": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
+      "category": "cyber_tools",
+      "one_liner": "AI-assisted reverse engineering has successfully optimized a legacy game engine, yielding significant performance gains.",
+      "tags": [
+        "ai",
+        "linux",
+        "llm",
+        "opensource",
+        "release",
+        "research",
+        "tool",
+        "windows"
+      ],
+      "summary": "A developer used Claude to reverse-engineer and optimize the engine of 'The Elder Scrolls IV: Oblivion Remastered', resulting in a 40% FPS increase in benchmark scenarios. The fix improves CPU-bound performance in towns and during travel without altering visual quality or settings. The solution is open-source and compatible with various hardware configurations, including Steam and Game Pass versions.",
+      "key_facts": [
+        "Performance gain: +40% FPS",
+        "Tool used: Claude Code",
+        "Target: The Elder Scrolls IV: Oblivion Remastered"
+      ],
+      "bottom_line": "AI tools like Claude Code are becoming highly effective for complex reverse engineering and performance optimization tasks in legacy software.",
+      "claims": [
+        {
+          "text": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
+          "support_span": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "53cea17e45af8983"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "SecHarvester",
+          "url": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix/",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-25T12:08:18+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "26cea7ea855a6045",
+      "title": "lklbar666/mcd-saver-checkup — 麦当劳省钱体检：不看你想吃什么，先看你已经亏在哪。基于麦当劳中国 MCP 的差价审计 Skill——枚举所有买法，用 calculate-price 逐个复算，报差额、归因与凑单临界点。",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "opensource"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "26cea7ea855a6045",
+        "d8754542d91b7766"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/lklbar666/mcd-saver-checkup",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/xanthichi/mcd-meal-mate",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-21T03:28:42+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-21 — outside lookback window"
+    },
+    {
+      "cluster_key": "5597531306565c2a",
+      "title": "Swiggy shares rise 6% after 4-session down episode; is this a relief rally or worst is over? Experts decode | Target, SL",
+      "category": "markets",
+      "one_liner": "Swiggy shares rebound 6% following Q2 results, while analysts flag quick-commerce losses as a critical metric for valuation.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "Swiggy shares rose 6% in Monday's trading session, recovering from a four-session losing streak after reporting Q2 financial results that aligned with market expectations alongside positive business volume and revenue growth. Global brokerage firms Jefferies and Elara Securities maintained positive long-term outlooks while adjusting their target prices, citing high quick-commerce Instamart EBITDA losses as a key risk factor requiring management focus for future value discovery.",
+      "key_facts": [
+        "Intraday share high: ₹186.65",
+        "Jefferies price target: ₹330",
+        "Elara Securities price target: ₹300"
+      ],
+      "bottom_line": "Food delivery growth is being overshadowed by quick-commerce EBITDA losses, making margin reduction the core driver for future stock valuation.",
+      "claims": [
+        {
+          "text": "Swiggy shares rose 6% in Monday's trading session, recovering from a four-session losing streak after reporting Q2 financial results that aligned with market expectations alongside positive business volume and revenue growth.",
+          "support_span": "After bleeding for four straight sessions, Swiggy shares saw strong buying in Monday's trading. Swiggy's share price today opened at ₹176 per share and touched an intraday high of ₹186.65, logging a 6% gain over the previous close of ₹176.",
+          "status": "entailed"
+        },
+        {
+          "text": "Global brokerage firms Jefferies and Elara Securities maintained positive long-term outlooks while adjusting their target prices, citing high quick-commerce Instamart EBITDA losses as a key risk factor requiring management focus for future value discovery.",
+          "support_span": "Despite reducing the upside target from ₹350 to ₹300, Elara Securities maintains a ‘buy’ tag for Swiggy shares... The global investment bank has reduced its Swiggy share price target from ₹435 to ₹330 following the Q2 results.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "5597531306565c2a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/swiggy-shares-rise-6-after-4-session-down-episode-is-this-a-relief-rally-or-worst-is-over-experts-decode-target-sl-11792998360954.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T07:37:20+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "6e1fee5a1ec29a36",
+      "title": "AI slop is piling up highest on the biggest open-source projects",
+      "category": "cyber_attacks",
+      "one_liner": "Large open-source projects are facing a crisis of maintainer burnout due to a high volume of low-quality, AI-generated code submissions.",
+      "tags": [
+        "ai",
+        "linux",
+        "opensource",
+        "tool"
+      ],
+      "summary": "A Linux Foundation survey of 234 open-source contributors reveals that maintainers of large projects are increasingly overwhelmed by low-quality, AI-generated code submissions. Maintainers estimate that nearly one-third of code changes in large projects are AI-generated, leading to significant burnout and review delays. While some projects have implemented policies requiring disclosure of AI use, most lack formal rules, forcing maintainers to manually vet submissions or use AI tools to fight the influx. Despite the challenges, some projects like curl have successfully transitioned to using AI to improve the quality of security reports.",
+      "key_facts": [
+        "Survey size: 234 contributors",
+        "AI code estimate: ~33% for large projects"
+      ],
+      "bottom_line": "The influx of AI-generated code is shifting the primary concern of large open-source maintainers from code quality to personal burnout.",
+      "claims": [
+        {
+          "text": "In a Linux Foundation survey of 234 open-source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in their queue are low quality or AI-generated.",
+          "support_span": "In a Linux Foundation survey of 234 open-source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in their queue are low quality or AI-generated.",
+          "status": "contradicted"
+        },
+        {
+          "text": "About a third of projects have a formal policy that allows AI-assisted contributions, and one in ten bans them.",
+          "support_span": "About a third of projects have a formal policy that allows AI-assisted contributions, and one in ten bans them.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 46.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6e1fee5a1ec29a36",
+        "c7286ff8c5d0da17"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
+          "domain": "helpnetsecurity.com",
+          "tier": "B"
+        },
+        {
+          "name": "36Kr",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12cDVNLWFsdHk2TEdybjA1UUd6N2tkLUZCVU1XN1N6ZWE0RzlHUGczMVdZRzR5N3ZnTW5RaW43bzB1UEx5a0Y3U216NHJKczU2ZVNr?oc=5",
+          "domain": "36kr.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T04:35:10+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 47 = trust 37 / interest 50 / corrob 50"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "16a29e57dcb7f7a2",
@@ -861,141 +934,149 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "d3f519557f32dd3d",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "cluster_key": "97ed7e74ec0704be",
+      "title": "A visible sign of what AI insiders have been warning about since at least the Mythos release.",
       "category": "tech_ai",
-      "one_liner": "GPT-5.6 Sol helped uncover critical PHP flaws, prompting OpenAI to launch a $1 billion defense initiative and secure response framework.",
+      "one_liner": "",
       "tags": [
-        "ai",
-        "llm",
-        "opensource",
-        "release",
-        "research",
-        "tool",
-        "vulnerability"
+        "ai"
       ],
-      "summary": "OpenAI led a coalition of security researchers, maintainers, and providers to address critical vulnerabilities in the PHP programming language discovered by Calif using GPT-5.6 Sol and independently by Wiz. To help organizations detect vulnerable installations, OpenAI is sharing a PHP version checker as a Codex skill alongside a proposed framework for coordinating rapid responses to software flaws in the AI era. The discovery highlights how frontier AI models can accelerate vulnerability research, prompting OpenAI to commit $1 billion in subsidized Daybreak access for organizations defending essential services. The collaborative disclosure process aims to establish a repeatable model for securing widely used infrastructure before malicious actors can weaponize the flaws.",
-      "key_facts": [
-        "Affected product: PHP",
-        "Funding commitment: $1 billion in Daybreak access"
-      ],
-      "bottom_line": "AI models are now uncovering critical vulnerabilities in foundational web languages like PHP before attackers can exploit them.",
-      "claims": [
-        {
-          "text": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
-          "support_span": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
-          "status": "contradicted"
-        },
-        {
-          "text": "To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services.",
-          "support_span": "To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 100,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A visible sign of what AI insiders have been warning about since at least the Mythos release. Acceleration of attack and defense, at inhuman speeds, interacting with the very human systems that need to react to them. And these are the vulnerabilities we know about.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 70.0,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "d3f519557f32dd3d"
+        "97ed7e74ec0704be"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "OpenAI Blog",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-          "domain": "openai.com",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
-      ],
-      "published": "2026-10-21T07:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 70 = trust 70 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "160b5ca93fbd82fe",
-      "title": "PHP vulnerability — Global Web Websites at Risk as AI Discovers Zero-Day Flaws - 미주중앙일보",
-      "category": "cyber_attacks",
-      "one_liner": "An AI-discovered unauthenticated RCE zero-day affecting 70% of global PHP websites requires immediate patching or system shutdown.",
-      "tags": [
-        "ai",
-        "blueteam",
-        "cve",
-        "dfir",
-        "exploit",
-        "incident",
-        "india",
-        "vulnerability"
-      ],
-      "summary": "A global security crisis emerged after artificial intelligence successfully uncovered two zero-day PHP vulnerabilities that allowed unauthenticated remote code execution. PHP developers released patched code on October 21 after finding the flaws during a self-audit, prompting the South Korean government to raise its cyber crisis alert level to 'Caution' and international agencies to issue urgent advisories. Vulnerable sites remain widespread, with CybelAngel reporting that roughly 25,000 servers in South Korea alone run unsupported PHP 8.1 or older versions that require upgrades to version 8.3 or higher. Cybersecurity firm Caliph used OpenAI's GPT-5.6 Sol model to uncover the flaws, highlighting how AI-driven discovery can accelerate threat identification.",
-      "key_facts": [
-        "Affected share: 70% of global websites utilizing PHP",
-        "Alert level raised: Caution (South Korea, Oct. 22)",
-        "Vulnerable servers in SK: ~25,000 running PHP 8.1 or older",
-        "AI model used: GPT-5.6 Sol by Caliph"
-      ],
-      "bottom_line": "Unauthenticated remote code execution zero-days in PHP discovered via AI put millions of websites at risk until administrators upgrade to version 8.3 or higher.",
-      "claims": [
-        {
-          "text": "On Oct. 22, the Ministry of Science and ICT and the Korea Internet & Security Agency (KISA) raised the private-sector cyber crisis alert level from ‘Interest’ to ‘Caution’",
-          "support_span": "On Oct. 22, the Ministry of Science and ICT and the Korea Internet & Security Agency (KISA) raised the private-sector cyber crisis alert level from ‘Interest’ to ‘Caution’, the second lowest on a four-tier scale",
-          "status": "contradicted"
-        },
-        {
-          "text": "PHP developers announced they had discovered security flaws during a routine self-audit and urgently released a patched code on Oct. 21.",
-          "support_span": "The crisis came to light on Oct. 21 when PHP developers announced they had discovered security flaws during a routine self-audit and urgently released a patched code.",
-          "status": "entailed"
-        },
-        {
-          "text": "CybelAngel reported that approximately 25,000 servers in South Korea run PHP 8.1 or older versions.",
-          "support_span": "According to French security firm CybelAngel, approximately 25,000 servers in South Korea run PHP 8.1 or older versions, accounting for 82% of servers where versions could be identified.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "160b5ca93fbd82fe"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GN Zero-day watch",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yV2M3dFlUQ09uR0s0YXVHWkhvUEFnTXBYUWN3MXJCVGNJbVJ6amFLZ2pVUFRWb1ZIYVp2dU92bGFYMWxLV1A3WlZLamwxWkxwNWtvamMwWURCMTRoaTNMczgtbWY2eE5tLWFyOU1jVQ?oc=5",
-          "domain": "news.google.com",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mygfwzgdc22g",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-22T09:09:19+00:00",
+      "published": "2026-10-22T00:30:53.724000+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-22 — outside lookback window"
+    },
+    {
+      "cluster_key": "9d99a8c45a97dc91",
+      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+      "category": "tech_ai",
+      "one_liner": "Test-Time Memory Evolution (TTME) matches or beats test-time training performance on scientific tasks while slashing computational costs by over 80%.",
+      "tags": [
+        "ai",
+        "howto",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "While test-time training (TTT) enables open-weight LLMs to excel at scientific discovery, online weight updates introduce substantial computational overhead. To address this, researchers introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method that continually updates external memory without altering model weights. Evaluated across five mathematical discovery tasks, TTME outperforms TTT while drastically cutting computational costs. Specifically, TTME reduces FLOPs by 82.8% to 84.6% and runtime by 47.7% to 58.4%. These findings position memory evolution as a highly efficient alternative to weight updates for scientific tasks.",
+      "key_facts": [
+        "FLOPs reduction: 82.8%-84.6%",
+        "Runtime reduction: 47.7%-58.4%"
+      ],
+      "bottom_line": "Updating external memory at test-time can replace costly model weight updates for LLM-driven scientific discovery while saving substantial compute.",
+      "claims": [
+        {
+          "text": "We introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method, as an alternative to TTT.",
+          "support_span": "We introduce \n\nTest-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method, as an alternative to TTT.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Our evaluation shows that TTME outperforms TTT on all five mathematical tasks, while reducing computational cost by 82.8-84.6% in FLOPs and 47.7-58.4% in runtime.",
+          "support_span": "Our evaluation shows that TTME outperforms TTT on all five mathematical tasks, while reducing computational cost by $82.8$-$84.6\\%$ in FLOPs and $47.7$-$58.4\\%$ in runtime.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "9d99a8c45a97dc91"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.32046",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.32046"
+      ],
+      "published": "2026-10-26T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "3beb2b7d4dd24217",
+      "title": "ayingQAQ/McCosmos — McCosmos · 麦门星图｜基于麦当劳 MCP 的餐品营养对比与替代发现 Skill，提供独立运行包、可解释分析与三维星图。",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "opensource",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "3beb2b7d4dd24217"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/ayingQAQ/McCosmos",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-21T02:42:11+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-21 — outside lookback window"
     },
     {
       "cluster_key": "575f1dc5a13d35b2",
@@ -1061,8 +1142,7 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25",
         "escalated to CRITICAL by signal: 'exploited in the wild'",
         "demoted: critical capped at 5"
@@ -1070,250 +1150,18 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "f15d0aca9b7b4208",
-      "title": "Sequoia-Backed Blacksmith Raises $66M at $1B to Fix CI Broken by AI Coding Agents",
-      "category": "tech_ai",
-      "one_liner": "Blacksmith hit unicorn status by addressing the massive CI infrastructure strain caused by the proliferation of AI coding agents.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "markets",
-        "opensource",
-        "tool"
-      ],
-      "summary": "Blacksmith has raised $66 million in a Series C funding round, reaching a $1 billion valuation in under two years. The startup focuses on optimizing continuous integration (CI) infrastructure, which has faced significant strain due to the surge in AI coding agents. AI agents have drastically increased the volume of pull requests and CI runs, causing infrastructure bottlenecks for engineering teams. Blacksmith aims to solve these scaling issues by providing more efficient CI compute resources.",
-      "key_facts": [
-        "Funding: $66M Series C",
-        "Valuation: $1B",
-        "Total funding: $125M",
-        "CI job growth: 5M/week (Jan 2026) to 90M/week (Oct 2026)"
-      ],
-      "bottom_line": "The widespread adoption of AI coding agents has fundamentally broken traditional CI infrastructure, creating a massive new market for specialized optimization tools.",
-      "claims": [
-        {
-          "text": "Blacksmith has raised $66 million in a Series C funding round, reaching a $1 billion valuation in under two years.",
-          "support_span": "Sequoia Capital led Blacksmith's $66 million Series C on October 21, 2026, valuing the San Francisco-based continuous integration startup at $1 billion — a unicorn crossing that happened in under two years from founding",
-          "status": "entailed"
-        },
-        {
-          "text": "AI agents have drastically increased the volume of pull requests and CI runs, causing infrastructure bottlenecks for engineering teams.",
-          "support_span": "AI coding agents have turned a decades-old infrastructure problem into an acute crisis. ... An AI agent running an iterative debugging loop — submit code, watch CI, diagnose failure, amend code, resubmit — can trigger 10 to 20 CI runs per task.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "f15d0aca9b7b4208"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Tech Times",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMF85ampqZmNlTHVfdE1rTnNINXk3SERmaGtaTDA1N0xDWlJ1c3g0dkI4OHphWWpXWTMyc0NhUkc5eUJnODYyNVZ4V1JuQkdSZjdhQndXVXp5aTNSVWwxcXQ0RXlkUWFndUJlYVVNQm1XWHBfSWVrTk94YkE5VlhtVUxMWnVYVjAtdk9uNEkyTTdVb0hnN0o5ak1KRjd1bFdGUWJlZ1Q0TzN3WlMtLXlWVzNsRjZrSGFKTlBYa1lWWk93U1U?oc=5",
-          "domain": "tech-times.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-22T14:12:20+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.1-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "ff345c810e43b664",
-      "title": "India, Rotterdam Port Authorities To Digitalise Cargo Processes: Piyush Goyal",
-      "category": "india_world",
-      "one_liner": "India and Rotterdam Port collaborate to digitalize cargo shipping processes.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "India and the Rotterdam Port Authorities are collaborating to digitalize cargo processes, as announced by Piyush Goyal. The Rotterdam port serves as Europe's largest port facility.",
-      "key_facts": [
-        "Partner port: Rotterdam Port (Europe's largest port)"
-      ],
-      "bottom_line": "India and Rotterdam Port are modernizing global trade lanes through joint cargo process digitalization.",
-      "claims": [
-        {
-          "text": "India, Rotterdam Port Authorities To Digitalise Cargo Processes: Piyush Goyal",
-          "support_span": "India, Rotterdam Port Authorities To Digitalise Cargo Processes: Piyush Goyal",
-          "status": "contradicted"
-        },
-        {
-          "text": "Rotterdam port is Europe's largest port.",
-          "support_span": "Rotterdam port is Europe's largest port.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "ff345c810e43b664"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/india-rotterdam-port-authorities-to-digitalise-cargo-processes-piyush-goyal-12234447#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T16:32:56+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "52620080d97db7a4",
-      "title": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit",
-      "category": "india_world",
-      "one_liner": "US Attorney General Todd Blanche defends the DOJ's unusual lawsuit challenging Alaska's Senate election certification.",
-      "tags": [
-        "linux",
-        "policy",
-        "political"
-      ],
-      "summary": "US Attorney General Todd Blanche has defended the Department of Justice's decision to file a lawsuit attempting to prevent the certification of a Republican loss in Alaska's tight Senate race. The controversial lawsuit, authorized directly by President Donald Trump and filed on October 22 ahead of the November 3 midterm elections, argues that the inclusion of independent candidate Daniel J Sullivan on the ballot tainted the election and confused voters. The race features Republican incumbent Senator Dan S Sullivan against Democratic former Representative Mary Peltola and the second Sullivan, who denies acting as a spoiler. Bipartisan critics and legal experts have slammed the DOJ's unusual intervention into state election administration as likely illegal.",
-      "key_facts": [
-        "Lawsuit filing date: October 22",
-        "Election date: November 3"
-      ],
-      "bottom_line": "The DOJ's unprecedented lawsuit seeking to block certification of Alaska's Senate race has drawn bipartisan condemnation.",
-      "claims": [
-        {
-          "text": "United States Attorney General Todd Blanche has defended the Department of Justice’s decision to sue to prevent the certification of a Republican loss in Alaska’s tight Senate race.",
-          "support_span": "United States Attorney General Todd Blanche has defended the Department of Justice’s decision to sue to prevent the certification of a Republican loss in Alaska’s tight Senate race.",
-          "status": "entailed"
-        },
-        {
-          "text": "The Department of Justice has argued that its lawsuit – filed less than two weeks before the midterm elections – is necessary “to protect the integrity” of the election.",
-          "support_span": "The Department of Justice has argued that its lawsuit – filed less than two weeks before the midterm elections – is necessary “to protect the integrity” of the election.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "52620080d97db7a4"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T21:41:10+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "73d9ae37fffd9c21",
-      "title": "Lula holds off far right with victory in Brazil presidential election",
-      "category": "india_world",
-      "one_liner": "Lula da Silva defeats Flavio Bolsonaro to win an unprecedented fourth term as Brazil's president.",
-      "tags": [
-        "policy",
-        "political"
-      ],
-      "summary": "Leftist incumbent President Luiz Inacio Lula da Silva has won Brazil's presidential runoff election against right-wing Senator Flavio Bolsonaro, securing an unprecedented fourth non-consecutive term. Lula captured over 51 percent of the vote (more than 64 million ballots) to defeat Bolsonaro's 48 percent after trailing him in the first round of voting. The election was marked by allegations of voter suppression, including reduced public transport availability in working-class areas, prompting the Supreme Court to extend voting hours. Lula's victory preserves a major leftist stronghold in Latin America and makes him the oldest president to take office since Brazil's return to democracy.",
-      "key_facts": [
-        "Lula vote share: >51% (64+ million votes)",
-        "Bolsonaro vote share: 48% (59+ million votes)",
-        "Inauguration date: January 5, 2027"
-      ],
-      "bottom_line": "Lula da Silva's runoff victory over Flavio Bolsonaro secures an unprecedented fourth term and halts right-wing momentum in Brazil.",
-      "claims": [
-        {
-          "text": "Leftist President Luiz Inacio Lula da Silva has defeated right-wing Senator Flavio Bolsonaro in Brazil’s contentious presidential race, pulling off a remarkable comeback after a first-round loss that galvanised the country’s political right.",
-          "support_span": "Leftist President Luiz Inacio Lula da Silva has defeated right-wing Senator Flavio Bolsonaro in Brazil’s contentious presidential race, pulling off a remarkable comeback after a first-round loss that galvanised the country’s political right.",
-          "status": "entailed"
-        },
-        {
-          "text": "Lula had earned more than 51 percent of the vote. More than 64 million ballots were cast for the incumbent. Bolsonaro, meanwhile, netted 48 percent, or north of 59 million ballots.",
-          "support_span": "Lula had earned more than 51 percent of the vote. More than 64 million ballots were cast for the incumbent. Bolsonaro, meanwhile, netted 48 percent, or north of 59 million ballots.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "73d9ae37fffd9c21"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T00:16:29+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "3bbea967a6b2853e",
-      "title": "Writing good STATA code was important for my academic career.",
+      "cluster_key": "debe18503f9863df",
+      "title": "heterodoxin/AbliteratedOutTheBox — llama.cpp fork that abliterates at inference",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "ai",
-        "research"
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Writing good STATA code was important for my academic career. It looks like that skill is largely becoming obsolete post Sonnet 4.6. (Also take this is as a notice to academics who still think of AI in terms of chatbots, not agents, that a lot has changed in a year) Paper: 2026-10-19T12:55:18.653Z",
+      "summary": "AbliteratedOutTheBox is a fork of llama.cpp that gets any supported model to answer flagged harmful prompts, delivering the requested content instead of a refusal, at inference time and with the original weights left on disk unchanged. It needs no fit, no training, and no extra files: for each prompt llama-abliterate reads two directions from the prompt itself, by forcing the assistant to start a few comply versus refuse openings (and clean versus disclaimered openings), diffing the activations, and a look-ahead gate decides per prompt whether to remove them. The edit happens inside the graph at the build_cvec layer-output site that 131 of the 165 model architectures share, so one recipe co…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1324,113 +1172,187 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "3bbea967a6b2853e"
+        "debe18503f9863df"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mya65d6mns2y",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/heterodoxin/AbliteratedOutTheBox",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-19T12:55:16.920000+00:00",
+      "published": "2026-10-21T21:54:10+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-19 — outside lookback window"
+      "reject_reason": "published 2026-10-21 — outside lookback window"
     },
     {
-      "cluster_key": "b07d752aced57875",
-      "title": "Reduck Secures $3M to Cut AI Agent Web Tasks 3x [2026]",
-      "category": "tech_ai",
-      "one_liner": "Reduck provides an MCP-based platform that enables AI agents to automate web interactions on sites without formal APIs.",
+      "cluster_key": "d8a162a92a7fc531",
+      "title": "Up 174% in 1 year! Can Monolithisch India shares rise further? Experts decode",
+      "category": "markets",
+      "one_liner": "Monolithisch India reports record Q2 revenue and profit, driving a 174% annual share price surge.",
       "tags": [
-        "agents",
-        "ai",
-        "markets",
-        "tool"
+        "india",
+        "markets"
       ],
-      "summary": "Reduck has raised $3 million to develop Reduck MCP, a platform designed to bridge the gap for AI agents interacting with websites lacking APIs. The platform allows agents to discover, execute, and generate browser-automation scripts using the Model Context Protocol. It currently hosts over 1,200 automation scripts across 250 websites to facilitate agentic web tasks.",
+      "summary": "Monolithisch India shares surged 174% over the past year, driven by record Q2FY27 financial results where revenue grew 88.2% year-on-year to ₹53.59 crore and profit after tax jumped 145.1% to ₹11.17 crore. Analysts note the stock is trading near its 50-day double exponential moving average support zone, with technical indicators showing improved momentum. Experts suggest a sustained breakout above the ₹1,310 resistance level could push the price towards a target of ₹1,400.",
       "key_facts": [
-        "Funding: $3M pre-seed",
-        "Automation library: 1,200+ scripts",
-        "Supported websites: 250+"
+        "Period: Q2FY27",
+        "Revenue: ₹53.59 crore (up 88.2% YoY)",
+        "EBITDA: ₹15.80 crore (up 192.2% YoY)",
+        "Profit After Tax: ₹11.17 crore (up 145.1% YoY)",
+        "Stock gain: 174% in 1 year"
       ],
-      "bottom_line": "You can now offload browser-automation script management to Reduck MCP, allowing agents to execute or generate web interactions without custom API integrations.",
+      "bottom_line": "Monolithisch India's record quarterly financial results have fueled strong market momentum, with technical analysts eyeing a breakout above ₹1,310.",
       "claims": [
         {
-          "text": "Reduck’s core product, Reduck MCP, is built around the Model Context Protocol, the open standard that lets AI models call external tools in a structured way.",
-          "support_span": "Reduck’s core product, Reduck MCP, is built around the Model Context Protocol, the open standard that lets AI models call external tools in a structured way.",
+          "text": "Monolithisch India share price has soared this year despite stock market weakness, up 174% in the last one year.",
+          "support_span": "Monolithisch India share price has soared this year despite stock market weakness. The stock is up 174% in the last one year compared to a 9% fall in the Nifty SME Emerge index.",
           "status": "entailed"
         },
         {
-          "text": "That library already contains more than 1,200 ready-to-run automation scripts spanning over 250 websites.",
-          "support_span": "That library already contains more than 1,200 ready-to-run automation scripts spanning over 250 websites.",
+          "text": "The company's Q2FY27 revenue rose 88.2% year-on-year to ₹53.59 crore.",
+          "support_span": "The company's Q2FY27 revenue rose 88.2% year-on-year to ₹53.59 crore.",
           "status": "contradicted"
         }
       ],
-      "trust_score": 10,
-      "interest_score": 75,
+      "trust_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 43.8,
-      "is_new": false,
+      "blend": 36.2,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "b07d752aced57875"
+        "d8a162a92a7fc531"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/up-170-in-1-year-monolithisch-india-shares-jump-11-intraday-reason-behind-stock-rally-can-it-rise-further-11793005631095.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T09:36:13+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "19b8decc79c3c22a",
+      "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+      "category": "india_world",
+      "one_liner": "Federal judge rules Maurene Comey's firing by the Trump administration was unlawful and orders her reinstatement with back pay.",
+      "tags": [
+        "policy",
+        "political",
+        "privacy"
+      ],
+      "summary": "A federal judge ruled that the US Justice Department illegally fired Maurene Comey, a federal prosecutor and daughter of former FBI Director James Comey, in July 2025. Judge Jesse Furman determined that her dismissal violated her constitutional rights and statutory protections, concluding she was targeted due to her father's criticism of Donald Trump and her perceived political affiliations. The court ordered the administration to reinstate her and provide back pay, though the Justice Department announced plans to appeal.",
+      "key_facts": [
+        "Date of dismissal: July 2025",
+        "Judge presiding: Judge Jesse Furman"
+      ],
+      "bottom_line": "Federal prosecutors cannot be terminated for political affiliations or family ties without violating constitutional due process.",
+      "claims": [
+        {
+          "text": "A federal judge ruled that the US Justice Department illegally fired Maurene Comey, a federal prosecutor and daughter of former FBI Director James Comey, in July 2025.",
+          "support_span": "The US justice department illegally fired Maurene Comey, the daughter of former Federal Bureau of Investigation (FBI) director James Comey, a federal judge has ruled. Comey, who lost her job as a federal prosecutor in New York in July 2025, sued the government",
+          "status": "entailed"
+        },
+        {
+          "text": "Judge Jesse Furman determined that her dismissal violated her constitutional rights and statutory protections, concluding she was targeted due to her father's criticism of Donald Trump and her perceived political affiliations.",
+          "support_span": "Judge Jesse Furman ruled on Monday that the Trump administration must reinstate her and that she must be given back pay... In his ruling, Judge Furman said Comey's dismissal violated the US Constitution as well as her right to a fair legal process.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 52,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 50.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "19b8decc79c3c22a",
+        "a810a06a8450d090",
+        "e7ae31dfba8bde5e"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xemRnSVZpS2ZFSDhkYlhnZUxwd0pyZ25DYXFKcmlrbFhVeVlaa3hjQmFmRnFFcG5HV1BuX0NMa1F4dk52dGw4RzVmX1BqY3dtbWtsdGZQS3p6R1FDOVVQbUppaXNDSmQ5azlWaVNnb0F4TWgyZWJV?oc=5",
-          "domain": "shattered-io.publisher",
-          "tier": "C"
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/us-court-rules-against-trump-administration-in-california-voting-case?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-22T09:17:11+00:00",
+      "published": "2026-10-26T19:27:21+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.1-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 50 = trust 52 / interest 50 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "5f82d0dc0823563a",
-      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
-      "category": "cyber_attacks",
-      "one_liner": "A low-privileged SQL injection in FortiManager and FortiAnalyzer allows for arbitrary command execution and file manipulation.",
+      "cluster_key": "76756d353feebf00",
+      "title": "Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents",
+      "category": "tech_ai",
+      "one_liner": "Async-RBench benchmarks how LLM agents handle asynchronous subagent results, revealing significant drops in reliability.",
       "tags": [
-        "appsec",
-        "cve",
-        "network",
-        "vulnerability"
+        "agents",
+        "ai",
+        "llm",
+        "research",
+        "tool"
       ],
-      "summary": "A critical SQL injection vulnerability (CWE-89) has been discovered in Fortinet's FortiAnalyzer and FortiManager products, including their cloud variants. The flaw allows a low-privileged user to execute arbitrary commands or perform unauthorized file read/write operations via specially crafted requests. Fortinet has acknowledged the internal discovery of the bug and published the initial advisory on October 13, 2026.",
+      "summary": "Researchers introduce Async-RBench, a benchmark designed to evaluate asynchronous task execution in large language model agents where a main agent continues working while subagents run concurrently and state conditions change asynchronously. The benchmark includes 200 executable tasks across eight scenarios controlled by a scenario controller and an Event Response Contract specifying preservation and verification rules. Evaluating nine agents revealed low Dynamic Replanning Scores and showed that asynchronous delivery consistently degrades task success rates compared to batched delivery.",
       "key_facts": [
-        "CWE-89: SQL Injection",
-        "Affected: FortiAnalyzer, FortiManager (including Cloud)",
-        "Date: 2026-10-13"
+        "Benchmark tasks: 200 executable tasks",
+        "Scenarios covered: 8",
+        "Average task success rate (async vs batched): 26.0% vs 29.7%"
       ],
-      "bottom_line": "Administrators of Fortinet management platforms should check for available patches to prevent low-privileged users from escalating to arbitrary command execution.",
+      "bottom_line": "LLM agents struggle with asynchronous multi-agent coordination, achieving lower task success rates when handling dynamic real-time result arrivals.",
       "claims": [
         {
-          "text": "The SQL injection allows low-privileged users to execute arbitrary commands.",
-          "support_span": "vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow a low privileged user to execute arbitrary commands via crafted requests.",
+          "text": "Researchers introduce Async-RBench, a benchmark designed to evaluate asynchronous task execution in large language model agents where a main agent continues working while subagents run concurrently and state conditions change asynchronously.",
+          "support_span": "We introduce Async-RBench, a benchmark for asynchronous task execution in LLM agents, with 200 executable tasks covering eight scenarios. A scenario controller regulates result delivery using predefined task-state conditions, while an Event Response Contract (ERC) specifies what each response must change, preserve, avoid, and re-verify.",
           "status": "entailed"
         },
         {
-          "text": "The flaw enables arbitrary file read and write operations.",
-          "support_span": "Multiple Arbitrary File Read/Write via SQL Injection",
+          "text": "Evaluating nine agents revealed low Dynamic Replanning Scores and showed that asynchronous delivery consistently degrades task success rates compared to batched delivery.",
+          "support_span": "We evaluate nine agents and find DRS scores of 19.2 to 45.1... Under our execution protocol, all nine agents obtain lower task success with asynchronous than with batched delivery (26.0% vs. 29.7% on average).",
           "status": "contradicted"
         }
       ],
@@ -1438,41 +1360,278 @@
       "interest_score": 75,
       "corroboration": 1,
       "blend": 58.8,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "5f82d0dc0823563a",
-        "fe9a368f887d4fba"
+        "76756d353feebf00"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Fortinet PSIRT",
-          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
-          "domain": "fortiguard.fortinet.com",
-          "tier": "A"
-        },
-        {
-          "name": "Fortinet PSIRT",
-          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
-          "domain": "fortiguard.fortinet.com",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.32429",
+          "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
-        "https://fortiguard.fortinet.com/psirt/FG-IR-26-180"
+        "https://arxiv.org/abs/2610.32429"
       ],
-      "published": "2026-10-13T07:00:00+00:00",
+      "published": "2026-10-26T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from cache",
+        "importance 4/5 from gemini-3.5-flash-lite",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "7cef5a9d64c515ea",
+      "title": "How I Found SSRF in 6 Known Companies Using One Methodology in 2026",
+      "category": "cyber_tools",
+      "one_liner": "A brief Medium post outlines methodologies for finding SSRF vulnerabilities in enterprise environments.",
+      "tags": [
+        "appsec",
+        "bugbounty",
+        "cloud",
+        "vulnerability",
+        "writeup"
+      ],
+      "summary": "The article is a brief Medium post outlining a methodology for finding Server-Side Request Forgery (SSRF) vulnerabilities across six known companies in 2026 using web security and Kubernetes target structures. Due to its format, it functions primarily as a platform title teaser rather than a complete briefing.",
+      "key_facts": [],
+      "bottom_line": "This source text is a short platform teaser lacking the full technical details of the referenced SSRF methodology.",
+      "claims": [
+        {
+          "text": "The article is a brief Medium post outlining a methodology for finding Server-Side Request Forgery (SSRF) vulnerabilities across six known companies in 2026 using web security and Kubernetes target structures.",
+          "support_span": "How I Found SSRF in 6 Known Companies Using One Methodology in 2026",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 10.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "7cef5a9d64c515ea"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Medium bug bounty",
+          "url": "https://medium.com/@shawkat7h/how-i-found-ssrf-in-6-known-companies-using-one-methodology-in-2026-987d79b27620?source=rss------bug_bounty-5",
+          "domain": "medium.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T20:28:09+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 10 = trust 10 / interest 0 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "6ceeffef761f0ca4",
+      "title": "The Pwn Request Reckoning: What Still Works Against GitHub Actions",
+      "category": "cyber_tools",
+      "one_liner": "Pinning GitHub Actions to outdated commit SHAs can bypass platform security backports, leaving workflows exposed.",
+      "tags": [
+        "ai",
+        "appsec",
+        "blueteam",
+        "exploit",
+        "policy",
+        "research",
+        "tool",
+        "vulnerability"
+      ],
+      "summary": "GitHub's 2026 platform security overhaul significantly hardens default protections against Pwn request vulnerabilities in GitHub Actions, making exploitation of workflows like pull_request_target much harder. However, security researchers have found that supply-chain hardening practices, such as pinning actions to exact commit SHAs prior to recent backports, can inadvertently run legacy vulnerable code and bypass platform defenses. Additionally, workflows that bypass standard checkout actions using direct CLI invocations or custom scripts remain vulnerable to exploitation.",
+      "key_facts": [
+        "Minimum patched releases: v2.8.0, v3.7.0, v4.4.0, v5.1.0, v6.1.0, v7.0.0+"
+      ],
+      "bottom_line": "Standard commit SHA pinning can silently strip platform-level security protections from GitHub Actions if references predate backports.",
+      "claims": [
+        {
+          "text": "pinning actions to exact commit SHAs can inadvertently bypass GitHub's platform defenses.",
+          "support_span": "pinning actions to exact commit SHAs can inadvertently bypass GitHub's platform defenses.",
+          "status": "contradicted"
+        },
+        {
+          "text": "referencing mutable tags like @v4 (resolving to v4.4.x) or pinned versions such as @v4.4.0 remain protected, whereas older versions like @v4.3.0 or SHA-pinned references to legacy releases offer no protection.",
+          "support_span": "referencing mutable tags like @v4 (resolving to v4.4.x) or pinned versions such as @v4.4.0 remain protected, whereas older versions like @v4.3.0 or SHA-pinned references to legacy releases (such as @08eba0b... resolving to v4.3.0) offer no protection.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6ceeffef761f0ca4",
+        "b65c2fa9f1986732"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Wiz Blog",
+          "url": "https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning",
+          "domain": "wiz.io",
+          "tier": "B"
+        },
+        {
+          "name": "wiz.io",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53anVMT3pTUXZaYVAxbFhNSlFRUjAxd1ZVZG41LW1TT3NPeWdNZ3V3eXNOSzllQTJvZm45cnFndDJGZ0ZVRGZETUlUdzhabEZ5WVZSWXRjZXlDd2F6RTcyckxjSXQybU9Ec2lKNFZEUGNBYUhlTTNyMg?oc=5",
+          "domain": "wiz-io.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T13:24:12+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "250e5d8f302445e7",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "category": "tech_ai",
+      "one_liner": "Greptile uses GPT-6 Astra computer use and Codex MCP integration to automate frontend workflow testing and reduce code reverts.",
+      "tags": [
+        "agents",
+        "ai",
+        "appsec",
+        "exploit",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "Greptile is leveraging OpenAI's GPT-6 Astra and its computer use capabilities to automate application UI and workflow testing at scale, moving beyond traditional code review. By starting development servers and resizing browser viewports, the AI agents simulate user behavior to spot visual defects like hidden elements that static code analysis misses. Additionally, Greptile exposes its codebase knowledge base to Codex via the Model Context Protocol (MCP) server, allowing developers to write context-aware code and significantly reduce AI-generated code reverts. Co-founder Daksh Gupta notes that this approach enables startups to secure systems more efficiently and scale development bottlenecks.",
+      "key_facts": [
+        "Model used: GPT-6 Astra, Codex"
+      ],
+      "bottom_line": "Combining GPT-6 Astra's computer use for automated visual testing with MCP-connected context for Codex allows engineering teams to ship reliable software faster.",
+      "claims": [
+        {
+          "text": "With GPT-6 Astra, Greptile can start a development server for a pull request, resize the browser to an iPhone-sized viewport, and simulate a user moving through the application.",
+          "support_span": "With GPT-6 Astra, Greptile can start a development server for a pull request, resize the browser to an iPhone-sized viewport, and simulate a user moving through the application.",
+          "status": "contradicted"
+        },
+        {
+          "text": "This allows Codex to write code that follows the customer’s existing patterns, and thousands of customers have connected Codex to Greptile’s knowledge base, according to Daksh.",
+          "support_span": "This allows Codex to write code that follows the customer’s existing patterns, and thousands of customers have connected Codex to Greptile’s knowledge base, according to Daksh.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "250e5d8f302445e7"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "domain": "openai.com",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://openai.com/index/greptile-code-review-codex-astra"
+      ],
+      "published": "2026-10-26T22:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "32dbeeb45d1d23ea",
+      "title": "'Maxxing' selected as Dictionary.com word of the year",
+      "category": "india_world",
+      "one_liner": "Dictionary.com designated 'maxxing' as the 2026 Word of the Year, capturing the widespread cultural push for extreme personal optimization.",
+      "tags": [
+        "policy"
+      ],
+      "summary": "Dictionary.com has named 'maxxing' its 2026 Word of the Year, reflecting cultural and digital preoccupation with optimizing activities to their absolute limit. Short for maximizing, the suffix has gained massive traction online, driven by Gen Z social media trends spanning fitness, wellness, and lifestyle habits like 'sleepmaxxing'. The linguistic trend highlights the accelerated pace of internet slang adoption and how modern users playfully co-opt terms to express personal goals.",
+      "key_facts": [
+        "Word of the Year: maxxing",
+        "Year: 2026"
+      ],
+      "bottom_line": "The widespread adoption of 'maxxing' highlights how digital culture and Gen Z slang increasingly normalize radical optimization across daily routines.",
+      "claims": [
+        {
+          "text": "'Maxxing' selected as Dictionary.com word of the year.",
+          "support_span": "'Maxxing' selected as Dictionary.com word of the year",
+          "status": "contradicted"
+        },
+        {
+          "text": "Short for maximising, the term can be used on its own or added to the end of any word to convey you're doing something to the fullest or optimizing it as much as possible.",
+          "support_span": "Short for maximising, the term \"can be used on its own or added to the end of any word to convey you're doing something to the fullest or optimizing it as much as possible\"",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 17.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "32dbeeb45d1d23ea"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4xwp22xyqo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T21:31:53+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 18 = trust 40 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }
