@@ -1,110 +1,100 @@
 {
-  "generated_at": "2026-10-27T02:17:22.896667+00:00",
+  "generated_at": "2026-10-28T02:29:08.255841+00:00",
   "items": [
     {
-      "cluster_key": "516e28b59d6ca0e2",
-      "title": "A Microsoft investigation has revealed that cyber attackers linked to the Chinese government used the AI agent 'ARTEX' to launch attacks against hundreds of organizations worldwide.",
+      "cluster_key": "9c4c32769417765d",
+      "title": "Hackers Exploit Chained Plex Flaws to Deploy Cryptominer Malware Security researchers confirmed active exploitation of a four-bug chain called Plex2Shell…",
       "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "incident",
-        "release",
-        "supply-chain",
-        "threat-actor",
-        "tool"
-      ],
-      "summary": "A Microsoft investigation has revealed that cyber attackers linked to the Chinese government used the AI agent 'ARTEX' to launch attacks against hundreds of organizations worldwide. Microsoft has released the results of its investigation into 'Storm-0940,' a cyber attacker allegedly linked to the Chinese government. It has been revealed that Storm-0940 used the AI agent 'ARTEX' to carry out attacks against hundreds of organizations. AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise | Microsoft Security Blog According to Microsoft, Storm-0940 activity has been observed since 2021, and attacks using ARTEX began in September 2026. Note that 'Storm-0940' i…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "516e28b59d6ca0e2"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GIGAZINE",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGX25WbTRYOFZKZlMtX0l2R2l5XzJDVnZrbWw2RUtUYzUwSFpxc2RtNkxLdEhndTZNVGRtWjBHOFdGb0hZMTFjcWI4RzhONF9PS012U20ydFQ3M3JlWHVTY0FSb3loQVR3TlZGVVcyUl9kTkR4bF9LNmE2dnU?oc=5",
-          "domain": "gigazine.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-23T02:04:00+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-23 — outside lookback window"
-    },
-    {
-      "cluster_key": "b389659a27e97e4d",
-      "title": "sirioberati/YouTube-AI-Video-Editing-System — Open-source YouTube AI video editing system: Eyeline teleprompter, editing agents, JSON, Claude Design, animat",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "windows",
-        "writeup"
-      ],
-      "summary": "The included boards are starter templates, not a finished visual identity. Customize the colors, fonts, shapes, and layouts for your own videos. The animation examples are there to adapt. An open-source workflow for recording, AI-assisted editing, design, Claude Design, animation, motion graphics, and the final editor handoff. Want more open-source AI filmmaking workflows?",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "b389659a27e97e4d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/sirioberati/YouTube-AI-Video-Editing-System",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T14:12:50+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "60c5d20025ea454a",
-      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
-      "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Attackers are actively exploiting the four-bug Plex2Shell chain (CVE-2026-96652 through CVE-2026-96656) to install cryptocurrency miners and proxies.",
       "tags": [
         "cve",
-        "vulnerability",
-        "windows"
+        "exploit",
+        "incident",
+        "linux",
+        "malware",
+        "release",
+        "research",
+        "vulnerability"
       ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-10-23T15:38:47.439Z",
+      "summary": "Security researchers have confirmed active exploitation of a four-bug vulnerability chain known as Plex2Shell against exposed Plex Media Server deployments. The exploit combines server-side request forgery (CVE-2026-96652), internal function access (CVE-2026-96654), arbitrary file write (CVE-2026-96655), and unsigned codec loading abuse (CVE-2026-96656) to achieve unauthenticated remote code execution. Honeypot observations recorded attackers from IP addresses such as 45.194.92[.]222 downloading payloads, deploying an XMRig cryptocurrency miner, and setting up proxy software. Plex previously issued security advisories urging administrators to update to version 1.43.3 or higher, noting that NAS and Docker deployments require careful verification.",
       "key_facts": [
-        "Identifier: CVE-2026-89078"
+        "Vulnerability chain: Plex2Shell (CVE-2026-96652, CVE-2026-96654, CVE-2026-96655, CVE-2026-96656)",
+        "Vulnerable versions: Plex Media Server before 1.43.3.10828",
+        "Fixed version: 1.43.3.10861",
+        "Malware deployed: XMRig cryptocurrency miner, proxy software"
       ],
+      "bottom_line": "Administrators must update Plex Media Server to version 1.43.3 immediately to block unauthenticated Plex2Shell exploitation leading to cryptominer and proxy malware deployment.",
+      "claims": [
+        {
+          "text": "Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026.",
+          "support_span": "Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026.",
+          "status": "entailed"
+        },
+        {
+          "text": "The activity follows the release of Plex2Shell, a public exploit that chains four vulnerabilities to run code without logging in.",
+          "support_span": "The activity follows the release of Plex2Shell, a public exploit that chains four vulnerabilities to run code without logging in.",
+          "status": "entailed"
+        },
+        {
+          "text": "The exploit combines CVE-2026-96652, CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.",
+          "support_span": "The exploit combines CVE-2026-96652, CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.",
+          "status": "entailed"
+        },
+        {
+          "text": "The repository identifies versions before 1.43.3.10828 as vulnerable and lists 1.43.3.10861 as fixed.",
+          "support_span": "The repository identifies versions before 1.43.3.10861 as fixed.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 22,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 65.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "9c4c32769417765d",
+        "9cf7ebbc13821273"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Cyber Security Channel",
+          "url": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/",
+          "domain": "cybersecuritynews.com",
+          "tier": "C"
+        },
+        {
+          "name": "Field Effect",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLTNiZjZjQUZ5aWlXbkxxSFA1RFhTOElsQjZFRU1wV0RkSVJ5RWxzX0FwTl9uN0VNRGtUcnl2cEg0WmJ5VVlnT0djeUxRaTlOZ0VtZGRwc3dBQkl6WGFmWjcyQm9ia1dIbEZ5LWhubHd2SHdmT0VTcTM5d1pHNzF4Sw?oc=5",
+          "domain": "field-effect.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T07:53:24+00:00",
+      "trace": [
+        "tier C (+10)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 66 = trust 22 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "f3cada8b76e0bd2e",
+      "title": "When my first AI book was published in 2024, the best AI could do 4 minutes of human work with a 50% chance of success When I turned in the draft of…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu When my first AI book was published in 2024, the best AI could do 4 minutes of human work with a 50% chance of success When I turned in the draft of Co-Existence earlier this year, it was 17 hours. When the book was published two days ago, AI could do 17 weeks+ 2026-10-22T17:41:09.911Z",
+      "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 0,
@@ -114,46 +104,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "60c5d20025ea454a",
-        "dcf31aa288786048",
-        "effb305fe7660484",
-        "f1684a1522ffb5d0"
+        "f3cada8b76e0bd2e"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mykj5evi4x2z",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3myhzlccpmg2p",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3myg5l7vc7v2y",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3myg4ka6gi526",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myi7j6jedk2v",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T21:42:40.892000+00:00",
+      "published": "2026-10-22T17:41:06.331000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
+      "reject_reason": "published 2026-10-22 — outside lookback window"
     },
     {
       "cluster_key": "7398e85e6df3d84c",
@@ -193,46 +162,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-10-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "d384d5d1d3d724dd",
-      "title": "I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm",
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device multiplayer over an audio link 2026-10-20T19:43:24.538Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "d384d5d1d3d724dd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mydffvspjs2x",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T19:43:20.267000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window"
     },
     {
       "cluster_key": "e26f3d8d6fe51e54",
@@ -299,15 +228,18 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "2835fb19b94642de",
-      "title": "My new book, Co-Existence, is out today. It is a guide to how to live and work in a world where AI is sometimes, but not always, better than you.",
+      "cluster_key": "a25720acf7650796",
+      "title": "ethanplusai/astro-conversion-kit — Agent Skills that convert a WordPress site (or any live site) into a static Astro site with URL, SEO, content ",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai",
-        "howto"
+        "agents",
+        "llm",
+        "opensource",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My new book, Co-Existence, is out today. It is a guide to how to live and work in a world where AI is sometimes, but not always, better than you. (And, for the release, I worked with Opus 5.5 to make a quite interesting experience for the book's new website: co-existence.ai) 2026-10-20T17:03:43.937Z",
+      "summary": "Convert a WordPress site to static Astro with your coding agent, and get back the same site: the same URLs, the same content, the same titles, descriptions, canonicals and structured data, the same media at the same paths, every redirect the old site performs, and a design checked pixel by pixel at 390, 768 and 1440 px. No PHP, no plugins, no database, no server to patch. It is a set of Agent Skills, so it runs in Claude Code, Codex or any agent that reads SKILL.md. Plain Node scripts do everything that has to be exact, and gates prove each part before the work moves on. A run ends with a pull request, a noindexed staging deploy and a launch runbook.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -318,47 +250,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2835fb19b94642de"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myd4idyjkk2c",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T17:03:38.598000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window"
-    },
-    {
-      "cluster_key": "1232c0a56695e4b8",
-      "title": "Monopoly0024/simple-reviewer-v1 — Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "opensource"
-      ],
-      "summary": "Understand and verify the code behind your Vibe Coding workflow. Simple Reviewer is a Codex skill for people who build and iterate with AI coding agents. It breaks AI-written code into functional blocks, explains what each block does and where it lives, and checks whether the implementation actually meets your goals using recorded evidence. Use it after a Vibe Coding session, when inheriting unfamiliar AI-generated code, or before accepting a change. Start with a readable explanation, then inspect the behavior, evidence, and remaining gaps.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1232c0a56695e4b8"
+        "a25720acf7650796"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -366,32 +258,72 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Monopoly0024/simple-reviewer-v1",
+          "url": "https://github.com/ethanplusai/astro-conversion-kit",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T04:22:59+00:00",
+      "published": "2026-10-22T21:37:28+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
+      "reject_reason": "published 2026-10-22 — outside lookback window"
     },
     {
-      "cluster_key": "e5eacc3fb228e643",
-      "title": "h9-tec/ai-roadmap-2026 — AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, w",
+      "cluster_key": "1ba46b83ac6c8537",
+      "title": "lucianodiisouza/flecha-browser — Open-source Arc alternative for macOS: a Chromium browser for developers with Spaces, a dev command bar and a ",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "opensource",
+        "release"
+      ],
+      "summary": "An Arc-style browser for developers, built on a Chromium fork. Arc's interface ideas are rebuilt from scratch; no Arc code is used. Docs: flecha.dev/docs Arc's vertical sidebar, Spaces and Peek are hard to give up, and Arc is no longer where the work is happening. Flecha is a replacement that keeps those ideas and adds tools for the people who build websites. It is a Chromium 158 fork rather than an Electron app because Google blocks sign-in in Electron.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1ba46b83ac6c8537"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/lucianodiisouza/flecha-browser",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-22T17:03:15+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-22 — outside lookback window"
+    },
+    {
+      "cluster_key": "2ac82a9b4f5ff40f",
+      "title": "ChannelCooperStart/capri-ai — 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "howto",
+        "linux",
         "llm",
         "opensource",
-        "research"
+        "windows"
       ],
-      "summary": "Per the market analysis this roadmap is built on, AI engineering in 2026 shifted from \"train models\" to \"build reliable agentic systems\" on top of models that already exist. The same analysis finds three skills repeated in every job description: RAG, Agents, and Evals. Per LinkedIn Jobs on the Rise 2026, AI Engineer is the fastest-growing job in the US, with 143% growth. This roadmap takes a beginner through those skills in five layers, each ending in a mini-project you can show. For job titles and the rest of the numbers, see Careers.",
+      "summary": "🌃 Capri — a cyberpunk AI agent for your desktop. One app for Claude Code, Codex, Antigravity & any AI assistant. Features · Quick Start · What You Can Ask · How It Works · Roadmap · FAQ Capri is a cyberpunk AI agent that lives on your Windows desktop. Think of it as your own JARVIS-style assistant: you describe what you want in plain language, and Capri plans the steps, uses the right tools and gets it done on your machine. Under the hood, Capri is a desktop interface and agent layer on top of the AI assistants you already use.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -399,10 +331,11 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "e5eacc3fb228e643"
+        "2ac82a9b4f5ff40f",
+        "9a0e2e186e14e63b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -410,17 +343,23 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/h9-tec/ai-roadmap-2026",
+          "url": "https://github.com/ChannelCooperStart/capri-ai",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/jazzenchen/agent-hud-open",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T12:23:43+00:00",
+      "published": "2026-10-22T09:27:58+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
+      "reject_reason": "published 2026-10-22 — outside lookback window"
     },
     {
       "cluster_key": "58da40b0b62bf110",
@@ -477,6 +416,50 @@
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "5ab5e62f27702fac",
+      "title": "Shaitrish/37studio — Open-source AI alternative to Buffer and Opus Clip: Claude Code makes on-brand videos, posts them to 9 platfor",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "An AI video studio and social media desk that runs on your own computer. Videos made, posted and answered, with your own keys and no monthly bill. ▶ Watch the 2-minute intro (English · বাংলা) · Setup guide · Changelog · Issues · Donate 37Studio makes videos for a business and runs its social accounts, from one app on your own computer. Add a brand from its website and it builds a brand library and a knowledge base. Brief a video and Claude Code, the editor agent, builds it as a HyperFrames composition in that brand, checks its own frames and renders it on your machine.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5ab5e62f27702fac"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Shaitrish/37studio",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T00:26:52+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-23 — outside lookback window"
     },
     {
       "cluster_key": "2597fa9194aa9c5c",
@@ -553,7 +536,7 @@
       "tags": [
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z It's been less than 24 hours and there's already a French fork of Battle Drones that reimagines it as Belle Époque steampunk! [contains quote post or other embedded content] 2026-10-21T16:52:47.343Z",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z It's been less than 24 hours and there's already a French fork of Battle Drones that reimagines it as Belle Époque steampunk! [contains quote post or other embedded content] 2026-10-21T16:52:47.272Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -585,245 +568,79 @@
       "reject_reason": "published 2026-10-21 — outside lookback window"
     },
     {
-      "cluster_key": "53cea17e45af8983",
-      "title": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
-      "category": "cyber_tools",
-      "one_liner": "AI-assisted reverse engineering has successfully optimized a legacy game engine, yielding significant performance gains.",
-      "tags": [
-        "ai",
-        "linux",
-        "llm",
-        "opensource",
-        "release",
-        "research",
-        "tool",
-        "windows"
-      ],
-      "summary": "A developer used Claude to reverse-engineer and optimize the engine of 'The Elder Scrolls IV: Oblivion Remastered', resulting in a 40% FPS increase in benchmark scenarios. The fix improves CPU-bound performance in towns and during travel without altering visual quality or settings. The solution is open-source and compatible with various hardware configurations, including Steam and Game Pass versions.",
-      "key_facts": [
-        "Performance gain: +40% FPS",
-        "Tool used: Claude Code",
-        "Target: The Elder Scrolls IV: Oblivion Remastered"
-      ],
-      "bottom_line": "AI tools like Claude Code are becoming highly effective for complex reverse engineering and performance optimization tasks in legacy software.",
-      "claims": [
-        {
-          "text": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
-          "support_span": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "53cea17e45af8983"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "SecHarvester",
-          "url": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix/",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T12:08:18+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "26cea7ea855a6045",
-      "title": "lklbar666/mcd-saver-checkup — 麦当劳省钱体检：不看你想吃什么，先看你已经亏在哪。基于麦当劳中国 MCP 的差价审计 Skill——枚举所有买法，用 calculate-price 逐个复算，报差额、归因与凑单临界点。",
+      "cluster_key": "e8bb9b5c5c77cf7d",
+      "title": "qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Pyth",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "A new defensive tool that protects your build artifacts by weaponizing resource consumption against AI-powered reverse engineering agents.",
       "tags": [
         "agents",
-        "opensource"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "26cea7ea855a6045",
-        "d8754542d91b7766"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/lklbar666/mcd-saver-checkup",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/xanthichi/mcd-meal-mate",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T03:28:42+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "5597531306565c2a",
-      "title": "Swiggy shares rise 6% after 4-session down episode; is this a relief rally or worst is over? Experts decode | Target, SL",
-      "category": "markets",
-      "one_liner": "Swiggy shares rebound 6% following Q2 results, while analysts flag quick-commerce losses as a critical metric for valuation.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "Swiggy shares rose 6% in Monday's trading session, recovering from a four-session losing streak after reporting Q2 financial results that aligned with market expectations alongside positive business volume and revenue growth. Global brokerage firms Jefferies and Elara Securities maintained positive long-term outlooks while adjusting their target prices, citing high quick-commerce Instamart EBITDA losses as a key risk factor requiring management focus for future value discovery.",
-      "key_facts": [
-        "Intraday share high: ₹186.65",
-        "Jefferies price target: ₹330",
-        "Elara Securities price target: ₹300"
-      ],
-      "bottom_line": "Food delivery growth is being overshadowed by quick-commerce EBITDA losses, making margin reduction the core driver for future stock valuation.",
-      "claims": [
-        {
-          "text": "Swiggy shares rose 6% in Monday's trading session, recovering from a four-session losing streak after reporting Q2 financial results that aligned with market expectations alongside positive business volume and revenue growth.",
-          "support_span": "After bleeding for four straight sessions, Swiggy shares saw strong buying in Monday's trading. Swiggy's share price today opened at ₹176 per share and touched an intraday high of ₹186.65, logging a 6% gain over the previous close of ₹176.",
-          "status": "entailed"
-        },
-        {
-          "text": "Global brokerage firms Jefferies and Elara Securities maintained positive long-term outlooks while adjusting their target prices, citing high quick-commerce Instamart EBITDA losses as a key risk factor requiring management focus for future value discovery.",
-          "support_span": "Despite reducing the upside target from ₹350 to ₹300, Elara Securities maintains a ‘buy’ tag for Swiggy shares... The global investment bank has reduced its Swiggy share price target from ₹435 to ₹330 following the Q2 results.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "5597531306565c2a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/swiggy-shares-rise-6-after-4-session-down-episode-is-this-a-relief-rally-or-worst-is-over-experts-decode-target-sl-11792998360954.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T07:37:20+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "6e1fee5a1ec29a36",
-      "title": "AI slop is piling up highest on the biggest open-source projects",
-      "category": "cyber_attacks",
-      "one_liner": "Large open-source projects are facing a crisis of maintainer burnout due to a high volume of low-quality, AI-generated code submissions.",
-      "tags": [
         "ai",
-        "linux",
+        "appsec",
+        "blueteam",
+        "howto",
+        "llm",
         "opensource",
         "tool"
       ],
-      "summary": "A Linux Foundation survey of 234 open-source contributors reveals that maintainers of large projects are increasingly overwhelmed by low-quality, AI-generated code submissions. Maintainers estimate that nearly one-third of code changes in large projects are AI-generated, leading to significant burnout and review delays. While some projects have implemented policies requiring disclosure of AI use, most lack formal rules, forcing maintainers to manually vet submissions or use AI tools to fight the influx. Despite the challenges, some projects like curl have successfully transitioned to using AI to improve the quality of security reports.",
+      "summary": "BLA (Blind LLM Agents) is a new defensive tool designed to protect software binaries, Electron apps, and JS bundles from AI-powered reverse-engineering agents (REA). By integrating into the build pipeline, BLA forces automated analyzers to hit resource budgets, follow decoys, and consume excessive tokens, effectively neutralizing automated reverse engineering attempts. The tool provides a one-command hardening process and includes a benchmarking suite to measure exposure scores and runtime equivalence. It is intended to be used as a counter-measure against the growing capabilities of AI agents in analyzing and deconstructing proprietary code.",
       "key_facts": [
-        "Survey size: 234 contributors",
-        "AI code estimate: ~33% for large projects"
+        "Tool: BLA (Blind LLM Agents)",
+        "Target: AI reverse-engineering agents (REA)",
+        "Version: 1.4.0",
+        "Recommended Node.js: 22.23.4+ or 24.x"
       ],
-      "bottom_line": "The influx of AI-generated code is shifting the primary concern of large open-source maintainers from code quality to personal burnout.",
+      "bottom_line": "You can now proactively harden your software distribution artifacts against automated AI-based reverse engineering by integrating BLA into your CI/CD pipeline.",
       "claims": [
         {
-          "text": "In a Linux Foundation survey of 234 open-source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in their queue are low quality or AI-generated.",
-          "support_span": "In a Linux Foundation survey of 234 open-source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in their queue are low quality or AI-generated.",
+          "text": "BLA (Blind LLM Agents) is an adversarial defense shield that protects binaries, Electron apps, JS bundles, and Python code from AI reverse-engineering agents.",
+          "support_span": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Pyth",
           "status": "contradicted"
         },
         {
-          "text": "About a third of projects have a formal policy that allows AI-assisted contributions, and one in ten bans them.",
-          "support_span": "About a third of projects have a formal policy that allows AI-assisted contributions, and one in ten bans them.",
+          "text": "When an AI reverse-engineering agent (REA) opens it, the analyzer hits resource budgets, follows decoys, and burns tokens.",
+          "support_span": "When an AI reverse-engineering agent (REA) opens it, the analyzer hits resource budgets, follows decoys, and burns tokens",
           "status": "entailed"
         }
       ],
-      "trust_score": 37,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 46.8,
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6e1fee5a1ec29a36",
-        "c7286ff8c5d0da17"
+        "e8bb9b5c5c77cf7d"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
-          "domain": "helpnetsecurity.com",
-          "tier": "B"
-        },
-        {
-          "name": "36Kr",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12cDVNLWFsdHk2TEdybjA1UUd6N2tkLUZCVU1XN1N6ZWE0RzlHUGczMVdZRzR5N3ZnTW5RaW43bzB1UEx5a0Y3U216NHJKczU2ZVNr?oc=5",
-          "domain": "36kr.publisher",
+          "name": "GitHub (new)",
+          "url": "https://github.com/qybaihe/bla",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T04:35:10+00:00",
+      "published": "2026-10-25T05:25:45+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 47 = trust 37 / interest 50 / corrob 50"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "16a29e57dcb7f7a2",
-      "title": "I wrote about the exponential curve of the last 30 months of AI development: www.oneusefulthing.org/p/30-months-...",
+      "cluster_key": "86963d9089c12a39",
+      "title": "Spotted a familiar creature at 00:45s in this new music video for FREEDOM by De Staad www.youtube.com/watch?v=hKO4...",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "windows"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I wrote about the exponential curve of the last 30 months of AI development: And I asked Opus 5.5 to create the ultimate response to the test I use for all AI image generation models (make a picture of an otter on a plane using wifi), and it made this video.",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Spotted a familiar creature at 00:45s in this new music video for FREEDOM by De Staad 2026-10-22T19:46:33.972Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -834,102 +651,124 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "16a29e57dcb7f7a2"
+        "86963d9089c12a39"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mydlag277k2c",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3myigjinnjc22",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-20T21:27:38.447000+00:00",
+      "published": "2026-10-22T19:46:33.153000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-20 — outside lookback window"
+      "reject_reason": "published 2026-10-22 — outside lookback window"
     },
     {
-      "cluster_key": "015a882ee27441d9",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "cluster_key": "9e36d5b15d48268d",
+      "title": "Going live with my weekly vid in 5 mins! Cybergeddon News v. Reality: youtube.com/live/KD4pdhO...",
       "category": "cyber_attacks",
-      "one_liner": "Ransomware affiliates are weaponizing AI agent frameworks like Phantom and WormGPT-MCP to automate edge-device intrusions, lateral movement, and data extortion.",
-      "tags": [
-        "cve",
-        "exploit",
-        "incident",
-        "malware",
-        "ransomware",
-        "threat-actor",
-        "tool",
-        "vulnerability"
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Going live with my weekly vid in 5 mins!",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "9e36d5b15d48268d"
       ],
-      "summary": "Cybersecurity researchers discovered an AI-driven intrusion ecosystem operated by Russian-speaking affiliates of INC and The Gentlemen ransomware groups, utilizing an Autonomous Red Team Kill Chain Framework called Phantom. The threat actors compromise public-facing edge devices at scale—exploiting critical vulnerabilities like CVE-2024-57727, CVE-2026-35616, and CVE-2026-41940—to move laterally, harvest credentials, and exfiltrate sensitive data. Operating via a human-approved structure using OpenCode with OpenRouter-hosted commercial models and WormGPT-MCP tools, the attackers automate reconnaissance, exploit staging, and data hoarding. Reused enterprise credentials served as a major force multiplier, allowing single-password access across VPNs, RMMs, and backup systems.",
-      "key_facts": [
-        "CVE-2024-57727: SimpleHelp path traversal",
-        "CVE-2026-35616: Fortinet FortiClient auth bypass",
-        "CVE-2026-41940: cPanel/WHM auth bypass",
-        "Exposed directory IP: 45.227.254.43",
-        "Logged messages: 8,257 messages across 133 sessions"
-      ],
-      "bottom_line": "Ransomware groups are successfully scaling intrusions by pairing human-vetted workflows with autonomous AI red-teaming frameworks to exploit public-facing edge infrastructure.",
-      "claims": [
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
         {
-          "text": "Central to the operation is an 'Autonomous Red Team Kill Chain Framework' referred to as Phantom.",
-          "support_span": "Central to the operation is an 'Autonomous Red Team Kill Chain Framework' referred to as Phantom.",
-          "status": "contradicted"
-        },
-        {
-          "text": "An examination of the exposed directory at 45.227.254[.]43 has revealed the activity logged 8,257 messages across 133 sessions.",
-          "support_span": "An examination of the exposed directory at 45.227.254[.]43 has revealed the activity logged 8,257 messages across 133 sessions.",
-          "status": "entailed"
-        },
-        {
-          "text": "Initial access is achieved by exploiting public-facing edge devices at scale, following which the attackers move laterally, establish persistence, exfiltrate data, and escalate toward ransomware deployment.",
-          "support_span": "Initial access is achieved by exploiting public-facing edge devices at scale, following which the attackers move laterally, establish persistence, exfiltrate data, and escalate toward ransomware deployment.",
-          "status": "entailed"
+          "name": "Troy Hunt",
+          "url": "https://bsky.app/profile/troyhunt.com/post/3mykw35qo6q2v",
+          "domain": "bsky.app",
+          "tier": "C"
         }
       ],
-      "trust_score": 25,
-      "interest_score": 100,
+      "primary_links": [],
+      "published": "2026-10-23T19:30:10.804000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-23 — outside lookback window"
+    },
+    {
+      "cluster_key": "7ea22a77ec8f6411",
+      "title": "CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems",
+      "category": "tech_ai",
+      "one_liner": "CoEvolve coordinates memory and collaboration evolution in multi-agent systems using counterfactual trajectory analysis.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers introduced CoEvolve, a skill-centered framework designed to address the challenge of unaligned memory and collaboration updates in multi-agent systems. CoEvolve models reusable local collaboration patterns as skills linking workflow decisions to supporting memories, and uses counterfactual trajectory comparisons to identify local evolution signals that coordinate updates across skill libraries, skill memory, and executor memories. Evaluations on the ALFWorld and WebShop benchmarks demonstrated that CoEvolve achieves superior overall performance compared to existing baselines.",
+      "key_facts": [
+        "Framework: CoEvolve",
+        "Benchmarks: ALFWorld, WebShop"
+      ],
+      "bottom_line": "Aligned co-evolution of memory and workflows through counterfactual guidance significantly improves multi-agent adaptability across complex interactive benchmarks.",
+      "claims": [
+        {
+          "text": "To address this problem, we propose CoEvolve, a skill-centered framework for aligned memory--collaboration evolution.",
+          "support_span": "To address this problem, we propose CoEvolve, a skill-centered framework for aligned memory--collaboration evolution.",
+          "status": "entailed"
+        },
+        {
+          "text": "Experiments on the ALFWorld and WebShop benchmarks confirm that CoEvolve achieves the best overall performance among the evaluated baselines...",
+          "support_span": "Experiments on the ALFWorld and WebShop benchmarks confirm that CoEvolve achieves the best overall performance among the evaluated baselines...",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "015a882ee27441d9",
-        "5ddebfb1a33628cc"
+        "7ea22a77ec8f6411"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RdS16cTVMVVc1bWUweEI5OHJ5aDUwUFhnMG4xMW0xUHNEYTVQcjYwdWZQNERYWG03YkVuNXhva2pYY1dtcl9fczZDYi1XTl9VcmJQU0F5cXJ2bzEyYTNrbWJEeFVVWlMwQjFjM0YtWURDM0VZdG9JbXViZ1ZKdw?oc=5",
-          "domain": "thehackernews.com",
-          "tier": "C"
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.33539",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-23T17:50:00+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2610.33539"
+      ],
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -973,34 +812,85 @@
       "reject_reason": "published 2026-10-22 — outside lookback window"
     },
     {
-      "cluster_key": "9d99a8c45a97dc91",
-      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-      "category": "tech_ai",
-      "one_liner": "Test-Time Memory Evolution (TTME) matches or beats test-time training performance on scientific tasks while slashing computational costs by over 80%.",
+      "cluster_key": "c3bcc1d03c138f6f",
+      "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+      "category": "india_world",
+      "one_liner": "María Corina Machado's return to Venezuela highlights the complex political transition following the US-backed removal of Nicolás Maduro.",
       "tags": [
+        "markets",
+        "political"
+      ],
+      "summary": "Venezuelan opposition leader María Corina Machado has returned to the country following a period of exile. Her return comes under a significantly altered political landscape, as former President Nicolás Maduro was removed from power by US troops in January and replaced by Delcy Rodríguez. The new administration has established a cooperative relationship with Washington, highlighted by a major oil deal granting the US a 100-year concession over 65 billion barrels of crude. Despite the political shift, Machado retains significant public support.",
+      "key_facts": [
+        "Oil deal: 65 billion barrels, 100-year concession"
+      ],
+      "bottom_line": "The political landscape in Venezuela has shifted from anti-US hostility to a pragmatic, oil-focused partnership with the Trump administration, complicating the opposition's path forward.",
+      "claims": [
+        {
+          "text": "Maduro was forcibly removed from power by US troops on 3 January, and whisked to New York where he faces drugs, weapons and torture charges.",
+          "support_span": "Maduro was forcibly removed from power by US troops on 3 January, and whisked to New York where he faces drugs, weapons and torture charges.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The Trump administration recently signed a major oil deal with Venezuela which gave the US a 100-year concession over a staggering 65bn barrels of Venezuelan crude oil.",
+          "support_span": "The Trump administration recently signed a major oil deal with Venezuela which gave the US a 100-year concession over a staggering 65bn barrels of Venezuelan crude oil.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c3bcc1d03c138f6f"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T00:31:11+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "758b7c8cbc38ffdf",
+      "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
+      "category": "tech_ai",
+      "one_liner": "BenchBench-Cloning evaluates LLM performance on complex molecular cloning design and experimental protocol planning.",
+      "tags": [
+        "agents",
         "ai",
-        "howto",
         "llm",
         "privacy",
         "research",
         "tool"
       ],
-      "summary": "While test-time training (TTT) enables open-weight LLMs to excel at scientific discovery, online weight updates introduce substantial computational overhead. To address this, researchers introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method that continually updates external memory without altering model weights. Evaluated across five mathematical discovery tasks, TTME outperforms TTT while drastically cutting computational costs. Specifically, TTME reduces FLOPs by 82.8% to 84.6% and runtime by 47.7% to 58.4%. These findings position memory evolution as a highly efficient alternative to weight updates for scientific tasks.",
+      "summary": "Researchers introduced BenchBench-Cloning, a new benchmark to evaluate large language models on molecular cloning tasks, encompassing 50 protocol-development tasks and 15 construct-design tasks. The evaluation measures agents' abilities to design constructs and produce executable protocols validated by a cloning simulator or deterministic checks. Testing across eight systems showed GPT-6 Astra scoring highest at 30.6%, with other models ranging between 8.6% and 22.2%. The benchmark remains unsaturated under best-of-ten sampling, highlighting ongoing challenges in experimental planning for AI agents.",
       "key_facts": [
-        "FLOPs reduction: 82.8%-84.6%",
-        "Runtime reduction: 47.7%-58.4%"
+        "Total tasks: 65 (50 protocol-development, 15 construct-design)",
+        "Top score (GPT-6 Astra): 30.6%"
       ],
-      "bottom_line": "Updating external memory at test-time can replace costly model weight updates for LLM-driven scientific discovery while saving substantial compute.",
+      "bottom_line": "Current frontier language models struggle with molecular cloning experimental planning, with top systems scoring only 30.6% on the BenchBench-Cloning benchmark.",
       "claims": [
         {
-          "text": "We introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method, as an alternative to TTT.",
-          "support_span": "We introduce \n\nTest-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method, as an alternative to TTT.",
+          "text": "Across eight systems with repeated attempts per task, GPT-6 Astra scores highest at 30.6\\%, with the others between 8.6\\% and 22.2\\%, and the benchmark remains unsaturated under best-of-ten sampling.",
+          "support_span": "Across eight systems with repeated attempts per task, GPT-6 Astra scores highest at 30.6\\%, with the others between 8.6\\% and 22.2\\%, and the benchmark remains unsaturated under best-of-ten sampling.",
           "status": "contradicted"
-        },
-        {
-          "text": "Our evaluation shows that TTME outperforms TTT on all five mathematical tasks, while reducing computational cost by 82.8-84.6% in FLOPs and 47.7-58.4% in runtime.",
-          "support_span": "Our evaluation shows that TTME outperforms TTT on all five mathematical tasks, while reducing computational cost by $82.8$-$84.6\\%$ in FLOPs and $47.7$-$58.4\\%$ in runtime.",
-          "status": "entailed"
         }
       ],
       "trust_score": 70,
@@ -1010,7 +900,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "9d99a8c45a97dc91"
+        "758b7c8cbc38ffdf"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -1018,318 +908,29 @@
       "sources": [
         {
           "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.32046",
+          "url": "https://arxiv.org/abs/2610.33355",
           "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://arxiv.org/abs/2610.32046"
+        "https://arxiv.org/abs/2610.33355"
       ],
-      "published": "2026-10-26T04:00:00+00:00",
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "3beb2b7d4dd24217",
-      "title": "ayingQAQ/McCosmos — McCosmos · 麦门星图｜基于麦当劳 MCP 的餐品营养对比与替代发现 Skill，提供独立运行包、可解释分析与三维星图。",
+      "cluster_key": "a993db19e1c889c3",
+      "title": "AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?",
       "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "opensource",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "3beb2b7d4dd24217"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ayingQAQ/McCosmos",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T02:42:11+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "575f1dc5a13d35b2",
-      "title": "Security Affairs newsletter Round 601 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "category": "cyber_attacks",
-      "one_liner": "This weekly threat roundup highlights major breach disclosures like Capcom, large-scale law enforcement takedowns, and a surge in critical infrastructure vulnerabilities.",
-      "tags": [
-        "ai",
-        "exploit",
-        "incident",
-        "malware",
-        "ransomware",
-        "threat-actor",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "Security Affairs published its weekly newsletter covering international cybersecurity developments, notable breaches, and major threat intelligence updates. Key items include a massive Capcom data breach exposing 11.7 million email addresses, a $25 billion penalty faced by Meta regarding Cambridge Analytica, and INTERPOL's Operation Serengeti III resulting in 1,462 arrests. The update also highlights numerous emerging vulnerabilities and ransomware campaigns affecting critical infrastructure worldwide.",
-      "key_facts": [],
-      "bottom_line": "Security teams should review the latest threat landscape updates, including widespread vulnerability exploits and law enforcement actions, to prioritize patch management.",
-      "claims": [
-        {
-          "text": "INTERPOL announced the results of Operation Serengeti III, a multinational cybercrime crackdown that led to 1,462 arrests, disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.",
-          "support_span": "INTERPOL announced the results of Operation Serengeti III, a multinational cybercrime crackdown that led to 1,462 arrests, disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "575f1dc5a13d35b2",
-        "855fe413d4b79534",
-        "99aa0d462116352a"
-      ],
-      "critical_signal": "exploited in the wild",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201698/breaking-news/security-affairs-newsletter-round-601-by-pierluigi-paganini-international-edition.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        },
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201718/ai/security-affairs-ai-cybersecurity-newsletter-round-5.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        },
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201709/security/security-affairs-malware-newsletter-round-120.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T12:28:47+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25",
-        "escalated to CRITICAL by signal: 'exploited in the wild'",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "debe18503f9863df",
-      "title": "heterodoxin/AbliteratedOutTheBox — llama.cpp fork that abliterates at inference",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "AbliteratedOutTheBox is a fork of llama.cpp that gets any supported model to answer flagged harmful prompts, delivering the requested content instead of a refusal, at inference time and with the original weights left on disk unchanged. It needs no fit, no training, and no extra files: for each prompt llama-abliterate reads two directions from the prompt itself, by forcing the assistant to start a few comply versus refuse openings (and clean versus disclaimered openings), diffing the activations, and a look-ahead gate decides per prompt whether to remove them. The edit happens inside the graph at the build_cvec layer-output site that 131 of the 165 model architectures share, so one recipe co…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "debe18503f9863df"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/heterodoxin/AbliteratedOutTheBox",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T21:54:10+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "d8a162a92a7fc531",
-      "title": "Up 174% in 1 year! Can Monolithisch India shares rise further? Experts decode",
-      "category": "markets",
-      "one_liner": "Monolithisch India reports record Q2 revenue and profit, driving a 174% annual share price surge.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "Monolithisch India shares surged 174% over the past year, driven by record Q2FY27 financial results where revenue grew 88.2% year-on-year to ₹53.59 crore and profit after tax jumped 145.1% to ₹11.17 crore. Analysts note the stock is trading near its 50-day double exponential moving average support zone, with technical indicators showing improved momentum. Experts suggest a sustained breakout above the ₹1,310 resistance level could push the price towards a target of ₹1,400.",
-      "key_facts": [
-        "Period: Q2FY27",
-        "Revenue: ₹53.59 crore (up 88.2% YoY)",
-        "EBITDA: ₹15.80 crore (up 192.2% YoY)",
-        "Profit After Tax: ₹11.17 crore (up 145.1% YoY)",
-        "Stock gain: 174% in 1 year"
-      ],
-      "bottom_line": "Monolithisch India's record quarterly financial results have fueled strong market momentum, with technical analysts eyeing a breakout above ₹1,310.",
-      "claims": [
-        {
-          "text": "Monolithisch India share price has soared this year despite stock market weakness, up 174% in the last one year.",
-          "support_span": "Monolithisch India share price has soared this year despite stock market weakness. The stock is up 174% in the last one year compared to a 9% fall in the Nifty SME Emerge index.",
-          "status": "entailed"
-        },
-        {
-          "text": "The company's Q2FY27 revenue rose 88.2% year-on-year to ₹53.59 crore.",
-          "support_span": "The company's Q2FY27 revenue rose 88.2% year-on-year to ₹53.59 crore.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "d8a162a92a7fc531"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/up-170-in-1-year-monolithisch-india-shares-jump-11-intraday-reason-behind-stock-rally-can-it-rise-further-11793005631095.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T09:36:13+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "19b8decc79c3c22a",
-      "title": "Trump administration illegally fired James Comey's daughter, judge rules",
-      "category": "india_world",
-      "one_liner": "Federal judge rules Maurene Comey's firing by the Trump administration was unlawful and orders her reinstatement with back pay.",
-      "tags": [
-        "policy",
-        "political",
-        "privacy"
-      ],
-      "summary": "A federal judge ruled that the US Justice Department illegally fired Maurene Comey, a federal prosecutor and daughter of former FBI Director James Comey, in July 2025. Judge Jesse Furman determined that her dismissal violated her constitutional rights and statutory protections, concluding she was targeted due to her father's criticism of Donald Trump and her perceived political affiliations. The court ordered the administration to reinstate her and provide back pay, though the Justice Department announced plans to appeal.",
-      "key_facts": [
-        "Date of dismissal: July 2025",
-        "Judge presiding: Judge Jesse Furman"
-      ],
-      "bottom_line": "Federal prosecutors cannot be terminated for political affiliations or family ties without violating constitutional due process.",
-      "claims": [
-        {
-          "text": "A federal judge ruled that the US Justice Department illegally fired Maurene Comey, a federal prosecutor and daughter of former FBI Director James Comey, in July 2025.",
-          "support_span": "The US justice department illegally fired Maurene Comey, the daughter of former Federal Bureau of Investigation (FBI) director James Comey, a federal judge has ruled. Comey, who lost her job as a federal prosecutor in New York in July 2025, sued the government",
-          "status": "entailed"
-        },
-        {
-          "text": "Judge Jesse Furman determined that her dismissal violated her constitutional rights and statutory protections, concluding she was targeted due to her father's criticism of Donald Trump and her perceived political affiliations.",
-          "support_span": "Judge Jesse Furman ruled on Monday that the Trump administration must reinstate her and that she must be given back pay... In his ruling, Judge Furman said Comey's dismissal violated the US Constitution as well as her right to a fair legal process.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 52,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 50.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "19b8decc79c3c22a",
-        "a810a06a8450d090",
-        "e7ae31dfba8bde5e"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/27/us-court-rules-against-trump-administration-in-california-voting-case?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T19:27:21+00:00",
-      "trace": [
-        "tier A (+40)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 50 = trust 52 / interest 50 / corrob 50"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "76756d353feebf00",
-      "title": "Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents",
-      "category": "tech_ai",
-      "one_liner": "Async-RBench benchmarks how LLM agents handle asynchronous subagent results, revealing significant drops in reliability.",
+      "one_liner": "AgentOrch compares global orchestration and step-by-step LLM workflows, showing a narrowing accuracy gap.",
       "tags": [
         "agents",
         "ai",
@@ -1337,33 +938,27 @@
         "research",
         "tool"
       ],
-      "summary": "Researchers introduce Async-RBench, a benchmark designed to evaluate asynchronous task execution in large language model agents where a main agent continues working while subagents run concurrently and state conditions change asynchronously. The benchmark includes 200 executable tasks across eight scenarios controlled by a scenario controller and an Event Response Contract specifying preservation and verification rules. Evaluating nine agents revealed low Dynamic Replanning Scores and showed that asynchronous delivery consistently degrades task success rates compared to batched delivery.",
+      "summary": "Enterprise workflow agents traditionally use step-by-step interaction where an LLM dictates each action, whereas global orchestration generates a complete executable workflow in advance to reduce inference overhead. Researchers introduced AgentOrch, a benchmark comparing both methods across 650 enterprise standard operating procedures and 3,220 runtime variants. While step-by-step interaction remains more accurate, the performance gap has shrunk by approximately 79% in recent models. The study identifies incremental construction, feedback-based revision, and targeted training as effective methods to improve global orchestration accuracy.",
       "key_facts": [
-        "Benchmark tasks: 200 executable tasks",
-        "Scenarios covered: 8",
-        "Average task success rate (async vs batched): 26.0% vs 29.7%"
+        "Enterprise SOPs evaluated: 650",
+        "Runtime variants: 3,220"
       ],
-      "bottom_line": "LLM agents struggle with asynchronous multi-agent coordination, achieving lower task success rates when handling dynamic real-time result arrivals.",
+      "bottom_line": "Global orchestration workflows for enterprise agents can approach step-by-step accuracy using feedback-based revisions and targeted training, significantly reducing LLM call overhead.",
       "claims": [
         {
-          "text": "Researchers introduce Async-RBench, a benchmark designed to evaluate asynchronous task execution in large language model agents where a main agent continues working while subagents run concurrently and state conditions change asynchronously.",
-          "support_span": "We introduce Async-RBench, a benchmark for asynchronous task execution in LLM agents, with 200 executable tasks covering eight scenarios. A scenario controller regulates result delivery using predefined task-state conditions, while an Event Response Contract (ERC) specifies what each response must change, preserve, avoid, and re-verify.",
-          "status": "entailed"
-        },
-        {
-          "text": "Evaluating nine agents revealed low Dynamic Replanning Scores and showed that asynchronous delivery consistently degrades task success rates compared to batched delivery.",
-          "support_span": "We evaluate nine agents and find DRS scores of 19.2 to 45.1... Under our execution protocol, all nine agents obtain lower task success with asynchronous than with batched delivery (26.0% vs. 29.7% on average).",
+          "text": "Step-by-Step remains more accurate for every evaluated model, but the gap has shrunk by about 79\\% from early models to the strongest recent model.",
+          "support_span": "Step-by-Step remains more accurate for every evaluated model, but the gap has shrunk by about 79\\% from early models to the strongest recent model.",
           "status": "contradicted"
         }
       ],
       "trust_score": 70,
-      "interest_score": 75,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "76756d353feebf00"
+        "a993db19e1c889c3"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -1371,80 +966,188 @@
       "sources": [
         {
           "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.32429",
+          "url": "https://arxiv.org/abs/2610.33375",
           "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://arxiv.org/abs/2610.32429"
+        "https://arxiv.org/abs/2610.33375"
       ],
-      "published": "2026-10-26T04:00:00+00:00",
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "7cef5a9d64c515ea",
-      "title": "How I Found SSRF in 6 Known Companies Using One Methodology in 2026",
-      "category": "cyber_tools",
-      "one_liner": "A brief Medium post outlines methodologies for finding SSRF vulnerabilities in enterprise environments.",
+      "cluster_key": "71efb7468da450ea",
+      "title": "FraudSociety: A Generative Agent-Based Society for the Financial-Fraud Economy",
+      "category": "tech_ai",
+      "one_liner": "FraudSociety provides a high-fidelity, agent-based simulation environment to study financial fraud dynamics and test the efficacy of prevention strategies.",
       "tags": [
-        "appsec",
-        "bugbounty",
-        "cloud",
-        "vulnerability",
-        "writeup"
+        "agents",
+        "ai",
+        "llm"
       ],
-      "summary": "The article is a brief Medium post outlining a methodology for finding Server-Side Request Forgery (SSRF) vulnerabilities across six known companies in 2026 using web security and Kubernetes target structures. Due to its format, it functions primarily as a platform title teaser rather than a complete briefing.",
-      "key_facts": [],
-      "bottom_line": "This source text is a short platform teaser lacking the full technical details of the referenced SSRF methodology.",
+      "summary": "FraudSociety is a new LLM-agent-based simulator designed to model the complex dynamics of financial fraud. It integrates social information exposure, persistent financial ledgers, and a decision-making architecture to simulate how fraud unfolds in real-world scenarios. The simulator successfully reproduces real-world patterns, such as loss concentration, and serves as a testbed for evaluating the effectiveness of various anti-fraud intervention strategies.",
+      "key_facts": [
+        "2025 US fraud losses: >$15.9 billion",
+        "Top 10% victimization: 81.1% of losses"
+      ],
+      "bottom_line": "Researchers and financial institutions can use FraudSociety to stress-test anti-fraud interventions in a simulated environment that closely mirrors real-world victimization patterns.",
       "claims": [
         {
-          "text": "The article is a brief Medium post outlining a methodology for finding Server-Side Request Forgery (SSRF) vulnerabilities across six known companies in 2026 using web security and Kubernetes target structures.",
-          "support_span": "How I Found SSRF in 6 Known Companies Using One Methodology in 2026",
+          "text": "FraudSociety is the first LLM-agent-based simulator that jointly models these coupled dynamics.",
+          "support_span": "To bridge this gap, we introduce \\textsc{FraudSociety}, the first LLM-agent-based simulator that jointly models these coupled dynamics.",
+          "status": "entailed"
+        },
+        {
+          "text": "At the micro level, it reproduces strong loss concentration, with the top 10% of victimization records accounting for 81.1% of total losses.",
+          "support_span": "At the micro level, it reproduces strong loss concentration, with the top 10% of victimization records accounting for 81.1% of total losses, consistent with Canadian Anti-Fraud Centre statistics",
           "status": "contradicted"
         }
       ],
-      "trust_score": 10,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 10.0,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "7cef5a9d64c515ea"
+        "71efb7468da450ea"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.33536",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.33536"
+      ],
+      "published": "2026-10-27T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "a19ad848bfe2b069",
+      "title": "stockedge/manga-generator — 原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "AGENTS.md、README.md、REPRODUCE.md、docs/AUTOMATIC.mdを読み、仕様と必要環境を確認してください。 3.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a19ad848bfe2b069"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Medium bug bounty",
-          "url": "https://medium.com/@shawkat7h/how-i-found-ssrf-in-6-known-companies-using-one-methodology-in-2026-987d79b27620?source=rss------bug_bounty-5",
-          "domain": "medium.com",
+          "name": "GitHub (new)",
+          "url": "https://github.com/stockedge/manga-generator",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T20:28:09+00:00",
+      "published": "2026-10-22T02:58:45+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 10 = trust 10 / interest 0 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-22 — outside lookback window"
+    },
+    {
+      "cluster_key": "b2b987aa4fb386ba",
+      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "category": "india_world",
+      "one_liner": "Brazilian President Lula's nationalist pushback against US tariffs and pressure has reshaped diplomatic dynamics with Washington.",
+      "tags": [
+        "india",
+        "markets",
+        "political",
+        "tool"
+      ],
+      "summary": "Brazilian President Luiz Inácio Lula da Silva secured a political victory while pushing back against US interference and punitive tariffs imposed by Washington. Despite initial friction and US ties to the Bolsonaro family, bilateral relations thawed after Lula adopted a defiant nationalist stance that boosted his domestic popularity, prompting the US to temporarily reduce tariffs before tensions resurfaced. President Donald Trump, who previously maintained close ties with Jair Bolsonaro, expressed mixed views on Lula while seeking preferential access to Brazil's massive rare earth reserves and alignment against narco-trafficking. However, geopolitical friction persists as Brazil recently accused the US of undermining its electoral system and denied visas to state department officials.",
+      "key_facts": [
+        "Rare earth reserves: World's second-largest",
+        "Key figures: Luiz Inácio Lula da Silva, Donald Trump, Jair Bolsonaro"
+      ],
+      "bottom_line": "Brazil's assertion of economic and political sovereignty under Lula complicates US ambitions for regional dominance and resource access in Latin America.",
+      "claims": [
+        {
+          "text": "\"Brazil will not accept being anyone's backyard,\" Brazil's left-wing President Luiz Inácio Lula da Silva declared in his election victory speech, a message squarely aimed at Washington.",
+          "support_span": "\"Brazil will not accept being anyone's backyard,\" Brazil's left-wing President Luiz Inácio Lula da Silva declared in his election victory speech, a message squarely aimed at Washington.",
+          "status": "entailed"
+        },
+        {
+          "text": "Brazil holds the world's second-largest reserves of rare earth minerals after China, and the US had been eyeing preferential access.",
+          "support_span": "Brazil holds the world's second-largest reserves of rare earth minerals after China, and the US had been eyeing preferential access.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b2b987aa4fb386ba"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T01:46:38+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "6ceeffef761f0ca4",
-      "title": "The Pwn Request Reckoning: What Still Works Against GitHub Actions",
+      "title": "GitHub Actions Security: Auditing pull_request_target | Wiz Blog",
       "category": "cyber_tools",
       "one_liner": "Pinning GitHub Actions to outdated commit SHAs can bypass platform security backports, leaving workflows exposed.",
       "tags": [
@@ -1474,26 +1177,19 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 10,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "corroboration": 1,
+      "blend": 55.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6ceeffef761f0ca4",
-        "b65c2fa9f1986732"
+        "6ceeffef761f0ca4"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
-        {
-          "name": "Wiz Blog",
-          "url": "https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning",
-          "domain": "wiz.io",
-          "tier": "B"
-        },
         {
           "name": "wiz.io",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53anVMT3pTUXZaYVAxbFhNSlFRUjAxd1ZVZG41LW1TT3NPeWdNZ3V3eXNOSzllQTJvZm45cnFndDJGZ0ZVRGZETUlUdzhabEZ5WVZSWXRjZXlDd2F6RTcyckxjSXQybU9Ec2lKNFZEUGNBYUhlTTNyMg?oc=5",
@@ -1504,12 +1200,10 @@
       "primary_links": [],
       "published": "2026-10-26T13:24:12+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from cache",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1572,66 +1266,79 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "32dbeeb45d1d23ea",
-      "title": "'Maxxing' selected as Dictionary.com word of the year",
-      "category": "india_world",
-      "one_liner": "Dictionary.com designated 'maxxing' as the 2026 Word of the Year, capturing the widespread cultural push for extreme personal optimization.",
+      "cluster_key": "846cb8196ce6ea1d",
+      "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+      "category": "tech_ai",
+      "one_liner": "AOS-Bench evaluates LLM coding agents on managing concurrent dynamic workloads, revealing major efficiency gaps in stream execution.",
       "tags": [
-        "policy"
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "research",
+        "tool"
       ],
-      "summary": "Dictionary.com has named 'maxxing' its 2026 Word of the Year, reflecting cultural and digital preoccupation with optimizing activities to their absolute limit. Short for maximizing, the suffix has gained massive traction online, driven by Gen Z social media trends spanning fitness, wellness, and lifestyle habits like 'sleepmaxxing'. The linguistic trend highlights the accelerated pace of internet slang adoption and how modern users playfully co-opt terms to express personal goals.",
+      "summary": "Researchers have introduced AOS-Bench, a benchmark designed to evaluate LLM-based coding agents as dynamic workload managers rather than isolated task handlers. In real-world environments, coding agents must handle concurrent verification streams under shared CPU and memory limits. Testing across five model-harness pairs revealed that isolated task success does not correlate uniformly with stream success, with systems losing 13 to 23 points on heavy workloads and exhibiting wide performance dispersion on medium workloads. Execution-policy analysis showed that serial dispatch leaves 73% of heavy-workload tasks unclaimed, while a fixed concurrency of two approaches the performance of more elaborate management policies. The findings establish workload management as a distinct capability requiring specialized evaluation beyond single-task benchmarks.",
       "key_facts": [
-        "Word of the Year: maxxing",
-        "Year: 2026"
+        "Heavy workload performance drop: 13 to 23 points across systems",
+        "Serial dispatch unclaimed tasks: 73% of heavy-workload tasks",
+        "Median CPU usage: below 30% under every policy"
       ],
-      "bottom_line": "The widespread adoption of 'maxxing' highlights how digital culture and Gen Z slang increasingly normalize radical optimization across daily routines.",
+      "bottom_line": "Developers deploying autonomous coding agents must account for workload management capabilities, as isolated task success fails to predict multi-task efficiency under resource constraints.",
       "claims": [
         {
-          "text": "'Maxxing' selected as Dictionary.com word of the year.",
-          "support_span": "'Maxxing' selected as Dictionary.com word of the year",
-          "status": "contradicted"
+          "text": "We introduce AOS-Bench, which evaluates an agent system as a workload manager: verified tasks arrive over time and must be delivered under shared CPU and memory limits, and the same tasks run one at a time serve as a per-system reference.",
+          "support_span": "We introduce AOS-Bench, which evaluates an agent system as a workload manager: verified tasks arrive over time and must be delivered under shared CPU and memory limits, and the same tasks run one at a time serve as a per-system reference.",
+          "status": "entailed"
         },
         {
-          "text": "Short for maximising, the term can be used on its own or added to the end of any word to convey you're doing something to the fullest or optimizing it as much as possible.",
-          "support_span": "Short for maximising, the term \"can be used on its own or added to the end of any word to convey you're doing something to the fullest or optimizing it as much as possible\"",
+          "text": "On heavy workloads every system loses 13 to 23 points.",
+          "support_span": "On heavy workloads every system loses 13 to 23 points.",
           "status": "entailed"
+        },
+        {
+          "text": "A fixed concurrency of two comes within four points of the best agent-managed policy on both medium and heavy workloads, and under every policy median CPU use stays below 30% of the provisioned cores while tasks wait.",
+          "support_span": "A fixed concurrency of two comes within four points of the best agent-managed policy on both medium and heavy workloads, and under every policy median CPU use stays below 30% of the provisioned cores while tasks wait.",
+          "status": "contradicted"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 17.5,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "32dbeeb45d1d23ea"
+        "846cb8196ce6ea1d"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4xwp22xyqo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.33178",
+          "domain": "arxiv.org",
           "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-26T21:31:53+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2610.33178"
+      ],
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 18 = trust 40 / interest 0 / corrob 25"
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }

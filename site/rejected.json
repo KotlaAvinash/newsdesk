@@ -1,112 +1,75 @@
 {
-  "generated_at": "2026-10-27T02:17:22.896667+00:00",
+  "generated_at": "2026-10-28T02:29:08.255841+00:00",
   "items": [
     {
-      "cluster_key": "516e28b59d6ca0e2",
-      "title": "A Microsoft investigation has revealed that cyber attackers linked to the Chinese government used the AI agent 'ARTEX' to launch attacks against hundreds of organizations worldwide.",
+      "cluster_key": "9c4c32769417765d",
+      "title": "Hackers Exploit Chained Plex Flaws to Deploy Cryptominer Malware Security researchers confirmed active exploitation of a four-bug chain called Plex2Shell…",
       "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "incident",
-        "release",
-        "supply-chain",
-        "threat-actor",
-        "tool"
-      ],
-      "summary": "A Microsoft investigation has revealed that cyber attackers linked to the Chinese government used the AI agent 'ARTEX' to launch attacks against hundreds of organizations worldwide. Microsoft has released the results of its investigation into 'Storm-0940,' a cyber attacker allegedly linked to the Chinese government. It has been revealed that Storm-0940 used the AI agent 'ARTEX' to carry out attacks against hundreds of organizations. AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise | Microsoft Security Blog According to Microsoft, Storm-0940 activity has been observed since 2021, and attacks using ARTEX began in September 2026. Note that 'Storm-0940' i…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "516e28b59d6ca0e2"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GIGAZINE",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGX25WbTRYOFZKZlMtX0l2R2l5XzJDVnZrbWw2RUtUYzUwSFpxc2RtNkxLdEhndTZNVGRtWjBHOFdGb0hZMTFjcWI4RzhONF9PS012U20ydFQ3M3JlWHVTY0FSb3loQVR3TlZGVVcyUl9kTkR4bF9LNmE2dnU?oc=5",
-          "domain": "gigazine.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-23T02:04:00+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-23 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "b389659a27e97e4d",
-      "title": "sirioberati/YouTube-AI-Video-Editing-System — Open-source YouTube AI video editing system: Eyeline teleprompter, editing agents, JSON, Claude Design, animat",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "windows",
-        "writeup"
-      ],
-      "summary": "The included boards are starter templates, not a finished visual identity. Customize the colors, fonts, shapes, and layouts for your own videos. The animation examples are there to adapt. An open-source workflow for recording, AI-assisted editing, design, Claude Design, animation, motion graphics, and the final editor handoff. Want more open-source AI filmmaking workflows?",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "b389659a27e97e4d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/sirioberati/YouTube-AI-Video-Editing-System",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T14:12:50+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "60c5d20025ea454a",
-      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
         "cve",
-        "vulnerability",
-        "windows"
+        "exploit",
+        "incident",
+        "linux",
+        "malware",
+        "release",
+        "research",
+        "vulnerability"
       ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-10-23T15:38:47.439Z",
-      "key_facts": [
-        "Identifier: CVE-2026-89078"
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 22,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 65.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "9c4c32769417765d",
+        "9cf7ebbc13821273"
       ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Cyber Security Channel",
+          "url": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/",
+          "domain": "cybersecuritynews.com",
+          "tier": "C"
+        },
+        {
+          "name": "Field Effect",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLTNiZjZjQUZ5aWlXbkxxSFA1RFhTOElsQjZFRU1wV0RkSVJ5RWxzX0FwTl9uN0VNRGtUcnl2cEg0WmJ5VVlnT0djeUxRaTlOZ0VtZGRwc3dBQkl6WGFmWjcyQm9ia1dIbEZ5LWhubHd2SHdmT0VTcTM5d1pHNzF4Sw?oc=5",
+          "domain": "field-effect.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T07:53:24+00:00",
+      "trace": [
+        "tier C (+10)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 66 = trust 22 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "f3cada8b76e0bd2e",
+      "title": "When my first AI book was published in 2024, the best AI could do 4 minutes of human work with a 50% chance of success When I turned in the draft of…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu When my first AI book was published in 2024, the best AI could do 4 minutes of human work with a 50% chance of success When I turned in the draft of Co-Existence earlier this year, it was 17 hours. When the book was published two days ago, AI could do 17 weeks+ 2026-10-22T17:41:09.911Z",
+      "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 0,
@@ -116,46 +79,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "60c5d20025ea454a",
-        "dcf31aa288786048",
-        "effb305fe7660484",
-        "f1684a1522ffb5d0"
+        "f3cada8b76e0bd2e"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mykj5evi4x2z",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3myhzlccpmg2p",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3myg5l7vc7v2y",
-          "domain": "bsky.app",
-          "tier": "C"
-        },
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3myg4ka6gi526",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myi7j6jedk2v",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T21:42:40.892000+00:00",
+      "published": "2026-10-22T17:41:06.331000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
+      "reject_reason": "published 2026-10-22 — outside lookback window",
       "held_back": true
     },
     {
@@ -196,47 +138,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-10-21 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d384d5d1d3d724dd",
-      "title": "I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm",
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5, which runs in the browser and includes device-to-device multiplayer over an audio link 2026-10-20T19:43:24.538Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "d384d5d1d3d724dd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mydffvspjs2x",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T19:43:20.267000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window",
       "held_back": true
     },
     {
@@ -290,15 +191,18 @@
       "held_back": true
     },
     {
-      "cluster_key": "2835fb19b94642de",
-      "title": "My new book, Co-Existence, is out today. It is a guide to how to live and work in a world where AI is sometimes, but not always, better than you.",
+      "cluster_key": "a25720acf7650796",
+      "title": "ethanplusai/astro-conversion-kit — Agent Skills that convert a WordPress site (or any live site) into a static Astro site with URL, SEO, content ",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai",
-        "howto"
+        "agents",
+        "llm",
+        "opensource",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My new book, Co-Existence, is out today. It is a guide to how to live and work in a world where AI is sometimes, but not always, better than you. (And, for the release, I worked with Opus 5.5 to make a quite interesting experience for the book's new website: co-existence.ai) 2026-10-20T17:03:43.937Z",
+      "summary": "Convert a WordPress site to static Astro with your coding agent, and get back the same site: the same URLs, the same content, the same titles, descriptions, canonicals and structured data, the same media at the same paths, every redirect the old site performs, and a design checked pixel by pixel at 390, 768 and 1440 px. No PHP, no plugins, no database, no server to patch. It is a set of Agent Skills, so it runs in Claude Code, Codex or any agent that reads SKILL.md. Plain Node scripts do everything that has to be exact, and gates prove each part before the work moves on. A run ends with a pull request, a noindexed staging deploy and a launch runbook.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -309,48 +213,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2835fb19b94642de"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myd4idyjkk2c",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-20T17:03:38.598000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-20 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "1232c0a56695e4b8",
-      "title": "Monopoly0024/simple-reviewer-v1 — Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "opensource"
-      ],
-      "summary": "Understand and verify the code behind your Vibe Coding workflow. Simple Reviewer is a Codex skill for people who build and iterate with AI coding agents. It breaks AI-written code into functional blocks, explains what each block does and where it lives, and checks whether the implementation actually meets your goals using recorded evidence. Use it after a Vibe Coding session, when inheriting unfamiliar AI-generated code, or before accepting a change. Start with a readable explanation, then inspect the behavior, evidence, and remaining gaps.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1232c0a56695e4b8"
+        "a25720acf7650796"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -358,33 +221,74 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Monopoly0024/simple-reviewer-v1",
+          "url": "https://github.com/ethanplusai/astro-conversion-kit",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T04:22:59+00:00",
+      "published": "2026-10-22T21:37:28+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
+      "reject_reason": "published 2026-10-22 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "e5eacc3fb228e643",
-      "title": "h9-tec/ai-roadmap-2026 — AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, w",
+      "cluster_key": "1ba46b83ac6c8537",
+      "title": "lucianodiisouza/flecha-browser — Open-source Arc alternative for macOS: a Chromium browser for developers with Spaces, a dev command bar and a ",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "opensource",
+        "release"
+      ],
+      "summary": "An Arc-style browser for developers, built on a Chromium fork. Arc's interface ideas are rebuilt from scratch; no Arc code is used. Docs: flecha.dev/docs Arc's vertical sidebar, Spaces and Peek are hard to give up, and Arc is no longer where the work is happening. Flecha is a replacement that keeps those ideas and adds tools for the people who build websites. It is a Chromium 158 fork rather than an Electron app because Google blocks sign-in in Electron.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1ba46b83ac6c8537"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/lucianodiisouza/flecha-browser",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-22T17:03:15+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-22 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "2ac82a9b4f5ff40f",
+      "title": "ChannelCooperStart/capri-ai — 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "howto",
+        "linux",
         "llm",
         "opensource",
-        "research"
+        "windows"
       ],
-      "summary": "Per the market analysis this roadmap is built on, AI engineering in 2026 shifted from \"train models\" to \"build reliable agentic systems\" on top of models that already exist. The same analysis finds three skills repeated in every job description: RAG, Agents, and Evals. Per LinkedIn Jobs on the Rise 2026, AI Engineer is the fastest-growing job in the US, with 143% growth. This roadmap takes a beginner through those skills in five layers, each ending in a mini-project you can show. For job titles and the rest of the numbers, see Careers.",
+      "summary": "🌃 Capri — a cyberpunk AI agent for your desktop. One app for Claude Code, Codex, Antigravity & any AI assistant. Features · Quick Start · What You Can Ask · How It Works · Roadmap · FAQ Capri is a cyberpunk AI agent that lives on your Windows desktop. Think of it as your own JARVIS-style assistant: you describe what you want in plain language, and Capri plans the steps, uses the right tools and gets it done on your machine. Under the hood, Capri is a desktop interface and agent layer on top of the AI assistants you already use.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -392,10 +296,11 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "e5eacc3fb228e643"
+        "2ac82a9b4f5ff40f",
+        "9a0e2e186e14e63b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -403,17 +308,23 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/h9-tec/ai-roadmap-2026",
+          "url": "https://github.com/ChannelCooperStart/capri-ai",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/jazzenchen/agent-hud-open",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-21T12:23:43+00:00",
+      "published": "2026-10-22T09:27:58+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
+      "reject_reason": "published 2026-10-22 — outside lookback window",
       "held_back": true
     },
     {
@@ -462,6 +373,51 @@
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "5ab5e62f27702fac",
+      "title": "Shaitrish/37studio — Open-source AI alternative to Buffer and Opus Clip: Claude Code makes on-brand videos, posts them to 9 platfor",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "An AI video studio and social media desk that runs on your own computer. Videos made, posted and answered, with your own keys and no monthly bill. ▶ Watch the 2-minute intro (English · বাংলা) · Setup guide · Changelog · Issues · Donate 37Studio makes videos for a business and runs its social accounts, from one app on your own computer. Add a brand from its website and it builds a brand library and a knowledge base. Brief a video and Claude Code, the editor agent, builds it as a HyperFrames composition in that brand, checks its own frames and renders it on your machine.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5ab5e62f27702fac"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Shaitrish/37studio",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-23T00:26:52+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-23 — outside lookback window",
       "held_back": true
     },
     {
@@ -520,7 +476,7 @@
       "tags": [
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z It's been less than 24 hours and there's already a French fork of Battle Drones that reimagines it as Belle Époque steampunk! [contains quote post or other embedded content] 2026-10-21T16:52:47.343Z",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z It's been less than 24 hours and there's already a French fork of Battle Drones that reimagines it as Belle Époque steampunk! [contains quote post or other embedded content] 2026-10-21T16:52:47.272Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -553,155 +509,17 @@
       "held_back": true
     },
     {
-      "cluster_key": "53cea17e45af8983",
-      "title": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)…",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "linux",
-        "llm",
-        "opensource",
-        "release",
-        "research",
-        "tool",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "53cea17e45af8983"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "SecHarvester",
-          "url": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix/",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T12:08:18+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "26cea7ea855a6045",
-      "title": "lklbar666/mcd-saver-checkup — 麦当劳省钱体检：不看你想吃什么，先看你已经亏在哪。基于麦当劳中国 MCP 的差价审计 Skill——枚举所有买法，用 calculate-price 逐个复算，报差额、归因与凑单临界点。",
+      "cluster_key": "e8bb9b5c5c77cf7d",
+      "title": "qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Pyth",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "opensource"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "26cea7ea855a6045",
-        "d8754542d91b7766"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/lklbar666/mcd-saver-checkup",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/xanthichi/mcd-meal-mate",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T03:28:42+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "5597531306565c2a",
-      "title": "Swiggy shares rise 6% after 4-session down episode; is this a relief rally or worst is over? Experts decode | Target, SL",
-      "category": "markets",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "5597531306565c2a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/swiggy-shares-rise-6-after-4-session-down-episode-is-this-a-relief-rally-or-worst-is-over-experts-decode-target-sl-11792998360954.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T07:37:20+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "6e1fee5a1ec29a36",
-      "title": "AI slop is piling up highest on the biggest open-source projects",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
         "ai",
-        "linux",
+        "appsec",
+        "blueteam",
+        "howto",
+        "llm",
         "opensource",
         "tool"
       ],
@@ -709,54 +527,46 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 37,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 46.8,
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6e1fee5a1ec29a36",
-        "c7286ff8c5d0da17"
+        "e8bb9b5c5c77cf7d"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
-          "domain": "helpnetsecurity.com",
-          "tier": "B"
-        },
-        {
-          "name": "36Kr",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12cDVNLWFsdHk2TEdybjA1UUd6N2tkLUZCVU1XN1N6ZWE0RzlHUGczMVdZRzR5N3ZnTW5RaW43bzB1UEx5a0Y3U216NHJKczU2ZVNr?oc=5",
-          "domain": "36kr.publisher",
+          "name": "GitHub (new)",
+          "url": "https://github.com/qybaihe/bla",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T04:35:10+00:00",
+      "published": "2026-10-25T05:25:45+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 47 = trust 37 / interest 50 / corrob 50"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "16a29e57dcb7f7a2",
-      "title": "I wrote about the exponential curve of the last 30 months of AI development: www.oneusefulthing.org/p/30-months-...",
+      "cluster_key": "86963d9089c12a39",
+      "title": "Spotted a familiar creature at 00:45s in this new music video for FREEDOM by De Staad www.youtube.com/watch?v=hKO4...",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "windows"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I wrote about the exponential curve of the last 30 months of AI development: And I asked Opus 5.5 to create the ultimate response to the test I use for all AI image generation models (make a picture of an otter on a plane using wifi), and it made this video.",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Spotted a familiar creature at 00:45s in this new music video for FREEDOM by De Staad 2026-10-22T19:46:33.972Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -767,81 +577,112 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "16a29e57dcb7f7a2"
+        "86963d9089c12a39"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mydlag277k2c",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3myigjinnjc22",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-20T21:27:38.447000+00:00",
+      "published": "2026-10-22T19:46:33.153000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-20 — outside lookback window",
+      "reject_reason": "published 2026-10-22 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "015a882ee27441d9",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "cluster_key": "9e36d5b15d48268d",
+      "title": "Going live with my weekly vid in 5 mins! Cybergeddon News v. Reality: youtube.com/live/KD4pdhO...",
       "category": "cyber_attacks",
       "one_liner": "",
-      "tags": [
-        "cve",
-        "exploit",
-        "incident",
-        "malware",
-        "ransomware",
-        "threat-actor",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "",
+      "tags": [],
+      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Going live with my weekly vid in 5 mins!",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
-      "interest_score": 100,
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "015a882ee27441d9",
-        "5ddebfb1a33628cc"
+        "9e36d5b15d48268d"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RdS16cTVMVVc1bWUweEI5OHJ5aDUwUFhnMG4xMW0xUHNEYTVQcjYwdWZQNERYWG03YkVuNXhva2pYY1dtcl9fczZDYi1XTl9VcmJQU0F5cXJ2bzEyYTNrbWJEeFVVWlMwQjFjM0YtWURDM0VZdG9JbXViZ1ZKdw?oc=5",
-          "domain": "thehackernews.com",
+          "name": "Troy Hunt",
+          "url": "https://bsky.app/profile/troyhunt.com/post/3mykw35qo6q2v",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-23T17:50:00+00:00",
+      "published": "2026-10-23T19:30:10.804000+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-23 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "7ea22a77ec8f6411",
+      "title": "CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "7ea22a77ec8f6411"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.33539",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.33539"
+      ],
+      "published": "2026-10-27T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -887,13 +728,57 @@
       "held_back": true
     },
     {
-      "cluster_key": "9d99a8c45a97dc91",
-      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+      "cluster_key": "c3bcc1d03c138f6f",
+      "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "markets",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c3bcc1d03c138f6f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T00:31:11+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "758b7c8cbc38ffdf",
+      "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
-        "howto",
         "llm",
         "privacy",
         "research",
@@ -910,7 +795,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "9d99a8c45a97dc91"
+        "758b7c8cbc38ffdf"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -918,20 +803,19 @@
       "sources": [
         {
           "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.32046",
+          "url": "https://arxiv.org/abs/2610.33355",
           "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://arxiv.org/abs/2610.32046"
+        "https://arxiv.org/abs/2610.33355"
       ],
-      "published": "2026-10-26T04:00:00+00:00",
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
@@ -939,264 +823,8 @@
       "held_back": true
     },
     {
-      "cluster_key": "3beb2b7d4dd24217",
-      "title": "ayingQAQ/McCosmos — McCosmos · 麦门星图｜基于麦当劳 MCP 的餐品营养对比与替代发现 Skill，提供独立运行包、可解释分析与三维星图。",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "opensource",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "3beb2b7d4dd24217"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ayingQAQ/McCosmos",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T02:42:11+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "575f1dc5a13d35b2",
-      "title": "Security Affairs newsletter Round 601 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "exploit",
-        "incident",
-        "malware",
-        "ransomware",
-        "threat-actor",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "575f1dc5a13d35b2",
-        "855fe413d4b79534",
-        "99aa0d462116352a"
-      ],
-      "critical_signal": "exploited in the wild",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201698/breaking-news/security-affairs-newsletter-round-601-by-pierluigi-paganini-international-edition.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        },
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201718/ai/security-affairs-ai-cybersecurity-newsletter-round-5.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        },
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/201709/security/security-affairs-malware-newsletter-round-120.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T12:28:47+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25",
-        "escalated to CRITICAL by signal: 'exploited in the wild'",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "debe18503f9863df",
-      "title": "heterodoxin/AbliteratedOutTheBox — llama.cpp fork that abliterates at inference",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "AbliteratedOutTheBox is a fork of llama.cpp that gets any supported model to answer flagged harmful prompts, delivering the requested content instead of a refusal, at inference time and with the original weights left on disk unchanged. It needs no fit, no training, and no extra files: for each prompt llama-abliterate reads two directions from the prompt itself, by forcing the assistant to start a few comply versus refuse openings (and clean versus disclaimered openings), diffing the activations, and a look-ahead gate decides per prompt whether to remove them. The edit happens inside the graph at the build_cvec layer-output site that 131 of the 165 model architectures share, so one recipe co…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "debe18503f9863df"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/heterodoxin/AbliteratedOutTheBox",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-21T21:54:10+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-21 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d8a162a92a7fc531",
-      "title": "Up 174% in 1 year! Can Monolithisch India shares rise further? Experts decode",
-      "category": "markets",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "d8a162a92a7fc531"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/up-170-in-1-year-monolithisch-india-shares-jump-11-intraday-reason-behind-stock-rally-can-it-rise-further-11793005631095.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T09:36:13+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "19b8decc79c3c22a",
-      "title": "Trump administration illegally fired James Comey's daughter, judge rules",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "policy",
-        "political",
-        "privacy"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 52,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 50.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "19b8decc79c3c22a",
-        "a810a06a8450d090",
-        "e7ae31dfba8bde5e"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/27/us-court-rules-against-trump-administration-in-california-voting-case?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T19:27:21+00:00",
-      "trace": [
-        "tier A (+40)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 50 = trust 52 / interest 50 / corrob 50"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "76756d353feebf00",
-      "title": "Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents",
+      "cluster_key": "a993db19e1c889c3",
+      "title": "AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
@@ -1211,13 +839,13 @@
       "bottom_line": "",
       "claims": [],
       "trust_score": 70,
-      "interest_score": 75,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "76756d353feebf00"
+        "a993db19e1c889c3"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1225,76 +853,164 @@
       "sources": [
         {
           "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.32429",
+          "url": "https://arxiv.org/abs/2610.33375",
           "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://arxiv.org/abs/2610.32429"
+        "https://arxiv.org/abs/2610.33375"
       ],
-      "published": "2026-10-26T04:00:00+00:00",
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "7cef5a9d64c515ea",
-      "title": "How I Found SSRF in 6 Known Companies Using One Methodology in 2026",
-      "category": "cyber_tools",
+      "cluster_key": "71efb7468da450ea",
+      "title": "FraudSociety: A Generative Agent-Based Society for the Financial-Fraud Economy",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "appsec",
-        "bugbounty",
-        "cloud",
-        "vulnerability",
-        "writeup"
+        "agents",
+        "ai",
+        "llm"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 10.0,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "7cef5a9d64c515ea"
+        "71efb7468da450ea"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Medium bug bounty",
-          "url": "https://medium.com/@shawkat7h/how-i-found-ssrf-in-6-known-companies-using-one-methodology-in-2026-987d79b27620?source=rss------bug_bounty-5",
-          "domain": "medium.com",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.33536",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.33536"
+      ],
+      "published": "2026-10-27T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a19ad848bfe2b069",
+      "title": "stockedge/manga-generator — 原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "AGENTS.md、README.md、REPRODUCE.md、docs/AUTOMATIC.mdを読み、仕様と必要環境を確認してください。 3.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a19ad848bfe2b069"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/stockedge/manga-generator",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T20:28:09+00:00",
+      "published": "2026-10-22T02:58:45+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 10 = trust 10 / interest 0 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-22 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "b2b987aa4fb386ba",
+      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "markets",
+        "political",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b2b987aa4fb386ba"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T01:46:38+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
       "cluster_key": "6ceeffef761f0ca4",
-      "title": "The Pwn Request Reckoning: What Still Works Against GitHub Actions",
+      "title": "GitHub Actions Security: Auditing pull_request_target | Wiz Blog",
       "category": "cyber_tools",
       "one_liner": "",
       "tags": [
@@ -1311,26 +1027,19 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 37,
+      "trust_score": 10,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "corroboration": 1,
+      "blend": 55.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6ceeffef761f0ca4",
-        "b65c2fa9f1986732"
+        "6ceeffef761f0ca4"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
-        {
-          "name": "Wiz Blog",
-          "url": "https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning",
-          "domain": "wiz.io",
-          "tier": "B"
-        },
         {
           "name": "wiz.io",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53anVMT3pTUXZaYVAxbFhNSlFRUjAxd1ZVZG41LW1TT3NPeWdNZ3V3eXNOSzllQTJvZm45cnFndDJGZ0ZVRGZETUlUdzhabEZ5WVZSWXRjZXlDd2F6RTcyckxjSXQybU9Ec2lKNFZEUGNBYUhlTTNyMg?oc=5",
@@ -1341,12 +1050,10 @@
       "primary_links": [],
       "published": "2026-10-26T13:24:12+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from cache",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -1397,8 +1104,7 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
@@ -1406,44 +1112,52 @@
       "held_back": true
     },
     {
-      "cluster_key": "32dbeeb45d1d23ea",
-      "title": "'Maxxing' selected as Dictionary.com word of the year",
-      "category": "india_world",
+      "cluster_key": "846cb8196ce6ea1d",
+      "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "policy"
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "research",
+        "tool"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 40,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 17.5,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "32dbeeb45d1d23ea"
+        "846cb8196ce6ea1d"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4xwp22xyqo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.33178",
+          "domain": "arxiv.org",
           "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-26T21:31:53+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2610.33178"
+      ],
+      "published": "2026-10-27T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 18 = trust 40 / interest 0 / corrob 25"
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
