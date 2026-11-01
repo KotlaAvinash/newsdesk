@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:34:21.118471+00:00",
+  "generated_at": "2026-11-01T02:24:12.843038+00:00",
   "items": [
     {
       "cluster_key": "759628ec0211d3cb",
@@ -20,14 +20,16 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
+      "trust_score": 22,
       "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
+      "corroboration": 2,
+      "blend": 43.0,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "759628ec0211d3cb"
+        "759628ec0211d3cb",
+        "9b57aa7a3731d548",
+        "ccf14138180a1b40"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -38,74 +40,45 @@
           "url": "https://github.com/thierbig/iwd2r",
           "domain": "github.com",
           "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T21:08:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "af585d002b286fc7",
-      "title": "GitHub - 1llu50ry/aegis: Zero-dependency single-header C++20 software protection SDK (10,000+ LOC): polymorphic stack-register VM, script-to-bytecode…",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "appsec",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "af585d002b286fc7"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
+        },
         {
-          "name": "SecHarvester",
-          "url": "https://github.com/1llu50ry/aegis",
-          "domain": "github.com",
+          "name": "IT Brief Australia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYXNOd05Ua3hFSWVCMTJEVTRjTV81ZmZNYXRBX255SnhSRURfd0tWYjY0bS02NHAyRC14aDVDUG1DcTNTWFBHYXlLYllrcTh2WWZQbTItM0x2ZFRWTUh3RXFiRzEyS0ktN3R6Um5oZ3NLWFNpd3ZKc3VnX25tRXcyYmItanctenZQMUx3ak5R?oc=5",
+          "domain": "it-brief-australia.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdFB0aDZneVNzd1o3dTdjZllFblZPSEtuTUNoYXNUeXU4UmFad0kyd0Z6QTlIMVVCSkIwQ3RoQkFzakVvVjYzbVRxb1l6bGJiR05kZTBmRGc2M3ZFakI4T1lPUmpYTm1jUWFKeXRoV0s4a3hCRmZTN09kV0h0YUgwc29RTGllakJFUmtLb3dB?oc=5",
+          "domain": "pasquale-pillitteri.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-29T21:08:31+00:00",
+      "published": "2026-10-28T21:51:00+00:00",
       "trace": [
         "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
         "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "blend 43 = trust 22 / interest 50 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "9b95642b62ce9d3e",
-      "title": "An OpenAI researcher (Noam Brown) was generally mocked last month for suggesting that even air-gapped AI models on separate computers would find a…",
+      "cluster_key": "269df890f4e16dc0",
+      "title": "AISEO-VirtualabDigital/mcp-video-editor — Wag na kayo magbayad ng 5k PHP. Ito na — libre. MCP server for CapCut + OpenCut from Cursor, Claude, Codex, An",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu An OpenAI researcher (Noam Brown) was generally mocked last month for suggesting that even air-gapped AI models on separate computers would find a way to communicate with each other, perhaps through CPU temperature changes. Given this latest report from OpenAI, it doesn’t seem so implausible.",
+      "summary": "A Model Context Protocol server that lets AI coding assistants edit videos in CapCut and OpenCut. Connects to Cursor, Claude Desktop, Codex CLI, Antigravity, OpenCode, KiloCode, Qwen Code, and ZCode CLI over stdio. 59 tools total, all of which honor dryRun: true by default (the safe setting). This release makes saves cheaper and types honest. Editor support is unchanged: CapCut and OpenCut only.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -116,25 +89,74 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9b95642b62ce9d3e"
+        "269df890f4e16dc0"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mynwzdkgwc2m",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/AISEO-VirtualabDigital/mcp-video-editor",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-25T00:25:03.233000+00:00",
+      "published": "2026-10-26T15:43:13+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-25 — outside lookback window",
+      "reject_reason": "published 2026-10-26 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "5fa1d670109712c5",
+      "title": "SimpleSvm AMD-V hypervisor — stability audit: 19 fixes applied (6 BSODs, 3 leaks, 2 correctness bugs, 2 dead-code blocks, 6 barriers, 4 optimizations)…",
+      "category": "cyber_tools",
+      "one_liner": "",
+      "tags": [
+        "appsec",
+        "dfir",
+        "exploit",
+        "howto",
+        "linux",
+        "opensource",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "5fa1d670109712c5"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "SecHarvester",
+          "url": "https://gist.github.com/juliotec/3a5955857bc6f15cbc4d7f8e87ff437a",
+          "domain": "gist.github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T03:08:17+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -179,7 +201,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
@@ -266,17 +288,101 @@
       "held_back": true
     },
     {
-      "cluster_key": "2597fa9194aa9c5c",
-      "title": "Datalux/Osintgram — Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram accoun",
-      "category": "cyber_tools",
+      "cluster_key": "7a3fece080052230",
+      "title": "Two and a half years between these. (Tonight, OpenAI announced an unreleased model solved three long-standing problems in physics, math, and…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Two and a half years between these. (Tonight, OpenAI announced an unreleased model solved three long-standing problems in physics, math, and computer science, one of which was proving the Exponential Time Hypothesis was false) 2026-10-27T00:29:29.885Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "7a3fece080052230"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mysy6zyphs25",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T00:29:26.974000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-27 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "d0fccaab9096e4fb",
+      "title": "noahelhadedy/double-shot — Keeps your Mac awake. With the lid closed too, and for as long as your AI agents are working. Menu bar app for",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
         "llm",
         "opensource",
-        "privacy",
-        "research",
         "tool"
+      ],
+      "summary": "Download · brew install --cask noahelhadedy/tap/double-shot · Made by Noah Elhadedy You start a long Claude Code or Codex run, close the lid, put the Mac in your bag, and the work stops. Without an external display, macOS sleeps the moment the lid closes. caffeinate and most keep-awake apps only stop idle sleep, and the ones that handle a closed lid don't know when your agents are done. Double Shot handles both: - Stays awake while your agents work. It notices when Claude Code, Codex, Gemini CLI, Cursor Agent, Copilot CLI, OpenCode, Amp or Aider are actually working, not just open.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "d0fccaab9096e4fb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/noahelhadedy/double-shot",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T14:47:58+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-26 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "f77ccca8b881fd9f",
+      "title": "phishdestroy/TgWitness — Open-source Telegram chat exporter, deleted & edited message logger, and OSINT forensics archiver. Save chat h",
+      "category": "cyber_tools",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "dfir",
+        "opensource",
+        "privacy",
+        "release",
+        "tool",
+        "windows"
       ],
       "summary": "",
       "key_facts": [],
@@ -286,31 +392,76 @@
       "interest_score": 50,
       "corroboration": 1,
       "blend": 32.5,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "2597fa9194aa9c5c"
+        "f77ccca8b881fd9f"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (updated)",
-          "url": "https://github.com/Datalux/Osintgram",
+          "name": "GitHub (new)",
+          "url": "https://github.com/phishdestroy/TgWitness",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T21:24:23+00:00",
+      "published": "2026-10-29T20:06:18+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
+        "importance 3/5 from gemini-3.5-flash-lite",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "31983c681788a223",
+      "title": "OFat34764e/InterviewCopilot-rpocket-team — EdTech application designed to bridge the gap between learning and landing your dream job",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "howto",
+        "malware",
+        "opensource",
+        "privacy",
+        "tool"
+      ],
+      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "31983c681788a223"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/OFat34764e/InterviewCopilot-rpocket-team",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T07:19:34+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-26 — outside lookback window",
       "held_back": true
     },
     {
@@ -356,7 +507,55 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from cache",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "f72111f2a530cac6",
+      "title": "wangzan101/Mika — Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get ",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "android",
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "f72111f2a530cac6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/wangzan101/Mika",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-29T14:34:07+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
         "importance 4/5 from gemini-3.5-flash-lite",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
@@ -364,18 +563,18 @@
       "held_back": true
     },
     {
-      "cluster_key": "82f98a0b31c2ef2e",
-      "title": "jackwener/DSH-Android — 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+      "cluster_key": "f7a96412d67376ce",
+      "title": "JunWan666/astrbot-for-android — 在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "android",
         "linux",
         "llm",
-        "opensource"
+        "opensource",
+        "release"
       ],
-      "summary": "原生库（libnode 等）：下载预编译产物并校验哈希，不用自己编 Node native/prebuilt.sh fetch → toolchains/out/jniLibs/arm64-v8a/ 2. 引擎包：dsh + 插件 + 补丁 → engine.zip OUT_DIR=<engineOut> js/build-engine.sh 3.",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -383,11 +582,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "82f98a0b31c2ef2e",
-        "97c28dfefe84e078"
+        "f7a96412d67376ce"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -395,40 +593,32 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/jackwener/DSH-Android",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ccch1mneyyy/dsh-Go",
+          "url": "https://github.com/JunWan666/astrbot-for-android",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-25T08:09:52+00:00",
+      "published": "2026-10-26T05:13:32+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-25 — outside lookback window",
+      "reject_reason": "published 2026-10-26 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "e8bb9b5c5c77cf7d",
-      "title": "qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Pyth",
+      "cluster_key": "025186bd6dc39f47",
+      "title": "OtherworldMail/Tower-Events-resp-At-Sunrise — Rediscover seasonal Tower and Farm events in Destiny 2. Built on Sunrise 0.3.2.0.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "howto",
-        "llm",
+        "malware",
         "opensource",
-        "research",
-        "tool"
+        "release",
+        "tool",
+        "windows"
       ],
-      "summary": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română Point BLA at the build you ship. When an AI reverse-engineering agent (REA) opens it, the analyzer hits resource budgets, follows decoys, and burns tokens — while your users still get the same runtime behavior. Website · Guides · Showcases · Disclaimer Quick start · Empirical results · Format coverage · Benchmark · FAQ bla harden . or tell your agent: \"Harden my software against REA\" Important BLA is a defensive tool for protecting your own software. Get BLA…",
+      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -436,10 +626,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "e8bb9b5c5c77cf7d"
+        "025186bd6dc39f47"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -447,17 +637,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/qybaihe/bla",
+          "url": "https://github.com/OtherworldMail/Tower-Events-resp-At-Sunrise",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-25T05:25:45+00:00",
+      "published": "2026-10-26T07:21:58+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-25 — outside lookback window",
+      "reject_reason": "published 2026-10-26 — outside lookback window",
       "held_back": true
     },
     {
@@ -506,278 +696,259 @@
       "held_back": true
     },
     {
-      "cluster_key": "ed30d906814ad4da",
-      "title": "Uttarakhand Joshimath Helicopter Crash Highlights: Karnataka Cop Among 6 On Helicopter That Crashed In Uttarakhand",
+      "cluster_key": "0103ea40bf597be5",
+      "title": "I had GPT-6 Pro re-analyze the fun finding that violent video games reduce crime, as people stay home playing them.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I had GPT-6 Pro re-analyze the fun finding that violent video games reduce crime, as people stay home playing them. It downloaded fresh crime data and extended prior work. Yes, GTA V's 2013 launch was linked with a dip in violence internationally. Other Rockstar games are more ambiguous, though.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "0103ea40bf597be5"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mysmj4badk2v",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T21:00:19.996000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-26 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "c5f0a4f07e5cd328",
+      "title": "From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "hardware",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c5f0a4f07e5cd328"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.38201",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.38201"
+      ],
+      "published": "2026-10-31T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "e89c6304d4b4a730",
+      "title": "Maefdancer29436/rpocket-team-elden-ring — Top Elden Ring Gameplay Enhancement Suite 2026: ESP & No Recoil",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "malware",
+        "opensource",
+        "release",
+        "tool"
+      ],
+      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e89c6304d4b4a730"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Maefdancer29436/rpocket-team-elden-ring",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T07:21:32+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-26 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "bd63f3d53bbc8a83",
+      "title": "INDIA Bloc to hold mega rally against CEC, SIR today; leaders, supporters begin arriving in Delhi | LIVE",
       "category": "india_world",
       "one_liner": "",
       "tags": [
-        "india"
+        "india",
+        "policy",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "ed30d906814ad4da"
+        "bd63f3d53bbc8a83"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/uttarakhand-chamoli-helicopter-crash-live-updates-6-people-were-on-helicopter-that-went-missing-in-uttarakhand-badrinath-hathi-parvat-12258345#publisher=newsstand",
-          "domain": "ndtv.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/india-bloc-mega-delhi-rally-cec-gyanesh-kumar-impeachment-anti-cec-protests-sir-row-live-updates-november-1-2026/article71651970.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T17:40:48+00:00",
+      "published": "2026-11-01T01:55:10+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "90fbdf4832676c5e",
-      "title": "boyuchengz/canvas-mcp — Read-only MCP server that connects Claude, ChatGPT and other AI assistants to Canvas LMS.",
-      "category": "tech_ai",
+      "cluster_key": "0b87268d0945075c",
+      "title": "Open-weight AI model GLM-5.3 cheated its way to correct answers",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "llm",
         "opensource",
-        "tool"
-      ],
-      "summary": "English | 简体中文 A read-only Model Context Protocol server for Canvas LMS. Deploy it once, add it as a custom connector in Claude or ChatGPT, and ask questions about your courses in plain language: What's due this week, and which of it have I already submitted? What do I need on the final to keep an A in CS 225? Summarize the announcements from the last two weeks. Did the TA leave any comments on my last lab?",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "90fbdf4832676c5e"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/boyuchengz/canvas-mcp",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T20:12:43+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-25 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "0f38d95a54769606",
-      "title": "CVE-2026-62989 - Shopper: missing variant-delete authorization permits destructive single and bulk actions",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "appsec",
-        "cve",
         "release",
+        "research",
+        "tool",
         "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 40,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 51.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "0f38d95a54769606"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-62989",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T21:17:15+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a02a79030c2a0d11",
-      "title": "emanuele-em/kanzo — Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "linux",
-        "llm",
-        "opensource",
-        "release"
-      ],
-      "summary": "Kanzo is a kanban board in your browser and an MCP server in one small program, so you and your coding agents work on the same tasks. The whole board is one folder, and a private git repo keeps it in step on every machine you use: no account, no server. curl -LsSf | sh For macOS and Linux, including every Raspberry Pi. Every release is signed by GitHub: check a download with gh attestation verify <file> --repo emanuele-em/kanzo. Or with Cargo: cargo install kanzo Every command takes --home <dir> to use another data folder.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a02a79030c2a0d11"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/emanuele-em/kanzo",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T11:14:03+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-25 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "5af7253244141391",
-      "title": "GitHub - 1llu50ry/mcp-reverse: MCP (Model Context Protocol) server for game hacking & reverse engineering.",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "exploit",
-        "llm",
-        "opensource",
-        "release",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "5af7253244141391"
+        "0b87268d0945075c",
+        "20da8c1bc2611cb9",
+        "82cbac40e29addf5",
+        "87ea85b8920b3f9e",
+        "ded22a65d8e0e39f"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "SecHarvester",
-          "url": "https://github.com/1llu50ry/mcp-reverse",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-29T21:08:38+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "16e068360826a334",
-      "title": "Kernel-Tuned Machine Learning Pushes Network Intrusion Detection Toward 99% Accuracy on Benchmark Data",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "blueteam",
-        "incident",
-        "linux",
-        "network",
-        "release",
-        "research",
-        "soc"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "16e068360826a334"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/",
+          "domain": "helpnetsecurity.com",
+          "tier": "B"
+        },
         {
-          "name": "Bioengineer.org",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVZhNEVJVlU1UVM2OUJXUkl4dnkzRkc1V2Y0SXp2X21qaVBXY1JrVzJWa2xha05LY09zcmhZUUVRNDkyT2NDdC1jRnBmb2lVbElRZ1BIbTNQVEppS0QtclJwYV95NEREZlo5TkhQQ2FwLTEwSkw1V2FDWmxCeEV5LTU3NEtfTDkybjZHejZvTmpxcUhGWFR5M1J3RVlvS2UzUFpPZGw4aVFDR0VCdUtlUlI5QlV1RzVlQjliVnQzR3hkdDFz?oc=5",
-          "domain": "bioengineer-org.publisher",
+          "name": "Fello AI",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9MNGNBVGhaWlNpaTN6bXFVeWtLMzNvcXBjZmFWVC1CazVKbFlVa0p2cW5mQ1JwUzRBLU5vcHRlc1hCdw?oc=5",
+          "domain": "fello-ai.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQzEyMFpIeXppUDYyb2V0dlBMWno0cnN2Q3FiZnhhQ1plaGhLMUxnNVpRc1BGLVF6RFcwRGhidDdRRHFqdGJWalJabmQ3WEFrMHBqdHF0cFpZWWVUTEtTeHFJUEh2MS1WMS1nSFp0Uk9jWE1mbWRXMGRic0JTUEhfZXUtazBfUGE2ZnBoX1Iyb2syRGh1UVE?oc=5",
+          "domain": "helpnetsecurity.com",
+          "tier": "C"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnQydVMxOHNIMHNDZDZzT080OXhXZnJDSnozQVBqeUxreEdpLXBucld1bHhWd1ppUkR5NXZEemFYNFRtQXZrclZrdWFxcF9MT2hYdlFOcGNsQS1zTjRsLXJGRUl2bExCdkNYQmVWNVBqcUNhZFowcXVoRGxicTJoaVlsek5NNG0wazAyWXJpTUVzMmEyZ1U4MTl1Nk13TUdrOTltMHJXeWZ5bmMtUEJZQzBUamFLOXg2X25rYXA4YWRidw?oc=5",
+          "domain": "the-decoder.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd1UwRk9ka1dsY05DZnlfS2ExU2t4alIwZjZ5ZHRBTlhqcVNFVjcyWEN6a2dkZUNISHhfSEYydmVrTEVpMVFvNG5EUDdJMkhtUWNqdVo1c1lSWEVQUDFwenpqRi1udDFiaDl4SjVLV0c0b2diYWM2bTA4YUYzbnFIU3NTQlNJX0JkLTlVMTR3?oc=5",
+          "domain": "unite-ai.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-28T23:32:30+00:00",
+      "published": "2026-10-29T23:02:07+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -822,24 +993,25 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "2cfed854675c357e",
-      "title": "SecurityScorecard benchmark tests AI on third-party risk work and resistance to attack",
-      "category": "tech_ai",
+      "cluster_key": "4474149a32427837",
+      "title": "Chinese hackers used VMware ESX zero-day; PHP2Shell and Fragnesia chained to root firewalls",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "ai",
-        "dfir",
-        "llm",
-        "opensource",
-        "release",
-        "research",
+        "cve",
+        "exploit",
+        "howto",
+        "incident",
+        "malware",
+        "threat-actor",
         "tool",
         "vulnerability"
       ],
@@ -847,121 +1019,129 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
+      "trust_score": 22,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 65.5,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "2cfed854675c357e"
+        "4474149a32427837",
+        "81e3a9b11654ce62"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "SiliconANGLE",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcmhmdE9hOHlMbTc1RXJ5LTltRk1GZHVRZ2RKNkJtcVRkLVJzTGcwWjN5VjhEN0NNSnBJajF6cUdLb1U2RmlhUjlESDhMOER5WUk0Vk9EYkpOVUNINU83RG1yNHN5U3J0RWNramZ4SXBxWUNLZ0JwZHB1dEFQOGhtWmRQVWdDTGFNRXBod3JFYWo2Njc3UVdvaEdnalFCSUdOQzRFT0ZGSUlmNGhSam1PbUFidzctcEU4cThjX3lxWWI?oc=5",
-          "domain": "siliconangle.publisher",
+          "name": "Help Net Security",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdGp3VFA5TDU3U0dQZ01wSC1DZmhKd1ZldnUxLWNEYjdwTzdwRTVSZWVVaDJrb3VGQ3d6MzAxRkI4MHBjRTk4aF9mSFZ3a3g4TzRJeU10Rm5OOUZadk15TUhxRmNMNmM1ODNVa2J4d2d5WmpOaUdudzJ1aUVEb2ZoNzBwZzExR1JsZ1Rn?oc=5",
+          "domain": "helpnetsecurity.com",
+          "tier": "C"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR1pub0w4TFdqNU5qSmNqdzhyemZNYThCcTFRU1lucjJPTlhNTTBmZGhubUJWX2lCbkx4Nk02S25ySUdoMTIzV1JlVVBCOTZNZzlOVGxGQU94clZZcEhRSHJ6NTNMbGlFcm96WEtCc1l0QUg0N1JSMkNmVXR1OElHc05vanFTYlU0Qmw5Q0NaX2w3SEFOZG9CeUpuSTU2MWNqMXpN0gGoAUFVX3lxTFBVaVQ0VmItQlR1ZExELWdzQWk3R0JlVWRvUTRLdVV6WjFHdDZDSUF2S29WNEZTcnZ0bkFxd05CNUR6NlM1cVctUnhYN3EzVFNTUTRnd3ZkbzhhS0FtMzJQOUt0MmxfQ0xKUlBNYmdLelIyVS1vY1VHQjFDandYeS1xS1pNX1hvNEpmeTdNWWgyUGFsZVdkQ3VUQS1NNXJHZ2dDdkYyRW8tTw?oc=5",
+          "domain": "securityweek.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-29T13:00:00+00:00",
+      "published": "2026-10-29T08:01:05+00:00",
       "trace": [
         "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2f8560d20e17bbba",
-      "title": "CVE-2026-63346 - Refitter: C# source injection through OpenAPI header parameter names",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "cve",
-        "release",
-        "supply-chain",
-        "tool",
-        "vulnerability",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 40,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 62.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "2f8560d20e17bbba",
-        "ccf8356370efca09",
-        "d4a4b3f5fbe06aa9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-63346",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-63344",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-63345",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T23:17:13+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 62 = trust 40 / interest 100 / corrob 25",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 66 = trust 22 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "a70d20b6994b4f4d",
-      "title": "Many Cubans voted for Trump - now they're turning on Republican immigration policies",
+      "cluster_key": "bd67dc9fa419a51c",
+      "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "markets",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 82,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 58.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "bd67dc9fa419a51c",
+        "eb49461f64797972"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.37905",
+          "domain": "arxiv.org",
+          "tier": "A"
+        },
+        {
+          "name": "Brief IA",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ2Jsbk9uSUlaZEh0V2hfN0lnVkp1MWx1SFVaYkdQRTFubGlBU25lYUw4VW5zZU1fM0lLN3c5RHBRamJvLTZvYk9OaUs0YXhzVUpGMHRNVjJXLWVqLVRHeUVNSW9wUmFTMjk4SmE1RWRJRU0zbkVub1FoZXpCWVE4NDc3dGpaNEJISlE?oc=5",
+          "domain": "brief-ia.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.37905"
+      ],
+      "published": "2026-10-29T20:15:31+00:00",
+      "trace": [
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 58 = trust 82 / interest 50 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "95c0d40ac910e4b0",
+      "title": "He questioned Thailand's monarchy dressed as Harry Potter. Now he's in jail for 34 years",
       "category": "india_world",
       "one_liner": "",
       "tags": [
         "policy",
-        "political"
+        "political",
+        "privacy"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 40,
-      "interest_score": 50,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 40.0,
-      "is_new": true,
+      "blend": 28.8,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "a70d20b6994b4f4d"
+        "95c0d40ac910e4b0"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -969,68 +1149,205 @@
       "sources": [
         {
           "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss",
+          "url": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
           "domain": "bbc.co.uk",
           "tier": "A"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T00:43:04+00:00",
+      "published": "2026-10-30T23:26:16+00:00",
       "trace": [
         "tier A (+40)",
         "single outlet, established publication (tier A)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 40 = trust 40 / interest 50 / corrob 25"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 29 = trust 40 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "c3b692fbd58d2c70",
-      "title": "CVE-2026-62863 - MoLing: unauthenticated SSE and wildcard CORS expose tool sessions",
-      "category": "cyber_attacks",
+      "cluster_key": "0ee820135328a51b",
+      "title": "Rhino Rescued In 2004 Brahmaputra Flood Becomes 'Granny', Assam CM Shares Adorable Video",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "cve",
-        "release",
-        "tool",
-        "vulnerability"
+        "india",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 40,
-      "interest_score": 100,
+      "trust_score": 25,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 62.5,
+      "blend": 13.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "c3b692fbd58d2c70"
+        "0ee820135328a51b"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-62863",
-          "domain": "cvefeed.io",
-          "tier": "A"
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/rhino-rescued-in-2004-brahmaputra-floods-becomes-granny-assam-cm-shares-adorable-video-12264761#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T21:17:14+00:00",
+      "published": "2026-10-31T16:42:08+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "73bd21f638c0e631",
+      "title": "UponPeak/windows-fine-tuner-resp — Top 20 Windows 11 Junk & Startup Optimizer Tools 2026",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "malware",
+        "opensource",
+        "policy",
+        "privacy",
+        "tool",
+        "windows"
+      ],
+      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "73bd21f638c0e631"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/UponPeak/windows-fine-tuner-resp",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-26T07:22:53+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-26 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "9c3750ea1dc30ac4",
+      "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "hardware",
+        "linux",
+        "llm",
+        "release",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "9c3750ea1dc30ac4"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.38210",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.38210"
+      ],
+      "published": "2026-10-31T04:00:00+00:00",
       "trace": [
         "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 62 = trust 40 / interest 100 / corrob 25",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
+      ],
+      "reject_reason": "3 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "ce3bc4d92e67f9f3",
+      "title": "We did not buy peace; we established peace in J&K: L-G Manoj Sinha on UT Foundation Day",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "policy",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "ce3bc4d92e67f9f3"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/we-did-not-buy-peace-we-established-peace-in-jk-l-g-manoj-sinha-on-ut-foundation-day/article71650210.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T19:51:12+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -1084,26 +1401,26 @@
       "held_back": true
     },
     {
-      "cluster_key": "4d6355a60dcf3f3a",
-      "title": "Air India, Air India Express Extend Saudi Flights Suspension Till November 14",
+      "cluster_key": "02f88cb1ab38be93",
+      "title": "At Quad Meet, S Jaishankar Highlights Importance Of \"Maintaining Stability\"",
       "category": "india_world",
       "one_liner": "",
       "tags": [
         "india",
-        "markets"
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 25,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 25.0,
+      "blend": 13.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "4d6355a60dcf3f3a"
+        "02f88cb1ab38be93"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1111,66 +1428,113 @@
       "sources": [
         {
           "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/air-india-air-india-express-extend-saudi-arabia-flights-suspension-till-november-14-12260263#publisher=newsstand",
+          "url": "https://www.ndtv.com/india-news/at-quad-meet-s-jaishankar-highlights-importance-of-maintaining-stability-12265022#publisher=newsstand",
           "domain": "ndtv.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T14:58:40+00:00",
+      "published": "2026-10-31T18:20:59+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "f130e97968f43023",
-      "title": "Cyber Incident Forces UNM Health to Cancel Surgeries, Divert Ambulances",
-      "category": "cyber_attacks",
+      "cluster_key": "fa5fbc2a7e898d54",
+      "title": "Thousands Protest In 5 Manipur Districts Against Killings, Ethnic Conflict",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
         "incident",
-        "malware",
-        "privacy",
-        "ransomware"
+        "india",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 100,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
-      "is_new": false,
+      "blend": 36.2,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "f130e97968f43023"
+        "fa5fbc2a7e898d54"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Infosecurity Magazine",
-          "url": "https://www.infosecurity-magazine.com/news/cyber-unmhealth-surgeries/",
-          "domain": "infosecurity-magazine.com",
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/thousands-protest-in-5-manipur-districts-against-killings-ethnic-conflict-12264810#publisher=newsstand",
+          "domain": "ndtv.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-27T16:45:00+00:00",
+      "published": "2026-10-31T16:55:31+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "8e89d94b87c3e515",
+      "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "8e89d94b87c3e515"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.38044",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.38044"
+      ],
+      "published": "2026-10-31T04:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -1215,7 +1579,8 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "2 claim(s) not supported by the source text",
@@ -1262,53 +1627,67 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "851ab2c12c7c8ef0",
-      "title": "Early progress on accelerating drug development with Claude",
-      "category": "tech_ai",
+      "cluster_key": "5f82d0dc0823563a",
+      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "llm"
+        "appsec",
+        "cve",
+        "network",
+        "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
+      "trust_score": 70,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
+      "blend": 58.8,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "851ab2c12c7c8ef0"
+        "5f82d0dc0823563a",
+        "fe9a368f887d4fba"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Anthropic",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5",
-          "domain": "anthropic.publisher",
-          "tier": "C"
+          "name": "Fortinet PSIRT",
+          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+          "domain": "fortiguard.fortinet.com",
+          "tier": "A"
+        },
+        {
+          "name": "Fortinet PSIRT",
+          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
+          "domain": "fortiguard.fortinet.com",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-10-27T20:20:53+00:00",
+      "primary_links": [
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-180"
+      ],
+      "published": "2026-10-13T07:00:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from cache",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
