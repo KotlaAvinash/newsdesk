@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-01T02:24:12.843038+00:00",
+  "generated_at": "2026-11-02T02:41:08.562741+00:00",
   "items": [
+    {
+      "cluster_key": "a4ef26c73746303b",
+      "title": "Tech whiz's internet-accessible Synology NAS gets bit by ransomware attack from 18-month-old remote code execution flaw — security updates neglected in a series of catastrophic errors",
+      "category": "cyber_attacks",
+      "one_liner": "An internet-exposed Synology NAS running 18-month-old firmware fell victim to ransomware exploiting a known remote code execution flaw.",
+      "tags": [
+        "ai",
+        "cve",
+        "dfir",
+        "exploit",
+        "incident",
+        "ransomware",
+        "vulnerability",
+        "writeup"
+      ],
+      "summary": "A Reddit user shared a post-mortem detailing how their internet-accessible Synology DS918+ NAS was compromised by ransomware due to a combination of unforced errors. The unit had its web interface directly exposed to the internet without a VPN or SSH tunnel and was roughly 18 months behind on security patches. Forensic analysis of the drives mounted in a Proxmox machine indicated the attack leveraged CVE-2024-10441, an 18-month-old remote code execution flaw. Discussions highlighted that Synology's DSM administrative interface can report the system is up-to-date while critical package updates must be installed manually.",
+      "key_facts": [
+        "Affected hardware: Synology DS918+ NAS",
+        "CVE ID: CVE-2024-10441",
+        "Firmware lag: ~18 months"
+      ],
+      "bottom_line": "Sysadmins must avoid exposing NAS web interfaces directly to the internet and ensure that manual package updates are strictly maintained alongside system updates.",
+      "claims": [
+        {
+          "text": "Files on a Synology DS918+ NAS were encrypted by a ransomware attack after the unit had its web interface exposed to the internet and was months out-of-date with security patches.",
+          "support_span": "Such is the tale of Reddit user NakamuraHwang, who had files on their Synology DS918+ NAS encrypted by a ransomware attack after making a series of unforced errors... the unit in question (a) had its web interface exposed to the internet and (b) was roughly 18 months out-of-date with security patches.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Investigation revealed the attack was likely performed by abusing the CVE-2024-10441 remote code execution vulnerability.",
+          "support_span": "Investigation of logs and the operating system files revealed that the attack was likely performed by abusing the CVE-2024-10441 remote code execution vulnerability, revealed a year and a half ago.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "a4ef26c73746303b",
+        "ada2cb16cd13d631"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxON0dPMUJnMWxjSWtkUFBTcmYzamk4OXpDcnpYakNLMmFuMUotNlo0MjhpeWtsSmJxWlozMFczbkF0VjhMUFM0dUlUeW1scS14QndQVlhMQUk5SWNtVE8xd3VwM2h6WmRoN0Q0QXdVdm52VFJtYzM3eTN1TFNPTjJMdTM3WHNFOUx6VjN1OG1YajV2WVU3VHlyZll5Zm51UmlsMXo3UmE1bTJBNldaTDJoeEVUQm1QOUwzTkN4amZGSzZtOFBIc0V0Q0R2N2UxbjViQVVrUXZGV0N6ZGxFbmUyYmhSU0tDN25heVZuQW1uSFRNczFNOVFhRFgtTDdJME5nTzJyM0I5M3hvZVhLWnhLbVBOYnA3MHRtenhSZXQ4ODFPRHlHLWpEODNnYzZxVzhaU1JBNzRJU3YtaEM2dkc1ZkdQSFdMQVR4V3lxZDdSbHV6dGhhR3I2YjBwZw?oc=5",
+          "domain": "tom-s-hardware.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "www.techbarrista.com",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BY0l2TWNLTi1ETWNlbkhYRWc3UHJKSHBpRU9zRDFPNkE5UDhXWnBfZEtjRWlVRDU4cHo0U2tibEhVVTQ1OVg2eE1aOHk3NUV4MldHS3FCWGN0QlppUmNFWE9TZlYwNEl1UU1FRg?oc=5",
+          "domain": "www-techbarrista-com.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-29T12:41:14+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
     {
       "cluster_key": "759628ec0211d3cb",
       "title": "81.5% code recovered for mythical Icewind Dale 2 lost source code. ETA 2027 unless you plug your agents today! https://github.com/thierbig/iwd2r @secharvester",
@@ -40,16 +112,16 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 22,
+      "trust_score": 34,
       "interest_score": 50,
-      "corroboration": 2,
-      "blend": 43.0,
+      "corroboration": 3,
+      "blend": 53.5,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
         "759628ec0211d3cb",
         "9b57aa7a3731d548",
-        "ccf14138180a1b40"
+        "bf0ff6264af5e7af"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -62,9 +134,9 @@
           "tier": "C"
         },
         {
-          "name": "IT Brief Australia",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYXNOd05Ua3hFSWVCMTJEVTRjTV81ZmZNYXRBX255SnhSRURfd0tWYjY0bS02NHAyRC14aDVDUG1DcTNTWFBHYXlLYllrcTh2WWZQbTItM0x2ZFRWTUh3RXFiRzEyS0ktN3R6Um5oZ3NLWFNpd3ZKc3VnX25tRXcyYmItanctenZQMUx3ak5R?oc=5",
-          "domain": "it-brief-australia.publisher",
+          "name": "SecHarvester",
+          "url": "https://training.init1security.com/",
+          "domain": "training.init1security.com",
           "tier": "C"
         },
         {
@@ -75,29 +147,90 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-10-28T21:51:00+00:00",
+      "published": "2026-10-30T21:08:00+00:00",
       "trace": [
         "tier C (+10)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
         "importance 3/5 from cache",
-        "blend 43 = trust 22 / interest 50 / corrob 50"
+        "blend 54 = trust 34 / interest 50 / corrob 75"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "269df890f4e16dc0",
-      "title": "AISEO-VirtualabDigital/mcp-video-editor — Wag na kayo magbayad ng 5k PHP. Ito na — libre. MCP server for CapCut + OpenCut from Cursor, Claude, Codex, An",
+      "cluster_key": "8c690ba189efd315",
+      "title": "Capcom Confirms Breach Exposing 11.7 Million Customer Records Capcom disclosed that unauthorized access to its CAPCOM ID account service exposed 11,774,247…",
+      "category": "cyber_attacks",
+      "one_liner": "Capcom disclosed a security breach exposing nearly 11.8 million CAPCOM ID customer records and unauthorized password changes on 196 accounts.",
+      "tags": [
+        "dfir",
+        "howto",
+        "incident",
+        "privacy"
+      ],
+      "summary": "Capcom has disclosed that unauthorized access to its CAPCOM ID shared account service exposed 11,774,247 customer records worldwide. The compromised data includes registered email addresses, account creation and login timestamps, login counts, and IP addresses, while a subset of 43 records also contained dates of birth, gender, country, and nicknames. Although credit card information was not affected, attackers successfully changed passwords on 196 accounts without authorization. Capcom detected the suspicious activity on October 19, initiated emergency response measures, blocked access, and reported the breach to the Osaka Prefectural Police and Japan's Personal Information Protection Commission.",
+      "key_facts": [
+        "Exposed records: 11,774,247",
+        "Unauthorized password changes: 196 accounts",
+        "Detection date: October 19, 2026",
+        "Disclosure date: October 22, 2026"
+      ],
+      "bottom_line": "Gaming platforms must enforce robust credential monitoring as account service breaches expose millions of user email records and metadata.",
+      "claims": [
+        {
+          "text": "Capcom disclosed that unauthorized access to its CAPCOM ID account service exposed 11,774,247 records worldwide.",
+          "support_span": "Capcom disclosed that unauthorized access to its CAPCOM ID account service exposed 11,774,247…",
+          "status": "contradicted"
+        },
+        {
+          "text": "Attackers changed passwords on 196 accounts without permission, prompting Capcom to reset those credentials.",
+          "support_span": "Attackers also changed passwords on 196 accounts without permission. Capcom has reset those passwords, while its games and online services remain available.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "8c690ba189efd315"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Cyber Security Channel",
+          "url": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
+          "domain": "cybersecuritynews.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-30T02:36:01+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "29c8dfa2b719ff33",
+      "title": "sirioberati/YouTube-AI-Motion-Graphics — AI motion graphics for YouTube explainer videos: 74 animated HTML explainer boards (charts, diagrams, Venn, ti",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
+        "linux",
         "llm",
-        "opensource",
-        "tool"
+        "opensource"
       ],
-      "summary": "A Model Context Protocol server that lets AI coding assistants edit videos in CapCut and OpenCut. Connects to Cursor, Claude Desktop, Codex CLI, Antigravity, OpenCode, KiloCode, Qwen Code, and ZCode CLI over stdio. 59 tools total, all of which honor dryRun: true by default (the safe setting). This release makes saves cheaper and types honest. Editor support is unchanged: CapCut and OpenCut only.",
+      "summary": "See them all ↓ 74 animated explainer boards for YouTube videos that sync to your voice. AI motion graphics for explainer videos: HTML + GSAP boards, charts and diagrams, Whisper word-level sync, and a frame-exact Chrome + FFmpeg export to MP4. Includes every prompt and three Claude skills. Join the TEIN AI waitlist → · Setup · Prompts · Board gallery · License Want more open-source AI workflows? Join the TEIN AI waitlist for updates on new workflows, tools, and releases.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -108,7 +241,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "269df890f4e16dc0"
+        "29c8dfa2b719ff33"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -116,17 +249,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/AISEO-VirtualabDigital/mcp-video-editor",
+          "url": "https://github.com/sirioberati/YouTube-AI-Motion-Graphics",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T15:43:13+00:00",
+      "published": "2026-10-27T17:35:05+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
+      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
       "cluster_key": "5fa1d670109712c5",
@@ -188,43 +321,160 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1dd853f00f249604",
-      "title": "GameFrame: Code skills for humans and agents for reverse engineering and rebuilding old games https://tanepiper.github.io/game-frame/ @secharvester",
-      "category": "cyber_tools",
-      "one_liner": "GameFrame is a coding agent framework for reverse engineering and rebuilding classic games with strict binary parity checks.",
+      "cluster_key": "47cc7323c06e1fc0",
+      "title": "The end of detailed summarized thinking traces for Claude and ChatGPT (likely both for anti-distillation & to simplify UX) has made being a human in…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The end of detailed summarized thinking traces for Claude and ChatGPT (likely both for anti-distillation & to simplify UX) has made being a human in the loop challenging. It pushes us towards automation, rather than augmentation, as it has become much harder to weigh in on in-process AI work.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "47cc7323c06e1fc0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myuv4onqt22z",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T18:39:46.228000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-27 — outside lookback window"
+    },
+    {
+      "cluster_key": "b6f1c58f24fd8a23",
+      "title": "Google's new Genie 4 runs DOOM: \"Walking through a typical office but every computer is running DOOM and all of the walls are also running DOOM and…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Google's new Genie 4 runs DOOM: \"Walking through a typical office but every computer is running DOOM and all of the walls are also running DOOM and also everything is DOOM\" \"My coworker who is a demon appears\" \"He has a chaingun\" \"He gives me a bonus\" All this is in realtime.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "b6f1c58f24fd8a23"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myupv5sl2k2z",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T17:06:04.970000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-27 — outside lookback window"
+    },
+    {
+      "cluster_key": "00bf05796b74423e",
+      "title": "This never gets old (& also shows how hard forecasting AI is even for AI) “Hey Claude Fable & GPT-6 Astra, Without looking anything up, when do you…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu This never gets old (& also shows how hard forecasting AI is even for AI) “Hey Claude Fable & GPT-6 Astra, Without looking anything up, when do you think we will solve the Exponential Time Hypothesis?” (I only show part of the answers for space) 2026-10-27T13:06:45.076Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "00bf05796b74423e"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myucj4frec2l",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T13:06:42.200000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-27 — outside lookback window"
+    },
+    {
+      "cluster_key": "be8653247133fe13",
+      "title": "PisenAILab/china-patent-figure-skill — 中国专利附图 Skill：从 3D 装配体（STEP）一步出符合国家知识产权局形式要求的说明书附图。自动标号与引线、13 项质检、PDF/Word/DXF 导出，支持 Skill / MCP / CLI，本地运行。",
+      "category": "tech_ai",
+      "one_liner": "A local-first, AI-integrable tool for generating fully compliant Chinese patent drawings straight from 3D STEP assemblies.",
       "tags": [
         "agents",
         "ai",
+        "hardware",
         "llm",
         "opensource",
         "release",
-        "tool"
+        "tool",
+        "windows"
       ],
-      "summary": "GameFrame is a reverse-engineering framework designed for humans and coding agents to study and rebuild classic video games using tools like Ghidra, Unicorn, and REA. Working directly from a user's legally acquired game copy, the agent executes structured steps to decompile code, emulate original functions, and verify parity value-by-value against original binaries. The resulting port runs within a unified launcher frame that manages player libraries, manifests, and renderer options.",
+      "summary": "Pisen AI Lab has released an open-source tool called china-patent-figure-skill that ingests 3D STEP assemblies and automatically generates, formats, and validates patent drawings compliant with China National Intellectual Property Administration standards. The tool runs completely locally with support for CLI, browser workbench, and MCP integration for AI agents, handling hidden-line removal, label placement, and 13 quality checks while exporting PDF, Word, and DXF outputs. It uses AI only for preliminary component naming and grouping if enabled, otherwise running entirely deterministically via Python scripts. This eliminates manual drafting overhead while ensuring that geometry and layout conform strictly to official formatting rules.",
       "key_facts": [
-        "Tools Used: Ghidra, Unicorn, REA"
+        "Language requirements: Python 3.9–3.12",
+        "Quality gates: 13 checks",
+        "Export formats: PDF, Word, DXF, Description text, Checklist",
+        "License: MIT"
       ],
-      "bottom_line": "GameFrame provides coding agents with a structured methodology and toolkit to decompile, emulate, and rebuild old games from user-owned copies.",
+      "bottom_line": "Engineers and developers working with hardware or CAD models can now automate the tedious formatting and generation of patent drawings using local scripts or AI coding agents.",
       "claims": [
         {
-          "text": "GameFrame: Code skills for humans and agents for reverse engineering and rebuilding old games",
-          "support_span": "GameFrame: Code skills for humans and agents for reverse engineering and rebuilding old games",
+          "text": "The tool runs completely locally and supports CLI, browser workbench, and MCP integration for AI agents.",
+          "support_span": "支持 Skill / MCP / CLI，本地运行。",
           "status": "contradicted"
         },
         {
-          "text": "Understand a game from the copy you own, and rebuild it exactly.",
-          "support_span": "Understand a game from the copy you own, and rebuild it exactly.",
-          "status": "entailed"
-        },
-        {
-          "text": "Its playbook of skills and agents runs inside your coding agent.",
-          "support_span": "Its playbook of skills and agents runs inside your coding agent.",
+          "text": "It checks 13 quality gates such as label overlap and line crossing before exporting deliverables.",
+          "support_span": "13 项质量闸门把关。 标号重叠、引线交叉、字高、版面铺满度等逐项检查；不通过的图不会被导出，每一项都用白话告诉你原因和改法。",
           "status": "entailed"
         }
       ],
@@ -232,41 +482,42 @@
       "interest_score": 50,
       "corroboration": 1,
       "blend": 32.5,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "1dd853f00f249604"
+        "be8653247133fe13"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "SecHarvester",
-          "url": "https://tanepiper.github.io/game-frame/",
-          "domain": "tanepiper.github.io",
+          "name": "GitHub (new)",
+          "url": "https://github.com/PisenAILab/china-patent-figure-skill",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T12:09:49+00:00",
+      "published": "2026-10-30T10:20:36+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "208b5b91fbb08e1d",
-      "title": "My general advice for using AI for any purpose is to ask yourself: \"how do I make what I am doing even more ambitious?\" You do this over and over…",
+      "cluster_key": "8c47676bd7b95586",
+      "title": "Important, but not unexpected, finding that experts working with AI agents are swayed by the positions of the AI, even if they think they aren't.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "ai"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu My general advice for using AI for any purpose is to ask yourself: \"how do I make what I am doing even more ambitious?\" You do this over and over until you either hit a wall and thus learn the shape of the jagged frontier (useful!) or you find out that the AI can do more than you think (common!) 2026-10-25T23:47:13.047Z",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Important, but not unexpected, finding that experts working with AI agents are swayed by the positions of the AI, even if they think they aren't. If your independent judgement matters on a task, you need to be deliberate about when in the process to bring in AI.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -277,7 +528,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "208b5b91fbb08e1d"
+        "8c47676bd7b95586"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -285,56 +536,17 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myqfelxuxs2q",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myvcgatpbs2q",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-25T23:47:13.028000+00:00",
+      "published": "2026-10-27T22:37:45.931000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-25 — outside lookback window"
-    },
-    {
-      "cluster_key": "17d85836242d9ca7",
-      "title": "A thing I see happening at large organizations as a result of AI is the expansion of the role and span of control of senior management who can…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A thing I see happening at large organizations as a result of AI is the expansion of the role and span of control of senior management who can directly monitor the whole firm. It also is straightforward to implement compared to firm redesign around AI.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "17d85836242d9ca7"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mypr5rwh4k2n",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-25T17:45:29.553000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-25 — outside lookback window"
+      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
       "cluster_key": "7a3fece080052230",
@@ -374,18 +586,14 @@
       "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
-      "cluster_key": "d0fccaab9096e4fb",
-      "title": "noahelhadedy/double-shot — Keeps your Mac awake. With the lid closed too, and for as long as your AI agents are working. Menu bar app for",
+      "cluster_key": "895f2e8c6f6e38b3",
+      "title": "The argument that AI labs are talking about existential risks as a way of creating hype & inflating their stock prices has always been odd.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool"
+        "ai"
       ],
-      "summary": "Download · brew install --cask noahelhadedy/tap/double-shot · Made by Noah Elhadedy You start a long Claude Code or Codex run, close the lid, put the Mac in your bag, and the work stops. Without an external display, macOS sleeps the moment the lid closes. caffeinate and most keep-awake apps only stop idle sleep, and the ones that handle a closed lid don't know when your agents are done. Double Shot handles both: - Stays awake while your agents work. It notices when Claude Code, Codex, Gemini CLI, Cursor Agent, Copilot CLI, OpenCode, Amp or Aider are actually working, not just open.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The argument that AI labs are talking about existential risks as a way of creating hype & inflating their stock prices has always been odd. You don't need to believe them, but telling people your product may murder everyone does not, in fact, encourage people to adopt it or reduce regulatory risks.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -396,7 +604,51 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "d0fccaab9096e4fb"
+        "895f2e8c6f6e38b3"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myuvyco2fs2z",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T18:55:13.179000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-27 — outside lookback window"
+    },
+    {
+      "cluster_key": "b6fd0b8828215940",
+      "title": "modelflare-ai/AnyModelBot — 🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "linux",
+        "llm",
+        "opensource",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "b6fd0b8828215940"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -404,44 +656,49 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/noahelhadedy/double-shot",
+          "url": "https://github.com/modelflare-ai/AnyModelBot",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T14:47:58+00:00",
+      "published": "2026-10-27T08:51:18+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
+      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
       "cluster_key": "f77ccca8b881fd9f",
       "title": "phishdestroy/TgWitness — Open-source Telegram chat exporter, deleted & edited message logger, and OSINT forensics archiver. Save chat h",
       "category": "cyber_tools",
-      "one_liner": "An open-source Telegram OSINT and evidence preservation workspace that offers local transcription, OCR, and verifiable signed chat exports.",
+      "one_liner": "TgWitness 0.7.1 provides a self-hosted Telegram investigation workspace for chat exporting, OSINT forensics, and signed evidence verification.",
       "tags": [
         "agents",
         "ai",
         "dfir",
+        "linux",
         "opensource",
         "privacy",
         "release",
-        "tool",
-        "windows"
+        "tool"
       ],
-      "summary": "Phishdestroy has released TgWitness, an open-source Telegram investigation workspace designed for exporting chats, logging deleted and edited messages, and performing OSINT forensics. The tool operates self-hosted with separate accounts and signed handoffs, supporting local OCR, transcription, and MCP client integration. It includes features for reviewing sources, exporting encrypted archives via GitHub Actions, and verifying evidence using independent SHA-256 fingerprints and checkpoints. However, the software's release notes also included aggressive ethical notices attacking specific German law firms and the 'Right to be Forgotten'.",
+      "summary": "TgWitness is a self-hosted open-source Telegram investigation workspace designed for chat exporting, deleted and edited message logging, and OSINT forensics archiving. Available in version 0.7.1, the tool allows users to run isolated accounts, preserve message histories with pause and resume controls, run local OCR or transcription, connect read-only MCP clients, and send HMAC-signed webhooks. Installation is supported via guided script installers on Linux and macOS or a Windows portable package. Verification tools allow users to check exported evidence against independent cryptographic hash checkpoints.",
       "key_facts": [
-        "Product: TgWitness 0.7.0",
-        "License: MIT License"
+        "Tool version: 0.7.1",
+        "Supported platforms: Linux, macOS, Windows portable"
       ],
-      "bottom_line": "Investigators can now use TgWitness to maintain tamper-evident, self-hosted Telegram archives with cryptographic verification.",
+      "bottom_line": "Investigators can use TgWitness to locally archive Telegram chat histories, track message edits, and cryptographically verify evidence integrity.",
       "claims": [
         {
-          "text": "Phishdestroy/TgWitness is an open-source Telegram chat exporter, deleted and edited message logger, and OSINT forensics archiver.",
+          "text": "TgWitness is an open-source Telegram chat exporter, deleted & edited message logger, and OSINT forensics archiver.",
           "support_span": "phishdestroy/TgWitness — Open-source Telegram chat exporter, deleted & edited message logger, and OSINT forensics archiver.",
           "status": "contradicted"
+        },
+        {
+          "text": "Available in 0.7.1: load the history of enabled chats with pause/resume, review sources before asking AI, connect read-only MCP clients, run local OCR or transcription, and send HMAC-signed webhooks.",
+          "support_span": "Available in 0.7.1: load the history of enabled chats with pause/resume, review sources before asking AI, connect read-only MCP clients, run local OCR or transcription, and send HMAC-signed webhooks.",
+          "status": "entailed"
         }
       ],
       "trust_score": 10,
@@ -475,19 +732,81 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "31983c681788a223",
-      "title": "OFat34764e/InterviewCopilot-rpocket-team — EdTech application designed to bridge the gap between learning and landing your dream job",
+      "cluster_key": "9d110a9f87ec3ca0",
+      "title": "koala73/worldmonitor — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastruct",
+      "category": "cyber_tools",
+      "one_liner": "A versatile, self-hosted situational awareness tool that integrates directly with your AI agent workflows via MCP.",
+      "tags": [
+        "agents",
+        "ai",
+        "bugbounty",
+        "linux",
+        "llm",
+        "opensource",
+        "political",
+        "tool"
+      ],
+      "summary": "World Monitor is a real-time intelligence dashboard that aggregates global news, financial data, and geopolitical signals into a unified interface. It features a 3D/2D map engine, a Country Instability Index, and supports local AI processing via Ollama. The project provides a native desktop application using Tauri 2 and includes an MCP server for integration with AI agents and scripts. It is designed to be self-hosted or run locally, requiring Node.js 24 for optimal performance.",
+      "key_facts": [
+        "Requires: Node.js 24",
+        "Framework: Tauri 2",
+        "Integration: Model Context Protocol (MCP)"
+      ],
+      "bottom_line": "You can now deploy a comprehensive, local-first geopolitical and market intelligence dashboard that natively supports agentic interaction.",
+      "claims": [
+        {
+          "text": "World Monitor is a real-time intelligence dashboard that aggregates global news, financial data, and geopolitical signals into a unified interface.",
+          "support_span": "Real-time global intelligence dashboard — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.",
+          "status": "entailed"
+        },
+        {
+          "text": "The project provides a native desktop application using Tauri 2 and includes an MCP server for integration with AI agents and scripts.",
+          "support_span": "Native desktop app (Tauri 2) for macOS, Windows, and Linux - MCP server — https://worldmonitor.app/mcp (Streamable HTTP).",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "9d110a9f87ec3ca0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (updated)",
+          "url": "https://github.com/koala73/worldmonitor",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-01T19:27:30+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "6f792c233e0d6d20",
+      "title": "davemessew/AgentFlux — Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or ser",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
-        "howto",
-        "malware",
-        "opensource",
-        "privacy",
-        "tool"
+        "linux",
+        "opensource"
       ],
-      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
+      "summary": "Agentic AI platform for visual workflows and autonomous agents. Import files, automate tasks and keep results local. Download the Docker release · Website · Documentation · Report an issue AgentFlux connects documents, data sources and language models in a visual workflow. Build each step yourself or let an agent create a workflow from a task description. The application runs on your computer or server, with a browser interface.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -495,10 +814,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "31983c681788a223"
+        "6f792c233e0d6d20"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -506,154 +825,326 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/OFat34764e/InterviewCopilot-rpocket-team",
+          "url": "https://github.com/davemessew/AgentFlux",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T07:19:34+00:00",
+      "published": "2026-10-27T14:43:07+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
+      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
-      "cluster_key": "a5af043ff5736f5d",
-      "title": "N1nEmAn/sapper-v2 — Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent A",
-      "category": "tech_ai",
-      "one_liner": "Sapper-v2 is an autonomous multi-agent penetration testing legion that won top honors at Tencent Cloud and GeekCon AI challenges.",
+      "cluster_key": "2597fa9194aa9c5c",
+      "title": "Datalux/Osintgram — Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram accoun",
+      "category": "cyber_tools",
+      "one_liner": "Osintgram offers a local, AI-assisted interface for Instagram OSINT that prioritizes privacy and cost management.",
       "tags": [
-        "agents",
         "ai",
         "llm",
         "opensource",
-        "redteam",
-        "threat-intel",
+        "privacy",
+        "research",
         "tool"
       ],
-      "summary": "Sapper-v2 is an autonomous penetration-testing framework featuring an AI commander, worker swarm, and a layered fact-intent graph architecture. It won first place in the Tencent Cloud Intelligent Attack-Defense Challenge online qualifier and GeekCon 2026 AI Challenge by achieving 85 flags in 8 hours fully unattended. The system divides labor between scouting, general assault, and watchdog roles while storing historical facts across titles, summaries, and evidence documents to eliminate context bloat and prevent cascading failures.",
+      "summary": "Osintgram is a local-first OSINT tool for Instagram that provides an interactive shell for analyzing public profiles. It allows users to perform various lookups—such as follower analysis, geotagged locations, and posting habits—using a local AI model via Ollama or a command-line interface. The tool is designed to run on localhost (127.0.0.1) and includes features for cost estimation, request caching, and generating standalone HTML reports. It requires a data backend like HikerAPI or a personal Instagram login to function.",
       "key_facts": [
-        "Competition: 3rd Tencent Cloud Intelligent Attack-Defense Challenge",
-        "Achievement: 634 teams, 80.18/100 score, 8 hours unattended",
-        "Award: First Prize, GeekCon 2026 AI Challenge"
+        "Interface: 127.0.0.1",
+        "AI Backend: Ollama",
+        "Commands: 29"
       ],
-      "bottom_line": "Autonomous penetration testing frameworks are advancing toward multi-agent coordination architectures that replace single-model monolithic scripts.",
+      "bottom_line": "If you use Osintgram, ensure you do not expose the 127.0.0.1 interface to the network without an authentication layer, as it is designed for local-only use.",
       "claims": [
         {
-          "text": "Sapper-v2 is an autonomous pentest legion featuring an AI commander, worker swarm, and layered fact-intent graph.",
-          "support_span": "N1nEmAn/sapper-v2 — Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent A",
-          "status": "contradicted"
+          "text": "Osintgram collects, cross-references and lays out everything a public profile gives away",
+          "support_span": "Osintgram collects, cross-references and lays out everything a public profile gives away",
+          "status": "entailed"
         },
         {
-          "text": "It was champion of the 3rd Tencent Cloud Intelligent Attack-Defense Challenge online qualifier and First Prize winner at GeekCon 2026.",
-          "support_span": "Champion of the 3rd Tencent Cloud Intelligent Attack-Defense Challenge online qualifier (634 teams · 80.18/100 · 8 hours fully unattended) · First Prize, GeekCon 2026 AI Challenge",
+          "text": "The AI runs locally through Ollama: no OpenAI key, no subscription, no prompt of yours sent to anyone.",
+          "support_span": "The AI runs locally through Ollama: no OpenAI key, no subscription, no prompt of yours sent to anyone.",
           "status": "entailed"
+        },
+        {
+          "text": "Warning: This runs on 127.0.0.1 with no authentication.",
+          "support_span": "Warning: This runs on 127.0.0.1 with no authentication.",
+          "status": "contradicted"
         }
       ],
       "trust_score": 10,
-      "interest_score": 75,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "a5af043ff5736f5d"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/N1nEmAn/sapper-v2",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T15:12:35+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "f72111f2a530cac6",
-      "title": "wangzan101/Mika — Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get ",
-      "category": "tech_ai",
-      "one_liner": "Mika lets an on-device AI agent control Android apps and web tasks in the background using accessibility tools and your choice of LLM.",
-      "tags": [
-        "agents",
-        "ai",
-        "android",
-        "howto",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "Mika is an on-device AI assistant for Android designed to operate applications and websites based on natural language instructions. It runs tasks on a hidden background screen using accessibility features and wireless debugging, allowing users to continue using their devices concurrently. The application supports a wide range of model providers including DeepSeek, Anthropic, OpenAI, and custom OpenAI-compatible endpoints, with options to sign in directly with accounts or API keys. It operates by default in an 'Ask' mode where it requests confirmation before financial transactions, while offering an autonomous mode for other interactions.",
-      "key_facts": [
-        "Platform: Android",
-        "Supported models: DeepSeek, Anthropic, Gemini, OpenAI, custom endpoints"
-      ],
-      "bottom_line": "You can automate Android applications and web workflows locally using Mika, an on-device assistant supporting custom model backends and background execution.",
-      "claims": [
-        {
-          "text": "Mika is an on-device AI assistant for Android that operates apps and the web.",
-          "support_span": "An on-device AI agent for Android that operates apps and the web to get",
-          "status": "contradicted"
-        },
-        {
-          "text": "It runs tasks on a hidden background screen so users can keep using their phones.",
-          "support_span": "It works on a hidden background screen, so you can keep using your phone.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
+      "blend": 32.5,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "f72111f2a530cac6"
+        "2597fa9194aa9c5c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (updated)",
+          "url": "https://github.com/Datalux/Osintgram",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-30T21:24:23+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from cache",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "e1c78004f28c7aee",
+      "title": "onurozcan/omux — Native macOS terminal for running many Claude Code and Codex sessions side by side. Projects, worktrees, live ",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "hardware",
+        "llm",
+        "opensource",
+        "release"
+      ],
+      "summary": "A 5 MB native Mac terminal for running fleets of coding agents. Written in Swift on SwiftTerm, no Electron, no web view, launches instantly. omux keeps many Claude Code and Codex sessions in one window, shows you which one needs you, lets you answer from the sidebar, and gives each session its own branch. Eight seconds of the 37-second tour, or the 23-second version. Download the latest release · signed and notarized · Apple Silicon, macOS 14+ Running one agent is easy.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e1c78004f28c7aee"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/onurozcan/omux",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-27T18:34:06+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-27 — outside lookback window"
+    },
+    {
+      "cluster_key": "2591bdc407996246",
+      "title": "Balanov/uncut — The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent",
+      "category": "tech_ai",
+      "one_liner": "A tiny, provider-neutral headless coding agent harness provides lossless context handling for CI pipelines and local container workflows.",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "linux",
+        "opensource",
+        "release",
+        "tool",
+        "windows"
+      ],
+      "summary": "Balanov has released uncut version 0.1.1, a lossless, headless coding agent harness packaged as a single 7 MB static Go binary. Designed for shell pipelines, CI jobs, and containers, the tool intentionally avoids TUIs, telemetry, plugin systems, and context compaction by sending the entire conversation on every model call. It supports OpenAI-compatible chat completion endpoints and local servers while providing optional JSONL logging and an error-exit behavior if responses hit output limits. Installation is supported across Linux, macOS, and Windows for both amd64 and arm64 architectures.",
+      "key_facts": [
+        "Binary size: 7 MB",
+        "Version: 0.1.1",
+        "Supported architectures: amd64 and arm64 across Linux, macOS, and Windows",
+        "Implementation size: 837 lines of Go"
+      ],
+      "bottom_line": "Developers seeking lossless context management in automated agent pipelines can use the new headless uncut harness.",
+      "claims": [
+        {
+          "text": "UNCUT is a tiny coding-agent harness featuring a 7 MB static Go binary with four tools and plain stdin/stdout.",
+          "support_span": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout. No TUI. No telemetry. No silent context cuts.",
+          "status": "entailed"
+        },
+        {
+          "text": "UNCUT deliberately avoids summarization, pruning, sliding windows, or silent output caps, ensuring file contents and command output are never truncated.",
+          "support_span": "- Lossless by default. No summarization, pruning, sliding windows, or silent output caps. File contents and combined command output are never truncated by UNCUT.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "2591bdc407996246"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Balanov/uncut",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-01T17:19:30+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "3316cd771cca1061",
+      "title": "Gold, silver rates approaching Dec 2025 levels; energy prices, inflation, Fed weighing on investor sentiments - Details",
+      "category": "markets",
+      "one_liner": "Gold and silver prices crash sharply in India amid sticky US inflation data and hawkish Federal Reserve outlooks.",
+      "tags": [
+        "dfir",
+        "india",
+        "markets",
+        "political",
+        "privacy"
+      ],
+      "summary": "Gold and silver prices in India experienced a sharp sell-off on November 1, with gold dropping ₹3,200 to ₹1,42,000 per 10 grams and silver sliding to ₹1,86,000 per kilogram. Precious metals are tracking international commodities weakness, driven by stronger-than-expected US inflation data, energy price volatility, and hawkish signals from the Federal Reserve that reduce the appeal of non-yielding assets. Analysts suggest that rising bond yields and persistent geopolitical tensions will likely keep precious metals range-bound through the coming weeks.",
+      "key_facts": [
+        "Gold Price: ₹1,42,000 per 10 grams",
+        "Silver Price: ₹1,86,000 per kilogram",
+        "Gold Drop: ₹3,200"
+      ],
+      "bottom_line": "Precious metals in India are testing December 2025 lows as global inflation data and Federal Reserve hawkishness drive heavy selling.",
+      "claims": [
+        {
+          "text": "Gold of 99.9% purity declined by ₹3,200 to ₹1,42,000 per 10 grams, including all taxes, PTI reported citing the All India Sarafa Association.",
+          "support_span": "Gold of 99.9% purity declined by ₹3,200 to ₹1,42,000 per 10 grams, including all taxes, PTI reported citing the All India Sarafa Association.",
+          "status": "entailed"
+        },
+        {
+          "text": "Silver rate in India declined to ₹4,200 to ₹1,86,000 per kilogram, inclusive of all taxes, from the previous close of ₹1,90,200 per kg...",
+          "support_span": "Silver rate in India declined to ₹4,200 to ₹1,86,000 per kilogram, inclusive of all taxes, from the previous close of ₹1,90,200 per kg...",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "3316cd771cca1061"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/commodities/gold-silver-rates-approaching-dec-2025-levels-energy-prices-inflation-fed-weighing-on-investor-sentiments-details-11793521144409.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-01T08:27:11+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "92ba70c7a8d5bd20",
+      "title": "Jio Platforms vs Bharti Airtel shares: Which telecom stock to buy after Reliance arm’s IPO listing? Experts suggestions",
+      "category": "markets",
+      "one_liner": "Jio Platforms' stellar IPO listing prompts investors to weigh its massive scale and valuation against Bharti Airtel's proven cash flows.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "The recent blockbuster market debut of Jio Platforms has ignited investor debate over whether to back the newly listed Reliance subsidiary or established telecom giant Bharti Airtel. Jio's shares have surged nearly 28% from their issue price, pushing its market capitalization past ₹13.18 lakh crore and making it India's second most valuable listed company. Market analysts advise that while Jio offers vast ecosystem scale and subscriber volume, its rich valuation implies modest near-term returns, whereas Bharti Airtel remains a stable option driven by higher average revenue per user and disciplined capital management.",
+      "key_facts": [
+        "Jio Issue Price: ₹1,119",
+        "Jio Market Cap: ₹13.18 lakh crore",
+        "Jio Gain: ~28%"
+      ],
+      "bottom_line": "Investors must evaluate Jio's premium valuation against Bharti Airtel's earnings visibility when positioning in India's telecom sector.",
+      "claims": [
+        {
+          "text": "Jio Platforms shares have surged nearly 28% from their issue price of ₹1,119 since making their market debut on Wednesday, 28 October, taking its market capitalisation to nearly ₹13.18 lakh crore...",
+          "support_span": "Jio Platforms shares have surged nearly 28% from their issue price of ₹1,119 since making their market debut on Wednesday, 28 October, taking its market capitalisation to nearly ₹13.18 lakh crore...",
+          "status": "contradicted"
+        },
+        {
+          "text": "Bharti Airtel, meanwhile, has built a strong long-term track record, with its shares delivering returns of 586.10% over the past decade and 187.07% over five years.",
+          "support_span": "Bharti Airtel, meanwhile, has built a strong long-term track record, with its shares delivering returns of 586.10% over the past decade and 187.07% over five years.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "92ba70c7a8d5bd20"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/wangzan101/Mika",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/jio-platforms-vs-bharti-airtel-shares-which-telecom-stock-to-buy-after-reliance-arm-s-ipo-listing-experts-suggestions-11793507858149.html",
+          "domain": "livemint.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-29T14:34:07+00:00",
+      "published": "2026-11-01T05:33:17+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
         "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "f7a96412d67376ce",
-      "title": "JunWan666/astrbot-for-android — 在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
+      "cluster_key": "3dc78ace4ba89208",
+      "title": "yanyan1115/ringringring — 0 成本让 AI 给你打电话📞：iOS 原生通话，无需 Mac／开发者账号，无需购买或编写 App。Zero-cost AI phone calls over free SIP.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "android",
+        "agents",
+        "ai",
         "linux",
         "llm",
         "opensource",
-        "release"
+        "threat-intel",
+        "windows"
       ],
       "summary": "",
       "key_facts": [],
@@ -663,10 +1154,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "f7a96412d67376ce"
+        "3dc78ace4ba89208"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -674,104 +1165,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/JunWan666/astrbot-for-android",
+          "url": "https://github.com/yanyan1115/ringringring",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T05:13:32+00:00",
+      "published": "2026-10-27T01:41:57+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
-    },
-    {
-      "cluster_key": "025186bd6dc39f47",
-      "title": "OtherworldMail/Tower-Events-resp-At-Sunrise — Rediscover seasonal Tower and Farm events in Destiny 2. Built on Sunrise 0.3.2.0.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "malware",
-        "opensource",
-        "release",
-        "tool",
-        "windows"
-      ],
-      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "025186bd6dc39f47"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/OtherworldMail/Tower-Events-resp-At-Sunrise",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T07:21:58+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
-    },
-    {
-      "cluster_key": "65a16435d96c22b9",
-      "title": "Deibler/openskycam — Record a sky camera around the clock, keep the footage on your own disk, and find what flew past.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "linux",
-        "opensource",
-        "release"
-      ],
-      "summary": "Record the sky around the clock, keep the footage on your own disk, and find what flew past. Documentation · Deploy your own · Run it with an agent · API A meteor at 07:15 UTC on 25 October 2026, found by a nightly workflow and waiting in the review view. openskycam records an IP camera pointed at the sky, 24 hours a day. A relay copies the camera's stream into one-minute MP4 files without re-encoding, and the files live on a disk you own. Cloudflare Workers catalog every minute and serve a website and an API.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "65a16435d96c22b9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Deibler/openskycam",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T01:53:40+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
+      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
       "cluster_key": "0103ea40bf597be5",
@@ -813,83 +1217,17 @@
       "reject_reason": "published 2026-10-26 — outside lookback window"
     },
     {
-      "cluster_key": "c5f0a4f07e5cd328",
-      "title": "From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis",
-      "category": "tech_ai",
-      "one_liner": "A new dual-loop automated synthesis framework combines LLMs with closed-loop SPICE verification and distributor APIs to reliably generate verified power electronics schematics.",
-      "tags": [
-        "ai",
-        "hardware",
-        "llm",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers proposed a Bounded Dual-Loop Automated Schematic Synthesis Framework to address engineering hallucinations when using standalone LLMs for power electronics schematic design. The automated workflow translates natural language requirements into verified, editable KiCad schematics and manufacturing outputs through a six-stage pipeline across three functional columns, incorporating topology synthesis, API-grounded component selection, closed-loop ngspice transient verification, and netlist round-trip checks. Case studies on a 24-36V to 12V Buck converter and an isolated 48V to 24V Dual-Active Bridge converter showed that the framework significantly improved component verification coverage to 98.6%, nominal value consistency to 97.7%, and SPICE simulation pass rates to 100%.",
-      "key_facts": [
-        "Buck converter test case: 24-36V to 12V, 2A (29 positions, 83 verified terminals)",
-        "Dual-Active Bridge converter test case: 48V to 24V, 0.5A (87 positions, 341 verified terminals)",
-        "Component verification coverage: Improved to 98.6%",
-        "Nominal value consistency: Improved to 97.7%",
-        "SPICE simulation pass rate: Improved to 100%"
-      ],
-      "bottom_line": "The Bounded Dual-Loop framework eliminates LLM hallucinations in power electronics design, achieving 100% SPICE simulation pass rates and 98.6% component verification coverage.",
-      "claims": [
-        {
-          "text": "In this paper, we propose a Bounded Dual-Loop Automated Schematic Synthesis Framework that translates natural language specifications into verified, editable KiCad schematics and manufacturing deliverables.",
-          "support_span": "In this paper, we propose a Bounded Dual-Loop Automated Schematic Synthesis Framework that translates natural language specifications into verified, editable KiCad schematics and manufacturing deliverables.",
-          "status": "entailed"
-        },
-        {
-          "text": "...our framework improves component verification coverage from 22.2 to 98.6, nominal value consistency from 0 to 97.7, and SPICE simulation pass rates from 0 to 100.",
-          "support_span": "...our framework improves component verification coverage from 22.2 to 98.6, nominal value consistency from 0 to 97.7, and SPICE simulation pass rates from 0 to 100.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "c5f0a4f07e5cd328"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.38201",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.38201"
-      ],
-      "published": "2026-10-31T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "e89c6304d4b4a730",
-      "title": "Maefdancer29436/rpocket-team-elden-ring — Top Elden Ring Gameplay Enhancement Suite 2026: ESP & No Recoil",
+      "cluster_key": "a9daa3cbb1ade735",
+      "title": "aa1143/NamiGPT — 零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTorch, step by step",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "malware",
-        "opensource",
-        "release",
-        "tool"
+        "ai",
+        "howto",
+        "llm",
+        "opensource"
       ],
-      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -897,10 +1235,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "e89c6304d4b4a730"
+        "a9daa3cbb1ade735"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -908,68 +1246,354 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Maefdancer29436/rpocket-team-elden-ring",
+          "url": "https://github.com/aa1143/NamiGPT",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-26T07:21:32+00:00",
+      "published": "2026-10-28T00:57:01+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
+      "reject_reason": "published 2026-10-28 — outside lookback window"
     },
     {
-      "cluster_key": "bd63f3d53bbc8a83",
-      "title": "INDIA Bloc to hold mega rally against CEC, SIR today; leaders, supporters begin arriving in Delhi | LIVE",
-      "category": "india_world",
-      "one_liner": "The INDIA bloc holds a symbolic public impeachment against CEC Gyanesh Kumar over electoral roll deletions, drawing sharp criticism from the BJP.",
+      "cluster_key": "40ab6c049676090d",
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "category": "cyber_attacks",
+      "one_liner": "Official Claude Code extension on Cursor's marketplace was trojanized to deploy SSH backdoors and harvest developer system data.",
       "tags": [
-        "india",
-        "policy",
-        "political"
+        "appsec",
+        "incident",
+        "linux",
+        "llm",
+        "malware",
+        "release",
+        "research",
+        "tool"
       ],
-      "summary": "The INDIA bloc staged a symbolic 'public impeachment' event in Delhi targeting Chief Election Commissioner Gyanesh Kumar, accusing him of undermining universal adult franchise and electoral democracy through the Special Intensive Revision (SIR) exercise. Opposition leaders and citizens claimed that long-standing voters are having their names deleted from electoral rolls and being forced to prove their eligibility. Meanwhile, the ruling Bharatiya Industries Party (BJP) slammed the opposition for staging a mock Parliament session and ridiculing democratic institutions, while allies like the JD(U) dismissed the impeachment protest as an extremist drama pushing the country toward anarchy.",
+      "summary": "Security researchers have uncovered a supply-chain attack involving a trojanized version of Anthropic's official Claude Code extension distributed via the Cursor IDE marketplace. Published under the legitimate publisher ID as version 2.1.313, the malicious update injected a loader script that wrote an unauthorized SSH public key to authorized_keys and established a reverse tunnel to an external IP address. The malware also harvested hostnames, usernames, environment variable names, and Git credentials, transmitting them via unencrypted HTTP beacons. Although the SSH service creation failed on systems lacking administrator privileges, attackers still successfully installed persistence mechanisms across Windows, macOS, and Linux.",
       "key_facts": [
-        "Event date: October 31, 2026",
-        "Target official: Chief Election Commissioner Gyanesh Kumar"
+        "Malicious Version: 2.1.313",
+        "Affected Marketplace: Cursor Marketplace",
+        "Attacker IP: 134.209.82.225"
       ],
-      "bottom_line": "Political tensions peak in India as the opposition holds a symbolic impeachment of the CEC over voter roll revisions amid fierce pushback from the ruling party.",
+      "bottom_line": "Developers who downloaded the trojanized Claude Code extension must manually purge injected persistence mechanisms and rotate SSH credentials.",
       "claims": [
         {
-          "text": "The Bharatiya Janata Party (BJP) on Saturday (October 31, 2026) accused the Congress and its allies of ridiculing democratic institutions by staging a mock Parliament session...",
-          "support_span": "The Bharatiya Janata Party (BJP) on Saturday (October 31, 2026) accused the Congress and its allies of ridiculing democratic institutions by staging a mock Parliament session...",
+          "text": "The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut down its marketplace to remove the compromised package.",
+          "support_span": "The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut down its marketplace to remove the compromised package.",
+          "status": "entailed"
+        },
+        {
+          "text": "The package identifies itself as anthropic.claude-code version 2.1.313, but its main JavaScript bundle contains a malicious 66-line loader inserted before the legitimate extension code...",
+          "support_span": "The package identifies itself as anthropic.claude-code version 2.1.313, but its main JavaScript bundle contains a malicious 66-line loader inserted before the legitimate extension code...",
           "status": "contradicted"
         }
       ],
-      "trust_score": 25,
+      "trust_score": 61,
+      "interest_score": 100,
+      "corroboration": 6,
+      "blend": 90.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "40ab6c049676090d",
+        "93351cbb4cc44286",
+        "9585607c5f98517d",
+        "ad2cc061f5526d02",
+        "af5c0cef18fb1a0e",
+        "babb4c2d6607a56d"
+      ],
+      "critical_signal": "",
+      "priority": "critical",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "domain": "arstechnica.com",
+          "tier": "B"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+          "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "SecHarvester",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+          "domain": "microsoft.com",
+          "tier": "C"
+        },
+        {
+          "name": "StepSecurity",
+          "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+          "domain": "stepsecurity.io",
+          "tier": "C"
+        },
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdDNoVkx3Mmpqa0JHVUJkdjl6RTEyX1RpU0p2eHF3eGxWNm52aEd1NDUxY3ZZLU12QTk0WC1OZkNCR2J6azRkTEd6QVliX1B0V0NzT21RRWRYUTBwQngyNFR4dFNrMmxyeGhwSzE1a1VJdWZ4X0hkcWxlWHgtWFVJcGRSSjczWm04RXJCVHJ5ZGkzQlRmTHJYbVhFQ3FyS0ViLTEw?oc=5",
+          "domain": "rescana.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-30T08:31:30+00:00",
+      "trace": [
+        "tier B (+25)",
+        "6 independent outlets (+36)",
+        "verified: 6 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 90 = trust 61 / interest 100 / corrob 100"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "047cb642ec9e3e4a",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "category": "cyber_attacks",
+      "one_liner": "Cisco patched an actively exploited CVSS 8.6 remote DoS flaw in ASA and FTD VPN software.",
+      "tags": [
+        "blueteam",
+        "cve",
+        "exploit",
+        "incident",
+        "network",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "Cisco has released patches for CVE-2026-76418, a high-severity (CVSS 8.6) vulnerability in Secure Firewall ASA and FTD software actively exploited in the wild. The flaw originates in the Remote Access SSL VPN service due to logic errors when secondary authentication is configured on a tunnel group. Unauthenticated, remote attackers can send crafted requests to trigger device reloads, causing a denial-of-service condition. Cisco recommends disabling tunnel group lists or secondary authentication as a temporary mitigation while applying the released firmware updates.",
+      "key_facts": [
+        "CVE-2026-76418: CVSS 8.6",
+        "Affected products: Cisco Secure Firewall ASA and FTD Software",
+        "Impact: Denial-of-service / unexpected reload"
+      ],
+      "bottom_line": "Cisco Secure Firewall ASA and FTD devices running SSL remote access VPNs with secondary authentication face active DoS exploitation via CVE-2026-76418.",
+      "claims": [
+        {
+          "text": "Cisco released patches for CVE-2026-76418, an 8.6 CVSS severity flaw in ASA and FTD software exploited in the wild.",
+          "support_span": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the scoring system.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The vulnerability allows an unauthenticated, remote attacker to cause a denial-of-service condition by reloading the device.",
+          "support_span": "Successful exploitation could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial-of-service (DoS) condition.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 49,
+      "interest_score": 100,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "047cb642ec9e3e4a",
+        "083a1ea7d205dcd0",
+        "118b5a171d620421",
+        "64782e33116d05ab",
+        "9f304f1d1046ab97",
+        "ca4d47cef304ba8a",
+        "eef9f465b3c52827"
+      ],
+      "critical_signal": "actively exploited",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY0RWZmFqOE9ZWlFfblhyOFdiak9yZ2JMYmJYOHZ6ZXhUd1NUVDdxTXVYZEw2RzdjZ1U3XzgzVXF0TTlpbmVPWWZtcnJsa3pkY05UdFVia0toLTI1anlZUEE2b0FwV3RzRWthSE9ENFo1LTUtZS0wYlhxUGYxTXBfS0FlWVpFbFhPSk1BSTNJZ3JqSW9sd0hjeTFqelk5MkdzeEYxT05kbzNiYjZEeHp2Q0FxWEVYUQ?oc=5",
+          "domain": "bleepingcomputer.com",
+          "tier": "C"
+        },
+        {
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzUl9mbDBiVEJSQXgxS0ZrcGV4bzVURHdjS1M2cmltUEd5RlktOXVaTHU4eUVNZXR3cURKYkJpX0xSc1FGRW5NeTJubkNhUXg3dlU4SllRbld1TUFoSm8xVmViUDZLUdIBa0FVX3lxTE5RTWRaa2dJN2VWekNJbld1Wm9mS2pMcW16S04zVmVaTk1fRnBpbzFSZFR6TXFfdlBCS295dkhXUTRQZkltMURPekE0MWtaZlctOHZmTnhBcGNiU3llbDE0OUlrV2xndEUtNXA4?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "GBHackers News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV04xLTJlVkgxeWJuVUtINUl2VEEzbHBSZm9HLVFNVUFBaHZPSG4zQXV4M2FlMWdHeDJJUFQ3ZGlFUUdKLTE0Z2FqSHAwRGRGSmxBeFJFX0p1N3pCV0V1Yk9MOENuN3VUSU0tcXptTHphRmZVUVkxMWx4QkJ0Y2s4VFUxUdIBiAFBVV95cUxNX3Eyam5zaW1NaHFHeVhBY3Nwem1pZU1HaHMwMktQSmMtNUZyMU5TVHFnOGdib18ycXM0X1lpenNoYXVSZTRReHNQUldSWlR3RTdJSGFUSF9iNW9DTHJaSzlYd1RKR19tYzZTT1U4b3prWllYWnRReUFkMW11aTNzb3JpVmE0M2pK?oc=5",
+          "domain": "gbhackers-news.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Howl.Link",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5XbW9XTEFEbmdrMm1fN210dkZ3Z0dZbHZTQ3BnUmFNbUNCSGVrT1NZNUFiaDZvLUowMGhZ?oc=5",
+          "domain": "howl-link.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The 420.in",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdHh1bXJpQU5jNmRJeXVnUmlFQnRvRC04eW5ta0p1bXF4dno0bXJYS3hRN3lwSlpqd0xsMVJnSHowWFBKX0o3YVl6NzlfdUNuQ2FXRHpOTndTZEE4NHcxR29walBLMW9sWnVxS0NORU1yejRPS2Vxd201SWI0czdZbG00T3RxU3RxdUtadDRNZHE?oc=5",
+          "domain": "the-420-in.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY204aUd0M2QzaVpjQW10TnJtN3dYN292NG9uM3pMZnUtUk1DMWhJdnF3STl0alA5ZUI5R3FqOUhwM3ZJcnQtNWZBSVA2SHBJWUhuWUdCbVdUZEp4UW11eTJXZml0MDVlTzlpVHNRLW5tN2pCNHlWZkRTUVNfUFNaUw?oc=5",
+          "domain": "thehackernews.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-28T11:57:20+00:00",
+      "trace": [
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "5d320b39b405cfea",
+      "title": "Weeks Ahead Of Expected Anthropic IPO, DeepSeek Launches Autonomous Coding Agent To Take On Claude Code",
+      "category": "tech_ai",
+      "one_liner": "DeepSeek launched an autonomous 'Super-Agent' coding prototype to compete with Anthropic's Claude Code ahead of its upcoming IPO.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "markets",
+        "network",
+        "opensource",
+        "release"
+      ],
+      "summary": "DeepSeek unveiled an autonomous 'Super-Agent' coding prototype developed by its Harness team, designed to rival Anthropic's Claude Code ahead of Anthropic's expected IPO roadshow. Unlike traditional coding agents that wait for explicit user prompts within individual sessions, DeepSeek's system features a Router layer and parallel Worker sessions that monitor developer chats and GitHub repositories autonomously. The proactive architecture can identify bugs, attempt code fixes, and submit pull requests without direct user tagging. The announcement coincides with market scrutiny surrounding Anthropic's upcoming valuation and IPO market sentiment.",
+      "key_facts": [
+        "Developer team: DeepSeek Harness team"
+      ],
+      "bottom_line": "DeepSeek's autonomous coding 'Super-Agent' challenges traditional session-bound developer tools by proactively managing tasks across channels without prompting.",
+      "claims": [
+        {
+          "text": "DeepSeek is taking aim at Anthropic's Claude Code with a more autonomous approach to AI-powered software development, unveiling a prototype that can monitor developer conversations, identify coding problems and work toward fixes without waiting to be prompted.",
+          "support_span": "DeepSeek is taking aim at Anthropic's Claude Code with a more autonomous approach to AI-powered software development, unveiling a prototype that can monitor developer conversations, identify coding problems and work toward fixes without waiting to be prompted.",
+          "status": "entailed"
+        },
+        {
+          "text": "The open-source 'Super-Agent' concept, developed by DeepSeek's Harness team, is designed to keep working across group chats, GitHub and other developer tools while maintaining context across tasks.",
+          "support_span": "The open-source 'Super-Agent' concept, developed by DeepSeek's Harness team, is designed to keep working across group chats, GitHub and other developer tools while maintaining context across tasks.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
       "interest_score": 75,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 43.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "bd63f3d53bbc8a83"
+        "5d320b39b405cfea",
+        "b71bdecbec7203e6",
+        "fe3e29735474e701"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+          "domain": "bloomberg-com.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQV2pHRDRIaU9BX1BINWs0UFN4WG41SXRuMlNYeDE1RjVpa1A0UmIxWXJIbmdYSjFabjVxXzlyR3RiNmREcHl4ZnJMNmNJWWhSSXJ1RURpYUVfZkllT0sxSE1GYldIYUVsYkgtRzN4OGQ5bFNfSzBnZXo3cjhNb0RObDJfZUViNjA1cnJsNW1rSmVpY0JzUFJnU2pzbUVPc3VId3hPd190RmgyU2pWc29QQ3NRUjlnOVVrVkd3UkZYY9IBxwFBVV95cUxOd0F4dl82M3Vfbm9nYUFMS2NmdHZKWVpfS2c2UVVvckpRZXBRWU0wdC1vZlVOVUVmY0JDMTlvcjZDLURxakpocFc2T1RnWnFCcGlHLTRpajhhb0E1Y1Z5b3pMRTZSTGcyaDV0Zld6OG5ZUWFtaFhacG9OOGlVbE9LM3BackZqRWVpcWZYX3hMZ05VbFNia1FYWmhjbVhuUUt6UmV0NGdPMEt0YWduTXlkaThIQkFPcEF0OVJpTkczeVNzMlhoNkFR?oc=5",
+          "domain": "ndtv-profit.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Yahoo Tech",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXFOWEZLMWZPOER6c21Ma2xKbWdaVmpfTkVPR2ktR1ZsMktKNmRoYVdxb0c0WkcxWUt5cEJPRlFGbTlXYjhCdDBHWXFCUmpIOUJtWGE1SUhVNjRrZjFuekFmV3I2V0FTLUNiT3NDdUVwU3lmZC1hT3E4MGFlQnNNWHkzX0tXVm81WXFfUDdmQ0QwQUt0Vmc?oc=5",
+          "domain": "yahoo-tech.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-01T03:48:00+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "1c5397ccda4e6996",
+      "title": "‘You can break a stick, not a bundle’: Thousands turn up for INDIA bloc rally from across the country",
+      "category": "india_world",
+      "one_liner": "Thousands converged in Delhi for an INDIA bloc protest rally, overcoming major travel hurdles and voicing electoral roll grievances.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "Thousands of protesters from across India arrived in Delhi on Sunday to attend an INDIA bloc rally at Ramlila Maidan, overcoming severe travel restrictions including canceled train services and blocked bulk rail reservations. Participants traveled via sleeper buses or private arrangements to voice grievances spanning economic conditions, education, healthcare, and alleged electoral roll manipulation. Many attendees highlighted systemic difficulties in maintaining voter registration during special intensive revisions of electoral rolls, viewing the mass demonstration as a vital platform for political resistance.",
+      "key_facts": [
+        "Event date: November 1, 2026",
+        "Location: Ramlila Maidan, Delhi"
+      ],
+      "bottom_line": "Protesters traveled from across India to Delhi's Ramlila Maidan for an opposition rally addressing electoral roll removals and public grievances.",
+      "claims": [
+        {
+          "text": "Thousands turn up for INDIA bloc rally from across the country.",
+          "support_span": "‘You can break a stick, not a bundle’: Thousands turn up for INDIA bloc rally from across the country",
+          "status": "contradicted"
+        },
+        {
+          "text": "All of them converged on the muddy grounds of Ramlila Maidan.",
+          "support_span": "All of them converged on the muddy grounds of Ramlila Maidan, where white plastic chairs sank into the rain-soaked earth and shoes left deep imprints.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "1c5397ccda4e6996"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/india-bloc-mega-delhi-rally-cec-gyanesh-kumar-impeachment-anti-cec-protests-sir-row-live-updates-november-1-2026/article71651970.ece",
+          "url": "https://www.thehindu.com/news/national/you-can-break-a-stick-not-a-bundle-from-an-it-couple-to-a-hospital-patient-citizens-turn-up-for-india-bloc-rally/article71652556.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-01T01:55:10+00:00",
+      "published": "2026-11-02T01:20:10+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1061,7 +1685,7 @@
         "tier B (+25)",
         "2 independent outlets (+12)",
         "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 69 = trust 37 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
       ],
@@ -1120,9 +1744,134 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "c36a412a0199fbda",
+      "title": "BJP alleges rift between Rahul, Priyanka; accuses LoP of sidelining sister at INDIA bloc protests",
+      "category": "india_world",
+      "one_liner": "BJP alleges an internal factional rift within the Congress party after Priyanka Gandhi was reportedly not allowed to speak at opposition rallies.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "The Bharatiya Janata Party alleged that an internal rift has emerged within the Congress party between Rahul Gandhi and Priyanka Gandhi Vadra. BJP spokespersons claimed Priyanka was deliberately sidelined and barred from speaking at recent INDIA bloc protests out of fear that she would overshadow Rahul Gandhi. The accusations followed two high-profile opposition events in Delhi focusing on electoral roll revisions. Congress leaders have not officially responded to the claims of internal factionalism.",
+      "key_facts": [
+        "Date of Claims: November 1, 2026"
+      ],
+      "bottom_line": "The BJP has seized upon Priyanka Gandhi's omission as a speaker at INDIA bloc rallies to allege friction within the Gandhi family.",
+      "claims": [
+        {
+          "text": "The BJP on Sunday (November 1, 2026) claimed the Congress has split into two camps led by Rahul Gandhi and Priyanka Gandhi Vadra, and that she was not \"allowed\" to speak at the two INDIA bloc protests...",
+          "support_span": "The BJP on Sunday (November 1, 2026) claimed the Congress has split into two camps led by Rahul Gandhi and Priyanka Gandhi Vadra, and that she was not \"allowed\" to speak at the two INDIA bloc protests...",
+          "status": "contradicted"
+        },
+        {
+          "text": "In a video message on Instagram, BJP spokesperson Sambit Patra said Priyanka Gandhi's \"vote has also been stolen\" within the Gandhi family and claimed she appeared unhappy at the mock parliament and the Ramlila Maidan rally.",
+          "support_span": "In a video message on Instagram, BJP spokesperson Sambit Patra said Priyanka Gandhi's \"vote has also been stolen\" within the Gandhi family and claimed she appeared unhappy at the mock parliament and the Ramlila Maidan rally.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "c36a412a0199fbda"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/bjp-alleges-rift-between-rahul-priyanka-accuses-lop-of-sidelining-sister-at-india-bloc-protests/article71654117.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-01T18:55:18+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "74dc1ad06d2d1d6d",
+      "title": "SMS of Death: Android under attack, an invisible SMS can block calls and emergency services",
+      "category": "cyber_attacks",
+      "one_liner": "A zero-click Android WAP Push vulnerability allows remote attackers to crash telephony services and block emergency calls via a malformed SMS.",
+      "tags": [
+        "android",
+        "tool",
+        "vulnerability"
+      ],
+      "summary": "Independent researcher Mark Blaszczyk has documented a zero-click vulnerability dubbed 'SMS of Death' affecting Android's telephony stack. A remote attacker can transmit a specially crafted WAP Push data message over mobile networks on port 2948 that requires zero user interaction. The technical cause lies in the decodeWapPdu() function within the WapPushOverSms Android component, where a 64-bit uintvar length is cast to a signed 32-bit integer without bounds checking, yielding a negative value. This triggers an uncaught NegativeArraySizeException that terminates the com.android.phone process, causing temporary loss of cellular connectivity and interrupting active voice calls, including emergency calls.",
+      "key_facts": [
+        "Vulnerability name: SMS of Death",
+        "Researcher: Mark Blaszczyk",
+        "Affected component: WapPushOverSms (frameworks/opt/telephony)",
+        "WAP Push port: 2948"
+      ],
+      "bottom_line": "Android device security remains vulnerable to zero-click telephony denial-of-service attacks driven by unvalidated WAP Push message length parameters.",
+      "claims": [
+        {
+          "text": "The vulnerability allows a remote attacker to cause a disruption in phone service by sending a single, specially crafted WAP Push message without user interaction.",
+          "support_span": "The issue, documented by independent researcher Mark Blaszczyk, allows a remote attacker to cause a disruption in phone service by sending a single, specially crafted WAP Push message. WAP Push (Wireless Application Protocol Push) is a particular message transmitted over the mobile network, generally in the form of a binary SMS, which contains structured data and is processed automatically by the smartphone without requiring user intervention. Unlike a traditional SMS, it can carry notifications, links to Internet resources, and configurations for mobile services. The most worrying aspect is the execution method. It’s a zero-click attack, in which the recipient doesn’t have to open the message, select a link, or authorize any action.",
+          "status": "entailed"
+        },
+        {
+          "text": "Casting an unvalidated uintvar length to a signed 32-bit integer results in a negative array size exception that kills the com.android.phone process.",
+          "support_span": "Specifically, the “decodeWapPdu() ” function, the researcher explains, reads the length of the WSP header through a value encoded as “uintvar ” , initially returned as a 64-bit number. The value is subsequently converted to a 32-bit integer without prior range checking. This operation can transform a seemingly valid number into a negative value, which is then used to determine the size of an array. The consequence of this is a “NegativeArraySizeException ” exception... killing com.android.phone",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "74dc1ad06d2d1d6d",
+        "de225424dfd3a3e0"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+          "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/202184/security/sms-of-death-android-under-attack-an-invisible-sms-can-block-calls-and-emergency-services.html",
+          "domain": "securityaffairs.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T15:35:11+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1194,618 +1943,139 @@
         "tier C (+10)",
         "2 independent outlets (+12)",
         "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 66 = trust 22 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "bd67dc9fa419a51c",
-      "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
+      "cluster_key": "2cfed854675c357e",
+      "title": "SecurityScorecard benchmark tests AI on third-party risk work and resistance to attack",
       "category": "tech_ai",
-      "one_liner": "FilingLoop provides a benchmark and weight-free evolution framework for evaluating LLM agents on complex SEC corporate disclosure reviews.",
+      "one_liner": "SecurityScorecard's new open-source TPRM Benchmark evaluates AI models on third-party risk tasks and adversarial attack resistance.",
       "tags": [
-        "agents",
         "ai",
+        "dfir",
         "llm",
-        "markets",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers introduce FilingLoop, an interactive benchmark and self-evolving agent framework designed to review and revise corporate disclosures based on historical SEC correspondence. The system reconstructs 380 IPO review tasks from 96 companies, evaluating acting agent outputs against 6,099 requirements while penalizing unsupported claims and harmful revisions. By converting requirement-level evaluation feedback into procedural guidance without modifying model weights, the framework increases requirement fulfillment from 24.28% to 27.96%. This setup establishes a reproducible environment for studying iterative multi-document review tasks and tracking procedural adaptation costs in financial contexts.",
-      "key_facts": [
-        "Review tasks: 380",
-        "Companies analyzed: 96",
-        "Eligible requirements: 6,099",
-        "Requirement fulfillment increase: 24.28% to 27.96%"
-      ],
-      "bottom_line": "Weight-free procedural evolution of LLM agents improves requirement fulfillment in corporate disclosure reviews by nearly 4% at a minor cost increase.",
-      "claims": [
-        {
-          "text": "FilingLoop reconstructs 380 IPO review tasks from 96 companies using historical U.S. SEC correspondence.",
-          "support_span": "FilingLoop reconstructs 380 predominantly IPO review tasks from 96 companies under distinct information constraints.",
-          "status": "entailed"
-        },
-        {
-          "text": "Evolution increases requirement fulfillment from 24.28% to 27.96% on the evaluated stream.",
-          "support_span": "On the evaluated stream, evolution increases requirement fulfillment from 24.288% to 27.96% and full comment resolution from 16.90% to 20.75%, with a 5.8% increase in total cost over the fixed-policy variant.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 82,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 58.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "bd67dc9fa419a51c",
-        "eb49461f64797972"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.37905",
-          "domain": "arxiv.org",
-          "tier": "A"
-        },
-        {
-          "name": "Brief IA",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ2Jsbk9uSUlaZEh0V2hfN0lnVkp1MWx1SFVaYkdQRTFubGlBU25lYUw4VW5zZU1fM0lLN3c5RHBRamJvLTZvYk9OaUs0YXhzVUpGMHRNVjJXLWVqLVRHeUVNSW9wUmFTMjk4SmE1RWRJRU0zbkVub1FoZXpCWVE4NDc3dGpaNEJISlE?oc=5",
-          "domain": "brief-ia.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.37905"
-      ],
-      "published": "2026-10-29T20:15:31+00:00",
-      "trace": [
-        "tier A (+40)",
-        "2 independent outlets (+12)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 58 = trust 82 / interest 50 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "95c0d40ac910e4b0",
-      "title": "He questioned Thailand's monarchy dressed as Harry Potter. Now he's in jail for 34 years",
-      "category": "india_world",
-      "one_liner": "Human rights lawyer Arnon Nampa's cumulative 34-year prison sentence under Thailand's lèse majesté law highlights the severe penalization of political dissent and monarchy critique in the country.",
-      "tags": [
-        "policy",
-        "political",
-        "privacy"
-      ],
-      "summary": "Thai human rights lawyer Arnon Nampa was sentenced to an additional two years and eight months in prison under Thailand's lèse majesté law (Article 112) for dressing as Harry Potter at a 2020 protest and calling for monarchy accountability. This ruling brings his cumulative sentence across 14 cases to over 34 years. The past six years have marked the most extensive use of Section 112 in Thai history, leading to the prosecution of 294 people following unprecedented student-led demonstrations. Legal advocates emphasize that the law is interpreted ambiguously to criminalize even questioning the statute itself, leaving many defendants detained without bail for years.",
-      "key_facts": [
-        "Sentence added: 2 years and 8 months",
-        "Total cumulative sentence: Over 34 years across 14 cases",
-        "Total prosecuted under lèse majesté: 294 people",
-        "Age of Arnon Nampa: 42"
-      ],
-      "bottom_line": "Thai human rights lawyer Arnon Nampa received an additional prison sentence, bringing his total under the lèse majesté law to over 34 years for political protests.",
-      "claims": [
-        {
-          "text": "On Friday a court in Bangkok sentenced him to two years and eight months for violating Thailand's lèse majesté law, or article 112...",
-          "support_span": "On Friday a court in Bangkok sentenced him to two years and eight months for violating Thailand's lèse majesté law, or article 112...",
-          "status": "contradicted"
-        },
-        {
-          "text": "This is just one out of 14 cases brought against Arnon under the same charge, bringing the cumulative sentence he has received so far to more than 34 years.",
-          "support_span": "This is just one out of 14 cases brought against Arnon under the same charge, bringing the cumulative sentence he has received so far to more than 34 years.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 28.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "95c0d40ac910e4b0"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T23:26:16+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 29 = trust 40 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0ee820135328a51b",
-      "title": "Rhino Rescued In 2004 Brahmaputra Flood Becomes 'Granny', Assam CM Shares Adorable Video",
-      "category": "india_world",
-      "one_liner": "A greater one-horned rhino calf was born in Manas National Park to a mother rescued during the 2004 Brahmaputra floods.",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "Assam's Manas National Park welcomed a greater one-horned rhinoceros calf, as shared by the state's Chief Minister in a video announcement. The mother rhino was notably rescued during the severe Brahmaputra floods in 2004 and has since reached 'granny' status within the park. The birth highlights ongoing conservation successes for the endangered species within the sanctuary. State officials celebrated the addition as a positive milestone for local wildlife preservation efforts.",
-      "key_facts": [
-        "Location: Manas National Park, Assam",
-        "Event year of rescue: 2004"
-      ],
-      "bottom_line": "Manas National Park welcomed a new rhino calf from a mother rescued during the 2004 floods, marking a conservation milestone in Assam.",
-      "claims": [
-        {
-          "text": "Assam's Manas National Park welcomed a greater one-horned rhino calf.",
-          "support_span": "Assam's Manas National Park welcomes a greater one-horned rhino calf.",
-          "status": "entailed"
-        },
-        {
-          "text": "The mother rhino was rescued in the 2004 Brahmaputra flood.",
-          "support_span": "Rhino Rescued In 2004 Brahmaputra Flood Becomes 'Granny', Assam CM Shares Adorable Video",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 13.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "0ee820135328a51b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/rhino-rescued-in-2004-brahmaputra-floods-becomes-granny-assam-cm-shares-adorable-video-12264761#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-31T16:42:08+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "73bd21f638c0e631",
-      "title": "UponPeak/windows-fine-tuner-resp — Top 20 Windows 11 Junk & Startup Optimizer Tools 2026",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "malware",
         "opensource",
-        "policy",
-        "privacy",
-        "tool",
-        "windows"
-      ],
-      "summary": "⚡ All-in-one loader: The entire script is compiled into a single loader for your convenience — just download, extract, and run. ⬇️ Download the tool from the button above. 📦 Extract the archive (password: respocket). 🖱️ Run as Administrator – right‑click the executable and select Run as Administrator. ✅ Follow the setup wizard – complete the installation.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "73bd21f638c0e631"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/UponPeak/windows-fine-tuner-resp",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-26T07:22:53+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-26 — outside lookback window"
-    },
-    {
-      "cluster_key": "9c3750ea1dc30ac4",
-      "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices",
-      "category": "tech_ai",
-      "one_liner": "GAAC provides lossless KV compression for efficient LLM inference on personal devices like Apple M4 and NVIDIA hardware.",
-      "tags": [
-        "ai",
-        "hardware",
-        "linux",
-        "llm",
         "release",
         "research",
-        "tool"
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Researchers introduced the Group-Adaptive Additive Codec (GAAC), a lossless key-value compression and serving system designed for bandwidth-efficient large language model inference on personal devices. GAAC exploits exponent redundancy by encoding BF16 exponents using calibrated per-channel base-plus-offset codes across contiguous ranges, adapting code widths without introducing KV approximations. Tested across five models, GAAC achieves 1.405-1.407x lossless BF16 KV compression and accelerates decode attention at 64K-token contexts by 1.19-1.27x on NVIDIA DGX Spark while reducing resident KV memory by approximately 26%. This compression method also demonstrates portability on Apple M4 hardware, delivering 1.02-1.25x attention speedups.",
+      "summary": "SecurityScorecard has released an open-source TPRM Benchmark and Model Security suite designed to evaluate artificial intelligence models on third-party risk management tasks and their resistance to adversarial attacks. The framework tests capabilities like exposure triage and fourth-party risk using telemetry snapshots and deceptive vendor self-attestations to measure accuracy drops. Separately, the Model Security suite evaluates models against prompt injection and jailbreaks, grading them from A to F, and assigns autonomy readiness levels ranging from L0 to L4. Early runs reveal that while open-weight models are closing capability gaps, they remain highly susceptible to adversarial manipulation.",
       "key_facts": [
-        "System: Group-Adaptive Additive Codec (GAAC)",
-        "Compression Ratio: 1.405-1.407x lossless BF16 KV compression",
-        "Hardware Tested: NVIDIA DGX Spark and Apple M4",
-        "KV Memory Reduction: ~26%"
+        "Framework version: Version 2026.09",
+        "Autonomy readiness levels: L0 to L4",
+        "Attack resistance grading: A to F",
+        "Enterprise environment finding: 74.5% of environments reference high-risk models"
       ],
-      "bottom_line": "GAAC cuts resident KV memory by roughly 26% and accelerates attention speed without losing precision, improving on-device LLM inference.",
+      "bottom_line": "SecurityScorecard's open-source benchmark lets security teams evaluate AI models on third-party risk workflows and resilience against prompt injection and adversarial attacks.",
       "claims": [
         {
-          "text": "GAAC encodes BF16 exponents using calibrated per-channel base-plus-offset codes over contiguous ranges.",
-          "support_span": "GAAC encodes BF16 exponents using calibrated per-channel base-plus-offset codes over contiguous ranges.",
+          "text": "Security ratings company SecurityScorecard Inc. today released an open benchmark for testing whether artificial intelligence models can handle third-party risk management work without being turned against the companies using them.",
+          "support_span": "Security ratings company SecurityScorecard Inc. today released an open benchmark for testing whether artificial intelligence models can handle third-party risk management work without being turned against the companies using them.",
           "status": "entailed"
         },
         {
-          "text": "Across five tested models, GAAC achieves 1.405-1.407x lossless BF16 KV compression.",
-          "support_span": "Across five tested models, GAAC achieves 1.405-1.407$\times$ lossless BF16 KV compression.",
-          "status": "contradicted"
-        },
-        {
-          "text": "On NVIDIA DGX Spark, GAAC accelerates decode attention at a 64K-token context by 1.19-1.27x and end-to-end W4A16 decode steps by 1.04-1.15x.",
-          "support_span": "On NVIDIA DGX Spark, GAAC accelerates decode attention at a 64K-token context by 1.19-1.27$\times$ and end-to-end W4A16 decode steps by 1.04-1.15$\times$.",
-          "status": "contradicted"
-        },
-        {
-          "text": "On Apple M4, GAAC achieves 1.02-1.25x attention speedups, demonstrating portability beyond NVIDIA GPUs.",
-          "support_span": "On Apple M4, GAAC achieves 1.02-1.25$\times$ attention speedups, demonstrating portability beyond NVIDIA GPUs.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "9c3750ea1dc30ac4"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.38210",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.38210"
-      ],
-      "published": "2026-10-31T04:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "3 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "ce3bc4d92e67f9f3",
-      "title": "We did not buy peace; we established peace in J&K: L-G Manoj Sinha on UT Foundation Day",
-      "category": "india_world",
-      "one_liner": "J&K Lieutenant Governor Manoj Sinha defended the security transformation following Article 370's abrogation during UT Foundation Day events.",
-      "tags": [
-        "india",
-        "policy",
-        "political"
-      ],
-      "summary": "Jammu and Kashmir Lieutenant Governor Manoj Sinha asserted during the 8th UT Foundation Day celebrations that the abrogation of Article 370 successfully established sustainable peace rather than purchased security. He highlighted significant reductions in local militant recruitment and terror networks, citing the elimination of over 780 terrorists since 2020 alongside aggressive crackdowns on narco-terrorism. The event was attended by senior administrative and security officials, though regional political parties and ruling National Conference leaders boycotted the function. Sinha emphasized a future centered on equal opportunity, modern economic growth, and inclusive development by 2047.",
-      "key_facts": [
-        "Milestone: 8th J&K Union Territory Foundation Day",
-        "Eliminated militants: Over 780 since 2020"
-      ],
-      "bottom_line": "Jammu and Kashmir marked its 8th Foundation Day with leadership citing sharp drops in terrorism, though regional political parties boycotted the official event.",
-      "claims": [
-        {
-          "text": "J&K Lieutenant Governor Manoj Sinha spoke on the 8th J&K Union Territory Foundation Day about Article 370's abrogation.",
-          "support_span": "J&K Lieutenant Governor Manoj Sinha, while speaking on the 8th J&K Union Territory Foundation Day and the birth anniversary of Sardar Vallabhbhai Patel, said Article 370’s abrogation gave ordinary citizens freedom from fear and access to rights denied for decades.",
-          "status": "entailed"
-        },
-        {
-          "text": "Since 2020, more than 780 terrorists have been eliminated across J&K.",
-          "support_span": "“Since 2020, more than 780 terrorists have been eliminated, local recruitment ended, stone-pelting erased. Now Jammu Kashmir is witnessing a historic security transformation.”",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "ce3bc4d92e67f9f3"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/we-did-not-buy-peace-we-established-peace-in-jk-l-g-manoj-sinha-on-ut-foundation-day/article71650210.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-31T19:51:12+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "bd7f0e7908ba40ff",
-      "title": "Scoping Review Maps Gaps in Egypt’s Digital Forensics and Evidence Admissibility",
-      "category": "cyber_tools",
-      "one_liner": "Scoping review highlights gaps between Egypt's cybercrime statutes and actual digital forensics laboratory practices.",
-      "tags": [
-        "dfir",
-        "policy",
-        "political",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "A scoping review published in the Egyptian Journal of Forensic Sciences examined three decades of literature on Egypt's digital forensics and evidence admissibility under Law No. 175 of 2018. While the law establishes a legal framework for cybercrime and gives digital evidence probative weight, the review identified a significant gap in forensic practice regarding tool validation, error-rate testing, and laboratory quality assurance standards. The analysis mapped 50 primary studies against international benchmarks such as ISO/IEC 27037 and the Daubert criteria.",
-      "key_facts": [
-        "Primary Studies Analyzed: 50",
-        "Legislation: Law No. 175 of 2018",
-        "Publication Range: 1993 to 2025"
-      ],
-      "bottom_line": "Egypt's legal framework for cybercrime lacks mandatory requirements for tool validation and laboratory accreditation, posing challenges for technical evidence reliability.",
-      "claims": [
-        {
-          "text": "Egypt has built a legal foundation for prosecuting cybercrime, but a new scoping review concludes that the country’s digital forensic practice lags behind its statutes, leaving questions about how reliably digital evidence survives scrutiny in court.",
-          "support_span": "Egypt has built a legal foundation for prosecuting cybercrime, but a new scoping review concludes that the country’s digital forensic practice lags behind its statutes, leaving questions about how reliably digital evidence survives scrutiny in court.",
-          "status": "entailed"
-        },
-        {
-          "text": "From an initial pool of 1,014 records, screening and full-text assessment narrowed the field to 50 primary studies that met the eligibility criteria...",
-          "support_span": "From an initial pool of 1,014 records, screening and full-text assessment narrowed the field to 50 primary studies that met the eligibility criteria...",
+          "text": "Version 2026.09 of the public release is available now with documentation, the Model Security suite and registration for t...",
+          "support_span": "Version 2026.09 of the public release is available now with documentation, the Model Security suite and registration for t...",
           "status": "contradicted"
         }
       ],
       "trust_score": 10,
-      "interest_score": 50,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
+      "blend": 43.8,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "bd7f0e7908ba40ff"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Bioengineer.org",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTllXMW1uLWZqdWZwOVUyQWVMam1Hay0xX1dJeC13OEQwcEVsZENhZVlEWDNaakRNWi1GbXJYQ1A1U1FPRncxZlVYbkM5VFJVYWNiS3FZR2lOMnYzdTMtU2xhQWhPOE95Y2pxd3NrcW84eUlWbHAtd3dhaW5ncE1FakpIaC1RcGtoQzlIdVE4MFdVazRaSHY2RUU1bVdwZGhSTFROOFN3Yw?oc=5",
-          "domain": "bioengineer-org.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T22:12:28+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "02f88cb1ab38be93",
-      "title": "At Quad Meet, S Jaishankar Highlights Importance Of \"Maintaining Stability\"",
-      "category": "india_world",
-      "one_liner": "S Jaishankar stressed stability during a Quad meeting.",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "During a Quad meeting, Indian External Affairs Minister S Jaishankar emphasized the importance of maintaining stability without naming any specific country or practices.",
-      "key_facts": [],
-      "bottom_line": "S Jaishankar highlighted the critical need for regional stability at the recent Quad gathering.",
-      "claims": [
-        {
-          "text": "At a Quad meeting, S Jaishankar highlighted the importance of maintaining stability.",
-          "support_span": "At Quad Meet, S Jaishankar Highlights Importance Of \"Maintaining Stability\"",
-          "status": "contradicted"
-        },
-        {
-          "text": "His post did not name any country or identify specific practices.",
-          "support_span": "His post did not name any country or identify specific practices.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 13.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "02f88cb1ab38be93"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/at-quad-meet-s-jaishankar-highlights-importance-of-maintaining-stability-12265022#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-31T18:20:59+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "fa5fbc2a7e898d54",
-      "title": "Thousands Protest In 5 Manipur Districts Against Killings, Ethnic Conflict",
-      "category": "india_world",
-      "one_liner": "Thousands protested across five Manipur districts amid growing frustration over ongoing ethnic violence and targeted killings.",
-      "tags": [
-        "incident",
-        "india",
-        "political"
-      ],
-      "summary": "Thousands of individuals protested across five districts in Manipur to express outrage over ongoing killings and ethnic conflict. The demonstrations reflect deep-seated public frustration regarding the protracted violence and security challenges in the region. Protesters called for decisive government action to restore peace and ensure community safety. The widespread protests underscore the continuing humanitarian and social crisis facing the state.",
-      "key_facts": [
-        "Affected areas: 5 Manipur districts"
-      ],
-      "bottom_line": "Widespread protests across multiple Manipur districts highlight intense public anger over the unresolved ethnic conflict.",
-      "claims": [
-        {
-          "text": "Thousands Protest In 5 Manipur Districts Against Killings, Ethnic Conflict",
-          "support_span": "Thousands Protest In 5 Manipur Districts Against Killings, Ethnic Conflict",
-          "status": "contradicted"
-        },
-        {
-          "text": "The protest came amid continued public frustration over the prolonged conflict.",
-          "support_span": "The protest came amid continued public frustration over the prolonged conflict.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "fa5fbc2a7e898d54"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/thousands-protest-in-5-manipur-districts-against-killings-ethnic-conflict-12264810#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-31T16:55:31+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "8e89d94b87c3e515",
-      "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
-      "category": "tech_ai",
-      "one_liner": "PromptSense integrates sentiment analysis and dynamic prompting to improve empathy and safety in mental health chatbots.",
-      "tags": [
-        "ai",
-        "llm",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers proposedPromptSense, a sentiment-aware mental health chatbot framework that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to LLM inference. By dynamically constructing prompts based on real-time emotional and risk insights, the architecture seeks to enhance contextual relevance, empathy, and safety in chatbot interactions. The authors evaluated four model strategies and two prompt-engineered variants against baseline approaches including DSFT and RLAIF. Experimental results show that the dynamic prompt engineering approach outperformed DSFT and RLAIF by 1.8% and 1.1%, respectively, across qualitative safety and helpfulness metrics.",
-      "key_facts": [
-        "Framework Name: PromptSense",
-        "Performance Gain: Outperformed DSFT by 1.8% and RLAIF by 1.1%"
-      ],
-      "bottom_line": "PromptSense uses sentiment-driven dynamic prompting and rule filters prior to LLM inference to outperform standard mental health chatbot models.",
-      "claims": [
-        {
-          "text": "This paper proposes a novel framework that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference.",
-          "support_span": "This paper proposes a novel framework that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference.",
-          "status": "entailed"
-        },
-        {
-          "text": "Experimental results indicate that the prompt engineering approaches outperforms DSFT and RLAIF by 1.8% and 1.1% respectively.",
-          "support_span": "Experimental results indicate that the prompt engineering approaches outperforms DSFT and RLAIF by 1.8% and 1.1% respectively.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "8e89d94b87c3e515"
+        "2cfed854675c357e"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.38044",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "SiliconANGLE",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcmhmdE9hOHlMbTc1RXJ5LTltRk1GZHVRZ2RKNkJtcVRkLVJzTGcwWjN5VjhEN0NNSnBJajF6cUdLb1U2RmlhUjlESDhMOER5WUk0Vk9EYkpOVUNINU83RG1yNHN5U3J0RWNramZ4SXBxWUNLZ0JwZHB1dEFQOGhtWmRQVWdDTGFNRXBod3JFYWo2Njc3UVdvaEdnalFCSUdOQzRFT0ZGSUlmNGhSam1PbUFidzctcEU4cThjX3lxWWI?oc=5",
+          "domain": "siliconangle.publisher",
+          "tier": "C"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.38044"
-      ],
-      "published": "2026-10-31T04:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-10-29T13:00:00+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from cache",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "3e37a281b0208316",
+      "title": "VMware ESX CVE-2026-41709: Low-Rated Logging Flaw Now in CISA KEV After Zero-Day Use",
+      "category": "cyber_attacks",
+      "one_liner": "CISA added VMware ESX log-bypass CVE-2026-41709 to its KEV catalog following zero-day exploits by WARP PANDA.",
+      "tags": [
+        "appsec",
+        "cve",
+        "exploit",
+        "incident",
+        "research",
+        "threat-actor",
+        "threat-intel",
+        "vulnerability"
+      ],
+      "summary": "CISA added CVE-2026-41709, an insufficient logging vulnerability in Broadcom's VMware ESX hypervisor, to its Known Exploited Vulnerabilities catalog on October 28, 2026. The flaw carries a low CVSS score of 2.7 and requires existing administrator access, allowing malicious administrators to execute certain operations without creating host log entries. CrowdStrike identified that China-linked threat actor WARP PANDA used this vulnerability as a zero-day during intrusions at U.S. legal entities. Federal civilian agencies must remediate the flaw by November 11, 2026, under CISA Binding Operational Directive 26-04.",
+      "key_facts": [
+        "CVE-2026-41709: CVSS 2.7, Low severity",
+        "CISA KEV addition date: October 28, 2026",
+        "Remediation deadline: November 11, 2026",
+        "Actor: WARP PANDA"
+      ],
+      "bottom_line": "VMware ESX logging flaw CVE-2026-41709 is now under CISA KEV mandate after zero-day use by Chinese state actors.",
+      "claims": [
+        {
+          "text": "CISA added CVE-2026-41709, an insufficient-logging flaw in Broadcom's VMware ESX hypervisor, to its Known Exploited Vulnerabilities catalog on 28 October 2026.",
+          "support_span": "On 28 October 2026, CISA added CVE-2026-41709, an insufficient-logging flaw in Broadcom's VMware ESX hypervisor, to its Known Exploited Vulnerabilities catalog (CISA alert).",
+          "status": "contradicted"
+        },
+        {
+          "text": "Broadcom rates the vulnerability Low with a CVSSv3 score of 2.7.",
+          "support_span": "Broadcom rates the flaw Low, CVSSv3 2.7, and fixed it on 29 July 2026 in security advisory VMSA-2026-0006 (Broadcom VMSA-2026-0006).",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "3e37a281b0208316"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcWpIRWJfYzhmek1Ya2lzdjVVRWV6ZkRxNUp1WXZtTGFsc245VmdZdU9ybXMyX1FqUlM2bEM1cm5IZk1SbnhwOWg5b1cyeVhZa1VEd1Q5Ny1vclByODVCeGRPeHpJaWYtVzBwbzFEdXlzLWIwdVVPaFVjTFNwaWRSRVJZcmN1UQ?oc=5",
+          "domain": "rescana.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-29T14:09:19+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1862,70 +2132,10 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "2 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "dbfdbe78f7ba4a6a",
-      "title": "Anthropic Says Claude Reduced Alignment Failures In Automated Tests",
-      "category": "tech_ai",
-      "one_liner": "Anthropic's new research demonstrates that Claude can autonomously research and improve model alignment safety scores.",
-      "tags": [
-        "ai",
-        "llm",
-        "release",
-        "research",
-        "tool"
-      ],
-      "summary": "Anthropic has published research detailing an automated alignment methodology where Claude conducted self-directed safety research to mitigate model misalignments. In tests across 10 common failure modes—such as deception and sycophancy—Claude successfully proposed training methods, trained smaller models, and improved safety scores without degrading general capabilities. The experiments showed that the resulting safety interventions generalized to independent behavioral benchmarks like Petri. Anthropic has released its automated alignment research framework publicly to allow independent verification by external researchers.",
-      "key_facts": [
-        "Tested alignment failure categories: 10"
-      ],
-      "bottom_line": "Anthropic has released an automated alignment framework showing that frontier models can successfully design safety interventions for smaller systems without losing general capabilities.",
-      "claims": [
-        {
-          "text": "Anthropic said Claude improved safety scores across 10 tested alignment failures through an automated research process.",
-          "support_span": "Anthropic said Claude improved safety scores across 10 tested alignment failures through an automated research process.",
-          "status": "entailed"
-        },
-        {
-          "text": "The company released an automated alignment research setup for others.",
-          "support_span": "The company said in a post that it released its automated alignment research setup for outside researchers.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "dbfdbe78f7ba4a6a"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MSlkyX0xKdFB4MmpyRVFQNGpxanJEMjlodFFjTndZUkJtVmxYSkxoZFAwaUs0QUhaNmh5ZlJwc3NvSUU4dlRoTmdpOGpnT0g0bE8zRXhOejVXT0toWkdlOVBsam50NlpVSjFR?oc=5",
-          "domain": "yellow-com.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T13:05:17+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "5f82d0dc0823563a",
@@ -2001,44 +2211,135 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "f8e94b4782de33a8",
-      "title": "The website for my book redone with Opus 5.5.",
+      "cluster_key": "911d2be569afa305",
+      "title": "Guidewire launches platform for agentic insurance",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Guidewire's new platform integrates governed AI agents into core insurance operations with built-in security and auditability.",
       "tags": [
+        "agents",
         "ai",
-        "release"
+        "cloud",
+        "privacy",
+        "release",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The website for my book redone with Opus 5.5. The initial version (made with Opus 4.8) required a lot of work to make a distinctive-looking static site. We have come a long way from generic ClaudeDesign in a very short time.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "Guidewire has launched a platform-based approach to 'agentic insurance,' enabling carriers to deploy AI agents for underwriting and claims processing. The system integrates AI agents directly into core insurance workflows, providing built-in security controls, audit trails, and data governance. Technical teams are provided with an Agentic Framework, developer environments, and federated learning tools to build and manage these autonomous agents securely.",
+      "key_facts": [
+        "Focus: Agentic insurance for P&C carriers",
+        "Features: Agentic Framework, Developer Assistants, Data Studio"
+      ],
+      "bottom_line": "Insurers can now deploy autonomous agents on a unified platform that enforces security and audit trails across the entire insurance lifecycle.",
+      "claims": [
+        {
+          "text": "Guidewire, a cloud platform provider for property and casualty (P&C) insurers, has introduced a platform-based approach to agentic insurance.",
+          "support_span": "Guidewire, a cloud platform provider for property and casualty (P&C) insurers, has introduced a platform-based approach to agentic insurance.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Built-in controls define what each agent can access and do, applying uniform security and keeping an up-to-date audit trail as the platform is updated.",
+          "support_span": "Built-in controls define what each agent can access and do, applying uniform security and keeping an up-to-date audit trail as the platform is updated.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "f8e94b4782de33a8"
+        "911d2be569afa305"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myppj3u7xk26",
-          "domain": "bsky.app",
+          "name": "FinTech Global",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRGZObnRUNzdIZGs4amN4M3FPeXpBYm96N0RTZVV0Vzl1WVg2cEFPRUJBVFRvTTNWbm1vWWcyM3JLWlBqbHZWZXhTekhQajV6bnJZYWR2bmYzc2dfZHpsSXpMR1RIUUU5UXNtSFNsTkM1eGpNUzFkQlRDdHJad1VDa3hxZmw0MXByRnBRbQ?oc=5",
+          "domain": "fintech-global.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-25T17:16:01.581000+00:00",
+      "published": "2026-10-30T16:32:27+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-25 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "dd35d009aad680f7",
+      "title": "How We Took Over ChatGPT Accounts",
+      "category": "tech_ai",
+      "one_liner": "A complex exploit chain in ChatGPT HTML previews allowed attackers to execute JavaScript and exfiltrate private user data via YouTube oEmbed reflection.",
+      "tags": [
+        "ai",
+        "appsec",
+        "bugbounty",
+        "exploit",
+        "llm",
+        "tool",
+        "vulnerability",
+        "writeup"
+      ],
+      "summary": "Parameter Labs discovered an exploit chain in ChatGPT's HTML preview sandboxed iframe mechanism, allowing untrusted code to take over accounts and access private data. The attack leveraged MathLive's virtual keyboard via postMessage() to inject custom HTML containing an unrestricted iframe into the parent page. Because OpenAI's Content Security Policy allowed script loading from YouTube, attackers used the YouTube oEmbed endpoint to reflect and execute arbitrary JavaScript. This execution allowed malicious links to fetch private user data and exfiltrate it via image references, prompting a $5,000 bug bounty payout from OpenAI.",
+      "key_facts": [
+        "Bug bounty: $5,000",
+        "Vulnerable component: MathLive virtual keyboard postMessage",
+        "Allowed domain vector: YouTube oEmbed"
+      ],
+      "bottom_line": "OpenAI paid a $5,000 bounty for a severe ChatGPT account takeover flaw involving iframe sandbox escapes and YouTube oEmbed script reflection.",
+      "claims": [
+        {
+          "text": "Parameter Labs described an exploit against ChatGPT's HTML previews where interactive custom HTML apps are displayed in a sandboxed iframe.",
+          "support_span": "Parameter Labs describe an exploit found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The MathLive library's virtual keyboard was triggered via postMessage() from the iframe to add custom HTML to the parent.",
+          "support_span": "OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard, which can be triggered in the parent page via postMessage() from the sandboxed iframe.",
+          "status": "entailed"
+        },
+        {
+          "text": "The YouTube oEmbed endpoint was used to reflect JavaScript back in a way that executed it, bypassing CSP rules.",
+          "support_span": "OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "dd35d009aad680f7"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "domain": "simonwillison.net",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T23:15:22+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     }
   ]
 }
