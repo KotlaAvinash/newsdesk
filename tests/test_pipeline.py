@@ -1048,6 +1048,69 @@ class TestDryRunWritesNothingAndSpendsNothing:
         assert out[0].summary_source == "extract"
 
 
+class TestMalwareLuresAreNeverPublished:
+    """A GitHub topic search returned throwaway-account repos whose README
+    says "download, extract, and run ... Extract the archive (password:
+    respocket) ... Run as Administrator". Up to five reached the published
+    page between 26 Oct and 2 Nov, tagged as tools, with the archive password
+    printed on the card. GitGuardian flagged it as a leaked credential."""
+
+    LURE = ("All-in-one loader: just download, extract, and run. Download the "
+            "tool from the button above. Extract the archive (password: "
+            "respocket). Run as Administrator")
+
+    def test_the_real_lure_is_caught(self):
+        from pipeline.utils import is_malware_lure
+        assert is_malware_lure(self.LURE)
+
+    def test_researchers_sharing_samples_are_not_caught(self):
+        """The research convention: Objective-See's analyses on the live page
+        say exactly this. Dropping them would delete real malware research."""
+        from pipeline.utils import is_malware_lure
+        for txt in ("I've added the sample to our malware collection "
+                    "(password: infect3d) ...please don't infect yourself!",
+                    "Samples are in the zip, password: infected."):
+            assert not is_malware_lure(txt), txt
+
+    def test_each_signal_alone_is_not_enough(self):
+        from pipeline.utils import is_malware_lure
+        assert not is_malware_lure("Run as administrator to install the driver.")
+        assert not is_malware_lure("Extract the archive (password: hunter2).")
+        assert not is_malware_lure("Attackers stole passwords from the database.")
+
+    def test_lures_are_dropped_not_held_back(self):
+        """A held-back card is still shown, and for a stale reject the summary
+        survives — which is exactly how the password reached readers."""
+        from pipeline.s3_extract import _drop_lures
+        from pipeline.models import Article, Cluster
+
+        def cl(title, body):
+            a = Article(url=f"https://github.com/x/{title}", title=title,
+                        source="GitHub (new)", domain="github.com",
+                        category="cyber_tools", tier="C", published=None,
+                        summary_raw="")
+            a.body = body
+            return Cluster(key=title, articles=[a])
+
+        out = _drop_lures([cl("lure", self.LURE),
+                           cl("real", "A parser for EVTX logs.")])
+        assert [c.lead.title for c in out] == ["real"]
+
+    def test_the_live_page_has_no_false_positives(self):
+        """Measured when the rule was written: 0 of 1,007 published items."""
+        import json
+        from pathlib import Path
+        from pipeline.utils import is_malware_lure
+        f = Path(__file__).resolve().parent.parent / "site" / "news.json"
+        if not f.exists():
+            import pytest; pytest.skip("no published page in this checkout")
+        items = json.loads(f.read_text(encoding="utf-8"))["items"]
+        hits = [i["title"] for i in items if is_malware_lure(
+            " ".join(str(i.get(k) or "") for k in ("title", "summary",
+                                                  "bottom_line")))]
+        assert not hits, hits[:3]
+
+
 class TestNoSecretsInRepo:
     def test_env_is_gitignored(self):
         """A key reaching a git remote is the one unrecoverable mistake here."""

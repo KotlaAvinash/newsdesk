@@ -32,6 +32,53 @@ for _stream in (sys.stdout, sys.stderr):
         pass
 
 
+# --- malware-distribution lures --------------------------------------------
+# A GitHub search for new security/tooling repos returns, alongside real
+# projects, throwaway accounts pushing "game cheats" and "Windows optimisers"
+# whose README reads, verbatim:
+#
+#   "All-in-one loader ... download, extract, and run. Download the tool from
+#    the button above. Extract the archive (password: respocket). Run as
+#    Administrator"
+#
+# A password-protected archive exists to get past antivirus scanning, and
+# "run as administrator" is the payload's request for privilege. These passed
+# the star floors (10-80) on every search, so stars are being inflated and are
+# no defence. Between 26 Oct and 2 Nov up to five of them reached the published
+# page tagged as tools, with the archive password printed on the card —
+# surfaced by GitGuardian flagging "respocket" as a leaked credential.
+#
+# TWO independent signals are required, because each alone has a legitimate
+# twin. Researchers share samples as "password: infected" (Objective-See's own
+# analyses on this very page say "malware collection (password: infect3d)
+# ...please don't infect yourself!"), and admin tooling legitimately says
+# "run as administrator". Only the lure says BOTH: here is an archive and its
+# password, now run it elevated.
+_LURE_ARCHIVE_PW = re.compile(
+    r"\b(?:extract|unzip|unpack|unrar|archive|zip|rar|7z)\b[^.\n]{0,40}?"
+    r"\(?\s*(?:password|pass|pwd)\s*[:=]\s*([^\s).,;]+)",
+    re.I)
+# The research convention: a sample shared deliberately, labelled as malware.
+_RESEARCH_PASSWORDS = {"infected", "infect3d", "malware", "virus", "infect"}
+_LURE_RUN = re.compile(
+    r"\brun\s+(?:it\s+)?as\s+(?:an?\s+)?admin(?:istrator)?\b"
+    r"|\ball[- ]in[- ]one\s+loader\b"
+    r"|\bdownload\b[^.\n]{0,60}\b(?:extract|unzip)\b[^.\n]{0,60}\brun\b"
+    r"|\bdownload\s+the\s+(?:tool|setup|installer|archive)\s+from\s+the\s+button\b",
+    re.I)
+
+
+def is_malware_lure(text: str) -> bool:
+    """True when the text both hands over an archive password AND tells the
+    reader to run what is inside it. See the block comment above."""
+    if not text:
+        return False
+    pw = [m.group(1).lower().strip("'\"") for m in _LURE_ARCHIVE_PW.finditer(text)]
+    if not [p for p in pw if p not in _RESEARCH_PASSWORDS]:
+        return False
+    return bool(_LURE_RUN.search(text))
+
+
 def log(stage: str, msg: str) -> None:
     ts = datetime.now().strftime("%H:%M:%S")
     print(f"  [{ts}] {stage:<12} {msg}", file=sys.stderr)

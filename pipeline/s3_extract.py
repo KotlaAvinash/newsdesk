@@ -14,7 +14,7 @@ from functools import lru_cache
 from . import gnews, netguard
 from .config import settings
 from .models import Cluster
-from .utils import domain_of, log
+from .utils import domain_of, is_malware_lure, log
 
 try:
     import trafilatura
@@ -312,4 +312,31 @@ def run(clusters: list[Cluster], lead_only: bool = True) -> list[Cluster]:
                    f"{time.monotonic() - started:.0f}s "
                    f"({ok} fetched, {len(from_feed)} from feeds), "
                    f"rest fell back to blurbs")
-    return clusters
+    return _drop_lures(clusters)
+
+
+def _drop_lures(clusters: list[Cluster]) -> list[Cluster]:
+    """Remove malware-distribution lures before anything can publish them.
+
+    Here and not at harvest, because the lure is not in the GitHub API's
+    description field — that reads like a real project ("EdTech application
+    designed to bridge...") — it is in the README, and the README only
+    exists once this stage has fetched the page. Checked against the
+    blurb as well as the body, so an item that was never fetched is still
+    screened.
+
+    DROPPED, not held back. A held-back card is still shown on the page, and
+    for a stale reject the summary survives — which is how "Extract the
+    archive (password: respocket). Run as Administrator" reached readers.
+    This is not news that failed a check; it is an advert for malware.
+    """
+    kept, dropped = [], []
+    for cl in clusters:
+        lead = cl.lead
+        text = "\n".join((lead.title, lead.body or "", lead.summary_raw or ""))
+        (dropped if is_malware_lure(text) else kept).append(cl)
+    if dropped:
+        log("extract", f"! dropped {len(dropped)} malware-distribution "
+                       f"lure(s): " + ", ".join(c.lead.url.rsplit("/", 2)[-2]
+                                               for c in dropped[:5]))
+    return kept
