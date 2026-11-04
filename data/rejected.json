@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-11-03T04:12:54.393510+00:00",
+  "generated_at": "2026-11-04T03:13:55.826244+00:00",
   "items": [
+    {
+      "cluster_key": "a0a79130d432358b",
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-10-30T01:11:35.171Z",
+      "key_facts": [
+        "Identifier: CVE-2026-98432"
+      ],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a0a79130d432358b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mz2lx5a2i52j",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-30T01:11:34.914000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-30 — outside lookback window"
+    },
     {
       "cluster_key": "28bec2c784b581cd",
       "title": "I just found out that my new book, Co-Existence, debuted at #3 on the New York Times bestseller list. Thank you so much to everyone who bought a copy!",
@@ -37,46 +80,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-10-28 — outside lookback window"
-    },
-    {
-      "cluster_key": "47cc7323c06e1fc0",
-      "title": "The end of detailed summarized thinking traces for Claude and ChatGPT (likely both for anti-distillation & to simplify UX) has made being a human in…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The end of detailed summarized thinking traces for Claude and ChatGPT (likely both for anti-distillation & to simplify UX) has made being a human in the loop challenging. It pushes us towards automation, rather than augmentation, as it has become much harder to weigh in on in-process AI work.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "47cc7323c06e1fc0"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myuv4onqt22z",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-27T18:39:46.228000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
       "cluster_key": "79f0196ee0c10775",
@@ -158,83 +161,6 @@
       "reject_reason": "published 2026-10-28 — outside lookback window"
     },
     {
-      "cluster_key": "b6f1c58f24fd8a23",
-      "title": "Google's new Genie 4 runs DOOM: \"Walking through a typical office but every computer is running DOOM and all of the walls are also running DOOM and…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Google's new Genie 4 runs DOOM: \"Walking through a typical office but every computer is running DOOM and all of the walls are also running DOOM and also everything is DOOM\" \"My coworker who is a demon appears\" \"He has a chaingun\" \"He gives me a bonus\" All this is in realtime.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "b6f1c58f24fd8a23"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myupv5sl2k2z",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-27T17:06:04.970000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-27 — outside lookback window"
-    },
-    {
-      "cluster_key": "00bf05796b74423e",
-      "title": "This never gets old (& also shows how hard forecasting AI is even for AI) “Hey Claude Fable & GPT-6 Astra, Without looking anything up, when do you…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu This never gets old (& also shows how hard forecasting AI is even for AI) “Hey Claude Fable & GPT-6 Astra, Without looking anything up, when do you think we will solve the Exponential Time Hypothesis?” (I only show part of the answers for space) 2026-10-27T13:06:45.076Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "00bf05796b74423e"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myucj4frec2l",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-27T13:06:42.200000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-27 — outside lookback window"
-    },
-    {
       "cluster_key": "9dafa2ce1b9ab509",
       "title": "duyunzhoudyz/dyz-med-paper-skills — 医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical writ",
       "category": "tech_ai",
@@ -292,7 +218,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -357,49 +283,11 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "8c47676bd7b95586",
-      "title": "Important, but not unexpected, finding that experts working with AI agents are swayed by the positions of the AI, even if they think they aren't.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Important, but not unexpected, finding that experts working with AI agents are swayed by the positions of the AI, even if they think they aren't. If your independent judgement matters on a task, you need to be deliberate about when in the process to bring in AI.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "8c47676bd7b95586"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myvcgatpbs2q",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-27T22:37:45.931000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-27 — outside lookback window"
     },
     {
       "cluster_key": "7d6b80478e8381b1",
@@ -441,18 +329,20 @@
       "reject_reason": "published 2026-10-29 — outside lookback window"
     },
     {
-      "cluster_key": "669d77c5993ef6eb",
-      "title": "wanghao-SunSky/cs329z-chinese — 斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与",
+      "cluster_key": "1049b23c1bc52169",
+      "title": "jefferysha0627/agent-office-3d — A low-poly 3D office that shows your AI coding agents' live status — idle agents sneak off to play Minecraft (",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "howto",
+        "linux",
         "llm",
-        "opensource"
+        "opensource",
+        "windows"
       ],
-      "summary": "Includes 19 lessons, 4 hands-on exercises, Markdown sources and an offline HTML reader.",
+      "summary": "See at a glance who is working, who is idle and who is stuck on a permission prompt. Idle staff grab coffee, hit the treadmill, pet the cat, or sneak in a round of Minecraft. Clone the repo, open your AI coding agent (Claude Code, Codex, Cursor, …) in the folder and paste: Read this repo's AGENTS.md and set up Agent Office for me, then open the Minecraft demo. The agent follows AGENTS.md: it runs npm run doctor, installs and starts the demo, then asks whether to connect Herdr and how to customize the company name and staff. It asks before installing system software such as Node.js or Java, and it will never accept the Minecraft EULA for you: you type yes yourself.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -463,7 +353,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "669d77c5993ef6eb"
+        "1049b23c1bc52169"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -471,27 +361,27 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
+          "url": "https://github.com/jefferysha0627/agent-office-3d",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-28T18:18:24+00:00",
+      "published": "2026-10-29T11:55:41+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
+      "reject_reason": "published 2026-10-29 — outside lookback window"
     },
     {
-      "cluster_key": "895f2e8c6f6e38b3",
-      "title": "The argument that AI labs are talking about existential risks as a way of creating hype & inflating their stock prices has always been odd.",
+      "cluster_key": "c7c3f36e2ed674c7",
+      "title": "I had Opus build a game that takes JIRA tickets from any of your real projects & converts them into dramatic audiologs that are the plot of a…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai"
+        "opensource"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The argument that AI labs are talking about existential risks as a way of creating hype & inflating their stock prices has always been odd. You don't need to believe them, but telling people your product may murder everyone does not, in fact, encourage people to adopt it or reduce regulatory risks.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I had Opus build a game that takes JIRA tickets from any of your real projects & converts them into dramatic audiologs that are the plot of a 2000s-era horror game set on a mysteriously abandoned space station. Play a demo: wontfix-game.netlify.app Github: 2026-10-30T01:37:35.584Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -502,7 +392,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "895f2e8c6f6e38b3"
+        "c7c3f36e2ed674c7"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -510,17 +400,122 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myuvyco2fs2z",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mz2nfm6wts2m",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-27T18:55:13.179000+00:00",
+      "published": "2026-10-30T01:37:34.130000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-27 — outside lookback window"
+      "reject_reason": "published 2026-10-30 — outside lookback window"
+    },
+    {
+      "cluster_key": "7ad1b7ad7ec6fc43",
+      "title": "yc-software/minecraft-agent-harness — Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and shell sandboxes.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "howto",
+        "llm",
+        "opensource",
+        "research",
+        "tool",
+        "windows"
+      ],
+      "summary": "Quickstart · Configuration · Tools · Teams · Bed Wars example Point an LLM at a Minecraft server and give it something to do. It plays through Mineflayer, so it walks, mines, crafts, builds, fights and chats like a regular player. We've run Bed Wars matches with it, and a survival server with 50 agents on it at once. What's in here: - Claude, GPT, Gemini, OpenRouter, or your own endpoint if it speaks the OpenAI Responses API - Sessions that survive restarts. Kill an agent, start it again under the same name, and it carries on - A shell for every agent (Docker, E2B or a plain local folder).",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "7ad1b7ad7ec6fc43"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/yc-software/minecraft-agent-harness",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-29T05:21:45+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-29 — outside lookback window"
+    },
+    {
+      "cluster_key": "df489c10521cd2bd",
+      "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a",
+      "category": "cyber_tools",
+      "one_liner": "God's Eye View is an open-source browser spy-satellite simulator that aggregates real public spatial signals with an AI voice agent.",
+      "tags": [
+        "agents",
+        "ai",
+        "opensource",
+        "release",
+        "tool"
+      ],
+      "summary": "The open-source project God's Eye View provides an interactive 3D digital globe that tracks live public spatial signals such as aircraft transponders, ship beacons, satellite passes, and earthquakes. The platform features hands-free voice control powered by a real-time AI agent, local browser execution, and customizable visualization overlays like military HUDs and thermal filters. It integrates multiple public data feeds to offer a unified situational awareness cockpit without requiring API keys.",
+      "key_facts": [
+        "Social reach: 5M+ on YouTube, 25M+ across socials",
+        "GitHub status: Reached #1 on GitHub Trending"
+      ],
+      "bottom_line": "Live global spatial intelligence data can be aggregated and controlled locally in a browser using open-source tools and an AI voice agent.",
+      "claims": [
+        {
+          "text": "God's Eye View is a photorealistic 3D globe tracking live aircraft, ships, satellites, earthquakes, traffic, and public cameras.",
+          "support_span": "Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras.",
+          "status": "entailed"
+        },
+        {
+          "text": "The platform features hands-free voice control powered by a realtime AI agent and runs locally in your browser.",
+          "support_span": "Hands-free voice control powered by a realtime AI agent. No place left behind. [...] It runs locally in your browser, with source code you can inspect and extend.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "df489c10521cd2bd"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (updated)",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-04T00:14:58+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "2f33515d1456a46b",
@@ -575,7 +570,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -635,7 +630,7 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T03:02:33+00:00",
+      "published": "2026-11-04T02:59:12+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
@@ -645,18 +640,16 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "5700a42956f62532",
-      "title": "muaaz9329/cheap-ag — 50x your usage with cheap-ag. Opus/Astra plans, a dirt-cheap model writes every line, and tests decide what sh",
+      "cluster_key": "85375b4f76791052",
+      "title": "sirioberati/showhow — Explainer reels drawn in code: every move lands on a spoken word, every render is checked. Free and open sourc",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "llm",
-        "opensource",
-        "release",
-        "tool"
+        "ai",
+        "opensource"
       ],
-      "summary": "Your frontier model is a principal engineer. Your Claude or ChatGPT plan lasts longer. ⭐ Star it, and click Watch → Custom → Releases to hear when new versions ship. It asks what you want, then gives you one command to run. Set up Cheap Agent (npm: cheap-agent) for me.",
+      "summary": "Showhow voices it, times every move to a spoken word, renders it at 1080×1920 and 60 fps, and checks it before anyone sees it. Free and open source, from tein: one cheap API, MCP and workflows for every AI model provider. Two full reels, with voice and music, made with the same engine and checks. The myth, the Cambridge smoke test, pressure, speed and flaps. On a disc of rock, gravity pulls toward the pole.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -667,7 +660,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "5700a42956f62532"
+        "85375b4f76791052"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -675,60 +668,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/muaaz9329/cheap-ag",
+          "url": "https://github.com/sirioberati/showhow",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-28T22:26:18+00:00",
+      "published": "2026-10-29T17:07:14+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
-    },
-    {
-      "cluster_key": "fe3127f8b2d6dd25",
-      "title": "trina-app/trina-ax — Set up Claude Code once. Your whole company gets it. Self-hosted Claude Code and Codex with your company files",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "llm",
-        "opensource",
-        "windows"
-      ],
-      "summary": "Claude Code and Codex on one company server, with your files, your team's skills and each person's folder permissions. Website · Try it in 10 minutes · Self-host · Docs English · 한국어 · 日本語 · Español · 简体中文 Trina-AX-in-97-seconds.mp4 97 seconds, sound on. A team lead sets up Claude once, and on her first day a new hire’s proposal comes out like his. Animated story with the real app at 1:15. Real outputs from 2026-10-31 and 11-01 with a fictional company, Dawnroute; the deck photos were made with Higgsfield.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "fe3127f8b2d6dd25"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/trina-app/trina-ax",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T04:31:27+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
+      "reject_reason": "published 2026-10-29 — outside lookback window"
     },
     {
       "cluster_key": "2597fa9194aa9c5c",
@@ -798,51 +748,6 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "29829d551bfed468",
-      "title": "w0ldan/exoproc — TypeScript toolkit for Windows x64 native systems programming, memory manipulation, and process instrumentatio",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "research",
-        "tool",
-        "windows"
-      ],
-      "summary": "One unified CLI and Model Context Protocol (MCP) server for Windows x64 reverse engineering, thread hijacking, function detours, live memory manipulation, and C-to-shellcode compilation. Intercept functions, redirect threads, modify memory, and compile C to shellcode—without DLL injection. Quick start · How Exoproc works · What you can inspect & instrument · Showcases · MCP tool catalog · CLI reference · FAQ · Architecture Node.js npx -y exoproc Bun bun x exoproc Windows (PowerShell) powershell -c \"irm Important Exoproc targets native Windows x64 process runtime. Development and offline operations (C-to-shellcode JIT compilation, machine code simulation, and MCP schema generation) run cross…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "29829d551bfed468"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/w0ldan/exoproc",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T20:27:46+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
-    },
-    {
       "cluster_key": "2591bdc407996246",
       "title": "Balanov/uncut — The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent",
       "category": "tech_ai",
@@ -908,234 +813,327 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "066485055fc4b9c7",
-      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
-      "category": "cyber_attacks",
-      "one_liner": "A low-privileged SQL injection in FortiManager and FortiAnalyzer allows for arbitrary command execution and file manipulation.",
+      "cluster_key": "e18d24dec97809a1",
+      "title": "Sheernox/cedr — Developer tools for humans and agents: route work to the right AI coding agent, merge multi-vendor reviews int",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "appsec",
-        "cve",
-        "network",
-        "vulnerability"
+        "agents",
+        "ai",
+        "linux",
+        "opensource",
+        "release",
+        "tool"
       ],
-      "summary": "A critical SQL injection vulnerability (CWE-89) has been discovered in Fortinet's FortiAnalyzer and FortiManager products, including their cloud variants. The flaw allows a low-privileged user to execute arbitrary commands or perform unauthorized file read/write operations via specially crafted requests. Fortinet has acknowledged the internal discovery of the bug and published the initial advisory on October 13, 2026.",
-      "key_facts": [
-        "CWE-89: SQL Injection",
-        "Affected: FortiAnalyzer, FortiManager (including Cloud)",
-        "Date: 2026-10-13"
+      "summary": "cedr is the command line tool behind cedr.dev: every coding agent, one control panel. It picks the agent, model and effort for each kind of work, merges reviews from several vendors into one gate, pins the skills and MCP servers your agents load, compiles one setup into each agent's own files, and reports usage, spend and plan limits across them. Any agent that speaks MCP can call it directly. Commands and file formats may still change before 1.0. cedr doctor checks your account, Route, MCP, Monitor, Sync and Guard setup and prints the fix for whatever is missing.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e18d24dec97809a1"
       ],
-      "bottom_line": "Administrators of Fortinet management platforms should check for available patches to prevent low-privileged users from escalating to arbitrary command execution.",
-      "claims": [
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
         {
-          "text": "The SQL injection allows low-privileged users to execute arbitrary commands.",
-          "support_span": "vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow a low privileged user to execute arbitrary commands via crafted requests.",
-          "status": "entailed"
-        },
-        {
-          "text": "The flaw enables arbitrary file read and write operations.",
-          "support_span": "Multiple Arbitrary File Read/Write via SQL Injection",
-          "status": "contradicted"
+          "name": "GitHub (new)",
+          "url": "https://github.com/Sheernox/cedr",
+          "domain": "github.com",
+          "tier": "C"
         }
       ],
-      "trust_score": 94,
-      "interest_score": 75,
-      "corroboration": 3,
-      "blend": 79.8,
-      "is_new": false,
+      "primary_links": [],
+      "published": "2026-10-29T17:13:23+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-29 — outside lookback window"
+    },
+    {
+      "cluster_key": "5fab2a71a2815169",
+      "title": "ACP Manasvi Vashishta suspended day after protest outside Delhi police headquarters; lawyer moves HC over ‘police remarks’",
+      "category": "india_world",
+      "one_liner": "Delhi Police ACP Manasvi Vashishta suspended by the Home Ministry following a protest over his transfer amidst tensions with lawyers.",
+      "tags": [
+        "india",
+        "policy",
+        "political"
+      ],
+      "summary": "The Union Home Ministry has suspended Assistant Commissioner of Police Manasvi Vashishta a day after he led a protest against his transfer following a scuffle with lawyers at Shahdara police station. Simultaneously, an advocate moved the Delhi High Court seeking an independent probe into alleged derogatory and threatening remarks made by police personnel during the demonstration, while the High Court declined to take suo motu cognisance of the remarks.",
+      "key_facts": [
+        "Date of suspension: November 3, 2026",
+        "Officer suspended: ACP Manasvi Vashishta"
+      ],
+      "bottom_line": "Departmental disciplinary proceedings and legal scrutiny have escalated following the standoff between Delhi Police and advocates.",
+      "claims": [
+        {
+          "text": "The Union Home Ministry ordered the suspension of Assistant Commissioner of Police Manasvi Vashishta, a day after he led a protest against his transfer following a scuffle with lawyers at Shahdara police station last month.",
+          "support_span": "The Union Home Ministry ordered the suspension of Assistant Commissioner of Police Manasvi Vashishta, a day after he led a protest against his transfer following a scuffle with lawyers at Shahdara police station last month.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The High Court, however, declined to take suo motu cognisance and asked them to file a formal petition with supporting material.",
+          "support_span": "The High Court, however, declined to take suo motu cognisance and asked them to file a formal petition with supporting material.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 46.8,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "066485055fc4b9c7",
-        "5f82d0dc0823563a",
-        "e758b2ab926dcbb9",
-        "fe9a368f887d4fba"
+        "5fab2a71a2815169",
+        "c0e9ff699a9c9eb4"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-105476",
-          "domain": "cvefeed.io",
-          "tier": "A"
+          "name": "Indian Express",
+          "url": "https://indianexpress.com/article/india/acp-manasvi-vashistha-suspended-mha-delhi-police-protest-10948517/",
+          "domain": "indianexpress.com",
+          "tier": "B"
         },
         {
-          "name": "Fortinet PSIRT",
-          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
-          "domain": "fortiguard.fortinet.com",
-          "tier": "A"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/cities/Delhi/acp-manasvi-vashishta-who-led-protest-outside-delhi-police-headquarters-suspended-for-violation-of-discipline/article71659394.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T07:06:59+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 47 = trust 37 / interest 50 / corrob 50"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "1ab79ad65005dd1f",
+      "title": "This is good advice from the Claude Code team (posted on X) for how to think about working with models like Opus 5.5.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "howto",
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu This is good advice from the Claude Code team (posted on X) for how to think about working with models like Opus 5.5. I would add: build checkpoints where the model reports back to you with interim ideas or prototypes so you can guide & give feedback, rather than one-shotting on your goal.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1ab79ad65005dd1f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myzwg2oxgk25",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-29T18:46:13.264000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-29 — outside lookback window"
+    },
+    {
+      "cluster_key": "022cf32625539130",
+      "title": "State’s responsibility is to equip people for emerging opportunities, not just for current jobs: Sharanprakash Patil",
+      "category": "india_world",
+      "one_liner": "The Bengaluru Skill Summit 2026 focused on preparing Karnataka's workforce for future technological shifts and bridging critical domain-skill gaps in advanced industries.",
+      "tags": [
+        "hardware",
+        "india",
+        "policy",
+        "political"
+      ],
+      "summary": "At the inaugural Bengaluru Skill Summit 2026, themed 'Workforce 2030: Scale, Systems, Synergy', Karnataka Minister Sharanprakash Patil emphasized that government policy must equip individuals for future opportunities rather than existing jobs. Organized by the Department of Skill Development, Entrepreneurship and Livelihood alongside the Karnataka Skill Development Corporation, the event brought together policymakers and industry leaders to address workforce development and industry-aligned skills. Speakers highlighted the critical need for active industry participation in skilling value chains, noting sector-specific shortages in domain-skilled talent for advanced manufacturing and semiconductor industries.",
+      "key_facts": [
+        "Event: Bengaluru Skill Summit 2026",
+        "Theme: Workforce 2030: Scale, Systems, Synergy",
+        "Location: Bengaluru, Karnataka"
+      ],
+      "bottom_line": "Karnataka's skill development summit emphasized bridging advanced industry talent gaps and preparing the workforce for future economic opportunities.",
+      "claims": [
+        {
+          "text": "The government’s responsibility is not simply to prepare young people for the jobs that exist today, but to equip them for the opportunities that will emerge tomorrow, said Sharan Prakash Patil...",
+          "support_span": "The government’s responsibility is not simply to prepare young people for the jobs that exist today, but to equip them for the opportunities that will emerge tomorrow, said Sharanprakash Patil, Minister for Medical Education and Skill Development, Entrepreneurship and Livelihood, here on Tuesday.",
+          "status": "contradicted"
         },
         {
-          "name": "Fortinet PSIRT",
-          "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
-          "domain": "fortiguard.fortinet.com",
-          "tier": "A"
+          "text": "The three-day event is organised by the Department of Skill Development, Entrepreneurship and Livelihood (SDEL) and hosted by the Karnataka Skill Development Corporation (KSDC)...",
+          "support_span": "The three-day event is organised by the Department of Skill Development, Entrepreneurship and Livelihood (SDEL) and hosted by the Karnataka Skill Development Corporation (KSDC), in collaboration with the Karnataka Skill Development Authority (KSDA).",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "022cf32625539130"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/karnataka/states-responsibility-is-to-equip-people-for-emerging-opportunities-not-just-for-current-jobs-sharanprakash-patil/article71662605.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T19:46:12+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "f72111f2a530cac6",
+      "title": "wangzan101/Mika — An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "android",
+        "howto",
+        "llm",
+        "opensource"
+      ],
+      "summary": "An AI assistant on your phone: say what you need, and it works your apps and the web until it's done. It works on a hidden background screen, so you can keep using your phone. English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español \"Send a message to File Transfer\": Mika's chat on the left, each step on its background screen on the right (4× speed; chat list blurred) More demos Several demos use apps popular in China: WeChat is the main messaging app there, and Xiaohongshu (RED) is a lifestyle and social platform. Mika isn't tied to them; it works with any app or website on your phone. Connect a model: in Settings › Model, pick a provider and enter an API key, or just sign in with an account (models an…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "f72111f2a530cac6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/wangzan101/Mika",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-29T14:34:07+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-29 — outside lookback window"
+    },
+    {
+      "cluster_key": "62182dce0f3b28b2",
+      "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+      "category": "cyber_attacks",
+      "one_liner": "CVE-2026-0322 is an authenticated RCE vulnerability in Palo Alto Networks PAN-OS management interfaces with active exploitation.",
+      "tags": [
+        "cve",
+        "exploit",
+        "network",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "A high-severity remote code execution vulnerability, CVE-2026-0322, affects the management interface of Palo Alto Networks PAN-OS software. An authenticated network attacker can execute arbitrary code with root privileges on affected PA-Series, VM-Series, and Panorama firewalls. Limited exploitation has been observed in the wild, and Palo Alto Networks has provided Threat Prevention signatures for customers with active subscriptions.",
+      "key_facts": [
+        "CVE ID: CVE-2026-0322",
+        "CVSS Score: 8.6 (CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N)",
+        "Threat IDs: 510046 and 510047",
+        "Indicator IPs: 66.42.72.14, 208.83.239.114, 149.248.47.234"
+      ],
+      "bottom_line": "Authenticated attackers can achieve root RCE on Palo Alto firewalls via management interfaces, requiring immediate restriction and patching.",
+      "claims": [
+        {
+          "text": "A remote code execution vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+          "support_span": "A remote code execution vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+          "status": "contradicted"
         },
         {
-          "name": "watchTowr Labs",
-          "url": "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
-          "domain": "labs.watchtowr.com",
+          "text": "Very limited exploitation has been observed targeting the Palo Alto Networks management interface.",
+          "support_span": "Very limited exploitation has been observed targeting the Palo Alto Networks management interface.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 70.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "62182dce0f3b28b2"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+          "domain": "security.paloaltonetworks.com",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
-        "https://fortiguard.fortinet.com/psirt/FG-IR-26-180"
+        "https://security.paloaltonetworks.com/CVE-2026-0322"
       ],
-      "published": "2026-10-06T17:01:36+00:00",
+      "published": "2026-10-15T18:30:00+00:00",
       "trace": [
         "tier A (+40)",
-        "3 independent outlets (+24)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 80 = trust 94 / interest 75 / corrob 75",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 70 = trust 70 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "a9daa3cbb1ade735",
-      "title": "aa1143/NamiGPT — 零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTorch, step by step",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "llm",
-        "opensource"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a9daa3cbb1ade735"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/aa1143/NamiGPT",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T00:57:01+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
-    },
-    {
-      "cluster_key": "47b32e30b7bbd813",
-      "title": "khanh020905/my-office — Văn phòng 3D cho các phiên Claude Code · A 3D office for your Claude Code sessions",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "linux",
-        "llm",
-        "opensource",
-        "release",
-        "tool",
-        "windows",
-        "writeup"
-      ],
-      "summary": "English · Tiếng Việt A 3D office where your Claude Code sessions come to work. Each session is a character at a desk: - it walks to the library to read files; - it types at its desk while it edits; - it goes to the server room to run commands; - it launches a rocket when you deploy. The office also looks after your Mac: RAM per session, forgotten dev servers, one-click cleanup. The demo has made-up projects and needs no Claude Code: run npm run dev and open Or try it online, nothing to install: (a static build of the same demo, published by .github/workflows/pages.yml).",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "47b32e30b7bbd813"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/khanh020905/my-office",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T12:30:47+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
-    },
-    {
-      "cluster_key": "ba7b8399a7e8e957",
-      "title": "Five Sigma and Amarillo Technologies Partner to Advance Insurance Claims Modernisation for London Market",
-      "category": "cyber_tools",
-      "one_liner": "Five Sigma and Amarillo Technologies partnered to integrate AI claims management with delegated authority data processing for the London Market.",
-      "tags": [
-        "agents",
-        "ai",
-        "markets",
-        "policy"
-      ],
-      "summary": "Five Sigma, an AI-native claims management platform, has announced a strategic partnership with Amarillo Technologies, a London-based insurtech specializing in delegated authority data management. The collaboration combines Five Sigma's AI claims automation platform and its multi-agent AI claims expert Clive with Amarillo's Fusion platform, which automates bordereaux data collection and processing. Aimed primarily at the UK and London Market, the partnership seeks to help insurers, managing general agents, and brokers modernize claims operations, reduce manual data entry friction, and improve compliance throughout the delegated authority chain.",
-      "key_facts": [
-        "Partnership announcement date: November 2, 2026"
-      ],
-      "bottom_line": "Insurers and MGAs in the London Market gain access to integrated AI claims management and delegated authority data processing through the Five Sigma and Amarillo Technologies partnership.",
-      "claims": [
-        {
-          "text": "Five Sigma, the AI-native claims management platform for P&C insurance, and Amarillo Technologies, a London-based insurtech specialising in delegated authority data management, today announced a strategic partnership aimed at helping insurance organisations modernise claims operations, improve efficiency, and accelerate technology adoption.",
-          "support_span": "Five Sigma, the AI-native claims management platform for P&C insurance, and Amarillo Technologies, a London-based insurtech specialising in delegated authority data management, today announced a strategic partnership aimed at collaborative go-to-market initiatives.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "ba7b8399a7e8e957"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The National Law Review",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTM3dlZrQW9VY29qdHZENDBGNXVzZVRYTEFMRGVrNWRYUFRlN2hZVGRrSHgwaHdQcHNPWU9FWnl4Tk9vdFFMdXNBOU5xUHlqVFZ0elJzUWx6VVNqY3AzNmZxYXhmTjNKbGMyY0IyMTRRVU9fM1FyYWNkNGNtMU9MSVAyQVBhWlhTOHczS0xpRW5qVzJlMEFQWXhHZlItRUgybUNHWU0zOWtyT0Z2YWc?oc=5",
-          "domain": "the-national-law-review.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-02T10:22:58+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "2c51ee792670f7a6",
+      "cluster_key": "06e91a6fbd02f24b",
       "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
       "category": "cyber_attacks",
       "one_liner": "Chinese hackers used the ARTEX AI multi-agent framework to autonomously attack over 200 global organizations and compromise critical infrastructure.",
@@ -1169,17 +1167,18 @@
           "status": "contradicted"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 49,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "corroboration": 3,
+      "blend": 79.8,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
+        "06e91a6fbd02f24b",
         "2c51ee792670f7a6",
         "a8bf784c901b9208",
-        "bed36870e8dcfcd0",
-        "d6384f21111230f7"
+        "b992c0fca3c1e156",
+        "bed36870e8dcfcd0"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -1189,6 +1188,12 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
           "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/",
+          "domain": "helpnetsecurity.com",
           "tier": "B"
         },
         {
@@ -1204,196 +1209,54 @@
           "tier": "C"
         },
         {
-          "name": "GBHackers News",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81c3F4dzloM0tVbWdJWmhodWpRcnpXTkl3WnFfOWdaSzlvUWtsZEc5SWNQOU8zRGp3LVB6dFAtWWNzSmk2WFhXeFhOeEhYUW1iUEhNVXlsdXMyaExHMG5nZW9BdzIxd9IBZkFVX3lxTE81c3F4dzloM0tVbWdJWmhodWpRcnpXTkl3WnFfOWdaSzlvUWtsZEc5SWNQOU8zRGp3LVB6dFAtWWNzSmk2WFhXeFhOeEhYUW1iUEhNVXlsdXMyaExHMG5nZW9BdzIxdw?oc=5",
-          "domain": "gbhackers-news.publisher",
+          "name": "Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZEh1T3E3aGdwSDdMdzJINnVvUXhmM2hkZTJTVlI4ZUdEclcxRWtJZmo0WVdmOXlSSEp1M0dnVEZGNFRQVkVGTUZFQkx6NUVoNTg3STVOcnZzaVctVTBBOEk2al9oOGxvbmhzZG5oOHdkOGh0OEtsU0tEYkFRa1ZJZUdiNHBubWpMa09VNG42TVktTDlpdFZ2UlIwWndHR2JoZmFDdw?oc=5",
+          "domain": "pasquale-pillitteri.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T14:35:27+00:00",
+      "published": "2026-10-31T11:51:56+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "74dc1ad06d2d1d6d",
-      "title": "SMS of Death: Android under attack, an invisible SMS can block calls and emergency services",
-      "category": "cyber_attacks",
-      "one_liner": "A zero-click Android WAP Push vulnerability allows remote attackers to crash telephony services and block emergency calls via a malformed SMS.",
-      "tags": [
-        "android",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "Independent researcher Mark Blaszczyk has documented a zero-click vulnerability dubbed 'SMS of Death' affecting Android's telephony stack. A remote attacker can transmit a specially crafted WAP Push data message over mobile networks on port 2948 that requires zero user interaction. The technical cause lies in the decodeWapPdu() function within the WapPushOverSms Android component, where a 64-bit uintvar length is cast to a signed 32-bit integer without bounds checking, yielding a negative value. This triggers an uncaught NegativeArraySizeException that terminates the com.android.phone process, causing temporary loss of cellular connectivity and interrupting active voice calls, including emergency calls.",
-      "key_facts": [
-        "Vulnerability name: SMS of Death",
-        "Researcher: Mark Blaszczyk",
-        "Affected component: WapPushOverSms (frameworks/opt/telephony)",
-        "WAP Push port: 2948"
-      ],
-      "bottom_line": "Android device security remains vulnerable to zero-click telephony denial-of-service attacks driven by unvalidated WAP Push message length parameters.",
-      "claims": [
-        {
-          "text": "The vulnerability allows a remote attacker to cause a disruption in phone service by sending a single, specially crafted WAP Push message without user interaction.",
-          "support_span": "The issue, documented by independent researcher Mark Blaszczyk, allows a remote attacker to cause a disruption in phone service by sending a single, specially crafted WAP Push message. WAP Push (Wireless Application Protocol Push) is a particular message transmitted over the mobile network, generally in the form of a binary SMS, which contains structured data and is processed automatically by the smartphone without requiring user intervention. Unlike a traditional SMS, it can carry notifications, links to Internet resources, and configurations for mobile services. The most worrying aspect is the execution method. It’s a zero-click attack, in which the recipient doesn’t have to open the message, select a link, or authorize any action.",
-          "status": "entailed"
-        },
-        {
-          "text": "Casting an unvalidated uintvar length to a signed 32-bit integer results in a negative array size exception that kills the com.android.phone process.",
-          "support_span": "Specifically, the “decodeWapPdu() ” function, the researcher explains, reads the length of the WSP header through a value encoded as “uintvar ” , initially returned as a 64-bit number. The value is subsequently converted to a 32-bit integer without prior range checking. This operation can transform a seemingly valid number into a negative value, which is then used to determine the size of an array. The consequence of this is a “NegativeArraySizeException ” exception... killing com.android.phone",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "74dc1ad06d2d1d6d",
-        "de225424dfd3a3e0"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/202184/security/sms-of-death-android-under-attack-an-invisible-sms-can-block-calls-and-emergency-services.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-31T15:35:11+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
         "importance 5/5 from cache",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "211ed6a80dab3ee7",
-      "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-      "category": "cyber_attacks",
-      "one_liner": "Threat actors are increasingly exploiting compromised cloud credentials and exposed LLM endpoints for high-cost LLMJacking schemes.",
-      "tags": [
-        "ai",
-        "cloud",
-        "identity",
-        "incident",
-        "llm",
-        "privacy",
-        "threat-actor",
-        "vulnerability"
-      ],
-      "summary": "Mandiant investigated multiple LLMJacking incidents in 2026 where threat actors hijacked enterprise access to Large Language Models across North America, South America, and Asia Pacific. Unlike gradual cryptojacking, LLMJacking exploits exposed LLM endpoints or stolen cloud identity tokens (such as IAM keys and GitHub PATs) to generate massive usage spikes, racking up individual charges exceeding $100,000 in a single day and up to $1 million cumulatively before detection. The criminal ecosystem features a division of labor, with initial access brokers handing off compromised resources to 'LLM Mixers'—illicit routing gateways that proxy and resell unauthorized LLM access to underground subscribers.",
-      "key_facts": [
-        "Fraudulent charges: Exceeding $100,000 in a single day",
-        "Cumulative losses: Reaching up to $1 million USD"
-      ],
-      "bottom_line": "Unsecured cloud credentials and exposed LLM endpoints allow attackers to execute massive, rapid-fire financial fraud via unauthorized resource consumption.",
-      "claims": [
-        {
-          "text": "Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic known as 'LLMJacking.'",
-          "support_span": "Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic known as 'LLMJacking.'",
-          "status": "contradicted"
-        },
-        {
-          "text": "Across individual incidents, we observed fraudulent charges associated with resource consumption exceeding $100,000 USD in a single day, with cumulative charges at some organizations reaching $1 million USD before access was revoked.",
-          "support_span": "Across individual incidents, we observed fraudulent charges associated with resource consumption exceeding $100,000 USD in a single day, with cumulative charges at some organizations reaching $1 million USD before access was revoked.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "211ed6a80dab3ee7",
-        "63028db311b26f99"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Google Threat Intel",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-          "domain": "cloud.google.com",
-          "tier": "B"
-        },
-        {
-          "name": "TechTarget",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNEQyaEFhWnA3T3g2azBHc0tmV0s5Qy02eC1Ld2tBTEtnN0lFVmtHakNvMHpFc1hXNThFbXdjanlGSnNkTEptSXRqdVpwZkVWUTFfN3FkaHMwOWc4UWpqRHpPUDd6V0YxVXZsX1JqQmN5VHpic3RhTDhvandrbE9LVEhpaThyLVdrT1ZBTzdBUFRZMWMzODc5UXNqT2NhRnFV?oc=5",
-          "domain": "techtarget.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-31T01:57:39+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "ef4159bc7e469497",
-      "title": "Does Showing Agents the Privilege of Their Tools Reduce Over-Privileged Tool Selection?",
+      "cluster_key": "b4e837416538d0a7",
+      "title": "ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay",
       "category": "tech_ai",
-      "one_liner": "Displaying tool privilege levels and costs to LLM agents significantly reduces over-privileged tool selection when paired with clear instructions.",
+      "one_liner": "ReplayRCA evaluates LLM agent failure diagnosis via counterfactual replay, revealing that strong post-hoc diagnosers do not necessarily make effective live supervisors.",
       "tags": [
         "agents",
         "ai",
-        "appsec",
+        "dfir",
         "llm",
+        "opensource",
         "research",
-        "tool"
+        "threat-intel"
       ],
-      "summary": "Recent research investigates whether explicitly showing language-model agents the privilege class and cost of each available tool reduces over-privileged tool selection during tasks. Testing 544 scenarios across eight models under five conditions revealed that displaying tool privilege lowers premature escalation on every over-privileging model, reducing such selections by up to 19.3 percentage points (a 50% decrease). However, metadata alone primarily delays escalation rather than preventing it entirely, whereas combining visible privilege with a least-privilege instruction significantly improves safe completion rates up to 51.1%. Visible privilege thus serves as a cheap, effective complement to external security enforcement.",
+      "summary": "Researchers introduced ReplayRCA, a counterfactual replay benchmark that measures post-hoc diagnosis and live oversight of multi-step agent failures by restoring the environment to the state preceding a failed step and testing whether a corrective action restores task success. Evaluating 13 frontier models on OpsWorld tasks, the best model achieved a causal repair score of +51.3 points, with performance varying significantly between post-hoc analysis and live supervision. Notably, a small open-source model (DeepSeek V4.1 Flash) tied for the best live supervisor, while a top post-hoc diagnoser (GPT-6.1 Sol) performed poorly in live oversight, proving that offline diagnostic capability is a weak proxy for live intervention performance.",
       "key_facts": [
-        "Scenarios tested: 544 ToolPrivBench scenarios",
-        "Models tested: 8 models",
-        "Reduction in over-privileged selection: up to 19.3 percentage points (50%)",
-        "Safe completion rate: 51.1%"
+        "Benchmark: ReplayRCA",
+        "Environment: OpsWorld (deterministic back-office)",
+        "Top causal repair score: +51.3 points (Grok 4.7)"
       ],
-      "bottom_line": "Exposing tool privilege metadata directly to LLM agents helps curb over-privileged tool usage and enhances safe execution when combined with explicit instructions.",
+      "bottom_line": "Counterfactual replay evaluation shows that post-hoc diagnostic performance for LLM agents is a poor predictor of live supervision effectiveness.",
       "claims": [
         {
-          "text": "Showing privilege lowers premature escalation on every model that over-privileges at a measurable rate, reducing over-privileged selection by up to 19.3 percentage points (50%), whereas irrelevant metadata in the same format does not.",
-          "support_span": "Showing privilege lowers premature escalation on every model that over-privileges at a measurable rate, reducing over-privileged selection by up to 19.3 percentage points (50%), whereas irrelevant metadata in the same format does not.",
-          "status": "contradicted"
+          "text": "We introduce ReplayRCA, a benchmark that scores such diagnoses by intervention rather than by agreement with annotations: the environment is restored to the state preceding the chosen step, the proposed action replaces the agent's own, and the same agent continues.",
+          "support_span": "We introduce ReplayRCA, a benchmark that scores such diagnoses by intervention rather than by agreement with annotations: the environment is restored to the state preceding the chosen step, the proposed action replaces the agent's own, and the same agent continues.",
+          "status": "entailed"
         },
         {
-          "text": "Combined with the instruction it more often avoids escalation, and the share of scenarios completed without a risk tool rises on seven of the eight models, reaching 51.1% safe completion from a baseline of 18.8% on the strongest-performing configuration.",
-          "support_span": "Combined with the instruction it more often avoids escalation, and the share of scenarios completed without a risk tool rises on seven of the eight models, reaching 51.1% safe completion from a baseline of 18.8% on the strongest-performing configuration.",
+          "text": "On 62 calibrated systematic failures, the best of 13 frontier models (Grok 4.7) reaches a causal repair of +51.3 points...",
+          "support_span": "On 62 calibrated systematic failures, the best of 13 frontier models (Grok 4.7) reaches a causal repair of +51.3 points...",
           "status": "contradicted"
         }
       ],
@@ -1404,21 +1267,21 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "ef4159bc7e469497"
+        "b4e837416538d0a7"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2610.40975",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.41025",
           "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://arxiv.org/abs/2610.40975"
+        "https://arxiv.org/abs/2610.41025"
       ],
       "published": "2026-11-02T05:00:00+00:00",
       "trace": [
@@ -1428,69 +1291,769 @@
         "importance 3/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
-      "reject_reason": "2 claim(s) not supported by the source text"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "50ea0078d977fdf9",
-      "title": "Indian Navy Rescues 20 Crew Members From Pirated Vessel Azini In 48-Hour Op",
+      "cluster_key": "ec13a33785d0f756",
+      "title": "Iranian woman moves Madras High Court wanting to know procedure for obtaining X-Miscellaneous visa",
       "category": "india_world",
-      "one_liner": "The Indian Navy and Air Force rescued 20 crew members from a hijacked vessel during a 48-hour operation.",
+      "one_liner": "An Iranian Christian refugee detained in a Tamil Nadu special camp has petitioned the Madras High Court regarding visa procedures.",
       "tags": [
-        "india"
+        "india",
+        "policy",
+        "political",
+        "privacy"
       ],
-      "summary": "The Indian Navy successfully rescued 20 crew members from the pirated vessel Azini following a 48-hour operation. The operation highlighted close coordination between the Indian Navy and the Indian Air Force.",
+      "summary": "A 30-year-old Iranian Christian convert, Pegah Ansari, has petitioned the Madras High Court to direct the Foreigners Regional Registration Office in Chennai to clarify the procedure for obtaining an X-Miscellaneous visa. Fleeing religious persecution in Iran after her private conversion to Christianity was discovered, she traveled through Georgia and Sri Lanka before entering India in April 2022 on a tourist visa. After obtaining refugee status from the UNHCR in March 2025, she was arrested in December 2025 for overstaying her visa and subsequently placed in a special camp for foreigners in Tiruchi following bail granted in a criminal case.",
       "key_facts": [
-        "Crew members rescued: 20",
-        "Vessel name: Azini",
-        "Operation duration: 48 hours"
+        "Petitioner age: 30",
+        "UNHCR refugee status date: March 2025",
+        "Bail date: January 29, 2026"
       ],
-      "bottom_line": "Joint operations by the Indian Navy and Air Force successfully recovered a pirated vessel and its 20 crew members.",
+      "bottom_line": "Refugee status holders detained for visa overstays face legal barriers requiring high court intervention to clarify exit and relocation procedures in India.",
       "claims": [
         {
-          "text": "The Indian Navy Rescues 20 Crew Members From Pirated Vessel Azini In 48-Hour Op",
-          "support_span": "Indian Navy Rescues 20 Crew Members From Pirated Vessel Azini In 48-Hour Op",
-          "status": "contradicted"
+          "text": "A 30-year-old Iranian Christian convert, Pegah Ansari, has petitioned the Madras High Court to direct the Foreigners Regional Registration Office in Chennai to clarify the procedure for obtaining an X-Miscellaneous visa.",
+          "support_span": "A 30-year-old Iranian woman, reportedly born in a Zoroastrian family but forced to practice Islam in her country before converting to Christianity, has approached the Madras High Court seeking a direction to the Foreigners Regional Registration Office (FRRO) in Chennai to explain to her the procedure for obtaining X-Miscellaneous Visa so that she could step out of a special camp for foreigners in Tiruchi.",
+          "status": "entailed"
         },
         {
-          "text": "The operation also highlighted the coordination between the Indian Navy and the Indian Air Force.",
-          "support_span": "The operation also highlighted the coordination between the Indian Navy and the Indian Air Force.",
-          "status": "entailed"
+          "text": "After obtaining refugee status from the UNHCR in March 2025, she was arrested in December 2025 for overstaying her visa and subsequently placed in a special camp for foreigners in Tiruchi following bail granted in a criminal case.",
+          "support_span": "The petitioner said and claimed to have obtained refugee status from the United Nations High Commissioner for Refugees in March 2025... The petitioner was lodged at the women’s prison at Puzhal near Chennai until the Kanniyakumari Principal District and Sessions Court granted her bail on January 29, 2026. Thereafter, the petitioner was shifted to the Tiruchi special camp for foreigners",
+          "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 25.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "50ea0078d977fdf9",
-        "5d5bad80c8eb72db"
+        "ec13a33785d0f756"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/indian-navy-rescues-20-crew-members-from-pirated-vessel-azini-in-48-hour-op-12274172#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        },
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/indian-navy-rescues-all-20-crew-of-pirated-fishing-vessel-in-arabian-sea-12273779#publisher=newsstand",
-          "domain": "ndtv.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/iranian-woman-moves-madras-high-court-wanting-to-know-procedure-for-obtaining-x-miscellaneous-visa/article71661946.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T21:55:18+00:00",
+      "published": "2026-11-03T20:43:21+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "340e7cec038319f5",
+      "title": "Hackers Use Malicious VHDX Files and WebDAV Links to Infect Windows Devices With PapRAT Malware",
+      "category": "cyber_attacks",
+      "one_liner": "BITTER APT is deploying the PapRAT remote access trojan using VHDX files and WebDAV links to target critical infrastructure in South Asia.",
+      "tags": [
+        "exploit",
+        "malware",
+        "network",
+        "political",
+        "privacy",
+        "redteam",
+        "threat-actor",
+        "tool"
+      ],
+      "summary": "The South Asia-based threat group BITTER is targeting government, energy, and engineering organizations with a new remote access trojan called PapRAT. The campaign utilizes sophisticated infection chains, including weaponized VHDX virtual disk images and WebDAV links, to bypass security controls and execute malicious scripts. PapRAT masquerades as a Microsoft component to maintain persistence and communicates with C2 servers via HTTP. Researchers identified three distinct infection methods, one of which avoids dropping traditional executable files by abusing built-in Windows tools like ftp.exe and curl.",
+      "key_facts": [
+        "Malware name: PapRAT",
+        "Threat actor: BITTER",
+        "C2 encoding: XOR key 0x50"
+      ],
+      "bottom_line": "The abuse of native Windows features like VHDX mounting and WebDAV for malware delivery demonstrates a continued shift toward 'living-off-the-land' techniques that bypass traditional signature-based security.",
+      "claims": [
+        {
+          "text": "The South Asia-based threat group BITTER is targeting government, energy, and engineering organizations with a new remote access trojan called PapRAT.",
+          "support_span": "The campaign uses Windows disk images, shortcut files, and remote web folders to avoid easy detection. The activity points to BITTER, a group believed to be based in South Asia and active since at least 2013.",
+          "status": "entailed"
+        },
+        {
+          "text": "The campaign utilizes sophisticated infection chains, including weaponized VHDX virtual disk images and WebDAV links",
+          "support_span": "The second infection chain starts with a VHDX file, which is a virtual hard disk image that Windows can mount like a USB drive. ... The third chain uses WebDAV, a Windows feature that lets a computer open files on a remote web server as if they were local.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "340e7cec038319f5",
+        "cfd4227a75ab4379",
+        "ddae7690f94f91d9"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Cyber Press",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxc2ZrWGFpZktiQlI2RDJYZGJodEZHRkpJdm1Ga0hiNVotZEVyNDNvUGpMWTV4UmtsRmpHSEE4amIxcTZ4Q2xCMkJDdkI3STFWVzBtOHo0dDZMX0prek5sYVo1T0N1bnPSAWdBVV95cUxQcXNma1hhaWZLYkJSNkQyWGRiaHRGR0ZKSXZtRmtIYjVaLWRFcjQzb1BqTFk1eFJrbEZqR0hBOGpiMXE2eENsQjJCQ3ZCN0kxVlcwbTh6NHQ2TF9Ka3pObGFaNU9DdW5z?oc=5",
+          "domain": "cyber-press.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WU3BTVld0YUQ5clJHeVNXejNwS0RybjRwbHA5Y09Nd0Z0YjNqZmNxYUpnMl9IZWx5cnJBdDhXWEJyOEpRSk5HX2Vic3ZXUnBvdXFlZlVRVkoyek54MmtLMHBtdGRIOXJORy1UMXBsdTjSAXZBVV95cUxQLUpZemdKTWR1eXhaVFdlRWFOZnI4Sm5LUlRLUloyeFd5eXRjMnZIOGl4aVhtQkN2YmdPMG10Vml0VEdPV3ZFWEZGcE9ld3VOM1V6QU1XNDFCZUlMN3BQdVF5cldzaVoydm1RN2M0ay1rY3NDX1JR?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Hackread",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JYlgxQWQ1am1WTGRNZHlOeVRybHJxUUc3ZkhMaW1QMERJY2RnS3dLX3ZDZTdmQ1Q0Yndpam5fNVMyWU9nQ19neTB2YTFmMGdvQ2g2ZjZFbmwxNnNOZnpjVm5fc1QzeFlLV0JyakZtbmF4T01MRDhqbE1Pb0VjQQ?oc=5",
+          "domain": "hackread.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-02T14:02:32+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "310fe7a6e4c306a2",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "category": "cyber_attacks",
+      "one_liner": "LLMjacking attacks are fraudulently consuming enterprise cloud AI resources, costing organizations up to $1 million in charges.",
+      "tags": [
+        "ai",
+        "cloud",
+        "incident",
+        "llm",
+        "redteam",
+        "threat-actor",
+        "threat-intel"
+      ],
+      "summary": "Google warned that threat actors are exploiting enterprise LLM access through a tactic called 'LLMjacking' to hijack expensive computing resources, generating fraudulent cloud charges exceeding $100,000 in a single day and up to $1 million cumulatively. Attackers obtain API keys and identity tokens via phishing, code repository leaks, misconfigured environments, and compromised service account keys like those used by threat actor UNC6993. These attacks impact financial services, retail, technology, and transportation sectors globally.",
+      "key_facts": [
+        "Threat actor: UNC6993",
+        "Max single-day fraudulent charges: $100,000+",
+        "Cumulative enterprise charges: Up to $1 million"
+      ],
+      "bottom_line": "Stolen API tokens and misconfigured cloud credentials are being exploited in LLMjacking campaigns to run unauthorized workloads at massive financial cost.",
+      "claims": [
+        {
+          "text": "Google warned that threat actors are hijacking enterprise access to Large Language Models to fraudulently leverage expensive computing resources and AI services.",
+          "support_span": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.",
+          "status": "entailed"
+        },
+        {
+          "text": "LLMjacking can generate large spikes in fraudulent cloud charges in a matter of hours, exceeding $100,000 USD in a single day and $1 million USD cumulatively.",
+          "support_span": "“Unlike the gradual resource consumption associated with cryptojacking, LLMJacking can generate large spikes in fraudulent cloud charges in a matter of hours,” Google Threat Intelligence Group and Mandiant said in a report shared with The Hacker News. [...] “Across individual incidents, we observed fraudulent charges associated with resource consumption exceeding $100,000 USD in a single day, with cumulative charges at some organizations reaching $1 million USD before access was revoked.”",
+          "status": "contradicted"
+        },
+        {
+          "text": "Threat actor UNC6993 breached a cloud instance through a misconfigured Service Account key and used it to obtain access to an LLM API.",
+          "support_span": "This includes a threat actor called UNC6993, which is said to have breached a cloud instance through a misconfigured Service Account key and used it to obtain access to an LLM API.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 49,
+      "interest_score": 100,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "310fe7a6e4c306a2",
+        "dc708c594c49ad5c",
+        "dfb0e62228255aa1"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+          "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/llmjacking-cost-business-1m-warns/",
+          "domain": "infosecurity-magazine.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T10:45:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "fd20acb16e247cc3",
+      "title": "CVE-2026-121727 - Kore before 4.3.0 Integer Underflow Memory Exhaustion via http_header_recv()",
+      "category": "cyber_attacks",
+      "one_liner": "An integer underflow vulnerability in Kore prior to 4.3.0 permits unauthenticated memory exhaustion via malformed HTTP requests.",
+      "tags": [
+        "cve",
+        "exploit",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "An integer underflow vulnerability exists in Kore prior to version 4.3.0 within HTTP request body handling via http_header_recv(). Unauthenticated attackers can exploit this flaw by sending oversized initial segments across concurrent POST, PUT, or DELETE connections, wrapping the content_length variable to grow internal buffers unbounded. This mechanism leads directly to worker memory exhaustion. Public proof-of-concept exploits have been tracked on GitHub.",
+      "key_facts": [
+        "Vulnerable product: Kore",
+        "Affected versions: before 4.3.0",
+        "Vulnerability type: Integer Underflow"
+      ],
+      "bottom_line": "Unauthenticated attackers can exhaust Kore web server memory via integer underflows in HTTP body length calculations if left unpatched.",
+      "claims": [
+        {
+          "text": "An integer underflow vulnerability exists in Kore prior to version 4.3.0 within HTTP request body handling via http_header_recv().",
+          "support_span": "CVE-2026-121727 Kore before 4.3.0 contains an integer underflow vulnerability in HTTP request body handling that allows unauthenticated attackers to bypass http_body_max by sending more body bytes than declared.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Unauthenticated attackers can exploit this flaw by sending oversized initial segments across concurrent POST, PUT, or DELETE connections, wrapping the content_length variable to grow internal buffers unbounded.",
+          "support_span": "Attackers can send oversized first segments over many concurrent POST, PUT or DELETE connections, wrapping content_length to grow buffers unbounded and exhaust worker memory.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "fd20acb16e247cc3"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-121727",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T23:17:36+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "4fc0c7587e790d98",
+      "title": "Open models can do 90% of agentic work at a twentieth of the cost of a frontier LLM: Gartner",
+      "category": "tech_ai",
+      "one_liner": "Gartner finds open models handle 90% of agentic work cheaply, as critical updates highlight ongoing zero-day SharePoint attacks.",
+      "tags": [
+        "agents",
+        "ai",
+        "cloud",
+        "exploit",
+        "malware",
+        "ransomware",
+        "tool",
+        "vulnerability"
+      ],
+      "summary": "Gartner reports that open-source AI models can handle 90% of agentic work at a fraction of the cost of frontier LLMs. Meanwhile, Anthropic's quarterly revenue approaches $17 billion while total compute expenditures continue to escalate. In other developments, a zero-day vulnerability in on-premises SharePoint remains unpatched by recent Microsoft fixes, and researchers have created an open-source VMware migration replacement named OpenVDDK.",
+      "key_facts": [],
+      "bottom_line": "Open-source models offer a low-cost alternative for the vast majority of agentic workloads compared to proprietary frontier LLMs.",
+      "claims": [
+        {
+          "text": "Gartner reports that open-source AI models can handle 90% of agentic work at a fraction of the cost of frontier LLMs.",
+          "support_span": "Open models can do 90% of agentic work at a twentieth of the cost of a frontier LLM: Gartner",
+          "status": "contradicted"
+        },
+        {
+          "text": "Microsoft patches failed to fix on-premises SharePoint, which is now under zero-day attack.",
+          "support_span": "Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "4fc0c7587e790d98"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOODVlRjd6M3VCWTZXV05HbzBrVi1xTHA2T2txUHZqaUdscF8wSDktMXJNUDE5aU04cVIxU0IzUWNYREp6U2lDTlN3cnhZa044TmdOaFo3Slh5bFptOHAweGhOajA2Ui1BSkJpWTUydE5GXzlweWRfbWNoUDFrQXFqUFNzTUE5aEVKRDZrZnd0eXpIWU9lWTM4bFhqQnZWRXdKbzR5clF4TU8wSXEyWVNHWHpTcklDSXZrRFpoazBuMld0Mk1hSDNrQ2hRMXZLMzJjblNTQkpkQ2s0djB0NzdiNw?oc=5",
+          "domain": "theregister.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T06:19:50+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "a422db8db3880e1a",
+      "title": "I've updated my Linux System Call website after a long time (originally released in 2020).",
+      "category": "cyber_tools",
+      "one_liner": "The Linux System Call reference site has been updated with detailed architecture tables, JSON endpoints, and API access.",
+      "tags": [
+        "howto",
+        "linux",
+        "opensource",
+        "release"
+      ],
+      "summary": "The author has updated their Linux System Call reference website, which was originally released in 2020. The platform provides comprehensive architecture tables with complete historical data on when each system call appeared or was deprecated, accessible as plain JSON files at /<arch>/syscalls.json. It includes calling convention guides across x64, arm64, and riscv64 architectures, a programmatic API, kernel release diffs, and an Emacs integration package named syscall.el.",
+      "key_facts": [
+        "Original release year: 2020"
+      ],
+      "bottom_line": "Developers needing precise historical Linux system call metadata can utilize updated JSON tables and programmatic APIs.",
+      "claims": [
+        {
+          "text": "The author has updated their Linux System Call reference website, which was originally released in 2020.",
+          "support_span": "I've updated my Linux System Call website after a long time (originally released in 2020).",
+          "status": "contradicted"
+        },
+        {
+          "text": "The platform provides comprehensive architecture tables with complete historical data on when each system call appeared or was deprecated, accessible as plain JSON files at /<arch>/syscalls.json.",
+          "support_span": "Every architecture's table, with the full history of when each syscall appeared and when it was dropped, is also a plain JSON file at /<arch>/syscalls.json, for example /x64/syscalls.json.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 21.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "a422db8db3880e1a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "SecHarvester",
+          "url": "https://syscall.sh/",
+          "domain": "syscall.sh",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-02T18:09:22+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0b735296722be566",
+      "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+      "category": "cyber_attacks",
+      "one_liner": "Palo Alto Networks published its October 2026 monthly Chromium vulnerability advisory.",
+      "tags": [
+        "cve",
+        "network",
+        "vulnerability"
+      ],
+      "summary": "Palo Alto Networks issued security advisory PAN-SA-2026-0013 covering monthly Chromium vulnerabilities for October 2026. The advisory notes that no special configuration is required to be affected, no malicious exploitation has been observed by Palo Alto Networks, and no known workarounds exist.",
+      "key_facts": [
+        "Advisory ID: PAN-SA-2026-0013",
+        "Severity: HIGH"
+      ],
+      "bottom_line": "Administrators must review PAN-SA-2026-0013 to address underlying Chromium vulnerability updates affecting applicable Palo Alto products.",
+      "claims": [
+        {
+          "text": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+          "support_span": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 94,
+      "interest_score": 50,
+      "corroboration": 3,
+      "blend": 68.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "0b735296722be566",
+        "1371378320894b62",
+        "1c35dd7b73b173bc",
+        "55c749434d6156fe",
+        "717e0e4b43f25db9",
+        "9d27bafc3217f5c4",
+        "b1a3e44cbbf34a02",
+        "fe24e90c026d7a69"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Debian DSA",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00524.html",
+          "domain": "lists.debian.org",
+          "tier": "A"
+        },
+        {
+          "name": "Debian DSA",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00525.html",
+          "domain": "lists.debian.org",
+          "tier": "A"
+        },
+        {
+          "name": "Debian DSA",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00523.html",
+          "domain": "lists.debian.org",
+          "tier": "A"
+        },
+        {
+          "name": "Debian DSA",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00521.html",
+          "domain": "lists.debian.org",
+          "tier": "A"
+        },
+        {
+          "name": "Debian DSA",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00520.html",
+          "domain": "lists.debian.org",
+          "tier": "A"
+        },
+        {
+          "name": "Debian DSA",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00519.html",
+          "domain": "lists.debian.org",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        },
+        {
+          "name": "ZDI Blog",
+          "url": "https://www.thezdi.com/blog/2026/10/13/the-october-2026-security-update-review",
+          "domain": "thezdi.com",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://lists.debian.org/debian-security-announce/2026/msg00519.html",
+        "https://lists.debian.org/debian-security-announce/2026/msg00520.html",
+        "https://lists.debian.org/debian-security-announce/2026/msg00521.html",
+        "https://lists.debian.org/debian-security-announce/2026/msg00523.html",
+        "https://lists.debian.org/debian-security-announce/2026/msg00524.html",
+        "https://lists.debian.org/debian-security-announce/2026/msg00525.html",
+        "https://security.paloaltonetworks.com/PAN-SA-2026-0013"
+      ],
+      "published": "2026-10-13T19:34:30+00:00",
+      "trace": [
+        "tier A (+40)",
+        "3 independent outlets (+24)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from cache",
+        "blend 68 = trust 94 / interest 50 / corrob 75",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "2e3177dc9cbba6dd",
+      "title": "Digital forensics help detectives identify suspect in unsolved San Antonio murder case",
+      "category": "cyber_tools",
+      "one_liner": "Digital forensics helped San Antonio detectives identify and arrest a suspect for disposing of a victim's body in a 2018 cold case.",
+      "tags": [
+        "dfir",
+        "incident",
+        "tool"
+      ],
+      "summary": "Bexar County Sheriff's Office detectives have arrested 24-year-old Joey Emiliano Tovar-Vargas in connection with the 2018 murder and disappearance of 20-year-old Meagan Gonzales, whose burned body was found wrapped in a blanket. Although investigators lacked sufficient evidence to link him directly to the homicide, digital forensics and electronic data enabled authorities to charge him with tampering with evidence for disposing of the victim's body. Tovar-Vargas is also facing unrelated charges for aggravated assault with a deadly weapon and a parole violation.",
+      "key_facts": [
+        "Suspect age: 24",
+        "Victim age: 20"
+      ],
+      "bottom_line": "Digital forensic evidence can fill critical investigative gaps in cold cases, enabling arrests for evidence tampering even when homicide charges are pending further proof.",
+      "claims": [
+        {
+          "text": "Bexar County Sheriff's Office detectives have arrested 24-year-old Joey Emiliano Tovar-Vargas in connection with the 2018 murder and disappearance of 20-year-old Meagan Gonzales, whose burned body was found wrapped in a blanket.",
+          "support_span": "SAN ANTONIO - A San Antonio family is thanking the Bexar County Sheriff's Office for making an arrest in a six-year-old cold case.",
+          "status": "entailed"
+        },
+        {
+          "text": "Although investigators lacked sufficient evidence to link him directly to the homicide, digital forensics and electronic data enabled authorities to charge him with tampering with evidence for disposing of the victim's body.",
+          "support_span": "What we can prove at this point is that he disposed of her body, Sheriff Salazar said. For now, Vargas is charged with tampering with evidence.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "2e3177dc9cbba6dd"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "KABB",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONnRwd1U5VTZqemw5WXVjb3BkQTNLUlVCemRkaVY4U0paUUNILUxoS015NFhCdjBiZWl1dW5aQk1tbVQxWDVCVHNGekFmVFlUX3FFckEyY2JSM0JsNzYteDdDUU1HRGRNa3JhMzVkeXo1LUdhVWd4X3UwNmhVLUJ6UFE5YXdQV3djbEUtcnZScU1aNXl1WU1lUGlSMjZ6bnF5ZW55ZnNySmY0M01rdVJpekdpU29xbWpxUm1yOXFzTEw?oc=5",
+          "domain": "kabb.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T04:53:34+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "ba93e1d848899139",
+      "title": "CVE-2022-29966 - Emerson Ovation Missing Authentication for Critical Functionality",
+      "category": "cyber_attacks",
+      "one_liner": "CVE-2022-29966 exposes Emerson Ovation industrial controllers to unauthenticated configuration changes and denial-of-service attacks.",
+      "tags": [
+        "cve",
+        "network",
+        "vulnerability"
+      ],
+      "summary": "Emerson Ovation industrial control systems suffer from a missing authentication vulnerability tracked as CVE-2022-29966. The flaw exists in multiple unauthenticated protocols used by the system, allowing network-adjacent or remote attackers to modify controller configurations or trigger a denial-of-service condition. Security advisories and common weakness enumerations have been published to assist operators in identifying exposure.",
+      "key_facts": [
+        "CVE-2022-29966: Missing authentication for critical functionality"
+      ],
+      "bottom_line": "Industrial environments utilizing Emerson Ovation systems face control-plane risks due to unauthenticated management protocols.",
+      "claims": [
+        {
+          "text": "Emerson Ovation industrial control systems suffer from a missing authentication vulnerability tracked as CVE-2022-29966.",
+          "support_span": "CVE-2022-29966 - Emerson Ovation Missing Authentication for Critical Functionality",
+          "status": "contradicted"
+        },
+        {
+          "text": "The flaw exists in multiple unauthenticated protocols, allowing an attacker to change controller configurations or cause a denial-of-service condition.",
+          "support_span": "Emerson Ovation has several protocols that have no authentication, which could allow an attacker to change controller configuration or cause a denial-of-service condition.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "ba93e1d848899139",
+        "e2bf26e798f36187"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2022-29966",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2022-30267",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T23:17:20+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "15fea1a2f448b4bc",
+      "title": "Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings",
+      "category": "tech_ai",
+      "one_liner": "A new diagnostic tool helps you predict how your LLM's quality will actually shift as you increase proxy optimization strength.",
+      "tags": [
+        "ai",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers have developed PACE (Proxy Alignment and Curvature Expansion), a diagnostic tool designed to predict how human-perceived quality changes as proxy optimization strength increases. By modeling optimization as a KL-regularized exponential tilt, the method estimates first-order alignment and second-order correction coefficients from repeated human ratings. This approach consistently reduces prediction errors compared to simpler baselines across various datasets and model types. The diagnostic provides a local, one-sided view of optimization, helping developers better understand the impact of their proxy-based training.",
+      "key_facts": [
+        "Method: Proxy Alignment and Curvature Expansion (PACE)",
+        "Model: KL-regularized exponential tilt",
+        "Local gain approximation: A*sqrt(d) + B*d"
+      ],
+      "bottom_line": "Average proxy-human correlation is insufficient to predict quality outcomes, making PACE a necessary pre-optimization step for reliable model tuning.",
+      "claims": [
+        {
+          "text": "We propose PACE (Proxy Alignment and Curvature Expansion), a pre-optimization diagnostic that uses repeated human ratings to predict the human-gain curve induced by a fixed proxy.",
+          "support_span": "We propose PACE (Proxy Alignment and Curvature Expansion), a pre-optimization diagnostic that uses repeated human ratings to predict the human-gain curve induced by a fixed proxy.",
+          "status": "entailed"
+        },
+        {
+          "text": "PACE consistently reduces held-out gain-prediction error relative to A-only, zero-gain, and reliability-only baselines.",
+          "support_span": "PACE consistently reduces held-out gain-prediction error relative to A-only, zero-gain, and reliability-only baselines.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "15fea1a2f448b4bc"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.41114",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.41114"
+      ],
+      "published": "2026-11-02T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "52e6d9ccc68c9893",
+      "title": "LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction",
+      "category": "tech_ai",
+      "one_liner": "LEAP is an efficient, adaptive length prediction system that reduces LLM serving latency through asynchronous CPU execution.",
+      "tags": [
+        "ai",
+        "hardware",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "Length-aware scheduling improves request latency in LLM serving by prioritizing shorter requests, but length predictors often suffer accuracy drops under domain shifts and incur heavy computational overhead. To address this, researchers introduced LEAP, an efficient length prediction system featuring fast online adaptation and asynchronous CPU execution. LEAP reuses the serving model's prefill hidden states via a linear readout and updates parameters at test time using recursive least squares without gradient computations. Serving experiments demonstrated that LEAP reduces average per-token latency by up to 40.8% while achieving higher throughput with significantly fewer parameters than baseline models.",
+      "key_facts": [
+        "Latency Reduction: 15.9-40.8% lower per-token latency",
+        "Throughput: 1.9% higher throughput",
+        "Parameter Reduction: 30,569× fewer predictor parameters than baseline"
+      ],
+      "bottom_line": "Reusing prefill hidden states for online length prediction enables fast scheduling optimization and lowers LLM serving latency without costly retraining.",
+      "claims": [
+        {
+          "text": "To improve the generalization and efficiency of length-aware scheduling, we propose \\textbf{LEAP}, a length prediction system with fast online adaptation and asynchronous CPU execution.",
+          "support_span": "To improve the generalization and efficiency of length-aware scheduling, we propose \\textbf{LEAP}, a length prediction system with fast online adaptation and asynchronous CPU execution.",
+          "status": "entailed"
+        },
+        {
+          "text": "Serving experiments show that LEAP reduces average per-token latency by 15.9--40.8% compared with the evaluated length predictors, while achieving 1.9% higher throughput with $30{,}569\\times$ fewer predictor parameters than the strongest evaluated baseline.",
+          "support_span": "Serving experiments show that LEAP reduces average per-token latency by 15.9--40.8% compared with the evaluated length predictors, while achieving 1.9% higher throughput with $30{,}569\\times$ fewer predictor parameters than the strongest evaluated baseline.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "52e6d9ccc68c9893"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.41359",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.41359"
+      ],
+      "published": "2026-11-02T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1541,68 +2104,60 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "4e0f7f22ef71a5be",
-      "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
-      "category": "tech_ai",
-      "one_liner": "SecPO combines adversarial training with a principled loss function to drastically reduce prompt injection success rates in LLM agents.",
+      "cluster_key": "30abeb2845e340ca",
+      "title": "Supreme Court Pauses Mumbai Civic Body Chief's Salary Over Encroachments",
+      "category": "india_world",
+      "one_liner": "The Supreme Court pauses the salary of Mumbai Civic Body Chief Ashwini Bhide due to encroachments.",
       "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "research",
-        "tool"
+        "india",
+        "policy",
+        "political"
       ],
-      "summary": "To address prompt injection vulnerabilities in AI agents, researchers introduced SecPO, a theoretically principled training loss designed to resolve shortcomings in methods like Meta-SecAlign which rely on Direct Preference Optimization and weak simulated attacks. The authors implemented an efficient adversarial training pipeline that synthesizes strong injected inputs at scale. The combined SecPO loss and adversarial training pipeline reduced attack success rates by 1.5 to 14.5 times across state-of-the-art adaptive attacks, lowering AgentDojo ASR on Qwen3.6-27B to 8.8% under the AttackerMovesSecond attack compared to 78.8% for Meta-SecAlign. Furthermore, the defended model demonstrated no noticeable degradation in utility across standard benchmarks.",
+      "summary": "The Supreme Court paused the salary of Mumbai Civic Body Chief Ashwini Bhide over unresolved encroachments.",
       "key_facts": [
-        "AgentDojo ASR reduction: 8.8% vs 78.8%",
-        "Model evaluated: Qwen3.6-27B"
+        "Official: BMC Commissioner Ashwini Bhide"
       ],
-      "bottom_line": "SecPO and principled adversarial training significantly reduce prompt injection vulnerability in LLM agents without degrading task utility.",
+      "bottom_line": "The Supreme Court has halted the salary of BMC Commissioner Ashwini Bhide concerning municipal encroachments.",
       "claims": [
         {
-          "text": "In agentic workflows, our SecPO + AT Qwen3.6-27B is much more secure than Meta-SecAlign: 8.8% vs. 78.8% AgentDojo ASR@800 under the AttackerMovesSecond attack.",
-          "support_span": "In agentic workflows, our SecPO + AT Qwen3.6-27B is much more secure than Meta-SecAlign: 8.8% vs. 78.8% AgentDojo ASR@800 under the Infielder-style / AttackerMovesSecond attack.",
+          "text": "Supreme Court Pauses Mumbai Civic Body Chief's Salary Over Encroachments",
+          "support_span": "Supreme Court Pauses Mumbai Civic Body Chief's Salary Over Encroachments",
           "status": "contradicted"
         }
       ],
-      "trust_score": 70,
-      "interest_score": 75,
+      "trust_score": 25,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 25.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "4e0f7f22ef71a5be"
+        "30abeb2845e340ca"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2610.41998",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/supreme-court-pauses-mumbai-civic-body-chiefs-salary-over-encroachments-12278939#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2610.41998"
-      ],
-      "published": "2026-11-02T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-03T18:56:21+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1665,73 +2220,287 @@
       "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "9faf1e6a287cfb8f",
-      "title": "rul-lang/rul — The Rul Programming Language For AI/SI Agents.",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "90434de3bbaef778",
+      "title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+      "category": "cyber_attacks",
+      "one_liner": "Track the TTPs of Gorbag, a Russia-aligned initial access broker targeting Ukrainian defense and law enforcement using spearphishing and CVE-2025-8088.",
       "tags": [
-        "agents",
-        "ai",
-        "linux",
-        "opensource"
+        "cve",
+        "dfir",
+        "exploit",
+        "incident",
+        "malware",
+        "network",
+        "threat-actor",
+        "vulnerability"
       ],
-      "summary": "\"A programming language where humans never need to learn the syntax—and even its creator doesn't need to know or type its syntax. Eliminate ASCII source code and compiler search passes with a 128-bit Schedule- and Proof-Carrying Binary Graph (.rl).\" — Tran Trong Tri (Tymon Tran), Creator of Rul Rul (.rl — Rule-Carrying Unified Linear Graph) is a new programming language and execution engine designed from first principles for Autonomous AI Agents operating on high-throughput Dataflow, Vector & Columnar Compute Kernels. Install the standalone rul binary and create, verify, AOT-compile, run, and white-box trace a pure .rl project in 30 seconds—without Cargo.toml or rustc: 1. Install the standa…",
+      "summary": "ESET researchers have detailed Gorbag, a Russia-aligned threat actor active since February 2025 that exclusively targets Ukrainian law enforcement, local administrations, and the defense sector. The group relies on spearphishing emails to deliver a lightweight toolset consisting of Prime ReverseShell and BeautyStealer for rapid, one-time information harvesting before wiping its traces. In early 2026, the group updated its intrusion chain to abuse CVE-2025-8088, a WinRAR path traversal vulnerability. Because of its short-lived access method, researchers believe Gorbag operates as an initial access broker for other Russian actors.",
+      "key_facts": [
+        "Threat Actor: Gorbag",
+        "Active Since: February 2025",
+        "Malware: Prime ReverseShell, BeautyStealer",
+        "Vulnerability: CVE-2025-8088"
+      ],
+      "bottom_line": "Gorbag acts as an initial access broker against Ukrainian defense and law enforcement using lightweight stealers and WinRAR exploits.",
+      "claims": [
+        {
+          "text": "Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector.",
+          "support_span": "Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector.",
+          "status": "entailed"
+        },
+        {
+          "text": "In early 2026, the group updated its compromise chain to abuse CVE-2025-8088, a WinRAR path traversal vulnerability discovered and reported by ESET Research.",
+          "support_span": "In early 2026, the group updated its compromise chain to abuse CVE-2025-8088, a WinRAR path traversal vulnerability discovered and reported by ESET Research.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 58.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "90434de3bbaef778",
+        "95b9ff61756ee693"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "WeLiveSecurity",
+          "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/",
+          "domain": "welivesecurity.com",
+          "tier": "B"
+        },
+        {
+          "name": "WeLiveSecurity",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSzRCQ25rWmlubGs3eVZjQzRmdjVpTWZ2cUItYTViWl8yQk9aY01fT0lvUDZGWk1uY3lxQmVQZGw0bk14Q25mNTE1dUhGb0c4Y1dKMWRyc1V3Y1g5LTdqT1VaUE9aNkEzM19WbEh5TFk0YllydjI3RDc1bEVqM2d0WGNaNVZFa3dtS0wyZWRoZHRtM18yR0JRRldyeGVjWUNu?oc=5",
+          "domain": "welivesecurity.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T09:50:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 58 = trust 37 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "1802721ebc5f02c3",
+      "title": "The latest AI news we announced in October 2026",
+      "category": "tech_ai",
+      "one_liner": "Google announces Gemini 4 Argon and Carbon models, Genie 4 simulation, and new Android AI scam safeguards.",
+      "tags": [
+        "ai",
+        "android",
+        "hardware",
+        "llm",
+        "release",
+        "research"
+      ],
+      "summary": "Google outlined its October 2026 AI updates, highlighting the global rollout of Gemini 4 Argon for complex reasoning workflows and the pre-release testing of Gemini 4 Carbon focused on cybersecurity defense. Additional announcements include the release of Genie 4 for real-time interactive world simulation, global English expansion of the SynthID Detector for watermarked AI content verification, and an opt-in Enhanced protection mode in Google Messages powered by Private AI Compute to catch sophisticated conversational scams on Android.",
+      "key_facts": [
+        "Models: Gemini 4 Argon, Gemini 4 Carbon",
+        "Platform: Android"
+      ],
+      "bottom_line": "Google's rollout of advanced reasoning models and AI-driven mobile security features expands defenses against sophisticated threats.",
+      "claims": [
+        {
+          "text": "After rolling out Gemini 4 Argon — a frontier reasoning model — to developers, enterprises, scientists, and consumers, we announced Gemini 4 Carbon, our strongest model yet for long-horizon engineering and cybersecurity defense.",
+          "support_span": "After rolling out Gemini 4 Argon — a frontier reasoning model — to developers, enterprises, scientists, and consumers, we announced Gemini 4 Carbon, our strongest model yet for long-horizon engineering and cybersecurity defense.",
+          "status": "entailed"
+        },
+        {
+          "text": "Now, Android is introducing an opt-in Enhanced protection mode in Google Messages that uses Private AI Compute and our latest cloud Gemini models to catch sophisticated conversational scams,…",
+          "support_span": "Now, Android is introducing an opt-in Enhanced protection mode in Google Messages that uses Private AI Compute and our latest cloud Gemini models to catch sophisticated conversational scams,„",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 82,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "1802721ebc5f02c3",
+        "da6fe18966d3c739"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+          "domain": "blog.google",
+          "tier": "A"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+          "domain": "securityweek.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+      ],
+      "published": "2026-11-02T15:01:11+00:00",
+      "trace": [
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 82 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "21c886c0a6f5babb",
+      "title": "Tamil Nadu Launches Energy Policy To Overcome Power Issues",
+      "category": "india_world",
+      "one_liner": "New regional energy policies in Tamil Nadu offer financial relief to address local power distribution challenges.",
+      "tags": [
+        "india",
+        "policy",
+        "release"
+      ],
+      "summary": "The Tamil Nadu government has launched a new energy policy designed to resolve ongoing power issues across the state. The policy provides substantial financial reliefs for participants within the energy sector.",
       "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
+      "bottom_line": "Tamil Nadu introduced an energy policy offering substantial financial relief measures to overcome state power issues.",
+      "claims": [
+        {
+          "text": "Tamil Nadu Launches Energy Policy To Overcome Power Issues",
+          "support_span": "Tamil Nadu Launches Energy Policy To Overcome Power Issues",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
       "interest_score": 0,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 13.8,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "9faf1e6a287cfb8f"
+        "21c886c0a6f5babb"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/rul-lang/rul",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/tamil-nadu-launches-energy-policy-to-overcome-power-issues-12278358#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-28T02:48:56+00:00",
+      "published": "2026-11-03T16:04:18+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
       ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "2e8ace54f3f59a35",
-      "title": "Three AAP leaders join BJP ahead of Punjab Assembly election",
-      "category": "india_world",
-      "one_liner": "Three prominent AAP legislators defected to the BJP ahead of the Punjab Assembly elections, citing government failure on law and order.",
+      "cluster_key": "ef9dd7793638138b",
+      "title": "Capability-Grounded Agentic Planning",
+      "category": "tech_ai",
+      "one_liner": "Capability-Grounded Agentic Planning pairs classical PDDL planners with LLMs to eliminate trial-and-error failures in tool use.",
       "tags": [
-        "india",
-        "policy",
-        "political",
-        "ransomware"
+        "agents",
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
       ],
-      "summary": "The Aam Aadmi Party (AAP) suffered a major political blow ahead of the early 2027 Punjab Assembly election when three of its leaders—Kunwar Vijay Pratap, Harmeet Singh Pathanmajra, and Chetan Singh Jauramajra—joined the Bharatiya Janata Party (BJP) in New Delhi. Sanour MLA Pathanmajra and Samana MLA Jauramajra resigned citing unfulfilled 2022 election promises, while Amritsar North MLA Pratap resigned his legislative seat after criticizing the ruling government over rising drug abuse, extortion, and gangsterism. The defection highlights growing internal dissent and mounting political pressure on the ruling party in Punjab.",
+      "summary": "Standard LLM agents often rely on trial-and-error tool calling with no execution guarantees. Capability-Grounded Agentic Planning (CGAP) addresses this by compiling tool catalogs deterministically into PDDL models, turning natural-language requests into goals via an LLM, and solving the model with a classical planner. Because tool outputs are dynamic, the model uses abstract tracking, letting an LLM add entity-specific calls during execution while verifiers check results against the request. Across multiple benchmarks like ToolSandbox and ComplexFuncBench, CGAP outperforms standard tool-calling agents by up to 28.9 points.",
       "key_facts": [
-        "Date of defection: November 2, 2026",
-        "Upcoming election: Early 2027 Punjab Assembly election"
+        "Performance Gain: Up to 28.9 points",
+        "Benchmarks: ToolSandbox, ComplexFuncBench, BFCL multi-turn, tau^2-bench retail"
       ],
-      "bottom_line": "Political realignments in Punjab are accelerating as ruling party legislators defect ahead of the upcoming state elections.",
+      "bottom_line": "CGAP combines deterministic PDDL compilation with LLM verification to boost tool-calling agent performance by up to 28.9 points.",
       "claims": [
         {
-          "text": "The Aam Aadmi Party (AAP) on Monday (November 2, 2026) suffered a setback ahead of the Punjab Assembly election, due in early 2027, after three of its leaders — Kunwar Vijay Pratap, Harmeet Singh Pathanmajra and Chetan Singh Jauramajra — joined the Bharatiya Janata Party (BJP) in New Delhi.",
-          "support_span": "The Aam Aadmi Party (AAP) on Monday (November 2, 2026) suffered a setback ahead of the Punjab Assembly election, due in early 2027, after three of its leaders — Kunwar Vijay Pratap, Harmeet Singh Pathanmajra and Chetan Singh Jauramajra — joined the Bharatiya Janata Party (BJP) in New Delhi.",
+          "text": "With three LLMs on ToolSandbox, ComplexFuncBench, BFCL multi-turn, and \tau^2-bench retail, CGAP outperforms a standard tool-calling agent by up to 28.9 points.",
+          "support_span": "With three LLMs on ToolSandbox, ComplexFuncBench, BFCL multi-turn, and $\tau^2$-bench retail, CGAP outperforms a standard tool-calling agent by up to 28.9 points.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "ef9dd7793638138b"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.41040",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.41040"
+      ],
+      "published": "2026-11-02T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "5fea1f91ab39a6e8",
+      "title": "India set to simplify visa forms",
+      "category": "india_world",
+      "one_liner": "India's upcoming visa form simplification reduces application fields by 70% to boost foreign tourism.",
+      "tags": [
+        "india",
+        "policy"
+      ],
+      "summary": "The Indian government plans to simplify visa application forms starting next year to align with global standards and boost foreign tourist arrivals toward pre-COVID levels. The redesigned forms will eliminate redundant fields, reducing the number of fields by approximately 70% across all 22 visa categories. Changes include removing district requirements, easing local address rules to accept hotel or guest house addresses, and potentially expanding multi-language support.",
+      "key_facts": [
+        "Visa categories affected: 22",
+        "Field reduction: ~70%",
+        "2025 foreign tourist arrivals: 91.5 lakh"
+      ],
+      "bottom_line": "India is overhauling its visa application process by cutting fields by 70% across all 22 categories to attract more international tourists.",
+      "claims": [
+        {
+          "text": "The government is all set to simplify visa application forms to bring them at par with global standards, a senior government official told The Hindu.",
+          "support_span": "The government is all set to simplify visa application forms to bring them at par with global standards, a senior government official told The Hindu.",
           "status": "entailed"
         },
         {
-          "text": "Sanour MLA Mr. Pathanmajra and Samana MLA Mr. Jauramajra resigned from the party’s primary membership on Sunday (November 1, 2026).",
-          "support_span": "Sanour MLA Mr. Pathanmajra and Samana MLA Mr. Jauramajra resigned from the paper's primary membership on Sunday (November 1, 2026).",
+          "text": "“The forms will be leaner and the number of fields will be reduced by approximately 70%,” said the official.",
+          "support_span": "“The forms will be leaner and the number of fields will be reduced by approximately 70%,” said the official.",
           "status": "contradicted"
         }
       ],
@@ -1742,7 +2511,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "2e8ace54f3f59a35"
+        "5fea1f91ab39a6e8"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1750,13 +2519,13 @@
       "sources": [
         {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/punjab/three-aap-mlas-join-bjp-in-punjab/article71655539.ece",
+          "url": "https://www.thehindu.com/news/national/india-set-to-simplify-visa-forms/article71662331.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T17:31:06+00:00",
+      "published": "2026-11-03T18:17:46+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
@@ -1764,43 +2533,6 @@
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "25729edbaa8abbd4",
-      "title": "Google's Genie 4 world model: \"Scene: A Victorian high tea.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Google's Genie 4 world model: \"Scene: A Victorian high tea. Character: A mouse in appropriate garb.\" \"A porcupine walks by\" \"The mouse grows wings\" \"It flies\" This is realtime & I can walk around freely. It is glitchy, but also impossibly advanced compared to where we were a couple years ago.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "25729edbaa8abbd4"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myvqffe2d22q",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-28T02:47:49.493000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-28 — outside lookback window"
     }
   ]
 }
