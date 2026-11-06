@@ -1,262 +1,218 @@
 {
-  "generated_at": "2026-11-05T03:45:37.998463+00:00",
+  "generated_at": "2026-11-06T03:39:57.985253+00:00",
   "items": [
     {
-      "cluster_key": "0295166424babed2",
-      "title": "Revolve card breach: 1.5 million people may be affected",
-      "category": "cyber_attacks",
+      "cluster_key": "9e59172c14cf16a1",
+      "title": "Autopsy of a dead anti-cheat: rebuilding classic Valve Anti-Cheat (VAC) bit-for-bit in C++20 https://github.com/sapdragon/vac/blob/main/docs/writeup/WRITEUP.en.…",
+      "category": "cyber_tools",
       "one_liner": "",
       "tags": [
-        "incident",
-        "privacy"
+        "dfir",
+        "malware",
+        "network",
+        "opensource",
+        "tool",
+        "windows",
+        "writeup"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 49,
-      "interest_score": 75,
-      "corroboration": 3,
-      "blend": 68.5,
-      "is_new": false,
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0295166424babed2",
-        "04c1171a75bb3e83",
-        "0b9a3277fb97afc3",
-        "116c09358b0c3b1a",
-        "175d8e624cfb5329",
-        "1ab29b33814db395",
-        "1efca2caffecf165",
-        "24d32865db44510d",
-        "2d6432870bc303da",
-        "4049db367eb83ec6",
-        "728dd066a5c731cd",
-        "763e247503a45ad7",
-        "7c25498a70838bd8",
-        "7ef56e5758f51f32",
-        "81d6a89505d95427",
-        "845a2336af0a342c",
-        "991d798ef32ea535",
-        "a69caecd2b78a6a5",
-        "a949758c9a75d0a0",
-        "af8bea714b9fea3b",
-        "b378542a419780c8",
-        "b7fbd065d3da183a",
-        "bf3f65b670a449f5",
-        "d43a659a0bea2584",
-        "da5b67aa3d7ab58f",
-        "dd5af440500857f7",
-        "ef35f4c3cec59652",
-        "f9880bb37330b7aa",
-        "fba80ff145bc0e56"
+        "9e59172c14cf16a1"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Malwarebytes Labs",
-          "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/revolve-card-breach-1-5-million-people-may-be-affected",
-          "domain": "malwarebytes.com",
-          "tier": "B"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-          "domain": "securityweek.com",
-          "tier": "B"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YUzc4eHFTLXpVaEw5cWR3b0d3dTNZNUF0alZtMjJrZGdYdGZHVkgxVXc2dXBOQk82OXRkOVZQWnlsQ25EZUQ5ejZoeDFJLWI3NWNzUXNKQmdmWXRaTU10M1Q4Skw1Wm1kc3UzR1VQUWk?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbE1icnpQMTBUSDlHd09hYUozTUp3amRGLXVESkU0bDlRZng3SV9ZeDhvYUJlcnJkRFlPZU9XMW5Jck1aWFNlQTJtc2pRaFA1S002MnU0NjRNRUJLSmVEQVBoQTFUUFJpaEJfMmUtbm1Fc05jRi1Ma0lnS3E5bzdoSnBzemJPSDhnQUlxc2NsbmJaeXFF?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc2h2ZS1Jc3lOcGVDRGxFVWw4QXl1Z2xWNmdpd2tZaFJ4YUpxZFVfSVJyRXB3TXhGUXJuS2U5bW5FSDFsQ2psS1dyN3FsZ0ZrdnBkajlRZ1BRMlBjclFnOE10WVlXVU5sZDlRVFRUcUFHQ2pxWWZHdUctRGVpeVU2dw?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwSkxOZ3c1VXhrbDFQc0x1Wmhsd2ZpTjB3cVlmUjhvaE9ZcGRiaHJOYkRaZk84bVJZZ0V2THB1ZkE0NEpqcFA5bUVubVlfUFdtblFiaEJYcGlZdlByVGNDbVMxVQ?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdkJyVWIycmgtX0UycElNeG1aQkFBN2JWZXNHbTZtUi1EYjRUYWR6WGtsNjI3Tkc0R0RIbGNWU2NHeUNQSUJESi1tRXlfQjltaDM2Rmp4VVlfREVDOW1kZEY3R09MQ3RQNGEyNjl5VUJUQThpc0dvdzlpbDNjZDBObkhidGNWejk0eW9nTVd3?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORTdjUS1NZnpRaGNyVHJRaXdHOVZHb1gtWlRHR2gwdTFaOGVGbDZKdzR0UEhHZzJIUU5talVCcy0yeW5WNjVveDJBcVlINDRmNV9WM2s1UU90YXdIOEkza2phYi1nTFN1LXRRa3lLMVhucVl4SjBoYXZmOFBlX2Nxc09TQTk?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdVNHSTAwSFZia0hYQzcyYUkxbk1OWDdoY2M5d1FJQk1nZkR0WXdOWExfNzU2VFlSSzR6Qm1hMUJnay14Z1IwMVZ5RnVpSmhHNlRiNnJyUHRnOTYtVktJTEp6MW1RZWM0bFVFNDRISndZOXFpVVRkTjYzN0h1dDVZR2pDZw?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSndFemdWN2xza2p6VlhWNWE3U3FFa09QUF9xSjAzek5QZmVRUHpETHlSNWwtNHBzbUVRSTJwVDY2RWdFNWJfWG04NlBzRE00TjBCTndOZXdGNUlvQkJoTFFNY2dRZWFSRV9XdGZNa29ZQzZ3d3Z0UUxzN2x1Ql95cEs1bw?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNmQ3WExVQTBEQUFWMVFEdFFvVnZaT3RHS09IOUdCdW9ucm9wMUZRYndpdm9ZTklJT0xra2g0djdWVGVtbm5wMGJjcVloMTcwUy1kc0Y3YVlBX2dzRjdyR0hwUlVWNHkzTHhDQWZDZld0MjRZWnNjYlVLWlVpd2pPQ3hB?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WamxETFlMaDA3ejFqdFhmV2Q0d2YxTVNVVEZrQ1hIdDhXS05VWUtwU1Q4WVJGRFBNTENoTXFxUlZOZDZVY3JlMW11N3BiQkE2U3BpLUJ2Wmk4SWpSNGZLXzJpWktjcHhhZFJlUjZxbmV3U3NhdkZtTmJMbzU?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mNDBjN3ZKblNBdFA5OVFwS0tFMmlobmtGU3lhNnBqbnhLWURURDRUa25SRWVDdFdHSk5HaV9XVHhkbVhkNm16RXg5cmtjLW5CSVdxN3J1REpPQ1hBbk52V0FfZk1ISnNmU3V5U1F0bWRodHYyQkRJ?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Claim Depot",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBQTlPQXh2cW9kZUNKVWJUbzQ0bVVRSjM5dFZJV3E4UEM4Nk5vMEN2WWFEQlBVT0tWY0drZkhJS0JJenhiMGRsaTJmNlZ1TGR1YnQtSDdKOXhWVmYwZ1ZTZWotQmY5X3BaZWdJYm9zU3ZkdjQ?oc=5",
-          "domain": "claim-depot.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "ClassAction.org",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU09wTzhHeUhfWUVyZHhpZ2xndGNkS2lmNlh4VHFWS1FoSW5mU2RVbXcwTlBScjF5ZThVVERwV285NFdrcjAtRzMtT3dxYzZxNEtCV2k1MFdDbmVrOFNpY19YcFRHZ0JDYW9WVWhSRXBjcW9Bem9JY1hJajlxS2lUOFQyTGVXQ0tmRWo5SzJCXy1XS0NWeFFiRkR3?oc=5",
-          "domain": "classaction-org.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "ClassAction.org",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRTZzWnFzUHlmUmphQkJ1bzZIcUFBLXBUNEFreDhGdXVJbXBpRm1OS1NJZkdJQ0J2dTIyZTktOVhET3hfaXZwWWNkMkVGZUdsTjR6Y0E5Z0FjRjN0UlRPcE55VGh3UTlCU2h3UjFJYWwwS0ZIdEtjSld1NWNMM29ZYnkwaEYzbXhxdGNtM0hzRm5sUQ?oc=5",
-          "domain": "classaction-org.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "ClassAction.org",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOUVRSkF0aHpubnRNYnk5TW9KUmZPM2pIZGRmOUdjRURkOGl0U21mbU8xejZValYza0FzdnNheDNOQjNJVmFuY1BTRWlVMUg4TDZ5QWFUUjlQXzlrd1VocmFnTUowUnZGTkw4b3l5ZHN6UkEyVFRiakdCVzEyY29BNmVEOHJobUZyc0RVdjBsOVhxb1FUamN0WVRGaW1VcGlnVHkxT2FlbnA5Zw?oc=5",
-          "domain": "classaction-org.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Gizmodo",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNS0VEQnBmdGFVWWJmQ0owMkFSUDU0ZUVULXJHYVZYN3RfRGlBT2JLV04xR00xQVh6VmFFbzEtZXZGOXNncFVLX3VuX2NDWnRGdllSeTBJVDM1cWdWVl9IWHBRcUlmbjdoejhITFBXbm9mbVV6cVVFNkhncmppdEhBQjhn?oc=5",
-          "domain": "gizmodo.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "GovTech",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDVUSW1GUWpoOThRSHlFcXJkMUZ1ZjdmVmNnbUY1ZUhvdW5YWHRfWTNfTkJmcWZHUE9DazRLVDE3RV9YREY3TEcwcGFITERuX0JSRmg5QTZCd295c0dzTUg5WmpoREJQSmNFaHJRa2NBQ25wR0xDaUh3XzlROUNEalFlYzg0eE4tMzBVUy1GTVlld0JHR19BZk5Ld0xRRUVmdTBpRDQ4bjJjTnNKQXc?oc=5",
-          "domain": "govtech.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Information Age | ACS",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRS1nUm9CcnJlNjBUdzd1aGZ4RjVSTHdiN3lzbTNYNFhNS0RXMmVOSjVMSURvdGN3SU1CaUpIejFkQnNmMEZfaHdSZC1PMVdaNU5FN3MtOUdVc2thSzBjdE4zX1BrNnBPOGpqeEhtS0puVjduWjE2UjVIQk9mOGJSY2lWUFhJQWE3Qm9nNzJhTFQ?oc=5",
-          "domain": "information-age-acs.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Kurt the CyberGuy",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05THBOZHlfbEptLURoWWxoWmxhdmFkcy1wUzdiWVhsY2E5bUw1RVdFT1QxcXM3R0o4UU9aeDFaVHBVd25zbEpmZHpIZWxHTG5tdEw4MnBPZGZHY3V4bGRZT0Z3THo5aTJsZXRBMVN1ZzhmOTRHcV9DSEhoY2k?oc=5",
-          "domain": "kurt-the-cyberguy.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "McAfee",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMdVVic1VtalFFRlIzYnQzUW0xLWM5M2ZOOUdqU1Q0THZRaU5HellpY09SbFU0SzR2TzNmNlJPMzAteTVaMEkwVzc2am5aYUh5aWdKM3MwUWpEbV9jc3hLSnRtZjJuSTdXR09ZMkxEYno?oc=5",
-          "domain": "mcafee.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Open Jaw",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdU9feURqUVBjaVZ1ZDdQdEJNdWlFRnRhVlAxSkFzZ3FEYjFqanJiTmFHOXNRSXRqQkMyWXlETEk0Y2F3WDVtb2tHdE9tTm42MHljNHFzRmFIcDFNdkk2aGhOTGs1RkJkVnc5UjZ3MThuRzUzRUVyT3RtRmRCcW5MOElsUDRVcWxNakF0ZmJNVVM2aFFuMWhWM2hobVdIV2diTFJVSWZvU0I?oc=5",
-          "domain": "open-jaw.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOeDBXeHlldUp5UzctSTd0MS1WNHlLUW52anViUkZMVXZOcjJ4UEo3ZVkxd1dKMlFuVV82UGd5STBmdzRnbUZlWUpOTDFoMEJSV2Y1TndKbDgxb3FyUk1acnppYzlEeWlKSFd2NWRPSTFpT0V3TkZ3by1OS0xTd3Q0b3AyU18zVmNIaHVIeGpwYnJtekc3RjN6T1U1T1hSdnlBNDlhUTNhaW44TEZtcU5iN1UxQkVYZTVaa2NaQlJBRm9xbU1KVXZ5V0w5cU5xQjFQNGNmS0RyRUJxSTNaOUFaODFwSWZyQkRMS0kzVDM1TzR0c0VEaXA3eW5mQW5ybGZ5bFdLbVlWMVBPWURTRFNOMk94V0cwSTNvVlllcHRaTWRMN1RsZlREVHk3X1BLZGI4bVV0M19PZWstanBMX24w?oc=5",
-          "domain": "pr-newswire.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZUtyTEJPZl80YVIzQnYtdzRfdGkzNHhBM2hVZWtjTC1sOFh5RUNZaDBpbUk4TG5TZjZwa3M2Wmx6TkpVLXJ2Ync4aGdRT1RTN0RWREVWQ0p2Y2xUZFUxcHFqS2hZMVBWam9CR3Etd2dCZVdISU0xbWJ6a2FRNUNRaXFUTmRXNEhQVDFrZmRRNEhfbGlZYW9QSnczNlpJbzNmd242NlY4MFM1TzlqZVBJUWg4Nl9QalB5RHZkTnZSejIxalBOQk1zSVR0elpJY0EyU0JkVTBCRWladEVLYW0xdnR1b2ZkbDk2WjNzSEJHbFB6ZFhCbDVOd1lPelA5bE95WWVTZFhn?oc=5",
-          "domain": "pr-newswire.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "SC Media",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGc4LUFKWk9LMmVfX1ptbFpUeWU2ZTVRbjd4QlMzU1VBbFctdzJBNmI4YjVJb09lTmNyVUFtcEpMVlJBR0NfbU14SUg2cUM5NlYzM1JsZHBiWkVPNC04clFSRDU1SVVoaG16SDJQUWhwbXphS0FSLXBNb3hJNWpTb2t1MWlnNW9JbUwyNjkwOXlEWDNlbTJr?oc=5",
-          "domain": "sc-media.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbjR2VllaLXg0U00wSmFFWGNTcERnR3VrT2t3RWdlNDBheGlwUXRaVnNDQnZ5RUZGMUtZX19CaGRUcERVcEs4LTR5SzR4T21uQ3I5QmtNT0FJbjZsTTBpdUoxbk0xMXZzQmpmeUEtVXA4M3F5VDh4bHhkb1RhMnJUdjU1eDk1bjF6dlhHZk12ONIBlAFBVV95cUxNMmR4azlhY2dlWGxjVEpIa3UweHRxbkJyWGIxOHhMS2xLYmcwV1hlb0lnUmVyU3NXWGc5YXlncEZDZGx4Mm9PLXNqNU9tZ2xqeDJnWUJmNDdiMU5pXzhzblB2UV9CX0J2d1dodzduRXduckJHT1NXdWRua3BCbDRmc1NfX19kTEJEckN0Vkd2cWRZR2tt?oc=5",
-          "domain": "securityweek.com",
-          "tier": "C"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeFZIc1BUbFRCY2RYQWFERDBJU1YxQy0yWHVnOE5OXzVoQlgtZW5kWnhpMndZVEo0Ti1vbVJhdGRvQVpJUHZjdFdWZDdTYVBwRmwySVNHelF1eGhOakRubVlQV29xZFZvYnY5bHpITjhlX09ybEMwVXhCSjJiZDZBQTF3R1NJZGvSAYwBQVVfeXFMUHh0bjJSM0ZxWGxwaXV1bmhPaGJwR1pQeVFtNU1QRnU1a0g5aEtKNWNrMVRFbHczUHB0QTVGZGQ4WUk1Qnd5dTIxMjdlM3g4YW1mRHJpRDB5NktLWEVURm1BT1QwaWNMOVhNdy1MS2JyMVVOdlVRajc0djU4VDQ0aF9KanJQX295dk5JRFY?oc=5",
-          "domain": "securityweek.com",
-          "tier": "C"
-        },
-        {
-          "name": "TechRadar",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUnVHT2dpbXg2N0dRU0lBMmtCMGJRaVpmYkZVRDV5TGlmQTI5dHFiRXNUU2JDbU5LZmI3WXRpcUFiLS1xZWFhVTU3UGJkaE5sQXNtVUUybjRNNXRaWVowendOb1dsZkVORmhZOV83R2lIT1JESm54NlZPc2N3T1VjMy1YMDBMZFh3eVkyNVZHanZsVG5oYlpwSVdGSjhXeEpYeVQyUQ?oc=5",
-          "domain": "techradar.publisher",
+          "name": "SecHarvester",
+          "url": "https://github.com/sapdragon/vac/blob/main/docs/writeup/WRITEUP.en.md",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T13:35:21+00:00",
+      "published": "2026-11-05T09:11:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 68 = trust 49 / interest 75 / corrob 75",
-        "demoted: critical capped at 5"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "a0a79130d432358b",
-      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
-      "category": "tech_ai",
+      "cluster_key": "0e39fbe5021405b4",
+      "title": "Jenkins Security Advisory 2026-10-28",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
+        "agents",
+        "appsec",
         "cve",
+        "exploit",
+        "release",
         "vulnerability",
         "windows"
       ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-10-30T01:11:35.171Z",
-      "key_facts": [
-        "Identifier: CVE-2026-98432"
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 100,
+      "interest_score": 100,
+      "corroboration": 8,
+      "blend": 100.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "0e39fbe5021405b4",
+        "24169fb042894556",
+        "2dbe5444e0b3f2b6",
+        "3a042149388d2426",
+        "3fe484f436f5a815",
+        "4652a3ce4cec48a6",
+        "4c790d3290da052c",
+        "52e56ff02d1ffd93",
+        "5977cc9f965be18c",
+        "98162e3ca2f2584c",
+        "9fb84c6eb7449fac",
+        "a203100ea433bef3",
+        "e3dbdc4dd3bd4cdb",
+        "f42e1955fc268b08"
       ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Jenkins Advisories",
+          "url": "https://www.jenkins.io/security/advisory/2026-10-28/",
+          "domain": "jenkins.io",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/537",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/536",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/535",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/534",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/533",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/528",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+          "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "Hacker News 150+",
+          "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+          "domain": "alpinelinux.org",
+          "tier": "C"
+        },
+        {
+          "name": "SecHarvester",
+          "url": "https://kylesinvestigation.com/2026/11/05/openssh-10-6p2-long-passwords-can-bypass-ssh-login-on-alpine-linux/",
+          "domain": "kylesinvestigation.com",
+          "tier": "C"
+        },
+        {
+          "name": "Hacker News 150+",
+          "url": "https://www.openssh.org/releasenotes.html#10.6p2",
+          "domain": "openssh.org",
+          "tier": "C"
+        },
+        {
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhamhlMXFfRkVyRExCQWNsa0dsMS1relJxdjNFQUlvUm9HdnNqS1hsWWZJVThhSlFfb3JNNmNSVzZFZVZ4NUhTckRLLU5pSUI5ajQ4Y240akxxRmlGLVIwWk1GS2VBSzY3SVBnbHRRX0RrOTFiNUlPYUNQRGF6MTjSAYQBQVVfeXFMTkEyV3ZYMHUxZGp0SW05cmptTlBrVi1MR0xBU0xBU08xaWpyd2dxVzdIXzUtNXFGQnFtU2dMR0l2WnZ0bC04RGRJVDJESUx4LVlrU0U5MkFvRFdFY3hQcjNvSG5kZUxvSWJZa0lPQmhndXVMRmxZUUdhMVhwV2lIYjRuU216?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGZIVGMxLVBKb1NRaGNvbmxHTXFVa3phVkZLWWtzQ3RqNHFuRmEtbnJLaUlaX2YxcXA2dWE2WGk2MWQtUXJiQ09iR2FWeGJ3c2ZZYUJjR1hYVFRvb3FDNnV0ZUJDNUZQVGZDYjBicXpRbVRscmQ5M2pyZ0FERWYycmZn?oc=5",
+          "domain": "thehackernews.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [
+        "https://www.jenkins.io/security/advisory/2026-10-28/"
+      ],
+      "published": "2026-10-28T12:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "8 independent outlets (+36)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 100 = trust 100 / interest 100 / corrob 100",
+        "claims entailed 1/1 (100%)",
+        "judge (gemma-4-26b-a4b-it): contradicted — rejected"
+      ],
+      "reject_reason": "gemma-4-26b-a4b-it found a claim contradicted by the source",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a63e1f4b6ebf71ba",
+      "title": "Interactive-Active-AI/NextTransformer — :sunrise: A comprehensive, cutting-edge open-source framework for next-generation Transformers/LLM, with compu",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "hardware",
+        "linux",
+        "llm",
+        "opensource",
+        "research",
+        "tool"
+      ],
+      "summary": "The comprehensive, cutting-edge open-source framework, benchmark and auto-research platform for next-generation Transformers English · 简体中文 When the training budget is fixed, how should a language model spend its computation? NextTransformer trains recurrent depth, sparse and linear attention, residual-stream variants and hybrids on the same data, for the same 49.152B tokens, at the same theoretical training FLOPs per token, and evaluates them at the same checkpoints. Every result is an audited, file-backed record, and AI agents can research new architectures under the very same rules. 2026-11-05 · Scaling RFC: 4K-context Dense and MoE pretraining on ClimbMix at 200B and 400B tokens. Feedba…",
+      "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 0,
@@ -266,25 +222,65 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "a0a79130d432358b"
+        "a63e1f4b6ebf71ba"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mz2lx5a2i52j",
+          "name": "GitHub (new)",
+          "url": "https://github.com/Interactive-Active-AI/NextTransformer",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T07:46:13+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-31 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "5e638af84ceb0fed",
+      "title": "The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated ideas. It isn't particularly fast (or particularly pleasant) to use but GPT-6 Astra Pro gives that \"ask one question of the great oracle\" feel.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5e638af84ceb0fed"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mz7swluwac2w",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T01:11:34.914000+00:00",
+      "published": "2026-11-01T02:59:51.629000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
+      "reject_reason": "published 2026-11-01 — outside lookback window",
       "held_back": true
     },
     {
@@ -337,51 +333,6 @@
       "held_back": true
     },
     {
-      "cluster_key": "be8653247133fe13",
-      "title": "PisenAILab/china-patent-figure-skill — 中国专利附图 Skill：从 3D 装配体（STEP）一步出符合国家知识产权局形式要求的说明书附图。自动标号与引线、13 项质检、PDF/Word/DXF 导出，支持 Skill / MCP / CLI，本地运行。",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "be8653247133fe13"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/PisenAILab/china-patent-figure-skill",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T10:20:36+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
-      "held_back": true
-    },
-    {
       "cluster_key": "30f3fd02c788c1cc",
       "title": "> I continue to not really be sure if I should be updating all my software to latest and greatest as often as I can for security, or never update…",
       "category": "tech_ai",
@@ -422,57 +373,19 @@
       "held_back": true
     },
     {
-      "cluster_key": "c7c3f36e2ed674c7",
-      "title": "I had Opus build a game that takes JIRA tickets from any of your real projects & converts them into dramatic audiologs that are the plot of a…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "opensource"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I had Opus build a game that takes JIRA tickets from any of your real projects & converts them into dramatic audiologs that are the plot of a 2000s-era horror game set on a mysteriously abandoned space station. Play a demo: wontfix-game.netlify.app Github: 2026-10-30T01:37:35.584Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c7c3f36e2ed674c7"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mz2nfm6wts2m",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T01:37:34.130000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4c153e81b946edde",
-      "title": "ElysiumForge-Labs/elysium-chain-mcp — MCP server for AI agents to read and interact with Elysium, Kinetiq’s Arbitrum Orbit L2 on Hyperliquid",
+      "cluster_key": "2585a3c401b67981",
+      "title": "glincker/awesome-selfhosted-ai — Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image g",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "llm",
-        "opensource"
+        "opensource",
+        "policy",
+        "tool"
       ],
-      "summary": "MCP server so AI agents can read and interact with the Elysium chain (Kinetiq's Arbitrum Orbit L2 for Hyperliquid). An agent can read blocks, balances, contracts, and logs over JSON-RPC, and can query the block explorer when that API is configured. Sending transactions is a separate switch, and it accepts only Elysium testnet (chain ID 99801). Write tools stay unregistered until ENABLE_WRITES=true, and the process accepts them only on chain ID 99801. For a first connection, follow Start here, then the prompts in Examples.",
+      "summary": "Open-source AI you can run on your own hardware or server. 309 projects across local LLMs, chat interfaces, agents, MCP servers, RAG, speech and image generation. A weekly job checks every project against the GitHub API, and anything archived, deleted or silent for over a year moves to UNMAINTAINED.md. 309 projects | 308 active in the last 90 days | 10.7M combined stars | 0 unmaintained | refreshed 2026-11-02 See the live health table for stars, last push and license per project. Agents and Automation (27) - Chat Interfaces (11) - Coding Assistants (25) - Document AI and OCR (10) - Fine-Tuning and Training (10) - Home and Personal AI (13) - Image and Video Generation (13) - LLM Runtimes and…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -483,7 +396,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "4c153e81b946edde"
+        "2585a3c401b67981"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -491,17 +404,75 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/ElysiumForge-Labs/elysium-chain-mcp",
+          "url": "https://github.com/glincker/awesome-selfhosted-ai",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T15:51:36+00:00",
+      "published": "2026-10-31T05:50:40+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
+      "reject_reason": "published 2026-10-31 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "0e0a2d9bce8807c9",
+      "title": "CVE-2026-117518 (HIGH 8.2): @fastify/reply-from is a Fastify plugin that forwards requests to an upstream HTTP server. In versions up to…",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "appsec",
+        "cve",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 70.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0e0a2d9bce8807c9",
+        "e056b7f094beedec"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120213",
+          "domain": "nist.gov",
+          "tier": "A"
+        },
+        {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117518",
+          "domain": "nist.gov",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-117518",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-120213"
+      ],
+      "published": "2026-11-02T11:17:30.660000+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 70 = trust 70 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -545,58 +516,83 @@
       "held_back": true
     },
     {
-      "cluster_key": "423445bda3489ebd",
-      "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a",
-      "category": "cyber_tools",
+      "cluster_key": "6ff0a391ae3ac318",
+      "title": "For Halloween, I asked Opus 5.5 to suggest a spooky project based on my existing work, and it came up with the idea of the ghost census.",
+      "category": "tech_ai",
       "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "release",
-        "tool"
-      ],
-      "summary": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu For Halloween, I asked Opus 5.5 to suggest a spooky project based on my existing work, and it came up with the idea of the ghost census. Pick a location to see how many people died within a 100 meters of it through all of history up to a century ago & get some example lives. ghost-census.netlify.app 2026-10-31T14:26:22.876Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 22,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 43.0,
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "423445bda3489ebd",
-        "df489c10521cd2bd"
+        "6ff0a391ae3ac318"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (updated)",
-          "url": "https://github.com/bilawalsidhu/gods-eye-view",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "IT Brief New Zealand",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaTZaWV9Wdkh3N0Z6a3pSUVdIZWpPeGc4Wjl5UUhNMGktWmdvN2d3YkEzcm9CY05kSXNNeUdIcFlrdEpRYm5HRFNqOXlwNVlUZXZlTGVhREtXREViNjBRVDdkNDl0RzNGR2xoSTVxT0E2cUh5Q29hemUwaVNaTjI1TnpwOVBIbDhYWkE?oc=5",
-          "domain": "it-brief-new-zealand.publisher",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mz6itbgvo22r",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T15:24:34+00:00",
+      "published": "2026-10-31T14:26:22.864000+00:00",
       "trace": [
-        "tier C (+10)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from cache",
-        "blend 43 = trust 22 / interest 50 / corrob 50"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-10-31 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "cc5ced81480ed182",
+      "title": "tavern-labs-ai/persona-ai-sdk — Persona AI SDK: default personas, durable character memory, and Bedrock/OpenAI adapters in one package.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "cloud",
+        "opensource"
+      ],
+      "summary": "Pick a persona, wire a model, and ship a character that remembers. The package combines the Tavern Labs persona catalog with a provider-neutral memory and response runtime. Quick start · Personas · Choose your stack · Documentation · API reference · Contributing [!NOTE] ai-persona-sdk is published to npm as ai-persona-sdk. One install includes the memory runtime, the persona catalog, and the provider adapters. ai-persona-sdk is a TypeScript SDK for applications where an AI character should remain recognizably itself and remember what matters across conversations.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "cc5ced81480ed182"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/tavern-labs-ai/persona-ai-sdk",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T14:29:10+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-31 — outside lookback window",
       "held_back": true
     },
     {
@@ -639,7 +635,7 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-11-05T03:27:31+00:00",
+      "published": "2026-11-06T03:15:28+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
@@ -650,289 +646,20 @@
       "held_back": true
     },
     {
-      "cluster_key": "65cd63ea1931fa0c",
-      "title": "gh9ko8y/graphmemory — Bitemporal AI memory system: six-variable decay, time-graded recall, TTL expiry, dedupe, competitive retrieval",
+      "cluster_key": "a66363780cbf09ae",
+      "title": "Aevonix/FlashAlign — ReAlign models instantly, on demand. Per-request alignment for verified users and channels, or Always On. Use ",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource"
-      ],
-      "summary": "双时态 AI 记忆系统 — 给 AI 代理一个会积累、会遗忘、会随时间变化的长期记忆库。 A bitemporal memory service for AI agents: facts with two time axes, a six-variable importance/decay model, time-graded recall, TTL-based expiry, deduplication, and a competitive retrieval layer on top of Graphiti (temporal knowledge graph) + PostgreSQL/pgvector + Redis. 设计思路与完整开发记录见 docs/DESIGN_ZH.md。 67 秒 · 小鱼配音 · 中文字幕 · 直接下载 ┌─────────────────────────────┐ Agent / MCP 客户端 │ graphmemory (FastAPI :8000) │ │ /add /search /chat /decay│ └───────┬──────────┬──────────┘ │ │ ┌──────────▼──┐ ┌────▼────────────┐ │ Neo4j 5.26 │ │ PostgreSQL+pgvec │ │ 时序知识图谱 │ │ fact_state/state │ └─────────────┘ │ episodes/ledger │ └────┬────────────┘ ┌────▼───────┐ │ Re…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "65cd63ea1931fa0c"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/gh9ko8y/graphmemory",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T12:53:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2597fa9194aa9c5c",
-      "title": "Datalux/Osintgram — Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram accoun",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm",
-        "opensource",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "2597fa9194aa9c5c"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (updated)",
-          "url": "https://github.com/Datalux/Osintgram",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T21:24:23+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a5af043ff5736f5d",
-      "title": "N1nEmAn/sapper-v2 — Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent A",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "redteam",
-        "tool"
-      ],
-      "summary": "Champion of the 3rd Tencent Cloud Intelligent Attack-Defense Challenge online qualifier (634 teams · 80.18/100 · 8 hours fully unattended) · First Prize, GeekCon 2026 AI Challenge Same 85 flags as the runner-up, 25 seconds faster — on 1B tokens where they burned 4.5B. This was the first time an AI ape looked up at the stars. 📖 Full design article (WeChat, in Chinese) — the Nüwa Test, the three-capability foundation, 18 iterations, emergence, and the taggant proposal. English | 中文 ⚠️ AUTHORIZED SECURITY TESTING ONLY — see DISCLAIMER.md. sapper is a multi-agent orchestration harness, not a single agent.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a5af043ff5736f5d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/N1nEmAn/sapper-v2",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T15:12:35+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d6c4008e66c9a046",
-      "title": "aa1143/NamiAgent — 零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "d6c4008e66c9a046"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/aa1143/NamiAgent",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T11:03:30+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "1bd9f332987f0bba",
-      "title": "Heming9/agenterm — Let agents control any remote computer, anytime, anywhere. Self-hosted AI agent remote assistance via MCP and ",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "release",
-        "tool",
-        "windows",
-        "writeup"
-      ],
-      "summary": "Let an AI agent assist with a remote computer through one authorized connection command. 🔗 Multiple devices · ⚡ One-click connection · 🪶 Lightweight · 🔓 No SSH required · 🤖 Agent-first Create invitation → Authorize access → Connect device → Run task - Connect your agent: Add the MCP service to an agent that supports Streamable HTTP. Invite and authorize: Ask the agent to create an invitation and privately share the connection command. The other person runs it and authorizes access. Start assisting: Once the device connects, tell the agent what to do.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1bd9f332987f0bba"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Heming9/agenterm",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-10-30T19:37:52+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2591bdc407996246",
-      "title": "Balanov/uncut — The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
         "ai",
         "howto",
         "linux",
+        "llm",
         "opensource",
         "release",
-        "tool",
-        "windows"
+        "tool"
       ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "2591bdc407996246"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Balanov/uncut",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-01T17:19:30+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "1ab79ad65005dd1f",
-      "title": "This is good advice from the Claude Code team (posted on X) for how to think about working with models like Opus 5.5.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "howto",
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu This is good advice from the Claude Code team (posted on X) for how to think about working with models like Opus 5.5. I would add: build checkpoints where the model reports back to you with interim ideas or prototypes so you can guide & give feedback, rather than one-shotting on your goal.",
+      "summary": "By Aevonix Research · Version 1.1.1 ▶ Watch the 40-second video with sound · About this video Get started · Setup · Compatibility · Docs Apply alignment profiles per request. Use abliteration for approved users and channels, or keep a profile active across every routed request. FlashAlign works with supported base and quantized weights without permanently changing them. Run it directly, with Hermes or OpenClaw, or through your own harness. Managed inference runs on Linux with NVIDIA GPUs.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -943,95 +670,222 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "1ab79ad65005dd1f"
+        "a66363780cbf09ae"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myzwg2oxgk25",
+          "name": "GitHub (new)",
+          "url": "https://github.com/Aevonix/FlashAlign",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T05:37:12+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-31 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "08b6feac77392a3a",
+      "title": "wiva-hq/CodeRail — Self-hosted remote control for your coding agents: Claude Code and Codex chats, approvals, terminals, files, g",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "linux",
+        "llm",
+        "network",
+        "opensource",
+        "release",
+        "windows"
+      ],
+      "summary": "Your coding agents, on every computer, from anywhere. Self-hosted remote control for Claude Code and Codex: chats, approvals, terminals, files, git and a browser. Quickstart · Self-hosting · How it works · Enterprise · Report an issue flowchart LR B[\"Browser / phone\"] <-- \"HTTPS · WebSocket\" --> S subgraph srv[\"Your server · one container\"] S[\"Web app · API · a hub per computer\"] end subgraph pc[\"Each computer\"] R[\"CodeRail bridge\"] --- A[\"claude · codex\"] end R -- \"outbound only\" --> S The bridge on each computer connects out to your server (no open ports, no VPN), runs the agents through their ACP adapters, and serves terminals, files, git and the browser. The server checks every request…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "08b6feac77392a3a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/wiva-hq/CodeRail",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-10-31T08:20:45+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-10-31 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a9429222ca10f55b",
+      "title": "This thread is a good summary of how dramatically the craft of software engineering has changed over the past 12 months",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z This thread is a good summary of how dramatically the craft of software engineering has changed over the past 12 months [contains quote post or other embedded content] 2026-10-31T18:15:30.473Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a9429222ca10f55b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mz6vmxpth22j",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-29T18:46:13.264000+00:00",
+      "published": "2026-10-31T18:15:29.982000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-29 — outside lookback window",
+      "reject_reason": "published 2026-10-31 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "251cb9e7c439ce5b",
-      "title": "GenPPT Rated #1 AI Presentation Maker in 2026 Benchmark as Image-Native Slide Rendering Beats Template Fillers",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm",
-        "research"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "251cb9e7c439ce5b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "openPR.com",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRXZwdHRmWXBxSHRZOUJDT3l3Xzl4Z2JJZXlST3FaTExIbmt2WGtvTzFuX0YtR0JUckJkWmdxRUp3VHJYdVQwMzZaVy1JZFJkQXdBekhNdkxCRHVZc1FDUG5WUVl1MEpSSFJZbWtQUS1PSXRudlZua04wQm9IRDdabVNFZERjTjdKd05Iem9lUVozcXJpMHd4cg?oc=5",
-          "domain": "openpr-com.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T06:44:05+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4e2baead5de71fd5",
-      "title": "Kerala High Court denies bail to student accused of circulating morphed images of fellow students and teachers",
-      "category": "india_world",
+      "cluster_key": "dd36bac45c810fa1",
+      "title": "168% rally in 3 yrs: After  ₹270 dividend, auto ancillary stock to consider bonus, stock split - Do you own?",
+      "category": "markets",
       "one_liner": "",
       "tags": [
         "india",
-        "policy",
-        "political",
-        "privacy"
+        "markets"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 25.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "4e2baead5de71fd5"
+        "dd36bac45c810fa1"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/168-rally-in-3-yrs-after-rs-270-dividend-auto-ancillary-stock-to-consider-bonus-stock-split-do-you-own-11793867159176.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T11:36:14+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a155a0becb0c4c28",
+      "title": "Weekly update is up! Reading AI-generated Code & the Economics of Solar: www.troyhunt.com/weekly-updat...",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Weekly update is up! Reading AI-generated Code & the Economics of Solar: 2026-11-01T07:37:49.771Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a155a0becb0c4c28"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Troy Hunt",
+          "url": "https://bsky.app/profile/troyhunt.com/post/3mzachmro2a2h",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-01T07:37:48.706000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-01 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "207ffd33dac9406e",
+      "title": "‘Very few complaints’ received so far on police brutality during July 20 protests, says Supreme Court",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "policy",
+        "political",
+        "privacy",
+        "research",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "207ffd33dac9406e"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1039,34 +893,35 @@
       "sources": [
         {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-denies-bail-to-student-accused-of-circulating-morphed-images-of-fellow-students-and-teachers/article71667115.ece",
+          "url": "https://www.thehindu.com/news/national/very-few-complaints-received-so-far-on-police-brutality-during-july-20-protests-says-supreme-court/article71669259.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T20:28:46+00:00",
+      "published": "2026-11-05T18:17:38+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "5a1c4665dfba4306",
-      "title": "Juneo-Lab/decision-forge — Compile organizational policy into verifiable decision training data.",
+      "cluster_key": "f077b827d79a7c62",
+      "title": "modem-dev/boxery — Easiest way to give your coding agents VMs - locally, remote, or cloud sandboxes",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "ai",
+        "linux",
+        "llm",
         "opensource",
         "tool"
       ],
-      "summary": "Compile organizational policy into verifiable decision training data. Every organization's judgment, turned into the data that makes AI agents trustworthy. Why Decision Forge · See it in action · Quickstart · How it works · Documentation · Roadmap · Contributing · Changelog English · 简体中文 For three hundred years, every organization was built from people. The next ones will be built from people and agents — and the agents will outnumber the people. Agents now carry a task for hours without supervision, take on work that once went to a colleague, and call one another across tools and companies.",
+      "summary": "Easiest way to give your coding agents VMs Install · MCP server · pi extension · CLI · Backends · All docs Warning Early-stage, experimental software. Expect rough edges and breaking changes between releases. boxery lets your agents manage their own Linux VMs: on your Mac, a Linux server, a sandbox provider like exe.dev or boat.dev, or all of them at once. Your agent stays on your machine with your login and setup; the VM is where it works, and your keys never go in. Give this prompt to your agent: Read github.com/modem-dev/boxery and set up boxery on this machine.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1077,7 +932,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "5a1c4665dfba4306"
+        "f077b827d79a7c62"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1085,17 +940,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Juneo-Lab/decision-forge",
+          "url": "https://github.com/modem-dev/boxery",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-10-30T17:35:48+00:00",
+      "published": "2026-10-31T12:18:58+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-10-30 — outside lookback window",
+      "reject_reason": "published 2026-10-31 — outside lookback window",
       "held_back": true
     },
     {
@@ -1116,27 +971,20 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 49,
+      "trust_score": 37,
       "interest_score": 100,
-      "corroboration": 3,
-      "blend": 79.8,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
         "310fe7a6e4c306a2",
-        "dc708c594c49ad5c",
         "dfb0e62228255aa1"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
         {
           "name": "Infosecurity Magazine",
           "url": "https://www.infosecurity-magazine.com/news/llmjacking-cost-business-1m-warns/",
@@ -1154,62 +1002,65 @@
       "published": "2026-11-03T10:45:00+00:00",
       "trace": [
         "tier B (+25)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
         "importance 5/5 from cache",
-        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "d0af6d633a258669",
-      "title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
-      "category": "cyber_attacks",
+      "cluster_key": "1840f28a2ce8f8da",
+      "title": "A.S.E 2.0: Understanding How Repository Context Impacts the Security of LLM-Generated Code",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "bugbounty",
+        "agents",
+        "appsec",
         "cve",
-        "malware",
-        "network",
-        "privacy",
+        "exploit",
+        "llm",
         "release",
-        "threat-actor",
+        "tool",
         "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 70,
       "interest_score": 75,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 58.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "d0af6d633a258669"
+        "1840f28a2ce8f8da"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "WeLiveSecurity",
-          "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/",
-          "domain": "welivesecurity.com",
-          "tier": "B"
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.06294",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-04T09:55:00+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.06294"
+      ],
+      "published": "2026-11-05T05:00:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.1-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -1301,62 +1152,154 @@
       "held_back": true
     },
     {
-      "cluster_key": "bd0782c6435e9bbc",
-      "title": "U.S. CISA adds WordPress flaw to its Known Exploited Vulnerabilities catalog",
-      "category": "cyber_attacks",
+      "cluster_key": "236dd2feff5d16ca",
+      "title": "Verified but Vacuous: Three Failure Surfaces of LLM-Driven Verified Code Generation",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "cve",
-        "exploit",
-        "network",
-        "policy",
+        "ai",
+        "llm",
         "release",
-        "vulnerability"
+        "research"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "236dd2feff5d16ca"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.05590",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.05590"
+      ],
+      "published": "2026-11-05T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "48acd98131e51614",
+      "title": "Maharashtra FDA seizes drugs, cosmetics worth ₹34.51 lakh, cancels 122 licences",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "policy"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 100,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 36.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "bd0782c6435e9bbc"
+        "48acd98131e51614"
       ],
-      "critical_signal": "known exploited vulnerabilities catalog",
+      "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/202394/security/u-s-cisa-adds-wordpress-flaw-to-its-known-exploited-vulnerabilities-catalog-2.html",
-          "domain": "securityaffairs.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-fda-seizes-drugs-cosmetics-worth-3451-lakh-cancels-122-licences/article71671236.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T09:16:37+00:00",
+      "published": "2026-11-05T20:38:49+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "8f41f56f0c7f3965",
-      "title": "UK Expansion Plan: What's Next for ASX 50's Sigma Healthcare (ASX:SIG)?",
+      "cluster_key": "a80f38a73008baf0",
+      "title": "3 Fishermen Found Dead After Cyclone Murasu, Anger Erupts In Chennai's Kasimedu",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "a80f38a73008baf0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/3-fishermen-found-dead-after-cyclone-murasu-anger-erupts-in-chennais-kasimedu-12289812#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T18:42:25+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "10f1a2bc2946b534",
+      "title": "Insomnia: an autonomous AI red team that runs a pentest from recon to report",
       "category": "cyber_tools",
       "one_liner": "",
       "tags": [
-        "markets"
+        "agents",
+        "ai",
+        "exploit",
+        "redteam",
+        "tool"
       ],
       "summary": "",
       "key_facts": [],
@@ -1369,21 +1312,21 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "8f41f56f0c7f3965"
+        "10f1a2bc2946b534"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTUNyaHBxY1dDZ2haVC11dEdHRTk0MUpxa3oySmpyMnV2VHlZS19BTm5yVXFGYTFKcHRiQzJ0TFpxcEtFYnR6MG52eGJKWlNTMDRHTmRJRjRYOTdLOFRkckZHajh1Y1Q3czJZVm5MYzZ4NG55blZTZ3BxV0ZaTFpXSU00MU1sTDEyTVRNb1MyYktHU2JNaTBNd3RSMzlBY3BocFlYUFNJb1lGdUFZRk9V?oc=5",
-          "domain": "kalkine-media.publisher",
+          "name": "Medium pentesting",
+          "url": "https://medium.com/@ilyasamarsky/insomnia-an-autonomous-ai-red-team-that-runs-a-pentest-from-recon-to-report-a8e497b8c978?source=rss------penetration_testing-5",
+          "domain": "medium.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T09:17:00+00:00",
+      "published": "2026-11-05T15:23:36+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
@@ -1394,17 +1337,270 @@
       "held_back": true
     },
     {
-      "cluster_key": "01669e0899f5da98",
-      "title": "APT29 Watering Holes Target Unpatched iPhones and Android Devices",
-      "category": "cyber_attacks",
+      "cluster_key": "218e78499b2047ff",
+      "title": "4th Person Arrested For Kerala Teen's Murder. Victim Was Not Original Target",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "android",
+        "india",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "218e78499b2047ff"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/thiruvananthapuram-abhipuram-4th-person-arrested-for-kerala-teens-murder-victim-was-not-original-target-12289632#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T18:55:13+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.1-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "0573fddea441fc52",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "privacy",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 37,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 58.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0573fddea441fc52",
+        "7b187a5bdc286419"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzdfa2NNWTVnNDd4OHQyUmZIN2RIRXVLbDJ3U2RJUHNXeHNiUzhpWU9NWTh2VEJ4SmNEUnRIQW5DTGZJM01WMGhGc2pSRjQ3QnpiWHR5Y3p5YW4wZ0w4c3F0WXlEZjM4RS1hNWVFV0U5U0NERUVGU3RWczR2aXJxdHpnaUI4Ty1HaGZ2WVNUM2NxNzdIVllXQTVvY0Q?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T18:00:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 58 = trust 37 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "effb9b23216d7b57",
+      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "appsec",
         "exploit",
-        "incident",
+        "opensource",
+        "release",
         "research",
-        "threat-actor",
-        "threat-intel"
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "effb9b23216d7b57"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2610.18585",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2610.18585"
+      ],
+      "published": "2026-11-05T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "039cf73408dc956d",
+      "title": "HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "039cf73408dc956d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.06254",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.06254"
+      ],
+      "published": "2026-11-05T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "b575ce61def62f3a",
+      "title": "Route to Remember: Adaptive Memory Selection for LLM Agents",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "network",
+        "research"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b575ce61def62f3a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.05636",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.05636"
+      ],
+      "published": "2026-11-05T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a9e7ee071f599f1f",
+      "title": "Danger in the sewer: On India’s sewer cleaning deaths",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "incident",
+        "india",
+        "policy",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
@@ -1417,26 +1613,25 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "01669e0899f5da98"
+        "a9e7ee071f599f1f"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Infosecurity Magazine",
-          "url": "https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/",
-          "domain": "infosecurity-magazine.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/opinion/editorial/danger-in-the-sewer-on-indias-sewer-cleaning-deaths/article71670120.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T14:00:00+00:00",
+      "published": "2026-11-05T20:06:26+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.1-flash-lite",
+        "importance 5/5 from gemini-3.5-flash-lite",
         "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
