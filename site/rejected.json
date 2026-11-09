@@ -1,93 +1,6 @@
 {
-  "generated_at": "2026-11-08T02:42:25.483743+00:00",
+  "generated_at": "2026-11-09T02:52:47.439675+00:00",
   "items": [
-    {
-      "cluster_key": "72a29c6d6e842293",
-      "title": "Building iOS apps on Windows: running Apple’s Mach-O macro plugins on an ARM64 CPU emulator https://ssilvestri15.github.io/openfruit-site/engineering.html…",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "android",
-        "appsec",
-        "opensource",
-        "release",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "72a29c6d6e842293"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "SecHarvester",
-          "url": "https://ssilvestri15.github.io/openfruit-site/engineering.html",
-          "domain": "ssilvestri15.github.io",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-06T09:06:51+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "5e638af84ceb0fed",
-      "title": "The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated ideas. It isn't particularly fast (or particularly pleasant) to use but GPT-6 Astra Pro gives that \"ask one question of the great oracle\" feel.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "5e638af84ceb0fed"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mz7swluwac2w",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-01T02:59:51.629000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-01 — outside lookback window",
-      "held_back": true
-    },
     {
       "cluster_key": "6b9449ca361b41f1",
       "title": "I had Opus 5.5 create a site where you can see the fastest routes into every city in the US, figure out where in America is fairest to meet up, see…",
@@ -165,6 +78,48 @@
       "held_back": true
     },
     {
+      "cluster_key": "860ffbfef567614c",
+      "title": "supercli-site/awesome-coding-plan — TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource"
+      ],
+      "summary": "TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and model value comparisons. GitHub repository supercli-site/awesome-coding-plan, 190 stars, language TypeScript. Topics: ai-agents, ai-coding, ai-models, api-pricing, cloudflare-pages, coding-plan, cost-comparison, llm-pricing.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "860ffbfef567614c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/supercli-site/awesome-coding-plan",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T09:39:37+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
       "cluster_key": "0d35b875fec3e092",
       "title": "There's a lot of misinfo and conspiracies spreading about the voting machine issue in Westchester County so I've put together a thread describing…",
       "category": "cyber_attacks",
@@ -203,289 +158,232 @@
       "held_back": true
     },
     {
-      "cluster_key": "df489c10521cd2bd",
-      "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a",
-      "category": "cyber_tools",
+      "cluster_key": "58b2621d532f3be2",
+      "title": "There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights (prompts full of floating point numbers) - I tried it…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "research",
+        "windows"
+      ],
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights (prompts full of floating point numbers) - I tried it with Qwen 3.8 27B on my laptop and found that, after 45+ minutes, that model could achieve the same thing 2026-11-03T16:31:11.687Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "58b2621d532f3be2"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mzgb77cpis2w",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T16:31:11.256000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "84dcd20c671573cf",
+      "title": "MiniMax-AI/mcode-agent-table — BYOB Table Protocol v0.1 and reference implementation: bring your own agent (MiniMax Code and others) to one s",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "opensource",
-        "privacy",
-        "release",
-        "tool"
+        "opensource"
+      ],
+      "summary": "English · 中文 mcode-agent-table is the BYOB (Bring Your Own Bot) Table Protocol v0.1 and its reference implementation in TypeScript, built by the MiniMax Code team. Most multi-agent systems put every agent inside one platform: one model, one context, one set of credentials. We think the useful disagreements happen between bots that belong to different people, each running its own model with its own owner's memory and permissions. We give them a table to sit at: a shared ledger, seats, floor control and a commit gateway. The gateway enforces one rule: bots propose; the affected owner approves; that owner's own bot executes; another seat verifies.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "84dcd20c671573cf"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/MiniMax-AI/mcode-agent-table",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T12:29:06+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "faa9cdb96ffdbcea",
+      "title": "Flailing from crackgate, Apple announced the launch of a touch-screen laptop, an idea Steve Jobs extensively tested and said “doesn’t work.\"…",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "hardware"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "df489c10521cd2bd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (updated)",
-          "url": "https://github.com/bilawalsidhu/gods-eye-view",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-07T18:39:58+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "ce7e0636e60eda60",
-      "title": "yorkeccak/globalhackmap — Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sou",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "exploit",
-        "incident",
-        "llm",
-        "ransomware",
-        "vulnerability",
-        "writeup"
-      ],
-      "summary": "Try it live: globalhackmap.vercel.app Every hack, exploit and breach, live. Every publicly reported breach, ransomware claim, exploited vulnerability, malicious package and connectivity drop on one globe, each with its sources and an honest status. Check whether you are affected, then fix it in one click. Map: incidents placed at the city named in reporting, the organisation's headquarters, or the country, never more precisely than the sources allow. New CVEs: a live ticker and an index at /cve of critical CVEs published in the last 72 hours and flaws CISA confirmed exploited this week, minutes after they appear.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
       "interest_score": 0,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "ce7e0636e60eda60"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/yorkeccak/globalhackmap",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-02T17:22:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-02 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4c73cfcfb055a3ed",
-      "title": "ZaneL1u/remote-webview-debugger — Let AI agents debug the WebViews inside your app and your H5 pages — on real users' phones, over MCP.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource"
-      ],
-      "summary": "Let AI agents debug the WebViews inside your app and your H5 pages — on real users' phones, remotely, over MCP. debugger.site · Live demo · Docs English | 简体中文 | 繁體中文 | 日本語 | 한국어 | Español | Français | Deutsch | Português (Brasil) | Русский | العربية A bug that only happens on one user's phone, inside a WeChat-style super app or your own app's WebView, is the hardest kind to debug: no USB cable, no remote-debugging port, no way to reproduce it on your machine. Remote WebView Debugger puts that page in front of your AI agent instead. One script tag (or a native injection) puts a page online. The user sees a small pill with a device code, and can tap Request assistance.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4c73cfcfb055a3ed"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ZaneL1u/remote-webview-debugger",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-02T13:55:36+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-02 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "03d646f7209b5840",
-      "title": "Muhurat trading 2026: Top 3 Samvat 2083 stock picks by Sumeet Bagadia — Adani Ports, Sun Pharma, Kotak Bank; targets, SL",
-      "category": "markets",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "markets",
-        "policy",
-        "political",
-        "research"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
+      "blend": 10.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "03d646f7209b5840"
+        "faa9cdb96ffdbcea"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-top-3-samvat-2083-stock-picks-by-sumeet-bagadia-adani-ports-sun-pharma-kotak-bank-targets-sl-11794025429338.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-07T05:06:34+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "c7bd7671d7e0ccdd",
-      "title": "exzade/EXZA-Remote — Secure AI-powered remote computer access for ChatGPT, Claude and compatible MCP clients.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "identity",
-        "linux",
-        "llm",
-        "opensource",
-        "privacy",
-        "tool"
-      ],
-      "summary": "Explore the verified Glama MCP connector · NEW: Full English Overview & 59-tool catalog · OAuth setup · Privacy & permissions Your computer. Discover and inspect EXZA Remote on Glama. An MCP server for AI-powered remote computer access: connect ChatGPT, Claude, and other compatible AI assistants to your own Mac, Windows, or Linux computer with secure device pairing and owner-controlled permissions. Official installation and licensing notice: EXZA Remote is a proprietary, hosted MCP service, not an open-source or npm-distributed MCP package. Do not use the third-party command claude mcp add exza-remote -- npx exza-remote: it is not an official EXZA installation command.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c7bd7671d7e0ccdd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/exzade/EXZA-Remote",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-02T10:04:59+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-02 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a155a0becb0c4c28",
-      "title": "Weekly update is up! Reading AI-generated Code & the Economics of Solar: www.troyhunt.com/weekly-updat...",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Weekly update is up! Reading AI-generated Code & the Economics of Solar: 2026-11-01T07:37:49.771Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a155a0becb0c4c28"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Troy Hunt",
-          "url": "https://bsky.app/profile/troyhunt.com/post/3mzachmro2a2h",
+          "name": "404 Media",
+          "url": "https://bsky.app/profile/404media.co/post/3mzrolo3ud22n",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-01T07:37:48.706000+00:00",
+      "published": "2026-11-08T05:30:04.685000+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 10 = trust 10 / interest 0 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-01 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "76c61daccf839645",
-      "title": "vixhal-baraiya/qwenFS — Qwen3.5-2B with a filesystem compiled and inserted directly into its weights.",
+      "cluster_key": "d6d8d45964adde86",
+      "title": "shanselman/sandbox-mcp — Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "llm",
+        "agents",
+        "appsec",
         "opensource",
         "release",
-        "tool"
+        "tool",
+        "windows"
       ],
-      "summary": "qwenFS is an experimental model: Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. It is not a plugin, a tool server or a database behind an API. The filesystem is 8 transformer layers in front of Qwen's own 24, and none of their weights are learned: every one is set by construction. Qwen saves, reads, organizes and links its own files through its normal tool calls, and the model answers every call itself. The circuit reads each call as Qwen writes it, keying on the single tokens Qwen's tool-call format always uses (=name, =text, =target, >, newline, </tool_call>, …).",
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "d6d8d45964adde86"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/shanselman/sandbox-mcp",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-06T19:02:14+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "78e219711e827886",
+      "title": "kubai087/kubai-icons — An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agen",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "llm",
+        "opensource",
+        "release"
+      ],
+      "summary": "An agent skill that draws animated icons in one consistent style. Plus 2,800+ open-source icons drawn with it, for React, Vue and the web. Install the skill · Browse the icons · Use them in code · Docs Copy this into your agent and send it: Install the Kubai Icons skill for me: clone into your skills folder as kubai-icons (~/.claude/skills in Claude Code, ~/.agents/skills in Codex; if it's already there, pull the latest version instead), make sure SKILL.md exists in that folder, and tell me when it's ready. Restart your agent, and the skill is ready. An agent without skill support can read SKILL.md from the cloned folder and follow it.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "78e219711e827886"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/kubai087/kubai-icons",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T09:52:39+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "21326a0cadd9ed51",
+      "title": "Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\"",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\" 2026-11-03T04:23:41.574Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -496,7 +394,183 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "76c61daccf839645"
+        "21326a0cadd9ed51"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzeykcbvgk2l",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T04:23:40.058000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "d2e69c284268b3d0",
+      "title": "\"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu \"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt [contains quote post or other embedded content] 2026-11-03T06:28:28.671Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "d2e69c284268b3d0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzf7jf5mnk2l",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T06:28:25.701000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "1cf65875058c7cca",
+      "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "exploit",
+        "network",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 82,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 80.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "1cf65875058c7cca",
+        "343c64d81bc159b2",
+        "62182dce0f3b28b2",
+        "b1a3e44cbbf34a02",
+        "b27aeca410b144b4",
+        "cef7e90174d1d43f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-110273",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-19133",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        },
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://security.paloaltonetworks.com/CVE-2026-0313",
+        "https://security.paloaltonetworks.com/CVE-2026-0320",
+        "https://security.paloaltonetworks.com/CVE-2026-0322",
+        "https://security.paloaltonetworks.com/PAN-SA-2026-0013"
+      ],
+      "published": "2026-10-14T16:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from cache",
+        "blend 80 = trust 82 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "096ac82ba26ff6bf",
+      "title": "smokeeaasd/flawless-ui-ux — A UI/UX skill for coding agents to build distinctive, usable interfaces.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "howto",
+        "linux",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "Build and refine interfaces around your product's audience, content, and identity. Install · Use the skill · How it works · Inspect and verify · Docs From your project directory, run one command with your preferred package manager: npm npx flawless-ui-ux@latest install pnpm pnpm dlx flawless-ui-ux@latest install Bun bunx flawless-ui-ux@latest install Requires Node 22.12+. In a terminal, choose project or global scope, select one or more agents, and confirm the destinations before copying. Use Space to select and Enter to continue. Ctrl+C cancels before installation files are written.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "096ac82ba26ff6bf"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -504,17 +578,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/vixhal-baraiya/qwenFS",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T21:43:41+00:00",
+      "published": "2026-11-03T14:36:42+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-02 — outside lookback window",
+      "reject_reason": "published 2026-11-03 — outside lookback window",
       "held_back": true
     },
     {
@@ -559,6 +633,47 @@
       "held_back": true
     },
     {
+      "cluster_key": "88769bf30e53f339",
+      "title": "We are in an era of flux & fighting over how AI should be used to review academic work & by whom.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu We are in an era of flux & fighting over how AI should be used to review academic work & by whom. But it is worth proving to yourself that yes, AI used properly can be very insightful at this, by asking GPT-6 Pro/Opus 5.5 High to give helpful, substantive feedback on one of your papers.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "88769bf30e53f339"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzgkbp6o4c2x",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T19:13:38.685000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
       "cluster_key": "1818a08f79756299",
       "title": "If this holds up, it is big: \"We asked GPT-6 Astra to edit Qwen3.5-0.8B weights to improve math.",
       "category": "tech_ai",
@@ -599,62 +714,44 @@
       "held_back": true
     },
     {
-      "cluster_key": "1a78a7b0772bdb56",
-      "title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
-      "category": "cyber_attacks",
+      "cluster_key": "2e963759f0aa268b",
+      "title": "Anyone know how to stop the New York Times app from hijacking my phone's top bar like this?",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "bugbounty",
-        "cve",
-        "malware",
-        "network",
-        "privacy",
-        "release",
-        "threat-actor",
-        "vulnerability"
+        "howto",
+        "windows"
       ],
-      "summary": "",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Anyone know how to stop the New York Times app from hijacking my phone's top bar like this?",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 37,
-      "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "1a78a7b0772bdb56",
-        "d0af6d633a258669"
+        "2e963759f0aa268b"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "WeLiveSecurity",
-          "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/",
-          "domain": "welivesecurity.com",
-          "tier": "B"
-        },
-        {
-          "name": "WeLiveSecurity",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaDhLeEVvemMyOTBIcGNuTkVsYjVJa0RhUXM4bGxSYldKeXRzRlF5SnBBS0lUUUdBVVFkVnNrbjQ5S2RCSkV3aWYtR0FDZUotd1k4dTVsSnpRUVJuVXVsUzhVRFp6cFpic3phWVRDOHFLbVQ4bUc3RHI3U29HTEFMTkRYT1Vnd1ZSVkRsRzVJRy1TTU41VW1kSWRhNDE5elp0WjBsRTlIdFRuTi1CNkJmcWxxQy02RlI2emxIUG5JenZqRFZMcjJCNVc2MzI2cUlJT0k0TlRWTQ?oc=5",
-          "domain": "welivesecurity.publisher",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mzh4tiie3s2d",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T09:55:00+00:00",
+      "published": "2026-11-04T00:45:42.988000+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 4/5 from cache",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-11-04 — outside lookback window",
       "held_back": true
     },
     {
@@ -706,8 +803,142 @@
       "held_back": true
     },
     {
-      "cluster_key": "721f0201587b7a06",
-      "title": "'Apologise To Ram Bhakts': Yogi Adityanath On Akhilesh Yadav's Ayodhya Temple Visit Plan",
+      "cluster_key": "b84b842ed949cf53",
+      "title": "Webtop Media Transcoder vulnerable to incorrect resource transfer between spheres",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "appsec",
+        "exploit",
+        "research",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b84b842ed949cf53"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "CTI Now",
+          "url": "https://jvn.jp/en/vu/JVNVU93403064/",
+          "domain": "jvn.jp",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-09T02:04:17+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "34854a89900fbb9c",
+      "title": "Arlington ISD personnel information affected by third-party national data breach",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "incident",
+        "privacy",
+        "supply-chain",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "34854a89900fbb9c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Fort Worth Report",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPazhsaEFONE1sQUtZSDA2WHQtY21nQ2NYams2cFBHRnVvbUJPSEpYd3VreGhHaWZFNmIxM0Z1ZXc2cURNS21RQmhlVFNKVHNoa3dGd1UtdHFQZE9OS3laWWtSeF80SnhJRWZ0ZWVxMDdUc21RRG9XekFSUXRqa3VFUGpRTnNfeUx6c3FnTmRVRXI5cDNpVEdXWEYwS01VVldGRVhGRXd3MkZ0cGdjaXZvcDBCUGEycmwzZTNmeg?oc=5",
+          "domain": "fort-worth-report.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-06T19:09:43+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "6ebda8375fd1cc98",
+      "title": "Here is a mass attempted replication of old findings of LLMs with new models.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Here is a mass attempted replication of old findings of LLMs with new models. Recent models no longer invent citations and both hallucination rates & stereotyping has dropped. But they are still sycophantic & lean left.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "6ebda8375fd1cc98"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzesndbbxs2l",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-03T02:37:59.273000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "691eee45767436b1",
+      "title": "Ayatollah Mojtaba Khamenei's Representative Wishes Indians A Happy Diwali",
       "category": "india_world",
       "one_liner": "",
       "tags": [
@@ -719,13 +950,13 @@
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 25,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 25.0,
+      "blend": 13.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "721f0201587b7a06"
+        "691eee45767436b1"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -733,38 +964,181 @@
       "sources": [
         {
           "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/first-apologise-to-ram-devotees-yogi-adityanath-on-akhilesh-yadavs-ayodhya-visit-plan-12297283#publisher=newsstand",
+          "url": "https://www.ndtv.com/india-news/ayatollah-mojtaba-khameneis-representative-wishes-indians-a-happy-diwali-12300201#publisher=newsstand",
           "domain": "ndtv.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-07T18:11:47+00:00",
+      "published": "2026-11-08T11:23:48+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.1-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "df2307c39c534703",
-      "title": "gmpetrov/agent-screenplay — Beautiful screen recordings, made by your favorite AI agent.",
+      "cluster_key": "120eab03597c3b09",
+      "title": "OpenAI Buys Pierre: 3 Open-Source Tools, Codex [2026] - tech-insider.org",
+      "category": "cyber_tools",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "markets",
+        "opensource",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 22,
+      "interest_score": 0,
+      "corroboration": 2,
+      "blend": 20.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "120eab03597c3b09",
+        "b359e829f01702f9"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GN Security tools",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldYM0RqVkVVTUJuVkNkajMyc1Nrb3BNSVo2QW1iNER5MDBkeEpyV2VMY3BRbFJlSVVkWjRIRUo2NTZqUW0tcWM3ZkowMXF2ekN5VWRZSE1TaC1SUzNBRlpGNjNfSXpRMHVtck1iWDNzZFA1d1ZINWxGUXRsYUJvSV9lZlNEby1jQUdzYlBTTWQ?oc=5",
+          "domain": "news.google.com",
+          "tier": "C"
+        },
+        {
+          "name": "shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMzQwei15am4wZGdRTlAtdVhTY0tWbTZNSGliLUhvb0J2NnozTEcwUE1IY1I2N3FINHdIV0xod0ZrMFd6T28zTThpUFBhbkFOUEhkcTVQVkR6QzFjZjRQSnd3eTZLdUZMTXAwQWdzTnljX1NIVnpCQzFIYWh1NmsxU0VoSlZMUQ?oc=5",
+          "domain": "shattered-io.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T07:45:21+00:00",
+      "trace": [
+        "tier C (+10)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 20 = trust 22 / interest 0 / corrob 50"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "e460f46d2f930a33",
+      "title": "Congress donations fall nearly 75%, sharpest decline in a decade",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "policy",
+        "political",
+        "research"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "e460f46d2f930a33"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/congress-donations-fall-nearly-75-sharpest-decline-in-a-decade/article71680699.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-08T08:43:34+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "1f5eb67c8731cd7c",
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "incident",
+        "political",
+        "threat-intel"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 40,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 28.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "1f5eb67c8731cd7c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-07T17:58:41+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 29 = trust 40 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "836c722655cf758a",
+      "title": "Sandflow-ai/sand3d — 3D modeling in Python, built for LLMs.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
-        "howto",
         "llm",
         "opensource",
-        "release",
-        "supply-chain",
+        "political",
         "tool"
       ],
-      "summary": "screenplay-intro-final-v2.mp4 Create beautiful screen recordings with one prompt. Any website, yours or someone else's, or any desktop app. Works with Claude Code, Codex, Cursor and any MCP client. Ask your agent: \"Make a video that shows how human handoff works\". The agent explores the site or app and writes a short scenario; Screenplay plays it in a browser (or a desktop app), films it, and edits the video like Screen Studio would: smooth cursor, automatic zooms that follow the action, click effects, callouts, spotlight, captions, title cards, and an optional voice-over.",
+      "summary": "sand3d is a Python library for writing 3D objects as short programs: profiles, solids, edits, frames, joints and assemblies, over Blender's bpy. A program says how a shape is made, part by part and in its own words, so a model writes it in a few hundred tokens and a person can read it. Website · Docs · Datasets · Explorer How it is measured, part by part - Short. A part takes 2 to 6× fewer tokens than the same part in Blender Python, CadQuery or FeatureScript (details). The whole API fits in a prompt, about 3,600 tokens (the API).",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -775,7 +1149,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "df2307c39c534703"
+        "836c722655cf758a"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -783,123 +1157,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/gmpetrov/agent-screenplay",
+          "url": "https://github.com/Sandflow-ai/sand3d",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T19:27:26+00:00",
+      "published": "2026-11-03T08:23:03+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-02 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "01669e0899f5da98",
-      "title": "APT29 Watering Holes Target Unpatched iPhones and Android Devices",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "android",
-        "exploit",
-        "incident",
-        "research",
-        "threat-actor",
-        "threat-intel"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 37,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "01669e0899f5da98",
-        "96869c5eec732fe3"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "DarkReading",
-          "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
-          "domain": "darkreading.com",
-          "tier": "B"
-        },
-        {
-          "name": "Infosecurity Magazine",
-          "url": "https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/",
-          "domain": "infosecurity-magazine.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T14:00:00+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from cache",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "c06f3d72e7dfb5b9",
-      "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "android",
-        "incident",
-        "malware",
-        "network",
-        "supply-chain",
-        "threat-actor"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "c06f3d72e7dfb5b9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "DarkReading",
-          "url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
-          "domain": "darkreading.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T16:24:08+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-11-03 — outside lookback window",
       "held_back": true
     }
   ]
