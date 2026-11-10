@@ -1,91 +1,16 @@
 {
-  "generated_at": "2026-11-09T02:52:47.439675+00:00",
+  "generated_at": "2026-11-10T04:52:49.700089+00:00",
   "items": [
     {
-      "cluster_key": "6b9449ca361b41f1",
-      "title": "I had Opus 5.5 create a site where you can see the fastest routes into every city in the US, figure out where in America is fairest to meet up, see…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I had Opus 5.5 create a site where you can see the fastest routes into every city in the US, figure out where in America is fairest to meet up, see the \"watersheds\" of the largest cities, and more: all-roads-lead-to.netlify.app (Inspired by the defunct Arterial Mapping site) 2026-11-02T20:13:08.383Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "6b9449ca361b41f1"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mze54fib4c2w",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-02T20:12:42.614000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-02 — outside lookback window"
-    },
-    {
-      "cluster_key": "a38a31fd70bda990",
-      "title": "When you think about the Labs' weird approach to software releases (sudden changes, bad communication), it is worth remembering that a core belief…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu When you think about the Labs' weird approach to software releases (sudden changes, bad communication), it is worth remembering that a core belief is that these products are a temporary thing they have to do to raise money for a couple years until \"true\" AGI makes all products obsolete.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a38a31fd70bda990"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzdotrufck2l",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-02T15:57:21.227000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-02 — outside lookback window"
-    },
-    {
-      "cluster_key": "860ffbfef567614c",
-      "title": "supercli-site/awesome-coding-plan — TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and",
+      "cluster_key": "960bb9e491ed33a1",
+      "title": "AI semiotics: cool paper suggests that AIs are strongly impacted by visual symbols in ways they do not always recognize in their own chains-of-thought.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "ai",
-        "llm",
-        "opensource"
+        "research"
       ],
-      "summary": "TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and model value comparisons. GitHub repository supercli-site/awesome-coding-plan, 190 stars, language TypeScript. Topics: ai-agents, ai-coding, ai-models, api-pricing, cloudflare-pages, coding-plan, cost-comparison, llm-pricing.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu AI semiotics: cool paper suggests that AIs are strongly impacted by visual symbols in ways they do not always recognize in their own chains-of-thought. The way they react to those symbols is very different than how a human might interpret them as well.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -96,7 +21,52 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "860ffbfef567614c"
+        "960bb9e491ed33a1"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mziqgazkbc2x",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-04T16:08:53.537000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-04 — outside lookback window"
+    },
+    {
+      "cluster_key": "ec1db9eae5d75a3b",
+      "title": "Glen-Web-App/best-agent-memory-mcp — Best Agent Memory MCP servers, ranked and compared: long-term memory for Claude Code, Codex, Cursor and any MC",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "appsec",
+        "llm",
+        "opensource",
+        "release",
+        "tool"
+      ],
+      "summary": "The best agent memory MCP servers, ranked: long-term memory for Claude Code, Codex, Cursor and any MCP client. Best Agent Memory MCP compares 25 memory MCP servers that let an AI agent keep facts, decisions and past conversations between sessions. Hosted services (Glen, Mem0, Zep, Supermemory) sit next to open-source servers you run yourself (Hindsight, Basic Memory, Graphiti, Cognee, the official MCP memory server), and every entry says where memory is stored, whether capture is automatic or waits for the agent to call a tool, whether a team can share it, and what it costs. All of them connect to Claude Code, Cursor or Codex over MCP; the entries note which clients each project documents.…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "ec1db9eae5d75a3b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -104,17 +74,57 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/supercli-site/awesome-coding-plan",
+          "url": "https://github.com/Glen-Web-App/best-agent-memory-mcp",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T09:39:37+00:00",
+      "published": "2026-11-05T01:23:58+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
+      "reject_reason": "published 2026-11-05 — outside lookback window"
+    },
+    {
+      "cluster_key": "b09ba1a1ed092f74",
+      "title": "Whatever role AI played as an issue in this election, I suspect it will play a larger role in every election to come, at least for the foreseeable…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "political"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Whatever role AI played as an issue in this election, I suspect it will play a larger role in every election to come, at least for the foreseeable future.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "b09ba1a1ed092f74"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzjsntendk27",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T02:21:34.878000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
       "cluster_key": "0d35b875fec3e092",
@@ -196,16 +206,16 @@
       "reject_reason": "published 2026-11-03 — outside lookback window"
     },
     {
-      "cluster_key": "84dcd20c671573cf",
-      "title": "MiniMax-AI/mcode-agent-table — BYOB Table Protocol v0.1 and reference implementation: bring your own agent (MiniMax Code and others) to one s",
+      "cluster_key": "e306d3fb281d8659",
+      "title": "HimanshuMohanty-Git24/gitaviswa — GitaViśva (गीताविश्व): the Bhagavad Gita as a living knowledge graph. Explore all 700 verses in 3D, read 20 cl",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
+        "howto",
         "opensource"
       ],
-      "summary": "English · 中文 mcode-agent-table is the BYOB (Bring Your Own Bot) Table Protocol v0.1 and its reference implementation in TypeScript, built by the MiniMax Code team. Most multi-agent systems put every agent inside one platform: one model, one context, one set of credentials. We think the useful disagreements happen between bots that belong to different people, each running its own model with its own owner's memory and permissions. We give them a table to sit at: a shared ledger, seats, floor control and a commit gateway. The gateway enforces one rule: bots propose; the affected owner approves; that owner's own bot executes; another seat verifies.",
+      "summary": "The Bhagavad Gita as a living knowledge graph. Explore all 701 verses in 3D, follow how one idea leads to another, read 20 commentaries from six traditions side by side, listen to the chant, and ask questions that are answered from the text itself. Open GitaViśva · Run it on your computer · Get a free API key · How it works The 18 chapters are the amber hubs, each surrounded by its verses. Concepts, states of mind and life situations sit in the middle, where the teaching connects. Click any point to light up everything it touches, or find the path between two ideas.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -213,10 +223,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "84dcd20c671573cf"
+        "e306d3fb281d8659"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -224,17 +234,70 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/MiniMax-AI/mcode-agent-table",
+          "url": "https://github.com/HimanshuMohanty-Git24/gitaviswa",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T12:29:06+00:00",
+      "published": "2026-11-04T05:20:11+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
+      "reject_reason": "published 2026-11-04 — outside lookback window"
+    },
+    {
+      "cluster_key": "16b90ffd8ed968ee",
+      "title": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
+      "category": "tech_ai",
+      "one_liner": "Fable 5.2 outperforms steep trendlines on key composite, remote labor, and robotics benchmarks.",
+      "tags": [
+        "ai",
+        "hardware",
+        "llm",
+        "research"
+      ],
+      "summary": "Ethan Mollick highlighted that Fable 5.2 benchmarks above the steep trendline across three informative unsaturated benchmarks. These include ECI as a composite benchmark, Remote Labor measuring end-to-end freelance job capabilities, and RoboDojo involving robotics control. The results demonstrate continued outperformance of frontier models on complex multi-domain evaluation suites. This points to accelerated capability scaling in recent model iterations.",
+      "key_facts": [
+        "Model evaluated: Fable 5.2"
+      ],
+      "bottom_line": "Fable 5.2 exceeds expected trajectory curves on major unsaturated evaluation suites.",
+      "claims": [
+        {
+          "text": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
+          "support_span": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "16b90ffd8ed968ee"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T03:49:51.952000+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "faa9cdb96ffdbcea",
@@ -282,10 +345,122 @@
         "tier C (+10)",
         "single tier-C source — treat with caution",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 1/5 from gemini-3.5-flash-lite",
+        "importance 1/5 from cache",
         "blend 10 = trust 10 / interest 0 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "dfa8071c5198d6a6",
+      "title": "WizerdBaChe/nikke-k2f-check — Self-check and cleanup tool for the 2026 NIKKE PC launcher malware (K2F RAT) on Windows. Read-only detector, q",
+      "category": "cyber_tools",
+      "one_liner": "Compromised game launcher CDNs installed the K2F RAT malware on Windows systems, stealing browser data and persisting across sessions.",
+      "tags": [
+        "incident",
+        "malware",
+        "network",
+        "opensource",
+        "redteam",
+        "release",
+        "threat-intel",
+        "tool"
+      ],
+      "summary": "Between September 27, 2026, and early November, a severe campaign compromised official CDNs to inject the K2F remote access trojan (RAT) into desktop game launchers, including NIKKE and Google Play Games for PC. The malware steals browser credentials, session cookies, cryptographic keys, cryptocurrency wallet extensions, and NIKKE account data while maintaining persistence by injecting itself directly into Chrome and other browser components. Although game operators issued patches in early November to automatically remove the malicious scripts, already-infected machines remain compromised until manually remediated. Community-released cleanup tools like nikke-k2f-check allow users to scan systems offline using verified PowerShell scripts and quarantine threats without internet dependencies.",
+      "key_facts": [
+        "Incident start date: September 27, 2026",
+        "Malware family: K2F RAT",
+        "Targeted software: PC game launchers (NIKKE, Google Play Games PC)"
+      ],
+      "bottom_line": "Users of affected PC game launchers must run offline security checks and invalidate all active session tokens and browser credentials due to persistent K2F RAT infections.",
+      "claims": [
+        {
+          "text": "2026 年 9 月 27 日起，官方 CDN 上 4 個 JS 檔被竄改。電腦版啟動器一打開就會載入它們，部分玩家因此被裝上遠端控制木馬（K2F）。",
+          "support_span": "2026 年 9 月 27 日起，官方 CDN 上 4 個 JS 檔被竄改。電腦版啟動器一打開就會載入它們，部分玩家因此被裝上遠端控制木馬（K2F）。",
+          "status": "entailed"
+        },
+        {
+          "text": "木馬會偷瀏覽器密碼與登入狀態、NIKKE 帳密、SSH 與 API 金鑰、加密貨幣錢包，還能執行任意指令。",
+          "support_span": "木馬會偷瀏覽器密碼與登入狀態、NIKKE 帳密、SSH 與 API 金鑰、加密貨幣錢包，還能執行任意指令。",
+          "status": "entailed"
+        },
+        {
+          "text": "11/5 官方第二份公告：公布時間線、手動檢查步驟，準備遊戲內補償，並透過客服受理帳號被盜、金錢損失等申報；也說 11/5 早上 7 點（台灣時間）起，打開官方電腦版會自動偵測並刪除這次的木馬。",
+          "support_span": "11/5 官方第二份公告：公布時間線、手動檢查步驟，準備遊戲內補償，並透過客服受理帳號被盜、金錢損失等申報；也說 11/5 早上 7 7點（台灣時間）起，打開官方電腦版會自動偵測並刪除這次的木馬。",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "dfa8071c5198d6a6"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WizerdBaChe/nikke-k2f-check",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-04T07:44:23+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "c5088441856721a9",
+      "title": "howznguyen/shorts-kit — Make narrated vertical shorts (TikTok, YouTube Shorts, Reels) with a coding agent and Remotion. 9+ agent skill",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "Make narrated vertical shorts (TikTok, YouTube Shorts, Reels), and product promos in 9:16 or 16:9, with a coding agent and Remotion. You talk to your agent (\"make a video about why the sky is blue\"). The agent follows the kit's skills step by step: facts first, a storytelling flow, the script, the voice, the scenes, stills to check, the render, the cover and the caption. You review, then you upload the file yourself. The rules and skills come from a private pipeline that took a new knowledge channel from zero to about 120k views on its best video in two months.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "c5088441856721a9"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/howznguyen/shorts-kit",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-04T19:41:42+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-04 — outside lookback window"
     },
     {
       "cluster_key": "d6d8d45964adde86",
@@ -344,60 +519,21 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.1-flash-lite",
+        "importance 4/5 from cache",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "78e219711e827886",
-      "title": "kubai087/kubai-icons — An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agen",
+      "cluster_key": "fa90ed79490b07ff",
+      "title": "orkbot-run/ork — Source-available AI assistant with persistent bots that share conversations and work on isolated computers. Se",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "llm",
-        "opensource",
-        "release"
+        "ai",
+        "opensource"
       ],
-      "summary": "An agent skill that draws animated icons in one consistent style. Plus 2,800+ open-source icons drawn with it, for React, Vue and the web. Install the skill · Browse the icons · Use them in code · Docs Copy this into your agent and send it: Install the Kubai Icons skill for me: clone into your skills folder as kubai-icons (~/.claude/skills in Claude Code, ~/.agents/skills in Codex; if it's already there, pull the latest version instead), make sure SKILL.md exists in that folder, and tell me when it's ready. Restart your agent, and the skill is ready. An agent without skill support can read SKILL.md from the cloned folder and follow it.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "78e219711e827886"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/kubai087/kubai-icons",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T09:52:39+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
-    },
-    {
-      "cluster_key": "21326a0cadd9ed51",
-      "title": "Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\"",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\" 2026-11-03T04:23:41.574Z",
+      "summary": "Ork is a source-available assistant for persistent bots that share conversations and work on isolated computers. It runs in Tauri desktop and Expo mobile apps, backed by an API and worker. Use orkbot in package names and technical identifiers. Install Node.js 22.22.2+ within the 22.x line, Node.js 24, or Node.js 26+, and start Docker. The repository pins pnpm 9.15.0 through Corepack.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -408,25 +544,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "21326a0cadd9ed51"
+        "fa90ed79490b07ff"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzeykcbvgk2l",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/orkbot-run/ork",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T04:23:40.058000+00:00",
+      "published": "2026-11-04T19:57:31+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
+      "reject_reason": "published 2026-11-04 — outside lookback window"
     },
     {
       "cluster_key": "d2e69c284268b3d0",
@@ -468,194 +604,148 @@
       "reject_reason": "published 2026-11-03 — outside lookback window"
     },
     {
-      "cluster_key": "1cf65875058c7cca",
-      "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-      "category": "cyber_attacks",
-      "one_liner": "CVE-2026-0322 is an authenticated RCE vulnerability in Palo Alto Networks PAN-OS management interfaces with active exploitation.",
+      "cluster_key": "353d1cbf5681c172",
+      "title": "JosssphZhou/poki — Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+      "category": "tech_ai",
+      "one_liner": "Integrate local MCP servers and iOS automation frameworks to test agentic workflows directly on physical iPhones.",
       "tags": [
-        "cve",
-        "exploit",
+        "agents",
+        "ai",
+        "android",
+        "howto",
+        "llm",
         "network",
-        "release",
-        "vulnerability"
+        "opensource",
+        "tool"
       ],
-      "summary": "A high-severity remote code execution vulnerability, CVE-2026-0322, affects the management interface of Palo Alto Networks PAN-OS software. An authenticated network attacker can execute arbitrary code with root privileges on affected PA-Series, VM-Series, and Panorama firewalls. Limited exploitation has been observed in the wild, and Palo Alto Networks has provided Threat Prevention signatures for customers with active subscriptions.",
+      "summary": "A new open-source tool named Poki allows AI agents to operate a real iPhone locally via an MCP server without requiring a jailbreak or extra hardware. The setup involves running an installation script on macOS, trusting developer settings on the device, and connecting via an MCP client like Claude Code or Codex. It leverages a standalone terminal agent utilizing GPT-6.1 Terra to execute instructions. The system requires macOS 14+, Node.js 24+, iOS 18+, a USB data cable, and a compatible VPN or proxy app to route traffic locally.",
       "key_facts": [
-        "CVE ID: CVE-2026-0322",
-        "CVSS Score: 8.6 (CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N)",
-        "Threat IDs: 510046 and 510047",
-        "Indicator IPs: 66.42.72.14, 208.83.239.114, 149.248.47.234"
+        "Minimum iOS version: iOS 18+",
+        "Minimum macOS version: macOS 14+",
+        "Node version: Node.js 24+"
       ],
-      "bottom_line": "Authenticated attackers can achieve root RCE on Palo Alto firewalls via management interfaces, requiring immediate restriction and patching.",
+      "bottom_line": "Poki enables AI agents to control physical iPhones locally through an MCP server without jailbreaking.",
       "claims": [
         {
-          "text": "A remote code execution vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
-          "support_span": "A remote code execution vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+          "text": "JosssphZhou/poki — Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+          "support_span": "JosssphZhou/poki — Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
           "status": "contradicted"
-        },
-        {
-          "text": "Very limited exploitation has been observed targeting the Palo Alto Networks management interface.",
-          "support_span": "Very limited exploitation has been observed targeting the Palo Alto Networks management interface.",
-          "status": "entailed"
         }
       ],
-      "trust_score": 82,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 80.5,
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "1cf65875058c7cca",
-        "343c64d81bc159b2",
-        "62182dce0f3b28b2",
-        "b1a3e44cbbf34a02",
-        "b27aeca410b144b4",
-        "cef7e90174d1d43f"
+        "353d1cbf5681c172"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-110273",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-19133",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        },
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-          "domain": "security.paloaltonetworks.com",
-          "tier": "A"
-        },
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-          "domain": "security.paloaltonetworks.com",
-          "tier": "A"
-        },
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
-          "domain": "security.paloaltonetworks.com",
-          "tier": "A"
-        },
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-          "domain": "security.paloaltonetworks.com",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://security.paloaltonetworks.com/CVE-2026-0313",
-        "https://security.paloaltonetworks.com/CVE-2026-0320",
-        "https://security.paloaltonetworks.com/CVE-2026-0322",
-        "https://security.paloaltonetworks.com/PAN-SA-2026-0013"
-      ],
-      "published": "2026-10-14T16:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "2 independent outlets (+12)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 5/5 from cache",
-        "blend 80 = trust 82 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "096ac82ba26ff6bf",
-      "title": "smokeeaasd/flawless-ui-ux — A UI/UX skill for coding agents to build distinctive, usable interfaces.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "howto",
-        "linux",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "Build and refine interfaces around your product's audience, content, and identity. Install · Use the skill · How it works · Inspect and verify · Docs From your project directory, run one command with your preferred package manager: npm npx flawless-ui-ux@latest install pnpm pnpm dlx flawless-ui-ux@latest install Bun bunx flawless-ui-ux@latest install Requires Node 22.12+. In a terminal, choose project or global scope, select one or more agents, and confirm the destinations before copying. Use Space to select and Enter to continue. Ctrl+C cancels before installation files are written.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "096ac82ba26ff6bf"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
           "name": "GitHub (new)",
-          "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+          "url": "https://github.com/JosssphZhou/poki",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T14:36:42+00:00",
+      "published": "2026-11-05T15:04:31+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "978b589fa01eea5c",
-      "title": "In updating a graphic showing U.S. company AI adoption over time according to a long-running U.S.",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "0f00a68454913de5",
+      "title": "New Supply Chain Attack Compromises Tens of Thousands of GitHub Repositories",
+      "category": "cyber_attacks",
+      "one_liner": "A supply chain campaign compromised tens of thousands of GitHub repositories with malicious workflows that harvest credentials from commit histories.",
       "tags": [
         "ai",
-        "windows"
+        "appsec",
+        "cloud",
+        "incident",
+        "malware",
+        "research",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z In updating a graphic showing U.S. company AI adoption over time according to a long-running U.S. Census Bureau survey, I found out that the Bureau's work has been sullied by that asinine \"Super Intelligence\" executive order 2026-11-02T19:24:55.573Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
+      "summary": "Security researchers at Socket discovered a software supply chain attack affecting tens of thousands of GitHub repositories, including organization-owned projects such as Uber's athenadriver. The campaign, a variation of the GhostAction tactic, relies on two compromised GitHub accounts—'henrywoo' and 'kitao'—to push a malicious GitHub Actions workflow disguised as a security audit. The workflow automatically executes during routine tasks, stealing API keys, tokens, and historical credentials from repository files and Git history before exfiltrating them over HTTP to an external server at 193.32.204[.]199. Because the attackers systematically targeted all repositories they had access to rather than filtering by activity, even inactive projects were compromised.",
+      "key_facts": [
+        "Affected repositories: Tens of thousands",
+        "Exfiltration IP: 193.32.204[.]199",
+        "Compromised accounts: henrywoo, kitao"
+      ],
+      "bottom_line": "A widespread GitHub supply chain attack has compromised tens of thousands of repositories via malicious CI/CD workflows that exfiltrate sensitive secrets.",
+      "claims": [
+        {
+          "text": "Socket researchers uncovered a software supply chain attack that has affected tens of thousands of GitHub repositories, including organization-owned ones.",
+          "support_span": "Security researchers at Socket have uncovered a new software supply chain attack that has affected tens of thousands of GitHub repositories, including organization-owned ones.",
+          "status": "entailed"
+        },
+        {
+          "text": "Two GitHub accounts, ‘henrywoo’ and ‘kitao,’ pushed a malicious GitHub Actions workflow named .github/workflows/security-audit.yml.",
+          "support_span": "On October 8, 2026, two GitHub accounts, ‘henrywoo’ and ‘kitao,’ pushed a malicious GitHub Actions workflow to hundreds of repositories they had permission to modify... The workflow, named “.github/workflows/security-audit.yml,” was added through a single-file commit",
+          "status": "contradicted"
+        },
+        {
+          "text": "The workflow steals credentials from affected repositories and sends them to an external server at 193.32.204[.]199 over HTTP.",
+          "support_span": "Instead, it steals credentials from affected repositories and sends them to an external server at 193.32.204[.]199 over HTTP.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": false,
-      "summary_source": "extract",
+      "summary_source": "model",
       "alt_keys": [
-        "978b589fa01eea5c"
+        "0f00a68454913de5",
+        "89833dacd0e47fd6",
+        "952aa8b6f89cce79"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mze2gvcx4s2u",
-          "domain": "bsky.app",
+          "name": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/",
+          "domain": "infosecurity-magazine.com",
+          "tier": "B"
+        },
+        {
+          "name": "StepSecurity",
+          "url": "https://www.stepsecurity.io/blog/malicious-files-find-what-supply-chain-attacks-leave-behind-in-your-github-repositories-and-on-developer-machines",
+          "domain": "stepsecurity.io",
+          "tier": "C"
+        },
+        {
+          "name": "StepSecurity",
+          "url": "https://www.stepsecurity.io/blog/stepsecurity-now-inventories-ai-agent-plugins-in-your-github-repositories-and-on-developer-machines",
+          "domain": "stepsecurity.io",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T19:24:53.543000+00:00",
+      "published": "2026-10-27T14:55:03+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
       ],
-      "reject_reason": "published 2026-11-02 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "88769bf30e53f339",
@@ -698,43 +788,63 @@
       "reject_reason": "published 2026-11-03 — outside lookback window"
     },
     {
-      "cluster_key": "1818a08f79756299",
-      "title": "If this holds up, it is big: \"We asked GPT-6 Astra to edit Qwen3.5-0.8B weights to improve math.",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "311d06119763179a",
+      "title": "Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue – Top things for investors",
+      "category": "markets",
+      "one_liner": "Veritas Finance secures SEBI nod for its IPO comprising a ₹900 crore fresh issue and an offer for sale.",
       "tags": [
-        "llm"
+        "india",
+        "markets"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu If this holds up, it is big: \"We asked GPT-6 Astra to edit Qwen3.5-0.8B weights to improve math. It directly changed only 0.016% of weights, fixing 0.8B's reasoning loops & improving math up to 6x and even instruction following 3x, without gradients or training.\" 2026-11-02T21:00:12.185Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "Veritas Finance has received SEBI approval to launch its initial public offering, consisting of a fresh equity issue worth ₹900 crore and an offer for sale of up to 1.28 crore shares by existing investors. The public issue may also include a pre-IPO placement of up to ₹180 crore, which would reduce the fresh issue size accordingly. The NBFC caters to micro, small, and medium enterprises across southern and eastern India, reporting assets under management of ₹9,134 crore as of March 2026. The company operates 444 branches across 10 states and one Union Territory.",
+      "key_facts": [
+        "Fresh issue: ₹900 crore",
+        "OFS: Up to 1.28 crore equity shares",
+        "AUM: ₹9,134 crore",
+        "Branch count: 444"
+      ],
+      "bottom_line": "MSME-focused NBFC Veritas Finance is cleared to raise capital via an IPO to strengthen its lending base and expand operations.",
+      "claims": [
+        {
+          "text": "Veritas Finance Ltd... has received approval from the Securities and Exchange Board of India (Sebi) to launch its initial public offering...",
+          "support_span": "Veritas Finance Ltd, a non-deposit-taking non-banking financial company (NBFC), has received approval from the Securities and Exchange Board of India (Sebi) to launch its initial public offering, comprising a fresh issue of equity shares worth ₹900 crore and an offer for sale (OFS) by existing shareholders.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The company reported assets under management (AUM) of ₹9,134 crore as of March 31, 2026.",
+          "support_span": "The company reported assets under management (AUM) of ₹9,134 crore as of March 31, 2026.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "1818a08f79756299"
+        "311d06119763179a"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mze7rbg2fc2l",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/upcoming-ipo-veritas-finance-gets-sebi-nod-to-launch-public-issue-top-things-for-investors-11794247367964.html",
+          "domain": "livemint.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-02T21:00:10.481000+00:00",
+      "published": "2026-11-09T18:30:48+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-02 — outside lookback window"
+      "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "2e963759f0aa268b",
@@ -777,35 +887,220 @@
       "reject_reason": "published 2026-11-04 — outside lookback window"
     },
     {
-      "cluster_key": "ae7649f8eaa750e0",
-      "title": "Diffinery Foundation Launches Open-Source GitHub Alternative Built Entirely on Cloudflare",
-      "category": "cyber_tools",
-      "one_liner": "Diffinery launches an open-source, Cloudflare-native GitHub alternative featuring integrated CI and granular security guardrails for AI coding agents.",
+      "cluster_key": "4a45ad356325d0f9",
+      "title": "Trump says more US attacks on Iran 'highly unlikely'",
+      "category": "india_world",
+      "one_liner": "Trump signals renewed US attacks on Iran are unlikely as Middle East peace negotiations show positive momentum.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "US President Donald Trump stated that renewed military attacks on Iran are highly unlikely because Iran's military capabilities are effectively neutralized. Trump noted positive momentum in negotiations following discussions with Qatari Prime Minister Sheikh Mohammed bin Abdul Rahman Al Thani. While de-escalating open conflict after midterm election losses linked to the war, Trump maintained that a US naval blockade remains in place to protect regional allies. Meanwhile, political fallout from the conflict continues in Washington, where Republican representative Thomas Massie initiated impeachment threats against Defense Secretary Pete Hegseth.",
+      "key_facts": [
+        "Key official: Donald Trump",
+        "Diplomatic partner: Qatari Prime Minister Sheikh Mohammed bin Abdul Rahman Al Thani"
+      ],
+      "bottom_line": "President Trump declared Iran militarily neutralized and ruled out near-term strikes, while maintaining regional naval blockades.",
+      "claims": [
+        {
+          "text": "Donald Trump has said 'Iran militarily is effectively over', and said that there is 'positive momentum' behind negotiations to end the Middle East conflict.",
+          "support_span": "Donald Trump has said \"Iran militarily is effectively over\", and said that there is \"positive momentum\" behind negotiations to end the Middle East conflict.",
+          "status": "entailed"
+        },
+        {
+          "text": "Addressing reporters from the White House press briefing room, Trump said that renewed US attacks on Iran were 'highly unlikely'...",
+          "support_span": "Addressing reporters from the White House press briefing room, Trump said that renewed US attacks on Iran were 'highly unlikely' but that the US was 'locked and loaded' should the circumstances change.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 76,
+      "interest_score": 75,
+      "corroboration": 4,
+      "blend": 82.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "4a45ad356325d0f9",
+        "6813acf7ba48ea0e",
+        "85a2a81cc50c3754",
+        "a06cbb49ac5b69b8",
+        "e7f9d6f54f9e1da8"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/oil-down-more-than-7-a-barrel-in-post-settlement-trade-as-trump-signals-restraint-on-iran-11794254623929.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnV4VENDNkFNVllVVEpoVTJLcC13SlhHREstWFZZQ252QTRiU3dKeW5EYWYxVUJjNnQzVzh1M1FsWjNGTmRKMVFEYjhxT3M2VmF4aVpERWwwczh6dV9OTG5NcFJCMFVZZ0toWEEyMnRRTnBZUm9iQVVzblIzcmJMOTR4V29sUDFVME1jcFQ5VVhoMHVUM0YzWHM2bmE1b3VCV0s0R2JmUUQ?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWIxdHFYZXdDLUkyNjhxSklldE1kTVJUMXBHOENVUUF0YWVXRmhpbGhvSDdJSUtSUG9ZUk5FVGxZdExQa0c0WmJFZDd2QXFNUnJUV0ZuZ0x3eHZCTFBiVXY3b0lVMVA0RkVaVllFRHJHSjJaUmlpSjNOQThxOGhoN05LelBtdjE4Qk5PbnRoTThFVWc3NE91WlE2WHJKbG5kWEVkeF9SS20wSGs?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-08T23:50:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "4 independent outlets (+36)",
+        "verified: 4 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 83 = trust 76 / interest 75 / corrob 100",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "059affe961508fb8",
+      "title": "KSRTC sees sharp rise in ticket bookings during Deepavali, daily reservations cross 62,000",
+      "category": "india_world",
+      "one_liner": "KSRTC daily advance bookings surged over 62,000 during Deepavali following automated extra bus allocation and expanded Bengaluru pick-up points.",
+      "tags": [
+        "india"
+      ],
+      "summary": "The Karnataka State Road Transport Corporation (KSRTC) experienced a surge in advance ticket reservations during the Deepavali festival, exceeding 62,000 bookings per day on consecutive days compared to an earlier daily average of 37,000. The 77% increase was driven by the introduction of an automated platform feature adding over 1,000 extra buses when scheduled services filled up, alongside the creation of 15 new designated pick-up points across Bengaluru. Additionally, KSRTC operated over 2,000 special buses on November 6 and 7 to extend festive connectivity to towns and taluk centers across Karnataka.",
+      "key_facts": [
+        "Peak bookings: 65,416 (Nov 6) and 62,499 (Nov 7)",
+        "Baseline daily average: ~37,000",
+        "Additional online buses: >1,000",
+        "Special buses deployed: >2,000"
+      ],
+      "bottom_line": "KSRTC handled a 77% surge in Deepavali bookings by dynamically scaling online bus capacity and expanding neighborhood pick-up points.",
+      "claims": [
+        {
+          "text": "The Karnataka State Road Transport Corporation recorded a significant increase in advance ticket reservations during the Deepavali festive season this year, with bookings crossing 62,000 per day on two consecutive days.",
+          "support_span": "The Karnataka State Road Transport Corporation (KSRTC) has recorded a significant increase in advance ticket reservations during the Deepavali festive season this year, with bookings crossing 62,000 per day on two consecutive days, following a series of measures to expand services.",
+          "status": "entailed"
+        },
+        {
+          "text": "The number increased to 65,416 on November 6, and on November 7 bookings stood at 62,499.",
+          "support_span": "The number increased to 65,416 on November 6. On November 7, bookings fewer...? bookings stood at 62,499.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "059affe961508fb8"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/karnataka/ksrtc-sees-sharp-rise-in-ticket-bookings-during-deepavali-daily-reservations-cross-62000/article71683502.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-09T19:36:17+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "2b1eea4885c01263",
+      "title": "TIGER-AI-Lab/WebsiteBench — Can AI agents rebuild websites through browser exploration?",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "cloud",
+        "linux",
         "opensource",
         "release",
+        "research",
+        "supply-chain",
         "tool"
       ],
-      "summary": "Diffinery Foundation has launched Diffinery, an open-source software development platform built entirely on Cloudflare to provide engineering teams with an alternative to centralized code hosting providers like GitHub. The platform consolidates Git repositories, pull requests, and GitHub Actions-compatible CI pipelines within an organization's own Cloudflare account to eliminate reliance on third-party availability. It features rapid execution runners with dedicated resources and specialized security guardrails designed for autonomous AI coding agents. These controls scope token permissions, enforce human reviews, and restrict agents from pushing directly to protected branches or accessing sensitive secrets.",
-      "key_facts": [
-        "Platform Name: Diffinery",
-        "Infrastructure: Cloudflare ecosystem",
-        "Default CI Specs: 4 virtual CPUs and 12 GB memory"
+      "summary": "Given a production-level website they can explore through a browser, agents must reverse-engineer a full-stack version that matches its appearance and behavior as closely as possible. 70 websites and 46,916 hidden test cases, on Harbor Hub and Hugging Face. Download them with the PyPI package: pip install websitebench websitebench download --task mediumuv tool install harbor==0.25.0 Run an agent on all 70 tasks: export OPENAI_API_KEY='<key>' harbor run --dataset websitebench/WebsiteBench@v1 \\ --agent codex --model '<model>' --n-concurrent 1 \\ --allow-environment-host snapshot.debian.org \\ --allow-environment-host raw.githubusercontent.com \\ --allow-environment-host github.com \\ --allow-envi…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "2b1eea4885c01263"
       ],
-      "bottom_line": "Diffinery offers an open-source, Cloudflare-deployed development and CI platform that keeps code infrastructure decentralized and secures AI agent workflows.",
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-04T12:58:50+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-04 — outside lookback window"
+    },
+    {
+      "cluster_key": "5212c168a88cf58b",
+      "title": "The One Thing Every AI Agent Framework Agrees On - Mislav Ivanda, Daytona｜AI Engineer",
+      "category": "tech_ai",
+      "one_liner": "AI agent frameworks have quietly converged on a standard three-call sandbox contract, making execution boundary selection critical for production safety.",
+      "tags": [
+        "agents",
+        "ai",
+        "appsec",
+        "tool"
+      ],
+      "summary": "In a talk on AI agent execution boundaries, Daytona developer experience engineer Mislav Ivanda highlights that major frameworks such as LangChain, LangGraph, and Google ADK have converged on a shared three-call sandbox contract consisting of sandbox creation, code execution, and sandbox deletion. Ivanda argues that teams should select their isolation execution boundary before choosing an agent framework, as execution environments cannot be cheaply swapped later. He outlines three isolation tiers, warning that local execution guardrails and allow-lists remain vulnerable because agents can still open network sockets and modify files once code execution is permitted.",
+      "key_facts": [],
+      "bottom_line": "Development teams must choose secure container isolation tiers before picking an agent framework, as local-execution proofs of concept present severe production security risks.",
       "claims": [
         {
-          "text": "Diffinery Foundation today announced the launch of Diffinery, an open-source software development platform designed to give engineering teams an alternative to centralized code hosting and continuous integration services.",
-          "support_span": "Diffinery Foundation today announced the launch of Diffinery, an open-source software development platform designed to give engineering teams an alternative to centralized code hosting and continuous integration services.",
-          "status": "contradicted"
+          "text": "Daytona's Mislav Ivanda argues that despite agent frameworks disagreeing on what an agent is, all share a three-line sandbox pattern.",
+          "support_span": "Daytona's Mislav Ivanda argues that despite agent frameworks disagreeing on what an agent is, all share a three-line sandbox pattern, so teams should pick the execution boundary before the framework",
+          "status": "entailed"
         },
         {
-          "text": "Built entirely on the Cloudflare ecosystem, Diffinery brings Git repositories, pull requests, GitHub Actions-compatible continuous integration (CI) and AI agent management into one infrastructure environment that organizations can deploy on their own Cloudflare accounts.",
-          "support_span": "Built entirely on the Cloudflare ecosystem, Diffinery brings Git repositories, pull requests, GitHub Actions-compatible continuous integration (CI) and AI agent management into one infrastructure environment that organizations can deploy on their own Cloudflare accounts.",
-          "status": "entailed"
+          "text": "Underneath, all of them make the same three calls: sandbox creation, running some code or task inside the sandbox, and sandbox deletion.",
+          "support_span": "“Under the hood all of these ways speak the three same lines. So it's sandbox creation, running some code or task inside the sandbox, and sandbox deletion.”",
+          "status": "contradicted"
         }
       ],
       "trust_score": 10,
@@ -815,26 +1110,151 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "ae7649f8eaa750e0"
+        "5212c168a88cf58b"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "FinancialContent",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN3V4RjFRQ2piWXE1Q2F1NnM0OVkzbkFXaTBVa0ZNYmt3T2s0SUVRMmRnbXNUN0NZNzhOYWFMWXZrc2hWeXotc3dQMjVRZEdfMUdHOEVDdjJlYzdYWTlRSmI0X2xlZ0F4eXhBd0lZdTFTSDhEY2I5c1RfbFQzN0Rqd0szQk5leVhhWVkxWmFPUEdZRDJnLTl1V1ZFLU16VDBaMUxoUy0yLVBreW8tZGdrd0pneGpGeHctQnBael83Mm9Wb1JHRVZ1WElTanYtbHU1dUFBaHE5Rjg4dkhkcmhjTmhFZC01X2FxX2Nn?oc=5",
-          "domain": "financialcontent.publisher",
+          "name": "finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YNGRPSFdSV3hjWXJiLWJ4TzZKc0NZLXM5MTFUSHA4aHdsY2dZMGs0WVNfaHV2U2V3QkR0UXdQMFhsdXlXZjRyMUtPcG4xb2FaMTRXVVFheXNVWm5uWm5Z?oc=5",
+          "domain": "finance-biggo-com.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-06T02:59:00+00:00",
+      "published": "2026-11-09T08:45:48+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
+        "importance 4/5 from gemini-3.5-flash-lite",
         "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "96f75331cab5167d",
+      "title": "Akhilesh’s proposed Ayodhya visit to broaden his PDA outreach, say political analysts",
+      "category": "india_world",
+      "one_liner": "SP chief Akhilesh Yadav's planned visit to Ayodhya's Ram Temple sparks political debate as the party seeks to expand its voter base among Brahmins and upper castes.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "Samajwadi Party president Akhilesh Yadav has announced plans to visit the Ram Temple in Ayodhya on December 12, triggering sharp political pushback from the ruling BJP and Chief Minister Yogi Adityanath, who demanded an apology for past police actions against kar sevaks. Political analysts view the planned visit as a strategic effort to broaden the SP's PDA (Pichda, Dalit, Alpsankhyak) electoral coalition by reaching out to upper-caste communities like Brahmins ahead of the upcoming Uttar Pradesh Assembly elections, while neutralizing the BJP's anti-Hindu rhetoric.",
+      "key_facts": [
+        "Visit date: December 12",
+        "Key figures: Akhilesh Yadav, Yogi Adityanath",
+        "State: Uttar Pradesh"
+      ],
+      "bottom_line": "Political outreach to upper-caste voters via temple visits ahead of the UP assembly elections highlights shifting electoral strategies among opposition parties.",
+      "claims": [
+        {
+          "text": "Samajwadi Party president Akhilesh Yadav announced his proposed visit to the Ram Temple in Ayodhya on December 12.",
+          "support_span": "After the announcement of Samajwadi Party president and former Uttar Pradesh Chief Minister Akhilesh Yadav’s proposed visit to the Ram Temple in Ayodhya on December 12 for the first time since its consecration two years ago, a political slugfest has ensued with the ruling Bharatiya Janata Party (BJP) calling the visit politically motivated.",
+          "status": "entailed"
+        },
+        {
+          "text": "U.P. Chief Minister Yogi Adityanath alleged that those who had neglected the holy town and opened fire on Lord Ram’s devotees should come only after apologising.",
+          "support_span": "“Those who had neglected and insulted [Ayodhya], who had opened fire on Lord Ram devotees and subjected saints to lathi charge, should certainly come to Ayodhya, but only after apologising,” said Mr. Adityanath",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "96f75331cab5167d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/akhileshs-proposed-ayodhya-visit-to-broaden-his-pda-outreach-say-political-analysts/article71683430.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-09T16:39:28+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "e9e255b082200425",
+      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "category": "cyber_attacks",
+      "one_liner": "Audit access controls on Model Context Protocol servers and AI integration endpoints to protect hosting infrastructure from rapid automated intrusions.",
+      "tags": [
+        "agents",
+        "ai",
+        "cloud",
+        "dfir",
+        "incident",
+        "opensource",
+        "tool",
+        "vulnerability"
+      ],
+      "summary": "German web hosting provider Mittwald CM Service disclosed that hackers compromised 56 customer projects after operating undetected on its infrastructure for eight days. The attacker exploited a vulnerability in the Model Context Protocol (MCP) server used to connect AI assistants to the mStudio platform. According to the company's logs, the attacker utilized AI tooling to accelerate execution steps significantly, marking an early documented case of an AI-aided attack vector targeting management interfaces.",
+      "key_facts": [
+        "Victim: Mittwald CM Service",
+        "Compromised projects: 56",
+        "Dwell time: 8 days",
+        "Vector: Model Context Protocol (MCP) server flaw"
+      ],
+      "bottom_line": "Attackers exploited a Model Context Protocol server vulnerability in an AI-assisted breach that compromised 56 customer projects at a German web host.",
+      "claims": [
+        {
+          "text": "Mittwald CM Service, a hosting provider for web agencies based in North Rhine-Westphalia, disclosed in a blog post Saturday that hackers had compromised 56 customer projects after going undetected on its systems for eight days.",
+          "support_span": "Mittwald CM Service, a hosting provider for web agencies based in North Rhine-Westphalia, disclosed in a blog post Saturday that compromised 56 customer projects after going undetected on its systems for eight days.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The company’s managing director Robert Meyer said the attackers exploited a flaw in Mittwald’s Model Context Protocol (MCP) server",
+          "support_span": "The company’s managing director Robert Meyer said the attackers exploited a flaw in Mittwald’s Model Context Protocol (MCP) server",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "e9e255b082200425"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+          "domain": "therecord.media",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-09T14:15:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -899,7 +1319,7 @@
         "tier C (+10)",
         "single tier-C source — treat with caution",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -966,319 +1386,319 @@
         "tier C (+10)",
         "single tier-C source — treat with caution",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "6ebda8375fd1cc98",
-      "title": "Here is a mass attempted replication of old findings of LLMs with new models.",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "482c099830235939",
+      "title": "​Critical Zero-Day Vulnerabilities Found in D-Link Enterprise Gigabit Switches",
+      "category": "cyber_attacks",
+      "one_liner": "Critical zero-day flaws in D-Link DGS-3130 switches allow attackers to hijack devices and disrupt enterprise networks without a patch available.",
       "tags": [
-        "llm"
+        "appsec",
+        "blueteam",
+        "exploit",
+        "hardware",
+        "network",
+        "privacy",
+        "release",
+        "vulnerability"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Here is a mass attempted replication of old findings of LLMs with new models. Recent models no longer invent citations and both hallucination rates & stereotyping has dropped. But they are still sycophantic & lean left.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "6ebda8375fd1cc98"
+      "summary": "Security researcher Girish Kumar Enugu discovered multiple critical zero-day vulnerabilities in the proprietary D-Link Discovery Protocol used across DGS-3130 series managed gigabit stackable switches. Unauthenticated attackers who have access to the local network segment can exploit these flaws to retrieve confidential configuration data, extract Simple Network Management Protocol community strings, execute unauthorized administrative commands, and trigger disruptive system reboots or factory resets. Because D-Link has not yet released firmware patches and has not assigned CVE tracking numbers, network administrators must implement manual mitigations such as disabling the discovery protocol and isolating management interfaces.",
+      "key_facts": [
+        "Affected product: DGS-3130-30TS model and DGS-3130 series",
+        "Discovered by: Girish Kumar Enugu",
+        "CVE-2026-86296: earlier zero-day flagged in September 2026 across legacy DIR-822A routers"
       ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzesndbbxs2l",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T02:37:59.273000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
-    },
-    {
-      "cluster_key": "691eee45767436b1",
-      "title": "Ayatollah Mojtaba Khamenei's Representative Wishes Indians A Happy Diwali",
-      "category": "india_world",
-      "one_liner": "Ayatollah Mojtaba Khamenei's representative wished Indians a Happy Diwali.",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "A representative of Ayatollah Mojtaba Khamenei extended Diwali greetings to Indian citizens.",
-      "key_facts": [],
-      "bottom_line": "This ceremonial greeting carries no direct political or market impact.",
+      "bottom_line": "Administrators of D-Link DGS-3130 switches must immediately disable the proprietary discovery protocol and isolate management channels to mitigate unpatched zero-day risks.",
       "claims": [
         {
-          "text": "Ayatollah Mojtaba Khamenei's Representative Wishes Indians A Happy Diwali",
-          "support_span": "Ayatollah Mojtaba Khamenei's Representative Wishes Indians A Happy Diwali",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 13.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "691eee45767436b1"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/ayatollah-mojtaba-khameneis-representative-wishes-indians-a-happy-diwali-12300201#publisher=newsstand",
-          "domain": "ndtv.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-08T11:23:48+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "120eab03597c3b09",
-      "title": "OpenAI Buys Pierre: 3 Open-Source Tools, Codex [2026] - tech-insider.org",
-      "category": "cyber_tools",
-      "one_liner": "Headline link regarding OpenAI's acquisition of Pierre and open-source tools.",
-      "tags": [
-        "ai",
-        "llm",
-        "markets",
-        "opensource",
-        "tool"
-      ],
-      "summary": "The article is a headline reference to an external URL concerning OpenAI's acquisition of Pierre, including three open-source tools and Codex.",
-      "key_facts": [],
-      "bottom_line": "This headline-only reference offers no detailed technical insights into OpenAI's acquisition without visiting the source.",
-      "claims": [
-        {
-          "text": "OpenAI Buys Pierre: 3 Open-Source Tools, Codex [2026] - tech-insider.org",
-          "support_span": "OpenAI Buys Pierre: 3 Open-Source Tools, Codex [2026] - tech-insider.org",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 22,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 20.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "120eab03597c3b09",
-        "b359e829f01702f9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GN Security tools",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldYM0RqVkVVTUJuVkNkajMyc1Nrb3BNSVo2QW1iNER5MDBkeEpyV2VMY3BRbFJlSVVkWjRIRUo2NTZqUW0tcWM3ZkowMXF2ekN5VWRZSE1TaC1SUzNBRlpGNjNfSXpRMHVtck1iWDNzZFA1d1ZINWxGUXRsYUJvSV9lZlNEby1jQUdzYlBTTWQ?oc=5",
-          "domain": "news.google.com",
-          "tier": "C"
+          "text": "The security flaws were identified by security researcher Girish Kumar Enugu, who uncovered issues related to authentication, access control, and information handling within the D-Link Discovery Protocol.",
+          "support_span": "The security flaws were identified by security researcher Girish Kumar Enugu, who uncovered issues related to authentication, access control, and information handling within the D-Link Discovery Protocol.",
+          "status": "entailed"
         },
         {
-          "name": "shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMzQwei15am4wZGdRTlAtdVhTY0tWbTZNSGliLUhvb0J2NnozTEcwUE1IY1I2N3FINHdIV0xod0ZrMFd6T28zTThpUFBhbkFOUEhkcTVQVkR6QzFjZjRQSnd3eTZLdUZMTXAwQWdzTnljX1NIVnpCQzFIYWh1NmsxU0VoSlZMUQ?oc=5",
-          "domain": "shattered-io.publisher",
+          "text": "Successful exploitation of these vulnerabilities allows malicious actors who have gained access to the affected network segment to retrieve confidential operational data and execute unauthorized administrative commands.",
+          "support_span": "Successful exploitation of these vulnerabilities allows malicious actors who have gained access to the affected network segment to retrieve confidential operational data and execute unauthorized administrative commands.",
+          "status": "entailed"
+        },
+        {
+          "text": "The incident follows an earlier zero-day flaw, CVE-2026-86296, flagged in September 2026 across legacy DIR-822A routers, underlining the urgent need for stringent control over enterprise network hardware.",
+          "support_span": "The incident follows an earlier zero-day flaw, CVE-2026-86296, flagged in September 2026 across legacy DIR-822A routers, underlining the urgent need for stringent control over enterprise network hardware.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "482c099830235939"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The 420.in",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2p1ZnNPYUxha0lGLU1hSWYwVFN0MllEYUFYUFdkUVR4T0J0SEpBYmQ2VFpnWkRNR0F0akZ0Qnk1TzR5VkZ0YS1yT0wzYXB3ODJJY1QyNFV0SzRMcVBrdFA2ckFBWmp5WHhjSDhqTF9POHd2MFZZMkRxVVdKMERTWVd1NjdjQUtWY2FQQUtUYlhQbURqcXYwSWh2NGE?oc=5",
+          "domain": "the-420-in.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-05T07:45:21+00:00",
+      "published": "2026-11-07T16:39:25+00:00",
       "trace": [
         "tier C (+10)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 20 = trust 22 / interest 0 / corrob 50"
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "e460f46d2f930a33",
-      "title": "Congress donations fall nearly 75%, sharpest decline in a decade",
-      "category": "india_world",
-      "one_liner": "Congress party donations above ₹20,000 plunged nearly 75% in 2025-26 due to a sharp drop in electoral trust funding.",
+      "cluster_key": "45354f6abbceea3a",
+      "title": "Jensen Huang exit odds are low on prediction markets after Nvidia probe",
+      "category": "markets",
+      "one_liner": "Prediction market traders view the odds of Nvidia CEO Jensen Huang being ousted following an intelligence probe as low in the near term.",
       "tags": [
-        "india",
-        "policy",
-        "political",
-        "research"
+        "markets",
+        "political"
       ],
-      "summary": "The Indian National Congress party's receipts from donations exceeding ₹20,000 plunged nearly 75% to ₹130.69 crore in 2025-26, marking the steepest annual decline in a decade. The drop was largely driven by an 88% reduction in contributions from the Prudent Electoral Trust, which fell from ₹216.34 crore to ₹25 crore. Despite the sharp decrease compared to the Lok Sabha election year of 2024-25, the figures remain higher than several previous non-election financial years.",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang following reports that he was targeted by a foreign intelligence effort, after Huang admitted to an extramarital affair with a woman identified by U.S. intelligence as a Chinese intelligence spy. Despite Nvidia shares falling over 5% following the news, traders on prediction markets like Kalshi and Polymarket consider the odds of his ouster in the near term to be low. Kalshi speculators place a 17% chance of his departure by 2027 and a 75% chance by 2031, while Polymarket bettors place one-in-four odds on his exit by March 2027.",
       "key_facts": [
-        "Congress Donations (2025-26): ₹130.69 crore",
-        "Congress Donations (2024-25): ₹517.39 crore",
-        "Prudent Electoral Trust Contribution: ₹25 crore (down 88%)"
+        "Kalshi 2027 departure probability: 17%",
+        "Polymarket March 2027 departure odds: 1-in-4",
+        "Stock drop: >5%"
       ],
-      "bottom_line": "A dramatic reduction in electoral trust contributions has severely curtailed the Congress party's large-donor financing following the 2024 election cycle.",
+      "bottom_line": "Nvidia's board is investigating CEO Jensen Huang over foreign intelligence targeting, but prediction markets price an immediate ouster as unlikely.",
       "claims": [
         {
-          "text": "The Congress party's receipts from donations above ₹20,000 plunged nearly 75% to ₹130.69 crore in 2025-26, the steepest annual fall in such contributions in a decade",
-          "support_span": "The Congress party's receipts from donations above ₹20,000 plunged nearly 75% to ₹130.69 crore in 2025-26, the steepest annual fall in such contributions in a decade",
-          "status": "entailed"
+          "text": "Nvidia's board is investigating CEO Jensen Huang, citing recent reports that he's been targeted by a foreign intelligence effort, but traders on prediction markets think it's unlikely he'll be ousted as chief.",
+          "support_span": "Nvidia's board is investigating CEO Jensen Huang, citing recent reports that he's been targeted by a foreign intelligence effort, but traders on prediction markets think it's unlikely he'll be ousted as chief.",
+          "status": "contradicted"
         },
         {
-          "text": "Prudent's contribution fell from ₹216.34 crore in 2024-25 to ₹25 crore in 2025-26, a drop of about 88%.",
-          "support_span": "Prudent's contribution fell from ₹216.34 crore in 2024-25 to ₹25 crore in 2025-26, a drop of about 88%.",
-          "status": "contradicted"
+          "text": "On Sunday, Huang admitted to an extramarital affair with a woman who U.S. intelligence officials — according to The New York Times – say is a spy for China's Ministry of State Security.",
+          "support_span": "On Sunday, Huang admitted to an extramarital affair with a woman who U.S. intelligence officials — according to The New York Times – say is a spy for China's Ministry of State Security.",
+          "status": "entailed"
         }
       ],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "e460f46d2f930a33"
+        "45354f6abbceea3a"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/congress-donations-fall-nearly-75-sharpest-decline-in-a-decade/article71680699.ece",
-          "domain": "thehindu.com",
+          "name": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html",
+          "domain": "cnbc.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-08T08:43:34+00:00",
+      "published": "2026-11-09T18:46:01+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1f5eb67c8731cd7c",
-      "title": "Gaza wedding festival sees 250 couples married at the same time",
-      "category": "india_world",
-      "one_liner": "A mass wedding ceremony for 250 couples in Gaza offers a brief moment of hope amidst ongoing humanitarian crisis.",
+      "cluster_key": "13578567da618c90",
+      "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+      "category": "cyber_attacks",
+      "one_liner": "Hearing aid giant Amplifon suffered a data breach exposing sensitive medical and personal data for thousands of US customers.",
       "tags": [
         "incident",
-        "political",
-        "threat-intel"
+        "malware",
+        "privacy",
+        "supply-chain"
       ],
-      "summary": "Amidst ongoing destruction and continuing air strikes in Gaza, 250 Palestinian couples participated in a mass wedding festival organized by the United Arab Emirates' humanitarian mission, Operation Gallant Knight 3. The ceremony was held to celebrate resilience, love, and new beginnings for displaced residents living among ruined infrastructure and tent camps. While an official ceasefire went into effect in October of the previous year, daily military engagements and severe casualties have persisted since the outbreak of the war in October 2023.",
+      "summary": "International healthcare company Amplifon disclosed a data breach affecting tens of thousands of US customers after hackers accessed company systems between January 18 and February 8. The Milan-based hearing aid provider began notifying state regulators, revealing that 85,804 individuals in Texas and 1,027 in Vermont were impacted, alongside filings in California, while class action firms estimate over 1.3 million total victims. The stolen data includes names, driver's licenses, state IDs, medical information, health insurance data, and financial records. The incident highlights a broader wave of targeted cyberattacks against medical device and wearable manufacturers in 2026, which has affected firms like iRhythm and Medtronic.",
       "key_facts": [
-        "Couples married: 250",
-        "Organizing mission: Operation Gallant Knight 3"
+        "Affected individuals in Texas: 85,804",
+        "Affected individuals in Vermont: 1,027",
+        "Unauthorized access window: January 18 to February 8"
       ],
-      "bottom_line": "Humanitarian missions continue to facilitate cultural ceremonies for displaced communities in Gaza despite ongoing conflict.",
+      "bottom_line": "Amplifon's data breach exposed the Social Security numbers and medical records of thousands of US customers, reflecting a broader wave of attacks on medical device firms.",
       "claims": [
         {
-          "text": "Gazans gathered to celebrate a mass wedding for Palestinian brides and grooms amidst the ruins of destroyed buildings and displaced people's tents.",
-          "support_span": "Amidst the ruins of destroyed buildings and displaced people's tents, Gazans gathered to celebrate a mass wedding for Palestinian brides and grooms.",
+          "text": "Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont.",
+          "support_span": "Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont.",
+          "status": "entailed"
+        },
+        {
+          "text": "An investigation later revealed the hackers had access to company files between January 18 and February 8.",
+          "support_span": "an investigation later revealed the hackers had access to company files between January 18 and February 8.",
           "status": "contradicted"
         },
         {
-          "text": "The ceremony was organised by the UAE's humanitarian mission Operation Gallant Knight 3.",
-          "support_span": "The ceremony, organised by the UAE's humanitarian mission Operation Gallant Knight 3, brought together brides and grooms from across Gaza",
+          "text": "The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information.",
+          "support_span": "The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information.",
           "status": "entailed"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 28.8,
-      "is_new": false,
+      "trust_score": 37,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 58.0,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "1f5eb67c8731cd7c"
+        "13578567da618c90",
+        "cd41a3a65bdc0124"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-07T17:58:41+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 29 = trust 40 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "836c722655cf758a",
-      "title": "Sandflow-ai/sand3d — 3D modeling in Python, built for LLMs.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm",
-        "opensource",
-        "political",
-        "tool"
-      ],
-      "summary": "sand3d is a Python library for writing 3D objects as short programs: profiles, solids, edits, frames, joints and assemblies, over Blender's bpy. A program says how a shape is made, part by part and in its own words, so a model writes it in a few hundred tokens and a person can read it. Website · Docs · Datasets · Explorer How it is measured, part by part - Short. A part takes 2 to 6× fewer tokens than the same part in Blender Python, CadQuery or FeatureScript (details). The whole API fits in a prompt, about 3,600 tokens (the API).",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "836c722655cf758a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
+          "name": "The Record",
+          "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+          "domain": "therecord.media",
+          "tier": "B"
+        },
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Sandflow-ai/sand3d",
-          "domain": "github.com",
+          "name": "The Record from Recorded Future News",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IVG5PaHhUeUNjbHpOeFZ1dUxxOUxsWFdKOXItOGx4enZkN256Z3pKeElHa01BMzlzYmtaUjFsLS1VM3dRbnh1SDk2QlcyT21haVFZM3ZCMmhSS1hCMnJVNVpLYXVKdTM3VDNHbUdHVV83QQ?oc=5",
+          "domain": "the-record-from-recorded-future-news.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T08:23:03+00:00",
+      "published": "2026-11-09T20:44:00+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 58 = trust 37 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "ef968a3162c5c6af",
+      "title": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
+      "category": "cyber_tools",
+      "one_liner": "Utilize automated skills built from real-world bug bounty reports to enhance vulnerability discovery workflows.",
+      "tags": [
+        "bugbounty",
+        "howto",
+        "vulnerability"
+      ],
+      "summary": "I Built a Self-Updating Bug Bounty Skill From 200 Reports. A leaderboard is not a distribution. Continue reading on MeetCyber »",
+      "key_facts": [],
+      "bottom_line": "A developer built a self-updating bug bounty skill compiled from 200 security reports.",
+      "claims": [
+        {
+          "text": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
+          "support_span": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 21.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "ef968a3162c5c6af"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Medium bug bounty",
+          "url": "https://meetcyber.net/i-built-a-self-updating-bug-bounty-skill-from-200-reports-e1e921251405?source=rss------bug_bounty-5",
+          "domain": "meetcyber.net",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T02:38:02+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "6289435bdbbde177",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "category": "tech_ai",
+      "one_liner": "Anthropic is moving forward with plans for an initial public offering, targeting a valuation range below previous multi-trillion-dollar estimates.",
+      "tags": [
+        "ai",
+        "markets"
+      ],
+      "summary": "Anthropic is proceeding with plans for a major initial public offering, aiming to set a valuation range this week and begin public trading by the end of next week. The planned listing follows a major Nasdaq sell-off and comes despite market scrutiny over AI valuations. Institutional investors are pushing for an enterprise valuation below the initially discussed $1.5 trillion target, which was already down from earlier projections of $2 trillion. Rival AI firm OpenAI recently secured a $1.25 trillion valuation after raising $11 billion in fresh capital.",
+      "key_facts": [
+        "OpenAI valuation: $1.25 trillion",
+        "OpenAI fresh capital raised: $11 billion"
+      ],
+      "bottom_line": "Anthropic is pressing ahead with its IPO timeline despite market volatility, with institutional investors seeking valuations below $1.5 trillion.",
+      "claims": [
+        {
+          "text": "Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week.",
+          "support_span": "Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, the Journal reported.",
+          "status": "entailed"
+        },
+        {
+          "text": "OpenAI was reportedly valued at $1.25 trillion last week after raising $11 billion in fresh capital.",
+          "support_span": "OpenAI, Anthropic’s main rival, was reportedly valued at $1.25 trillion last week after raised $11 billion in fresh capital, short of the $20 billion it had initially sought.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6289435bdbbde177"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T01:27:12+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     }
   ]
 }
