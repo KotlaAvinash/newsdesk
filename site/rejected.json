@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:52:49.700089+00:00",
+  "generated_at": "2026-11-11T03:09:14.734121+00:00",
   "items": [
     {
       "cluster_key": "960bb9e491ed33a1",
@@ -130,12 +130,14 @@
       "held_back": true
     },
     {
-      "cluster_key": "0d35b875fec3e092",
-      "title": "There's a lot of misinfo and conspiracies spreading about the voting machine issue in Westchester County so I've put together a thread describing…",
-      "category": "cyber_attacks",
+      "cluster_key": "1467977a5a542bd0",
+      "title": "As I have written many times in the past years, any potential financial downturn in AI stocks will not greatly change the AI trajectory AI is not…",
+      "category": "tech_ai",
       "one_liner": "",
-      "tags": [],
-      "summary": "Post Kim Zetter kimzetter.bsky.social did:plc:mfam7sumoyb6lmiemlmhrwup There's a lot of misinfo and conspiracies spreading about the voting machine issue in Westchester County so I've put together a thread describing what occurred based on what the county is saying what occurred. It comes down to a failure to make a change in a config file in the voting machines.",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu As I have written many times in the past years, any potential financial downturn in AI stocks will not greatly change the AI trajectory AI is not going away, companies are not slowing down adoption, nor is development slowing. We still need policy & effort so that AI is used to help us all thrive.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -146,39 +148,40 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "0d35b875fec3e092"
+        "1467977a5a542bd0"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Kim Zetter",
-          "url": "https://bsky.app/profile/kimzetter.bsky.social/post/3mzgnsi6dlc2t",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzm3zygknk24",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T20:16:42.985000+00:00",
+      "published": "2026-11-06T00:14:45.989000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window",
+      "reject_reason": "published 2026-11-06 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "58b2621d532f3be2",
-      "title": "There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights (prompts full of floating point numbers) - I tried it…",
+      "cluster_key": "c7c3ff9c5f9fefd2",
+      "title": "yucezerey/turkish-anti-ai-skill — Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hataların",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
         "llm",
-        "research",
-        "windows"
+        "opensource",
+        "tool"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights (prompts full of floating point numbers) - I tried it with Qwen 3.8 27B on my laptop and found that, after 45+ minutes, that model could achieve the same thing 2026-11-03T16:31:11.687Z",
+      "summary": "Türkçe metni okurun ilk okumada anlayacağı hâle getirir. An open-source Agent Skill & Turkish Humanizer that removes AI writing patterns (\"Yapay Zekâ Türkçesi\" / Translationese) and rebuilds authentic Turkish sentence architecture. Kurulum · Öncesi / Sonrası Demo · Neden Sadece Bir Prompt Değil? 3 Katmanlı Mimari · Register Matrisi · CLI Dedektörü Büyük Dil Modelleri (LLM) ağırlıklı olarak İngilizce veriyle eğitildiği ve RLHF aşamasında İngilizce retorik kalıplarıyla ödüllendirildiği için, Türkçe metin üretirken \"kelimeleri Türkçe ama cümle iskeleti İngilizce\" olan mekanik bir dil (Translationese / Yapay Zekâ Türkçesi) üretir. Piyasadaki İngilizce humanizer araçları yalnızca yüzeydeki kelim…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -189,49 +192,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "58b2621d532f3be2"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzgb77cpis2w",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T16:31:11.256000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "e306d3fb281d8659",
-      "title": "HimanshuMohanty-Git24/gitaviswa — GitaViśva (गीताविश्व): the Bhagavad Gita as a living knowledge graph. Explore all 700 verses in 3D, read 20 cl",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "opensource"
-      ],
-      "summary": "The Bhagavad Gita as a living knowledge graph. Explore all 701 verses in 3D, follow how one idea leads to another, read 20 commentaries from six traditions side by side, listen to the chant, and ask questions that are answered from the text itself. Open GitaViśva · Run it on your computer · Get a free API key · How it works The 18 chapters are the amber hubs, each surrounded by its verses. Concepts, states of mind and life situations sit in the middle, where the teaching connects. Click any point to light up everything it touches, or find the path between two ideas.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e306d3fb281d8659"
+        "c7c3ff9c5f9fefd2"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -239,17 +200,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/HimanshuMohanty-Git24/gitaviswa",
+          "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T05:20:11+00:00",
+      "published": "2026-11-05T20:08:28+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-04 — outside lookback window",
+      "reject_reason": "published 2026-11-05 — outside lookback window",
       "held_back": true
     },
     {
@@ -292,161 +253,85 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "faa9cdb96ffdbcea",
-      "title": "Flailing from crackgate, Apple announced the launch of a touch-screen laptop, an idea Steve Jobs extensively tested and said “doesn’t work.\"…",
+      "cluster_key": "846f1981da63ee5c",
+      "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
       "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "hardware"
+        "cve",
+        "exploit",
+        "identity",
+        "release",
+        "vulnerability",
+        "windows"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 10.0,
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "faa9cdb96ffdbcea"
+        "846f1981da63ee5c",
+        "8789bb3edd5e704d",
+        "8efc0095d05d5668"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "404 Media",
-          "url": "https://bsky.app/profile/404media.co/post/3mzrolo3ud22n",
-          "domain": "bsky.app",
+          "name": "Cisco Talos",
+          "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+          "domain": "blog.talosintelligence.com",
+          "tier": "B"
+        },
+        {
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRb293M3dmY29pNnY0TkNhc1R6T01remQyekp6c0FDMlZYLV9KMk8wY24zSkxmZkpVWVQ0cjVabGdwaGx3ZVFVT2RRZXM4TktDcE1WWDl1MExPVDJfeEpnZUVvSHJKeE12TmN4YzBneHRwdWhKU1hj0gF8QVVfeXFMTXVac2doYzdRQlhfSFFNdUR0TElodmpfX2YzMDFPaFdLUDdaYVZsUW1jd1VBSmhTQjM4c3Q2Yk5sbjFHZDV2YmIzQUg0d3hsRWpoU2RKM2ZTOW9aWE1DVHA4MmM4bWRncjZ0QTE5emN1bXBxd1BaS3VlQVU2Zw?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3FkX1E5ejkxLWtERE52TFZpNW1xaEFlWEkxWUdlSEdNNkh6VUlzdWF2UkZ2bHpONUNBdDhvNFFlbE02bjJMeVk1b3FpLUNWemR4ZXB4LUJmVnV4UVFqMEEyS2V4bmJSYldrTWJRSGlTZUhuVGdyMjM1M0pfUWRRQVJXZUFWV0ZpeUNYZ213OUNjSm01azRJZHhrZDVwUk5xQ2xzeQ?oc=5",
+          "domain": "rescana.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-08T05:30:04.685000+00:00",
+      "published": "2026-11-10T19:01:53+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 1/5 from cache",
-        "blend 10 = trust 10 / interest 0 / corrob 25"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "dfa8071c5198d6a6",
-      "title": "WizerdBaChe/nikke-k2f-check — Self-check and cleanup tool for the 2026 NIKKE PC launcher malware (K2F RAT) on Windows. Read-only detector, q",
+      "cluster_key": "6e5752b910d7a24a",
+      "title": "wildorigins/wildos — A hardened Linux desktop, rebuilt from scratch, with your Windows apps built in. Free and open source.",
       "category": "cyber_tools",
       "one_liner": "",
       "tags": [
-        "incident",
-        "malware",
-        "network",
+        "hardware",
+        "linux",
         "opensource",
-        "redteam",
-        "release",
-        "threat-intel",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "dfa8071c5198d6a6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WizerdBaChe/nikke-k2f-check",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T07:44:23+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "c5088441856721a9",
-      "title": "howznguyen/shorts-kit — Make narrated vertical shorts (TikTok, YouTube Shorts, Reels) with a coding agent and Remotion. 9+ agent skill",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "howto",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "Make narrated vertical shorts (TikTok, YouTube Shorts, Reels), and product promos in 9:16 or 16:9, with a coding agent and Remotion. You talk to your agent (\"make a video about why the sky is blue\"). The agent follows the kit's skills step by step: facts first, a storytelling flow, the script, the voice, the scenes, stills to check, the render, the cover and the caption. You review, then you upload the file yourself. The rules and skills come from a private pipeline that took a new knowledge channel from zero to about 120k views on its best video in two months.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c5088441856721a9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/howznguyen/shorts-kit",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T19:41:42+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-04 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d6d8d45964adde86",
-      "title": "shanselman/sandbox-mcp — Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "appsec",
-        "opensource",
-        "release",
-        "tool",
         "windows"
       ],
       "summary": "",
@@ -454,13 +339,13 @@
       "bottom_line": "",
       "claims": [],
       "trust_score": 10,
-      "interest_score": 75,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 43.8,
+      "blend": 21.2,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "d6d8d45964adde86"
+        "6e5752b910d7a24a"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -468,101 +353,20 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/shanselman/sandbox-mcp",
+          "url": "https://github.com/wildorigins/wildos",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-06T19:02:14+00:00",
+      "published": "2026-11-08T20:17:58+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "fa90ed79490b07ff",
-      "title": "orkbot-run/ork — Source-available AI assistant with persistent bots that share conversations and work on isolated computers. Se",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "opensource"
-      ],
-      "summary": "Ork is a source-available assistant for persistent bots that share conversations and work on isolated computers. It runs in Tauri desktop and Expo mobile apps, backed by an API and worker. Use orkbot in package names and technical identifiers. Install Node.js 22.22.2+ within the 22.x line, Node.js 24, or Node.js 26+, and start Docker. The repository pins pnpm 9.15.0 through Corepack.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "fa90ed79490b07ff"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/orkbot-run/ork",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T19:57:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-04 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d2e69c284268b3d0",
-      "title": "\"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu \"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt [contains quote post or other embedded content] 2026-11-03T06:28:28.671Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "d2e69c284268b3d0"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzf7jf5mnk2l",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T06:28:25.701000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window",
       "held_back": true
     },
     {
@@ -573,23 +377,22 @@
       "tags": [
         "agents",
         "ai",
-        "android",
-        "howto",
         "llm",
         "network",
         "opensource",
-        "tool"
+        "tool",
+        "windows"
       ],
-      "summary": "",
+      "summary": "English | 简体中文 | 繁體中文 | 日本語 | 한국어 | Español poki.bot On the native path Poki types through its own keyboard panel at a person's pace, without reading the screen while it types. The panel has no keys and is not a keyboard for people: it shows while Poki types and has a Take Over button. Without it, Poki types with key presses as before. Tell your agent: Install Poki on my iPhone from The agent follows the install-poki skill and runs bin/install-iphone.mjs, which does every step it can by itself. You only do what iOS asks of you: type your Apple Account into a Poki Setup window on the Mac, tap Trust and turn on Developer Mode on the iPhone, trust the developer, and open Poki.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 75,
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 43.8,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "353d1cbf5681c172"
       ],
@@ -607,12 +410,9 @@
       "primary_links": [],
       "published": "2026-11-05T15:04:31+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-11-05 — outside lookback window",
       "held_back": true
     },
     {
@@ -634,14 +434,15 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 37,
+      "trust_score": 49,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "corroboration": 3,
+      "blend": 79.8,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
         "0f00a68454913de5",
+        "3b5c98c41ccbfee0",
         "89833dacd0e47fd6",
         "952aa8b6f89cce79"
       ],
@@ -653,6 +454,12 @@
           "name": "Infosecurity Magazine",
           "url": "https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/",
           "domain": "infosecurity-magazine.com",
+          "tier": "B"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+          "domain": "securityweek.com",
           "tier": "B"
         },
         {
@@ -672,274 +479,74 @@
       "published": "2026-10-27T14:55:03+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from cache",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "88769bf30e53f339",
-      "title": "We are in an era of flux & fighting over how AI should be used to review academic work & by whom.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu We are in an era of flux & fighting over how AI should be used to review academic work & by whom. But it is worth proving to yourself that yes, AI used properly can be very insightful at this, by asking GPT-6 Pro/Opus 5.5 High to give helpful, substantive feedback on one of your papers.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "88769bf30e53f339"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzgkbp6o4c2x",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T19:13:38.685000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "311d06119763179a",
-      "title": "Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue – Top things for investors",
-      "category": "markets",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "311d06119763179a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/upcoming-ipo-veritas-finance-gets-sebi-nod-to-launch-public-issue-top-things-for-investors-11794247367964.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T18:30:48+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2e963759f0aa268b",
-      "title": "Anyone know how to stop the New York Times app from hijacking my phone's top bar like this?",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "howto",
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Anyone know how to stop the New York Times app from hijacking my phone's top bar like this?",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "2e963759f0aa268b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzh4tiie3s2d",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T00:45:42.988000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-04 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4a45ad356325d0f9",
-      "title": "Trump says more US attacks on Iran 'highly unlikely'",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 76,
-      "interest_score": 75,
-      "corroboration": 4,
-      "blend": 82.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "4a45ad356325d0f9",
-        "6813acf7ba48ea0e",
-        "85a2a81cc50c3754",
-        "a06cbb49ac5b69b8",
-        "e7f9d6f54f9e1da8"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "B"
-        },
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/oil-down-more-than-7-a-barrel-in-post-settlement-trade-as-trump-signals-restraint-on-iran-11794254623929.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnV4VENDNkFNVllVVEpoVTJLcC13SlhHREstWFZZQ252QTRiU3dKeW5EYWYxVUJjNnQzVzh1M1FsWjNGTmRKMVFEYjhxT3M2VmF4aVpERWwwczh6dV9OTG5NcFJCMFVZZ0toWEEyMnRRTnBZUm9iQVVzblIzcmJMOTR4V29sUDFVME1jcFQ5VVhoMHVUM0YzWHM2bmE1b3VCV0s0R2JmUUQ?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWIxdHFYZXdDLUkyNjhxSklldE1kTVJUMXBHOENVUUF0YWVXRmhpbGhvSDdJSUtSUG9ZUk5FVGxZdExQa0c0WmJFZDd2QXFNUnJUV0ZuZ0x3eHZCTFBiVXY3b0lVMVA0RkVaVllFRHJHSjJaUmlpSjNOQThxOGhoN05LelBtdjE4Qk5PbnRoTThFVWc3NE91WlE2WHJKbG5kWEVkeF9SS20wSGs?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-08T23:50:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "4 independent outlets (+36)",
-        "verified: 4 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 83 = trust 76 / interest 75 / corrob 100",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "059affe961508fb8",
-      "title": "KSRTC sees sharp rise in ticket bookings during Deepavali, daily reservations cross 62,000",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "india"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "059affe961508fb8"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/karnataka/ksrtc-sees-sharp-rise-in-ticket-bookings-during-deepavali-daily-reservations-cross-62000/article71683502.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T19:36:17+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2b1eea4885c01263",
-      "title": "TIGER-AI-Lab/WebsiteBench — Can AI agents rebuild websites through browser exploration?",
+      "cluster_key": "82f15d8efb19ece7",
+      "title": "Google's MKA benchmark tests AI agents on 200 real professional files; only 10 tasks are public for inspection",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "linux",
-        "opensource",
-        "release",
+        "dfir",
+        "howto",
+        "llm",
         "research",
-        "supply-chain",
         "tool"
       ],
-      "summary": "Given a production-level website they can explore through a browser, agents must reverse-engineer a full-stack version that matches its appearance and behavior as closely as possible. 70 websites and 46,916 hidden test cases, on Harbor Hub and Hugging Face. Download them with the PyPI package: pip install websitebench websitebench download --task mediumuv tool install harbor==0.25.0 Run an agent on all 70 tasks: export OPENAI_API_KEY='<key>' harbor run --dataset websitebench/WebsiteBench@v1 \\ --agent codex --model '<model>' --n-concurrent 1 \\ --allow-environment-host snapshot.debian.org \\ --allow-environment-host raw.githubusercontent.com \\ --allow-environment-host github.com \\ --allow-envi…",
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "82f15d8efb19ece7"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "OpenTools",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc2RfT0pOQWc0TUhOblhtRGFrMDA4Z0RxX1hpYmZsaVBxUzl4bWRTR2FFeFF1YTNMRDRIb3czSTJjTEE0aklGbXpERXgzZUoxRkJ4eFpjWVQ4Z0VLa0lPVXJ0eGNfNXZ1N2pINGNrRUZ3czdrMU0zT0s1c045Vm9ROWFXLV9rQmUxLWowcQ?oc=5",
+          "domain": "opentools.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T20:15:57+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "6e3648f648840017",
+      "title": "sshhole.com If you use musl, drop everything and patch immediately. This is actually bad.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe sshhole.com If you use musl, drop everything and patch immediately.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -950,25 +557,131 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2b1eea4885c01263"
+        "6e3648f648840017"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
-          "domain": "github.com",
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mzkvjfwarc2u",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T12:58:50+00:00",
+      "published": "2026-11-05T12:45:27.515000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-04 — outside lookback window",
+      "reject_reason": "published 2026-11-05 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "27d0d882d07ec6f1",
+      "title": "Attackers backdoor trusted AWS integrations to steal secrets",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "cloud",
+        "identity",
+        "incident",
+        "malware",
+        "research",
+        "threat-actor",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 49,
+      "interest_score": 100,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "27d0d882d07ec6f1",
+        "bd73ebc7b854e9ac",
+        "f30dc75a69e1f122"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+          "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+          "domain": "theregister.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-09T17:51:21+00:00",
+      "trace": [
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "cc69eeeca5f17663",
+      "title": "My life just got interesting: www.tigrisdata.com/blog/dropbox... Still processing this",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe My life just got interesting: Still processing this 2026-11-05T14:19:57.286Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "cc69eeeca5f17663"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mzl2seaf4s27",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T14:19:56.456000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-05 — outside lookback window",
       "held_back": true
     },
     {
@@ -1007,73 +720,28 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T08:45:48+00:00",
+      "published": "2026-11-09T09:44:21+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "96f75331cab5167d",
-      "title": "Akhilesh’s proposed Ayodhya visit to broaden his PDA outreach, say political analysts",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "political"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "96f75331cab5167d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/akhileshs-proposed-ayodhya-visit-to-broaden-his-pda-outreach-say-political-analysts/article71683430.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T16:39:28+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "e9e255b082200425",
-      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "cluster_key": "b958c227209529b5",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
       "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "cloud",
         "dfir",
+        "exploit",
         "incident",
         "opensource",
-        "tool",
         "vulnerability"
       ],
       "summary": "",
@@ -1087,26 +755,25 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "e9e255b082200425"
+        "b958c227209529b5"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The Record",
-          "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
-          "domain": "therecord.media",
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+          "domain": "thehackernews.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T14:15:00+00:00",
+      "published": "2026-11-10T19:19:39+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from gemini-3.1-flash-lite",
         "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
@@ -1114,62 +781,16 @@
       "held_back": true
     },
     {
-      "cluster_key": "b84b842ed949cf53",
-      "title": "Webtop Media Transcoder vulnerable to incorrect resource transfer between spheres",
-      "category": "cyber_attacks",
+      "cluster_key": "7b384ccdf1eac302",
+      "title": "Anthropic introduces two new Claude AI models: What Fable 5.2 and Mythos 5.2 can do",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "appsec",
-        "exploit",
-        "research",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "b84b842ed949cf53"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "CTI Now",
-          "url": "https://jvn.jp/en/vu/JVNVU93403064/",
-          "domain": "jvn.jp",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T02:04:17+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from cache",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "34854a89900fbb9c",
-      "title": "Arlington ISD personnel information affected by third-party national data breach",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "incident",
-        "privacy",
-        "supply-chain",
-        "vulnerability"
+        "agents",
+        "ai",
+        "llm",
+        "release",
+        "research"
       ],
       "summary": "",
       "key_facts": [],
@@ -1179,83 +800,318 @@
       "interest_score": 75,
       "corroboration": 1,
       "blend": 43.8,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "34854a89900fbb9c"
+        "7b384ccdf1eac302"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Fort Worth Report",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPazhsaEFONE1sQUtZSDA2WHQtY21nQ2NYams2cFBHRnVvbUJPSEpYd3VreGhHaWZFNmIxM0Z1ZXc2cURNS21RQmhlVFNKVHNoa3dGd1UtdHFQZE9OS3laWWtSeF80SnhJRWZ0ZWVxMDdUc21RRG9XekFSUXRqa3VFUGpRTnNfeUx6c3FnTmRVRXI5cDNpVEdXWEYwS01VVldGRVhGRXd3MkZ0cGdjaXZvcDBCUGEycmwzZTNmeg?oc=5",
-          "domain": "fort-worth-report.publisher",
+          "name": "News9live",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTFVKNXJqZ1BuUDFnOThnNFdVTUx5ampNRk9fUFNEdnBPZTFETjI1NnVFaEtqbU5KaTFDNDJhMnFlemZMTTZXU01KaHh1bHpfdmt4WUp5Nm5KRGRLbklCOWpVcE9BaHJteVlERHpPaGdDRGhmV1VyUlltMmNSQ2gtNkpXZnV6alVQVTFPbGdDQkYyRjVNWjRTTC1IYV92VmEwZTJfX283ZTA0enVfZlBVV0gtRmhvX3VKeWs3QTlUTdIBxAFBVV95cUxNdHFXb1R0djd4UzZVZlEtTkk1b2NWYW5tVXNLTEY3M3o1R0NEUWpLVW40VHh3d2tDZ2NQMk9uTWpwcVhTYWNvc01uU1M5TnNXNXV3cWpJbHExZ2ZsTjNMRElXTV9tbHFBbFoyR25uanRVNk9zNjFRbkU0MWk2T3R5Nmx3bUoyZ1Ntc0VZVERkTmFZTTViQmt4VTRPdzhDRy1yWlZRNDRaSTZFa01iNVBYejI5cEd2M3JvLUtKN3FNV0tPdFc5?oc=5",
+          "domain": "news9live.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-06T19:09:43+00:00",
+      "published": "2026-11-10T06:37:51+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from cache",
+        "importance 4/5 from gemini-3.5-flash-lite",
         "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "482c099830235939",
-      "title": "​Critical Zero-Day Vulnerabilities Found in D-Link Enterprise Gigabit Switches",
-      "category": "cyber_attacks",
+      "cluster_key": "197811081f6a048b",
+      "title": "After Bangladesh rules out passport for Hasina, India says ‘travel document’ needed",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "appsec",
-        "blueteam",
-        "exploit",
-        "hardware",
-        "network",
-        "privacy",
-        "release",
-        "vulnerability"
+        "india",
+        "policy",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 100,
+      "trust_score": 25,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 55.0,
-      "is_new": false,
+      "blend": 47.5,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "482c099830235939"
+        "197811081f6a048b"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The 420.in",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2p1ZnNPYUxha0lGLU1hSWYwVFN0MllEYUFYUFdkUVR4T0J0SEpBYmQ2VFpnWkRNR0F0akZ0Qnk1TzR5VkZ0YS1yT0wzYXB3ODJJY1QyNFV0SzRMcVBrdFA2ckFBWmp5WHhjSDhqTF9POHd2MFZZMkRxVVdKMERTWVd1NjdjQUtWY2FQQUtUYlhQbURqcXYwSWh2NGE?oc=5",
-          "domain": "the-420-in.publisher",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/after-bangladesh-rules-out-passport-for-hasina-india-says-travel-document-needed/article71686655.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-11T01:26:33+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "75bb519accd55256",
+      "title": "Anthropic sets IPO price band at $70-$78, targets valuation of up to $1.4 trillion",
+      "category": "markets",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "markets",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "75bb519accd55256"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/ipo/anthropic-sets-ipo-price-band-at-70-78-targets-valuation-of-up-to-1-4-trillion-11794311891604.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T12:38:20+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "0f696e8c856711df",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "hardware",
+        "llm",
+        "opensource",
+        "release",
+        "research"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0f696e8c856711df"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+          "domain": "arstechnica.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T15:00:39+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "6cfecb290e2cd28d",
+      "title": "India's Oldest Industry Body FICCI Warns Air Pollution Costs $95 Billion Annually",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "markets",
+        "policy"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6cfecb290e2cd28d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/indias-oldest-industry-body-ficci-warns-air-pollution-costs-95-billion-annually-12309951#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T18:36:56+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "3ac35ff647369fb9",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "blueteam",
+        "incident",
+        "linux",
+        "malware",
+        "network",
+        "privacy",
+        "threat-actor",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "3ac35ff647369fb9",
+        "5a6756be984a749b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnpWTDZwZlBhSUVzX0k1cWRPNThVa25ZcHN3UzdYNkNSWTFJcy1Zc0hiSThPWmdBajRIeDJWdzliWlFSUUtzbjY5c2VoTHk5WU1zNXpZMmlSaHhUX0JERnREc1NGSkc1c0FVZWRtTkhtUmpLVHNFTFUyMVd5LVR3XzBn?oc=5",
+          "domain": "thehackernews.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-07T16:39:25+00:00",
+      "published": "2026-11-10T17:43:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "94e71a77453c33e5",
+      "title": "voyager-so/vork — Headless 3D and VFX engine for agents. Research preview.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "hardware",
+        "linux",
+        "opensource",
+        "windows"
+      ],
+      "summary": "vork is a 3D and VFX engine built for AI agents. Agents write the whole scene as code, including their own shaders, materials, cameras and physics, and vork renders it on the GPU. skim-hero.mp4 One million birds, each on its own path. 192 frames at 1080p rendered in 97 seconds on a single NVIDIA L4. Blender EEVEE at the same sample count is projected at 13–18 minutes.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "94e71a77453c33e5"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/voyager-so/vork",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-05T22:37:07+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-05 — outside lookback window",
       "held_back": true
     },
     {
@@ -1296,119 +1152,18 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "13578567da618c90",
-      "title": "Data breach at hearing aid giant Amplifon impacts thousands",
-      "category": "cyber_attacks",
+      "cluster_key": "911c3e8ed72254a1",
+      "title": "Dangote Refinery Gets $4.1 Billion Orders in Top Africa IPO",
+      "category": "markets",
       "one_liner": "",
       "tags": [
-        "incident",
-        "malware",
-        "privacy",
-        "supply-chain"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 37,
-      "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "13578567da618c90",
-        "cd41a3a65bdc0124"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
-          "domain": "therecord.media",
-          "tier": "B"
-        },
-        {
-          "name": "The Record from Recorded Future News",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IVG5PaHhUeUNjbHpOeFZ1dUxxOUxsWFdKOXItOGx4enZkN256Z3pKeElHa01BMzlzYmtaUjFsLS1VM3dRbnh1SDk2QlcyT21haVFZM3ZCMmhSS1hCMnJVNVpLYXVKdTM3VDNHbUdHVV83QQ?oc=5",
-          "domain": "the-record-from-recorded-future-news.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T20:44:00+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "ef968a3162c5c6af",
-      "title": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "bugbounty",
-        "howto",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "ef968a3162c5c6af"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Medium bug bounty",
-          "url": "https://meetcyber.net/i-built-a-self-updating-bug-bounty-skill-from-200-reports-e1e921251405?source=rss------bug_bounty-5",
-          "domain": "meetcyber.net",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-10T02:38:02+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "6289435bdbbde177",
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
         "markets"
       ],
       "summary": "",
@@ -1422,28 +1177,28 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6289435bdbbde177"
+        "911c3e8ed72254a1"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-          "domain": "techcrunch.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/dangote-refinery-gets-4-1-billion-orders-in-top-africa-ipo-11794341424038.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T01:27:12+00:00",
+      "published": "2026-11-10T20:10:23+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "importance 4/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "2 claim(s) not supported by the source text",
       "held_back": true
     }
   ]

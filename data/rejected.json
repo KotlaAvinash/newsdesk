@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:52:49.700089+00:00",
+  "generated_at": "2026-11-11T03:09:14.734121+00:00",
   "items": [
     {
       "cluster_key": "960bb9e491ed33a1",
@@ -127,12 +127,14 @@
       "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
-      "cluster_key": "0d35b875fec3e092",
-      "title": "There's a lot of misinfo and conspiracies spreading about the voting machine issue in Westchester County so I've put together a thread describing…",
-      "category": "cyber_attacks",
+      "cluster_key": "1467977a5a542bd0",
+      "title": "As I have written many times in the past years, any potential financial downturn in AI stocks will not greatly change the AI trajectory AI is not…",
+      "category": "tech_ai",
       "one_liner": "",
-      "tags": [],
-      "summary": "Post Kim Zetter kimzetter.bsky.social did:plc:mfam7sumoyb6lmiemlmhrwup There's a lot of misinfo and conspiracies spreading about the voting machine issue in Westchester County so I've put together a thread describing what occurred based on what the county is saying what occurred. It comes down to a failure to make a change in a config file in the voting machines.",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu As I have written many times in the past years, any potential financial downturn in AI stocks will not greatly change the AI trajectory AI is not going away, companies are not slowing down adoption, nor is development slowing. We still need policy & effort so that AI is used to help us all thrive.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -143,38 +145,39 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "0d35b875fec3e092"
+        "1467977a5a542bd0"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Kim Zetter",
-          "url": "https://bsky.app/profile/kimzetter.bsky.social/post/3mzgnsi6dlc2t",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzm3zygknk24",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-03T20:16:42.985000+00:00",
+      "published": "2026-11-06T00:14:45.989000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
+      "reject_reason": "published 2026-11-06 — outside lookback window"
     },
     {
-      "cluster_key": "58b2621d532f3be2",
-      "title": "There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights (prompts full of floating point numbers) - I tried it…",
+      "cluster_key": "c7c3ff9c5f9fefd2",
+      "title": "yucezerey/turkish-anti-ai-skill — Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hataların",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
         "llm",
-        "research",
-        "windows"
+        "opensource",
+        "tool"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights (prompts full of floating point numbers) - I tried it with Qwen 3.8 27B on my laptop and found that, after 45+ minutes, that model could achieve the same thing 2026-11-03T16:31:11.687Z",
+      "summary": "Türkçe metni okurun ilk okumada anlayacağı hâle getirir. An open-source Agent Skill & Turkish Humanizer that removes AI writing patterns (\"Yapay Zekâ Türkçesi\" / Translationese) and rebuilds authentic Turkish sentence architecture. Kurulum · Öncesi / Sonrası Demo · Neden Sadece Bir Prompt Değil? 3 Katmanlı Mimari · Register Matrisi · CLI Dedektörü Büyük Dil Modelleri (LLM) ağırlıklı olarak İngilizce veriyle eğitildiği ve RLHF aşamasında İngilizce retorik kalıplarıyla ödüllendirildiği için, Türkçe metin üretirken \"kelimeleri Türkçe ama cümle iskeleti İngilizce\" olan mekanik bir dil (Translationese / Yapay Zekâ Türkçesi) üretir. Piyasadaki İngilizce humanizer araçları yalnızca yüzeydeki kelim…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -185,48 +188,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "58b2621d532f3be2"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzgb77cpis2w",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T16:31:11.256000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
-    },
-    {
-      "cluster_key": "e306d3fb281d8659",
-      "title": "HimanshuMohanty-Git24/gitaviswa — GitaViśva (गीताविश्व): the Bhagavad Gita as a living knowledge graph. Explore all 700 verses in 3D, read 20 cl",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "opensource"
-      ],
-      "summary": "The Bhagavad Gita as a living knowledge graph. Explore all 701 verses in 3D, follow how one idea leads to another, read 20 commentaries from six traditions side by side, listen to the chant, and ask questions that are answered from the text itself. Open GitaViśva · Run it on your computer · Get a free API key · How it works The 18 chapters are the amber hubs, each surrounded by its verses. Concepts, states of mind and life situations sit in the middle, where the teaching connects. Click any point to light up everything it touches, or find the path between two ideas.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "e306d3fb281d8659"
+        "c7c3ff9c5f9fefd2"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -234,17 +196,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/HimanshuMohanty-Git24/gitaviswa",
+          "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T05:20:11+00:00",
+      "published": "2026-11-05T20:08:28+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-04 — outside lookback window"
+      "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
       "cluster_key": "16b90ffd8ed968ee",
@@ -294,355 +256,177 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "faa9cdb96ffdbcea",
-      "title": "Flailing from crackgate, Apple announced the launch of a touch-screen laptop, an idea Steve Jobs extensively tested and said “doesn’t work.\"…",
+      "cluster_key": "846f1981da63ee5c",
+      "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
       "category": "cyber_attacks",
-      "one_liner": "Apple's launch of a touch-screen laptop marks a definitive reversal from Steve Jobs' historical design stance.",
+      "one_liner": "Microsoft's November 2026 Patch Tuesday fixes 1,095 vulnerabilities, including an actively exploited Outlook spoofing flaw and numerous RCE bugs.",
       "tags": [
-        "hardware"
+        "cve",
+        "exploit",
+        "identity",
+        "release",
+        "vulnerability",
+        "windows"
       ],
-      "summary": "Apple announced the launch of a touch-screen laptop, reversing its longstanding opposition to the concept that was previously tested and rejected by Steve Jobs.",
+      "summary": "Microsoft's November 2026 Patch Tuesday security update addresses 1,095 vulnerabilities across its product ecosystem, with 64 categorized as critical and 48 designated as remote code execution (RCE) flaws. One vulnerability, CVE-2026-124194 affecting Microsoft Office Outlook, is explicitly noted by Microsoft as being actively exploited in the wild with a CVSS score of 6.5. Other prominent high-severity issues include RCE vulnerabilities in Windows Network Address Translation (CVE-2026-113862, CVSS 8.1), Active Directory Domain Services (CVE-2026-118146, CVSS 8.8), and Microsoft Exchange Server (CVE-2026-118207, CVSS 8.8), alongside a critical Xbox Live Networking Service flaw scoring 9.8.",
       "key_facts": [
-        "Product: Touch-screen laptop"
+        "Total Vulnerabilities: 1,095",
+        "Critical Vulnerabilities: 64",
+        "Active Exploitations: 1 (CVE-2026-124194)"
       ],
-      "bottom_line": "Hardware product strategies at Apple continue to shift away from historical paradigms to chase market demands.",
+      "bottom_line": "Administrators must prioritize deploying Microsoft's November 2026 security updates to mitigate actively exploited zero-days and critical RCE vulnerabilities.",
       "claims": [
         {
-          "text": "Apple announced the launch of a touch-screen laptop, an idea Steve Jobs extensively tested and said “doesn’t work.”",
-          "support_span": "Flailing from crackgate, Apple announced the launch of a touch-screen laptop, an idea Steve Jobs extensively tested and said “doesn’t work.”",
+          "text": "Microsoft has released its monthly security update for November 2026, which includes 1095 vulnerabilities affecting a range of products, including 64 that Microsoft marked as 'critical.'",
+          "support_span": "Microsoft has released its monthly security update for November 2026, which includes 1095 vulnerabilities affecting a range of products, including 64 that Microsoft marked as 'critical.'",
           "status": "contradicted"
+        },
+        {
+          "text": "Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-124194 affects Microsoft Office Outlook.",
+          "support_span": "Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-124194 affects Microsoft Office Outlook.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 10,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 10.0,
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "faa9cdb96ffdbcea"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "404 Media",
-          "url": "https://bsky.app/profile/404media.co/post/3mzrolo3ud22n",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-08T05:30:04.685000+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 1/5 from cache",
-        "blend 10 = trust 10 / interest 0 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "dfa8071c5198d6a6",
-      "title": "WizerdBaChe/nikke-k2f-check — Self-check and cleanup tool for the 2026 NIKKE PC launcher malware (K2F RAT) on Windows. Read-only detector, q",
-      "category": "cyber_tools",
-      "one_liner": "Compromised game launcher CDNs installed the K2F RAT malware on Windows systems, stealing browser data and persisting across sessions.",
-      "tags": [
-        "incident",
-        "malware",
-        "network",
-        "opensource",
-        "redteam",
-        "release",
-        "threat-intel",
-        "tool"
-      ],
-      "summary": "Between September 27, 2026, and early November, a severe campaign compromised official CDNs to inject the K2F remote access trojan (RAT) into desktop game launchers, including NIKKE and Google Play Games for PC. The malware steals browser credentials, session cookies, cryptographic keys, cryptocurrency wallet extensions, and NIKKE account data while maintaining persistence by injecting itself directly into Chrome and other browser components. Although game operators issued patches in early November to automatically remove the malicious scripts, already-infected machines remain compromised until manually remediated. Community-released cleanup tools like nikke-k2f-check allow users to scan systems offline using verified PowerShell scripts and quarantine threats without internet dependencies.",
-      "key_facts": [
-        "Incident start date: September 27, 2026",
-        "Malware family: K2F RAT",
-        "Targeted software: PC game launchers (NIKKE, Google Play Games PC)"
-      ],
-      "bottom_line": "Users of affected PC game launchers must run offline security checks and invalidate all active session tokens and browser credentials due to persistent K2F RAT infections.",
-      "claims": [
-        {
-          "text": "2026 年 9 月 27 日起，官方 CDN 上 4 個 JS 檔被竄改。電腦版啟動器一打開就會載入它們，部分玩家因此被裝上遠端控制木馬（K2F）。",
-          "support_span": "2026 年 9 月 27 日起，官方 CDN 上 4 個 JS 檔被竄改。電腦版啟動器一打開就會載入它們，部分玩家因此被裝上遠端控制木馬（K2F）。",
-          "status": "entailed"
-        },
-        {
-          "text": "木馬會偷瀏覽器密碼與登入狀態、NIKKE 帳密、SSH 與 API 金鑰、加密貨幣錢包，還能執行任意指令。",
-          "support_span": "木馬會偷瀏覽器密碼與登入狀態、NIKKE 帳密、SSH 與 API 金鑰、加密貨幣錢包，還能執行任意指令。",
-          "status": "entailed"
-        },
-        {
-          "text": "11/5 官方第二份公告：公布時間線、手動檢查步驟，準備遊戲內補償，並透過客服受理帳號被盜、金錢損失等申報；也說 11/5 早上 7 點（台灣時間）起，打開官方電腦版會自動偵測並刪除這次的木馬。",
-          "support_span": "11/5 官方第二份公告：公布時間線、手動檢查步驟，準備遊戲內補償，並透過客服受理帳號被盜、金錢損失等申報；也說 11/5 早上 7 7點（台灣時間）起，打開官方電腦版會自動偵測並刪除這次的木馬。",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "dfa8071c5198d6a6"
+        "846f1981da63ee5c",
+        "8789bb3edd5e704d",
+        "8efc0095d05d5668"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WizerdBaChe/nikke-k2f-check",
-          "domain": "github.com",
+          "name": "Cisco Talos",
+          "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+          "domain": "blog.talosintelligence.com",
+          "tier": "B"
+        },
+        {
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRb293M3dmY29pNnY0TkNhc1R6T01remQyekp6c0FDMlZYLV9KMk8wY24zSkxmZkpVWVQ0cjVabGdwaGx3ZVFVT2RRZXM4TktDcE1WWDl1MExPVDJfeEpnZUVvSHJKeE12TmN4YzBneHRwdWhKU1hj0gF8QVVfeXFMTXVac2doYzdRQlhfSFFNdUR0TElodmpfX2YzMDFPaFdLUDdaYVZsUW1jd1VBSmhTQjM4c3Q2Yk5sbjFHZDV2YmIzQUg0d3hsRWpoU2RKM2ZTOW9aWE1DVHA4MmM4bWRncjZ0QTE5emN1bXBxd1BaS3VlQVU2Zw?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3FkX1E5ejkxLWtERE52TFZpNW1xaEFlWEkxWUdlSEdNNkh6VUlzdWF2UkZ2bHpONUNBdDhvNFFlbE02bjJMeVk1b3FpLUNWemR4ZXB4LUJmVnV4UVFqMEEyS2V4bmJSYldrTWJRSGlTZUhuVGdyMjM1M0pfUWRRQVJXZUFWV0ZpeUNYZ213OUNjSm01azRJZHhrZDVwUk5xQ2xzeQ?oc=5",
+          "domain": "rescana.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T07:44:23+00:00",
+      "published": "2026-11-10T19:01:53+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
         "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "c5088441856721a9",
-      "title": "howznguyen/shorts-kit — Make narrated vertical shorts (TikTok, YouTube Shorts, Reels) with a coding agent and Remotion. 9+ agent skill",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "6e5752b910d7a24a",
+      "title": "wildorigins/wildos — A hardened Linux desktop, rebuilt from scratch, with your Windows apps built in. Free and open source.",
+      "category": "cyber_tools",
+      "one_liner": "Wild OS is a hardened Linux desktop that runs Windows 11 Pro apps inside an integrated virtual machine.",
       "tags": [
-        "agents",
-        "howto",
-        "llm",
+        "hardware",
+        "linux",
         "opensource",
-        "tool"
-      ],
-      "summary": "Make narrated vertical shorts (TikTok, YouTube Shorts, Reels), and product promos in 9:16 or 16:9, with a coding agent and Remotion. You talk to your agent (\"make a video about why the sky is blue\"). The agent follows the kit's skills step by step: facts first, a storytelling flow, the script, the voice, the scenes, stills to check, the render, the cover and the caption. You review, then you upload the file yourself. The rules and skills come from a private pipeline that took a new knowledge channel from zero to about 120k views on its best video in two months.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c5088441856721a9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/howznguyen/shorts-kit",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T19:41:42+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-04 — outside lookback window"
-    },
-    {
-      "cluster_key": "d6d8d45964adde86",
-      "title": "shanselman/sandbox-mcp — Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
-      "category": "tech_ai",
-      "one_liner": "This tool automates Windows Sandbox for clean-room testing, making it easier to verify app behavior and dependencies in a disposable environment.",
-      "tags": [
-        "agents",
-        "appsec",
-        "opensource",
-        "release",
-        "tool",
         "windows"
       ],
-      "summary": "The sandbox-mcp project provides a CLI and MCP server to automate the deployment and testing of applications within a fresh, disposable Windows 11 Sandbox. It allows developers to provision clean environments, execute UI automation, and capture evidence of crashes or successful runs before destroying the instance. This tool is designed to bridge the gap between automated testing and real-world Windows environment validation.",
+      "summary": "Wild OS is a hardened, open-source Linux desktop distribution that integrates native Linux apps with a licensed Windows 11 Pro environment running inside a hidden virtual machine. Rather than using Wine, it maps individual Windows programs into independent desktop windows with taskbar previews and window snapping while pausing the VM when inactive to preserve battery and CPU cycles. It requires a hardware-backed Windows 11 Pro license key and is currently distributed in alpha builds for testing.",
       "key_facts": [
-        "Tool: sandbox-mcp",
-        "Environment: Windows 11 Sandbox",
-        "Version: 1.2.0"
+        "OS Name: Wild OS",
+        "Platform dependency: Windows 11 Pro license"
       ],
-      "bottom_line": "You can now automate the testing of Windows applications in fresh, disposable environments using the sandbox-mcp CLI.",
+      "bottom_line": "Wild OS offers Linux users seamless execution of Windows 11 Pro applications via a tightly integrated, resource-managed virtual machine layer.",
       "claims": [
         {
-          "text": "Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
-          "support_span": "Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
+          "text": "Wild OS is a free, open source operating system that runs Windows apps via a hidden virtual machine.",
+          "support_span": "A hardened Linux desktop with your Windows apps built in, plus our own Mail, Write, Tables and Remote. ... Windows mode doesn't imitate Windows. It runs a real, licensed copy of Windows 11 Pro in a hidden virtual machine and shows each program as its own window...",
           "status": "contradicted"
         },
         {
-          "text": "The measured GUI samples take roughly 40-50 seconds end to end.",
-          "support_span": "The measured GUI samples take roughly 40-50 seconds end to end.",
+          "text": "Windows mode requires a Windows 11 Pro license stored in device firmware.",
+          "support_span": "Note Windows mode needs a Windows 11 Pro licence. Most PCs sold with Pro have the key stored in the firmware, and Wild OS finds and uses it.",
           "status": "entailed"
         }
       ],
       "trust_score": 10,
-      "interest_score": 75,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 43.8,
+      "blend": 21.2,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "d6d8d45964adde86"
+        "6e5752b910d7a24a"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/shanselman/sandbox-mcp",
+          "url": "https://github.com/wildorigins/wildos",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-06T19:02:14+00:00",
+      "published": "2026-11-08T20:17:58+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "fa90ed79490b07ff",
-      "title": "orkbot-run/ork — Source-available AI assistant with persistent bots that share conversations and work on isolated computers. Se",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "opensource"
-      ],
-      "summary": "Ork is a source-available assistant for persistent bots that share conversations and work on isolated computers. It runs in Tauri desktop and Expo mobile apps, backed by an API and worker. Use orkbot in package names and technical identifiers. Install Node.js 22.22.2+ within the 22.x line, Node.js 24, or Node.js 26+, and start Docker. The repository pins pnpm 9.15.0 through Corepack.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "fa90ed79490b07ff"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/orkbot-run/ork",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-04T19:57:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-04 — outside lookback window"
-    },
-    {
-      "cluster_key": "d2e69c284268b3d0",
-      "title": "\"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu \"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt [contains quote post or other embedded content] 2026-11-03T06:28:28.671Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "d2e69c284268b3d0"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzf7jf5mnk2l",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T06:28:25.701000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
     },
     {
       "cluster_key": "353d1cbf5681c172",
       "title": "JosssphZhou/poki — Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
       "category": "tech_ai",
-      "one_liner": "Integrate local MCP servers and iOS automation frameworks to test agentic workflows directly on physical iPhones.",
+      "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "android",
-        "howto",
         "llm",
         "network",
         "opensource",
-        "tool"
+        "tool",
+        "windows"
       ],
-      "summary": "A new open-source tool named Poki allows AI agents to operate a real iPhone locally via an MCP server without requiring a jailbreak or extra hardware. The setup involves running an installation script on macOS, trusting developer settings on the device, and connecting via an MCP client like Claude Code or Codex. It leverages a standalone terminal agent utilizing GPT-6.1 Terra to execute instructions. The system requires macOS 14+, Node.js 24+, iOS 18+, a USB data cable, and a compatible VPN or proxy app to route traffic locally.",
-      "key_facts": [
-        "Minimum iOS version: iOS 18+",
-        "Minimum macOS version: macOS 14+",
-        "Node version: Node.js 24+"
-      ],
-      "bottom_line": "Poki enables AI agents to control physical iPhones locally through an MCP server without jailbreaking.",
-      "claims": [
-        {
-          "text": "JosssphZhou/poki — Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-          "support_span": "JosssphZhou/poki — Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
+      "summary": "English | 简体中文 | 繁體中文 | 日本語 | 한국어 | Español poki.bot On the native path Poki types through its own keyboard panel at a person's pace, without reading the screen while it types. The panel has no keys and is not a keyboard for people: it shows while Poki types and has a Take Over button. Without it, Poki types with key presses as before. Tell your agent: Install Poki on my iPhone from The agent follows the install-poki skill and runs bin/install-iphone.mjs, which does every step it can by itself. You only do what iOS asks of you: type your Apple Account into a Poki Setup window on the Mac, tap Trust and turn on Developer Mode on the iPhone, trust the developer, and open Poki.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 43.8,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "353d1cbf5681c172"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
@@ -655,12 +439,9 @@
       "primary_links": [],
       "published": "2026-11-05T15:04:31+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
       "cluster_key": "0f00a68454913de5",
@@ -701,14 +482,15 @@
           "status": "entailed"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 49,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "corroboration": 3,
+      "blend": 79.8,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
         "0f00a68454913de5",
+        "3b5c98c41ccbfee0",
         "89833dacd0e47fd6",
         "952aa8b6f89cce79"
       ],
@@ -720,6 +502,12 @@
           "name": "Infosecurity Magazine",
           "url": "https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/",
           "domain": "infosecurity-magazine.com",
+          "tier": "B"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+          "domain": "securityweek.com",
           "tier": "B"
         },
         {
@@ -739,123 +527,82 @@
       "published": "2026-10-27T14:55:03+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from cache",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "88769bf30e53f339",
-      "title": "We are in an era of flux & fighting over how AI should be used to review academic work & by whom.",
+      "cluster_key": "82f15d8efb19ece7",
+      "title": "Google's MKA benchmark tests AI agents on 200 real professional files; only 10 tasks are public for inspection",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Google's MKA benchmark tests AI agents on real-world professional files while developers see updates in agent SDKs and artifact reusability.",
       "tags": [
+        "agents",
         "ai",
-        "llm"
+        "dfir",
+        "howto",
+        "llm",
+        "research",
+        "tool"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu We are in an era of flux & fighting over how AI should be used to review academic work & by whom. But it is worth proving to yourself that yes, AI used properly can be very insightful at this, by asking GPT-6 Pro/Opus 5.5 High to give helpful, substantive feedback on one of your papers.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "88769bf30e53f339"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzgkbp6o4c2x",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-03T19:13:38.685000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-03 — outside lookback window"
-    },
-    {
-      "cluster_key": "311d06119763179a",
-      "title": "Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue – Top things for investors",
-      "category": "markets",
-      "one_liner": "Veritas Finance secures SEBI nod for its IPO comprising a ₹900 crore fresh issue and an offer for sale.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "Veritas Finance has received SEBI approval to launch its initial public offering, consisting of a fresh equity issue worth ₹900 crore and an offer for sale of up to 1.28 crore shares by existing investors. The public issue may also include a pre-IPO placement of up to ₹180 crore, which would reduce the fresh issue size accordingly. The NBFC caters to micro, small, and medium enterprises across southern and eastern India, reporting assets under management of ₹9,134 crore as of March 2026. The company operates 444 branches across 10 states and one Union Territory.",
+      "summary": "Google has introduced the MKA benchmark to evaluate AI agents using 200 real professional files, keeping only 10 tasks public for inspection. This release accompanies other developer ecosystem updates, including ReproBridge preprint reports on lower API costs for reusable ML artifacts and OpenAI Agents SDK preview updates featuring local profile isolation and session state recovery.",
       "key_facts": [
-        "Fresh issue: ₹900 crore",
-        "OFS: Up to 1.28 crore equity shares",
-        "AUM: ₹9,134 crore",
-        "Branch count: 444"
+        "Benchmark: Google MKA",
+        "Total Test Files: 200 real professional files",
+        "Public Inspection Tasks: 10"
       ],
-      "bottom_line": "MSME-focused NBFC Veritas Finance is cleared to raise capital via an IPO to strengthen its lending base and expand operations.",
+      "bottom_line": "Evaluating AI agents against private professional datasets provides a more realistic measure of capability than standard public benchmarks.",
       "claims": [
         {
-          "text": "Veritas Finance Ltd... has received approval from the Securities and Exchange Board of India (Sebi) to launch its initial public offering...",
-          "support_span": "Veritas Finance Ltd, a non-deposit-taking non-banking financial company (NBFC), has received approval from the Securities and Exchange Board of India (Sebi) to launch its initial public offering, comprising a fresh issue of equity shares worth ₹900 crore and an offer for sale (OFS) by existing shareholders.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The company reported assets under management (AUM) of ₹9,134 crore as of March 31, 2026.",
-          "support_span": "The company reported assets under management (AUM) of ₹9,134 crore as of March 31, 2026.",
+          "text": "Google's MKA benchmark tests AI agents on 200 real professional files; only 10 tasks are public for inspection",
+          "support_span": "Google's MKA benchmark tests AI agents on 200 real professional files; only 10 tasks are public for inspection",
           "status": "contradicted"
         }
       ],
-      "trust_score": 25,
+      "trust_score": 10,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 32.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "311d06119763179a"
+        "82f15d8efb19ece7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/upcoming-ipo-veritas-finance-gets-sebi-nod-to-launch-public-issue-top-things-for-investors-11794247367964.html",
-          "domain": "livemint.com",
-          "tier": "B"
+          "name": "OpenTools",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc2RfT0pOQWc0TUhOblhtRGFrMDA4Z0RxX1hpYmZsaVBxUzl4bWRTR2FFeFF1YTNMRDRIb3czSTJjTEE0aklGbXpERXgzZUoxRkJ4eFpjWVQ4Z0VLa0lPVXJ0eGNfNXZ1N2pINGNrRUZ3czdrMU0zT0s1c045Vm9ROWFXLV9rQmUxLWowcQ?oc=5",
+          "domain": "opentools.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T18:30:48+00:00",
+      "published": "2026-11-10T20:15:57+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
         "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
-      "reject_reason": "2 claim(s) not supported by the source text"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "2e963759f0aa268b",
-      "title": "Anyone know how to stop the New York Times app from hijacking my phone's top bar like this?",
+      "cluster_key": "6e3648f648840017",
+      "title": "sshhole.com If you use musl, drop everything and patch immediately. This is actually bad.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "howto",
+        "vulnerability",
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Anyone know how to stop the New York Times app from hijacking my phone's top bar like this?",
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe sshhole.com If you use musl, drop everything and patch immediately.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -866,187 +613,114 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2e963759f0aa268b"
+        "6e3648f648840017"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzh4tiie3s2d",
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mzkvjfwarc2u",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T00:45:42.988000+00:00",
+      "published": "2026-11-05T12:45:27.515000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-04 — outside lookback window"
+      "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
-      "cluster_key": "4a45ad356325d0f9",
-      "title": "Trump says more US attacks on Iran 'highly unlikely'",
-      "category": "india_world",
-      "one_liner": "Trump signals renewed US attacks on Iran are unlikely as Middle East peace negotiations show positive momentum.",
+      "cluster_key": "27d0d882d07ec6f1",
+      "title": "Attackers backdoor trusted AWS integrations to steal secrets",
+      "category": "cyber_attacks",
+      "one_liner": "Attackers exploited compromised Qubole AWS integration credentials to siphon secrets from customer cloud environments.",
       "tags": [
-        "india",
-        "political"
+        "ai",
+        "cloud",
+        "identity",
+        "incident",
+        "malware",
+        "research",
+        "threat-actor",
+        "vulnerability"
       ],
-      "summary": "US President Donald Trump stated that renewed military attacks on Iran are highly unlikely because Iran's military capabilities are effectively neutralized. Trump noted positive momentum in negotiations following discussions with Qatari Prime Minister Sheikh Mohammed bin Abdul Rahman Al Thani. While de-escalating open conflict after midterm election losses linked to the war, Trump maintained that a US naval blockade remains in place to protect regional allies. Meanwhile, political fallout from the conflict continues in Washington, where Republican representative Thomas Massie initiated impeachment threats against Defense Secretary Pete Hegseth.",
+      "summary": "Attackers compromised identity and access management credentials associated with cloud data platform Qubole to infiltrate customer AWS environments and steal sensitive data. The supply-chain attack abused cross-account IAM trust relationships left active by organizations, allowing unauthorized actors to call the sts:AssumeRole API using Qubole's account ID. Once inside, the intruders harvested secrets from AWS Secrets Manager, Lambda, and SSM Parameter Store, and utilized tools like TruffleHog to uncover Microsoft Entra ID and Okta credentials. Google's Wiz and Mandiant responders identified the activity, advising victims to rotate credentials and audit CloudTrail logs.",
       "key_facts": [
-        "Key official: Donald Trump",
-        "Diplomatic partner: Qatari Prime Minister Sheikh Mohammed bin Abdul Rahman Al Thani"
+        "Qubole AWS Account ID: 805246085872",
+        "Attack timeframe: October 14 onward"
       ],
-      "bottom_line": "President Trump declared Iran militarily neutralized and ruled out near-term strikes, while maintaining regional naval blockades.",
+      "bottom_line": "Organizations must audit AWS CloudTrail logs and purge deprecated cross-account IAM integrations to protect cloud environments from supply-chain credential abuse.",
       "claims": [
         {
-          "text": "Donald Trump has said 'Iran militarily is effectively over', and said that there is 'positive momentum' behind negotiations to end the Middle East conflict.",
-          "support_span": "Donald Trump has said \"Iran militarily is effectively over\", and said that there is \"positive momentum\" behind negotiations to end the Middle East conflict.",
+          "text": "Attackers used compromised IAM credentials associated with Qubole's AWS account to access customer AWS environments and steal secrets.",
+          "support_span": "Unknown attackers used compromised identity and access management (IAM) credentials associated with Qubole's AWS account to access customer AWS environments, stealing secrets and other sensitive data from S3 buckets.",
           "status": "entailed"
         },
         {
-          "text": "Addressing reporters from the White House press briefing room, Trump said that renewed US attacks on Iran were 'highly unlikely'...",
-          "support_span": "Addressing reporters from the White House press briefing room, Trump said that renewed US attacks on Iran were 'highly unlikely' but that the US was 'locked and loaded' should the circumstances change.",
+          "text": "The threat actors used the sts:AssumeRole API from Qubole AWS account 805246085872.",
+          "support_span": "...the malicious activity back to October 14, when credentials associated with Qubole's AWS account were used to call the sts:AssumeRole API to obtain temporary credentials for customer-managed integration roles. The calls originated from Qubole AWS account 805246085872...",
           "status": "contradicted"
         }
       ],
-      "trust_score": 76,
-      "interest_score": 75,
-      "corroboration": 4,
-      "blend": 82.8,
+      "trust_score": 49,
+      "interest_score": 100,
+      "corroboration": 3,
+      "blend": 79.8,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "4a45ad356325d0f9",
-        "6813acf7ba48ea0e",
-        "85a2a81cc50c3754",
-        "a06cbb49ac5b69b8",
-        "e7f9d6f54f9e1da8"
+        "27d0d882d07ec6f1",
+        "bd73ebc7b854e9ac",
+        "f30dc75a69e1f122"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
-          "domain": "aljazeera.com",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+          "domain": "bleepingcomputer.com",
           "tier": "B"
         },
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/oil-down-more-than-7-a-barrel-in-post-settlement-trade-as-trump-signals-restraint-on-iran-11794254623929.html",
-          "domain": "livemint.com",
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+          "domain": "thehackernews.com",
           "tier": "B"
         },
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnV4VENDNkFNVllVVEpoVTJLcC13SlhHREstWFZZQ252QTRiU3dKeW5EYWYxVUJjNnQzVzh1M1FsWjNGTmRKMVFEYjhxT3M2VmF4aVpERWwwczh6dV9OTG5NcFJCMFVZZ0toWEEyMnRRTnBZUm9iQVVzblIzcmJMOTR4V29sUDFVME1jcFQ5VVhoMHVUM0YzWHM2bmE1b3VCV0s0R2JmUUQ?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWIxdHFYZXdDLUkyNjhxSklldE1kTVJUMXBHOENVUUF0YWVXRmhpbGhvSDdJSUtSUG9ZUk5FVGxZdExQa0c0WmJFZDd2QXFNUnJUV0ZuZ0x3eHZCTFBiVXY3b0lVMVA0RkVaVllFRHJHSjJaUmlpSjNOQThxOGhoN05LelBtdjE4Qk5PbnRoTThFVWc3NE91WlE2WHJKbG5kWEVkeF9SS20wSGs?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+          "domain": "theregister.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-08T23:50:00+00:00",
+      "published": "2026-11-09T17:51:21+00:00",
       "trace": [
-        "tier A (+40)",
-        "4 independent outlets (+36)",
-        "verified: 4 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 83 = trust 76 / interest 75 / corrob 100",
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "059affe961508fb8",
-      "title": "KSRTC sees sharp rise in ticket bookings during Deepavali, daily reservations cross 62,000",
-      "category": "india_world",
-      "one_liner": "KSRTC daily advance bookings surged over 62,000 during Deepavali following automated extra bus allocation and expanded Bengaluru pick-up points.",
-      "tags": [
-        "india"
-      ],
-      "summary": "The Karnataka State Road Transport Corporation (KSRTC) experienced a surge in advance ticket reservations during the Deepavali festival, exceeding 62,000 bookings per day on consecutive days compared to an earlier daily average of 37,000. The 77% increase was driven by the introduction of an automated platform feature adding over 1,000 extra buses when scheduled services filled up, alongside the creation of 15 new designated pick-up points across Bengaluru. Additionally, KSRTC operated over 2,000 special buses on November 6 and 7 to extend festive connectivity to towns and taluk centers across Karnataka.",
-      "key_facts": [
-        "Peak bookings: 65,416 (Nov 6) and 62,499 (Nov 7)",
-        "Baseline daily average: ~37,000",
-        "Additional online buses: >1,000",
-        "Special buses deployed: >2,000"
-      ],
-      "bottom_line": "KSRTC handled a 77% surge in Deepavali bookings by dynamically scaling online bus capacity and expanding neighborhood pick-up points.",
-      "claims": [
-        {
-          "text": "The Karnataka State Road Transport Corporation recorded a significant increase in advance ticket reservations during the Deepavali festive season this year, with bookings crossing 62,000 per day on two consecutive days.",
-          "support_span": "The Karnataka State Road Transport Corporation (KSRTC) has recorded a significant increase in advance ticket reservations during the Deepavali festive season this year, with bookings crossing 62,000 per day on two consecutive days, following a series of measures to expand services.",
-          "status": "entailed"
-        },
-        {
-          "text": "The number increased to 65,416 on November 6, and on November 7 bookings stood at 62,499.",
-          "support_span": "The number increased to 65,416 on November 6. On November 7, bookings fewer...? bookings stood at 62,499.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "059affe961508fb8"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/karnataka/ksrtc-sees-sharp-rise-in-ticket-bookings-during-deepavali-daily-reservations-cross-62000/article71683502.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T19:36:17+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "2b1eea4885c01263",
-      "title": "TIGER-AI-Lab/WebsiteBench — Can AI agents rebuild websites through browser exploration?",
+      "cluster_key": "cc69eeeca5f17663",
+      "title": "My life just got interesting: www.tigrisdata.com/blog/dropbox... Still processing this",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "linux",
-        "opensource",
-        "release",
-        "research",
-        "supply-chain",
-        "tool"
+        "windows"
       ],
-      "summary": "Given a production-level website they can explore through a browser, agents must reverse-engineer a full-stack version that matches its appearance and behavior as closely as possible. 70 websites and 46,916 hidden test cases, on Harbor Hub and Hugging Face. Download them with the PyPI package: pip install websitebench websitebench download --task mediumuv tool install harbor==0.25.0 Run an agent on all 70 tasks: export OPENAI_API_KEY='<key>' harbor run --dataset websitebench/WebsiteBench@v1 \\ --agent codex --model '<model>' --n-concurrent 1 \\ --allow-environment-host snapshot.debian.org \\ --allow-environment-host raw.githubusercontent.com \\ --allow-environment-host github.com \\ --allow-envi…",
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe My life just got interesting: Still processing this 2026-11-05T14:19:57.286Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1057,25 +731,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2b1eea4885c01263"
+        "cc69eeeca5f17663"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
-          "domain": "github.com",
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3mzl2seaf4s27",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-04T12:58:50+00:00",
+      "published": "2026-11-05T14:19:56.456000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-04 — outside lookback window"
+      "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
       "cluster_key": "5212c168a88cf58b",
@@ -1124,7 +798,132 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T08:45:48+00:00",
+      "published": "2026-11-09T09:44:21+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from cache",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "b958c227209529b5",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "category": "cyber_attacks",
+      "one_liner": "A vulnerability in the SGLang inference engine allowed an attacker to breach NEAR AI, exposing user data and AI agent logs.",
+      "tags": [
+        "agents",
+        "ai",
+        "dfir",
+        "exploit",
+        "incident",
+        "opensource",
+        "vulnerability"
+      ],
+      "summary": "NEAR AI suffered a data breach after an attacker exploited a remote code execution (RCE) vulnerability in the SGLang inference engine. The attacker gained access to an internal system, exposing account details for approximately 100 users and sensitive data from 18 AI agents. While the company utilized a trusted execution environment (TEE), the vulnerability existed within the software running inside it, rendering the TEE protection ineffective for this specific attack.",
+      "key_facts": [
+        "Affected users: ~100",
+        "Affected agents: 18"
+      ],
+      "bottom_line": "The NEAR AI breach demonstrates that trusted execution environments (TEEs) do not protect against vulnerabilities in the software running within them.",
+      "claims": [
+        {
+          "text": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.",
+          "support_span": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.",
+          "status": "entailed"
+        },
+        {
+          "text": "The attacker reached 18 AI agents on an older deployment of NEAR AI Agents that did not run inside the company's TEE.",
+          "support_span": "The attacker reached 18 AI agents on an older deployment of NEAR AI Agents that did not run inside the company's TEE.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b958c227209529b5"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T19:19:39+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "7b384ccdf1eac302",
+      "title": "Anthropic introduces two new Claude AI models: What Fable 5.2 and Mythos 5.2 can do",
+      "category": "tech_ai",
+      "one_liner": "Anthropic's release of Claude Fable 5.2 and Mythos 5.2 shifts the benchmark bar for advanced developer tooling and agentic coding capabilities.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "release",
+        "research"
+      ],
+      "summary": "Anthropic has introduced two new AI models, Claude Fable 5.2 and Claude Mythos 5.2, targeting complex coding, cybersecurity, and scientific research. Both models are built on the same underlying architecture but differ in access and safety restrictions, with Fable available to general users and Mythos reserved for verified organizations. The models generate responses up to 30% faster and support a one-million-token context window. Priced at $8 per million input tokens and $40 per million output tokens via the API, Fable 5.2 outperformed competing models from OpenAI and Google on several technical benchmarks.",
+      "key_facts": [
+        "API Input Cost: $8 per million tokens",
+        "API Output Cost: $40 per million tokens",
+        "Context Window: 1,000,000 tokens",
+        "Fable FrontierCode 2.0 score: 49.1%"
+      ],
+      "bottom_line": "Anthropic launched Claude Fable 5.2 and Mythos 5.2 with a 1-million-token context window and specialized security capabilities, outperforming rival models on technical benchmarks.",
+      "claims": [
+        {
+          "text": "Anthropic has introduced Claude Fable 5.2 and Claude Mythos 5.2, two new AI models aimed at some of the toughest jobs in coding, science, cybersecurity and engineering.",
+          "support_span": "Anthropic has introduced Claude Fable 5.2 and Claude Mythos 5.2, two new AI models aimed at some of the toughest jobs in coding, science, cybersecurity and engineering.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Both models cost $8 per million input tokens and $40 per million output tokens through the API.",
+          "support_span": "Both models cost $8 per million input tokens and $40 per million output tokens through the API.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "7b384ccdf1eac302"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "News9live",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTFVKNXJqZ1BuUDFnOThnNFdVTUx5ampNRk9fUFNEdnBPZTFETjI1NnVFaEtqbU5KaTFDNDJhMnFlemZMTTZXU01KaHh1bHpfdmt4WUp5Nm5KRGRLbklCOWpVcE9BaHJteVlERHpPaGdDRGhmV1VyUlltMmNSQ2gtNkpXZnV6alVQVTFPbGdDQkYyRjVNWjRTTC1IYV92VmEwZTJfX283ZTA0enVfZlBVV0gtRmhvX3VKeWs3QTlUTdIBxAFBVV95cUxNdHFXb1R0djd4UzZVZlEtTkk1b2NWYW5tVXNLTEY3M3o1R0NEUWpLVW40VHh3d2tDZ2NQMk9uTWpwcVhTYWNvc01uU1M5TnNXNXV3cWpJbHExZ2ZsTjNMRElXTV9tbHFBbFoyR25uanRVNk9zNjFRbkU0MWk2T3R5Nmx3bUoyZ1Ntc0VZVERkTmFZTTViQmt4VTRPdzhDRy1yWlZRNDRaSTZFa01iNVBYejI5cEd2M3JvLUtKN3FNV0tPdFc5?oc=5",
+          "domain": "news9live.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T06:37:51+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
@@ -1134,30 +933,212 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "96f75331cab5167d",
-      "title": "Akhilesh’s proposed Ayodhya visit to broaden his PDA outreach, say political analysts",
+      "cluster_key": "197811081f6a048b",
+      "title": "After Bangladesh rules out passport for Hasina, India says ‘travel document’ needed",
       "category": "india_world",
-      "one_liner": "SP chief Akhilesh Yadav's planned visit to Ayodhya's Ram Temple sparks political debate as the party seeks to expand its voter base among Brahmins and upper castes.",
+      "one_liner": "India stated a travel document is required for Sheikh Hasina after Bangladesh ruled out issuing her a passport.",
       "tags": [
         "india",
+        "policy",
         "political"
       ],
-      "summary": "Samajwadi Party president Akhilesh Yadav has announced plans to visit the Ram Temple in Ayodhya on December 12, triggering sharp political pushback from the ruling BJP and Chief Minister Yogi Adityanath, who demanded an apology for past police actions against kar sevaks. Political analysts view the planned visit as a strategic effort to broaden the SP's PDA (Pichda, Dalit, Alpsankhyak) electoral coalition by reaching out to upper-caste communities like Brahmins ahead of the upcoming Uttar Pradesh Assembly elections, while neutralizing the BJP's anti-Hindu rhetoric.",
+      "summary": "Following comments by Bangladesh's Acting Foreign Minister Humayun Kabir stating that Dhaka will not issue a passport to deposed Prime Minister Sheikh Hasina and will seek her extradition via prisoner exchange, India's Ministry of External Affairs clarified that a travel document remains necessary for international travel. MEA spokesperson Randhir Jaiswal noted that extradition is a legal matter and described passport requirements as a technical issue, while officials indicated an Emergency Certificate could also prove citizenship. Meanwhile, domestic political unrest continues in Bangladesh, with opposition groups accusing the government of failing to maintain law and order amid ongoing violent explosions in Dhaka.",
       "key_facts": [
-        "Visit date: December 12",
-        "Key figures: Akhilesh Yadav, Yogi Adityanath",
-        "State: Uttar Pradesh"
+        "Country: Bangladesh",
+        "Target individual: Sheikh Hasina",
+        "Extradition treaty year: 2013"
       ],
-      "bottom_line": "Political outreach to upper-caste voters via temple visits ahead of the UP assembly elections highlights shifting electoral strategies among opposition parties.",
+      "bottom_line": "The diplomatic standoff over Sheikh Hasina's residency in India deepens as Bangladesh refuses passport issuance while demanding extradition under bilateral treaties.",
       "claims": [
         {
-          "text": "Samajwadi Party president Akhilesh Yadav announced his proposed visit to the Ram Temple in Ayodhya on December 12.",
-          "support_span": "After the announcement of Samajwadi Party president and former Uttar Pradesh Chief Minister Akhilesh Yadav’s proposed visit to the Ram Temple in Ayodhya on December 12 for the first time since its consecration two years ago, a political slugfest has ensued with the ruling Bharatiya Janata Party (BJP) calling the visit politically motivated.",
+          "text": "Bangladesh's Acting Foreign Minister stated Dhaka would not issue a passport to Sheikh Hasina and demanded extradition.",
+          "support_span": "A day after the Acting Foreign Minister of Bangladesh, Humayun Kabir, stressed that Dhaka would not issue a passport to deposed Prime Minister Sheikh Hasina and insisted on getting her extradited from India under an “acceptable prisoner exchange”...",
+          "status": "contradicted"
+        },
+        {
+          "text": "India's MEA stated that a travel document is needed for international travel.",
+          "support_span": "...the Ministry of External Affairs said on Tuesday (November 10, 2026) that a “travel document” was needed for international travel.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "197811081f6a048b"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/after-bangladesh-rules-out-passport-for-hasina-india-says-travel-document-needed/article71686655.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-11T01:26:33+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "75bb519accd55256",
+      "title": "Anthropic sets IPO price band at $70-$78, targets valuation of up to $1.4 trillion",
+      "category": "markets",
+      "one_liner": "Anthropic set its IPO price band to target a $1.41 trillion valuation on the Nasdaq.",
+      "tags": [
+        "ai",
+        "llm",
+        "markets",
+        "political"
+      ],
+      "summary": "AI developer Anthropic has filed an updated SEC registration to set its IPO price band between $70 and $78 per share, targeting a valuation up to $1.405 trillion by offering 825 million shares on the Nasdaq under ticker symbol 'ANT'. The company reported $33.24 billion in revenue for the first nine months of the year, representing a 1,200% year-over-year increase, alongside a net loss of $104 billion largely driven by changes in the fair value of convertible notes and derivative liabilities. Anthropic faces potential market headwinds from macroeconomic interest rate pressures and political questions surrounding AI infrastructure development. The offering follows recent high-profile tech IPOs and coincides with the company's release of Claude Fable 5.2 and Claude Mythos 5.2 models.",
+      "key_facts": [
+        "IPO price band: $70 to $78 per share",
+        "Valuation target: $1.405 trillion",
+        "Shares offered: 825 million",
+        "Ticker: ANT",
+        "Revenue (9 months): $33.24 billion"
+      ],
+      "bottom_line": "Anthropic's massive $1.4 trillion IPO valuation target highlights the immense capital scaling of frontier AI labs despite massive accounting losses from derivatives.",
+      "claims": [
+        {
+          "text": "Anthropic set an IPO price range of $70 to $78 per share, targeting a valuation up to $1.405 trillion.",
+          "support_span": "Artificial intelligence (AI) company Anthropic has set a price range of $70 to $78 per share for its proposed initial public offering (IPO), potentially valuing the five-year-old company at up to $1.405 trillion and positioning it for one of the largest stock market debuts.",
           "status": "entailed"
         },
         {
-          "text": "U.P. Chief Minister Yogi Adityanath alleged that those who had neglected the holy town and opened fire on Lord Ram’s devotees should come only after apologising.",
-          "support_span": "“Those who had neglected and insulted [Ayodhya], who had opened fire on Lord Ram devotees and subjected saints to lathi charge, should certainly come to Ayodhya, but only after apologising,” said Mr. Adityanath",
+          "text": "Anthropic plans to offer 825 million shares to list on the Nasdaq under ticker symbol 'ANT'.",
+          "support_span": "According to an updated filing with the US Securities and Exchange Commission (SEC) on Tuesday, Anthropic plans to offer 825 million shares in the IPO. ... The company is expected to list on the Nasdaq under the ticker symbol 'ANT' later this month.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Anthropic reported revenue of $33.24 billion and a net loss of $104 billion for the nine months ended September 30.",
+          "support_span": "Anthropic reported revenue of $33.24 billion for the nine months ended September 30, representing an increase of approximately 1,200% from the corresponding period last year. However, the company also disclosed a net loss of $104 billion during the nine-month period, compared with a loss of $25.1 billion in the same period of 2025.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "75bb519accd55256"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/ipo/anthropic-sets-ipo-price-band-at-70-78-targets-valuation-of-up-to-1-4-trillion-11794311891604.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T12:38:20+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "0f696e8c856711df",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "category": "tech_ai",
+      "one_liner": "Google DeepMind revealed Gemini Robotics 2.5 with enhanced dexterity and the ASIMOV-jailbreak safety benchmark.",
+      "tags": [
+        "ai",
+        "hardware",
+        "llm",
+        "opensource",
+        "release",
+        "research"
+      ],
+      "summary": "Google DeepMind has unveiled Gemini Robotics 2.5 alongside an open-source safety benchmark called ASIMOV-jailbreak. The updated physical AI platform combines Gemini Embodied Reasoning for visual task planning with version 2.5 of the vision-language-action model, achieving high dexterity across more than 200 physical activities. Tested in real-world environments like Mercedes-Benz factories and demonstrated on Apptronik's Apollo 2 humanoid robot, the platform successfully handles delicate manipulation tasks such as tying bows with deformable ribbons.",
+      "key_facts": [
+        "Platform release: Gemini Robotics 2.5",
+        "Benchmark: ASIMOV-jailbreak"
+      ],
+      "bottom_line": "Gemini Robotics 2.5 brings humanoid robots significantly closer to human-level dexterity in industrial manufacturing environments.",
+      "claims": [
+        {
+          "text": "Google DeepMind revealed Gemini Robotics 2.5 and an open source safety benchmark named ASIMOV-jailbreak.",
+          "support_span": "Google DeepMind has revealed a new generation of the AI-powered Gemini Robotics platform. In the 2.5 release, Google says its robotic AI is getting tantalizingly close to completing real-world tasks as well as humans do. ... and the team is preparing for a day when robots operate alongside humans with an open source safety benchmark.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Gemini Robotics 2.5 was evaluated across more than 200 activities including food service and laboratory pipetting.",
+          "support_span": "The model was evaluated across more than 200 activities, including serving food with tongs and using a pipette, as you would see in a laboratory.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0f696e8c856711df"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+          "domain": "arstechnica.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T15:00:39+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "6cfecb290e2cd28d",
+      "title": "India's Oldest Industry Body FICCI Warns Air Pollution Costs $95 Billion Annually",
+      "category": "india_world",
+      "one_liner": "FICCI warned that air pollution costs India $95 billion annually.",
+      "tags": [
+        "india",
+        "markets",
+        "policy"
+      ],
+      "summary": "India's oldest industry body, FICCI, has issued a warning emphasizing that air pollution inflicts an annual economic cost of $95 billion on the country. The organization argues that clean air must be addressed as a structural priority rather than merely a seasonal issue.",
+      "key_facts": [
+        "Annual economic cost: $95 billion",
+        "Organization: FICCI"
+      ],
+      "bottom_line": "Air pollution imposes a massive $95 billion annual economic toll on India, requiring permanent policy remediation rather than seasonal responses.",
+      "claims": [
+        {
+          "text": "FICCI warns that air pollution costs $95 billion annually.",
+          "support_span": "India's Oldest Industry Body FICCI Warns Air Pollution Costs $95 Billion Annually",
           "status": "contradicted"
         }
       ],
@@ -1168,21 +1149,21 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "96f75331cab5167d"
+        "6cfecb290e2cd28d"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/akhileshs-proposed-ayodhya-visit-to-broaden-his-pda-outreach-say-political-analysts/article71683430.ece",
-          "domain": "thehindu.com",
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/indias-oldest-industry-body-ficci-warns-air-pollution-costs-95-billion-annually-12309951#publisher=newsstand",
+          "domain": "ndtv.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T16:39:28+00:00",
+      "published": "2026-11-10T18:36:56+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
@@ -1192,274 +1173,120 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "e9e255b082200425",
-      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "cluster_key": "3ac35ff647369fb9",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
       "category": "cyber_attacks",
-      "one_liner": "Audit access controls on Model Context Protocol servers and AI integration endpoints to protect hosting infrastructure from rapid automated intrusions.",
+      "one_liner": "Hunt for Sparrow malware framework indicators linked to China-nexus espionage campaigns targeting global critical infrastructure.",
       "tags": [
-        "agents",
-        "ai",
-        "cloud",
-        "dfir",
+        "blueteam",
         "incident",
-        "opensource",
-        "tool",
-        "vulnerability"
+        "linux",
+        "malware",
+        "network",
+        "privacy",
+        "threat-actor",
+        "tool"
       ],
-      "summary": "German web hosting provider Mittwald CM Service disclosed that hackers compromised 56 customer projects after operating undetected on its infrastructure for eight days. The attacker exploited a vulnerability in the Model Context Protocol (MCP) server used to connect AI assistants to the mStudio platform. According to the company's logs, the attacker utilized AI tooling to accelerate execution steps significantly, marking an early documented case of an AI-aided attack vector targeting management interfaces.",
+      "summary": "Check Point Research has linked three China-nexus espionage clusters—SilentDelivery, OceanGate, and DarkWire—to a common malware ecosystem named Sparrow, developed by a digital quartermaster actor codenamed CopperDragon. The campaigns have targeted telecommunications, government, military, research, and critical infrastructure across Latin America, Asia, and Europe over the past year. Tactics include selective watering hole attacks using obfuscated JavaScript injected into legitimate government and shipping sites to deploy trojanized 'Certificate Fix' installers, alongside exploits targeting internet-facing Linux servers to pivot into Windows environments.",
       "key_facts": [
-        "Victim: Mittwald CM Service",
-        "Compromised projects: 56",
-        "Dwell time: 8 days",
-        "Vector: Model Context Protocol (MCP) server flaw"
+        "Threat Clusters: SilentDelivery, OceanGate, DarkWire",
+        "Framework: Sparrow",
+        "Attribution: CopperDragon"
       ],
-      "bottom_line": "Attackers exploited a Model Context Protocol server vulnerability in an AI-assisted breach that compromised 56 customer projects at a German web host.",
+      "bottom_line": "Three distinct cyber espionage clusters have been unified under the Sparrow malware ecosystem managed by a single digital quartermaster.",
       "claims": [
         {
-          "text": "Mittwald CM Service, a hosting provider for web agencies based in North Rhine-Westphalia, disclosed in a blog post Saturday that hackers had compromised 56 customer projects after going undetected on its systems for eight days.",
-          "support_span": "Mittwald CM Service, a hosting provider for web agencies based in North Rhine-Westphalia, disclosed in a blog post Saturday that compromised 56 customer projects after going undetected on its systems for eight days.",
-          "status": "contradicted"
+          "text": "Check Point Research is tracking the clusters under the names SilentDelivery, OceanGate, and DarkWire.",
+          "support_span": "Check Point Research is tracking the clusters under the names SilentDelivery, OceanGate, and DarkWire.",
+          "status": "entailed"
         },
         {
-          "text": "The company’s managing director Robert Meyer said the attackers exploited a flaw in Mittwald’s Model Context Protocol (MCP) server",
-          "support_span": "The company’s managing director Robert Meyer said the attackers exploited a flaw in Mittwald’s Model Context Protocol (MCP) server",
-          "status": "entailed"
+          "text": "The entity behind the Sparrow framework has been codenamed CopperDragon...",
+          "support_span": "The entity behind the Sparrow framework has been codenamed CopperDragon, and is assessed to be a digital quartermaster developing tools for China-nexus threat actors...",
+          "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 100,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "e9e255b082200425"
+        "3ac35ff647369fb9",
+        "5a6756be984a749b"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Record",
-          "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
-          "domain": "therecord.media",
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+          "domain": "thehackernews.com",
           "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnpWTDZwZlBhSUVzX0k1cWRPNThVa25ZcHN3UzdYNkNSWTFJcy1Zc0hiSThPWmdBajRIeDJWdzliWlFSUUtzbjY5c2VoTHk5WU1zNXpZMmlSaHhUX0JERnREc1NGSkc1c0FVZWRtTkhtUmpLVHNFTFUyMVd5LVR3XzBn?oc=5",
+          "domain": "thehackernews.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T14:15:00+00:00",
+      "published": "2026-11-10T17:43:00+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "b84b842ed949cf53",
-      "title": "Webtop Media Transcoder vulnerable to incorrect resource transfer between spheres",
-      "category": "cyber_attacks",
-      "one_liner": "An authenticated file-upload vulnerability in Webtop Media Transcoder (CWE-669) is actively being exploited to harvest sensitive data.",
+      "cluster_key": "94e71a77453c33e5",
+      "title": "voyager-so/vork — Headless 3D and VFX engine for agents. Research preview.",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "appsec",
-        "exploit",
-        "research",
-        "vulnerability"
-      ],
-      "summary": "Openwave Messaging has disclosed an incorrect resource transfer between spheres vulnerability in its Webtop Media Transcoder product affecting versions prior to 1.1.22.0. Tracked as CWE-669, the flaw allows an authenticated attacker to upload a specially crafted file following specific steps to obtain sensitive information. The developer states that exploitation in the wild has been observed and advises users to apply available patches.",
-      "key_facts": [
-        "Vulnerable product: Webtop Media Transcoder",
-        "Affected versions: Prior to 1.1.22.0",
-        "Vulnerability type: CWE-669 (Incorrect Resource Transfer Between Spheres)"
-      ],
-      "bottom_line": "Administrators running Webtop Media Transcoder prior to version 1.1.22.0 must patch immediately due to active exploitation.",
-      "claims": [
-        {
-          "text": "Webtop Media Transcoder provided by Openwave Messaging contains an incorrect resource transfer between spheres vulnerability in versions prior to 1.1.22.0.",
-          "support_span": "Webtop Media Transcoder provided by Openwave Messaging (Ireland) Limited contains an incorrect resource transfer between spheres vulnerability. Products Affected - Webtop Media Transcoder versions prior to 1.1.22.0.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The developer states that attacks exploiting the vulnerability have been observed.",
-          "support_span": "The developer states that attacks exploiting the vulnerability have been observed.",
-          "status": "entailed"
-        },
-        {
-          "text": "An authenticated attacker uploading a specially crafted file may obtain sensitive information.",
-          "support_span": "If an authenticated attacker uploads a specially crafted file by following specific steps, sensitive information may be obtained.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "b84b842ed949cf53"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CTI Now",
-          "url": "https://jvn.jp/en/vu/JVNVU93403064/",
-          "domain": "jvn.jp",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T02:04:17+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from cache",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "34854a89900fbb9c",
-      "title": "Arlington ISD personnel information affected by third-party national data breach",
-      "category": "cyber_attacks",
-      "one_liner": "A third-party software breach at Frontline Education exposed sensitive staff and student identification data for hundreds of thousands in Texas.",
-      "tags": [
-        "incident",
-        "privacy",
-        "supply-chain",
-        "vulnerability"
-      ],
-      "summary": "Arlington ISD and numerous other school districts nationwide were impacted by a data breach originating from school administration software provider Frontline Education in August. A third-party software product flaw exposed sensitive information including Social Security numbers, dates of birth, driver's licenses, and student IDs, affecting roughly 778,000 individuals in Texas alone. Frontline stated that the vulnerability was remediated the day after discovery, and affected individuals have been offered 24 months of free credit monitoring through TransUnion.",
-      "key_facts": [
-        "Affected Texans: 778,000",
-        "Vendor: Frontline Education",
-        "Incident date: August 14",
-        "Credit monitoring offered: 24 months via TransUnion"
-      ],
-      "bottom_line": "Third-party administrative software vulnerabilities can cascade into massive systemic exposures of sensitive government and personal identification data.",
-      "claims": [
-        {
-          "text": "Roughly 778,000 Texans were affected by the breach at Frontline Education.",
-          "support_span": "Roughly 778,000 Texans were affected by the breach, according to a data breach notice posted to the Texas attorney general’s office website.",
-          "status": "entailed"
-        },
-        {
-          "text": "The possible information breached includes Social Security numbers, dates of birth, driver's license numbers, passport numbers, other government IDs, Medicaid IDs and student IDs.",
-          "support_span": "The statement on Frontline’s website states the possible information breached includes Social Security numbers, dates of birth, driver's license numbers, passport numbers, other government IDs, Medicaid IDs and student IDs.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Those affected were offered a free 24-month membership to TransUnion credit monitoring.",
-          "support_span": "Those affected were offered a free 24-month membership to TransUnion credit monitoring.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "34854a89900fbb9c"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Fort Worth Report",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPazhsaEFONE1sQUtZSDA2WHQtY21nQ2NYams2cFBHRnVvbUJPSEpYd3VreGhHaWZFNmIxM0Z1ZXc2cURNS21RQmhlVFNKVHNoa3dGd1UtdHFQZE9OS3laWWtSeF80SnhJRWZ0ZWVxMDdUc21RRG9XekFSUXRqa3VFUGpRTnNfeUx6c3FnTmRVRXI5cDNpVEdXWEYwS01VVldGRVhGRXd3MkZ0cGdjaXZvcDBCUGEycmwzZTNmeg?oc=5",
-          "domain": "fort-worth-report.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-06T19:09:43+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "482c099830235939",
-      "title": "​Critical Zero-Day Vulnerabilities Found in D-Link Enterprise Gigabit Switches",
-      "category": "cyber_attacks",
-      "one_liner": "Critical zero-day flaws in D-Link DGS-3130 switches allow attackers to hijack devices and disrupt enterprise networks without a patch available.",
-      "tags": [
-        "appsec",
-        "blueteam",
-        "exploit",
+        "agents",
+        "ai",
         "hardware",
-        "network",
-        "privacy",
-        "release",
-        "vulnerability"
+        "linux",
+        "opensource",
+        "windows"
       ],
-      "summary": "Security researcher Girish Kumar Enugu discovered multiple critical zero-day vulnerabilities in the proprietary D-Link Discovery Protocol used across DGS-3130 series managed gigabit stackable switches. Unauthenticated attackers who have access to the local network segment can exploit these flaws to retrieve confidential configuration data, extract Simple Network Management Protocol community strings, execute unauthorized administrative commands, and trigger disruptive system reboots or factory resets. Because D-Link has not yet released firmware patches and has not assigned CVE tracking numbers, network administrators must implement manual mitigations such as disabling the discovery protocol and isolating management interfaces.",
-      "key_facts": [
-        "Affected product: DGS-3130-30TS model and DGS-3130 series",
-        "Discovered by: Girish Kumar Enugu",
-        "CVE-2026-86296: earlier zero-day flagged in September 2026 across legacy DIR-822A routers"
-      ],
-      "bottom_line": "Administrators of D-Link DGS-3130 switches must immediately disable the proprietary discovery protocol and isolate management channels to mitigate unpatched zero-day risks.",
-      "claims": [
-        {
-          "text": "The security flaws were identified by security researcher Girish Kumar Enugu, who uncovered issues related to authentication, access control, and information handling within the D-Link Discovery Protocol.",
-          "support_span": "The security flaws were identified by security researcher Girish Kumar Enugu, who uncovered issues related to authentication, access control, and information handling within the D-Link Discovery Protocol.",
-          "status": "entailed"
-        },
-        {
-          "text": "Successful exploitation of these vulnerabilities allows malicious actors who have gained access to the affected network segment to retrieve confidential operational data and execute unauthorized administrative commands.",
-          "support_span": "Successful exploitation of these vulnerabilities allows malicious actors who have gained access to the affected network segment to retrieve confidential operational data and execute unauthorized administrative commands.",
-          "status": "entailed"
-        },
-        {
-          "text": "The incident follows an earlier zero-day flaw, CVE-2026-86296, flagged in September 2026 across legacy DIR-822A routers, underlining the urgent need for stringent control over enterprise network hardware.",
-          "support_span": "The incident follows an earlier zero-day flaw, CVE-2026-86296, flagged in September 2026 across legacy DIR-822A routers, underlining the urgent need for stringent control over enterprise network hardware.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
+      "summary": "vork is a 3D and VFX engine built for AI agents. Agents write the whole scene as code, including their own shaders, materials, cameras and physics, and vork renders it on the GPU. skim-hero.mp4 One million birds, each on its own path. 192 frames at 1080p rendered in 97 seconds on a single NVIDIA L4. Blender EEVEE at the same sample count is projected at 13–18 minutes.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 55.0,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "482c099830235939"
+        "94e71a77453c33e5"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The 420.in",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2p1ZnNPYUxha0lGLU1hSWYwVFN0MllEYUFYUFdkUVR4T0J0SEpBYmQ2VFpnWkRNR0F0akZ0Qnk1TzR5VkZ0YS1yT0wzYXB3ODJJY1QyNFV0SzRMcVBrdFA2ckFBWmp5WHhjSDhqTF9POHd2MFZZMkRxVVdKMERTWVd1NjdjQUtWY2FQQUtUYlhQbURqcXYwSWh2NGE?oc=5",
-          "domain": "the-420-in.publisher",
+          "name": "GitHub (new)",
+          "url": "https://github.com/voyager-so/vork",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-07T16:39:25+00:00",
+      "published": "2026-11-05T22:37:07+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-05 — outside lookback window"
     },
     {
       "cluster_key": "45354f6abbceea3a",
@@ -1514,159 +1341,37 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "13578567da618c90",
-      "title": "Data breach at hearing aid giant Amplifon impacts thousands",
-      "category": "cyber_attacks",
-      "one_liner": "Hearing aid giant Amplifon suffered a data breach exposing sensitive medical and personal data for thousands of US customers.",
+      "cluster_key": "911c3e8ed72254a1",
+      "title": "Dangote Refinery Gets $4.1 Billion Orders in Top Africa IPO",
+      "category": "markets",
+      "one_liner": "Dangote Refinery's IPO drew $4.1 billion in bids, nearly triple its target in Africa's largest public offering.",
       "tags": [
-        "incident",
-        "malware",
-        "privacy",
-        "supply-chain"
-      ],
-      "summary": "International healthcare company Amplifon disclosed a data breach affecting tens of thousands of US customers after hackers accessed company systems between January 18 and February 8. The Milan-based hearing aid provider began notifying state regulators, revealing that 85,804 individuals in Texas and 1,027 in Vermont were impacted, alongside filings in California, while class action firms estimate over 1.3 million total victims. The stolen data includes names, driver's licenses, state IDs, medical information, health insurance data, and financial records. The incident highlights a broader wave of targeted cyberattacks against medical device and wearable manufacturers in 2026, which has affected firms like iRhythm and Medtronic.",
-      "key_facts": [
-        "Affected individuals in Texas: 85,804",
-        "Affected individuals in Vermont: 1,027",
-        "Unauthorized access window: January 18 to February 8"
-      ],
-      "bottom_line": "Amplifon's data breach exposed the Social Security numbers and medical records of thousands of US customers, reflecting a broader wave of attacks on medical device firms.",
-      "claims": [
-        {
-          "text": "Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont.",
-          "support_span": "Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont.",
-          "status": "entailed"
-        },
-        {
-          "text": "An investigation later revealed the hackers had access to company files between January 18 and February 8.",
-          "support_span": "an investigation later revealed the hackers had access to company files between January 18 and February 8.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information.",
-          "support_span": "The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "13578567da618c90",
-        "cd41a3a65bdc0124"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
-          "domain": "therecord.media",
-          "tier": "B"
-        },
-        {
-          "name": "The Record from Recorded Future News",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IVG5PaHhUeUNjbHpOeFZ1dUxxOUxsWFdKOXItOGx4enZkN256Z3pKeElHa01BMzlzYmtaUjFsLS1VM3dRbnh1SDk2QlcyT21haVFZM3ZCMmhSS1hCMnJVNVpLYXVKdTM3VDNHbUdHVV83QQ?oc=5",
-          "domain": "the-record-from-recorded-future-news.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T20:44:00+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "ef968a3162c5c6af",
-      "title": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
-      "category": "cyber_tools",
-      "one_liner": "Utilize automated skills built from real-world bug bounty reports to enhance vulnerability discovery workflows.",
-      "tags": [
-        "bugbounty",
-        "howto",
-        "vulnerability"
-      ],
-      "summary": "I Built a Self-Updating Bug Bounty Skill From 200 Reports. A leaderboard is not a distribution. Continue reading on MeetCyber »",
-      "key_facts": [],
-      "bottom_line": "A developer built a self-updating bug bounty skill compiled from 200 security reports.",
-      "claims": [
-        {
-          "text": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
-          "support_span": "I Built a Self-Updating Bug Bounty Skill From 200 Reports.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 21.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "ef968a3162c5c6af"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Medium bug bounty",
-          "url": "https://meetcyber.net/i-built-a-self-updating-bug-bounty-skill-from-200-reports-e1e921251405?source=rss------bug_bounty-5",
-          "domain": "meetcyber.net",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-10T02:38:02+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "6289435bdbbde177",
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "category": "tech_ai",
-      "one_liner": "Anthropic is moving forward with plans for an initial public offering, targeting a valuation range below previous multi-trillion-dollar estimates.",
-      "tags": [
-        "ai",
         "markets"
       ],
-      "summary": "Anthropic is proceeding with plans for a major initial public offering, aiming to set a valuation range this week and begin public trading by the end of next week. The planned listing follows a major Nasdaq sell-off and comes despite market scrutiny over AI valuations. Institutional investors are pushing for an enterprise valuation below the initially discussed $1.5 trillion target, which was already down from earlier projections of $2 trillion. Rival AI firm OpenAI recently secured a $1.25 trillion valuation after raising $11 billion in fresh capital.",
+      "summary": "Dangote Petroleum Refinery and Petrochemicals FZE has attracted roughly 5.85 trillion naira ($4.1 billion) in applications for its initial public offering, exceeding its $1.6 billion target by nearly three times. The offering received $1.9 billion from domestic Nigerian investors and $2.1 billion from international buyers, including significant interest from South Africa's Public Investment Corp. and local pension funds representing 11 million members. The Lagos-based crude facility is set to submit its draft allotment to Nigeria's Securities and Exchange Commission, with trading anticipated to begin by late November or December. The massive demand demonstrates robust regional capital backing for major African industrial assets.",
       "key_facts": [
-        "OpenAI valuation: $1.25 trillion",
-        "OpenAI fresh capital raised: $11 billion"
+        "Amount raised/applications: $4.1 billion (5.85 trillion naira)",
+        "Original target: $1.6 billion",
+        "Domestic investment: $1.9 billion",
+        "International investment: $2.1 billion",
+        "Expected trading start: December 8"
       ],
-      "bottom_line": "Anthropic is pressing ahead with its IPO timeline despite market volatility, with institutional investors seeking valuations below $1.5 trillion.",
+      "bottom_line": "The Dangote Refinery IPO has successfully secured massive domestic and international institutional backing, raising $4.1 billion against a $1.6 billion target.",
       "claims": [
         {
-          "text": "Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week.",
-          "support_span": "Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, the Journal reported.",
-          "status": "entailed"
+          "text": "Dangote Refinery attracted about $4.1 billion in share applications, nearly three times its target.",
+          "support_span": "Africa’s biggest refinery attracted about 5.85 trillion naira ($4.1 billion) of applications for shares in the continent’s largest public offering to date, almost three times the amount it sought to raise...",
+          "status": "contradicted"
         },
         {
-          "text": "OpenAI was reportedly valued at $1.25 trillion last week after raising $11 billion in fresh capital.",
-          "support_span": "OpenAI, Anthropic’s main rival, was reportedly valued at $1.25 trillion last week after raised $11 billion in fresh capital, short of the $20 billion it had initially sought.",
+          "text": "The company received $1.9 billion from Nigerian investors and $2.1 billion from international buyers.",
+          "support_span": "...received about $1.9 billion in inquiries from investors in its home country of Nigeria and a further $2.1 billion from international buyers...",
           "status": "contradicted"
         }
       ],
@@ -1677,28 +1382,28 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6289435bdbbde177"
+        "911c3e8ed72254a1"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-          "domain": "techcrunch.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/dangote-refinery-gets-4-1-billion-orders-in-top-africa-ipo-11794341424038.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T01:27:12+00:00",
+      "published": "2026-11-10T20:10:23+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "importance 4/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "2 claim(s) not supported by the source text"
     }
   ]
 }
