@@ -1,16 +1,4 @@
 {
-  "2026-10-31": {
-    "_failed": {
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 1,
-      "gemma-4-26b-a4b-it": 3,
-      "gemma-4-31b-it": 1
-    },
-    "gemini-3.5-flash-lite": 10,
-    "gemini-3.1-flash-lite": 8
-  },
   "2026-11-01": {
     "_failed": {
       "gemini-3.7-flash": 1,
@@ -174,6 +162,19 @@
       "gemma-4-31b-it": 3
     },
     "gemini-3.5-flash-lite": 6,
+    "gemini-3.1-flash-lite": 12
+  },
+  "2026-11-14": {
+    "_failed": {
+      "gemini-3.7-flash": 1,
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash": 1,
+      "gemma-4-26b-a4b-it": 1,
+      "gemma-4-31b-it": 3,
+      "gemini-3-flash-preview": 1
+    },
+    "gemini-3-flash-preview": 2,
+    "gemini-3.5-flash-lite": 5,
     "gemini-3.1-flash-lite": 12
   }
 }
