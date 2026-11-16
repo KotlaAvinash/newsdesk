@@ -1,6 +1,138 @@
 {
-  "generated_at": "2026-11-15T02:54:18.870474+00:00",
+  "generated_at": "2026-11-16T02:58:46.038458+00:00",
   "items": [
+    {
+      "cluster_key": "119b3c3d5e0839db",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser chec",
+      "category": "tech_ai",
+      "one_liner": "Use this open-source utility to test and verify proxy configurations for authenticated access to Google AI Studio and Gemini.",
+      "tags": [
+        "ai",
+        "android",
+        "howto",
+        "linux",
+        "llm",
+        "opensource",
+        "policy",
+        "tool"
+      ],
+      "summary": "Gemini-Config-Checker (version 0.1.0) is a newly released pre-release utility designed to identify proxy configurations that successfully grant access to Google AI Studio and Gemini via a signed-in browser. Because plain HTTP requests cannot accurately determine geo-restrictions applied post-load by Google accounts, the tool tests each route inside a browser environment. It provides native support and pre-compiled builds for Windows, macOS, Linux, and Android, though the Android build runs in connectivity-only mode due to platform limitations preventing automated Chromium sign-ins.",
+      "key_facts": [
+        "Version: 0.1.0"
+      ],
+      "bottom_line": "This tool tests proxy configurations inside a signed-in browser to accurately verify region availability for Google AI Studio and Gemini.",
+      "claims": [
+        {
+          "text": "Version 0.1.0, early pre-release.",
+          "support_span": "Version 0.1.0, early pre-release.",
+          "status": "entailed"
+        },
+        {
+          "text": "The Android APK runs the connectivity-only mode (see Settings reference).",
+          "support_span": "The Android APK runs the connectivity-only mode (see Settings reference).",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "119b3c3d5e0839db",
+        "1a6d35cfa140935b",
+        "1e0956c04fa10f0d",
+        "287ac4f2489441a8",
+        "2f9f6a9bc79e2dd7",
+        "4538d3d643ed051d",
+        "58db3dfe348c47cf",
+        "7c2f9d53319da8b1",
+        "896c6f4d572a2f68",
+        "b08931f35de369cb",
+        "eb05309ca987d7d9"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-15T16:46:04+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
     {
       "cluster_key": "a23817f0e45de732",
       "title": "[Open Source] RESX: Windows binary analysis with API deobfuscation, argument recovery and kernel IOCTL reconstruction https://github.com/Ryftenius/RESX…",
@@ -59,7 +191,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3-flash-preview",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -105,15 +237,14 @@
       "reject_reason": "published 2026-11-09 — outside lookback window"
     },
     {
-      "cluster_key": "2d0e78ba08443d2c",
-      "title": "What happens to model performance on the popular DeepSWE coding benchmark if you make small alterations to the questions, like changing a file name…",
-      "category": "tech_ai",
+      "cluster_key": "2c12f32629c2b8e7",
+      "title": "the all-in billionaire/billionaire wannabe pod goes all-in on repeating the word \"asset\" in trying to understand why people voted the way they did",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "ai",
-        "research"
+        "hardware"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu What happens to model performance on the popular DeepSWE coding benchmark if you make small alterations to the questions, like changing a file name to lowercase? Models that once looked very similar to each other no longer look so similar.",
+      "summary": "Post 404 Media 404media.co did:plc:vcepp6trx4vpe5ourxso4tjl the all-in billionaire/billionaire wannabe pod goes all-in on repeating the word \"asset\" in trying to understand why people voted the way they did 2026-11-11T15:30:20.677Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -124,185 +255,84 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2d0e78ba08443d2c"
+        "2c12f32629c2b8e7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzsyjxxrsk2l",
+          "name": "404 Media",
+          "url": "https://bsky.app/profile/404media.co/post/3n22bjlmt5c2l",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-08T18:00:45.577000+00:00",
+      "published": "2026-11-11T15:30:14.482000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-08 — outside lookback window"
+      "reject_reason": "published 2026-11-11 — outside lookback window"
     },
     {
-      "cluster_key": "0ea24d2d9b116639",
-      "title": "tornadonovicewhirl40/ai--manus2.0 — AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox ",
+      "cluster_key": "6e0cc4bc45de2a94",
+      "title": "Gemini 4 Carbon is good at pelican SVGs, but that's nothing new for Gemini \"Make a three js animation where yonkers stands up as a big mech (cool…",
       "category": "tech_ai",
-      "one_liner": "A new autonomous AI agent for developers that combines sandboxed code execution with browser automation.",
+      "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "tool"
+        "llm",
+        "windows"
       ],
-      "summary": "AI Manus is a new autonomous agent system designed to execute code and control web browsers within a sandbox environment. Unlike standard chatbots, it can autonomously navigate websites, fill forms, and run scripts to complete multi-step tasks with minimal supervision. It is positioned as a personal assistant for small-scale tasks like research organization and data gathering. The system emphasizes consistency across sessions, remembering user workflows to reduce repetitive instructions.",
-      "key_facts": [
-        "Core Features: Autonomous Code Execution, Browser Control",
-        "Environment: Sandboxed operations"
-      ],
-      "bottom_line": "Manus moves beyond chat interfaces by providing a unified, autonomous environment for both scripting and web-based task execution.",
-      "claims": [
-        {
-          "text": "Manus is an autonomous AI agent that can run code and control a browser.",
-          "support_span": "Manus is an autonomous AI agent designed to run code and control a browser on your behalf.",
-          "status": "entailed"
-        },
-        {
-          "text": "The agent operates in a sandbox to complete tasks.",
-          "support_span": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 25,
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Gemini 4 Carbon is good at pelican SVGs, but that's nothing new for Gemini \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\" 2026-11-10T20:55:14.571Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 21.2,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "0ea24d2d9b116639",
-        "1fa8a713db3b4f9c",
-        "44b128aec2494027",
-        "4f7ab6510a7cbaf3",
-        "5033acd1e830d3db",
-        "88d8f9cad148852c",
-        "8ae9cd1fda72e0e4",
-        "b2ebbc1b7578ac2d",
-        "c0997196dc7db4ec",
-        "d350d79de237d838",
-        "f42d66fbad2c9286"
+        "6e0cc4bc45de2a94"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/tornadonovicewhirl40/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/topconstableinlet67/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/topapothecarycanal/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/TitanShieldRavine/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/trackersnailgrip/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/TremorRatTackle/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/toppatronweave/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Torusdrasocket/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/TrapBladesmith/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Ultimateakiln/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Topkiflare74/ai--manus2.0",
-          "domain": "github.com",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mzyd7r6ttc24",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-14T19:15:24+00:00",
+      "published": "2026-11-10T20:55:12.776000+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 2/5 from gemini-3-flash-preview",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-10 — outside lookback window"
     },
     {
       "cluster_key": "16b90ffd8ed968ee",
       "title": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
       "category": "tech_ai",
-      "one_liner": "Fable 5.2 outperforms steep trendlines on key composite, remote labor, and robotics benchmarks.",
+      "one_liner": "",
       "tags": [
-        "ai",
-        "hardware",
-        "llm",
-        "research"
+        "hardware"
       ],
-      "summary": "Ethan Mollick highlighted that Fable 5.2 benchmarks above the steep trendline across three informative unsaturated benchmarks. These include ECI as a composite benchmark, Remote Labor measuring end-to-end freelance job capabilities, and RoboDojo involving robotics control. The results demonstrate continued outperformance of frontier models on complex multi-domain evaluation suites. This points to accelerated capability scaling in recent model iterations.",
-      "key_facts": [
-        "Model evaluated: Fable 5.2"
-      ],
-      "bottom_line": "Fable 5.2 exceeds expected trajectory curves on major unsaturated evaluation suites.",
-      "claims": [
-        {
-          "text": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
-          "support_span": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other benchmarks, Remote Labor measures the ability to do end-to-end freelance jobs, RoboDojo involves controlling robotics).",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "16b90ffd8ed968ee"
       ],
@@ -320,12 +350,9 @@
       "primary_links": [],
       "published": "2026-11-10T03:49:51.952000+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-10 — outside lookback window"
     },
     {
       "cluster_key": "e147b7a442e4335b",
@@ -363,221 +390,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-11-09 — outside lookback window"
-    },
-    {
-      "cluster_key": "0003d402f04c935f",
-      "title": "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell",
-      "category": "cyber_attacks",
-      "one_liner": "Active exploitation of Check Point gateways using a root-level privilege escalation is leading to destructive wiper attacks on internal networks.",
-      "tags": [
-        "appsec",
-        "cve",
-        "exploit",
-        "incident",
-        "linux",
-        "malware",
-        "vulnerability",
-        "writeup"
-      ],
-      "summary": "Unpatched Check Point Security Gateways are being targeted globally by attackers using a multi-stage exploit chain to deploy destructive wipers and backdoors. The attack begins with 'PHP2Shell' exploitation (CVE-2026-109618/19) via the Mobile Access portal, followed by a root privilege escalation using CVE-2026-123039 in the DynamicCLI interface. Compromised systems have seen the installation of the 'TSGA' backdoor and 'TSProxy' for network monitoring, with some Israeli organizations suffering Linux wiper attacks. The campaign appears opportunistic, utilizing automated scanning and moving laterally to VMware ESXi hosts via SSH.",
-      "key_facts": [
-        "CVE-2026-123039: Root privilege escalation in DynamicCLI",
-        "CVE-2026-109618: PHP2Shell initial access",
-        "CVE-2026-109619: PHP2Shell initial access",
-        "Attacker IP: 130.94.19[.]204",
-        "Affected folder: /opt/CPcvpn-R81.20/tmp/"
-      ],
-      "bottom_line": "Organizations using Check Point Security Gateways must patch immediately to prevent root-level compromise and subsequent lateral movement to critical infrastructure like ESXi hosts.",
-      "claims": [
-        {
-          "text": "Attackers exploited Check Point Security Gateways to gain root access and deploy destructive wiper attacks.",
-          "support_span": "Unpatched Check Point gateways were hacked worldwide, leading to root access, backdoors, network intrusion and destructive wiper attacks.",
-          "status": "entailed"
-        },
-        {
-          "text": "The attackers escalated privileges to root by exploiting CVE-2026-123039.",
-          "support_span": "Following initial access, the attacker escalated privileges from the portal service account to root by exploiting CVE-2026-123039 , a local privilege-escalation vulnerability in the DynamicCLI IPC interface.",
-          "status": "entailed"
-        },
-        {
-          "text": "Attackers moved over SSH to a VMware ESXi host to deploy a Linux wiper.",
-          "support_span": "From the gateway, the attackers ran the gogo scanner to map the internal network, then moved over SSH to a VMware ESXi host using the vpxuser account. There they staged a Linux wiper, destroy_v6…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 61,
-      "interest_score": 100,
-      "corroboration": 5,
-      "blend": 90.2,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "0003d402f04c935f",
-        "07f969601f411d98",
-        "2946c8ba9539f282",
-        "3e87c1f16e2751f7",
-        "59b7f6903a29d8ef",
-        "6078d5e8860924a5",
-        "78da00e72c485e1a"
-      ],
-      "critical_signal": "",
-      "priority": "critical",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-          "domain": "securityweek.com",
-          "tier": "B"
-        },
-        {
-          "name": "CTI Now",
-          "url": "https://dev.to/cyberlab0/hackers-exploited-vulnerable-check-point-firewalls-escalated-privileges-to-root-and-deployed-25e3",
-          "domain": "dev.to",
-          "tier": "C"
-        },
-        {
-          "name": "CyberSecurityNews",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fR0Y0eTFCMjA5LXp6TVd3T29zdktGOHE1c1V0Nkk2V1g2ZUJDV2lEZUlRTU5DMUVEanR0RDFSNWlIa0xuWnNfcHhlVXM2UzFnaXQ0bWptaGlqVFl0WUdzYUdIRy13SXdsRnNVbUdCQy1iQ0RBNHlwN0hvSzZ3UdIBgwFBVV95cUxPUUI5aXgwSFVGRzMyOVhCaEcyWWZZYTZkaW11YmNQUXBXT0g1M0RwWjVXRkhyOFc3RlFySl9zRUlZSDc0RlFBczZmVVJtb2lPcWF4SFl6dFh5XzAzY1dGSjZ6bzU4cnc1eGp0VmlVT2FGQldMYTNSRTFpaVZILUJabk5XYw?oc=5",
-          "domain": "cybersecuritynews.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "CyberSecurityNews",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ReUljMXNvRWN5aUUwVmRScjZYTkYxYlIxV3RJLXVSSktyaEhxWW5rRVhEZDFLU05QbGkxdk5yZXlkYU9pSW5IM2RtTUxNTE45X2NBSjdLamp0RW8wa3BtZ3llb3NzckpHUWdNYXQxc9IBdEFVX3lxTE5BUWF5ZVV4VHlZUkcxRmtrSlpwVGZHQWFLV0NxSzZKTDRHMXJQdm41R0daU3YtMmFUU25vamxMYkREeUFMSXI2UGhXbVlmcUJzSldqdWZHNVNFbEc4Q3JDQkY2UjZqYnNvUlJ4RklHX2xNR1Fy?oc=5",
-          "domain": "cybersecuritynews.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd1A2QVQ4MFFEMnNKV05Db0pwalhkTDA1ZWE1SFBtWUZSQTlQU0hhOTBudVNLbUoyai1mdDlja1RkdUdyOWdZeHNVdk1PYnRqNGxUeS1iUzFsc21xeHQ0RWhwdFdMVHZ1b1hPRWtXV0QwN3FmVTRBXzc5cXF0eTU1aUFzYzVadEZfU1A0RQ?oc=5",
-          "domain": "securityweek.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T10:39:34+00:00",
-      "trace": [
-        "tier B (+25)",
-        "5 independent outlets (+36)",
-        "verified: 5 independent outlets",
-        "importance 5/5 from cache",
-        "blend 90 = trust 61 / interest 100 / corrob 100"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "4d58a71c284d0dd6",
-      "title": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Ag",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "linux",
-        "llm",
-        "opensource"
-      ],
-      "summary": "The open-source, self-hosted Slack alternative where your team and AI agents work together. Website · Cloud · Self-hosting · Features · Discussions Agents join your channels and DMs with a role, an owner and a budget, work where everyone can see, and ask before anything sensitive. They think with Claude, ChatGPT and Codex, Gemini, Grok or any OpenRouter model, use MCP tools, and get a computer and a browser of their own. Self-hosting is free and always will be (AGPL-3.0, no license key), or use agentes.chat Cloud, the paid, hosted option: both run this same codebase. Changing it without publishing your changes, or reselling it under your own brand?",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4d58a71c284d0dd6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/agentes-chat/agentes-chat",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T00:50:28+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-09 — outside lookback window"
-    },
-    {
-      "cluster_key": "794e529d615c61cd",
-      "title": "CVE-2026-18053 - MemberDash <= 1.8.7 - Authenticated (Subscriber+) Privilege Escalation to Administrator via Edit Profile 'id' Parameter",
-      "category": "cyber_attacks",
-      "one_liner": "A critical privilege escalation flaw in the MemberDash WordPress plugin allows subscribers to hijack administrator accounts.",
-      "tags": [
-        "appsec",
-        "cve",
-        "exploit",
-        "vulnerability"
-      ],
-      "summary": "A privilege escalation vulnerability (CVE-2026-18053) has been identified in the MemberDash WordPress plugin (versions 1.8.7 and below). The flaw stems from a mass-assignment vulnerability in the `user_account_manager()` function, which fails to validate the `id` parameter during profile edits. Authenticated subscribers can exploit this to overwrite the email address and password of any user, including administrators, to gain full site control. Users are urged to update the plugin to mitigate this risk.",
-      "key_facts": [],
-      "bottom_line": "Administrators using MemberDash versions 1.8.7 or lower must update immediately to prevent unauthorized account takeovers.",
-      "claims": [
-        {
-          "text": "The MemberDash plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.8.7.",
-          "support_span": "The MemberDash plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.8.7.",
-          "status": "entailed"
-        },
-        {
-          "text": "This makes it possible for authenticated attackers, with subscriber-level access and above, to inject an arbitrary user ID via the id parameter — overwriting any WordPress user's email address and password",
-          "support_span": "This makes it possible for authenticated attackers, with subscriber-level access and above, to inject an arbitrary user ID via the id parameter — overwriting any WordPress user's email address and password",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 62.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "794e529d615c61cd"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-18053",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T13:17:22+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 62 = trust 40 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "0e08c614c75cbcc3",
@@ -644,63 +456,21 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1be3bd8e48251318",
-      "title": "alexeyw/lot-map — A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and su",
+      "cluster_key": "f6b29b4e2ab3b1b9",
+      "title": "FrigadeHQ/yogurt — Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windo",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
+        "ai",
+        "hardware",
         "linux",
         "llm",
         "opensource",
         "release",
-        "tool",
-        "windows"
+        "tool"
       ],
-      "summary": "A mod for Claude Code: a live map of the work, in a pane beside the chat. Every tool call, model step, hook and skill sends a pulse from the centre to its station, so you see memory, files, shell, web and agents at work instead of reading a list of commands. It runs on your machine and sends nothing anywhere. Local does not mean blind: like any mod that follows tool calls it is handed each call whole, and it takes names from that and nothing else. What it reads and keeps, and the checks that hold it to that.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1be3bd8e48251318",
-        "9d8099e6e6efd209"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/alexeyw/lot-map",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "IT Brief Asia",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkNHaF9aUGpLejB6UUFFc3QzcWEtLVFtNXR6eVJHYUZTaDd1QU1JN0JDbVZHMDRKMHAzUnJSa2RISnpXak93OFRBTzZ2bU1rclNscXp6Wm9uWG4ySmFNakgtZ21qMXEtd0V0T1VUbE1MLXZCYU4tUFkySDBhQnI4alRlSU40VVhuOFo0?oc=5",
-          "domain": "it-brief-asia.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T19:13:52+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-09 — outside lookback window"
-    },
-    {
-      "cluster_key": "56e85a2e6d5a56a2",
-      "title": "“You have to speak... because otherwise the government will keep censoring more and more depictions of acts they don’t fancy.\"…",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post 404 Media 404media.co did:plc:vcepp6trx4vpe5ourxso4tjl “You have to speak... because otherwise the government will keep censoring more and more depictions of acts they don’t fancy.\" @samleecole.bsky.social reads the new list of criminalized porn in the UK which can now land someone in jail.",
+      "summary": "A free, open-source alternative to Granola. Download for Mac · Windows · Linux Yogurt records your calls without adding a bot to the meeting. macOS 14.4+ (Apple Silicon) · Windows 10 2004+ (x64) · Ubuntu 22.04+ or similar (x64 AppImage) · 8 GB memory yogurt.so · Help · Build and run locally · MIT license Made by Frigade. Yogurt records calls and turns speech into text as you talk. Yogurt writes up the conversation and any notes you add.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -711,21 +481,61 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "56e85a2e6d5a56a2"
+        "f6b29b4e2ab3b1b9"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "404 Media",
-          "url": "https://bsky.app/profile/404media.co/post/3mzxyqznios2r",
+          "name": "GitHub (new)",
+          "url": "https://github.com/FrigadeHQ/yogurt",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-10T20:01:01+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-10 — outside lookback window"
+    },
+    {
+      "cluster_key": "99d9bff32ff1d8a2",
+      "title": "Another weird AI game project: I asked Claude Fable 5.2 for a fantasy transport sim with Discworld meets Lord of the Rings vibes.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Another weird AI game project: I asked Claude Fable 5.2 for a fantasy transport sim with Discworld meets Lord of the Rings vibes. Then I left it to a bunch of agents arguing about art, lore and jokes. Now here is Dread & District, where good logistics defeats evil. dread-and-district.netlify.app 2026-11-10T20:14:51.374Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "99d9bff32ff1d8a2"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzyaxkti4k2r",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T17:48:00.910000+00:00",
+      "published": "2026-11-10T20:14:50.195000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
@@ -772,189 +582,6 @@
       "reject_reason": "published 2026-11-09 — outside lookback window"
     },
     {
-      "cluster_key": "7cc9305c7c0d7bb2",
-      "title": "Thousands of GitHub repositories targeted in widespread attack — 4,800 accounts already compromised to steal cloud credentials",
-      "category": "cyber_tools",
-      "one_liner": "A massive GitHub supply-chain attack (`wfx-loot`) used nearly 4,800 compromised accounts and workflow automation to harvest cloud secrets from over 1,800 repositories.",
-      "tags": [
-        "agents",
-        "cloud",
-        "incident",
-        "malware",
-        "opensource",
-        "privacy",
-        "threat-actor",
-        "vulnerability"
-      ],
-      "summary": "Cybersecurity researchers at Aikido uncovered a widespread GitHub supply-chain campaign named 'wfx-loot', where threat actors used 4,837 compromised accounts to submit pull requests to over 61,000 repositories. At least 1,835 repositories executed the malicious payload, which abused GitHub Actions and workflows to exfiltrate cloud credentials, API tokens, SSH keys, and shell histories. The attackers utilized stolen tokens to maintain persistent access by modifying AWS and Azure service configurations.",
-      "key_facts": [
-        "Compromised accounts: 4,837",
-        "Targeted repositories: 61,764",
-        "Infected repositories: 1,835"
-      ],
-      "bottom_line": "Automated CI/CD pipelines and GitHub Actions can be weaponized at scale to automatically harvest and exfiltrate cloud credentials from connected repositories.",
-      "claims": [
-        {
-          "text": "Threat actors used 4,837 compromised accounts to open pull requests across 61,764 repositories",
-          "support_span": "Threat actors used 4,837 compromised accounts to open pull requests across 61,764 repositories",
-          "status": "contradicted"
-        },
-        {
-          "text": "At least 1,835 repositories executed the payload and had credentials exfiltrated",
-          "support_span": "At least 1,835 repositories executed the payload and had credentials exfiltrated",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "7cc9305c7c0d7bb2"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "TechRadar",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTDdBcU9vYVREVkRPdTl6RlVUYlJGbDNXLVF1MXFLUU9MMGxlMExaSVJpdDd2N1VGQ0xYeDlFd1M2Y2xZbFF0RDY1YkhLT216czNVMlhJNzJyZVFCUEgtcTdYUmc5MVJmQWNjbm1PQVdQQW01OGRfdldkZnp4Rm9reXlaaE9JSkU3aHRUTTlBVGZCdENrU25KcGtIbDJJOTFlS2c2Y1RsdTZERUZ3RHVuaXNlOTJ2ZDZNZTd2RVltbHZKNGFwZ3czZVh2NGJRYk85dkNCVGJ0YXozcnFJMTVlVXg0cEFmZ0V5VDdib2hYR3B4aE5kdHc?oc=5",
-          "domain": "techradar.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T15:20:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "6e9a5651f84d87a8",
-      "title": "Tata Sons Listing: Noel Tata decodes why there should be no tinkering; what he said at Hindustan Times Leadership Summit",
-      "category": "markets",
-      "one_liner": "Noel Tata warned at the HT Leadership Summit that listing Tata Sons could jeopardize the conglomerate's philanthropic mission.",
-      "tags": [
-        "india",
-        "markets",
-        "policy",
-        "tool"
-      ],
-      "summary": "Tata Trusts Chairman Noel Tata expressed concern that listing Tata Sons could alter the conglomerate's operating model, potentially prioritizing shareholder profits over philanthropic commitments. Speaking at the HT Leadership Summit 2026, he warned that public listing might eventually shift the group's priorities toward thousands of external shareholders. This tension emerges as Tata Sons faces mandatory listing requirements after the RBI rejected its request to surrender its Core Investment Company registration. While some board members favor an IPO, Noel Tata proposed merging operating subsidiaries or issuing a liquidity package to keep the firm private ahead of a crucial board meeting on November 26, 2026.",
-      "key_facts": [
-        "Date: November 14, 2026",
-        "Key Figures: Noel Tata, Sanjay Malhotra, Venu Srinivasan, Vijay Singh",
-        "Board Meeting Date: November 26, 2026"
-      ],
-      "bottom_line": "Tata Trusts is pushing to keep Tata Sons private to preserve its philanthropic focus, clashing with regulatory listing pressures and dissenting board members.",
-      "claims": [
-        {
-          "text": "Tata Trusts Chairman Noel Tata has expressed concern that a potential listing of the Tata Group could fundamentally alter the way the conglomerate operates, warning that the interests of thousands of shareholders could eventually take precedence over its philanthropic commitments.",
-          "support_span": "Tata Trusts Chairman Noel Tata has expressed concern that a potential listing of the Tata Group could fundamentally alter the way the conglomerate operates, warning that the interests of thousands of shareholders could eventually take precedence over its philanthropic commitments.",
-          "status": "entailed"
-        },
-        {
-          "text": "The next board meeting, scheduled for November 26, 2026, will focus on formal resolutions pushed…",
-          "support_span": "The next board meeting, scheduled for November 26, 2026, will focus on formal resolutions pushed…",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "6e9a5651f84d87a8"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-noel-tata-decodes-why-there-should-be-no-tinkering-what-he-said-at-hindustan-times-leadership-summit-11794643211510.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T11:08:41+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "fb37ebcb935d94fb",
-      "title": "Upcoming dividend, stock split, buyback record date next week, 16-20 Nov: MRF, SCI, PFC, Power Grid, Venus Pipes, more",
-      "category": "markets",
-      "one_liner": "A busy week for Indian market participants with significant corporate actions across major sectors.",
-      "tags": [
-        "india",
-        "markets",
-        "research"
-      ],
-      "summary": "Several major Indian companies have scheduled record dates for corporate actions including dividends, stock splits, and buybacks for the week of November 16-20. Notable actions include a 10-for-1 stock split by BN Agrochem on November 16 and a share buyback by Medi Assist Healthcare Services on November 20. Other companies in focus for dividends and rights issues include MRF, Power Finance Corporation, and Shipping Corporation of India. This follows a week where the Nifty 50 and Sensex saw gains of up to 1.30%.",
-      "key_facts": [
-        "Stock Split: BN Agrochem (10-for-1)",
-        "Buyback Record Date: Nov 20 (Medi Assist)",
-        "Market Gain: 0.70%–1.30% (Nifty/Sensex)"
-      ],
-      "bottom_line": "Investors should monitor record dates for BN Agrochem's stock split and Medi Assist's buyback as part of a heavy week of corporate actions in India.",
-      "claims": [
-        {
-          "text": "BN Agrochem has announced a 10-for-1 stock split with a record date of November 16.",
-          "support_span": "BN Agrochem has announced a stock split from ₹10 to ₹1. ... The company’s board has fixed Monday, November 16 as the record date.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Medi Assist Healthcare Services has set November 20 as the record date for a share buyback.",
-          "support_span": "Medi Assist Healthcare Services Ltd has fixed November 20 as the record date for buy back of shares.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "fb37ebcb935d94fb"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/upcoming-dividend-stock-split-buyback-record-date-next-week-16-20-nov-mrf-sci-pfc-power-grid-venus-pipes-more-11794644624084.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T08:56:49+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3-flash-preview",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
       "cluster_key": "74ac31e93f0bc6ef",
       "title": "when I'm in a \"ridiculous answer to easy to comprehend hypothetical\" competition and my opponent is the FSF and/or GNU",
       "category": "tech_ai",
@@ -994,62 +621,6 @@
       "reject_reason": "published 2026-11-09 — outside lookback window"
     },
     {
-      "cluster_key": "0847e7c1df162e6c",
-      "title": "YES Bank files SC review plea over AT-1 bonds: What does it mean for investors after stock's 15% rebound?",
-      "category": "markets",
-      "one_liner": "YES Bank is challenging a Supreme Court ruling on AT-1 bonds, creating renewed legal and financial uncertainty for investors despite a recent stock rebound.",
-      "tags": [
-        "india",
-        "markets",
-        "policy",
-        "political"
-      ],
-      "summary": "YES Bank has filed a review petition in the Supreme Court of India challenging the October 15, 2026, judgment that invalidated the write-down of its AT-1 bonds. The bank's move follows a contempt petition filed by bondholders, who argue the lender has failed to restore the bonds as ordered. The potential reinstatement of these ₹8,415 crore worth of bonds poses a significant risk to the bank's capital ratios, specifically its CET1 ratio. While the bank's stock has rebounded 15% in November, the ongoing legal uncertainty remains a major concern for investors.",
-      "key_facts": [],
-      "bottom_line": "The outcome of YES Bank's review petition will be a critical determinant of its future capital adequacy and investor confidence.",
-      "claims": [
-        {
-          "text": "YES Bank said it had filed a review petition under Article 137 of the Constitution of India, seeking a review of the Supreme Court's judgment and order dated October 15, 2026.",
-          "support_span": "YES Bank said it had filed a review petition under Article 137 of the Constitution of India, seeking a review of the Supreme Court's judgment and order dated October 15, 2026.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The lender had earlier indicated that reinstating the AT-1 bonds would reduce its common equity tier-1 (CET1) capital ratio by around 240 basis points.",
-          "support_span": "The lender had earlier indicated that reinstating the AT-1 bonds would reduce its common equity tier-1 (CET1) capital ratio by around 240 basis points.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "0847e7c1df162e6c"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/yes-bank-files-sc-review-plea-over-at-1-bonds-what-does-it-mean-for-investors-after-stocks-15-rebound-11794591968232.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T18:05:31+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.1-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
       "cluster_key": "5be94d0b907dd411",
       "title": "I had early access to Fable 5.2 for a bit & I think it crosses the line into being a sort of Jagged AGI.",
       "category": "tech_ai",
@@ -1085,71 +656,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-11-09 — outside lookback window"
-    },
-    {
-      "cluster_key": "7b478adf3b9ac842",
-      "title": "SAGE-QA: Semantic-Aware, Grounded Evaluation for Closed-Context Question Answering on SQuAD 2.0",
-      "category": "tech_ai",
-      "one_liner": "SAGE-QA provides a more accurate way to evaluate LLM performance by focusing on semantic truth rather than character-perfect matching.",
-      "tags": [
-        "ai",
-        "llm",
-        "policy",
-        "research",
-        "tool"
-      ],
-      "summary": "Researchers have introduced SAGE-QA, a multi-tiered evaluation framework for closed-context question answering that accounts for valid paraphrasing in generative LLMs. Unlike the traditional Exact Match (EM) metric, SAGE-QA uses Semantic Equivalence Scoring (SES) and Re-Validation Scoring (RVS) to distinguish between lexical differences and factual hallucinations. Testing on SQuAD 2.0 showed that while Claude Opus 4.6 and Gemini 3.1 Pro achieve ~85-86% EM, their semantic accuracy scores exceed 91%. The study also found that parameter-efficient fine-tuning can boost open-weight models like Llama 3.3 70B to surpass previous state-of-the-art EM scores.",
-      "key_facts": [
-        "Benchmark: SQuAD 2.0",
-        "Claude Opus 4.6 EM: 85.21",
-        "Gemini 3.1 Pro EM: 86.66",
-        "Llama 3.3 70B EM (Fine-tuned): 94.24"
-      ],
-      "bottom_line": "Traditional 'Exact Match' metrics significantly undercount the accuracy of generative LLMs, which perform much better when evaluated for semantic equivalence.",
-      "claims": [
-        {
-          "text": "SAGE-QA combines Semantic Equivalence Scoring (SES) and Re-Validation Scoring (RVS).",
-          "support_span": "We introduce SAGE-QA (Semantic-Aware, Grounded Evaluation for Question Answering), a multi-tiered framework combining reference-based Semantic Equivalence Scoring (SES) and passage-based Re-Validation Scoring (RVS).",
-          "status": "entailed"
-        },
-        {
-          "text": "Fine-tuned Llama 3.3 70B reached 94.24 EM, surpassing previous bests.",
-          "support_span": "Parameter-efficient fine-tuning adds 21.19 to 34.06 EM points, raising these models to 90.94, 87.47, and 94.24 EM, respectively. ... fine-tuned Llama 3.3 70B surpassing the previous best known EM.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "7b478adf3b9ac842"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.16300",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.16300"
-      ],
-      "published": "2026-11-14T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 2/5 from gemini-3-flash-preview",
-        "blend 36 = trust 70 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "a5c2634b4f17e6e1",
@@ -1212,50 +718,11 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "1182030dc5698e4c",
-      "title": "The problem isn't that we tricked rocks into thinking, the problem is that people think we did",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "windows"
-      ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe The problem isn't that we tricked rocks into thinking, the problem is that people think we did 2026-11-08T23:59:51.476Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1182030dc5698e4c"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mztmm3gzzc25",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-08T23:59:51.170000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-08 — outside lookback window"
     },
     {
       "cluster_key": "a3fb5cb573fbc3d7",
@@ -1297,78 +764,68 @@
       "reject_reason": "published 2026-11-09 — outside lookback window"
     },
     {
-      "cluster_key": "fb03ec4b253effa0",
-      "title": "‘Alive’ to voters’ need to find their names on the electoral roll, ECI assures Supreme Court",
-      "category": "india_world",
-      "one_liner": "New ECI procedures simplify the process for wrongly excluded Indian voters to regain their status without legal risk.",
+      "cluster_key": "bfe9406dcdbd4a3d",
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "category": "tech_ai",
+      "one_liner": "Developers leverage Claude Code and Codex to reverse engineer a 1994 Jeep ECU using inexpensive hardware.",
       "tags": [
-        "india",
-        "policy",
-        "political"
+        "ai",
+        "hardware",
+        "llm"
       ],
-      "summary": "The Election Commission of India (ECI) has informed the Supreme Court of new measures to re-include eligible voters wrongly marked as absent, shifted, dead, or duplicate (ASDD) in draft rolls. Voters can now submit a new 'Enumeration Form' (Annexure A) to local officials or online via ECINET to correct their status without filing Form 6, which is reserved for new voters. This clarification addresses concerns that forcing existing voters to use Form 6 could lead to criminal prosecution for false declarations. The ECI has also directed that booth-wise lists of excluded voters be displayed publicly with the reasons for their non-inclusion.",
+      "summary": "This article entry represents a social media link and discussion pointing to a project where AI coding assistants Claude Code and Codex were utilized to reverse engineer a 1994 Jeep electronic control unit (ECU) using a $3 Arduino.",
       "key_facts": [
-        "Form Name: Enumeration Form (Annexure A)",
-        "Platform: ECINET",
-        "Relevant Act: Representation of the People Act, 1950"
+        "Hardware: $3 Arduino",
+        "Target: 1994 Jeep ECU"
       ],
-      "bottom_line": "The ECI has introduced a specific 'Enumeration Form' to allow wrongly excluded voters to be re-included in electoral rolls without the legal risks associated with filing as a new voter.",
+      "bottom_line": "AI coding tools can successfully assist in complex hardware reverse-engineering tasks like analyzing a 1994 Jeep ECU with a $3 Arduino.",
       "claims": [
         {
-          "text": "Voters can submit Enumeration Form (Annexure A) to correct their status.",
-          "support_span": "allow such voters to submit the duly-filled Enumeration Form (Annexure A) to the ERO or AERO communicating their current ordinary residence.",
-          "status": "entailed"
-        },
-        {
-          "text": "Online submission with e-sign will be available on ECINET.",
-          "support_span": "Online submission option with e-sign will be available on the ECINET\"",
+          "text": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+          "support_span": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
           "status": "contradicted"
-        },
-        {
-          "text": "Booth-wise lists of ASDD voters will be displayed with probable reasons for non-inclusion.",
-          "support_span": "instructions have been given out to provide booth-wise lists of left-out electors (voters marked as ‘absent, shifted, dead or duplicate or ASDD) to be displayed afresh along with the “probable reasons” for non-inclusion.",
-          "status": "entailed"
         }
       ],
-      "trust_score": 25,
+      "trust_score": 10,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 32.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "fb03ec4b253effa0"
+        "bfe9406dcdbd4a3d"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/alive-to-voters-need-to-find-their-names-on-the-electoral-roll-eci-assures-supreme-court/article71702627.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
+          "name": "Hacker News 150+",
+          "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+          "domain": "youtube.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-15T02:24:00+00:00",
+      "published": "2026-11-12T05:29:24+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3-flash-preview",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "7563914750ea53a2",
-      "title": "\"That is the 7/11 we deserve and we should embrace the konbini experience for all Americans\"",
+      "cluster_key": "395af3641c5b0de1",
+      "title": "Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "windows"
+        "ai",
+        "llm"
       ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"That is the 7/11 we deserve and we should embrace the konbini experience for all Americans\" 2026-11-08T21:21:54.681Z",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon. It is useful to have an AI that thinks differently than Claude/GPT & is still highly capable, but has its own strengths & weakness One fun demo: I gave Carbon a video clip & it reproduced it in 3js very well 2026-11-10T17:02:32.674Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1379,101 +836,36 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "7563914750ea53a2"
+        "395af3641c5b0de1"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mztdrnphgs2r",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzxw7q2jgs2r",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-08T21:21:54.415000+00:00",
+      "published": "2026-11-10T17:02:32.944000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-08 — outside lookback window"
+      "reject_reason": "published 2026-11-10 — outside lookback window"
     },
     {
-      "cluster_key": "51664e44215b1bde",
-      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-      "category": "markets",
-      "one_liner": "The Fed is signaling potential rate hikes as AI infrastructure spending contributes to persistent inflation.",
-      "tags": [
-        "ai",
-        "markets",
-        "policy",
-        "political"
-      ],
-      "summary": "Chicago Fed President Austan Goolsbee warned that the Federal Reserve still has 'work to do' as inflation remains persistent and above the 2% target. October's producer price index showed a 6.5% annual gain, the highest since late 2022, while consumer prices also rose more than expected. Goolsbee noted that demand overheating, partly driven by the massive AI data center buildout, is contributing to inflationary pressure. Markets are currently pricing in a high probability of a rate hike at the December FOMC meeting, with some officials considering a 50 basis point move.",
-      "key_facts": [
-        "PPI Annual Gain: 6.5%",
-        "Target Inflation: 2%",
-        "Next FOMC Meeting: Dec 8-9",
-        "PPI Monthly Increase: 0.3%"
-      ],
-      "bottom_line": "Persistent inflation, exacerbated by AI-related demand, is pushing the Federal Reserve toward further interest rate increases in December.",
-      "claims": [
-        {
-          "text": "Austan Goolsbee stated the Fed has work to do on inflation as it remains above the 2% target.",
-          "support_span": "Chicago Federal Reserve President Austan Goolsbee expressed concern about the latest inflation data, telling CNBC on Friday that the central bank likely will need to take action.",
-          "status": "entailed"
-        },
-        {
-          "text": "The producer price index showed a 6.5% annual gain in October.",
-          "support_span": "the producer price index, considered a proxy for wholesale prices, posted a 0.3% increase in October, which was slightly less than expected, but also indicated a 6.5% annual gain, the highest since November 2022.",
-          "status": "entailed"
-        },
-        {
-          "text": "Goolsbee identified AI data center buildouts as a source of demand overheating.",
-          "support_span": "“now we're adding this old-fashioned demand overheating coming from the AI data center buildout, that looks like it's starting to spread out of its lane,” Goolsbee added.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "51664e44215b1bde"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-          "domain": "cnbc.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T14:22:07+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "d9d9e7e83ebf1f72",
-      "title": "Was watching Elsbeth and recognised the outside of their police precinct building...",
+      "cluster_key": "c32953458f3d9410",
+      "title": "Me: any more aggressive options for getting me to 5 pull-ups?",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "llm",
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Was watching Elsbeth and recognised the outside of their police precinct building... it's the General Society of Mechanics and Tradesmen of the City of New York, home to the John M. www.niche-museums.com/118 2026-11-08T02:48:37.372Z",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Me: any more aggressive options for getting me to 5 pull-ups? Fitness Coach Claude (Fable 5.2): \"Drop a few pounds. Going from about 168 lb to 160 lb takes roughly 5% off the load on every rep.\" 2026-11-10T17:54:26.577Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -1484,7 +876,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "d9d9e7e83ebf1f72"
+        "c32953458f3d9410"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1492,392 +884,17 @@
       "sources": [
         {
           "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzrfku36422q",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mzxz4j32us24",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-08T02:48:34.210000+00:00",
+      "published": "2026-11-10T17:54:26.183000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-08 — outside lookback window"
-    },
-    {
-      "cluster_key": "c6a79b0c09a1938b",
-      "title": "Expo Launches Cloud iOS Simulators and Android Emulators for AI Coding Agents",
-      "category": "tech_ai",
-      "one_liner": "Expo has released cloud iOS simulators and Android emulators that let AI coding agents autonomously test and verify mobile app fixes.",
-      "tags": [
-        "agents",
-        "ai",
-        "android",
-        "cloud",
-        "linux",
-        "llm",
-        "release",
-        "tool"
-      ],
-      "summary": "Expo has launched Expo Simulators, a cloud-based infrastructure offering iOS simulators and Android emulators designed specifically for AI coding agents. The service enables coding agents to autonomously reproduce bug reports, write fixes, test them across multiple mobile environments in parallel off local developer machines, and append evidence logs and screen recordings to pull requests. The tool integrates with popular coding agents like Cursor, Claude Code, and Codex, pricing usage at $0.10 per minute.",
-      "key_facts": [
-        "Pricing: $0.10 per minute",
-        "Supported Platforms: iOS and Android"
-      ],
-      "bottom_line": "Expo Simulators provides cloud-based iOS and Android execution environments that allow AI coding agents to autonomously verify mobile app bug fixes.",
-      "claims": [
-        {
-          "text": "Expo today launched Expo Simulators, cloud iOS simulators and Android emulators built for AI coding agents.",
-          "support_span": "Expo today launched Expo Simulators, cloud iOS simulators and Android emulators built for AI coding agents.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The simulators allow agents to reproduce a reported bug, write and test a fix, verify it on iOS simulators and Android emulators, and deliver evidence of the fix for a developer to review.",
-          "support_span": "The simulators allow agents to reproduce a reported bug, write and test a fix, verify it on iOS simulators and Android emulators, and deliver evidence of the fix for a developer to review.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "c6a79b0c09a1938b",
-        "e3d94c14f1618f9e"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "FourWeekMBA",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaTdYVmJ5TlVmWEZWaWVMc0dnUjN0c0stUUJkYnR2WVZleDRLamQwMGJmM1NLU05MMmY4QUxyZS1ZSVJyY0xxakdZS0w5OTdfWjhhNFBzcE4yZjhMRDQxZXd3WXgwRnA4NHA5Wkt3MG12VzNBUWlna1VxajJ6M0dqVXJlcDhXZHpT?oc=5",
-          "domain": "fourweekmba.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2VjMEY4eXZldWk3dVFuSDdPU29pdjRYd1B2VGVjdDcyell2amJWS0JYMWY2TUtRc29PNWxkb2hhMmhXNm5FdHVuMldsQ1VDY2ktQlJ0SzNpVGxPeFE5N0sxY0l6MS1tYVFsSjRVNzlyQkhVVnBWdXgxWVlSQXQxZDRLWkpuaWJia0VPY19hbkFXcEVWTzlUM0phU2FsNjE4SDF4UHhMOHBwc0txWHM1UFNXYkdJOXhzQk1IejJLMEdOQVFJVWVDMEh4ODRZQQ?oc=5",
-          "domain": "pr-newswire.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T17:05:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "e6d65daa2397dd51",
-      "title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
-      "category": "tech_ai",
-      "one_liner": "This research highlights that LLM agents in public services are passive and prone to contradictions unless given highly specific tasks.",
-      "tags": [
-        "agents",
-        "ai",
-        "dfir",
-        "llm",
-        "privacy",
-        "release",
-        "research",
-        "tool"
-      ],
-      "summary": "A study on self-directed LLM agents in public service scenarios found that while agents almost always read available records (96.9%), they frequently fail to take action without explicit instructions. In open-ended scenarios, only 18.7% of agents produced an artifact or task, though this rose to 86% when a task was explicitly assigned. The research also noted that domain context does not significantly increase the likelihood of an agent taking initiative. Furthermore, some artifacts produced by the agents directly contradicted the provided records, highlighting reliability concerns for public sector deployment.",
-      "key_facts": [
-        "Trajectories: 2,400",
-        "Models Tested: 10",
-        "Record Reading Rate: 96.9%"
-      ],
-      "bottom_line": "LLM agents in public service roles are unlikely to take initiative and may produce artifacts that contradict factual records without explicit tasking.",
-      "claims": [
-        {
-          "text": "Agents read records in 96.9% of runs but only produce tasks in 18.7% of open-ended runs.",
-          "support_span": "Agents read the records in 96.9% of open-ended runs and produce an artifact or a self-chosen task in 18.7%; with an explicit task, 86.0% produce.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Some artifacts produced by the agents contradict the provided records.",
-          "support_span": "Context cuts boundary-probing turns per run by 60%, and some artifacts contradict the records.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "e6d65daa2397dd51"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.15460",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.15460"
-      ],
-      "published": "2026-11-14T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 2/5 from gemini-3-flash-preview",
-        "blend 36 = trust 70 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0c0e30e7d7958b74",
-      "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
-      "category": "india_world",
-      "one_liner": "Nigeria has issued a health-related travel advisory for Addis Ababa's airport due to high-altitude risks linked to recent traveler deaths.",
-      "tags": [
-        "policy",
-        "vulnerability"
-      ],
-      "summary": "The Nigerian government has issued a travel advisory warning citizens, particularly those with underlying cardiovascular or respiratory conditions, against transiting through Ethiopia's Bole International Airport. The warning follows the deaths of 16 Nigerians this year while passing through Addis Ababa, which sits at an altitude of 2,334m. High altitudes can reduce oxygen levels in the bloodstream, potentially exacerbating existing health issues. The ministry is not discouraging travel but advises seeking medical guidance before planning journeys through the hub.",
-      "key_facts": [],
-      "bottom_line": "Travelers with pre-existing heart or lung conditions should exercise caution when transiting through high-altitude hubs like Addis Ababa to avoid potential medical complications.",
-      "claims": [
-        {
-          "text": "The foreign ministry in Abuja said 16 Nigerians with underlying health problems had died this year while transiting through Ethiopia's main airport",
-          "support_span": "The foreign ministry in Abuja said 16 Nigerians with underlying health problems had died this year while transiting through Ethiopia's main airport",
-          "status": "contradicted"
-        },
-        {
-          "text": "The city sits at an altitude of 2,334m (7,657ft) above sea level, making it one of the highest capitals in the world.",
-          "support_span": "The city sits at an altitude of 2,334m (7,657ft) above sea level, making it one of the highest capitals in the world.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 28.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "0c0e30e7d7958b74"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T15:42:54+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 2/5 from gemini-3.1-flash-lite",
-        "blend 29 = trust 40 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "c95a62b3fae233a8",
-      "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
-      "category": "india_world",
-      "one_liner": "A rescued gorilla's extreme isolation highlights the long-term psychological trauma caused by the illegal primate trade.",
-      "tags": [
-        "howto",
-        "policy",
-        "research"
-      ],
-      "summary": "Jojo, an 11-year-old gorilla, has spent his life in isolation after being captured from the wild as an infant and kept in a private zoo in Gabon. Now in a sanctuary, he exhibits signs of chronic stress and trauma, including a 'cold nose' detected via thermal imaging. Researchers are working to find him a companion, though the process is complicated by his extreme isolation and lack of social experience. Jojo's case highlights the broader issue of the illegal primate trade, which has affected thousands of African primates since 2000.",
-      "key_facts": [],
-      "bottom_line": "The rehabilitation of isolated, traumatized great apes like Jojo requires specialized, gorilla-led social integration to overcome the severe psychological damage of early-life captivity.",
-      "claims": [
-        {
-          "text": "Jojo is one of the more than 6,000 African primates estimated to have been bought or sold in the global trade of apes and other primates between 2000 and 2023.",
-          "support_span": "Jojo is one of the more than 6,000 African primates estimated to have been bought or sold in the global trade of apes and other primates between 2000 and 2023.",
-          "status": "entailed"
-        },
-        {
-          "text": "Jojo is fully mature and showing signs of harmful, chronic stress, according to Forrester.",
-          "support_span": "Jojo is fully mature and showing signs of harmful, chronic stress, according to Forrester.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 28.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "c95a62b3fae233a8"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T00:03:56+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 2/5 from gemini-3.1-flash-lite",
-        "blend 29 = trust 40 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "edb43fb55d31adf0",
-      "title": "CVE-2025-53697 - Johnson Controls iSTAR Use of Default Credentials",
-      "category": "cyber_attacks",
-      "one_liner": "Enterprise access control systems from Johnson Controls are vulnerable to simple default credential attacks.",
-      "tags": [
-        "cve",
-        "exploit",
-        "hardware",
-        "identity",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "Johnson Controls has disclosed a vulnerability (CVE-2025-53697) involving the use of default credentials in its iSTAR series of access control products. This flaw allows attackers to gain unauthorized access to critical security infrastructure by using well-known factory settings. Affected models include iSTAR Ultra, Ultra SE, Ultra G2, and Edge G2. The company has released firmware updates to address the issue, and users are advised to upgrade to version 2.9.2.CU02 or 6.9.2.CU02 depending on the model.",
-      "key_facts": [
-        "CVE-2025-53697: Default credentials vulnerability",
-        "Affected: iSTAR Ultra, Ultra SE, Ultra G2, Edge G2",
-        "Fix Version: 2.9.2.CU02 / 6.9.2.CU02"
-      ],
-      "bottom_line": "Physical security systems using iSTAR controllers must be updated to prevent unauthorized access via default credentials.",
-      "claims": [
-        {
-          "text": "The vulnerability allows for the use of default credentials (CAPEC-560).",
-          "support_span": "Use of default credentials vulnerability in Johnson Controls iSTAR Ultra... allows CAPEC‑560: Use of Default Credentials.",
-          "status": "contradicted"
-        },
-        {
-          "text": "iSTAR Ultra models before version 2.9.2.CU02 are affected.",
-          "support_span": "This issue affects iSTAR Ultra: before 2.9.2.CU02",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 40.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "edb43fb55d31adf0"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2025-53697",
-          "domain": "cvefeed.io",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T22:17:18+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3-flash-preview",
-        "blend 40 = trust 40 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "bfec2ce0ac10a81a",
-      "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
-      "category": "tech_ai",
-      "one_liner": "Deploy recursive self-improving agent harnesses like RSI-PDE to enhance scientific PDE discovery and coefficient estimation.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "research",
-        "tool"
-      ],
-      "summary": "Solving partial differential equations (PDEs) from sampled data requires complex workflows that often challenge frontier LLM models. To test and improve agent capabilities, researchers introduce RSI-PDEbench, a benchmark comprising 1,001 cases across 42 equation templates evaluated under Full, Noisy, and Hard-OOD settings. They also present RSI-PDE, a recursively self-improving agent harness that filters candidate equations by residual loss, refines coefficients via relative L2 feedback, and utilizes validation gates. Across test settings, RSI-PDE improves model pass rates by 106.5% to 181.9% relative to single-run baselines while reducing total model calls by 46.9%.",
-      "key_facts": [
-        "Benchmark cases: 1,001",
-        "Equation templates: 42",
-        "Pass rate improvement: 106.5–181.9%",
-        "Model call reduction: 46.9%"
-      ],
-      "bottom_line": "RSI-PDEbench and its companion RSI-PDE agent harness significantly boost LLM pass rates and reduce compute costs in solving complex partial differential equations.",
-      "claims": [
-        {
-          "text": "To investigate this question, we introduce \bench{}, a benchmark of 1,001 cases spanning 42 equation templates, including both classical and fractional PDEs.",
-          "support_span": "To investigate this question, we introduce \bench{}, a benchmark of 1,001 cases spanning 42 equation templates, including both classical and fractional PDEs.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Across the three settings, RSI-PDE improves the pass rate averaged across the four models by 106.5--181.9% relative to single-run baselines and by 3.0--19.6% relative to native harnesses, while reducing total recorded model calls by 46.9% across the 12 model--setting pairs.",
-          "support_span": "Across the three settings, RSI-PDE improves the pass rate averaged across the four models by 106.5--181.9% relative to single-run baselines and by 3.0--19.6% relative to native harnesses, while reducing total recorded model calls by 46.9% across the 12 model--setting pairs.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "bfec2ce0ac10a81a"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.14949",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.14949"
-      ],
-      "published": "2026-11-14T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-10 — outside lookback window"
     },
     {
       "cluster_key": "38741df50e34ad24",
