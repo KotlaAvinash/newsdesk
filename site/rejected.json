@@ -1,254 +1,52 @@
 {
-  "generated_at": "2026-11-16T02:58:46.038458+00:00",
+  "generated_at": "2026-11-17T05:21:21.250633+00:00",
   "items": [
     {
-      "cluster_key": "119b3c3d5e0839db",
-      "title": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser chec",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "android",
-        "howto",
-        "linux",
-        "llm",
-        "opensource",
-        "policy",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "119b3c3d5e0839db",
-        "1a6d35cfa140935b",
-        "1e0956c04fa10f0d",
-        "287ac4f2489441a8",
-        "2f9f6a9bc79e2dd7",
-        "4538d3d643ed051d",
-        "58db3dfe348c47cf",
-        "7c2f9d53319da8b1",
-        "896c6f4d572a2f68",
-        "b08931f35de369cb",
-        "eb05309ca987d7d9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-15T16:46:04+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a23817f0e45de732",
-      "title": "[Open Source] RESX: Windows binary analysis with API deobfuscation, argument recovery and kernel IOCTL reconstruction https://github.com/Ryftenius/RESX…",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "linux",
-        "malware",
-        "opensource",
-        "redteam",
-        "research",
-        "tool",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "a23817f0e45de732"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "SecHarvester",
-          "url": "https://github.com/Ryftenius/RESX",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T21:08:47+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a950b6f9c4d0bd31",
-      "title": "I've recently started hiding the bulk of my AI-generated GitHub PR descriptions behind a collapsed <details><summary> HTML tag (thankfully supported…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I've recently started hiding the bulk of my AI-generated GitHub PR descriptions behind a collapsed <details><summary> HTML tag (thankfully supported by GitHub Markdown) and I think it's a useful pattern for making PR slop a little bit less exhausting 2026-11-09T04:36:34.876Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a950b6f9c4d0bd31"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzu42ujywk24",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T04:36:33.369000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-09 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2c12f32629c2b8e7",
-      "title": "the all-in billionaire/billionaire wannabe pod goes all-in on repeating the word \"asset\" in trying to understand why people voted the way they did",
+      "cluster_key": "fc7a63016972c067",
+      "title": "Canadian Extradited Over University Cryptomining Hacking Scheme Ryan James Roach, 35, of Saskatchewan was extradited to the US on October 28 over a scheme…",
       "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "hardware"
+        "exploit",
+        "incident",
+        "malware",
+        "network",
+        "policy"
       ],
-      "summary": "Post 404 Media 404media.co did:plc:vcepp6trx4vpe5ourxso4tjl the all-in billionaire/billionaire wannabe pod goes all-in on repeating the word \"asset\" in trying to understand why people voted the way they did 2026-11-11T15:30:20.677Z",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
+      "blend": 36.2,
       "is_new": false,
-      "summary_source": "extract",
+      "summary_source": "model",
       "alt_keys": [
-        "2c12f32629c2b8e7"
+        "fc7a63016972c067"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "404 Media",
-          "url": "https://bsky.app/profile/404media.co/post/3n22bjlmt5c2l",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "CyberScoop",
+          "url": "https://cyberscoop.com/canadian-extradited-cryptomining-universities/",
+          "domain": "cyberscoop.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-11T15:30:14.482000+00:00",
+      "published": "2026-11-16T19:01:11+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -293,14 +91,15 @@
       "held_back": true
     },
     {
-      "cluster_key": "16b90ffd8ed968ee",
-      "title": "Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other…",
+      "cluster_key": "c78fbf213a069e8a",
+      "title": "How difficult would it be to make an honest to goodness memory safety vulnerability that leads to remote code execution in Rust without it being…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "hardware"
+        "vulnerability",
+        "windows"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Looks like Fable 5.2 is above the already steep trendline on three of the most informative unsaturated benchmarks (ECI is a composite of other benchmarks, Remote Labor measures the ability to do end-to-end freelance jobs, RoboDojo involves controlling robotics).",
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe How difficult would it be to make an honest to goodness memory safety vulnerability that leads to remote code execution in Rust without it being overwhelmingly obvious that you're just doing it wrong intentionally?",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -311,34 +110,39 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "16b90ffd8ed968ee"
+        "c78fbf213a069e8a"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e",
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3n2267667nc2q",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T03:49:51.952000+00:00",
+      "published": "2026-11-11T14:30:43.550000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-10 — outside lookback window",
+      "reject_reason": "published 2026-11-11 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "e147b7a442e4335b",
-      "title": "In addition to more serious examples I shared in my post, I had Fable 5.2 build a parody reverse Scooby Doo game where you have to scare away…",
+      "cluster_key": "9818440638d9a933",
+      "title": "op7418/guizang-game-skill — 歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu In addition to more serious examples I shared in my post, I had Fable 5.2 build a parody reverse Scooby Doo game where you have to scare away meddling kids. Here is the trailer it made (including the music and sounds) and the game (which is fun) is here: i-would-have-gotten-away-with-it.netlify.app 2026-11-09T21:00:44.176Z",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource"
+      ],
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -349,25 +153,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "e147b7a442e4335b"
+        "9818440638d9a933"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzvt2nqybs2e",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/op7418/guizang-game-skill",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T21:00:42.060000+00:00",
+      "published": "2026-11-11T16:28:54+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-09 — outside lookback window",
+      "reject_reason": "published 2026-11-11 — outside lookback window",
       "held_back": true
     },
     {
@@ -421,21 +225,14 @@
       "held_back": true
     },
     {
-      "cluster_key": "f6b29b4e2ab3b1b9",
-      "title": "FrigadeHQ/yogurt — Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windo",
+      "cluster_key": "5c8c240e0492ee75",
+      "title": "People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "linux",
-        "llm",
-        "opensource",
-        "release",
-        "tool"
+        "ai"
       ],
-      "summary": "A free, open-source alternative to Granola. Download for Mac · Windows · Linux Yogurt records your calls without adding a bot to the meeting. macOS 14.4+ (Apple Silicon) · Windows 10 2004+ (x64) · Ubuntu 22.04+ or similar (x64 AppImage) · 8 GB memory yogurt.so · Help · Build and run locally · MIT license Made by Frigade. Yogurt records calls and turns speech into text as you talk. Yogurt writes up the conversation and any notes you add.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI. It is so weird to still see comments here that AI hasn’t changed anything or that AI code is bad or that companies are retreating from AI use.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -446,25 +243,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "f6b29b4e2ab3b1b9"
+        "5c8c240e0492ee75"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/FrigadeHQ/yogurt",
-          "domain": "github.com",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T20:01:01+00:00",
+      "published": "2026-11-11T22:00:44.261000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-10 — outside lookback window",
+      "reject_reason": "published 2026-11-11 — outside lookback window",
       "held_back": true
     },
     {
@@ -509,15 +306,17 @@
       "held_back": true
     },
     {
-      "cluster_key": "94ff1d7f5e18c05b",
-      "title": "In one of my favorite experiments, I told Fable 5.2 to build an endless, hands-off journey through 3D worlds linked by portals.",
+      "cluster_key": "2775ee0dc24533d6",
+      "title": "DandanLLab/SnowCatQQ — SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai",
+        "agents",
+        "llm",
+        "network",
         "opensource"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu In one of my favorite experiments, I told Fable 5.2 to build an endless, hands-off journey through 3D worlds linked by portals. 25,000 agents created over 450 worlds inspired by books, art, places, all in code. Play (its neat): portals-endless-worlds.netlify.app Github: 2026-11-09T22:27:20.381Z",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -528,103 +327,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "94ff1d7f5e18c05b"
+        "2775ee0dc24533d6"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzvxvkdmd22e",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/DandanLLab/SnowCatQQ",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-09T22:27:19.413000+00:00",
+      "published": "2026-11-11T22:23:10+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-09 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "74ac31e93f0bc6ef",
-      "title": "when I'm in a \"ridiculous answer to easy to comprehend hypothetical\" competition and my opponent is the FSF and/or GNU",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "windows"
-      ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe when I'm in a \"ridiculous answer to easy to comprehend hypothetical\" competition and my opponent is the FSF and/or GNU 2026-11-09T22:53:12.082Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "74ac31e93f0bc6ef"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3mzvzdsqvn22c",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T22:53:11.740000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-09 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "5be94d0b907dd411",
-      "title": "I had early access to Fable 5.2 for a bit & I think it crosses the line into being a sort of Jagged AGI.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I had early access to Fable 5.2 for a bit & I think it crosses the line into being a sort of Jagged AGI. Here, I have it launch a business, do academic research, hack hardware, build 3D models & more. I think it is a good illustration of limits & powers: 2026-11-09T19:13:26.076Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "5be94d0b907dd411"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzvn2smcwk2h",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T19:13:24.698000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-09 — outside lookback window",
+      "reject_reason": "published 2026-11-11 — outside lookback window",
       "held_back": true
     },
     {
@@ -680,86 +401,46 @@
       "held_back": true
     },
     {
-      "cluster_key": "a3fb5cb573fbc3d7",
-      "title": "There is a mysterious intermittent beep coming from somewhere in your room of unopened boxes.",
-      "category": "tech_ai",
+      "cluster_key": "f935537e1e79699c",
+      "title": "Cyclonic Storm Akvan forms over the Bay; CM tells officials to take precautionary steps",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z There is a mysterious intermittent beep coming from somewhere in your room of unopened boxes. Open the boxes methodically one by one until you find it 2. Vibe code software that lets you set up two laptops, two iPads and a phone in various points around the room to triangulate it 2026-11-09T21:30:43.569Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a3fb5cb573fbc3d7"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzvuqd4ndk24",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-09T21:30:42.842000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-09 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "bfe9406dcdbd4a3d",
-      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "hardware",
-        "llm"
+        "india",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
+      "trust_score": 25,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 58.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "bfe9406dcdbd4a3d"
+        "f935537e1e79699c"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Hacker News 150+",
-          "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
-          "domain": "youtube.com",
-          "tier": "C"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-akvan-forms-over-the-bay-cm-tells-officials-to-take-precautionary-steps/article71708721.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-12T05:29:24+00:00",
+      "published": "2026-11-16T17:28:37+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -806,6 +487,238 @@
       "held_back": true
     },
     {
+      "cluster_key": "09aa293bfefc00b6",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "linux",
+        "llm",
+        "privacy",
+        "tool",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 22,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 65.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "09aa293bfefc00b6",
+        "81bd7f76e2a9d5f3"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Hacker News 150+",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "domain": "xusheng.dev",
+          "tier": "C"
+        },
+        {
+          "name": "news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR1JpTEw4Rm9MdDI5dkgzS2dwcEQ0dDZHR2UtWTQ3NVllbDNBNkg5N3loRHZZNThMVjUwYjZLUk9kUDhDWTFraW05elIxSWttREQ5UzFMcXU5OVVST1VqSnBDY3NRRGFGbjVLU08zUzVYZm9leUtiSXJfUTY4T2hkc1ZZdjNXZXlDeE9iSkE3VnhTd0hFZmxJd1lGLWNjS3c?oc=5",
+          "domain": "news-lavx-hu.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T22:58:20+00:00",
+      "trace": [
+        "tier C (+10)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 66 = trust 22 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "8c824024c9147b94",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "appsec",
+        "policy",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "8c824024c9147b94"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T17:00:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "0ca046ab64f844b8",
+      "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "policy",
+        "threat-actor"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "0ca046ab64f844b8"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T21:35:51+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "7f64e80b4233f90a",
+      "title": "In a little over a week we will see the release of The Last Human Game.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu In a little over a week we will see the release of The Last Human Game. There will never be another AAA game at the scale of GTA 6 with no AI assistance. People in the future will look back at an all-human game with an billion dollar budget and wonder how they did it, like the Pyramids.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "7f64e80b4233f90a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzzzl3lbbs2i",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-11T13:07:54.824000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-11 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a468d4c7b3558707",
+      "title": "I asked Fable 5.2 & Gemini Carbon to \"Solve the Fermi Paradox.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I asked Fable 5.2 & Gemini Carbon to \"Solve the Fermi Paradox. Marshal data, test hypotheses, pressure test them against critics, give me likely answers if you cant get a definite conclusion\" They did not solve it, but did do interesting stuff. Fable 5.2: where-is-everybody-fermi.netlify.app 2026-11-11T03:35:37.175Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a468d4c7b3558707"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzyzlpr6lk2r",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-11T03:35:36.254000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-11 — outside lookback window",
+      "held_back": true
+    },
+    {
       "cluster_key": "c32953458f3d9410",
       "title": "Me: any more aggressive options for getting me to 5 pull-ups?",
       "category": "tech_ai",
@@ -844,54 +757,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-11-10 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "38741df50e34ad24",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "markets",
-        "opensource",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "38741df50e34ad24"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-          "domain": "techcrunch.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T19:37:57+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     }
   ]
