@@ -26,7 +26,7 @@ from .config import CACHE_DIR, api_key, interests, settings, writes_enabled
 from . import tagging
 from .budget import Budget
 from .models import Claim, Item, Verdict
-from .utils import log, truncate
+from .utils import echoes_title, log, strip_meta, truncate
 
 SUMMARY_CACHE = CACHE_DIR / "summaries.json"
 # Entries, not bytes. At ~1.5 KB a summary this is roughly 7.5 MB.
@@ -96,9 +96,18 @@ def _touch(cache: dict[str, dict], old_key: str, new_key: str) -> None:
 
 
 def _apply(item: Item, payload: dict, source: str, body: str = "") -> None:
-    item.summary = payload.get("summary", "")
-    item.one_liner = payload.get("one_liner", "")
-    item.bottom_line = payload.get("bottom_line", "")
+    # strip_meta: a model handed only a headline used to answer "The article
+    # is truncated and contains only a headline..." and that was published
+    # as the explanation (16 cards on 17 Nov). Prompt now says return empty;
+    # this is the backstop for when it does not listen.
+    summary = strip_meta(payload.get("summary", "") or "")
+    if echoes_title(summary, item.title):
+        summary = ""
+    # An empty answer must not wipe an extract that is already there.
+    if summary or item.summary_source != "extract":
+        item.summary = summary
+    item.one_liner = strip_meta(payload.get("one_liner", "") or "")
+    item.bottom_line = strip_meta(payload.get("bottom_line", "") or "")
     # Cap at five: past that the fact list competes with the summary instead
     # of supporting it.
     item.key_facts = [f.strip() for f in payload.get("key_facts", [])
@@ -127,7 +136,9 @@ def _apply(item: Item, payload: dict, source: str, body: str = "") -> None:
     # So a blank card became invisible to both the pass meant to rescue it
     # and the label meant to disclose it, while implying it had been
     # summarised and checked.
-    if item.summary.strip() or item.bottom_line.strip():
+    # `summary` (the model's own answer), not item.summary: when the answer
+    # was empty the kept extract is still an extract.
+    if summary.strip() or item.bottom_line.strip():
         item.summary_source = "model"
 
 
@@ -286,6 +297,12 @@ def _heuristic(item: Item, body: str) -> None:
         if len(s) <= 40 or not re.search(r"[a-z]{3}", s):
             continue
         if _mostly_non_english(s):
+            continue
+        # Google News blurbs are the headline plus the outlet's name. As the
+        # card's explanation that is the title printed twice (116 of 914
+        # cards on 17 Nov). No explanation beats a fake one, and an empty
+        # extract leaves the item eligible for a real model summary.
+        if echoes_title(s, item.title):
             continue
         sentences.append(s)
     # Was: "(no article text available - headline only)". Invisible at a

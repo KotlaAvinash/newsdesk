@@ -1633,8 +1633,48 @@ function boot(d){
   draw();
 }
 
+// Display-side twin of pipeline/utils.py strip_meta()/echoes_title(). The
+// pipeline now refuses both, but cards published before that fix still carry
+// them in news.json, which is left exactly as published. Cleaning here, at
+// load, hides them from cards and search without editing a stored byte.
+const XSTOP=new Set(["the","a","an","of","in","on","to","for","and","is","are",
+  "at","by","with","as","from","after","over","new","says"]);
+function xtokens(s){return new Set((String(s).toLowerCase().match(/[a-z0-9']+/g)||[])
+  .filter(w=>!XSTOP.has(w)&&w.length>2));}
+const META_SUBJ=/^\s*(?:the|this)\s+(?:article|text|entry|item|page|content|piece|story|post|source)\b/i;
+const META_COMP=/truncat|unavailable|\bheadline\b|cookie|paywall|page[- ]loading|\bno\s+(?:substantive|actual|further|additional|real)\b|\b(?:does|did)\s+not\s+(?:provide|contain|include)|fail(?:s|ing)?\s+to\s+provide/i;
+const META_ANY=/\bthe\s+truncated\s+(?:text|article|content|snippet)|\bthis\s+placeholder\b|\bheadline\s+stub\b|\bthe\s+(?:supplied|provided)\s+(?:text|snippet|excerpt)\b|\bthe\s+content\s+lacks\b|\bno\s+(?:operational|strategic|actionable|specific)\b[^.]{0,40}\btakeaways?\b/i;
+function stripMeta(t){
+  if(!t) return "";
+  return String(t).trim().split(/(?<=[.!?])\s+/)
+    .filter(s=>!(META_SUBJ.test(s)&&META_COMP.test(s))&&!META_ANY.test(s))
+    .join(" ").trim();
+}
+function echoesTitle(text,title){
+  title=String(title||"");
+  if(/(…|\.\.\.)\s*$/.test(title)) return false;
+  const t=xtokens(title), s=xtokens(text);
+  if(!t.size||!s.size) return false;
+  let both=0, extra=0;
+  for(const w of t) if(s.has(w)) both++;
+  for(const w of s) if(!t.has(w)) extra++;
+  return both/t.size>=0.8 && extra<=4 &&
+    String(text).split(/\s+/).join(" ").trim().length<=title.length+50;
+}
+function cleanExplanations(d){
+  for(const it of (d&&d.items)||[]){
+    let s=stripMeta(it.summary);
+    if(s && echoesTitle(s,it.title)) s="";
+    it.summary=s;
+    it.bottom_line=stripMeta(it.bottom_line);
+    it.one_liner=stripMeta(it.one_liner);
+  }
+  return d;
+}
+
 fetch("news.json",{cache:"no-store"})
   .then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+  .then(cleanExplanations)
   .then(boot)
   .catch(e=>{
     document.getElementById("meta").textContent="could not load news.json — "+e;

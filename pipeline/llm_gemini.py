@@ -100,8 +100,11 @@ HARD RULES
   Never paraphrase it, never construct it. If you cannot find a supporting
   sentence for a claim, drop that claim.
 - Use ONLY the supplied text. Never add background from your own knowledge.
-- If the text is truncated, paywalled or is only a headline, say so in the
-  summary and set importance to 1.
+- If the text is truncated, paywalled or is only a headline, return an EMPTY
+  summary, one_liner and bottom_line, no claims, and set importance to 1.
+  Never write about the article itself ("the article is truncated", "this
+  entry contains only a headline"): that sentence would be published to
+  readers as the explanation of the story.
 - Being from an official source makes a story trustworthy, not important.
   Score a routine government or central-bank notice a 1 even so.
 """

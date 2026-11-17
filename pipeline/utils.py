@@ -79,6 +79,64 @@ def is_malware_lure(text: str) -> bool:
     return bool(_LURE_RUN.search(text))
 
 
+# --- explanations that explain nothing ---------------------------------------
+# Measured on the 17 Nov page (914 cards): 16 model summaries were the model
+# describing its INPUT ("The article is truncated and contains only a headline
+# and source name...") because the prompt told it to "say so in the summary",
+# and 116 extractive ones were the headline again plus the outlet's name
+# ("Manufacturing hit by surge in ransomware attacks Food & Beverage Industry
+# News") - Google News blurbs are exactly that. Both sat in the slot a reader
+# looks to for what the story means.
+_META_SUBJECT = re.compile(
+    r"^\s*(?:the|this)\s+(?:article|text|entry|item|page|content|piece|story|"
+    r"post|source)\b", re.I)
+_META_COMPLAINT = re.compile(
+    r"truncat|unavailable|\bheadline\b|cookie|paywall|page[- ]loading"
+    r"|\bno\s+(?:substantive|actual|further|additional|real)\b"
+    r"|\b(?:does|did)\s+not\s+(?:provide|contain|include)"
+    r"|fail(?:s|ing)?\s+to\s+provide", re.I)
+# Phrases that only ever describe the INPUT, whatever the sentence opens with
+# (found on the live page: "...in the truncated text", "...from this
+# placeholder", "...functions merely as a headline stub").
+_META_ANYWHERE = re.compile(
+    r"\bthe\s+truncated\s+(?:text|article|content|snippet)"
+    r"|\bthis\s+placeholder\b|\bheadline\s+stub\b"
+    r"|\bthe\s+(?:supplied|provided)\s+(?:text|snippet|excerpt)\b"
+    r"|\bthe\s+content\s+lacks\b"
+    r"|\bno\s+(?:operational|strategic|actionable|specific)\b[^.]{0,40}"
+    r"\btakeaways?\b", re.I)
+
+
+def strip_meta(text: str) -> str:
+    """Drop sentences in which a model describes the article instead of the
+    story. Needs BOTH a subject ("The article...") and a complaint
+    ("...truncated"), so "The article's authors found..." survives."""
+    if not text:
+        return ""
+    keep = [s for s in re.split(r"(?<=[.!?])\s+", text.strip())
+            if not (_META_SUBJECT.match(s) and _META_COMPLAINT.search(s))
+            and not _META_ANYWHERE.search(s)]
+    return " ".join(keep).strip()
+
+
+def echoes_title(text: str, title: str) -> bool:
+    """True when `text` is just the headline again, perhaps with the
+    publisher's name stuck on. A real lede that restates the headline then
+    adds facts runs well past it, hence the length allowance."""
+    # A title that ends in "…" was cut from a social post (see headline());
+    # the text is where the rest of that post lives, not an echo of it.
+    if title.rstrip().endswith(("…", "...")):
+        return False
+    t, s = tokens(title), tokens(text)
+    if not t or not s:
+        return False
+    covered = len(t & s) / len(t)
+    # <= 4 new words: an outlet name ("Food & Beverage Industry News") adds
+    # two to four; a real extra sentence adds more and is worth keeping.
+    return (covered >= 0.8 and len(s - t) <= 4
+            and len(" ".join(text.split())) <= len(title) + 50)
+
+
 def log(stage: str, msg: str) -> None:
     ts = datetime.now().strftime("%H:%M:%S")
     print(f"  [{ts}] {stage:<12} {msg}", file=sys.stderr)
