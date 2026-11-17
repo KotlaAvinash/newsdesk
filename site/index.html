@@ -302,6 +302,14 @@ ul.facts li:before{content:"";position:absolute;left:0;top:.6em;
 ul.facts b{color:var(--ink);font-weight:600}
 
 /* Behind disclosure: the prose summary and the audit trail. */
+.excerpt{margin:2px 0 10px}
+.excerpt .body{margin:0}
+.excerpt .clamp{display:-webkit-box;-webkit-box-orient:vertical;
+ -webkit-line-clamp:4;line-clamp:4;overflow:hidden}
+.excerpt.open .clamp{display:block;-webkit-line-clamp:unset;line-clamp:unset}
+.excerpt .more{border:0;background:none;padding:2px 0;margin-top:2px;
+ font:inherit;font-size:12.5px;color:var(--accent);cursor:pointer}
+.excerpt .more:hover{text-decoration:underline}
 .body{font-family:"Newsreader",Georgia,serif;font-size:16px;line-height:1.7;
  color:var(--ink2);margin:10px 0 12px}
 .why{font-size:13.5px;color:var(--muted);margin:0 0 12px;font-style:italic}
@@ -832,13 +840,23 @@ function card(it){
   // is exactly what the chip said. Checked against the data: an extractive
   // card never has claims and never has a one_liner, so the shorter label is
   // not hiding anything.
-  const detailLabel = it.summary_source==="extract"
-    ? "The article’s opening lines"
-    : "Full summary and how it was checked";
-  const detail = prose
-    ? '<details><summary>'+detailLabel+'</summary>'+
-      prose+scoreBlock+'</details>'
-    : scoreBlock;
+  // EXTRACTIVE CARDS SHOW THEIR TEXT. 636 of 914 cards are extractive and
+  // NONE of them has a deck, so with the summary folded behind a toggle 70%
+  // of the page read as bare headlines — the reader saw "The article's
+  // opening lines" and nothing else, while ~640 characters of real text sat
+  // one click away. The text is the card's only body, so it is shown,
+  // clamped to four lines, with "Read more" only when it actually overflows.
+  const isExtract = it.summary_source==="extract";
+  const lead = (isExtract && it.summary)
+    ? '<div class="excerpt"><p class="body clamp">'+hl(it.summary)+'</p>'+
+      '<button class="more" type="button" hidden>Read more</button></div>'
+    : "";
+  const detail = isExtract
+    ? scoreBlock
+    : prose
+      ? '<details><summary>Full summary and how it was checked</summary>'+
+        prose+scoreBlock+'</details>'
+      : scoreBlock;
 
   // Rail order is rarest first, because the rail is read left to right and
   // the reader is scanning for the few cards that matter. Today's counts:
@@ -854,6 +872,7 @@ function card(it){
       hl(it.title)+'</a></h3>'+
     (it.bottom_line?'<p class="deck">'+hl(it.bottom_line)+'</p>':"")+
     heldWhy+
+    lead+
     factHtml+
     '<div class="srcs"><span class="srclabel">Source:</span>'+
       shown.join('<span class="dot2">·</span>')+more+prim+
@@ -1091,6 +1110,14 @@ function draw(){
   if(dot) dot.hidden = !on;
   paintApplied(items.length);
   drawFocus();
+  // Reveal "Read more" only where the clamp actually hides text — a short
+  // excerpt with a button under it promises more than exists.
+  requestAnimationFrame(()=>{
+    for(const p of document.querySelectorAll(".excerpt .clamp")){
+      const b=p.nextElementSibling;
+      if(b) b.hidden = p.scrollHeight <= p.clientHeight + 2;
+    }
+  });
   // Disabled when there is nothing to clear, so the button reports the state
   // of the page rather than sitting there looking equally clickable always.
   const ca=document.getElementById("clearAll");
@@ -1418,6 +1445,13 @@ function boot(d){
     });
   },{passive:true});
   document.getElementById("feed").addEventListener("click",e=>{
+    const m=e.target.closest("button.more");
+    if(m){
+      const box=m.closest(".excerpt");
+      const open=box.classList.toggle("open");
+      m.textContent = open ? "Show less" : "Read more";
+      return;
+    }
     const b=e.target.closest("button.tag"); if(!b) return;
     activeTags.clear(); activeTags.add(b.dataset.tag);
     window.scrollTo({top:0,behavior:easing()}); draw();

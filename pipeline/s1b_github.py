@@ -28,7 +28,7 @@ from datetime import datetime, timedelta, timezone
 
 from .config import settings
 from .models import Article
-from .utils import log, strip_html
+from .utils import headline, log, strip_html
 
 try:
     import certifi
@@ -74,7 +74,10 @@ def _to_article(repo: dict, category: str, kind: str) -> Article:
 
     # The title carries the star count because that is the single most useful
     # signal when scanning a list of unfamiliar repository names.
-    title = f"{repo['full_name']} — {desc[:110]}" if desc else repo["full_name"]
+    # headline(), not desc[:110]: a raw slice cut descriptions mid-word on the
+    # page ("...monitoring, and infrastruct"). headline() ends on a sentence
+    # or a whole word.
+    title = f"{repo['full_name']} — {headline(desc, 110)}" if desc else repo["full_name"]
 
     body = (f"{desc}\n\nGitHub repository {repo['full_name']}, "
             f"{stars:,} stars, language {repo.get('language') or 'unspecified'}. "
