@@ -1041,6 +1041,16 @@ function _heldReason(raw){
   return hit ? hit[1] : (raw||"no reason recorded");
 }
 
+// Reveal "Read more" only where the clamp actually hides text — a short
+// excerpt with a button under it promises more than exists. Expanded
+// excerpts are skipped: unclamped they never overflow, and measuring them
+// would hide their "Show less" button.
+function measureExcerpts(){
+  for(const p of document.querySelectorAll(".excerpt:not(.open) .clamp")){
+    const b=p.nextElementSibling;
+    if(b) b.hidden = p.scrollHeight <= p.clientHeight + 2;
+  }
+}
 function paintApplied(count){
   const box=document.getElementById("applied");
   if(!box) return;
@@ -1107,17 +1117,17 @@ function draw(){
     SORTS[sort].label.toLowerCase();
   const dot=document.getElementById("fdot");
   const on=anyFilter();
+  if(!measureExcerpts.bound){
+    // Overflow depends on width: rotating a phone or narrowing a window can
+    // make a 4-line excerpt overflow, and without a button its tail would be
+    // unreachable. Re-measure on resize (debounced).
+    let t; addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(measureExcerpts,150);});
+    measureExcerpts.bound=true;
+  }
   if(dot) dot.hidden = !on;
   paintApplied(items.length);
   drawFocus();
-  // Reveal "Read more" only where the clamp actually hides text — a short
-  // excerpt with a button under it promises more than exists.
-  requestAnimationFrame(()=>{
-    for(const p of document.querySelectorAll(".excerpt .clamp")){
-      const b=p.nextElementSibling;
-      if(b) b.hidden = p.scrollHeight <= p.clientHeight + 2;
-    }
-  });
+  requestAnimationFrame(measureExcerpts);
   // Disabled when there is nothing to clear, so the button reports the state
   // of the page rather than sitting there looking equally clickable always.
   const ca=document.getElementById("clearAll");
