@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:21:21.250633+00:00",
+  "generated_at": "2026-11-18T04:33:29.937923+00:00",
   "items": [
     {
       "cluster_key": "fc7a63016972c067",
@@ -42,23 +42,24 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "6e0cc4bc45de2a94",
-      "title": "Gemini 4 Carbon is good at pelican SVGs, but that's nothing new for Gemini \"Make a three js animation where yonkers stands up as a big mech (cool…",
+      "cluster_key": "e05cb3b1495b1944",
+      "title": "fumbdendade19718/blender-ai-copilot-desk — A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "llm",
+        "agents",
+        "ai",
+        "opensource",
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Gemini 4 Carbon is good at pelican SVGs, but that's nothing new for Gemini \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\" 2026-11-10T20:55:14.571Z",
+      "summary": "A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one companion window, backed by your choice of models and a built-in MCP server. Chat on the left, scene on the right: send a brief, approve the step, watch the snapshot change—without leaving your desk. AI help for 3D usually means a browser tab beside the viewport, screenshots pasted by hand and change lists you cannot verify. blender-ai-copilot-desk puts the whole conversation inside one companion window: the chat, the objects actually in your scene, viewport snapshots after each step, approvals before each edit and the task board for longer runs. You see what the copilot sees, approv…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -69,7 +70,184 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "6e0cc4bc45de2a94"
+        "e05cb3b1495b1944"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/fumbdendade19718/blender-ai-copilot-desk",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T19:37:25+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "db266b9ed87d7e2f",
+      "title": "precygtrucqui1981/blender-ai-copilot-lab — An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "opensource",
+        "windows"
+      ],
+      "summary": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. Set the brief and watch the board: the manager splits it, workers build, reviewers return findings—and one approved correction later, the scene passes. Big briefs die in a single chat thread—no structure, no checks, no record of what actually failed. blender-ai-copilot-lab turns the brief into a supervised experiment: a manager agent breaks it into assignments with acceptance criteria, worker agents execute each one as ordered scene operations, and reviewer age…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "db266b9ed87d7e2f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T19:33:16+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "e9a68a300e49f431",
+      "title": "boringmarketer/boring-marketing-skills — 32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "release",
+        "threat-intel",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "e9a68a300e49f431"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/boringmarketer/boring-marketing-skills",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T15:09:46+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "4fb62acd74c1c774",
+      "title": "zovulrira1974/blender-ai-copilot-assets — An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. Skip the tab-hopping: describe the mood, get the shortlist, approve the import—the asset lands in the scene with its license noted. Finding one good HDR or model means three sites, twenty tabs and a license you meant to check. blender-ai-copilot-assets searches the big free libraries from inside the chat: describe what the scene needs, compare what comes back, and import only after you confirm—assets, licenses and placement handled as part of the same supervised workflow that builds, ligh…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "4fb62acd74c1c774"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/zovulrira1974/blender-ai-copilot-assets",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T19:39:54+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "67dcc428cce37625",
+      "title": "The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm",
+        "windows"
+      ],
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount on that price - though Carbon/Argon will 2x in price on Dec 1st Hydrogen's pelicans are notably worse 2026-11-13T00:36:22.272Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "67dcc428cce37625"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -77,17 +255,60 @@
       "sources": [
         {
           "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzyd7r6ttc24",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3n25qivmljs2t",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T20:55:12.776000+00:00",
+      "published": "2026-11-13T00:36:16.745000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-10 — outside lookback window",
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a4ef297b6d8f415f",
+      "title": "benzgasfuncring197110/blender-ai-copilot-bridge — An MCP bridge for Blender that exposes 27 supervised scene tools to OpenCode and any compatible…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "opensource",
+        "windows"
+      ],
+      "summary": "An MCP bridge for Blender that exposes 27 supervised scene tools to OpenCode and any compatible client—authenticated Streamable HTTP on a local endpoint, with the visual chat studio and agent teams on the inside. Your coding agent gets a Blender hand: authenticate once, and the scene answers to get_scene_info, add_cube and export_scene like the rest of your toolchain. Your agents can read repos, write code and run tests—until the task says \"now make it in Blender\". blender-ai-copilot-bridge gives every MCP client a safe door into your scene: a local, authenticated Streamable HTTP endpoint that exposes the full supervised toolset—inspect, create, edit, capture, script, export—while approvals…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a4ef297b6d8f415f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/benzgasfuncring197110/blender-ai-copilot-bridge",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T19:36:26+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
       "held_back": true
     },
     {
@@ -132,17 +353,18 @@
       "held_back": true
     },
     {
-      "cluster_key": "9818440638d9a933",
-      "title": "op7418/guizang-game-skill — 歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable",
+      "cluster_key": "4170bd017fe6c15b",
+      "title": "Doug-218/blender-ai-copilot-forge — A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "llm",
-        "opensource"
+        "howto",
+        "opensource",
+        "windows"
       ],
-      "summary": "",
+      "summary": "A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials and parenting assemble in ordered steps, with approvals, named undo and a built-in MCP server. One sentence in, a scene out: pedestal, camera, three lights and a matte blue material—forged step by step while you watch the viewport answer. Blocking out a scene by hand is hours of add-menu, transform-panel, repeat—before any real design starts. blender-ai-copilot-forge puts a builder copilot in the sidebar: it reads what is already in your scene, then forges the layout you describe—primitives, duplicates in neat rows, cameras, three-point lighting, materials, parenting—as ordered operat…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -153,7 +375,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9818440638d9a933"
+        "4170bd017fe6c15b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -161,13 +383,192 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/op7418/guizang-game-skill",
+          "url": "https://github.com/Doug-218/blender-ai-copilot-forge",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-11T16:28:54+00:00",
+      "published": "2026-11-12T19:35:10+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "44b701950cb62925",
+      "title": "tiobeharxi1987/blender-ai-copilot-flow — A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. Nothing lands unseen: every edit is proposed, approved, run in order, and reversible by name. The scary part of AI in a production scene is not what it builds—it is what it might change while you blink. blender-ai-copilot-flow makes every copilot action a visible step in a controlled flow: proposed before execution, approved by you, applied in sequence with earlier steps finished first, cancellable after the current operation, and undoable through named undo step…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "44b701950cb62925"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T19:38:53+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "d9006d3b1f354a9f",
+      "title": "baiblinocun1986/blender-ai-copilot-hub — A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter, OpenCode Zen, Ollama and custom endpoints into one hub of saved connections, with 27 supervised scene tools and a built-in MCP server. Every model you already use, one panel away: pick a saved connection, load its live catalog, and put the copilot to work on your scene. You pay for several AI providers, yet most tools lock you into one—and re-typing API keys into yet another app is the last thing a scene deadline needs. blender-ai-copilot-hub keeps every provider in one Blender-side hub: saved connection profiles for work and personal keys, live model catalogs, and a copilot that inspects…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "d9006d3b1f354a9f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/baiblinocun1986/blender-ai-copilot-hub",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T19:32:22+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "9ccf8665576aaeb3",
+      "title": "The open-source movement wants Jensen Huang back",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource",
+        "research"
+      ],
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-sour…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 2,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "9ccf8665576aaeb3",
+        "f89756bdc7b4b894"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "MIT Tech Review",
+          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+          "domain": "technologyreview.com",
+          "tier": "B"
+        },
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T22:34:59.292000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "5c8c240e0492ee75",
+      "title": "People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI. It is so weird to still see comments here that AI hasn’t changed anything or that AI code is bad or that companies are retreating from AI use.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5c8c240e0492ee75"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-11T22:00:44.261000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
@@ -175,8 +576,51 @@
       "held_back": true
     },
     {
+      "cluster_key": "1e2e1314ac1121e4",
+      "title": "berkantay/gpucanvas — Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "hardware",
+        "opensource"
+      ],
+      "summary": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them. The same session on both sides: 5,000 live React screens, the same camera path, a message typed and sent. Left, every screen is plain DOM under a CSS transform. Recorded in Chrome on a MacBook Pro; the frame rates are measured live in each run. Live React or plain DOM nodes, drawn by WebGPU in one instanced pass.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1e2e1314ac1121e4"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/berkantay/gpucanvas",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-12T23:19:42+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "held_back": true
+    },
+    {
       "cluster_key": "0e08c614c75cbcc3",
-      "title": "spacesky-cell/TwinFix — TwinFix — AI agent that diagnoses, reproduces and fixes bugs in a disposable twin environment. 在一次性孪生环境中自动诊断、复",
+      "title": "spacesky-cell/TwinFix — TwinFix — AI agent that diagnoses, reproduces and fixes bugs in a disposable twin environment.",
       "category": "cyber_tools",
       "one_liner": "",
       "tags": [
@@ -225,127 +669,47 @@
       "held_back": true
     },
     {
-      "cluster_key": "5c8c240e0492ee75",
-      "title": "People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI.",
-      "category": "tech_ai",
+      "cluster_key": "8b3fecdc10350838",
+      "title": "Mahanadi Coalfields IPO single profit calculator basis latest GMP: What investors may earn on listing?",
+      "category": "markets",
       "one_liner": "",
       "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI. It is so weird to still see comments here that AI hasn’t changed anything or that AI code is bad or that companies are retreating from AI use.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "5c8c240e0492ee75"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-11T22:00:44.261000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "99d9bff32ff1d8a2",
-      "title": "Another weird AI game project: I asked Claude Fable 5.2 for a fantasy transport sim with Discworld meets Lord of the Rings vibes.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Another weird AI game project: I asked Claude Fable 5.2 for a fantasy transport sim with Discworld meets Lord of the Rings vibes. Then I left it to a bunch of agents arguing about art, lore and jokes. Now here is Dread & District, where good logistics defeats evil. dread-and-district.netlify.app 2026-11-10T20:14:51.374Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "99d9bff32ff1d8a2"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzyaxkti4k2r",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-10T20:14:50.195000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-10 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2775ee0dc24533d6",
-      "title": "DandanLLab/SnowCatQQ — SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "llm",
-        "network",
-        "opensource"
+        "india",
+        "markets"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
+      "trust_score": 25,
       "interest_score": 0,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 13.8,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "2775ee0dc24533d6"
+        "8b3fecdc10350838"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/DandanLLab/SnowCatQQ",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html",
+          "domain": "livemint.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-11T22:23:10+00:00",
+      "published": "2026-11-17T09:10:00+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -401,60 +765,65 @@
       "held_back": true
     },
     {
-      "cluster_key": "f935537e1e79699c",
-      "title": "Cyclonic Storm Akvan forms over the Bay; CM tells officials to take precautionary steps",
-      "category": "india_world",
+      "cluster_key": "c0abe57920f7de82",
+      "title": "Russian-Speaking Hackers Use AI-Assisted Malware and ClickFix Attacks to Target Windows Users",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
+        "ai",
+        "blueteam",
+        "incident",
         "india",
-        "political"
+        "malware",
+        "threat-actor",
+        "tool",
+        "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 10,
       "interest_score": 100,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 55.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "f935537e1e79699c"
+        "c0abe57920f7de82"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-akvan-forms-over-the-bay-cm-tells-officials-to-take-precautionary-steps/article71708721.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
+          "name": "CyberSecurityNews",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UcXZVbTNaUk5kbUtabTNSODlkYlJpVHdBeExiVzE5T1RxNDFvRl9taGFKRVcwS3dXenRqdTNrY2JMamEyM2RiakkzSDg3VTNXY0luYURiZjNsQXJIRG80YzQyTlFLMDJGY1lTNkFYZ9IBdEFVX3lxTE11Vy1uYWdfQ3dMT1dwMTRWU1FmTEhwUkJFVHBCa3ptLW1QQWNadm9vT0NabldiTlNfR0taT0k0V3NZSTM4WnlVMkNhUkNnRDl0cmhsUXhBNEpjeHBUWm5KcEtlcXkxWk90VzNiMUwtZVNHdnZS?oc=5",
+          "domain": "cybersecuritynews.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T17:28:37+00:00",
+      "published": "2026-11-17T09:53:13+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "395af3641c5b0de1",
-      "title": "Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon.",
-      "category": "tech_ai",
+      "cluster_key": "924d734685746af5",
+      "title": "Trump administration to name Nvidia, other AI firms as US 'national champions', WSJ reports",
+      "category": "markets",
       "one_liner": "",
       "tags": [
-        "ai",
-        "llm"
+        "ai"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon. It is useful to have an AI that thinks differently than Claude/GPT & is still highly capable, but has its own strengths & weakness One fun demo: I gave Carbon a video clip & it reproduced it in 3js very well 2026-11-10T17:02:32.674Z",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -465,96 +834,37 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "395af3641c5b0de1"
+        "924d734685746af5"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzxw7q2jgs2r",
-          "domain": "bsky.app",
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbzFERGNkd2ZLODdReVZtV3pnNVdJT3RyNDdpbUZQRXZHUEgzbVYtZTBwelhfV1hRbVVfOGsxeDJURWd2bEJubFlFUjFXZC1HM2Z4U3l2TXVhTXR3OTFPZ2xUaDhOVlBDWF93dDE0V2lsOEI3bGFGWXlmbnVldjNCQkJKQlFNbDVfaWR6cGpJdktZWlJXcEdNQkZnWWsxSlZGX19tQTIxYW5NVWQxb2NQclEza1JHaHBma3lmaFNzQWRtQld0UkRwT01IZEY0eUk?oc=5",
+          "domain": "reuters.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T17:02:32.944000+00:00",
+      "published": "2026-11-16T04:17:00+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-10 — outside lookback window",
+      "reject_reason": "published 2026-11-16 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "09aa293bfefc00b6",
-      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-      "category": "tech_ai",
+      "cluster_key": "6478659b041b6eee",
+      "title": "Indian national missing after attacks on commercial vessel in Strait of Hormuz",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "linux",
-        "llm",
-        "privacy",
-        "tool",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 22,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 65.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "09aa293bfefc00b6",
-        "81bd7f76e2a9d5f3"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Hacker News 150+",
-          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-          "domain": "xusheng.dev",
-          "tier": "C"
-        },
-        {
-          "name": "news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR1JpTEw4Rm9MdDI5dkgzS2dwcEQ0dDZHR2UtWTQ3NVllbDNBNkg5N3loRHZZNThMVjUwYjZLUk9kUDhDWTFraW05elIxSWttREQ5UzFMcXU5OVVST1VqSnBDY3NRRGFGbjVLU08zUzVYZm9leUtiSXJfUTY4T2hkc1ZZdjNXZXlDeE9iSkE3VnhTd0hFZmxJd1lGLWNjS3c?oc=5",
-          "domain": "news-lavx-hu.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T22:58:20+00:00",
-      "trace": [
-        "tier C (+10)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 66 = trust 22 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "8c824024c9147b94",
-      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "appsec",
-        "policy",
-        "research",
-        "tool"
+        "incident",
+        "india",
+        "network",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
@@ -567,73 +877,133 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "8c824024c9147b94"
+        "6478659b041b6eee"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-          "domain": "techcrunch.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T17:00:00+00:00",
+      "published": "2026-11-18T01:07:32+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.1-flash-lite",
+        "importance 4/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "0ca046ab64f844b8",
-      "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
-      "category": "india_world",
+      "cluster_key": "435404a46f2225ad",
+      "title": "Japan's Fugaku supercomputer has decidedly un-super security",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "ai",
-        "llm",
-        "policy",
-        "threat-actor"
+        "cloud",
+        "hardware",
+        "incident",
+        "malware",
+        "release",
+        "research",
+        "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 37,
       "interest_score": 100,
-      "corroboration": 1,
-      "blend": 58.8,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0ca046ab64f844b8"
+        "435404a46f2225ad",
+        "92ae9d39f8909b19"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss",
-          "domain": "aljazeera.com",
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333",
+          "domain": "theregister.com",
           "tier": "B"
+        },
+        {
+          "name": "Japan Wire by Kyodo News",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsbHRBbk5WR01TYmZZeWhoN0N1LUd6bG9zb19DVzFBMmt5STZzVlFfdEZaSlVjOFRLVmduRFRTVHdtSWJTTmJ6QWZYYkJTSC00cEluUDduZXhrQQ?oc=5",
+          "domain": "japan-wire-by-kyodo-news.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T21:35:51+00:00",
+      "published": "2026-11-17T05:27:04+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "81aaa1084ac4b44f",
+      "title": "NVIDIA/SkillEvaluator Gains Momentum on GitHub with 953 Stars in 24 Hours",
+      "category": "cyber_tools",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "release",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "81aaa1084ac4b44f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Blockchain News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kbjdRbU5CUUZmTW55R09IU2NaMUdKQm1CTGcyQW9PUU1XUHFfczdkWkNFRFZkbG5kYlhzNFBZTFhlZFR6LWgxUVM2X1BERXdBM0tlbEhNQzVaLW8wcVJqY0p1ODN5eGx1LUhOZHhlTTROQzZw?oc=5",
+          "domain": "blockchain-news.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-17T03:36:00+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -679,84 +1049,99 @@
       "held_back": true
     },
     {
-      "cluster_key": "a468d4c7b3558707",
-      "title": "I asked Fable 5.2 & Gemini Carbon to \"Solve the Fermi Paradox.",
-      "category": "tech_ai",
+      "cluster_key": "2040c07e1a185911",
+      "title": "ConnectSecure brings adaptive AI testing to vulnerability management",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "llm"
+        "agents",
+        "ai",
+        "llm",
+        "policy",
+        "release",
+        "research",
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I asked Fable 5.2 & Gemini Carbon to \"Solve the Fermi Paradox. Marshal data, test hypotheses, pressure test them against critics, give me likely answers if you cant get a definite conclusion\" They did not solve it, but did do interesting stuff. Fable 5.2: where-is-everybody-fermi.netlify.app 2026-11-11T03:35:37.175Z",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "a468d4c7b3558707"
+        "2040c07e1a185911"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzyzlpr6lk2r",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/17/connectsecure-agentic-ai-penetration-testing/",
+          "domain": "helpnetsecurity.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-11T03:35:36.254000+00:00",
+      "published": "2026-11-17T13:49:13+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "c32953458f3d9410",
-      "title": "Me: any more aggressive options for getting me to 5 pull-ups?",
-      "category": "tech_ai",
+      "cluster_key": "bb72156d07d8e06f",
+      "title": "Construction activities on Kaziranga wildlife corridors flagged",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "llm",
-        "windows"
+        "india",
+        "policy",
+        "political"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Me: any more aggressive options for getting me to 5 pull-ups? Fitness Coach Claude (Fable 5.2): \"Drop a few pounds. Going from about 168 lb to 160 lb takes roughly 5% off the load on every rep.\" 2026-11-10T17:54:26.577Z",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "c32953458f3d9410"
+        "bb72156d07d8e06f"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3mzxz4j32us24",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/assam/construction-activities-on-kaziranga-wildlife-corridors-flagged/article71713607.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-10T17:54:26.183000+00:00",
+      "published": "2026-11-17T21:44:11+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-10 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     }
   ]
