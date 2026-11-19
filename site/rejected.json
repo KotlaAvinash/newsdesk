@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:33:29.937923+00:00",
+  "generated_at": "2026-11-19T04:21:32.318675+00:00",
   "items": [
     {
       "cluster_key": "fc7a63016972c067",
@@ -42,6 +42,7 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
@@ -49,17 +50,12 @@
       "held_back": true
     },
     {
-      "cluster_key": "e05cb3b1495b1944",
-      "title": "fumbdendade19718/blender-ai-copilot-desk — A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one…",
+      "cluster_key": "8c310dba44ad18e7",
+      "title": "\"You see the model called hydrogen is equivalent to the models called sonnet and luna and spark, but the model called fable is like wonder and astra…",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "windows"
-      ],
-      "summary": "A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one companion window, backed by your choice of models and a built-in MCP server. Chat on the left, scene on the right: send a brief, approve the step, watch the snapshot change—without leaving your desk. AI help for 3D usually means a browser tab beside the viewport, screenshots pasted by hand and change lists you cannot verify. blender-ai-copilot-desk puts the whole conversation inside one companion window: the chat, the objects actually in your scene, viewport snapshots after each step, approvals before each edit and the task board for longer runs. You see what the copilot sees, approv…",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu \"You see the model called hydrogen is equivalent to the models called sonnet and luna and spark, but the model called fable is like wonder and astra and carbon (but it was like argon)\" \"Wait, why do you look confused?\" 2026-11-13T20:21:32.476Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -70,68 +66,25 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "e05cb3b1495b1944"
+        "8c310dba44ad18e7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/fumbdendade19718/blender-ai-copilot-desk",
-          "domain": "github.com",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n27sqcs6ds22",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-12T19:37:25+00:00",
+      "published": "2026-11-13T20:21:32.404000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "db266b9ed87d7e2f",
-      "title": "precygtrucqui1981/blender-ai-copilot-lab — An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "windows"
-      ],
-      "summary": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. Set the brief and watch the board: the manager splits it, workers build, reviewers return findings—and one approved correction later, the scene passes. Big briefs die in a single chat thread—no structure, no checks, no record of what actually failed. blender-ai-copilot-lab turns the brief into a supervised experiment: a manager agent breaks it into assignments with acceptance criteria, worker agents execute each one as ordered scene operations, and reviewer age…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "db266b9ed87d7e2f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T19:33:16+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "reject_reason": "published 2026-11-13 — outside lookback window",
       "held_back": true
     },
     {
@@ -177,54 +130,10 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4fb62acd74c1c774",
-      "title": "zovulrira1974/blender-ai-copilot-assets — An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. Skip the tab-hopping: describe the mood, get the shortlist, approve the import—the asset lands in the scene with its license noted. Finding one good HDR or model means three sites, twenty tabs and a license you meant to check. blender-ai-copilot-assets searches the big free libraries from inside the chat: describe what the scene needs, compare what comes back, and import only after you confirm—assets, licenses and placement handled as part of the same supervised workflow that builds, ligh…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4fb62acd74c1c774"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/zovulrira1974/blender-ai-copilot-assets",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T19:39:54+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
       "held_back": true
     },
     {
@@ -269,220 +178,61 @@
       "held_back": true
     },
     {
-      "cluster_key": "a4ef297b6d8f415f",
-      "title": "benzgasfuncring197110/blender-ai-copilot-bridge — An MCP bridge for Blender that exposes 27 supervised scene tools to OpenCode and any compatible…",
-      "category": "tech_ai",
+      "cluster_key": "42fc1caad2b7227e",
+      "title": "CVE-2026-129453 (HIGH 8.6): A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of t…",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "windows"
+        "cve",
+        "exploit",
+        "release",
+        "vulnerability"
       ],
-      "summary": "An MCP bridge for Blender that exposes 27 supervised scene tools to OpenCode and any compatible client—authenticated Streamable HTTP on a local endpoint, with the visual chat studio and agent teams on the inside. Your coding agent gets a Blender hand: authenticate once, and the scene answers to get_scene_info, add_cube and export_scene like the rest of your toolchain. Your agents can read repos, write code and run tests—until the task says \"now make it in Blender\". blender-ai-copilot-bridge gives every MCP client a safe door into your scene: a local, authenticated Streamable HTTP endpoint that exposes the full supervised toolset—inspect, create, edit, capture, script, export—while approvals…",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 70.0,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "a4ef297b6d8f415f"
+        "42fc1caad2b7227e",
+        "9898175c12675cd9"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/benzgasfuncring197110/blender-ai-copilot-bridge",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T19:36:26+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "c78fbf213a069e8a",
-      "title": "How difficult would it be to make an honest to goodness memory safety vulnerability that leads to remote code execution in Rust without it being…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "vulnerability",
-        "windows"
-      ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe How difficult would it be to make an honest to goodness memory safety vulnerability that leads to remote code execution in Rust without it being overwhelmingly obvious that you're just doing it wrong intentionally?",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c78fbf213a069e8a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
+          "domain": "nist.gov",
+          "tier": "A"
+        },
         {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3n2267667nc2q",
-          "domain": "bsky.app",
-          "tier": "C"
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129453",
+          "domain": "nist.gov",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-11T14:30:43.550000+00:00",
+      "primary_links": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-129453"
+      ],
+      "published": "2026-11-15T09:16:44.570000+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 70 = trust 70 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
       ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4170bd017fe6c15b",
-      "title": "Doug-218/blender-ai-copilot-forge — A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "howto",
-        "opensource",
-        "windows"
-      ],
-      "summary": "A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials and parenting assemble in ordered steps, with approvals, named undo and a built-in MCP server. One sentence in, a scene out: pedestal, camera, three lights and a matte blue material—forged step by step while you watch the viewport answer. Blocking out a scene by hand is hours of add-menu, transform-panel, repeat—before any real design starts. blender-ai-copilot-forge puts a builder copilot in the sidebar: it reads what is already in your scene, then forges the layout you describe—primitives, duplicates in neat rows, cameras, three-point lighting, materials, parenting—as ordered operat…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4170bd017fe6c15b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Doug-218/blender-ai-copilot-forge",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T19:35:10+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "44b701950cb62925",
-      "title": "tiobeharxi1987/blender-ai-copilot-flow — A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. Nothing lands unseen: every edit is proposed, approved, run in order, and reversible by name. The scary part of AI in a production scene is not what it builds—it is what it might change while you blink. blender-ai-copilot-flow makes every copilot action a visible step in a controlled flow: proposed before execution, approved by you, applied in sequence with earlier steps finished first, cancellable after the current operation, and undoable through named undo step…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "44b701950cb62925"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T19:38:53+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d9006d3b1f354a9f",
-      "title": "baiblinocun1986/blender-ai-copilot-hub — A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter, OpenCode Zen, Ollama and custom endpoints into one hub of saved connections, with 27 supervised scene tools and a built-in MCP server. Every model you already use, one panel away: pick a saved connection, load its live catalog, and put the copilot to work on your scene. You pay for several AI providers, yet most tools lock you into one—and re-typing API keys into yet another app is the last thing a scene deadline needs. blender-ai-copilot-hub keeps every provider in one Blender-side hub: saved connection profiles for work and personal keys, live model catalogs, and a copilot that inspects…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "d9006d3b1f354a9f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/baiblinocun1986/blender-ai-copilot-hub",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-12T19:32:22+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -536,57 +286,16 @@
       "held_back": true
     },
     {
-      "cluster_key": "5c8c240e0492ee75",
-      "title": "People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI. It is so weird to still see comments here that AI hasn’t changed anything or that AI code is bad or that companies are retreating from AI use.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "5c8c240e0492ee75"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-11T22:00:44.261000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "1e2e1314ac1121e4",
-      "title": "berkantay/gpucanvas — Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and…",
+      "cluster_key": "44b128aec2494027",
+      "title": "taboospecialistblade/ai--manus2.0 — AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "hardware",
         "opensource"
       ],
-      "summary": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them. The same session on both sides: 5,000 live React screens, the same camera path, a message typed and sent. Left, every screen is plain DOM under a CSS transform. Recorded in Chrome on a MacBook Pro; the frame rates are measured live in each run. Live React or plain DOM nodes, drawn by WebGPU in one instanced pass.",
+      "summary": "Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. Code And Browser In On…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -597,7 +306,16 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "1e2e1314ac1121e4"
+        "44b128aec2494027",
+        "4e586d8f3f0205b2",
+        "4f7ab6510a7cbaf3",
+        "5033acd1e830d3db",
+        "580bd7811ab13c32",
+        "76dcfd420054eafd",
+        "b2ebbc1b7578ac2d",
+        "c0997196dc7db4ec",
+        "c6f04dc402f90872",
+        "d350d79de237d838"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -605,17 +323,208 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/berkantay/gpucanvas",
+          "url": "https://github.com/taboospecialistblade/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/topconstableinlet67/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/violetkomodolimit/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/trackersnailgrip/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/toppatronweave/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/TrapBladesmith/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Ultimateakiln/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Tonephorepair/ai--manus2.0",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/qweqeqeqweqeqwe/manus--ai",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-12T23:19:42+00:00",
+      "published": "2026-11-13T14:48:33+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "6ec89d66d1538174",
+      "title": "jasonsutter87/sketchcraft — Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and MCP server.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "howto",
+        "linux",
+        "opensource",
+        "privacy",
+        "release",
+        "tool",
+        "windows"
+      ],
+      "summary": "A free 3D modeler for houses, rooms, furniture and anything with straight walls. Draw an outline, pull it up into a shape, and keep going. If you've used SketchUp, you already know how: same tools, same shortcuts, and it opens your SketchUp files. It's free and open source, and runs on Mac, Windows and Linux. The first time you open it, your computer may ask whether you trust it, because SketchCraft isn't signed by Apple or Microsoft yet: - Mac: System Settings › Privacy & Security › Open Anyway.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "6ec89d66d1538174"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/jasonsutter87/sketchcraft",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-13T07:39:18+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "5dd3c7a4fa9c6d42",
+      "title": "therandomsecurityguy/signet — The seal of approval for agents and skills: a graph-first semantic governance registry with signed…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "llm",
+        "opensource",
+        "release",
+        "research",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "The seal of approval for agents and skills. Signet is a graph-first semantic governance system for autonomous agents and computational skills. Most registries are catalogs: metadata in, search out. Signet governs meaning, release state, and evidence — and stamps every trusted publication with the proof to back it up. What makes it different: - Logical identity ≠ publication snapshot.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5dd3c7a4fa9c6d42"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/therandomsecurityguy/signet",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-14T03:08:20+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-14 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "edbc353aab2a50b6",
+      "title": "OnlyTerp/turnpack — Fewer back-and-forth AI turns. Local MCP context pack + test-gated multi-file ship with automatic rollback.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "Drawn from the recorded runs in bench/results. One small task, three runs per arm: what that does and does not show. AI coding agents work in round trips: the model asks for something, waits, reads the result, and asks again. Each trip is a full model turn, a wait for the first token and then the tokens themselves. Today's apps already run independent reads side by side, so the trips that are left are the ones that depend on each other.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "edbc353aab2a50b6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/OnlyTerp/turnpack",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-13T05:43:06+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-13 — outside lookback window",
       "held_back": true
     },
     {
@@ -669,45 +578,215 @@
       "held_back": true
     },
     {
-      "cluster_key": "8b3fecdc10350838",
-      "title": "Mahanadi Coalfields IPO single profit calculator basis latest GMP: What investors may earn on listing?",
-      "category": "markets",
+      "cluster_key": "0f196ff5207f3903",
+      "title": "ysunyang4/Nexus — Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with…",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "india",
-        "markets"
+        "agents",
+        "ai",
+        "linux",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
       ],
-      "summary": "",
+      "summary": "Give web AI assistants access to authorized local tools through MCP Local execution · User-controlled permissions · Action history Community: LINUX DO. Two-part workflow: WebAgent is the optional browser extension for compatible web AI chat interfaces. Nexus is the local service that enforces workspace permissions and executes tool calls. You can also use Nexus directly with other compatible MCP clients. Nexus is an open-source local MCP control plane for compatible AI clients.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 0,
       "interest_score": 0,
       "corroboration": 1,
-      "blend": 13.8,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "8b3fecdc10350838"
+        "0f196ff5207f3903"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html",
-          "domain": "livemint.com",
+          "name": "GitHub (new)",
+          "url": "https://github.com/ysunyang4/Nexus",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-13T13:46:21+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "14a1f345f694acc6",
+      "title": "SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "release",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "14a1f345f694acc6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.22017",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.22017"
+      ],
+      "published": "2026-11-18T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "1888178a09e7b1fc",
+      "title": "Infoblox customer and staff data exposed in Sharepoint breach",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "cloud",
+        "dfir",
+        "identity",
+        "incident",
+        "network",
+        "privacy",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 37,
+      "interest_score": 100,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "1888178a09e7b1fc",
+        "32e56818bbc73d1e",
+        "4dc74b2b2200063d",
+        "765e23b06a0fc21e"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "The Register Security",
+          "url": "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
+          "domain": "theregister.com",
+          "tier": "B"
+        },
+        {
+          "name": "Beinsure",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVVocHJDTjhLNVRqY3pYRUhrbHN0Wk51T3JsMGJRZGZSZW9tR0NXa05EVDNJOEUxXzlZMzVEVlJpSlo3Zjh3aWpSVTZUeFJBVm9YVnd1dk5DcVBUS185S2ZjSnJhc0dCQ2ZJSkFrb3ZGeXJ4S2RHcm95WVZXNHFrdjhlcTlIMy12blhqcE1iM0t3YVRJTDNQX29SWQ?oc=5",
+          "domain": "beinsure.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "OODA Loop",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ0ozLVUydWJtdnZIV1htZEh0OThmN3E0SWpQTU9PaGpMX1prcXV0Q3Q1UzdERm44Y2Z3VktocFdNZURLSjdITFU3WUFSTS1jQlRtaEJscWhKV1FMNmw5bENlMnptZ1Zzb0ZmNUV1OW5qbWQ2cmpqTkdmaHJ0VFE2LUVWTlhlMWNmX3FzaXVCc3ZrMXJGeVVIZTNDYUJEcWpCalhLRS1Db1FxUktjUzI0U0Y3eWJHbkNTXzRqRU05dmU0eG94MVpmX2dlZUNaVTNBR290N1dWT1pjVVpt?oc=5",
+          "domain": "ooda-loop.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDbnVwa3U3VEdvMDFzRng0bUlmY1ZVUU56NkNSZlRzZHVXUVNWSGhFU1pfUVZyR01WcFVvVlA4QkxVdExsMzktYjd2S1VDTzVqS2xUam1UWTRtaklxT1pzTks4OWtQdWlzRzFOODRkbTNfeG_SAXNBVV95cUxNR3JONzAzOUZpT3hrTzdXX282N0lGMEhkb0dqYUhicVBNcm5XcWpVOWphUFdMbUlEQ2xGeXIwOVhrN3JqQmZGZ3J4SVpGRkRwOEQ0WHNEYnNFaEJzX3JQbC1rTzVGYnZCQ0VVemNzclIyMlVn?oc=5",
+          "domain": "sacramento-bee.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T21:53:28+00:00",
+      "trace": [
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "478b484f302f8626",
+      "title": "Keralam govt. issues order renaming mental health centres despite protests by psychiatrists, doctors",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "policy",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "478b484f302f8626"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/kerala/keralam-govt-issues-order-renaming-mental-health-centres-despite-protests-by-psychiatrists-doctors/article71716660.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-17T09:10:00+00:00",
+      "published": "2026-11-18T17:44:20+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 1/5 from gemini-3.5-flash-lite",
-        "blend 14 = trust 25 / interest 0 / corrob 25"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -765,19 +844,141 @@
       "held_back": true
     },
     {
-      "cluster_key": "c0abe57920f7de82",
-      "title": "Russian-Speaking Hackers Use AI-Assisted Malware and ClickFix Attacks to Target Windows Users",
-      "category": "cyber_attacks",
+      "cluster_key": "105867a8c9fee0fb",
+      "title": "spearsheep/anima-brain — Local-first memory and emotional continuity for AI companions.",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
-        "blueteam",
-        "incident",
-        "india",
-        "malware",
-        "threat-actor",
-        "tool",
-        "vulnerability"
+        "opensource",
+        "tool"
+      ],
+      "summary": "English | 简体中文 Memory and emotional continuity for AI companions. Python 3.11+ · Alpha 0.6.0 · MIT-licensed code Demos / Quickstart / SDK / Agent integrations / Docs / Try Anima A developer toolkit for building agents with persistent memory, character identity and emotional continuity. Use it from Python, plug it into an existing agent through MCP, or connect your own frontend. An optional Companion Studio web example lets you explore the SDK interactively. The Python distribution remains companion-engine, imports use companion_engine, and the CLI is companion, preserving existing integrations.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "105867a8c9fee0fb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/spearsheep/anima-brain",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-13T19:30:28+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "972aeea8040ace14",
+      "title": "imagine hanzi but getting the stroke order wrong changes the meaning of the character",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe imagine hanzi but getting the stroke order wrong changes the meaning of the character 2026-11-13T19:28:42.584Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "972aeea8040ace14"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3n27prtkz3s2r",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-13T19:28:42.324000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "1b1b6525e4efb57b",
+      "title": "Got to see student presentations today at the Generative AI Studio at Penn.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Got to see student presentations today at the Generative AI Studio at Penn. It was a visceral way to feel how far creative people can now get using AI. Already, almost every project from an individual was 10x further along than a fully done team project from three years ago.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1b1b6525e4efb57b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n27qnrq3b222",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-13T19:44:19.916000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "78f264173bfc07cd",
+      "title": "Attackers bypass GitHub SHA pinning with malicious fork commits",
+      "category": "cyber_tools",
+      "one_liner": "",
+      "tags": [
+        "appsec",
+        "cve",
+        "exploit",
+        "opensource",
+        "release",
+        "supply-chain",
+        "tool"
       ],
       "summary": "",
       "key_facts": [],
@@ -790,25 +991,24 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "c0abe57920f7de82"
+        "78f264173bfc07cd"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "CyberSecurityNews",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UcXZVbTNaUk5kbUtabTNSODlkYlJpVHdBeExiVzE5T1RxNDFvRl9taGFKRVcwS3dXenRqdTNrY2JMamEyM2RiakkzSDg3VTNXY0luYURiZjNsQXJIRG80YzQyTlFLMDJGY1lTNkFYZ9IBdEFVX3lxTE11Vy1uYWdfQ3dMT1dwMTRWU1FmTEhwUkJFVHBCa3ptLW1QQWNadm9vT0NabldiTlNfR0taT0k0V3NZSTM4WnlVMkNhUkNnRDl0cmhsUXhBNEpjeHBUWm5KcEtlcXkxWk90VzNiMUwtZVNHdnZS?oc=5",
-          "domain": "cybersecuritynews.publisher",
+          "name": "news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaE1MWkJzNERBWTd2RzhzbTFNSF9heXJ4LWZnT184ZnZ6czBGOXZwMjNOVy1kQk1iVGh3cWxsbFphQnMtWTZhNnAxY2VzME05cFJqWTVNZEJZbDV6dkxDQ3EtN0trak1ZNnhsQlhCQlVpYTE5RDQxb0JfVG04WXJBOTJVRFVta3o1YkNtNUdEOXkwLUZIM2Q4?oc=5",
+          "domain": "news-lavx-hu.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-17T09:53:13+00:00",
+      "published": "2026-11-17T16:41:45+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 5/5 from gemini-3.5-flash-lite",
         "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
@@ -816,160 +1016,62 @@
       "held_back": true
     },
     {
-      "cluster_key": "924d734685746af5",
-      "title": "Trump administration to name Nvidia, other AI firms as US 'national champions', WSJ reports",
+      "cluster_key": "b9e746ea197ef4d7",
+      "title": "Anthropic Leveraged ETF Race Heats Up Even Before Stock’s Debut",
       "category": "markets",
       "one_liner": "",
       "tags": [
-        "ai"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "924d734685746af5"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbzFERGNkd2ZLODdReVZtV3pnNVdJT3RyNDdpbUZQRXZHUEgzbVYtZTBwelhfV1hRbVVfOGsxeDJURWd2bEJubFlFUjFXZC1HM2Z4U3l2TXVhTXR3OTFPZ2xUaDhOVlBDWF93dDE0V2lsOEI3bGFGWXlmbnVldjNCQkJKQlFNbDVfaWR6cGpJdktZWlJXcEdNQkZnWWsxSlZGX19tQTIxYW5NVWQxb2NQclEza1JHaHBma3lmaFNzQWRtQld0UkRwT01IZEY0eUk?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T04:17:00+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-16 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "6478659b041b6eee",
-      "title": "Indian national missing after attacks on commercial vessel in Strait of Hormuz",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "incident",
-        "india",
-        "network",
-        "political"
+        "ai",
+        "dfir",
+        "llm",
+        "malware",
+        "markets"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 75,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 36.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6478659b041b6eee"
+        "b9e746ea197ef4d7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
-          "domain": "thehindu.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/anthropic-leveraged-etf-race-heats-up-even-before-stock-s-debut-11795033161402.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T01:07:32+00:00",
+      "published": "2026-11-18T20:19:20+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "435404a46f2225ad",
-      "title": "Japan's Fugaku supercomputer has decidedly un-super security",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "cloud",
-        "hardware",
-        "incident",
-        "malware",
-        "release",
-        "research",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 37,
-      "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "435404a46f2225ad",
-        "92ae9d39f8909b19"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "The Register Security",
-          "url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333",
-          "domain": "theregister.com",
-          "tier": "B"
-        },
-        {
-          "name": "Japan Wire by Kyodo News",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsbHRBbk5WR01TYmZZeWhoN0N1LUd6bG9zb19DVzFBMmt5STZzVlFfdEZaSlVjOFRLVmduRFRTVHdtSWJTTmJ6QWZYYkJTSC00cEluUDduZXhrQQ?oc=5",
-          "domain": "japan-wire-by-kyodo-news.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T05:27:04+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "81aaa1084ac4b44f",
-      "title": "NVIDIA/SkillEvaluator Gains Momentum on GitHub with 953 Stars in 24 Hours",
-      "category": "cyber_tools",
+      "cluster_key": "36c0da284c44034b",
+      "title": "Readie: Low-Latency Code Sandboxes for AI Agents",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "llm",
-        "opensource",
-        "release",
+        "privacy",
         "research",
         "tool"
       ],
@@ -977,169 +1079,36 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "81aaa1084ac4b44f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Blockchain News",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kbjdRbU5CUUZmTW55R09IU2NaMUdKQm1CTGcyQW9PUU1XUHFfczdkWkNFRFZkbG5kYlhzNFBZTFhlZFR6LWgxUVM2X1BERXdBM0tlbEhNQzVaLW8wcVJqY0p1ODN5eGx1LUhOZHhlTTROQzZw?oc=5",
-          "domain": "blockchain-news.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T03:36:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "7f64e80b4233f90a",
-      "title": "In a little over a week we will see the release of The Last Human Game.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu In a little over a week we will see the release of The Last Human Game. There will never be another AAA game at the scale of GTA 6 with no AI assistance. People in the future will look back at an all-human game with an billion dollar budget and wonder how they did it, like the Pyramids.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "7f64e80b4233f90a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzzzl3lbbs2i",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-11T13:07:54.824000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-11 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2040c07e1a185911",
-      "title": "ConnectSecure brings adaptive AI testing to vulnerability management",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "policy",
-        "release",
-        "research",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
+      "trust_score": 70,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "2040c07e1a185911"
+        "36c0da284c44034b"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/17/connectsecure-agentic-ai-penetration-testing/",
-          "domain": "helpnetsecurity.com",
-          "tier": "B"
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.22171",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-17T13:49:13+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.22171"
+      ],
+      "published": "2026-11-18T05:00:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "bb72156d07d8e06f",
-      "title": "Construction activities on Kaziranga wildlife corridors flagged",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "policy",
-        "political"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "bb72156d07d8e06f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/assam/construction-activities-on-kaziranga-wildlife-corridors-flagged/article71713607.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T21:44:11+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
