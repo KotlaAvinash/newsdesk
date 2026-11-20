@@ -1,66 +1,63 @@
 {
-  "generated_at": "2026-11-19T04:21:32.318675+00:00",
+  "generated_at": "2026-11-20T04:13:50.593005+00:00",
   "items": [
     {
-      "cluster_key": "fc7a63016972c067",
-      "title": "Canadian Extradited Over University Cryptomining Hacking Scheme Ryan James Roach, 35, of Saskatchewan was extradited to the US on October 28 over a scheme…",
-      "category": "cyber_attacks",
-      "one_liner": "A Canadian hacker was extradited to the U.S. for breaking into university supercomputers to run clandestine cryptomining operations.",
+      "cluster_key": "c1945d3ecd551b6a",
+      "title": "Sigma Lithium Successfully Closes US$125 Million, 5-Year Convertible Bond Offering, Upsized by 25%, Refinancing 2027 Debt and Lowering Interest Costs",
+      "category": "cyber_tools",
+      "one_liner": "Sigma Lithium closed an upsized $125M convertible bond to refinance high-interest debt and extend maturities to 2031.",
       "tags": [
-        "exploit",
-        "incident",
-        "malware",
-        "network",
-        "policy"
+        "markets"
       ],
-      "summary": "Ryan James Roach, a 35-year-old Canadian national, was extradited from Saskatchewan to the United States to face charges over an extensive university hacking scheme. Alongside co-defendant Mathiew James Stubbings, Roach allegedly breached the networks of at least four major U.S. universities between mid-2016 and late 2019 to steal credentials and install cryptomining rootkits. The conspirators used fake identities to rent virtual private servers and commandeer supercomputer processing power for illicit cryptocurrency generation. If convicted on the unsealed indictment charges, both men face up to 10 years in federal prison and financial restitution.",
+      "summary": "Sigma Lithium Corporation has successfully closed an upsized US$125 million 5-year convertible bond offering due in 2031, following strong investor demand that boosted the target by 25%. The primary proceeds will refinance 80% of the company's total debt, retiring approximately US$100 million of senior secured debt with Synergy Capital. This transaction extends the company's debt maturity profile from June 2027 to 2031, replaces secured debt with unsecured debt, and lowers total cash interest costs by substituting a fixed 7.00% p.a. coupon for the previous 11.45% floating rate. The move enhances financial flexibility and strengthens the balance sheet as the company expands its lithium operations.",
       "key_facts": [
-        "Defendant: Ryan James Roach (Age 35)",
-        "Extradition Date: October 28",
-        "Co-conspirator: Mathiew James Stubbings (Age 41)",
-        "Maximum Penalty: 10 years in prison, $250,000 fine"
+        "Offering size: US$125 million",
+        "Maturity year: 2031",
+        "Fixed coupon: 7.00% p.a.",
+        "Conversion price: US$6.51"
       ],
-      "bottom_line": "Cross-border law enforcement cooperation continues to pursue international hackers who compromise academic supercomputing infrastructure for financial gain.",
+      "bottom_line": "Sigma Lithium refinanced 80% of its debt into unsecured 2031 convertible bonds, lowering interest rates and releasing collateral.",
       "claims": [
         {
-          "text": "Ryan James Roach, a 35-year-old from Saskatchewan, Canada, was extradited to the United States on Oct. 28 and arraigned Tuesday in the U.S. District Court for the Western District of New York.",
-          "support_span": "Ryan James Roach, a 35-year-old from Saskatchewan, Canada, was extradited to the United States on Oct. 28 and arraigned Tuesday in the U.S. District Court for the Western District of New York.",
+          "text": "Sigma Lithium closes previously announced US$125M, 5-year convertible bond offering upsized by 25%, due in 2031 (the 'Convertible').",
+          "support_span": "Sigma Lithium closes previously announced US$125M, 5-year convertible bond offering upsized by 25%, due in 2031 (the 'Convertible').",
           "status": "contradicted"
-        },
-        {
-          "text": "A grand jury previously indicted the Canadian nationals in April 2022.",
-          "support_span": "A grand jury previously indicted the Canadian nationals in April 2022.",
-          "status": "entailed"
         }
       ],
-      "trust_score": 25,
+      "trust_score": 10,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 32.5,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "fc7a63016972c067"
+        "c1945d3ecd551b6a",
+        "d5c3119b58ad4213"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "CyberScoop",
-          "url": "https://cyberscoop.com/canadian-extradited-cryptomining-universities/",
-          "domain": "cyberscoop.com",
-          "tier": "B"
+          "name": "Quantisnow",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXhDczdMVXhsUEl3WHBuTEtLNF9feGpvTk9nd19nMHFpSld3UXlnUzl3NEI0cEd4OEkwamZ2NWhqOGxIeU5JSVo1WXA3eWswTnY3c3ZSQ3lfVUROLXg5VERSRlh5emVoTWRLMlBkMUs5YWhZdjhTQnV2d2ktZmtXZ0RianQ5UFVyWXRHSXIteXNjZkJZ?oc=5",
+          "domain": "quantisnow.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPdlFReWdycTZmNklIZFVOMVFZZ3dkVC1RdDhMbVF3VkxLdFlueUVJLTF1UFlQQkZtZ0JtOXp2aGVoSERuY2pWaEI2RXFDUmhqcDJoX3BKVUN0UG5lZElONWtXX1hVV0t6S0I2NlFfQThXSHprRGFhMDd2WHZrMjlmUkdNTThwV1lvckZ6Zm1IX2htcW1GWkRvZmw1c0k4MjhPWUo2OGdaRU5mVkwyTXJ2T1kwX29KUEwwaGRQM1JBcmR4S3lhM3BZbExZY2p4S2REang4TzRPYzg0RzVNMDBGVEFKWk0zenpDLVJCYm1sQnZCUUhlcGFtTEdud3NPUmJsQUhuLWttTDJIaXpBdzRaaDVkb2w3ekJadEZQUlA4VXQwdHdJREpYSTBtR0NyZEhIR2dUYXR0alR5ZFpNVmZNaXFtQmRrempv?oc=5",
+          "domain": "the-globe-and-mail.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T19:01:11+00:00",
+      "published": "2026-11-16T12:12:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -159,172 +156,56 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "67dcc428cce37625",
-      "title": "The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount…",
+      "cluster_key": "60996e7ae28a904a",
+      "title": "vaibhav-space/my-ai-coding-workflow — Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "llm",
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount on that price - though Carbon/Argon will 2x in price on Dec 1st Hydrogen's pelicans are notably worse 2026-11-13T00:36:22.272Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "67dcc428cce37625"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3n25qivmljs2t",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T00:36:16.745000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "42fc1caad2b7227e",
-      "title": "CVE-2026-129453 (HIGH 8.6): A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of t…",
-      "category": "cyber_attacks",
-      "one_liner": "A heap-based buffer overflow in DrayTek Vigor2960 1.5.1.6 allows remote attackers to execute arbitrary attacks via file checks.",
-      "tags": [
-        "cve",
-        "exploit",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "A heap-based buffer overflow vulnerability, tracked as CVE-2026-129453 with a CVSS score of 8.6, affects DrayTek Vigor2960 firmware version 1.5.1.6. The flaw exists within the check_file_exist function of the /cgi-bin/mainfunction.cgi component via manipulation of the upload_name parameter. Remote attackers can exploit this vulnerability, and public exploits are already available. Upgrading to version 1.5.1.7 mitigates the issue.",
-      "key_facts": [
-        "CVE ID: CVE-2026-129453",
-        "CVSS Score: 8.6 HIGH",
-        "Affected Product: DrayTek Vigor2960 1.5.1.6",
-        "Fixed Version: 1.5.1.7"
-      ],
-      "bottom_line": "Administrators must upgrade DrayTek Vigor2960 devices to version 1.5.1.7 immediately to patch public remote buffer overflow exploits.",
-      "claims": [
-        {
-          "text": "A vulnerability was found in DrayTek Vigor2960 1.5.1.6 affecting check_file_exist via upload_name manipulation.",
-          "support_span": "A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of the file /cgi-bin/mainfunction.cgi of the component File Existence Check. Performing a manipulation of the argument upload_name results in heap-based buffer overflow.",
-          "status": "entailed"
-        },
-        {
-          "text": "The CVSS base score is 8.6 and upgrading to version 1.5.1.7 addresses the issue.",
-          "support_span": "CVSS base score 8.6 (HIGH). Published 2026-11-15. Upgrading to version 1.5.1.7 is capable of addressing this issue.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 70.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "42fc1caad2b7227e",
-        "9898175c12675cd9"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
-          "domain": "nist.gov",
-          "tier": "A"
-        },
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129453",
-          "domain": "nist.gov",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-129453"
-      ],
-      "published": "2026-11-15T09:16:44.570000+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 70 = trust 70 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "9ccf8665576aaeb3",
-      "title": "The open-source movement wants Jensen Huang back",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
+        "agents",
         "ai",
+        "howto",
+        "linux",
         "llm",
         "opensource",
-        "research"
+        "tool"
       ],
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-sour…",
+      "summary": "The engineering instructions, curated skills, and three-stage review workflow I use to keep AI-assisted development fast, controlled, and verifiable. At a glance - What it is: one global rules file (CLAUDE.md) and three prompts: plan, critique the plan, audit the result. Who it is for: solo developers and small teams who let an AI agent write real code and want proof, not promises. It is a few text files plus some optional helpers. The rules are instructions the agent follows, not locks.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 0,
       "interest_score": 0,
-      "corroboration": 2,
+      "corroboration": 1,
       "blend": 0.0,
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9ccf8665576aaeb3",
-        "f89756bdc7b4b894"
+        "60996e7ae28a904a"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "MIT Tech Review",
-          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-          "domain": "technologyreview.com",
-          "tier": "B"
-        },
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-12T22:34:59.292000+00:00",
+      "published": "2026-11-14T13:34:16+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-12 — outside lookback window"
+      "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
       "cluster_key": "44b128aec2494027",
@@ -355,7 +236,6 @@
         "76dcfd420054eafd",
         "b2ebbc1b7578ac2d",
         "c0997196dc7db4ec",
-        "c6f04dc402f90872",
         "d350d79de237d838"
       ],
       "critical_signal": "",
@@ -415,37 +295,26 @@
           "url": "https://github.com/Tonephorepair/ai--manus2.0",
           "domain": "github.com",
           "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/qweqeqeqweqeqwe/manus--ai",
-          "domain": "github.com",
-          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T14:48:33+00:00",
+      "published": "2026-11-14T19:15:24+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
+      "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
-      "cluster_key": "6ec89d66d1538174",
-      "title": "jasonsutter87/sketchcraft — Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and MCP server.",
+      "cluster_key": "fa6f9a523c4f0651",
+      "title": "Tthanh2k6/turbo-browser-mcp — Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "howto",
-        "linux",
-        "opensource",
-        "privacy",
-        "release",
-        "tool",
-        "windows"
+        "llm",
+        "opensource"
       ],
-      "summary": "A free 3D modeler for houses, rooms, furniture and anything with straight walls. Draw an outline, pull it up into a shape, and keep going. If you've used SketchUp, you already know how: same tools, same shortcuts, and it opens your SketchUp files. It's free and open source, and runs on Mac, Windows and Linux. The first time you open it, your computer may ask whether you trust it, because SketchCraft isn't signed by Apple or Microsoft yet: - Mac: System Settings › Privacy & Security › Open Anyway.",
+      "summary": "An MCP server for browser automation, built on Playwright. It has 11 tools, and each one does more per call than the usual one-action-per-call design: - smart_fill_form fills a whole form in one call, including React inputs, selects, comboboxes, rich-text editors and file uploads read from disk. inspect_compact can return only the elements that changed since the last snapshot. batch_actions runs a list of clicks, key presses, form steps and page reads as one call. Fewer calls means fewer model turns and less page text replayed in the conversation.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -453,10 +322,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "6ec89d66d1538174"
+        "fa6f9a523c4f0651"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -464,17 +333,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/jasonsutter87/sketchcraft",
+          "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T07:39:18+00:00",
+      "published": "2026-11-14T12:11:07+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
+      "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
       "cluster_key": "5dd3c7a4fa9c6d42",
@@ -522,156 +391,126 @@
       "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
-      "cluster_key": "edbc353aab2a50b6",
-      "title": "OnlyTerp/turnpack — Fewer back-and-forth AI turns. Local MCP context pack + test-gated multi-file ship with automatic rollback.",
+      "cluster_key": "4cada68caea82105",
+      "title": "\"I Don't Think It's a Scam\": A First Look at Family Intervention Barriers in Elder Abuse Discussions on Reddit and Baidu Tieba",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Study highlights family intervention barriers when older adults resist fraud warnings and continue scams.",
       "tags": [
-        "agents",
-        "ai",
+        "identity",
         "llm",
-        "opensource",
+        "privacy",
+        "research",
         "tool"
       ],
-      "summary": "Drawn from the recorded runs in bench/results. One small task, three runs per arm: what that does and does not show. AI coding agents work in round trips: the model asks for something, waits, reads the result, and asks again. Each trip is a full model turn, a wait for the first token and then the tokens themselves. Today's apps already run independent reads side by side, so the trips that are left are the ones that depend on each other.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "edbc353aab2a50b6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/OnlyTerp/turnpack",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T05:43:06+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "0e08c614c75cbcc3",
-      "title": "spacesky-cell/TwinFix — TwinFix — AI agent that diagnoses, reproduces and fixes bugs in a disposable twin environment.",
-      "category": "cyber_tools",
-      "one_liner": "TwinFix offers a structured, agentic approach to automated bug fixing that prioritizes safety through isolated verification and human-in-the-loop approval.",
-      "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "cloud",
-        "dfir",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "TwinFix is a new AI agent designed to automate the diagnosis, reproduction, and repair of software bugs within isolated, disposable 'twin' environments. Unlike existing AI SRE tools that focus primarily on diagnosis, TwinFix modifies business code and verifies the fix against hidden tests before submitting it for human approval. The system supports multiple languages including Java, Python, Go, and TypeScript, and integrates with CI/CD pipelines using Docker Compose or Kubernetes. It enforces a strict workflow: diagnosis, reproduction in a twin environment, repair, independent verification, and final human review.",
+      "summary": "A study analyzing family intervention barriers in elder scams across Reddit and Baidu Tieba found that older adults frequently resist family warnings, showing continued involvement in 68% of Reddit posts. Relatives often lack legal authority to intervene without consent, and fund recovery is heavily limited when police classify voluntary transfers as civil disputes.",
       "key_facts": [
-        "Version: 0.1 alpha",
-        "Supported languages: Java, Python, Go, TypeScript, C#",
-        "Infrastructure: Docker Compose, Kubernetes"
+        "U.S. internet scam losses in 2024: $4.9 billion"
       ],
-      "bottom_line": "Automated code repair agents are moving toward 'twin' environment validation, which significantly reduces the risk of deploying faulty AI-generated patches.",
+      "bottom_line": "Legal and psychological barriers severely restrict families from stopping ongoing elder scam victimisation.",
       "claims": [
         {
-          "text": "TwinFix is an AI agent that diagnoses, reproduces and fixes bugs in a disposable twin environment.",
-          "support_span": "TwinFix — AI agent that diagnoses, reproduces and fixes bugs in a disposable twin environment.",
+          "text": "In 68.0% of Reddit posts recording reactions, older adults showed resistance or continued involvement; in Baidu Tieba family-confrontation posts, 41.9% showed continued belief.",
+          "support_span": "In 68.0% of Reddit posts recording reactions, older adults showed resistance or continued involvement; in Baidu Tieba family-confrontation posts, 41.9% showed continued belief.",
           "status": "contradicted"
-        },
-        {
-          "text": "The system supports Java, Python, Go, TypeScript, and C#.",
-          "support_span": "支持 Java（Maven / Gradle）、Python（pytest）、Go（go build / go test）、TypeScript / JavaScript（node --test）与 C# / .NET（dotnet build / dotnet run 测试工程）。",
-          "status": "entailed"
         }
       ],
-      "trust_score": 10,
+      "trust_score": 70,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0e08c614c75cbcc3"
+        "4cada68caea82105"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/spacesky-cell/TwinFix",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.24899",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-13T08:02:56+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.24899"
+      ],
+      "published": "2026-11-19T05:00:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "0f196ff5207f3903",
-      "title": "ysunyang4/Nexus — Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with…",
+      "cluster_key": "b7a81c659ac0ee44",
+      "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Rendering documents as images offers multimodal models conditional protection against prompt injection, but does not completely eliminate risks.",
       "tags": [
-        "agents",
         "ai",
-        "linux",
         "llm",
-        "opensource",
+        "research",
         "tool",
-        "windows"
+        "vulnerability"
       ],
-      "summary": "Give web AI assistants access to authorized local tools through MCP Local execution · User-controlled permissions · Action history Community: LINUX DO. Two-part workflow: WebAgent is the optional browser extension for compatible web AI chat interfaces. Nexus is the local service that enforces workspace permissions and executes tool calls. You can also use Nexus directly with other compatible MCP clients. Nexus is an open-source local MCP control plane for compatible AI clients.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "summary": "Research into indirect prompt injection attacks on multimodal language models demonstrates that rendering untrusted text documents as page images provides conditional protection against prompt hijacking. While image rendering reduces append and format execution across all evaluated models, tests show that certain models like Qwen3-VL-8B still execute image-borne replacement attacks at high rates. Furthermore, attackers can overcome the image defense by utilizing fixed attack candidates, and models often transcribe commands they do not execute, indicating that visual encoding alters attention spread rather than completely neutralizing injected payloads.",
+      "key_facts": [
+        "Evaluated sources: 191 English question-answering sources across 6 models",
+        "Qwen replacement execution rate: 77.96%"
+      ],
+      "bottom_line": "Multimodal LLM security architectures cannot rely on image rendering alone to block indirect prompt injection from untrusted documents.",
+      "claims": [
+        {
+          "text": "Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whether failed image attacks reflect unread commands or commands read but not followed.",
+          "support_span": "Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whether failed image attacks reflect unread commands or commands read but not followed.",
+          "status": "entailed"
+        },
+        {
+          "text": "Rendering reduces append and format execution for every model, yet Qwen3-VL-8B still executes image-borne replacement at 77.96%.",
+          "support_span": "Rendering reduces append and format execution for every model, yet Qwen3-VL-8B still executes image-borne replacement at 77.96%.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "0f196ff5207f3903"
+        "b7a81c659ac0ee44"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ysunyang4/Nexus",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.24231",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-13T13:46:21+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+      "primary_links": [
+        "https://arxiv.org/abs/2611.24231"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
+      "published": "2026-11-19T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "14a1f345f694acc6",
@@ -719,7 +558,175 @@
       "primary_links": [
         "https://arxiv.org/abs/2611.22017"
       ],
-      "published": "2026-11-18T05:00:00+00:00",
+      "published": "2026-11-19T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from cache",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "fa0e89bac09ad506",
+      "title": "The traffic from agent swarms doing research is going to be quite large, they are relentless at finding info.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The traffic from agent swarms doing research is going to be quite large, they are relentless at finding info. I had Fable 5.2 reconstruct WH Auden's 1941 poetry class. It found an obscure, relevant book on the Internet Archive, which it read a line at a time by doing repeated full text searches.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "fa0e89bac09ad506"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2bwllyra222",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-14T16:35:48.726000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-14 — outside lookback window"
+    },
+    {
+      "cluster_key": "6c19fc2b09f2cedb",
+      "title": "Securing and Auditing Long-Horizon LLM Agents: State-Transfer Auditing and Controls in the Agent Harness",
+      "category": "tech_ai",
+      "one_liner": "Secure long-horizon LLM agent execution harnesses against state-transfer failures and prompt injections using hash-chained audit records.",
+      "tags": [
+        "agents",
+        "ai",
+        "appsec",
+        "llm",
+        "research",
+        "threat-intel",
+        "tool"
+      ],
+      "summary": "Long-horizon LLM agents operating across web browsers and enterprise codebases frequently experience security and reliability failures during state transfers between working contexts, session histories, persistent memory, and external environments. Current execution traces omit boundary actions, blinding runtime monitors to indirect prompt injections, state truncation, and incomplete rollbacks. Researchers have developed a state-transfer audit architecture for agent harnesses that enforces hash-chained audit records at transfer boundaries. This mechanism binds internal cache states to external actions, supplying necessary data for deterministic checks, least-privilege enforcement, and transactional recovery across multi-step trajectories.",
+      "key_facts": [
+        "Evaluation Scale: 240 multi-step fault-injection trajectories"
+      ],
+      "bottom_line": "Implementing state-transfer audit architectures allows agent harnesses to catch cross-transfer violations and stop indirect prompt injections with microsecond overhead.",
+      "claims": [
+        {
+          "text": "At each transfer boundary, we define an audit point specifying the minimal hash-chained record the harness emits, separating low-overhead deterministic checks from model-based semantic checks",
+          "support_span": "At each transfer boundary, we define an audit point specifying the minimal hash-chained record the harness emits, separating low-overhead deterministic checks from model-based semantic checks and binding internal context, memory, and inference-server cache state to external actions.",
+          "status": "entailed"
+        },
+        {
+          "text": "We evaluate a reference harness middleware across 240 multi-step fault-injection trajectories, showing that transfer records localize root causes and catch cross-transfer violations missed by lifecycle and tool-only logs at microsecond deterministic overhead.",
+          "support_span": "Finally, we evaluate a reference harness middleware across 240 multi-step fault-injection trajectories, showing that transfer records localize root causes and catch cross-transfer violations missed by lifecycle and tool-only logs at microsecond deterministic overhead.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6c19fc2b09f2cedb"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.23346",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.23346"
+      ],
+      "published": "2026-11-19T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "976b37a6b4c7089d",
+      "title": "Who Is Behind the Harness? Verifying Model Identity in Coding Agents through Behavioral Fingerprinting",
+      "category": "tech_ai",
+      "one_liner": "LIDAR black-box fingerprinting identifies coding-agent LLMs based on runtime decisions and tool interactions.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "Replacing the underlying large language model in coding-agent harnesses can alter critical security decisions like failure recovery and code verification. Because traditional text-based LLM fingerprints fail when mediated by agent system prompts and execution frameworks, researchers propose LIDAR (LLM Identification from Decisions and Actions at Runtime). LIDAR evaluates execution behavior using active black-box probes across three harnesses without requiring model weights or logit access. Evaluations show high closed-set Top-1 accuracy between 91.39% and 98.89%, proving that agent decision trajectories expose reliable model-identity evidence.",
+      "key_facts": [
+        "Tested models: 24 models across 8 families",
+        "Closed-set Top-1 accuracy: 91.39% to 98.89%",
+        "Balanced accuracy: 79.58% to 80.42%"
+      ],
+      "bottom_line": "Coding-agent execution behavior and decision trajectories can accurately identify underlying LLMs without inspecting model weights.",
+      "claims": [
+        {
+          "text": "We present LIDAR (LLM Identification from Decisions and Actions at Runtime), an active black-box fingerprinting method for coding-agent execution.",
+          "support_span": "We present LIDAR (LLM Identification from Decisions and Actions at Runtime), an active black-box fingerprinting method for coding-agent execution.",
+          "status": "entailed"
+        },
+        {
+          "text": "Closed-set Top-1 accuracy ranges from 91.39% to 98.89% across the three harnesses, exceeding all three baselines in each setting.",
+          "support_span": "Closed-set Top-1 accuracy ranges from 91.39% to 98.89% across the three harnesses, exceeding all three baselines in each setting.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "976b37a6b4c7089d"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2609.28559",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2609.28559"
+      ],
+      "published": "2026-11-19T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
@@ -730,150 +737,126 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1888178a09e7b1fc",
-      "title": "Infoblox customer and staff data exposed in Sharepoint breach",
+      "cluster_key": "1cdb4d7d7f16f8bc",
+      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
       "category": "cyber_attacks",
-      "one_liner": "Infoblox suffered a SharePoint data breach via a third-party migration vendor, exposing customer NIOS deployment backups and deep employee PII.",
+      "one_liner": "A critical RCE in Puppet Enterprise is being exploited in the wild, requiring immediate patching of your infrastructure management server.",
       "tags": [
-        "cloud",
-        "dfir",
-        "identity",
-        "incident",
-        "network",
-        "privacy",
-        "windows"
+        "agents",
+        "blueteam",
+        "cve",
+        "exploit",
+        "howto",
+        "vulnerability"
       ],
-      "summary": "Networking and security vendor Infoblox is investigating a breach where intruders used a compromised third-party data migration vendor's trusted SharePoint access to exfiltrate sensitive customer and staff data. The stolen information includes NIOS deployment configuration snapshots containing DNS, DHCP, and Grid database logs, alongside employee details such as Social Security numbers, banking data, and dates of birth. In response, Infoblox activated incident response procedures, engaged cybersecurity experts, offered affected staff a $100 password management bonus, and provided two years of free credit monitoring. The company stated that no internal products, cloud services, or build processes were compromised in the incident.",
+      "summary": "Attackers are actively exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise that allows unauthenticated code execution via crafted report-processing requests. The flaw stems from a deserialization issue in the Puppet Server's report-ingestion component, which can be triggered if an attacker obtains a signed certificate. CISA has mandated that all US federal civilian agencies patch the vulnerability by December 1, 2026. Organizations are advised to upgrade to the latest security releases immediately and review their autosigning configurations to prevent unauthorized certificate issuance.",
       "key_facts": [
-        "Bonus: $100 spot bonus for affected staff",
-        "Credit monitoring: 2 years provided for employees and dependents"
+        "CVE-2026-115731: Critical RCE",
+        "Deadline: December 1, 2026",
+        "Affected: Puppet Enterprise 2023.8.x, 2025.0.x, 2026.0.x",
+        "Port: 8140"
       ],
-      "bottom_line": "Third-party vendor access to internal document platforms remains a critical blind spot that can lead directly to the exfiltration of sensitive configuration backups and PII.",
+      "bottom_line": "If you use Puppet Enterprise, you must patch immediately or restrict autosigning to prevent unauthenticated remote code execution on your configuration server.",
       "claims": [
         {
-          "text": "Infoblox is investigating a security event involving unauthorized access to certain company information through a compromised third-party data migration vendor.",
-          "support_span": "“Infoblox is investigating a security event involving unauthorized access to certain company information through a compromised third-party data migration vendor,” a company spokesperson confirmed to The Register.",
+          "text": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise",
+          "support_span": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise",
+          "status": "entailed"
+        },
+        {
+          "text": "CISA added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026.",
+          "support_span": "CISA added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026.",
           "status": "contradicted"
-        },
-        {
-          "text": "Compromised employee details include financial information such as direct deposit details, contact info, dates of birth, and Social Security numbers for employees and dependents.",
-          "support_span": "compromised employee details include financial information such as direct deposit details, contact info, dates of birth, and Social Security numbers for employees and dependents.",
-          "status": "entailed"
-        },
-        {
-          "text": "Affected staff received a $100 'spot bonus' to buy password management services.",
-          "support_span": "Affected staff received a $100 \"spot bonus\" to buy password management services, and were warned to be \"especially alert for phishing, vishing, fraud, or other suspicious communications.\"",
-          "status": "entailed"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 25,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": false,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "1888178a09e7b1fc",
-        "32e56818bbc73d1e",
-        "4dc74b2b2200063d",
-        "765e23b06a0fc21e"
+        "1cdb4d7d7f16f8bc"
+      ],
+      "critical_signal": "known exploited vulnerabilities catalog",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+          "domain": "helpnetsecurity.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-19T13:07:41+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "bf47b9b02de063f9",
+      "title": "Spectre of El Nino: CPI to average above 6% between November and March, says Elara's Garima Kapoor",
+      "category": "markets",
+      "one_liner": "Elara Securities projects RBI will hike rates by 25 bps in December and February as El Niño keeps CPI above 6%.",
+      "tags": [
+        "india",
+        "markets",
+        "policy",
+        "political"
+      ],
+      "summary": "India's retail inflation reached a two-year high of 6.1% in October, exceeding the central bank's upper limit due to surging food prices and an adverse base effect. Garima Kapoor, deputy head of research at Elara Securities, projects that headline CPI inflation will stay above 6% from November to March as El Niño conditions pressure agricultural output and reservoir levels. Consequently, Elara expects the Reserve Bank of India to enact 25-basis-point rate hikes in both December and February. Despite sticky inflation, domestic high-frequency indicators show consumer demand remains resilient, supported by steady credit growth and urban wealth effects.",
+      "key_facts": [
+        "October CPI inflation: 6.1%",
+        "Projected rate hikes: 25 bps in December, 25 bps in February",
+        "Projected CPI average (Nov-Mar): above 6%"
+      ],
+      "bottom_line": "Persistent El Niño-driven food inflation is expected to keep Indian retail inflation above 6% through March, driving expectations of consecutive RBI rate hikes.",
+      "claims": [
+        {
+          "text": "India's retail inflation rose to a two-year high of 6.1% in October, breaching the central bank's upper tolerance limit.",
+          "support_span": "India's retail inflation rose to a two-year high of 6.1% in October, breaching the central bank's upper tolerance limit.",
+          "status": "entailed"
+        },
+        {
+          "text": "Kapoor expects the Reserve Bank of India to deliver a 25-basis-point rate hike in December, followed by another 25-bps hike in February.",
+          "support_span": "Kapoor expects the Reserve Bank of India to deliver a 25-basis-point (bps) rate hike in December, followed by another 25-bps hike in February.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "bf47b9b02de063f9"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Register Security",
-          "url": "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
-          "domain": "theregister.com",
-          "tier": "B"
-        },
-        {
-          "name": "Beinsure",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVVocHJDTjhLNVRqY3pYRUhrbHN0Wk51T3JsMGJRZGZSZW9tR0NXa05EVDNJOEUxXzlZMzVEVlJpSlo3Zjh3aWpSVTZUeFJBVm9YVnd1dk5DcVBUS185S2ZjSnJhc0dCQ2ZJSkFrb3ZGeXJ4S2RHcm95WVZXNHFrdjhlcTlIMy12blhqcE1iM0t3YVRJTDNQX29SWQ?oc=5",
-          "domain": "beinsure.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "OODA Loop",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ0ozLVUydWJtdnZIV1htZEh0OThmN3E0SWpQTU9PaGpMX1prcXV0Q3Q1UzdERm44Y2Z3VktocFdNZURLSjdITFU3WUFSTS1jQlRtaEJscWhKV1FMNmw5bENlMnptZ1Zzb0ZmNUV1OW5qbWQ2cmpqTkdmaHJ0VFE2LUVWTlhlMWNmX3FzaXVCc3ZrMXJGeVVIZTNDYUJEcWpCalhLRS1Db1FxUktjUzI0U0Y3eWJHbkNTXzRqRU05dmU0eG94MVpmX2dlZUNaVTNBR290N1dWT1pjVVpt?oc=5",
-          "domain": "ooda-loop.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Sacramento Bee",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDbnVwa3U3VEdvMDFzRng0bUlmY1ZVUU56NkNSZlRzZHVXUVNWSGhFU1pfUVZyR01WcFVvVlA4QkxVdExsMzktYjd2S1VDTzVqS2xUam1UWTRtaklxT1pzTks4OWtQdWlzRzFOODRkbTNfeG_SAXNBVV95cUxNR3JONzAzOUZpT3hrTzdXX282N0lGMEhkb0dqYUhicVBNcm5XcWpVOWphUFdMbUlEQ2xGeXIwOVhrN3JqQmZGZ3J4SVpGRkRwOEQ0WHNEYnNFaEJzX3JQbC1rTzVGYnZCQ0VVemNzclIyMlVn?oc=5",
-          "domain": "sacramento-bee.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T21:53:28+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "478b484f302f8626",
-      "title": "Keralam govt. issues order renaming mental health centres despite protests by psychiatrists, doctors",
-      "category": "india_world",
-      "one_liner": "Kerala proceeds with renaming mental health centers to 'Institutes of Happiness and Wellness' despite fierce opposition from psychiatrists.",
-      "tags": [
-        "india",
-        "policy",
-        "political"
-      ],
-      "summary": "The Keralam government has formalized its decision to rename State Mental Health Centres as 'Regional Institutes of Happiness and Wellness' despite severe pushback from psychiatry professionals and medical associations. The Indian Psychiatric Society and the Indian Medical Association warned that the new nomenclature trivializes serious mental health disorders, creates confusion regarding legal and clinical identities under the Mental Healthcare Act of 2017, and compromises postgraduate DNB training programs. Although a Kerala High Court division bench previously suggested renaming centres to reduce societal stigma, medical bodies argued that terms like 'happiness and wellness' resemble commercial spas rather than specialised medical facilities.",
-      "key_facts": [
-        "Order date: November 13, 2026",
-        "New name: Regional Institutes of Happiness and Wellness"
-      ],
-      "bottom_line": "The Kerala government has officially renamed mental health centers to 'Regional Institutes of Happiness and Wellness,' overriding strong clinical and legal objections from medical associations.",
-      "claims": [
-        {
-          "text": "With the government issuing the government order (GO) on November 13, formalising the change in nomenclature, the Indian Psychiatric Society’s (IPS) Keralam branch and other medical bodies... have renewed their warning that the change in nomenclature could undermine the clinical, academic and legal identity of the State’s MHCs.",
-          "support_span": "With the government issuing the government order (GO) on November 13, formalising the change in nomenclature, the Indian Psychiatric Society’s (IPS) Keralam branch and other medical bodies, including the Indian Medical Association (IMA) and the Kerala Government Medical Officers’ Association, have renewed their warning that the change in nomenclature could undermine the clinical, academic and legal identity of the State’s MHCs.",
-          "status": "entailed"
-        },
-        {
-          "text": "The controversy follows a suggestion by a Division Bench of the Kerala High Court on August 21, 2026, that the government consider renaming the centres to address the stigma associated with them.",
-          "support_span": "The controversy following a suggestion by a Division Bench of the Kerala High Court on August 21, 2026, that the government consider renaming the centres to address the stigma associated with them.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "478b484f302f8626"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/kerala/keralam-govt-issues-order-renaming-mental-health-centres-despite-protests-by-psychiatrists-doctors/article71716660.ece",
-          "domain": "thehindu.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/mark-to-market/spectre-of-el-nino-cpi-to-average-above-6-between-november-march-says-garima-kapoor-of-elara-11795079302692.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T17:44:20+00:00",
+      "published": "2026-11-20T02:30:36+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -945,46 +928,69 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "105867a8c9fee0fb",
-      "title": "spearsheep/anima-brain — Local-first memory and emotional continuity for AI companions.",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "8d347076d4ba44fb",
+      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+      "category": "india_world",
+      "one_liner": "Elon Musk expressed regret over his record $446m midterm spending as Democratic congressional wins threaten increased tech scrutiny.",
       "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "tool"
+        "political",
+        "threat-intel"
       ],
-      "summary": "English | 简体中文 Memory and emotional continuity for AI companions. Python 3.11+ · Alpha 0.6.0 · MIT-licensed code Demos / Quickstart / SDK / Agent integrations / Docs / Try Anima A developer toolkit for building agents with persistent memory, character identity and emotional continuity. Use it from Python, plug it into an existing agent through MCP, or connect your own frontend. An optional Companion Studio web example lets you explore the SDK interactively. The Python distribution remains companion-engine, imports use companion_engine, and the CLI is companion, preserving existing integrations.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
+      "summary": "Tesla and SpaceX CEO Elon Musk stated he felt 'pretty foolish' about spending a record $446 million supporting Republican candidates in the US midterms following sweeping defeats. Democrats flipped control of both chambers of the US Congress and won major state races, including the Texas governorship where Democrat Gina Hinojosa defeated Republican Greg Abbott. Musk also clarified that he is 'not Maga' and lacks blind adherence to right-wing political policies. The Democratic victories in Congress and state governments could lead to increased regulatory scrutiny over his companies, data center rollouts, and lucrative government contracts.",
+      "key_facts": [
+        "Total spending: $446m"
+      ],
+      "bottom_line": "Sweeping Democratic victories in the US midterms have left major Republican donor Elon Musk facing potential regulatory scrutiny for his tech firms.",
+      "claims": [
+        {
+          "text": "Elon Musk said on Wednesday that he felt 'pretty foolish' about the record sum he spent on the US midterm elections, following sweeping Republican defeats.",
+          "support_span": "Elon Musk said on Wednesday that he felt 'pretty foolish' about the record sum he spent on the US midterm elections, following sweeping Republican defeats.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Democrats won control of both chambers in the US Congress, flipping both swing seats and making historic gains in places that have for decades been controlled by Republicans.",
+          "support_span": "Democrats won control of both chambers in the US Congress, flipping both swing seats and making historic gains in places that have for decades been controlled by Republicans.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 52,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 61.8,
+      "is_new": false,
+      "summary_source": "model",
       "alt_keys": [
-        "105867a8c9fee0fb"
+        "8d347076d4ba44fb",
+        "ba85ca6264593ceb"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/spearsheep/anima-brain",
-          "domain": "github.com",
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTl9SMXVYalFha1V6ZW9BWWRQTUl5TDE3cUlRcjVFTVdSM3VmNUFxbFhkUWlleTFyaG5KUl9ObFE5dkM1NXk1UkNMZHFVRTNHLXVxdF9DRTN0NUdENEtVbUthWTNHVWkwQk1uZUFIWkp4Z21EVkZmdmRLd1FNUHpMSEIxNzY3b29fTWtsMTduYXJveEhPZmVBdjBPWXFPSXg0bjc0bUU5ZWQyck1QZTltSUdPdE5sLTk1cGZacjY0QVRjTWVTdFctMHYtX3NUdnFHVGIw?oc=5",
+          "domain": "reuters.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T19:30:28+00:00",
+      "published": "2026-11-19T00:56:00+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 62 = trust 52 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "972aeea8040ace14",
@@ -1065,6 +1071,164 @@
       "reject_reason": "published 2026-11-13 — outside lookback window"
     },
     {
+      "cluster_key": "4791be8c8d1c7a5d",
+      "title": "SiGMA and CIBELAE sign agreement to strengthen gaming sector cooperation",
+      "category": "cyber_tools",
+      "one_liner": "SiGMA Group and CIBELAE signed an MoU in Rome to deepen regulatory cooperation and combat illegal cross-border gambling.",
+      "tags": [
+        "policy",
+        "political"
+      ],
+      "summary": "SiGMA Group and the Corporación Iberoamericana de Loterías y Apuestas de Estado (CIBELAE) have signed a memorandum of understanding in Rome to strengthen international cooperation between the gaming and lottery sectors. The agreement focuses on knowledge exchange, regulatory alignment, responsible gaming, and combating illegal cross-border gambling. CIBELAE represents state lotteries across Ibero-America, accounting for over 85% of the legal lottery market between Mexico and Argentina.",
+      "key_facts": [
+        "Market share: over 85% of the lottery market between Mexico and Argentina"
+      ],
+      "bottom_line": "Formalized cross-border regulatory alliances between gaming associations aim to crack down on unlicensed digital operators across Latin America.",
+      "claims": [
+        {
+          "text": "SiGMA Group and the Corporación Iberoamericana de Loterías y Apuestas de Estado (CIBELAE) have signed a memorandum of understanding (MoU) to strengthen cooperation between the international gaming and lottery sectors.",
+          "support_span": "SiGMA Group and the Corporación Iberoamericana de Loterías y Apuestas de Estado (CIBELAE) have signed a memorandum of understanding (MoU) to strengthen cooperation between the international gaming and lottery sectors.",
+          "status": "entailed"
+        },
+        {
+          "text": "The agreement was signed on the second day of SiGMA World in Rome by CIBELAE President Javier Milián and SiGMA Group Chief International Relations Officer Heathcliff Farrugia...",
+          "support_span": "The agreement was signed on the second day of SiGMA World in Rome by CIBELAE President Javier Milián and SiGMA Group Chief International Relations Officer Heathcliff Farrugia...",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 21.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "4791be8c8d1c7a5d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Yogonet",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3NaYmdxd1hzMXE1VkNJR3FWMUJPOGhpZ09SVjdYQWsyMVV4aUt5clBoallZYy1BZWpuUE1qSGRlOVJfRnJFZEVqNXZyejdWRUM1aXJKemJZbDBhMHZ4VU1yOTh1RmVUOUEtV1RXZEdVOVo2Y0VtZkllQ1JMdkQzRk9WS1Y2dG9ac3hIUFB5VGVGeGtvSFFRQkY5UkxUTEFudFYtUjlDQS04ODl0VFBJZUNzSVRCa3Z1bDQ1eUtYRllhdkVKVEFMTVZlS2VSdw?oc=5",
+          "domain": "yogonet.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-18T12:46:09+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "9a6ede7025ddcbd9",
+      "title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+      "category": "india_world",
+      "one_liner": "Domestically produced cumin-flavored sodas are rapidly eroding the market share of global cola giants in India's mass-market beverage category.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "Cumin-laced fizzy sodas developed by domestic Indian brands are rapidly capturing market share from global beverage giants like Coca-Cola and PepsiCo in the country's mass-market carbonated drinks sector. Initiated by brands like Lahori Zeera, Xotik Frujus's Jeeru, and Mukesh Ambani's Campa Jeera, this ethnic beverages category has doubled its market share to around 15%, causing a structural shift similar to Reliance Jio's disruption of the telecom market. Analysts attribute the surge to consumer preference for indigenous, health-perceived flavors in the $32 billion non-alcoholic beverage market. Major players like Parle Agro have expanded national distribution of their own cumin variants to capitalize on the soaring demand.",
+      "key_facts": [
+        "Market Share Gain: Ethnic beverages reached ~15%",
+        "Duopoly Share Drop: Coca-Cola and PepsiCo fell from 93% to 85%",
+        "Market Valuation: $32 billion in 2024"
+      ],
+      "bottom_line": "Local ethnic cumin sodas have captured a 15% share of India's carbonated soft-drinks market, dealing a structural blow to traditional beverage duopolies.",
+      "claims": [
+        {
+          "text": "Lahori Zeera was launched in 2017 by three cousins in Punjab after brewing a cumin-flavored soda.",
+          "support_span": "Saurabh Munjal, Nikhil Doda and Saurabh Bhutna - three cousins in India's north-western Punjab state - were messing about at home post dinner one evening, when Doda casually brewed up a tangy cumin-flavoured fizzy soda... launched Lahori Zeera in 2017.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Lahori Zeera is projected to close the year with revenues of $115-120m.",
+          "support_span": "- it will close this year with revenues of $115-120m.",
+          "status": "entailed"
+        },
+        {
+          "text": "Ethnic beverage challengers doubled their share of India's carbonated soft-drinks market to around 15% while Coca-Cola and PepsiCo fell from 93% to 85%.",
+          "support_span": "According to a report from Kotak Mutual Fund earlier this year, Lahori Zeera, Campa and other smaller challengers - now dubbed as India's \"ethnic beverages market\" - collectively doubled their share of India's carbonated soft-drinks market to around 15% by September last year, while the combined market share of Coca-Cola and PepsiCo fell from roughly 93% to 85%.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 40.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "9a6ede7025ddcbd9"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-19T23:29:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 40 = trust 40 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "4d80d34754737813",
+      "title": "The end result of the reconstruction is very impressive, however.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "release"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The end result of the reconstruction is very impressive, however. It made a version of the lost class, called the “hardest in the humanities,\" that is remarkably accessible and based on scattered textual evidence from Auden's writing & surviving notes. auden-english-135.netlify.app /tempest/son... [contains quote post or other embedded content] 2026-11-14T18:52:29.656Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "4d80d34754737813"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2c67rtdjs22",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-14T18:52:22.123000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-14 — outside lookback window"
+    },
+    {
       "cluster_key": "78f264173bfc07cd",
       "title": "Attackers bypass GitHub SHA pinning with malicious fork commits",
       "category": "cyber_tools",
@@ -1126,64 +1290,49 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "b9e746ea197ef4d7",
-      "title": "Anthropic Leveraged ETF Race Heats Up Even Before Stock’s Debut",
-      "category": "markets",
-      "one_liner": "Issuers are racing to file multiple leveraged ETFs tied to Anthropic ahead of its IPO to capture early retail trading volume.",
+      "cluster_key": "f7a016ab59a8fe30",
+      "title": "AI is getting better faster than our measurements are.",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "ai",
-        "dfir",
-        "llm",
-        "malware",
-        "markets"
+        "ai"
       ],
-      "summary": "Financial issuers are rushing to file over 20 leveraged exchange-traded products tied to Anthropic ahead of its anticipated public offering, aiming to capture early retail investor trading volume. This race mirrors the heavy filing activity seen during previous high-profile IPOs like SpaceX, where issuers sought first-mover advantages despite risks associated with daily rebalancing volatility in leveraged funds. Analysts warn that these products are structured for short-term trading rather than long-term holding due to decay effects.",
-      "key_facts": [
-        "Number of filed products: More than 20 exchange-traded products"
-      ],
-      "bottom_line": "First-mover advantage drives aggressive leveraged ETF filings ahead of major tech IPOs, despite severe compounding risks for retail investors holding them long-term.",
-      "claims": [
-        {
-          "text": "Providers have filed for more than 20 exchange-traded products to amplify daily moves on Anthropic.",
-          "support_span": "Providers have filed for more than 20 exchange-traded products to amplify daily moves on the chatbot maker once it goes public, both on the upside and the downside, as firms including Direxion, ProShares and GraniteShares jostle for a first-mover advantage, according to a Bloomberg Intelligence tally.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu AI is getting better faster than our measurements are. I threw together SatBench, which measures how quickly major AI benchmarks become saturated (effectively solved) by AI. Of 173 benchmarks cited by the Labs since 2023, 63% are now saturated. Saturation of new benchmarks is also happening faster.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "b9e746ea197ef4d7"
+        "f7a016ab59a8fe30"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/anthropic-leveraged-etf-race-heats-up-even-before-stock-s-debut-11795033161402.html",
-          "domain": "livemint.com",
-          "tier": "B"
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2cotuxdvk22",
+          "domain": "bsky.app",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T20:19:20+00:00",
+      "published": "2026-11-14T23:49:56.358000+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
       "cluster_key": "36c0da284c44034b",
@@ -1236,12 +1385,12 @@
       "primary_links": [
         "https://arxiv.org/abs/2611.22171"
       ],
-      "published": "2026-11-18T05:00:00+00:00",
+      "published": "2026-11-19T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"

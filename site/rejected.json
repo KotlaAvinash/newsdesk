@@ -1,50 +1,52 @@
 {
-  "generated_at": "2026-11-19T04:21:32.318675+00:00",
+  "generated_at": "2026-11-20T04:13:50.593005+00:00",
   "items": [
     {
-      "cluster_key": "fc7a63016972c067",
-      "title": "Canadian Extradited Over University Cryptomining Hacking Scheme Ryan James Roach, 35, of Saskatchewan was extradited to the US on October 28 over a scheme…",
-      "category": "cyber_attacks",
+      "cluster_key": "c1945d3ecd551b6a",
+      "title": "Sigma Lithium Successfully Closes US$125 Million, 5-Year Convertible Bond Offering, Upsized by 25%, Refinancing 2027 Debt and Lowering Interest Costs",
+      "category": "cyber_tools",
       "one_liner": "",
       "tags": [
-        "exploit",
-        "incident",
-        "malware",
-        "network",
-        "policy"
+        "markets"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 10,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 32.5,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "fc7a63016972c067"
+        "c1945d3ecd551b6a",
+        "d5c3119b58ad4213"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "CyberScoop",
-          "url": "https://cyberscoop.com/canadian-extradited-cryptomining-universities/",
-          "domain": "cyberscoop.com",
-          "tier": "B"
+          "name": "Quantisnow",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXhDczdMVXhsUEl3WHBuTEtLNF9feGpvTk9nd19nMHFpSld3UXlnUzl3NEI0cEd4OEkwamZ2NWhqOGxIeU5JSVo1WXA3eWswTnY3c3ZSQ3lfVUROLXg5VERSRlh5emVoTWRLMlBkMUs5YWhZdjhTQnV2d2ktZmtXZ0RianQ5UFVyWXRHSXIteXNjZkJZ?oc=5",
+          "domain": "quantisnow.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPdlFReWdycTZmNklIZFVOMVFZZ3dkVC1RdDhMbVF3VkxLdFlueUVJLTF1UFlQQkZtZ0JtOXp2aGVoSERuY2pWaEI2RXFDUmhqcDJoX3BKVUN0UG5lZElONWtXX1hVV0t6S0I2NlFfQThXSHprRGFhMDd2WHZrMjlmUkdNTThwV1lvckZ6Zm1IX2htcW1GWkRvZmw1c0k4MjhPWUo2OGdaRU5mVkwyTXJ2T1kwX29KUEwwaGRQM1JBcmR4S3lhM3BZbExZY2p4S2REang4TzRPYzg0RzVNMDBGVEFKWk0zenpDLVJCYm1sQnZCUUhlcGFtTEdud3NPUmJsQUhuLWttTDJIaXpBdzRaaDVkb2w3ekJadEZQUlA4VXQwdHdJREpYSTBtR0NyZEhIR2dUYXR0alR5ZFpNVmZNaXFtQmRrempv?oc=5",
+          "domain": "the-globe-and-mail.publisher",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T19:01:11+00:00",
+      "published": "2026-11-16T12:12:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -130,6 +132,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
@@ -137,152 +140,49 @@
       "held_back": true
     },
     {
-      "cluster_key": "67dcc428cce37625",
-      "title": "The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount…",
+      "cluster_key": "60996e7ae28a904a",
+      "title": "vaibhav-space/my-ai-coding-workflow — Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "llm",
-        "windows"
-      ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount on that price - though Carbon/Argon will 2x in price on Dec 1st Hydrogen's pelicans are notably worse 2026-11-13T00:36:22.272Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "67dcc428cce37625"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3n25qivmljs2t",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T00:36:16.745000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-13 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "42fc1caad2b7227e",
-      "title": "CVE-2026-129453 (HIGH 8.6): A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of t…",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "cve",
-        "exploit",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 70,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 70.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "42fc1caad2b7227e",
-        "9898175c12675cd9"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
-          "domain": "nist.gov",
-          "tier": "A"
-        },
-        {
-          "name": "NVD",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129453",
-          "domain": "nist.gov",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-129453"
-      ],
-      "published": "2026-11-15T09:16:44.570000+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 70 = trust 70 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "9ccf8665576aaeb3",
-      "title": "The open-source movement wants Jensen Huang back",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
+        "agents",
         "ai",
+        "howto",
+        "linux",
         "llm",
         "opensource",
-        "research"
+        "tool"
       ],
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-sour…",
+      "summary": "The engineering instructions, curated skills, and three-stage review workflow I use to keep AI-assisted development fast, controlled, and verifiable. At a glance - What it is: one global rules file (CLAUDE.md) and three prompts: plan, critique the plan, audit the result. Who it is for: solo developers and small teams who let an AI agent write real code and want proof, not promises. It is a few text files plus some optional helpers. The rules are instructions the agent follows, not locks.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 0,
       "interest_score": 0,
-      "corroboration": 2,
+      "corroboration": 1,
       "blend": 0.0,
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9ccf8665576aaeb3",
-        "f89756bdc7b4b894"
+        "60996e7ae28a904a"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "MIT Tech Review",
-          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-          "domain": "technologyreview.com",
-          "tier": "B"
-        },
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-12T22:34:59.292000+00:00",
+      "published": "2026-11-14T13:34:16+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-12 — outside lookback window",
+      "reject_reason": "published 2026-11-14 — outside lookback window",
       "held_back": true
     },
     {
@@ -314,7 +214,6 @@
         "76dcfd420054eafd",
         "b2ebbc1b7578ac2d",
         "c0997196dc7db4ec",
-        "c6f04dc402f90872",
         "d350d79de237d838"
       ],
       "critical_signal": "",
@@ -374,38 +273,27 @@
           "url": "https://github.com/Tonephorepair/ai--manus2.0",
           "domain": "github.com",
           "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/qweqeqeqweqeqwe/manus--ai",
-          "domain": "github.com",
-          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T14:48:33+00:00",
+      "published": "2026-11-14T19:15:24+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "reject_reason": "published 2026-11-14 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "6ec89d66d1538174",
-      "title": "jasonsutter87/sketchcraft — Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and MCP server.",
+      "cluster_key": "fa6f9a523c4f0651",
+      "title": "Tthanh2k6/turbo-browser-mcp — Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "howto",
-        "linux",
-        "opensource",
-        "privacy",
-        "release",
-        "tool",
-        "windows"
+        "llm",
+        "opensource"
       ],
-      "summary": "A free 3D modeler for houses, rooms, furniture and anything with straight walls. Draw an outline, pull it up into a shape, and keep going. If you've used SketchUp, you already know how: same tools, same shortcuts, and it opens your SketchUp files. It's free and open source, and runs on Mac, Windows and Linux. The first time you open it, your computer may ask whether you trust it, because SketchCraft isn't signed by Apple or Microsoft yet: - Mac: System Settings › Privacy & Security › Open Anyway.",
+      "summary": "An MCP server for browser automation, built on Playwright. It has 11 tools, and each one does more per call than the usual one-action-per-call design: - smart_fill_form fills a whole form in one call, including React inputs, selects, comboboxes, rich-text editors and file uploads read from disk. inspect_compact can return only the elements that changed since the last snapshot. batch_actions runs a list of clicks, key presses, form steps and page reads as one call. Fewer calls means fewer model turns and less page text replayed in the conversation.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -413,10 +301,10 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "6ec89d66d1538174"
+        "fa6f9a523c4f0651"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -424,17 +312,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/jasonsutter87/sketchcraft",
+          "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T07:39:18+00:00",
+      "published": "2026-11-14T12:11:07+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "reject_reason": "published 2026-11-14 — outside lookback window",
       "held_back": true
     },
     {
@@ -484,143 +372,105 @@
       "held_back": true
     },
     {
-      "cluster_key": "edbc353aab2a50b6",
-      "title": "OnlyTerp/turnpack — Fewer back-and-forth AI turns. Local MCP context pack + test-gated multi-file ship with automatic rollback.",
+      "cluster_key": "4cada68caea82105",
+      "title": "\"I Don't Think It's a Scam\": A First Look at Family Intervention Barriers in Elder Abuse Discussions on Reddit and Baidu Tieba",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
+        "identity",
         "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "Drawn from the recorded runs in bench/results. One small task, three runs per arm: what that does and does not show. AI coding agents work in round trips: the model asks for something, waits, reads the result, and asks again. Each trip is a full model turn, a wait for the first token and then the tokens themselves. Today's apps already run independent reads side by side, so the trips that are left are the ones that depend on each other.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "edbc353aab2a50b6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/OnlyTerp/turnpack",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T05:43:06+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-13 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "0e08c614c75cbcc3",
-      "title": "spacesky-cell/TwinFix — TwinFix — AI agent that diagnoses, reproduces and fixes bugs in a disposable twin environment.",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "appsec",
-        "cloud",
-        "dfir",
-        "llm",
-        "opensource",
+        "privacy",
+        "research",
         "tool"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
+      "trust_score": 70,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0e08c614c75cbcc3"
+        "4cada68caea82105"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/spacesky-cell/TwinFix",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.24899",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-13T08:02:56+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.24899"
+      ],
+      "published": "2026-11-19T05:00:00+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "0f196ff5207f3903",
-      "title": "ysunyang4/Nexus — Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with…",
+      "cluster_key": "b7a81c659ac0ee44",
+      "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
-        "linux",
         "llm",
-        "opensource",
+        "research",
         "tool",
-        "windows"
+        "vulnerability"
       ],
-      "summary": "Give web AI assistants access to authorized local tools through MCP Local execution · User-controlled permissions · Action history Community: LINUX DO. Two-part workflow: WebAgent is the optional browser extension for compatible web AI chat interfaces. Nexus is the local service that enforces workspace permissions and executes tool calls. You can also use Nexus directly with other compatible MCP clients. Nexus is an open-source local MCP control plane for compatible AI clients.",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "0f196ff5207f3903"
+        "b7a81c659ac0ee44"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ysunyang4/Nexus",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.24231",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-13T13:46:21+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+      "primary_links": [
+        "https://arxiv.org/abs/2611.24231"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "published": "2026-11-19T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -663,7 +513,150 @@
       "primary_links": [
         "https://arxiv.org/abs/2611.22017"
       ],
-      "published": "2026-11-18T05:00:00+00:00",
+      "published": "2026-11-19T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from cache",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "fa0e89bac09ad506",
+      "title": "The traffic from agent swarms doing research is going to be quite large, they are relentless at finding info.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The traffic from agent swarms doing research is going to be quite large, they are relentless at finding info. I had Fable 5.2 reconstruct WH Auden's 1941 poetry class. It found an obscure, relevant book on the Internet Archive, which it read a line at a time by doing repeated full text searches.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "fa0e89bac09ad506"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2bwllyra222",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-14T16:35:48.726000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-14 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "6c19fc2b09f2cedb",
+      "title": "Securing and Auditing Long-Horizon LLM Agents: State-Transfer Auditing and Controls in the Agent Harness",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "appsec",
+        "llm",
+        "research",
+        "threat-intel",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6c19fc2b09f2cedb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.23346",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.23346"
+      ],
+      "published": "2026-11-19T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "976b37a6b4c7089d",
+      "title": "Who Is Behind the Harness? Verifying Model Identity in Coding Agents through Behavioral Fingerprinting",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "976b37a6b4c7089d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2609.28559",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2609.28559"
+      ],
+      "published": "2026-11-19T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
@@ -675,84 +668,62 @@
       "held_back": true
     },
     {
-      "cluster_key": "1888178a09e7b1fc",
-      "title": "Infoblox customer and staff data exposed in Sharepoint breach",
+      "cluster_key": "1cdb4d7d7f16f8bc",
+      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
       "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "cloud",
-        "dfir",
-        "identity",
-        "incident",
-        "network",
-        "privacy",
-        "windows"
+        "agents",
+        "blueteam",
+        "cve",
+        "exploit",
+        "howto",
+        "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 37,
+      "trust_score": 25,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
-      "is_new": false,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "1888178a09e7b1fc",
-        "32e56818bbc73d1e",
-        "4dc74b2b2200063d",
-        "765e23b06a0fc21e"
+        "1cdb4d7d7f16f8bc"
       ],
-      "critical_signal": "",
+      "critical_signal": "known exploited vulnerabilities catalog",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The Register Security",
-          "url": "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
-          "domain": "theregister.com",
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+          "domain": "helpnetsecurity.com",
           "tier": "B"
-        },
-        {
-          "name": "Beinsure",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVVocHJDTjhLNVRqY3pYRUhrbHN0Wk51T3JsMGJRZGZSZW9tR0NXa05EVDNJOEUxXzlZMzVEVlJpSlo3Zjh3aWpSVTZUeFJBVm9YVnd1dk5DcVBUS185S2ZjSnJhc0dCQ2ZJSkFrb3ZGeXJ4S2RHcm95WVZXNHFrdjhlcTlIMy12blhqcE1iM0t3YVRJTDNQX29SWQ?oc=5",
-          "domain": "beinsure.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "OODA Loop",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ0ozLVUydWJtdnZIV1htZEh0OThmN3E0SWpQTU9PaGpMX1prcXV0Q3Q1UzdERm44Y2Z3VktocFdNZURLSjdITFU3WUFSTS1jQlRtaEJscWhKV1FMNmw5bENlMnptZ1Zzb0ZmNUV1OW5qbWQ2cmpqTkdmaHJ0VFE2LUVWTlhlMWNmX3FzaXVCc3ZrMXJGeVVIZTNDYUJEcWpCalhLRS1Db1FxUktjUzI0U0Y3eWJHbkNTXzRqRU05dmU0eG94MVpmX2dlZUNaVTNBR290N1dWT1pjVVpt?oc=5",
-          "domain": "ooda-loop.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "Sacramento Bee",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDbnVwa3U3VEdvMDFzRng0bUlmY1ZVUU56NkNSZlRzZHVXUVNWSGhFU1pfUVZyR01WcFVvVlA4QkxVdExsMzktYjd2S1VDTzVqS2xUam1UWTRtaklxT1pzTks4OWtQdWlzRzFOODRkbTNfeG_SAXNBVV95cUxNR3JONzAzOUZpT3hrTzdXX282N0lGMEhkb0dqYUhicVBNcm5XcWpVOWphUFdMbUlEQ2xGeXIwOVhrN3JqQmZGZ3J4SVpGRkRwOEQ0WHNEYnNFaEJzX3JQbC1rTzVGYnZCQ0VVemNzclIyMlVn?oc=5",
-          "domain": "sacramento-bee.publisher",
-          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T21:53:28+00:00",
+      "published": "2026-11-19T13:07:41+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "478b484f302f8626",
-      "title": "Keralam govt. issues order renaming mental health centres despite protests by psychiatrists, doctors",
-      "category": "india_world",
+      "cluster_key": "bf47b9b02de063f9",
+      "title": "Spectre of El Nino: CPI to average above 6% between November and March, says Elara's Garima Kapoor",
+      "category": "markets",
       "one_liner": "",
       "tags": [
         "india",
+        "markets",
         "policy",
         "political"
       ],
@@ -761,32 +732,32 @@
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 25,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 25.0,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "478b484f302f8626"
+        "bf47b9b02de063f9"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/kerala/keralam-govt-issues-order-renaming-mental-health-centres-despite-protests-by-psychiatrists-doctors/article71716660.ece",
-          "domain": "thehindu.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/mark-to-market/spectre-of-el-nino-cpi-to-average-above-6-between-november-march-says-garima-kapoor-of-elara-11795079302692.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T17:44:20+00:00",
+      "published": "2026-11-20T02:30:36+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -844,46 +815,56 @@
       "held_back": true
     },
     {
-      "cluster_key": "105867a8c9fee0fb",
-      "title": "spearsheep/anima-brain — Local-first memory and emotional continuity for AI companions.",
-      "category": "tech_ai",
+      "cluster_key": "8d347076d4ba44fb",
+      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "opensource",
-        "tool"
+        "political",
+        "threat-intel"
       ],
-      "summary": "English | 简体中文 Memory and emotional continuity for AI companions. Python 3.11+ · Alpha 0.6.0 · MIT-licensed code Demos / Quickstart / SDK / Agent integrations / Docs / Try Anima A developer toolkit for building agents with persistent memory, character identity and emotional continuity. Use it from Python, plug it into an existing agent through MCP, or connect your own frontend. An optional Companion Studio web example lets you explore the SDK interactively. The Python distribution remains companion-engine, imports use companion_engine, and the CLI is companion, preserving existing integrations.",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
+      "trust_score": 52,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 61.8,
+      "is_new": false,
+      "summary_source": "model",
       "alt_keys": [
-        "105867a8c9fee0fb"
+        "8d347076d4ba44fb",
+        "ba85ca6264593ceb"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/spearsheep/anima-brain",
-          "domain": "github.com",
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTl9SMXVYalFha1V6ZW9BWWRQTUl5TDE3cUlRcjVFTVdSM3VmNUFxbFhkUWlleTFyaG5KUl9ObFE5dkM1NXk1UkNMZHFVRTNHLXVxdF9DRTN0NUdENEtVbUthWTNHVWkwQk1uZUFIWkp4Z21EVkZmdmRLd1FNUHpMSEIxNzY3b29fTWtsMTduYXJveEhPZmVBdjBPWXFPSXg0bjc0bUU5ZWQyck1QZTltSUdPdE5sLTk1cGZacjY0QVRjTWVTdFctMHYtX3NUdnFHVGIw?oc=5",
+          "domain": "reuters.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T19:30:28+00:00",
+      "published": "2026-11-19T00:56:00+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 62 = trust 52 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -967,6 +948,134 @@
       "held_back": true
     },
     {
+      "cluster_key": "4791be8c8d1c7a5d",
+      "title": "SiGMA and CIBELAE sign agreement to strengthen gaming sector cooperation",
+      "category": "cyber_tools",
+      "one_liner": "",
+      "tags": [
+        "policy",
+        "political"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 21.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "4791be8c8d1c7a5d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Yogonet",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3NaYmdxd1hzMXE1VkNJR3FWMUJPOGhpZ09SVjdYQWsyMVV4aUt5clBoallZYy1BZWpuUE1qSGRlOVJfRnJFZEVqNXZyejdWRUM1aXJKemJZbDBhMHZ4VU1yOTh1RmVUOUEtV1RXZEdVOVo2Y0VtZkllQ1JMdkQzRk9WS1Y2dG9ac3hIUFB5VGVGeGtvSFFRQkY5UkxUTEFudFYtUjlDQS04ODl0VFBJZUNzSVRCa3Z1bDQ1eUtYRllhdkVKVEFMTVZlS2VSdw?oc=5",
+          "domain": "yogonet.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-18T12:46:09+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "9a6ede7025ddcbd9",
+      "title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 40,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 40.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "9a6ede7025ddcbd9"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-19T23:29:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 40 = trust 40 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "4d80d34754737813",
+      "title": "The end result of the reconstruction is very impressive, however.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "release"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The end result of the reconstruction is very impressive, however. It made a version of the lost class, called the “hardest in the humanities,\" that is remarkably accessible and based on scattered textual evidence from Auden's writing & surviving notes. auden-english-135.netlify.app /tempest/son... [contains quote post or other embedded content] 2026-11-14T18:52:29.656Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "4d80d34754737813"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2c67rtdjs22",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-14T18:52:22.123000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-14 — outside lookback window",
+      "held_back": true
+    },
+    {
       "cluster_key": "78f264173bfc07cd",
       "title": "Attackers bypass GitHub SHA pinning with malicious fork commits",
       "category": "cyber_tools",
@@ -1009,57 +1118,50 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 55 = trust 10 / interest 100 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "b9e746ea197ef4d7",
-      "title": "Anthropic Leveraged ETF Race Heats Up Even Before Stock’s Debut",
-      "category": "markets",
+      "cluster_key": "f7a016ab59a8fe30",
+      "title": "AI is getting better faster than our measurements are.",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai",
-        "dfir",
-        "llm",
-        "malware",
-        "markets"
+        "ai"
       ],
-      "summary": "",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu AI is getting better faster than our measurements are. I threw together SatBench, which measures how quickly major AI benchmarks become saturated (effectively solved) by AI. Of 173 benchmarks cited by the Labs since 2023, 63% are now saturated. Saturation of new benchmarks is also happening faster.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
-      "interest_score": 50,
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "b9e746ea197ef4d7"
+        "f7a016ab59a8fe30"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/anthropic-leveraged-etf-race-heats-up-even-before-stock-s-debut-11795033161402.html",
-          "domain": "livemint.com",
-          "tier": "B"
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2cotuxdvk22",
+          "domain": "bsky.app",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T20:19:20+00:00",
+      "published": "2026-11-14T23:49:56.358000+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-11-14 — outside lookback window",
       "held_back": true
     },
     {
@@ -1102,12 +1204,12 @@
       "primary_links": [
         "https://arxiv.org/abs/2611.22171"
       ],
-      "published": "2026-11-18T05:00:00+00:00",
+      "published": "2026-11-19T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
