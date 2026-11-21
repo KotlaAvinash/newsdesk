@@ -1,73 +1,22 @@
 {
-  "generated_at": "2026-11-20T04:13:50.593005+00:00",
+  "generated_at": "2026-11-21T04:11:37.011443+00:00",
   "items": [
     {
-      "cluster_key": "c1945d3ecd551b6a",
-      "title": "Sigma Lithium Successfully Closes US$125 Million, 5-Year Convertible Bond Offering, Upsized by 25%, Refinancing 2027 Debt and Lowering Interest Costs",
-      "category": "cyber_tools",
-      "one_liner": "Sigma Lithium closed an upsized $125M convertible bond to refinance high-interest debt and extend maturities to 2031.",
-      "tags": [
-        "markets"
-      ],
-      "summary": "Sigma Lithium Corporation has successfully closed an upsized US$125 million 5-year convertible bond offering due in 2031, following strong investor demand that boosted the target by 25%. The primary proceeds will refinance 80% of the company's total debt, retiring approximately US$100 million of senior secured debt with Synergy Capital. This transaction extends the company's debt maturity profile from June 2027 to 2031, replaces secured debt with unsecured debt, and lowers total cash interest costs by substituting a fixed 7.00% p.a. coupon for the previous 11.45% floating rate. The move enhances financial flexibility and strengthens the balance sheet as the company expands its lithium operations.",
-      "key_facts": [
-        "Offering size: US$125 million",
-        "Maturity year: 2031",
-        "Fixed coupon: 7.00% p.a.",
-        "Conversion price: US$6.51"
-      ],
-      "bottom_line": "Sigma Lithium refinanced 80% of its debt into unsecured 2031 convertible bonds, lowering interest rates and releasing collateral.",
-      "claims": [
-        {
-          "text": "Sigma Lithium closes previously announced US$125M, 5-year convertible bond offering upsized by 25%, due in 2031 (the 'Convertible').",
-          "support_span": "Sigma Lithium closes previously announced US$125M, 5-year convertible bond offering upsized by 25%, due in 2031 (the 'Convertible').",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "c1945d3ecd551b6a",
-        "d5c3119b58ad4213"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Quantisnow",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXhDczdMVXhsUEl3WHBuTEtLNF9feGpvTk9nd19nMHFpSld3UXlnUzl3NEI0cEd4OEkwamZ2NWhqOGxIeU5JSVo1WXA3eWswTnY3c3ZSQ3lfVUROLXg5VERSRlh5emVoTWRLMlBkMUs5YWhZdjhTQnV2d2ktZmtXZ0RianQ5UFVyWXRHSXIteXNjZkJZ?oc=5",
-          "domain": "quantisnow.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPdlFReWdycTZmNklIZFVOMVFZZ3dkVC1RdDhMbVF3VkxLdFlueUVJLTF1UFlQQkZtZ0JtOXp2aGVoSERuY2pWaEI2RXFDUmhqcDJoX3BKVUN0UG5lZElONWtXX1hVV0t6S0I2NlFfQThXSHprRGFhMDd2WHZrMjlmUkdNTThwV1lvckZ6Zm1IX2htcW1GWkRvZmw1c0k4MjhPWUo2OGdaRU5mVkwyTXJ2T1kwX29KUEwwaGRQM1JBcmR4S3lhM3BZbExZY2p4S2REang4TzRPYzg0RzVNMDBGVEFKWk0zenpDLVJCYm1sQnZCUUhlcGFtTEdud3NPUmJsQUhuLWttTDJIaXpBdzRaaDVkb2w3ekJadEZQUlA4VXQwdHdJREpYSTBtR0NyZEhIR2dUYXR0alR5ZFpNVmZNaXFtQmRrempv?oc=5",
-          "domain": "the-globe-and-mail.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T12:12:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "8c310dba44ad18e7",
-      "title": "\"You see the model called hydrogen is equivalent to the models called sonnet and luna and spark, but the model called fable is like wonder and astra…",
+      "cluster_key": "019ea3b651225803",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser…",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu \"You see the model called hydrogen is equivalent to the models called sonnet and luna and spark, but the model called fable is like wonder and astra and carbon (but it was like argon)\" \"Wait, why do you look confused?\" 2026-11-13T20:21:32.476Z",
+      "tags": [
+        "ai",
+        "android",
+        "howto",
+        "linux",
+        "llm",
+        "opensource",
+        "policy",
+        "tool"
+      ],
+      "summary": "English · فارسی Find proxy configs that actually get you into Google AI Studio and Gemini, by testing each one the way a person would: in a signed-in browser, through the route you will really use. It works end to end on Windows (the only platform it has been run on so far). The macOS, Linux and Android builds come from the CI pipeline and have not been exercised on real devices yet. The big Simple / Advanced switch in the header decides what is tested. The route diagram under the title morphs to show it.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -78,7 +27,109 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "8c310dba44ad18e7"
+        "019ea3b651225803",
+        "119b3c3d5e0839db",
+        "14e91ac96c4fa768",
+        "1e0956c04fa10f0d",
+        "287ac4f2489441a8",
+        "2f9f6a9bc79e2dd7",
+        "4538d3d643ed051d",
+        "7c2f9d53319da8b1",
+        "896c6f4d572a2f68",
+        "eb05309ca987d7d9"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-15T16:46:04+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "fb950e0bc54c67a7",
+      "title": "As a side note, a couple years ago, making this benchmark & analysis would’ve taken a considerable amount of time in STATA, likely several days, and…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "research"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu As a side note, a couple years ago, making this benchmark & analysis would’ve taken a considerable amount of time in STATA, likely several days, and making it look this nice would have been quite a while as well. This was like 4 prompts to Fable 5.2 [contains quote post or other embedded content] 2026-11-15T04:28:11.242Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "fb950e0bc54c67a7"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -86,17 +137,17 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n27sqcs6ds22",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2d6fg4qbc26",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-13T20:21:32.404000+00:00",
+      "published": "2026-11-15T04:28:10.911000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
+      "reject_reason": "published 2026-11-15 — outside lookback window"
     },
     {
       "cluster_key": "e9a68a300e49f431",
@@ -163,203 +214,97 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "60996e7ae28a904a",
-      "title": "vaibhav-space/my-ai-coding-workflow — Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical…",
+      "cluster_key": "9a79a2981ea382af",
+      "title": "mdexa-ai/mdexa-ai-native-database — Verified license and provenance records for datasets behind medical AI: information cards, JSON Schema…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "howto",
+        "opensource"
+      ],
+      "summary": "Verified license and provenance records for the datasets and open models behind medical AI, queryable by agents over MCP and HTTP. Teams building medical AI choose training and evaluation data from hosting pages, repositories, papers and terms pages that often disagree. A hosting platform tags a dataset MIT while the upstream exam body reserves all rights; a repository license covers the code but not the data; a \"public\" dataset turns out to require credentialed access. Mdexa resolves each resource into one dated, evidence-backed record, so a person or an agent gets the answer in one lookup instead of reading five pages. This repository is the open snapshot of the verified records (datasets…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "9a79a2981ea382af"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/mdexa-ai/mdexa-ai-native-database",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-15T12:20:17+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "19e044bba9362300",
+      "title": "Another one of those things that would have been impossible a few months ago: \"Fable & Opus, find video of the Starship catch.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Another one of those things that would have been impossible a few months ago: \"Fable & Opus, find video of the Starship catch. Render the last 40 seconds or so in 3D in 3js with extreme detail. No need to include the crowd.\" You can control it here: ship-42-catch.netlify.app 2026-11-15T18:41:53.642Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "19e044bba9362300"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2eo3wirl22g",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-15T18:41:52.148000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "333a9a9a9fcc8cdc",
+      "title": "AI4XE/Parallax — A lightweight workflow plugin for hands-off AI coding with DeepSeek Harness, Claude Code, GitHub Copilot…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
         "linux",
         "llm",
         "opensource",
-        "tool"
-      ],
-      "summary": "The engineering instructions, curated skills, and three-stage review workflow I use to keep AI-assisted development fast, controlled, and verifiable. At a glance - What it is: one global rules file (CLAUDE.md) and three prompts: plan, critique the plan, audit the result. Who it is for: solo developers and small teams who let an AI agent write real code and want proof, not promises. It is a few text files plus some optional helpers. The rules are instructions the agent follows, not locks.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "60996e7ae28a904a"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T13:34:16+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-14 — outside lookback window"
-    },
-    {
-      "cluster_key": "44b128aec2494027",
-      "title": "taboospecialistblade/ai--manus2.0 — AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource"
-      ],
-      "summary": "Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. Code And Browser In On…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "44b128aec2494027",
-        "4e586d8f3f0205b2",
-        "4f7ab6510a7cbaf3",
-        "5033acd1e830d3db",
-        "580bd7811ab13c32",
-        "76dcfd420054eafd",
-        "b2ebbc1b7578ac2d",
-        "c0997196dc7db4ec",
-        "d350d79de237d838"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/taboospecialistblade/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/topconstableinlet67/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/topapothecarycanal/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/violetkomodolimit/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/trackersnailgrip/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/toppatronweave/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/TrapBladesmith/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Ultimateakiln/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Tonephorepair/ai--manus2.0",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T19:15:24+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-14 — outside lookback window"
-    },
-    {
-      "cluster_key": "fa6f9a523c4f0651",
-      "title": "Tthanh2k6/turbo-browser-mcp — Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "llm",
-        "opensource"
-      ],
-      "summary": "An MCP server for browser automation, built on Playwright. It has 11 tools, and each one does more per call than the usual one-action-per-call design: - smart_fill_form fills a whole form in one call, including React inputs, selects, comboboxes, rich-text editors and file uploads read from disk. inspect_compact can return only the elements that changed since the last snapshot. batch_actions runs a list of clicks, key presses, form steps and page reads as one call. Fewer calls means fewer model turns and less page text replayed in the conversation.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "fa6f9a523c4f0651"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T12:11:07+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-14 — outside lookback window"
-    },
-    {
-      "cluster_key": "5dd3c7a4fa9c6d42",
-      "title": "therandomsecurityguy/signet — The seal of approval for agents and skills: a graph-first semantic governance registry with signed…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "llm",
-        "opensource",
-        "release",
-        "research",
-        "vulnerability",
         "windows"
       ],
-      "summary": "The seal of approval for agents and skills. Signet is a graph-first semantic governance system for autonomous agents and computational skills. Most registries are catalogs: metadata in, search out. Signet governs meaning, release state, and evidence — and stamps every trusted publication with the proof to back it up. What makes it different: - Logical identity ≠ publication snapshot.",
+      "summary": "Parallax is a lightweight workflow plugin for hands-off AI coding, on top of your agent harness. Just say what you want, make a few choices, hand it off — an agent team takes it from there. You own the goal; the agents own the work, independent audits, and context management. Plugin trigger words: wish · Parallax · qstart - Wish — say what you would like, as casually as you like. You do not need to have it figured out; add more in several messages and say \"that's all\" when you are done.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -370,7 +315,7 @@
       "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "5dd3c7a4fa9c6d42"
+        "333a9a9a9fcc8cdc"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -378,195 +323,61 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/therandomsecurityguy/signet",
+          "url": "https://github.com/AI4XE/Parallax",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-14T03:08:20+00:00",
+      "published": "2026-11-15T10:31:00+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-14 — outside lookback window"
+      "reject_reason": "published 2026-11-15 — outside lookback window"
     },
     {
-      "cluster_key": "4cada68caea82105",
-      "title": "\"I Don't Think It's a Scam\": A First Look at Family Intervention Barriers in Elder Abuse Discussions on Reddit and Baidu Tieba",
+      "cluster_key": "2503e149ac63af22",
+      "title": "morajabi/poo — Find and safely free the disk space your dev work eats: builds, caches, simulators and agent worktrees.",
       "category": "tech_ai",
-      "one_liner": "Study highlights family intervention barriers when older adults resist fraud warnings and continue scams.",
-      "tags": [
-        "identity",
-        "llm",
-        "privacy",
-        "research",
-        "tool"
-      ],
-      "summary": "A study analyzing family intervention barriers in elder scams across Reddit and Baidu Tieba found that older adults frequently resist family warnings, showing continued involvement in 68% of Reddit posts. Relatives often lack legal authority to intervene without consent, and fund recovery is heavily limited when police classify voluntary transfers as civil disputes.",
-      "key_facts": [
-        "U.S. internet scam losses in 2024: $4.9 billion"
-      ],
-      "bottom_line": "Legal and psychological barriers severely restrict families from stopping ongoing elder scam victimisation.",
-      "claims": [
-        {
-          "text": "In 68.0% of Reddit posts recording reactions, older adults showed resistance or continued involvement; in Baidu Tieba family-confrontation posts, 41.9% showed continued belief.",
-          "support_span": "In 68.0% of Reddit posts recording reactions, older adults showed resistance or continued involvement; in Baidu Tieba family-confrontation posts, 41.9% showed continued belief.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "4cada68caea82105"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2611.24899",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.24899"
-      ],
-      "published": "2026-11-19T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "b7a81c659ac0ee44",
-      "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
-      "category": "tech_ai",
-      "one_liner": "Rendering documents as images offers multimodal models conditional protection against prompt injection, but does not completely eliminate risks.",
-      "tags": [
-        "ai",
-        "llm",
-        "research",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "Research into indirect prompt injection attacks on multimodal language models demonstrates that rendering untrusted text documents as page images provides conditional protection against prompt hijacking. While image rendering reduces append and format execution across all evaluated models, tests show that certain models like Qwen3-VL-8B still execute image-borne replacement attacks at high rates. Furthermore, attackers can overcome the image defense by utilizing fixed attack candidates, and models often transcribe commands they do not execute, indicating that visual encoding alters attention spread rather than completely neutralizing injected payloads.",
-      "key_facts": [
-        "Evaluated sources: 191 English question-answering sources across 6 models",
-        "Qwen replacement execution rate: 77.96%"
-      ],
-      "bottom_line": "Multimodal LLM security architectures cannot rely on image rendering alone to block indirect prompt injection from untrusted documents.",
-      "claims": [
-        {
-          "text": "Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whether failed image attacks reflect unread commands or commands read but not followed.",
-          "support_span": "Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whether failed image attacks reflect unread commands or commands read but not followed.",
-          "status": "entailed"
-        },
-        {
-          "text": "Rendering reduces append and format execution for every model, yet Qwen3-VL-8B still executes image-borne replacement at 77.96%.",
-          "support_span": "Rendering reduces append and format execution for every model, yet Qwen3-VL-8B still executes image-borne replacement at 77.96%.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "b7a81c659ac0ee44"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2611.24231",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.24231"
-      ],
-      "published": "2026-11-19T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "14a1f345f694acc6",
-      "title": "SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory",
-      "category": "tech_ai",
-      "one_liner": "SkillBuffBench evaluates how coding agent skills, harnesses, models, and memory perform under realistic deployment conditions.",
+      "one_liner": "",
       "tags": [
         "agents",
-        "ai",
-        "llm",
-        "release",
-        "research",
+        "hardware",
+        "howto",
+        "linux",
+        "opensource",
         "tool"
       ],
-      "summary": "SkillBuffBench has been introduced as a benchmark and paired evaluation protocol to measure the actual contribution of agent Skills across different harnesses, models, access modes, and memory states. Moving away from idealised single-skill evaluations, the benchmark tests agents using real research tasks in materials science and biology. Every evaluation run is verified deterministically, with cost, rounds, and wall-clock time tracked alongside scores.",
+      "summary": "Find and safely free the disk space your dev work eats. A menu bar app and CLI for macOS, with an MCP server and skill for your coding agent. Website · Download · Install · Rules and mods · Contributing App: download Poo.app, unzip it and move it to Applications. macOS 15 or later, Apple silicon or Intel. CLI: curl -fsSL poo.morajabi.com/install | sh Installs poo into ~/.local/bin (sha256-verified).",
       "key_facts": [],
-      "bottom_line": "Assess coding agent performance using multi-level skill access and memory benchmarks rather than relying on isolated single-skill tests.",
-      "claims": [
-        {
-          "text": "We present SkillBuffBench, a benchmark and paired evaluation protocol that treats Skill access as a three-level factor (no Skill, a curated Skill, and automatic invocation from an installed library), crosses it with memory (off and on), with four agent harnesses and with multiple models...",
-          "support_span": "We present SkillBuffBench, a benchmark and paired evaluation protocol that treats Skill access as a three-level factor (no Skill, a curated Skill, and automatic invocation from an installed library), crosses it with memory (off and on), with four agent harnesses and with multiple models (the state-of-the-art proprietary models from Anthropic, Google and OpenAI, and the state-of-the-art open-weight models from Chinese providers)...",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "14a1f345f694acc6"
+        "2503e149ac63af22"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.22017",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "GitHub (new)",
+          "url": "https://github.com/morajabi/poo",
+          "domain": "github.com",
+          "tier": "C"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.22017"
-      ],
-      "published": "2026-11-19T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-15T18:39:06+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from cache",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-15 — outside lookback window"
     },
     {
       "cluster_key": "fa0e89bac09ad506",
@@ -608,164 +419,124 @@
       "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
-      "cluster_key": "6c19fc2b09f2cedb",
-      "title": "Securing and Auditing Long-Horizon LLM Agents: State-Transfer Auditing and Controls in the Agent Harness",
+      "cluster_key": "a11bf79184df3f68",
+      "title": "Wilfriedbkt/interview-copilot-edtech-app — Interview Copilot EdTech App: Bridge Learning and Your Dream Job",
       "category": "tech_ai",
-      "one_liner": "Secure long-horizon LLM agent execution harnesses against state-transfer failures and prompt injections using hash-chained audit records.",
+      "one_liner": "",
       "tags": [
-        "agents",
         "ai",
-        "appsec",
-        "llm",
-        "research",
-        "threat-intel",
-        "tool"
-      ],
-      "summary": "Long-horizon LLM agents operating across web browsers and enterprise codebases frequently experience security and reliability failures during state transfers between working contexts, session histories, persistent memory, and external environments. Current execution traces omit boundary actions, blinding runtime monitors to indirect prompt injections, state truncation, and incomplete rollbacks. Researchers have developed a state-transfer audit architecture for agent harnesses that enforces hash-chained audit records at transfer boundaries. This mechanism binds internal cache states to external actions, supplying necessary data for deterministic checks, least-privilege enforcement, and transactional recovery across multi-step trajectories.",
-      "key_facts": [
-        "Evaluation Scale: 240 multi-step fault-injection trajectories"
-      ],
-      "bottom_line": "Implementing state-transfer audit architectures allows agent harnesses to catch cross-transfer violations and stop indirect prompt injections with microsecond overhead.",
-      "claims": [
-        {
-          "text": "At each transfer boundary, we define an audit point specifying the minimal hash-chained record the harness emits, separating low-overhead deterministic checks from model-based semantic checks",
-          "support_span": "At each transfer boundary, we define an audit point specifying the minimal hash-chained record the harness emits, separating low-overhead deterministic checks from model-based semantic checks and binding internal context, memory, and inference-server cache state to external actions.",
-          "status": "entailed"
-        },
-        {
-          "text": "We evaluate a reference harness middleware across 240 multi-step fault-injection trajectories, showing that transfer records localize root causes and catch cross-transfer violations missed by lifecycle and tool-only logs at microsecond deterministic overhead.",
-          "support_span": "Finally, we evaluate a reference harness middleware across 240 multi-step fault-injection trajectories, showing that transfer records localize root causes and catch cross-transfer violations missed by lifecycle and tool-only logs at microsecond deterministic overhead.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "6c19fc2b09f2cedb"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2611.23346",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.23346"
-      ],
-      "published": "2026-11-19T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "976b37a6b4c7089d",
-      "title": "Who Is Behind the Harness? Verifying Model Identity in Coding Agents through Behavioral Fingerprinting",
-      "category": "tech_ai",
-      "one_liner": "LIDAR black-box fingerprinting identifies coding-agent LLMs based on runtime decisions and tool interactions.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "research",
-        "tool"
-      ],
-      "summary": "Replacing the underlying large language model in coding-agent harnesses can alter critical security decisions like failure recovery and code verification. Because traditional text-based LLM fingerprints fail when mediated by agent system prompts and execution frameworks, researchers propose LIDAR (LLM Identification from Decisions and Actions at Runtime). LIDAR evaluates execution behavior using active black-box probes across three harnesses without requiring model weights or logit access. Evaluations show high closed-set Top-1 accuracy between 91.39% and 98.89%, proving that agent decision trajectories expose reliable model-identity evidence.",
-      "key_facts": [
-        "Tested models: 24 models across 8 families",
-        "Closed-set Top-1 accuracy: 91.39% to 98.89%",
-        "Balanced accuracy: 79.58% to 80.42%"
-      ],
-      "bottom_line": "Coding-agent execution behavior and decision trajectories can accurately identify underlying LLMs without inspecting model weights.",
-      "claims": [
-        {
-          "text": "We present LIDAR (LLM Identification from Decisions and Actions at Runtime), an active black-box fingerprinting method for coding-agent execution.",
-          "support_span": "We present LIDAR (LLM Identification from Decisions and Actions at Runtime), an active black-box fingerprinting method for coding-agent execution.",
-          "status": "entailed"
-        },
-        {
-          "text": "Closed-set Top-1 accuracy ranges from 91.39% to 98.89% across the three harnesses, exceeding all three baselines in each setting.",
-          "support_span": "Closed-set Top-1 accuracy ranges from 91.39% to 98.89% across the three harnesses, exceeding all three baselines in each setting.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "976b37a6b4c7089d"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2609.28559",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2609.28559"
-      ],
-      "published": "2026-11-19T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "1cdb4d7d7f16f8bc",
-      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
-      "category": "cyber_attacks",
-      "one_liner": "A critical RCE in Puppet Enterprise is being exploited in the wild, requiring immediate patching of your infrastructure management server.",
-      "tags": [
-        "agents",
-        "blueteam",
-        "cve",
-        "exploit",
         "howto",
+        "opensource",
+        "privacy",
+        "windows"
+      ],
+      "summary": "Interview Copilot is an EdTech application built to close the distance between learning and landing the job you actually want. It pairs advanced AI with a real-time coaching experience, listening to interview questions as they happen and surfacing context-aware hints, talking points, and structured answers that teach you how to respond with confidence. Whether you run it as a lightweight desktop companion or practice in the browser, it stays discreet, private, and focused on helping you improve with every session. OS: Windows 10 / 11 - Shell: PowerShell 5.1+ or PowerShell 7+ - Network: internet access to download the script - Privileges: standard user 🎙️ Live question capture: Interview Cop…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a11bf79184df3f68"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Wilfriedbkt/interview-copilot-edtech-app",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-15T20:07:19+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-15 — outside lookback window"
+    },
+    {
+      "cluster_key": "5bf05f1ad340b093",
+      "title": "Weekly update is up! Email Dependencies & Apps: Do we still need to be dependent on email to build apps?",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Weekly update is up! Email Dependencies & Apps: Do we still need to be dependent on email to build apps?",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5bf05f1ad340b093"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Troy Hunt",
+          "url": "https://bsky.app/profile/troyhunt.com/post/3n2fzoy5jcd2q",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T07:42:01.940000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-16 — outside lookback window"
+    },
+    {
+      "cluster_key": "8bd3f994b4a406d5",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "category": "cyber_attacks",
+      "one_liner": "Armory Castle exploited VMware vCenter CVE-2026-123890 and BeyondTrust zero-days to deploy BONESAW and compromise enterprise infrastructure.",
+      "tags": [
+        "cve",
+        "dfir",
+        "exploit",
+        "incident",
+        "malware",
+        "threat-actor",
+        "tool",
         "vulnerability"
       ],
-      "summary": "Attackers are actively exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise that allows unauthenticated code execution via crafted report-processing requests. The flaw stems from a deserialization issue in the Puppet Server's report-ingestion component, which can be triggered if an attacker obtains a signed certificate. CISA has mandated that all US federal civilian agencies patch the vulnerability by December 1, 2026. Organizations are advised to upgrade to the latest security releases immediately and review their autosigning configurations to prevent unauthorized certificate issuance.",
+      "summary": "The suspected China-nexus cyber espionage group Armory Castle (formerly UNC5221) exploited a critical unauthenticated authentication bypass zero-day vulnerability (CVE-2026-123890, CVSS score: 9.8) in the VMware Directory Service of VMware vCenter Server in early September 2026. The attackers used a Golang-based remote exploitation utility called BONESAW to exfiltrate the LMDB database, hijack the SAML Security Token Service, and create an SSO administrator account. This campaign also leveraged a zero-day in BeyondTrust Remote Support (CVE-2026-102764, CVSS score: 9.3) to gain initial access, deploy the BARECLAW proxy tunneler, and move laterally to internal appliances using tools like nmap and JSP web shells. Broadcom released patches for vCenter and Cloud Foundation on November 19, 2026.",
       "key_facts": [
-        "CVE-2026-115731: Critical RCE",
-        "Deadline: December 1, 2026",
-        "Affected: Puppet Enterprise 2023.8.x, 2025.0.x, 2026.0.x",
-        "Port: 8140"
+        "CVE-2026-123890: CVSS 9.8, VMware vCenter Server authentication bypass",
+        "CVE-2026-102764: CVSS 9.3, BeyondTrust Remote Support vulnerability",
+        "Threat Actor: Armory Castle (formerly UNC5221)",
+        "Malware families: BONESAW, BARECLAW, SLIMSAVAGE, CAGEMATCH, SAWSNAKE"
       ],
-      "bottom_line": "If you use Puppet Enterprise, you must patch immediately or restrict autosigning to prevent unauthenticated remote code execution on your configuration server.",
+      "bottom_line": "Administrators must immediately patch VMware vCenter Server against CVE-2026-123890 to prevent unauthenticated attacker session creation and data exfiltration.",
       "claims": [
         {
-          "text": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise",
-          "support_span": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise",
+          "text": "The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized access to the system.",
+          "support_span": "The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized access to the system.",
           "status": "entailed"
         },
         {
-          "text": "CISA added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026.",
-          "support_span": "CISA added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026.",
+          "text": "It has been addressed as part of patches released on November 19, 2026",
+          "support_span": "It has been addressed as part of patches released on November 19, 2026, in the following versions - ",
+          "status": "entailed"
+        },
+        {
+          "text": "BONESAW is a utility primarily built to facilitate remote exploitation written in Golang, which utilizes CVE-2026-123890 to exfiltrate the arbitrary Lightning Memory-Mapped Database (LMDB), hijack the SAML Security Token Service (STS), and create a Single Sign On (SSO) Administrator account",
+          "support_span": "“BONESAW is a utility primarily built to facilitate remote exploitation written in Golang, which utilizes CVE-2026-123890 to exfiltrate the arbitrary Lightning Memory-Mapped Database (LMDB), hijack the SAML Security Token Service (STS), and create a Single Sign On (SSO) Administrator account,” Google said.",
           "status": "contradicted"
         }
       ],
@@ -776,87 +547,34 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "1cdb4d7d7f16f8bc"
-      ],
-      "critical_signal": "known exploited vulnerabilities catalog",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
-          "domain": "helpnetsecurity.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T13:07:41+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "bf47b9b02de063f9",
-      "title": "Spectre of El Nino: CPI to average above 6% between November and March, says Elara's Garima Kapoor",
-      "category": "markets",
-      "one_liner": "Elara Securities projects RBI will hike rates by 25 bps in December and February as El Niño keeps CPI above 6%.",
-      "tags": [
-        "india",
-        "markets",
-        "policy",
-        "political"
-      ],
-      "summary": "India's retail inflation reached a two-year high of 6.1% in October, exceeding the central bank's upper limit due to surging food prices and an adverse base effect. Garima Kapoor, deputy head of research at Elara Securities, projects that headline CPI inflation will stay above 6% from November to March as El Niño conditions pressure agricultural output and reservoir levels. Consequently, Elara expects the Reserve Bank of India to enact 25-basis-point rate hikes in both December and February. Despite sticky inflation, domestic high-frequency indicators show consumer demand remains resilient, supported by steady credit growth and urban wealth effects.",
-      "key_facts": [
-        "October CPI inflation: 6.1%",
-        "Projected rate hikes: 25 bps in December, 25 bps in February",
-        "Projected CPI average (Nov-Mar): above 6%"
-      ],
-      "bottom_line": "Persistent El Niño-driven food inflation is expected to keep Indian retail inflation above 6% through March, driving expectations of consecutive RBI rate hikes.",
-      "claims": [
-        {
-          "text": "India's retail inflation rose to a two-year high of 6.1% in October, breaching the central bank's upper tolerance limit.",
-          "support_span": "India's retail inflation rose to a two-year high of 6.1% in October, breaching the central bank's upper tolerance limit.",
-          "status": "entailed"
-        },
-        {
-          "text": "Kapoor expects the Reserve Bank of India to deliver a 25-basis-point rate hike in December, followed by another 25-bps hike in February.",
-          "support_span": "Kapoor expects the Reserve Bank of India to deliver a 25-basis-point (bps) rate hike in December, followed by another 25-bps hike in February.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "bf47b9b02de063f9"
+        "8bd3f994b4a406d5",
+        "dc6901c8a6d8ff52"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/mark-to-market/spectre-of-el-nino-cpi-to-average-above-6-between-november-march-says-garima-kapoor-of-elara-11795079302692.html",
-          "domain": "livemint.com",
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+          "domain": "thehackernews.com",
           "tier": "B"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNmU0RTVlZkhSbi1kX2tyRGhaa0tjTmQtNzVGWjlKeUh5dkxtQkxiSGFNRFkzVF9HWTdzVVRqMExSbjlCSlJUc3FmcmlPOGNIVDAyd01RVllFdDZONkgzNVgwYUE3UVZYUURrR2ZVX1RGajVfbDVndVhuanJhc2VSQ1NR?oc=5",
+          "domain": "thehackernews.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-20T02:30:36+00:00",
+      "published": "2026-11-20T06:37:47+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -928,264 +646,319 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "8d347076d4ba44fb",
-      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-      "category": "india_world",
-      "one_liner": "Elon Musk expressed regret over his record $446m midterm spending as Democratic congressional wins threaten increased tech scrutiny.",
+      "cluster_key": "4982f2beba666b2f",
+      "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+      "category": "tech_ai",
+      "one_liner": "ARISE provides a memory architecture for enterprise LLM agents that learns from failures via iterative self-evaluation without altering model weights.",
       "tags": [
-        "political",
-        "threat-intel"
+        "agents",
+        "ai",
+        "llm",
+        "privacy",
+        "research",
+        "threat-intel",
+        "tool"
       ],
-      "summary": "Tesla and SpaceX CEO Elon Musk stated he felt 'pretty foolish' about spending a record $446 million supporting Republican candidates in the US midterms following sweeping defeats. Democrats flipped control of both chambers of the US Congress and won major state races, including the Texas governorship where Democrat Gina Hinojosa defeated Republican Greg Abbott. Musk also clarified that he is 'not Maga' and lacks blind adherence to right-wing political policies. The Democratic victories in Congress and state governments could lead to increased regulatory scrutiny over his companies, data center rollouts, and lucrative government contracts.",
+      "summary": "Researchers propose ARISE (Agent Refinement through Iterative Self-Evaluation), a practical memory architecture enabling enterprise LLM agents to evolve from their own failures without updating underlying model weights, tools, or workflow logic. ARISE attributes failures using the model itself or a teacher model, stores corrections as retrievable micro memories, consolidates them into macro rules, and updates rules only when held-out accuracy increases. Across enterprise workflow domains, ARISE-Teacher using Claude Opus 4.6 yields significant accuracy gains over baselines while using fewer model calls and output tokens.",
       "key_facts": [
-        "Total spending: $446m"
+        "Framework: ARISE (Agent Refinement through Iterative Self-Evaluation)",
+        "Teacher model: Claude Opus 4.6",
+        "SOP-Bench gain (ARISE-Teacher): 10.9 pp",
+        "Tau2-bench gain (ARISE-Teacher): 5.8 pp"
       ],
-      "bottom_line": "Sweeping Democratic victories in the US midterms have left major Republican donor Elon Musk facing potential regulatory scrutiny for his tech firms.",
+      "bottom_line": "Self-evolving agent memory frameworks can improve enterprise LLM task accuracy and reduce execution costs without weight updates.",
       "claims": [
         {
-          "text": "Elon Musk said on Wednesday that he felt 'pretty foolish' about the record sum he spent on the US midterm elections, following sweeping Republican defeats.",
-          "support_span": "Elon Musk said on Wednesday that he felt 'pretty foolish' about the record sum he spent on the US midterm elections, following sweeping Republican defeats.",
-          "status": "contradicted"
+          "text": "We propose ARISE (Agent Refinement through Iterative Self-Evaluation), a practical memory architecture in which the agent's memory evolves from its own failures without updating model weights, tools, or workflow logic.",
+          "support_span": "We propose ARISE (Agent Refinement through Iterative Self-Evaluation), a practical memory architecture in which the agent's memory evolves from its own failures without updating model weights, tools, or workflow logic.",
+          "status": "entailed"
         },
         {
-          "text": "Democrats won control of both chambers in the US Congress, flipping both swing seats and making historic gains in places that have for decades been controlled by Republicans.",
-          "support_span": "Democrats won control of both chambers in the US Congress, flipping both swing seats and making historic gains in places that have for decades been controlled by Republicans.",
-          "status": "entailed"
+          "text": "Across 14 enterprise-workflow domains from SOP-Bench and $\tau^2$-bench using 5 models, ARISE-Teacher, which uses Claude Opus 4.6 for attribution and consolidation, gains 10.9 pp over the baseline on SOP-Bench and 5.8 pp on $\tau^2$-bench.",
+          "support_span": "Across 14 enterprise-workflow domains from SOP-Bench and $\tau^2$-bench using 5 models, ARISE-Teacher, which uses Claude Opus 4.6 for attribution and consolidation, gains 10.9 pp over the baseline on SOP-Bench and 5.8 pp on $\tau^2$-bench.",
+          "status": "contradicted"
         }
       ],
-      "trust_score": 52,
+      "trust_score": 70,
       "interest_score": 75,
-      "corroboration": 2,
-      "blend": 61.8,
-      "is_new": false,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "8d347076d4ba44fb",
-        "ba85ca6264593ceb"
+        "4982f2beba666b2f"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.23588",
+          "domain": "arxiv.org",
           "tier": "A"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTl9SMXVYalFha1V6ZW9BWWRQTUl5TDE3cUlRcjVFTVdSM3VmNUFxbFhkUWlleTFyaG5KUl9ObFE5dkM1NXk1UkNMZHFVRTNHLXVxdF9DRTN0NUdENEtVbUthWTNHVWkwQk1uZUFIWkp4Z21EVkZmdmRLd1FNUHpMSEIxNzY3b29fTWtsMTduYXJveEhPZmVBdjBPWXFPSXg0bjc0bUU5ZWQyck1QZTltSUdPdE5sLTk1cGZacjY0QVRjTWVTdFctMHYtX3NUdnFHVGIw?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-19T00:56:00+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.23588"
+      ],
+      "published": "2026-11-20T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
         "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 62 = trust 52 / interest 75 / corrob 50",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "972aeea8040ace14",
-      "title": "imagine hanzi but getting the stroke order wrong changes the meaning of the character",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "ff93c8dfdd38dcbc",
+      "title": "IIT Madras Opens Registrations For 20 Online Courses For School Students, Check Details",
+      "category": "india_world",
+      "one_liner": "IIT Madras opens registrations for 20 online career-exploration courses for school students.",
       "tags": [
-        "windows"
+        "india"
       ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe imagine hanzi but getting the stroke order wrong changes the meaning of the character 2026-11-13T19:28:42.584Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "972aeea8040ace14"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3n27prtkz3s2r",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T19:28:42.324000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "1b1b6525e4efb57b",
-      "title": "Got to see student presentations today at the Generative AI Studio at Penn.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Got to see student presentations today at the Generative AI Studio at Penn. It was a visceral way to feel how far creative people can now get using AI. Already, almost every project from an individual was 10x further along than a fully done team project from three years ago.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1b1b6525e4efb57b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n27qnrq3b222",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-13T19:44:19.916000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-13 — outside lookback window"
-    },
-    {
-      "cluster_key": "4791be8c8d1c7a5d",
-      "title": "SiGMA and CIBELAE sign agreement to strengthen gaming sector cooperation",
-      "category": "cyber_tools",
-      "one_liner": "SiGMA Group and CIBELAE signed an MoU in Rome to deepen regulatory cooperation and combat illegal cross-border gambling.",
-      "tags": [
-        "policy",
-        "political"
-      ],
-      "summary": "SiGMA Group and the Corporación Iberoamericana de Loterías y Apuestas de Estado (CIBELAE) have signed a memorandum of understanding in Rome to strengthen international cooperation between the gaming and lottery sectors. The agreement focuses on knowledge exchange, regulatory alignment, responsible gaming, and combating illegal cross-border gambling. CIBELAE represents state lotteries across Ibero-America, accounting for over 85% of the legal lottery market between Mexico and Argentina.",
+      "summary": "IIT Madras has opened registrations for 20 online courses under its School Connect Programme, aimed at helping school students explore different career paths.",
       "key_facts": [
-        "Market share: over 85% of the lottery market between Mexico and Argentina"
+        "Institution: IIT Madras",
+        "Course count: 20 online courses"
       ],
-      "bottom_line": "Formalized cross-border regulatory alliances between gaming associations aim to crack down on unlicensed digital operators across Latin America.",
+      "bottom_line": "School students can access online career exploration courses through the newly opened IIT Madras School Connect Programme.",
       "claims": [
         {
-          "text": "SiGMA Group and the Corporación Iberoamericana de Loterías y Apuestas de Estado (CIBELAE) have signed a memorandum of understanding (MoU) to strengthen cooperation between the international gaming and lottery sectors.",
-          "support_span": "SiGMA Group and the Corporación Iberoamericana de Loterías y Apuestas de Estado (CIBELAE) have signed a memorandum of understanding (MoU) to strengthen cooperation between the international gaming and lottery sectors.",
-          "status": "entailed"
-        },
-        {
-          "text": "The agreement was signed on the second day of SiGMA World in Rome by CIBELAE President Javier Milián and SiGMA Group Chief International Relations Officer Heathcliff Farrugia...",
-          "support_span": "The agreement was signed on the second day of SiGMA World in Rome by CIBELAE President Javier Milián and SiGMA Group Chief International Relations Officer Heathcliff Farrugia...",
+          "text": "IIT Madras Opens Registrations For 20 Online Courses For School Students, Check Details",
+          "support_span": "IIT Madras Opens Registrations For 20 Online Courses For School Students, Check Details",
           "status": "contradicted"
         }
       ],
-      "trust_score": 10,
+      "trust_score": 25,
       "interest_score": 25,
       "corroboration": 1,
-      "blend": 21.2,
+      "blend": 25.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "4791be8c8d1c7a5d"
+        "ff93c8dfdd38dcbc"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Yogonet",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3NaYmdxd1hzMXE1VkNJR3FWMUJPOGhpZ09SVjdYQWsyMVV4aUt5clBoallZYy1BZWpuUE1qSGRlOVJfRnJFZEVqNXZyejdWRUM1aXJKemJZbDBhMHZ4VU1yOTh1RmVUOUEtV1RXZEdVOVo2Y0VtZkllQ1JMdkQzRk9WS1Y2dG9ac3hIUFB5VGVGeGtvSFFRQkY5UkxUTEFudFYtUjlDQS04ODl0VFBJZUNzSVRCa3Z1bDQ1eUtYRllhdkVKVEFMTVZlS2VSdw?oc=5",
-          "domain": "yogonet.publisher",
-          "tier": "C"
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/education/ai-data-science-aerospace-engineering-iit-madras-opens-registrations-for-20-online-courses-for-school-students-12357165#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T12:46:09+00:00",
+      "published": "2026-11-21T03:27:04+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
         "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 21 = trust 10 / interest 25 / corrob 25"
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "9a6ede7025ddcbd9",
-      "title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
-      "category": "india_world",
-      "one_liner": "Domestically produced cumin-flavored sodas are rapidly eroding the market share of global cola giants in India's mass-market beverage category.",
+      "cluster_key": "e2c1fd58d7542d3f",
+      "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
+      "category": "tech_ai",
+      "one_liner": "An enterprise evaluation of ten agentic AI platforms reveals that vendor demos measure presentation over capability, prompting a new evaluation protocol.",
       "tags": [
-        "india",
-        "markets"
+        "agents",
+        "ai",
+        "cloud",
+        "llm",
+        "opensource",
+        "research",
+        "tool"
       ],
-      "summary": "Cumin-laced fizzy sodas developed by domestic Indian brands are rapidly capturing market share from global beverage giants like Coca-Cola and PepsiCo in the country's mass-market carbonated drinks sector. Initiated by brands like Lahori Zeera, Xotik Frujus's Jeeru, and Mukesh Ambani's Campa Jeera, this ethnic beverages category has doubled its market share to around 15%, causing a structural shift similar to Reliance Jio's disruption of the telecom market. Analysts attribute the surge to consumer preference for indigenous, health-perceived flavors in the $32 billion non-alcoholic beverage market. Major players like Parle Agro have expanded national distribution of their own cumin variants to capitalize on the soaring demand.",
+      "summary": "An industrial evaluation program conducted by a global bank's innovation lab assessed ten agentic AI platforms across nine capability dimensions for financial services workflows. While the bakeoff successfully surfaced workload-specific platform strengths, secondary analysis revealed a severe halo effect with Cronbach's alpha of 0.98, indicating that demo-based scoring largely measures presentation rather than underlying technical capability. Consequently, researchers propose a rigorous gate-then-score evaluation framework incorporating execution reliability metrics, governance checks, and reproducibility protocols for enterprise procurements.",
       "key_facts": [
-        "Market Share Gain: Ethnic beverages reached ~15%",
-        "Duopoly Share Drop: Coca-Cola and PepsiCo fell from 93% to 85%",
-        "Market Valuation: $32 billion in 2024"
+        "Platforms evaluated: 10",
+        "Cronbach's alpha: 0.98",
+        "Workloads tested: 3"
       ],
-      "bottom_line": "Local ethnic cumin sodas have captured a 15% share of India's carbonated soft-drinks market, dealing a structural blow to traditional beverage duopolies.",
+      "bottom_line": "Enterprise procurement of agentic AI platforms must move past vendor demos toward rigorous, trace-level reliability and governance gating.",
       "claims": [
         {
-          "text": "Lahori Zeera was launched in 2017 by three cousins in Punjab after brewing a cumin-flavored soda.",
-          "support_span": "Saurabh Munjal, Nikhil Doda and Saurabh Bhutna - three cousins in India's north-western Punjab state - were messing about at home post dinner one evening, when Doda casually brewed up a tangy cumin-flavoured fizzy soda... launched Lahori Zeera in 2017.",
+          "text": "We report an industrial evaluation programme (\"bakeoff\") run by the innovation laboratory of a global bank in which ten platforms-spanning open-source frameworks, proprietary products and hyperscaler ecosystems-were assessed by a cross-functional panel on nine capability dimensions across three financial-services workloads",
+          "support_span": "We report an industrial evaluation programme (\"bakeoff\") run by the innovation laboratory of a global bank in which ten platforms-spanning open-source frameworks, proprietary products and hyperscaler ecosystems-were assessed by a cross-functional panel on nine capability dimensions across three financial-services workloads",
+          "status": "entailed"
+        },
+        {
+          "text": "A secondary analysis, however, finds Cronbach's alpha = 0.98 across nominally distinct dimensions and rank correlations >= 0.93 with the total for eight of nine: a halo effect indicating that demonstration-based scoring measures presentation as much as capability.",
+          "support_span": "A secondary analysis, however, findings Cronbach's alpha = 0.98 across nominally distinct dimensions and rank correlations >= 0.93 with the total for eight of nine: a halo effect indicating that demonstration-based scoring measures presentation as much as capability.",
           "status": "contradicted"
-        },
-        {
-          "text": "Lahori Zeera is projected to close the year with revenues of $115-120m.",
-          "support_span": "- it will close this year with revenues of $115-120m.",
-          "status": "entailed"
-        },
-        {
-          "text": "Ethnic beverage challengers doubled their share of India's carbonated soft-drinks market to around 15% while Coca-Cola and PepsiCo fell from 93% to 85%.",
-          "support_span": "According to a report from Kotak Mutual Fund earlier this year, Lahori Zeera, Campa and other smaller challengers - now dubbed as India's \"ethnic beverages market\" - collectively doubled their share of India's carbonated soft-drinks market to around 15% by September last year, while the combined market share of Coca-Cola and PepsiCo fell from roughly 93% to 85%.",
-          "status": "entailed"
         }
       ],
-      "trust_score": 40,
-      "interest_score": 50,
+      "trust_score": 70,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 40.0,
+      "blend": 58.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "9a6ede7025ddcbd9"
+        "e2c1fd58d7542d3f"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.24039",
+          "domain": "arxiv.org",
           "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-19T23:29:00+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.24039"
+      ],
+      "published": "2026-11-20T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 40 = trust 40 / interest 50 / corrob 25"
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "b20a5243e1ee8ca5",
+      "title": "Space-X: Self-Evolving Spatial Agents Weaving Clues into Evidence Chains",
+      "category": "tech_ai",
+      "one_liner": "Space-X is a self-evolving spatial reasoning framework that significantly boosts agent accuracy on visual and geometric tasks.",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "llm",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers introduced Space-X, a spatial-reasoning framework designed to build complete and continuous evidence chains for tool-augmented agents. The framework divides labor between an Execution Agent that acquires and judges evidence using role-specific memory, and a Control Agent that diagnoses evidence-chain breaks to jointly revise tools, interfaces, and decision rules. Across multiple benchmarks, Space-X delivered substantial accuracy gains when paired with four base models. Specifically, it improved GPT-6-sol answer accuracy by 50.39% on ViewSpatial and 23.07% on MMSI, while Gemini-3.8-Flash gained 47.50% and 25.22% on the same respective benchmarks.",
+      "key_facts": [
+        "GPT-6-sol ViewSpatial gain: 50.39%",
+        "GPT-6-sol MMSI gain: 23.07%",
+        "Gemini-3.8-Flash ViewSpatial gain: 47.50%",
+        "Gemini-3.8-Flash MMSI gain: 25.22%"
+      ],
+      "bottom_line": "The Space-X framework co-evolves agent capabilities and evidence chains, yielding major accuracy gains on complex spatial reasoning tasks across multiple foundation models.",
+      "claims": [
+        {
+          "text": "GPT-6-sol improves answer accuracy on ViewSpatial and MMSI by 50.39% and 23.07%, respectively.",
+          "support_span": "Relative to baselines, GPT-6-sol improves answer accuracy on ViewSpatial and MMSI by 50.39\\% and 23.07\\%, respectively;",
+          "status": "contradicted"
+        },
+        {
+          "text": "Gemini-3.8-Flash gains 47.50% and 25.22% on these benchmarks.",
+          "support_span": "Gemini-3.8-Flash gains 47.50\\% and 25.22\\% on these benchmarks.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "b20a5243e1ee8ca5"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.24004",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.24004"
+      ],
+      "published": "2026-11-20T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "b527b6f0ddceafec",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "category": "tech_ai",
+      "one_liner": "Sumitomo Life's successful AI rollout demonstrates that executive-led adoption and rigorous security vetting are key to scaling LLMs in regulated financial environments.",
+      "tags": [
+        "ai",
+        "llm",
+        "privacy",
+        "research"
+      ],
+      "summary": "Sumitomo Life successfully scaled the adoption of ChatGPT Enterprise by leveraging executive leadership and a structured security review process. The company's president and senior management were early adopters, which encouraged broader employee participation across planning and investment teams. To meet strict financial security standards, the insurer collaborated with OpenAI to ensure data privacy, specifically excluding business data from model training. The implementation has resulted in significant productivity gains, with an average estimated ROI of 524% for high-frequency users.",
+      "key_facts": [
+        "Weekly usage rate: 80%+",
+        "Average ROI: 524%",
+        "Deployment date: June 2026"
+      ],
+      "bottom_line": "Executive-led adoption combined with strict data privacy controls is a viable path for deploying generative AI in highly regulated financial institutions.",
+      "claims": [
+        {
+          "text": "Sumitomo Life’s executives and managers were among the first to use ChatGPT.",
+          "support_span": "Sumitomo Life’s executives and managers were among the first to use ChatGPT.",
+          "status": "contradicted"
+        },
+        {
+          "text": "524% Average estimated ROI among employees using ChatGPT at least 101 times a month",
+          "support_span": "524% Average estimated ROI among employees using ChatGPT at least 101 times a month",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "b527b6f0ddceafec"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "domain": "openai.com",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://openai.com/business/customer-stories/sumitomo-life"
+      ],
+      "published": "2026-11-18T08:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1335,63 +1108,127 @@
       "reject_reason": "published 2026-11-14 — outside lookback window"
     },
     {
-      "cluster_key": "36c0da284c44034b",
-      "title": "Readie: Low-Latency Code Sandboxes for AI Agents",
+      "cluster_key": "7346fbf06daeda9a",
+      "title": "Bridge Agent Memory Beats SOTA on Recall Benchmarks",
       "category": "tech_ai",
-      "one_liner": "Readie optimizes AI agent execution by replacing heavy, monolithic sandboxes with a set of learned, low-latency startup snapshots.",
+      "one_liner": "The Bridge agent memory framework matches SOTA recall benchmarks on a lean token budget but highlights gaps in applied production tasks.",
       "tags": [
         "agents",
         "ai",
         "llm",
-        "privacy",
+        "opensource",
+        "policy",
+        "release",
         "research",
         "tool"
       ],
-      "summary": "Readie is a new system designed to reduce startup latency for AI agent code sandboxes by using learned startup snapshots. Instead of relying on a single, large image, Readie uses a set of small, specialized snapshots that collectively cover most agent-generated code. This approach reduces startup latency by 3-22x and end-to-end runtime by 1.3-3.3x compared to traditional sandbox methods.",
-      "key_facts": [],
-      "bottom_line": "Readie improves AI agent efficiency by using a set of learned, compact snapshots to reduce code sandbox startup latency by up to 22x.",
+      "summary": "Researchers from the University of Chicago and UC Berkeley introduced 'Bridge,' a minimalist memory stack for AI agents that matches published state-of-the-art recall benchmark scores while consuming only 5,000 to 7,000 reader tokens per query. Bridge combines session ingestion blocks with an extractor LLM, dual-channel BM25 and cosine retrieval fused via reciprocal rank fusion, and chronological note re-sorting. However, the authors emphasize that recall benchmark parity does not ensure production success, demonstrating through adversarial probes that memory architectures must handle behavioral constraints like API bans reliably.",
+      "key_facts": [
+        "Token budget: 5,000–7,000 reader tokens per query"
+      ],
+      "bottom_line": "Minimalist RAG-based memory stacks can match complex graph memory scores on recall benchmarks while keeping token costs low, though real-world behavioral compliance requires rigorous testing.",
       "claims": [
         {
-          "text": "In this work, we propose learned startup snapshots for low-latency code sandboxes.",
-          "support_span": "In this work, we propose learned startup snapshots for low-latency code sandboxes.",
+          "text": "Bridge matches published state-of-the-art scores on major recall benchmarks using roughly 5,000–7,000 reader tokens per query.",
+          "support_span": "Researchers from the University of Chicago and UC Berkeley released RAG in a Trenchcoat, arguing that a deliberately minimal memory stack called Bridge matches published state-of-the-art scores on major recall benchmarks while using roughly 5,000–7,000 reader tokens per query",
           "status": "entailed"
         },
         {
-          "text": "Our system, Readie, reduces startup latency by 3-22x and end-to-end runtime by 1.3-3.3x compared to existing approaches at the same storage budget.",
-          "support_span": "Our system, Readie, reduces startup latency by 3-22x and end-to-end runtime by 1.3-3.3x compared to existing approaches at the same storage budget.",
+          "text": "Bridge has three primitives: ingestion, retrieval, and rendering.",
+          "support_span": "Per the arXiv paper, Bridge has three primitives: - Ingestion: conversational blocks flush at natural boundaries (session end, tool-call end) or a 2,000-token cap. - Retrieval: BM25 over note+text and cosine over embeddings - Rendering: top 3 blocks by cosine similarity shown as raw text; the rest as note summaries",
           "status": "contradicted"
         }
       ],
-      "trust_score": 70,
+      "trust_score": 10,
       "interest_score": 50,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 32.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "36c0da284c44034b"
+        "7346fbf06daeda9a"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.22171",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "explainx.ai",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPajU5M0x6akc0bXhFMG10WlFzNHVGWWVTQUF6UDB5QklTN1JmckZ6bFFnN3pUVkY2dWJSU0xLdDVpQ3YwZVg1VWhWVGUzU3R3WTNMV2xPRy1qc0h2cmhBcl9RNHBoZmRvWHRCanZZbWM1enByMGRIemJGX3VDak0xSkJObw?oc=5",
+          "domain": "explainx-ai.publisher",
+          "tier": "C"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.22171"
-      ],
-      "published": "2026-11-19T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-18T00:00:00+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from cache",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "24e12c6e3e092c00",
+      "title": "Gemini CLI vs Claude Code: $3/$15 vs $8/$40 Tokens",
+      "category": "tech_ai",
+      "one_liner": "Evaluating Gemini CLI versus Claude Code involves balancing Google's lower $3/$15 token pricing and 1M context against Anthropic's Fable 5.2.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "release",
+        "research",
+        "tool"
+      ],
+      "summary": "The comparison between Gemini CLI and Claude Code highlights a shift driven by Anthropic's release of Fable 5.2 and Google's rollout of the Gemini 4 model family, including Carbon, Hydrogen, and Neon. The match-up comes down to choosing between Anthropic's unified developer agent ecosystem with Fable 5.2 at $8/$40 per million tokens, versus Google's Gemini 4 Neon offering a 1M-token context window at $3/$15 per million tokens. Developers must weigh token economics, context limits, and vendor ecosystem roadmaps when selecting their primary terminal coding assistant.",
+      "key_facts": [
+        "Gemini Neon pricing: $3/$15 per million tokens",
+        "Claude Code pricing: $8/$40 per million tokens"
+      ],
+      "bottom_line": "Choosing between Gemini CLI and Claude Code depends on whether per-token cost and a 1M context window outweigh a unified vendor-backed coding agent roadmap.",
+      "claims": [
+        {
+          "text": "Google released Gemini 4 Carbon on November 10, Hydrogen on November 12, and Neon on November 18.",
+          "support_span": "Google answered with a run of Gemini 4 releases: Carbon on November 10, Hydrogen on November 12 and Neon on November 18.",
+          "status": "entailed"
+        },
+        {
+          "text": "Anthropic shipped Fable 5.2 and Mythos 5.2 on November 9.",
+          "support_span": "Anthropic shipped Fable 5.2 and Mythos 5.2 on November 9, calling its most capable models for technical work.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 32.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "24e12c6e3e092c00"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZVhYTmU0Nk5XQ2xRQTdHaERhZkVWd0d6TUhxb09YNW1IT2o0bGdKZGFYdHcwdGtFUXQ4QXV3Y1hvQUtsQVpEU3k2UWNtcFBjR19xYllWXzNTSVBrWW1iaDhiVUZtazdzUkNfZllvZ041Q1FvSUZZcWU2cUc4aXVuaEcyTmk?oc=5",
+          "domain": "shattered-io.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-19T19:02:11+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     }
