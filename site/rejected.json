@@ -1,42 +1,32 @@
 {
-  "generated_at": "2026-11-21T04:11:37.011443+00:00",
+  "generated_at": "2026-11-22T03:19:33.596452+00:00",
   "items": [
     {
-      "cluster_key": "019ea3b651225803",
-      "title": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser…",
+      "cluster_key": "90764538b4dfc43c",
+      "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
+        "agents",
         "ai",
-        "android",
-        "howto",
         "linux",
         "llm",
         "opensource",
-        "policy",
-        "tool"
+        "windows"
       ],
-      "summary": "English · فارسی Find proxy configs that actually get you into Google AI Studio and Gemini, by testing each one the way a person would: in a signed-in browser, through the route you will really use. It works end to end on Windows (the only platform it has been run on so far). The macOS, Linux and Android builds come from the CI pipeline and have not been exercised on real devices yet. The big Simple / Advanced switch in the header decides what is tested. The route diagram under the title morphs to show it.",
+      "summary": "An agent skill for hill-climbing the speed of a local LLM server on any hardware and any quantization. It covers: - single-user and concurrent decode - speculative decoding - prefill - KV cache size - startup time and time to first token It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. The workflow: - Compute the theoretical ceiling. Log every result, including the failures.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 0,
       "interest_score": 0,
-      "corroboration": 1,
+      "corroboration": 2,
       "blend": 0.0,
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "019ea3b651225803",
-        "119b3c3d5e0839db",
-        "14e91ac96c4fa768",
-        "1e0956c04fa10f0d",
-        "287ac4f2489441a8",
-        "2f9f6a9bc79e2dd7",
-        "4538d3d643ed051d",
-        "7c2f9d53319da8b1",
-        "896c6f4d572a2f68",
-        "eb05309ca987d7d9"
+        "90764538b4dfc43c",
+        "a70cae4c16f0fdc6"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -44,71 +34,23 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+          "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
           "domain": "github.com",
           "tier": "C"
         },
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
-          "domain": "github.com",
+          "name": "explainx.ai",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOejJmakJOUXNoWV9XYUtYdUZra0V0S21Uc2c4MnhPb3o4WEhEbXcxRi1OLW01cnNVLVVCVGtOZkQ3NU10eURGQy1PNldWSkNuaVNjdmNVVEd0czY3czNIdzlSbkE3eVJtNDhsdGZPYUlYSklyUG10Ny03QlYyV3pNMEJGV0NKSnY3WFZrUUxpcC14NjNwSThrVXp3?oc=5",
+          "domain": "explainx-ai.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-15T16:46:04+00:00",
+      "published": "2026-11-16T18:40:04+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-15 — outside lookback window",
+      "reject_reason": "published 2026-11-16 — outside lookback window",
       "held_back": true
     },
     {
@@ -161,20 +103,19 @@
         "ai",
         "llm",
         "opensource",
-        "release",
         "threat-intel",
         "tool"
       ],
-      "summary": "",
+      "summary": "Free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep pack for local businesses and the people who market them. 32 skills for Claude Code, Codex, Cursor and other agents. They were built from real campaigns, and every one works without a paid tool. Made by James Dickerson (@boringmarketer). boringfunnels.com finds local businesses losing customers (I make it).",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 0.0,
       "is_new": true,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
         "e9a68a300e49f431"
       ],
@@ -192,26 +133,18 @@
       "primary_links": [],
       "published": "2026-11-16T15:09:46+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-11-16 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "9a79a2981ea382af",
-      "title": "mdexa-ai/mdexa-ai-native-database — Verified license and provenance records for datasets behind medical AI: information cards, JSON Schema…",
+      "cluster_key": "186843cc8682e719",
+      "title": "I think often about the fact that almost everyone working in the West has lived in a quite stable socio-technical period Only 1 job out of 270 in…",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "opensource"
-      ],
-      "summary": "Verified license and provenance records for the datasets and open models behind medical AI, queryable by agents over MCP and HTTP. Teams building medical AI choose training and evaluation data from hosting pages, repositories, papers and terms pages that often disagree. A hosting platform tags a dataset MIT while the upstream exam body reserves all rights; a repository license covers the code but not the data; a \"public\" dataset turns out to require credentialed access. Mdexa resolves each resource into one dated, evidence-backed record, so a person or an agent gets the answer in one lookup instead of reading five pages. This repository is the open snapshot of the verified records (datasets…",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I think often about the fact that almost everyone working in the West has lived in a quite stable socio-technical period Only 1 job out of 270 in the 1950 census is now obsolete (elevator operator) 2026 is similar to 1957 in a way that 1969 was not similar to 1900.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -222,7 +155,51 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9a79a2981ea382af"
+        "186843cc8682e719"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2fobx5wek2j",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T04:17:53.904000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-16 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "479bc4e0e5b12179",
+      "title": "jackson-cmd/claude-multi-desktop — Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "linux",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "Run multiple Claude Desktop accounts at the same time on one Mac. Each window has its own sign-in, and all of them share one Claude Code setup, so a session in one account can send work to a session in another. One bash script · no dependencies · never modifies Claude.app · macOS Unofficial, for legitimate use only. It is built for one person with a personal and a work Claude account (see who it is for). Do not use it to get around usage limits or to share accounts; using several accounts to abuse usage quotas is not supported.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "479bc4e0e5b12179"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -230,17 +207,107 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/mdexa-ai/mdexa-ai-native-database",
+          "url": "https://github.com/jackson-cmd/claude-multi-desktop",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-15T12:20:17+00:00",
+      "published": "2026-11-16T04:23:02+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-15 — outside lookback window",
+      "reject_reason": "published 2026-11-16 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "8129f68e260304e7",
+      "title": "erkamyaman/rust-anything — Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "android",
+        "llm",
+        "opensource",
+        "windows"
+      ],
+      "summary": "English · Türkçe · Українська · 简体中文 · 繁體中文 · Deutsch · Français · Русский · 日本語 · 한국어 · Azərbaycanca · Oʻzbekcha · Қазақша · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt · Español · Italiano Rewrite your app in Rust, and prove it still behaves the same. Point it at your app: it records what the original does, your coding agent writes the Rust one piece at a time, and every piece is checked against that recording before it moves on. It doesn't translate code; it proves the rewrite. Install · Releases · Claude Code plugin · MCP Registry · Real-world ports · FAQ Languages · How it works · Whole apps · Sponsors · MIT Made in Türkiye 🇹🇷 by erKam Yaman · ❤️ Sponsor me · Spo…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "8129f68e260304e7"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/erkamyaman/rust-anything",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T12:10:36+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-16 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "b9d9f066ce957d79",
+      "title": "JimLiu/open-artifact — Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "dfir",
+        "howto",
+        "llm",
+        "opensource",
+        "tool"
+      ],
+      "summary": "This project started as baoyu-design (the old URL redirects here), which brought claude.ai-style Artifact types to local coding agents as one skill per type. Open Artifact rebuilds them as an open, agent-agnostic format: one local daemon, one page frame, one /open-artifact skill, and a plugin for each agent app. Open Artifact lets any coding agent make things people can open, edit and comment on, not just files. You ask your agent for a slide deck, a UI design, a design system, a whiteboard, a spreadsheet, a data dashboard, a doc or a short animated film. The agent writes a plain folder of files.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "b9d9f066ce957d79"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/JimLiu/open-artifact",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-17T02:25:25+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-17 — outside lookback window",
       "held_back": true
     },
     {
@@ -282,64 +349,15 @@
       "held_back": true
     },
     {
-      "cluster_key": "333a9a9a9fcc8cdc",
-      "title": "AI4XE/Parallax — A lightweight workflow plugin for hands-off AI coding with DeepSeek Harness, Claude Code, GitHub Copilot…",
+      "cluster_key": "1e6985a78fe0fc71",
+      "title": "A lot of folks don't realize how much of our computer infrastructure is an improvised system prone to cascading failures.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
         "ai",
-        "linux",
-        "llm",
-        "opensource",
         "windows"
       ],
-      "summary": "Parallax is a lightweight workflow plugin for hands-off AI coding, on top of your agent harness. Just say what you want, make a few choices, hand it off — an agent team takes it from there. You own the goal; the agents own the work, independent audits, and context management. Plugin trigger words: wish · Parallax · qstart - Wish — say what you would like, as casually as you like. You do not need to have it figured out; add more in several messages and say \"that's all\" when you are done.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "333a9a9a9fcc8cdc"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/AI4XE/Parallax",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-15T10:31:00+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-15 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "2503e149ac63af22",
-      "title": "morajabi/poo — Find and safely free the disk space your dev work eats: builds, caches, simulators and agent worktrees.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "hardware",
-        "howto",
-        "linux",
-        "opensource",
-        "tool"
-      ],
-      "summary": "Find and safely free the disk space your dev work eats. A menu bar app and CLI for macOS, with an MCP server and skill for your coding agent. Website · Download · Install · Rules and mods · Contributing App: download Poo.app, unzip it and move it to Applications. macOS 15 or later, Apple silicon or Intel. CLI: curl -fsSL poo.morajabi.com/install | sh Installs poo into ~/.local/bin (sha256-verified).",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A lot of folks don't realize how much of our computer infrastructure is an improvised system prone to cascading failures. You didn't need offensive AI cyberattacks to have big outages like Microsoft/FAA. Of course, now we DO have to deal with offensive AI (but also defensive AIs and patching) 2026-11-17T01:05:25.852Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -350,47 +368,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2503e149ac63af22"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/morajabi/poo",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-15T18:39:06+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-15 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "fa0e89bac09ad506",
-      "title": "The traffic from agent swarms doing research is going to be quite large, they are relentless at finding info.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The traffic from agent swarms doing research is going to be quite large, they are relentless at finding info. I had Fable 5.2 reconstruct WH Auden's 1941 poetry class. It found an obscure, relevant book on the Internet Archive, which it read a line at a time by doing repeated full text searches.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "fa0e89bac09ad506"
+        "1e6985a78fe0fc71"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -398,32 +376,32 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2bwllyra222",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2htyp4bhc2t",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-14T16:35:48.726000+00:00",
+      "published": "2026-11-17T01:05:25.401000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-14 — outside lookback window",
+      "reject_reason": "published 2026-11-17 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "a11bf79184df3f68",
-      "title": "Wilfriedbkt/interview-copilot-edtech-app — Interview Copilot EdTech App: Bridge Learning and Your Dream Job",
+      "cluster_key": "b9620ef9896ea0ab",
+      "title": "trydirex/direx — Open-source marketing workspace: business context, a marketing plan and campaigns across channels.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "ai",
         "howto",
+        "llm",
         "opensource",
-        "privacy",
-        "windows"
+        "threat-intel",
+        "tool"
       ],
-      "summary": "Interview Copilot is an EdTech application built to close the distance between learning and landing the job you actually want. It pairs advanced AI with a real-time coaching experience, listening to interview questions as they happen and surfacing context-aware hints, talking points, and structured answers that teach you how to respond with confidence. Whether you run it as a lightweight desktop companion or practice in the browser, it stays discreet, private, and focused on helping you improve with every session. OS: Windows 10 / 11 - Shell: PowerShell 5.1+ or PowerShell 7+ - Network: internet access to download the script - Privileges: standard user 🎙️ Live question capture: Interview Cop…",
+      "summary": "Facts about your business, proposed changes to them, and claims you never want made. The plan drafter writes each email step's template, and a plan change shows its diff step by step before you accept it. Steps for email, social posts, hand-sent DMs, newsletter issues, SEO briefs and video clips. A Campaign can start on a date or when another step's output is ready, and in run mode it moves to the next step on its own. Each email step picks its own drafting mode.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -434,7 +412,7 @@
       "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "a11bf79184df3f68"
+        "b9620ef9896ea0ab"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -442,17 +420,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/Wilfriedbkt/interview-copilot-edtech-app",
+          "url": "https://github.com/trydirex/direx",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-15T20:07:19+00:00",
+      "published": "2026-11-17T00:55:11+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-15 — outside lookback window",
+      "reject_reason": "published 2026-11-17 — outside lookback window",
       "held_back": true
     },
     {
@@ -496,7 +474,50 @@
       "held_back": true
     },
     {
-      "cluster_key": "8bd3f994b4a406d5",
+      "cluster_key": "cb1cea2d17ccf219",
+      "title": "andyhuo520/beanpod — 豆仓 BeanPod：原生 macOS 录音豆管理 App — 本机转写、纪要待办、知识库问答、逐句回听与英语学习、MCP 接入 Claude / Codex",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource"
+      ],
+      "summary": "编译 xcodegen generatexcodebuild -project BeanPod.xcodeproj -scheme BeanPod -derivedDataPath build build CODE_SIGN_IDENTITY=\"Apple Development\" CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=<你的团队号> 建议用自己的 Apple 开发证书签名（免费的 Apple ID 也可以，团队号在 Xcode → Settings → Accounts 里找）。不签名也能编译，但每次重新编译后系统都会重新要蓝牙授权，授权前搜不到设备。 cp -R build/Build/Products/Debug/BeanPod.app /Applications/open /Applications/BeanPod.app 请从「应用程序」文件夹或访达打开，不要在终端里直接运行 App 里的可执行文件，否则会因为没有权限而崩溃。 3.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "cb1cea2d17ccf219"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/andyhuo520/beanpod",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-16T08:56:19+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-16 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "32cb00ae7dbb122d",
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
       "category": "cyber_attacks",
       "one_liner": "",
@@ -514,13 +535,15 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 37,
       "interest_score": 100,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
+      "corroboration": 2,
+      "blend": 69.2,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
+        "32cb00ae7dbb122d",
+        "89ffcc7fb0f54ca4",
         "8bd3f994b4a406d5",
         "dc6901c8a6d8ff52"
       ],
@@ -535,6 +558,18 @@
           "tier": "B"
         },
         {
+          "name": "Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPblgwd1BUUGlHOVJsaTFlREJwUFNOT1NJS2ItRTh5ZzYwNWlTZTluVlhOLWwtdFViTUdUNnlRNnVSRXhEdXd1RFliNmNCMEQ4S05zSW1yU0daOHpCUi1TOEloMTVua1JkbzBjWXowTlJCcWdyTGkweDNIdm1kYXZZMXctRmtxOE9DNFNheUVWUnhpNnFHdFBRRw?oc=5",
+          "domain": "pasquale-pillitteri.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "SOC Prime",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2s0UUhIZ1lGWC1pSWpqVXl1N0VuSmluX0QteGNIREd6Q2NmQUxiQ1JwNk42UzZNZmpSMjJfWERSdm1aS052X1RfZjl2OG1CRmc3ZVN4ZFI1djFDYlRYWXZ4Zy1WVW8yN3lsRXJfbDJSbk4zaHdMVGdSZGtocS1EVHpzOHgyWWphcUdDeEpLZlZiWXdFSjFYU3ZsYW9zVkh2bEtnaXNhQkEwNWVIaWc?oc=5",
+          "domain": "soc-prime.publisher",
+          "tier": "C"
+        },
+        {
           "name": "The Hacker News",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNmU0RTVlZkhSbi1kX2tyRGhaa0tjTmQtNzVGWjlKeUh5dkxtQkxiSGFNRFkzVF9HWTdzVVRqMExSbjlCSlJUc3FmcmlPOGNIVDAyd01RVllFdDZONkgzNVgwYUE3UVZYUURrR2ZVX1RGajVfbDVndVhuanJhc2VSQ1NR?oc=5",
           "domain": "thehackernews.com",
@@ -545,9 +580,10 @@
       "published": "2026-11-20T06:37:47+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from cache",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
@@ -606,65 +642,14 @@
       "held_back": true
     },
     {
-      "cluster_key": "4982f2beba666b2f",
-      "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "privacy",
-        "research",
-        "threat-intel",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "4982f2beba666b2f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.23588",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.23588"
-      ],
-      "published": "2026-11-20T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "ff93c8dfdd38dcbc",
-      "title": "IIT Madras Opens Registrations For 20 Online Courses For School Students, Check Details",
+      "cluster_key": "0872de453d72616c",
+      "title": "Vice President urges graduates to embrace lifelong learning, contribute to nation-building",
       "category": "india_world",
       "one_liner": "",
       "tags": [
-        "india"
+        "ai",
+        "india",
+        "policy"
       ],
       "summary": "",
       "key_facts": [],
@@ -677,21 +662,21 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "ff93c8dfdd38dcbc"
+        "0872de453d72616c"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/education/ai-data-science-aerospace-engineering-iit-madras-opens-registrations-for-20-online-courses-for-school-students-12357165#publisher=newsstand",
-          "domain": "ndtv.com",
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/maharashtra/vice-president-urges-graduates-to-embrace-lifelong-learning-contribute-to-nation-building/article71728470.ece",
+          "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T03:27:04+00:00",
+      "published": "2026-11-21T19:00:11+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
@@ -702,109 +687,144 @@
       "held_back": true
     },
     {
-      "cluster_key": "e2c1fd58d7542d3f",
-      "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
-      "category": "tech_ai",
+      "cluster_key": "67401cc888fc28c2",
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
+        "blueteam",
         "cloud",
-        "llm",
-        "opensource",
-        "research",
-        "tool"
+        "incident",
+        "network"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 70,
+      "trust_score": 25,
       "interest_score": 75,
       "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
+      "blend": 47.5,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "e2c1fd58d7542d3f"
+        "67401cc888fc28c2"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.24039",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.24039"
-      ],
-      "published": "2026-11-20T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-19T09:31:26+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
         "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a3eac34b29cf4ec4",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "exploit",
+        "incident",
+        "network",
+        "threat-actor",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "a3eac34b29cf4ec4"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+          "domain": "thehackernews.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T08:49:13+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "b20a5243e1ee8ca5",
-      "title": "Space-X: Self-Evolving Spatial Agents Weaving Clues into Evidence Chains",
-      "category": "tech_ai",
+      "cluster_key": "9051997722357cf7",
+      "title": "Ladakh records 70% turnout in first panchayat polls since Union Territory formation",
+      "category": "india_world",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "howto",
-        "llm",
-        "privacy",
-        "research",
-        "tool"
+        "india",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 70,
-      "interest_score": 75,
+      "trust_score": 25,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 36.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "b20a5243e1ee8ca5"
+        "9051997722357cf7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.24004",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/ladakh/ladakh-municipal-and-panchayat-elections/article71727478.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.24004"
-      ],
-      "published": "2026-11-20T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-21T17:46:59+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "2 claim(s) not supported by the source text",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -850,154 +870,75 @@
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "4d80d34754737813",
-      "title": "The end result of the reconstruction is very impressive, however.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "release"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The end result of the reconstruction is very impressive, however. It made a version of the lost class, called the “hardest in the humanities,\" that is remarkably accessible and based on scattered textual evidence from Auden's writing & surviving notes. auden-english-135.netlify.app /tempest/son... [contains quote post or other embedded content] 2026-11-14T18:52:29.656Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "4d80d34754737813"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2c67rtdjs22",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T18:52:22.123000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-14 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "78f264173bfc07cd",
-      "title": "Attackers bypass GitHub SHA pinning with malicious fork commits",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "appsec",
-        "cve",
-        "exploit",
-        "opensource",
-        "release",
-        "supply-chain",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "78f264173bfc07cd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaE1MWkJzNERBWTd2RzhzbTFNSF9heXJ4LWZnT184ZnZ6czBGOXZwMjNOVy1kQk1iVGh3cWxsbFphQnMtWTZhNnAxY2VzME05cFJqWTVNZEJZbDV6dkxDQ3EtN0trak1ZNnhsQlhCQlVpYTE5RDQxb0JfVG04WXJBOTJVRFVta3o1YkNtNUdEOXkwLUZIM2Q4?oc=5",
-          "domain": "news-lavx-hu.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T16:41:45+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 5/5 from cache",
-        "blend 55 = trust 10 / interest 100 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "f7a016ab59a8fe30",
-      "title": "AI is getting better faster than our measurements are.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu AI is getting better faster than our measurements are. I threw together SatBench, which measures how quickly major AI benchmarks become saturated (effectively solved) by AI. Of 173 benchmarks cited by the Labs since 2023, 63% are now saturated. Saturation of new benchmarks is also happening faster.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "f7a016ab59a8fe30"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2cotuxdvk22",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-14T23:49:56.358000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-14 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "7346fbf06daeda9a",
-      "title": "Bridge Agent Memory Beats SOTA on Recall Benchmarks",
+      "cluster_key": "6ccebafcdf30c270",
+      "title": "Here are the top AI agents that can live in your text messages",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "llm",
+        "android",
+        "howto",
+        "markets",
         "opensource",
-        "policy",
-        "release",
-        "research",
+        "privacy",
+        "release"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6ccebafcdf30c270"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T17:00:00+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "1c8abf6d312c556f",
+      "title": "ClawDOS: AI Agent on DOS 8088 (Install Guide 2026)",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "howto",
+        "linux",
+        "llm",
+        "network",
+        "opensource",
         "tool"
       ],
       "summary": "",
@@ -1011,7 +952,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "7346fbf06daeda9a"
+        "1c8abf6d312c556f"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -1019,67 +960,17 @@
       "sources": [
         {
           "name": "explainx.ai",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPajU5M0x6akc0bXhFMG10WlFzNHVGWWVTQUF6UDB5QklTN1JmckZ6bFFnN3pUVkY2dWJSU0xLdDVpQ3YwZVg1VWhWVGUzU3R3WTNMV2xPRy1qc0h2cmhBcl9RNHBoZmRvWHRCanZZbWM1enByMGRIemJGX3VDak0xSkJObw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3FMWmo0UzUtZlJrZzlaMDVBSmRpUEtqekZzdWFhbnRIeGlpeEJZcnF4MFo0NndaUXlrZ0VjZklmLWdWNzdQbUlaUUNwdVNUTkhhQm93NERuMFpoUmZ5a2xmeXF5THR1YW9WdFpDRTBBNUY4NzBldnlxNTBmU1B5ZjVCWXQtZw?oc=5",
           "domain": "explainx-ai.publisher",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-18T00:00:00+00:00",
+      "published": "2026-11-21T00:00:00+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "24e12c6e3e092c00",
-      "title": "Gemini CLI vs Claude Code: $3/$15 vs $8/$40 Tokens",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "release",
-        "research",
-        "tool"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "24e12c6e3e092c00"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZVhYTmU0Nk5XQ2xRQTdHaERhZkVWd0d6TUhxb09YNW1IT2o0bGdKZGFYdHcwdGtFUXQ4QXV3Y1hvQUtsQVpEU3k2UWNtcFBjR19xYllWXzNTSVBrWW1iaDhiVUZtazdzUkNfZllvZ041Q1FvSUZZcWU2cUc4aXVuaEcyTmk?oc=5",
-          "domain": "shattered-io.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T19:02:11+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from gemini-3.1-flash-lite",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
