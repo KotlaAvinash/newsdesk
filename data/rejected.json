@@ -1,66 +1,16 @@
 {
-  "generated_at": "2026-11-22T03:19:33.596452+00:00",
+  "generated_at": "2026-11-23T03:55:53.073383+00:00",
   "items": [
     {
-      "cluster_key": "90764538b4dfc43c",
-      "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup…",
+      "cluster_key": "d8fcedec2f3391fc",
+      "title": "I shipped a new version of Datasette Lite recently - my build of the Datasette Python web app that runs entirely in the browser with WebAssembly and…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "linux",
-        "llm",
-        "opensource",
+        "release",
         "windows"
       ],
-      "summary": "An agent skill for hill-climbing the speed of a local LLM server on any hardware and any quantization. It covers: - single-user and concurrent decode - speculative decoding - prefill - KV cache size - startup time and time to first token It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. The workflow: - Compute the theoretical ceiling. Log every result, including the failures.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "90764538b4dfc43c",
-        "a70cae4c16f0fdc6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "explainx.ai",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOejJmakJOUXNoWV9XYUtYdUZra0V0S21Uc2c4MnhPb3o4WEhEbXcxRi1OLW01cnNVLVVCVGtOZkQ3NU10eURGQy1PNldWSkNuaVNjdmNVVEd0czY3czNIdzlSbkE3eVJtNDhsdGZPYUlYSklyUG10Ny03QlYyV3pNMEJGV0NKSnY3WFZrUUxpcC14NjNwSThrVXp3?oc=5",
-          "domain": "explainx-ai.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T18:40:04+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
-    },
-    {
-      "cluster_key": "fb950e0bc54c67a7",
-      "title": "As a side note, a couple years ago, making this benchmark & analysis would’ve taken a considerable amount of time in STATA, likely several days, and…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "research"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu As a side note, a couple years ago, making this benchmark & analysis would’ve taken a considerable amount of time in STATA, likely several days, and making it look this nice would have been quite a while as well. This was like 4 prompts to Fable 5.2 [contains quote post or other embedded content] 2026-11-15T04:28:11.242Z",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z I shipped a new version of Datasette Lite recently - my build of the Datasette Python web app that runs entirely in the browser with WebAssembly and Pyodide - here's what's new and how it all works 2026-11-17T17:37:51.041Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -71,40 +21,36 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "fb950e0bc54c67a7"
+        "d8fcedec2f3391fc"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2d6fg4qbc26",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3n2jlhapz522o",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-15T04:28:10.911000+00:00",
+      "published": "2026-11-17T17:37:49.437000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-15 — outside lookback window"
+      "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
-      "cluster_key": "e9a68a300e49f431",
-      "title": "boringmarketer/boring-marketing-skills — 32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email…",
+      "cluster_key": "16024beb2a71bdb7",
+      "title": "Here's GPT-6.2 Astra and GPT-6.2 Sol for \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
         "llm",
-        "opensource",
-        "threat-intel",
-        "tool"
+        "windows"
       ],
-      "summary": "Free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep pack for local businesses and the people who market them. 32 skills for Claude Code, Codex, Cursor and other agents. They were built from real campaigns, and every one works without a paid tool. Made by James Dickerson (@boringmarketer). boringfunnels.com finds local businesses losing customers (I make it).",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Here's GPT-6.2 Astra and GPT-6.2 Sol for \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\" 2026-11-17T22:43:07.846Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -112,28 +58,28 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": true,
+      "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "e9a68a300e49f431"
+        "16024beb2a71bdb7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/boringmarketer/boring-marketing-skills",
-          "domain": "github.com",
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3n2k4j57tg22m",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T15:09:46+00:00",
+      "published": "2026-11-17T22:43:06.480000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
+      "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
       "cluster_key": "186843cc8682e719",
@@ -173,18 +119,59 @@
       "reject_reason": "published 2026-11-16 — outside lookback window"
     },
     {
-      "cluster_key": "479bc4e0e5b12179",
-      "title": "jackson-cmd/claude-multi-desktop — Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared…",
+      "cluster_key": "19d9786d67371c8a",
+      "title": "A rush of patches to address security concerns is exactly the most plausible answer for recent outages, as well as the official answer.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "political",
+        "vulnerability"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A rush of patches to address security concerns is exactly the most plausible answer for recent outages, as well as the official answer. CIOs I spoke to have been exhausted trying to keep up with security patch demands & balancing that with normal operations.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "19d9786d67371c8a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2kh6qjgrs2z",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-18T01:54:08.779000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-18 — outside lookback window"
+    },
+    {
+      "cluster_key": "cf0948018483d449",
+      "title": "ccarter01011/traxagent-claude-plugin — Ask Claude, ChatGPT, Claude Code, Cursor or VS Code who spent your AI budget and what to fix.",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "linux",
+        "ai",
         "llm",
         "opensource",
         "tool"
       ],
-      "summary": "Run multiple Claude Desktop accounts at the same time on one Mac. Each window has its own sign-in, and all of them share one Claude Code setup, so a session in one account can send work to a session in another. One bash script · no dependencies · never modifies Claude.app · macOS Unofficial, for legitimate use only. It is built for one person with a personal and a work Claude account (see who it is for). Do not use it to get around usage limits or to share accounts; using several accounts to abuse usage quotas is not supported.",
+      "summary": "Who spent your AI budget last month, and on what? Ask Claude, ChatGPT, Claude Code, Cursor, Gemini or VS Code, and get the answer from your real usage. Two questions, answered from the sample company: what each team spent last week, then which cost cuts to make first. The second answer ranks the fixes by effort, not just by size, so the safe config changes come before the ones that need a quality test. Your teams may pay for AI in 5 places or more: the Anthropic, OpenAI and Gemini APIs, Claude Code or Codex, Cursor, and Claude or ChatGPT seats.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -195,7 +182,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "479bc4e0e5b12179"
+        "cf0948018483d449"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -203,60 +190,17 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+          "url": "https://github.com/ccarter01011/traxagent-claude-plugin",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T04:23:02+00:00",
+      "published": "2026-11-17T16:45:33+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
-    },
-    {
-      "cluster_key": "8129f68e260304e7",
-      "title": "erkamyaman/rust-anything — Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "android",
-        "llm",
-        "opensource",
-        "windows"
-      ],
-      "summary": "English · Türkçe · Українська · 简体中文 · 繁體中文 · Deutsch · Français · Русский · 日本語 · 한국어 · Azərbaycanca · Oʻzbekcha · Қазақша · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt · Español · Italiano Rewrite your app in Rust, and prove it still behaves the same. Point it at your app: it records what the original does, your coding agent writes the Rust one piece at a time, and every piece is checked against that recording before it moves on. It doesn't translate code; it proves the rewrite. Install · Releases · Claude Code plugin · MCP Registry · Real-world ports · FAQ Languages · How it works · Whole apps · Sponsors · MIT Made in Türkiye 🇹🇷 by erKam Yaman · ❤️ Sponsor me · Spo…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "8129f68e260304e7"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/erkamyaman/rust-anything",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T12:10:36+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
+      "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
       "cluster_key": "b9d9f066ce957d79",
@@ -304,43 +248,6 @@
       "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
-      "cluster_key": "19e044bba9362300",
-      "title": "Another one of those things that would have been impossible a few months ago: \"Fable & Opus, find video of the Starship catch.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Another one of those things that would have been impossible a few months ago: \"Fable & Opus, find video of the Starship catch. Render the last 40 seconds or so in 3D in 3js with extreme detail. No need to include the crowd.\" You can control it here: ship-42-catch.netlify.app 2026-11-15T18:41:53.642Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "19e044bba9362300"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2eo3wirl22g",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-15T18:41:52.148000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-15 — outside lookback window"
-    },
-    {
       "cluster_key": "1e6985a78fe0fc71",
       "title": "A lot of folks don't realize how much of our computer infrastructure is an improvised system prone to cascading failures.",
       "category": "tech_ai",
@@ -375,6 +282,52 @@
       ],
       "primary_links": [],
       "published": "2026-11-17T01:05:25.401000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-17 — outside lookback window"
+    },
+    {
+      "cluster_key": "5c555fbf1786e917",
+      "title": "hackclub/orchard — Open-source, self-hosted Deployment Platform. Deploy from Git to your own server with one command.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "cloud",
+        "howto",
+        "linux",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "Turn a Linux server into a private hosting platform. Hack Club Orchard is an open-source, self-hosted platform as a service (PaaS). Connect a repository from GitHub, GitLab, Gitea or another Git host, and Orchard builds it and runs it behind HTTPS, with a Postgres database that has point-in-time restore from S3-compatible storage, logs, metrics and rollbacks. Use the dashboard, the CLI, or your AI agent through the MCP server. Orchard runs on Kubernetes, but you do not have to touch Kubernetes.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "5c555fbf1786e917"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/hackclub/orchard",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-17T03:13:58+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
@@ -424,6 +377,227 @@
       "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
+      "cluster_key": "c1addee66ece1531",
+      "title": "All of that aside, the fact that an AI can make all of this, including creating 3D assets in Blender is still nuts.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "release",
+        "windows"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu All of that aside, the fact that an AI can make all of this, including creating 3D assets in Blender is still nuts. If you have a decent computer, it is worth trying the web version: upwell-tetherline.netlify.app/unity/ Or download the full Windows install from itch. io: emollick.itch.io/upwell [contains quote post or other embedded content] 2026-11-18T02:44:01.343Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "c1addee66ece1531"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2kjxvwt6c2z",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-18T02:44:00.806000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-18 — outside lookback window"
+    },
+    {
+      "cluster_key": "78633b34927e845b",
+      "title": "SecFathy/otpkit — MCP server for temporary email & SMS — receive OTPs, verification links, and confirmation codes.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "llm",
+        "opensource"
+      ],
+      "summary": "An MCP server that creates disposable email addresses and phone numbers, checks their inboxes, and automatically extracts OTP codes and verification links from incoming messages. Zero API keys required — every email provider and the free SMS source work without authentication. otpkit runs as an MCP (Model Context Protocol) server. Any MCP-compatible client — Claude Code, Claude Desktop, Cursor, or your own agent — can call its tools to: - Create a temporary email address or get a free public phone number - Wait for an incoming message (email or SMS) - Receive the message with OTP codes and verification links already extracted Agent otpkit Provider │ │ │ ├─ create_temp_email() ───────►│ │ │◄…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "78633b34927e845b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/SecFathy/otpkit",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-17T14:43:11+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-17 — outside lookback window"
+    },
+    {
+      "cluster_key": "a09e872b67682cb3",
+      "title": "Software isn't breaking down now, the incentives have broken down for years and reality has just finally caught up",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe Software isn't breaking down now, the incentives have broken down for years and reality has just finally caught up 2026-11-17T15:22:46.852Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "a09e872b67682cb3"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3n2jdvrcm6k2j",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-17T15:22:46.650000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-17 — outside lookback window"
+    },
+    {
+      "cluster_key": "fa80b0281f72677f",
+      "title": "Stock market holiday next week: NSE, BSE to remain closed for Guru Nanak Jayanti on this day – Check details",
+      "category": "markets",
+      "one_liner": "NSE and BSE will remain closed on November 24 for Guru Nanak Jayanti following a strong market rally.",
+      "tags": [
+        "ai",
+        "india",
+        "markets"
+      ],
+      "summary": "The National Stock Exchange and Bombay Stock Exchange will remain closed on Tuesday, November 24, for Guru Nanak Jayanti, suspending all trading segments including equities and derivatives. The holiday follows a strong weekly rally for Indian markets driven by foreign institutional buying amid overseas tech selloffs. The next upcoming market holiday will be for Christmas on December 25.",
+      "key_facts": [
+        "Holiday date: November 24, 2026",
+        "Festival: Guru Nanak Jayanti"
+      ],
+      "bottom_line": "Holiday-shortened trading weeks require investors to account for scheduled closures during strong equity rallies.",
+      "claims": [
+        {
+          "text": "The National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) will remain shut next week on the account of Prakash Gurpurb Sri Guru Nanak Dev Jayanti.",
+          "support_span": "The National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) will remain shut next week on the account of Prakash Gurpurb Sri Guru Nanak Dev Jayanti.",
+          "status": "entailed"
+        },
+        {
+          "text": "NSE and BSE will be closed on Tuesday, November 24.",
+          "support_span": "NSE and BSE will be closed on Tuesday, November 24.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 25.0,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "fa80b0281f72677f"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-next-week-nse-bse-to-remain-closed-for-guru-nanak-jayanti-on-this-day-november-24-tuesday-11795343116023.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-22T11:12:12+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "1f4e70aa8806fec5",
+      "title": "hovocope135-tech/DSH-projects — 探索人与 AI 的最佳协作方式 · Exploring the best way for people and AI to work together.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1f4e70aa8806fec5"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/hovocope135-tech/DSH-projects",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-17T07:42:18+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-17 — outside lookback window"
+    },
+    {
       "cluster_key": "5bf05f1ad340b093",
       "title": "Weekly update is up! Email Dependencies & Apps: Do we still need to be dependent on email to build apps?",
       "category": "cyber_attacks",
@@ -457,48 +631,6 @@
       ],
       "primary_links": [],
       "published": "2026-11-16T07:42:01.940000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
-    },
-    {
-      "cluster_key": "cb1cea2d17ccf219",
-      "title": "andyhuo520/beanpod — 豆仓 BeanPod：原生 macOS 录音豆管理 App — 本机转写、纪要待办、知识库问答、逐句回听与英语学习、MCP 接入 Claude / Codex",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource"
-      ],
-      "summary": "编译 xcodegen generatexcodebuild -project BeanPod.xcodeproj -scheme BeanPod -derivedDataPath build build CODE_SIGN_IDENTITY=\"Apple Development\" CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=<你的团队号> 建议用自己的 Apple 开发证书签名（免费的 Apple ID 也可以，团队号在 Xcode → Settings → Accounts 里找）。不签名也能编译，但每次重新编译后系统都会重新要蓝牙授权，授权前搜不到设备。 cp -R build/Build/Products/Debug/BeanPod.app /Applications/open /Applications/BeanPod.app 请从「应用程序」文件夹或访达打开，不要在终端里直接运行 App 里的可执行文件，否则会因为没有权限而崩溃。 3.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "cb1cea2d17ccf219"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/andyhuo520/beanpod",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-16T08:56:19+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
@@ -598,98 +730,30 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "a5c2634b4f17e6e1",
-      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
-      "category": "cyber_attacks",
-      "one_liner": "An authenticated RCE vulnerability in Palo Alto Networks Panorama PAN-OS allows root-level code execution.",
-      "tags": [
-        "cve",
-        "exploit",
-        "llm",
-        "network",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "Palo Alto Networks has disclosed CVE-2026-0330, an authenticated remote code execution vulnerability in PAN-OS software running on Panorama. The flaw enables an authenticated administrator with network access to execute arbitrary code with root privileges on the device. Cloud NGFW, Prisma Access, and standalone firewalls remain unaffected. Palo Alto Networks noted that the risk is significantly minimized by restricting management interface access to trusted internal IP addresses and jump boxes. While no malicious exploitation has been reported, the vendor rated the issue medium severity and urged prompt remediation.",
-      "key_facts": [
-        "CVE ID: CVE-2026-0330",
-        "Product: Palo Alto Networks PAN-OS on Panorama",
-        "Severity: MEDIUM",
-        "CVSS Score: 8.6 (CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H)"
-      ],
-      "bottom_line": "Authenticated administrators can achieve root-level remote code execution on vulnerable Panorama appliances running affected PAN-OS versions.",
-      "claims": [
-        {
-          "text": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges.",
-          "support_span": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges.",
-          "status": "entailed"
-        },
-        {
-          "text": "Palo Alto Networks is not aware of any malicious exploitation of this issue.",
-          "support_span": "Palo Alto Networks is not aware of any malicious exploitation is of this issue.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "a5c2634b4f17e6e1"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-0330",
-          "domain": "security.paloaltonetworks.com",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://security.paloaltonetworks.com/CVE-2026-0330"
-      ],
-      "published": "2026-11-11T17:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "0872de453d72616c",
-      "title": "Vice President urges graduates to embrace lifelong learning, contribute to nation-building",
+      "cluster_key": "aa0b420030455fd0",
+      "title": "Activists rally on Vizag Beach Road against data centres, demand cancellation of permissions",
       "category": "india_world",
-      "one_liner": "India's Vice President highlights AI-driven technological changes and educational expansion during a university convocation address.",
+      "one_liner": "Environmental activists in Visakhapatnam are protesting the rapid expansion of data centres, citing concerns over water usage and land allocation.",
       "tags": [
-        "ai",
+        "cloud",
         "india",
-        "policy"
+        "threat-intel"
       ],
-      "summary": "Vice President C.P. Radhakrishnan addressed graduates at Symbiosis International University in Pune, emphasizing the importance of lifelong learning and ethical conduct amid rapid technological advancements driven by AI. He noted that India's higher education landscape has expanded significantly over the past decade, with university counts rising and enrollments climbing to over 4.5 crore students. The Vice President highlighted increasing female participation in higher education as a prominent sign of women's empowerment, urging young professionals to contribute actively to national development.",
+      "summary": "Environmental activists in Visakhapatnam, led by the NGO Green Visakha, held a rally on Beach Road to protest the proliferation of data centres in the region. Protesters raised concerns about the lack of job creation data, the allocation of ecologically sensitive land for private corporate use, and the potential impact on local water resources. The movement demands the cancellation of all permissions granted to these data centres, citing sustainability and health hazards as primary concerns. The protest highlights growing public resistance to large-scale infrastructure projects in the city.",
       "key_facts": [
-        "Universities increase: from 760 to over 1,400",
-        "Higher education enrolment: over 4.5 crore students"
+        "Data centre capacity: Over 6 gigawatts"
       ],
-      "bottom_line": "Continuous learning and strong ethics are vital for young professionals navigating AI-driven changes in India's expanding higher education ecosystem.",
+      "bottom_line": "Growing public opposition to data centre expansion in Visakhapatnam, driven by water scarcity and environmental concerns, may lead to increased regulatory scrutiny for future infrastructure projects.",
       "claims": [
         {
-          "text": "Vice President of India C.P. Radhakrishnan on Saturday (November 21, 2026) urged graduating students to pursue excellence with integrity, embrace lifelong learning and contribute to nation-building...",
-          "support_span": "Vice President of India C.P. Radhakrishnan on Saturday (November 21, 2026) urged graduating students to pursue excellence with integrity, embrace lifelong learning and contribute to nation-building...",
-          "status": "contradicted"
+          "text": "Members of Green Visakha, an environmental NGO, marched from the RK Beach bus stop to the Bhagat Singh statue, raising slogans and handing out pamphlets to passers-by.",
+          "support_span": "Members of Green Visakha, an environmental NGO, marched from the RK Beach bus stop to the Bhagat Singh statue, raising slogans and handing out pamphlets to passers-by.",
+          "status": "entailed"
         },
         {
-          "text": "Higher education enrolment had also increased from 3.4 crore to over 4.5 crore students, he said.",
-          "support_span": "Higher education enrolment had also increased from 3.4 crore to over 4.5 crore students, he said.",
-          "status": "entailed"
+          "text": "Around 44% of the households surveyed in Kochi face water shortages, while 20–25% face acute shortages.",
+          "support_span": "Around 44% of the households surveyed in Kochi face water shortages, while 20–25% face acute shortages.",
+          "status": "contradicted"
         }
       ],
       "trust_score": 25,
@@ -699,7 +763,7 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "0872de453d72616c"
+        "aa0b420030455fd0"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -707,17 +771,17 @@
       "sources": [
         {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/maharashtra/vice-president-urges-graduates-to-embrace-lifelong-learning-contribute-to-nation-building/article71728470.ece",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/activists-rally-on-vizag-beach-road-against-data-centres-demand-cancellation-of-permissions/article71732166.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T19:00:11+00:00",
+      "published": "2026-11-22T17:54:22+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
+        "importance 2/5 from gemini-3.1-flash-lite",
         "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -771,7 +835,7 @@
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
@@ -835,67 +899,113 @@
         "tier B (+25)",
         "single outlet, established publication (tier B)",
         "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "9051997722357cf7",
-      "title": "Ladakh records 70% turnout in first panchayat polls since Union Territory formation",
-      "category": "india_world",
-      "one_liner": "Ladakh sees high turnout in its first local panchayat and municipal elections since becoming a Union Territory.",
+      "cluster_key": "5b059524c3401996",
+      "title": "I’ve been using GPT-6.2 Astra prior to launch & I found it very uneven & weird.",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "india",
-        "political"
+        "llm"
       ],
-      "summary": "Ladakh recorded a 70.03% voter turnout in its panchayat elections and 52.4% in municipal council polls, marking the first local-body elections held since the region became a Union Territory in 2019. The administration deployed helicopter services to transport polling teams to remote, road-inaccessible areas in Zanskar. Meanwhile, the Leh Apex Body expressed discontent over the electoral timing and process while ongoing discussions continue with the Union Home Ministry regarding statehood and the Sixth Schedule.",
-      "key_facts": [
-        "Panchayat turnout: 70.03%",
-        "Municipal council turnout: 52.4%",
-        "Panchayat halqas covered: 192"
-      ],
-      "bottom_line": "High voter turnout marks Ladakh's first grassroots democratic elections as a Union Territory, despite local political reservations.",
-      "claims": [
-        {
-          "text": "Ladakh recorded 70.03% turnout in the panchayat elections and 52.4% in the municipal council polls on Saturday (November 21, 2026)...",
-          "support_span": "Ladakh recorded 70.03% turnout in the panchayat elections and 52.4% in the municipal council polls on Saturday (November 21, 2026), even as the Leh Apex Body (LAB), a civil society body holding talks with the Union Home Ministry, expressed unhappiness over the electoral process...",
-          "status": "contradicted"
-        },
-        {
-          "text": "Lieutenant-Governor Vinai Kumar Saxena termed the elections as “a historic day for Ladakh”.",
-          "support_span": "Lieutenant-Governor Vinai Kumar Saxena termed the elections as “a historic day for Ladakh”.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I’ve been using GPT-6.2 Astra prior to launch & I found it very uneven & weird. On one hand, it was harder to steer & work with than other models. On the other, when given an ambitious project (make a space elevator from scratch with Blender & Unity) it delivers upwell-tetherline.netlify.app/unity/ 2026-11-17T18:30:07.544Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "9051997722357cf7"
+        "5b059524c3401996"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/ladakh/ladakh-municipal-and-panchayat-elections/article71727478.ece",
-          "domain": "thehindu.com",
-          "tier": "B"
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2joens5t22x",
+          "domain": "bsky.app",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T17:46:59+00:00",
+      "published": "2026-11-17T18:30:03.697000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-17 — outside lookback window"
+    },
+    {
+      "cluster_key": "152a72ae52b69ba7",
+      "title": "US intelligence chief defends Trump’s comments calling Putin his ‘friend’",
+      "category": "india_world",
+      "one_liner": "US intelligence chief defends President Trump's public camaraderie with Vladimir Putin following APEC meetings.",
+      "tags": [
+        "policy",
+        "political"
+      ],
+      "summary": "US Director of National Intelligence Jay Clayton defended President Donald Trump's remarks calling Russian President Vladimir Putin his \"friend\" following a historic trilateral meeting in Shenzhen, China. Clayton clarified that while Washington does not support Russia's invasion of Ukraine, building personal rapport among nuclear power leaders is appropriate for discussing nuclear risk reduction. The statements sparked debate among US lawmakers regarding foreign policy consistency toward Russia.",
+      "key_facts": [
+        "Meeting date: November 19, 2026",
+        "Location: Shenzhen, China"
+      ],
+      "bottom_line": "Trilateral nuclear discussions between world powers underscore shifting diplomatic postures amid ongoing geopolitical conflict.",
+      "claims": [
+        {
+          "text": "United States Director of National Intelligence Jay Clayton has faced pressure to justify President Donald Trump’s claims that his Russian counterpart Vladimir Putin is a “friend”.",
+          "support_span": "United States Director of National Intelligence Jay Clayton has faced pressure to justify President Donald Trump’s claims that his Russian counterpart Vladimir Putin is a “friend”.",
+          "status": "entailed"
+        },
+        {
+          "text": "Is Vladimir Putin America’s friend? He is not America’s friend in Ukraine. Not at all. Not at all.",
+          "support_span": "Is Vladimir Putin America’s friend? He is not America’s friend in Ukraine. Not at all. Not at all.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 37,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 46.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "152a72ae52b69ba7",
+        "1d1c855eb159ab65"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/us-intelligence-chief-defends-trumps-comments-calling-putin-his?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNlR0aUswLUVNUWNuMk05NmJBSElCMzV6RWxDV2V4TmFicUFZWUFJR2pzQnd2VmNvQzhQTWtHTXZsMkkzcGMweEUyRE1FUlU1aXk5QkZCTk0tRE5fX1k2aU9jMmtOTndlTlVkaU5rT011UGgyMU1XX0JBQ3ZCb05qcEZYV3U2c003c3F3ZkRZamtvb3lDak8zR2o0dnJueWl6UkJ5RzBhTV9yUkpoaFVDVg?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-22T17:16:03+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
         "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "blend 47 = trust 37 / interest 50 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1021,74 +1131,50 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
+        "importance 3/5 from cache",
         "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "1c8abf6d312c556f",
-      "title": "ClawDOS: AI Agent on DOS 8088 (Install Guide 2026)",
+      "cluster_key": "fdfdaf9d59fdc0b2",
+      "title": "The discussion of AI in gaming is pernicious now.",
       "category": "tech_ai",
-      "one_liner": "ClawDOS proves that even 8088-era hardware can function as an AI agent host, offering a unique perspective on resource-constrained agent architecture.",
+      "one_liner": "",
       "tags": [
-        "agents",
         "ai",
-        "howto",
-        "linux",
-        "llm",
-        "network",
-        "opensource",
-        "tool"
+        "howto"
       ],
-      "summary": "ClawDOS is an open-source project that enables an AI agent to run on an IBM PC XT (8088 CPU) using FreeDOS. The harness uses a TLS bridge to communicate with the Claude API, allowing the vintage hardware to execute tools, compile code, and manage conversation history. It serves as a extreme constraint experiment for agentic workflows, demonstrating that even 4.77 MHz systems can participate in modern AI tool loops. The project is available on GitHub under the GPLv3 license.",
-      "key_facts": [
-        "Hardware: IBM PC XT (8088, 4.77 MHz, 640 KiB RAM)",
-        "OS: FreeDOS 1.4",
-        "License: GPLv3"
-      ],
-      "bottom_line": "ClawDOS demonstrates that agentic tool loops can be successfully offloaded to vintage hardware by using a simple TLS bridge and efficient memory management.",
-      "claims": [
-        {
-          "text": "ClawDOS is an open-source agent harness that runs on FreeDOS inside an IBM PC XT class machine.",
-          "support_span": "ClawDOS is an open-source agent harness that runs on FreeDOS inside an IBM PC XT class machine while calling Claude's Messages API through a TLS bridge.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The project uses a TLS bridge to call the Claude API.",
-          "support_span": "8088 PC --plain HTTP--> tunnel.py --HTTPS--> api.anthropic.com",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 10,
-      "interest_score": 50,
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The discussion of AI in gaming is pernicious now. The idea that games are going to be the only field where humans write code unassisted is obviously wrong. But the push for that from press & fans means missing a chance to guide AI usage toward approaches that empower workers & help gaming thrive.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "1c8abf6d312c556f"
+        "fdfdaf9d59fdc0b2"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "explainx.ai",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3FMWmo0UzUtZlJrZzlaMDVBSmRpUEtqekZzdWFhbnRIeGlpeEJZcnF4MFo0NndaUXlrZ0VjZklmLWdWNzdQbUlaUUNwdVNUTkhhQm93NERuMFpoUmZ5a2xmeXF5THR1YW9WdFpDRTBBNUY4NzBldnlxNTBmU1B5ZjVCWXQtZw?oc=5",
-          "domain": "explainx-ai.publisher",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2jbacjztk27",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T00:00:00+00:00",
+      "published": "2026-11-17T14:34:59.037000+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-17 — outside lookback window"
     }
   ]
 }
