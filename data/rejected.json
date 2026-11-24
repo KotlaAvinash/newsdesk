@@ -1,6 +1,89 @@
 {
-  "generated_at": "2026-11-23T03:55:53.073383+00:00",
+  "generated_at": "2026-11-24T07:20:51.860555+00:00",
   "items": [
+    {
+      "cluster_key": "c8587b3a8b62ab74",
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-11-18T15:36:28.654Z",
+      "key_facts": [
+        "Identifier: CVE-2026-123633"
+      ],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "c8587b3a8b62ab74"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Xe Iaso",
+          "url": "https://bsky.app/profile/xeiaso.net/post/3n2lv56lfbr2f",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-18T15:36:28.511000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-18 — outside lookback window"
+    },
+    {
+      "cluster_key": "9f10c66d4fe34ca0",
+      "title": "The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm",
+        "windows"
+      ],
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running at different effort levels - here's Gemini 4 Carbon, the new Gemini 4 Neon, and Gemini 4 Hydrogen at low, medium, and high 2026-11-19T06:40:18.844Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "9f10c66d4fe34ca0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3n2nhnbueh22q",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-19T06:40:15.930000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-19 — outside lookback window"
+    },
     {
       "cluster_key": "d8fcedec2f3391fc",
       "title": "I shipped a new version of Datasette Lite recently - my build of the Datasette Python web app that runs entirely in the browser with WebAssembly and…",
@@ -82,12 +165,12 @@
       "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
-      "cluster_key": "186843cc8682e719",
-      "title": "I think often about the fact that almost everyone working in the West has lived in a quite stable socio-technical period Only 1 job out of 270 in…",
+      "cluster_key": "903196ce6ce4f243",
+      "title": "At its current shipping trend, halving the time between each model release, Google exhausts all the element names on November 24, with a final…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu I think often about the fact that almost everyone working in the West has lived in a quite stable socio-technical period Only 1 job out of 270 in the 1950 census is now obsolete (elevator operator) 2026 is similar to 1957 in a way that 1969 was not similar to 1900.",
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu At its current shipping trend, halving the time between each model release, Google exhausts all the element names on November 24, with a final shipping cadence of 2.5 × 10⁻²⁹ seconds (25 quectoseconds) between Tennessine and their final model, Oganesson.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -98,7 +181,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "186843cc8682e719"
+        "903196ce6ce4f243"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -106,17 +189,17 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2fobx5wek2j",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2n3vjt7622m",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T04:17:53.904000+00:00",
+      "published": "2026-11-19T03:10:07.824000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
+      "reject_reason": "published 2026-11-19 — outside lookback window"
     },
     {
       "cluster_key": "19d9786d67371c8a",
@@ -160,149 +243,21 @@
       "reject_reason": "published 2026-11-18 — outside lookback window"
     },
     {
-      "cluster_key": "cf0948018483d449",
-      "title": "ccarter01011/traxagent-claude-plugin — Ask Claude, ChatGPT, Claude Code, Cursor or VS Code who spent your AI budget and what to fix.",
+      "cluster_key": "8b4b8bbecfaf4cae",
+      "title": "INK-Q/agy-fast — Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "Who spent your AI budget last month, and on what? Ask Claude, ChatGPT, Claude Code, Cursor, Gemini or VS Code, and get the answer from your real usage. Two questions, answered from the sample company: what each team spent last week, then which cost cuts to make first. The second answer ranks the fixes by effort, not just by size, so the safe config changes come before the ones that need a quality test. Your teams may pay for AI in 5 places or more: the Anthropic, OpenAI and Gemini APIs, Claude Code or Codex, Cursor, and Claude or ChatGPT seats.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "cf0948018483d449"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/ccarter01011/traxagent-claude-plugin",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T16:45:33+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
-    },
-    {
-      "cluster_key": "b9d9f066ce957d79",
-      "title": "JimLiu/open-artifact — Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "dfir",
-        "howto",
-        "llm",
-        "opensource",
-        "tool"
-      ],
-      "summary": "This project started as baoyu-design (the old URL redirects here), which brought claude.ai-style Artifact types to local coding agents as one skill per type. Open Artifact rebuilds them as an open, agent-agnostic format: one local daemon, one page frame, one /open-artifact skill, and a plugin for each agent app. Open Artifact lets any coding agent make things people can open, edit and comment on, not just files. You ask your agent for a slide deck, a UI design, a design system, a whiteboard, a spreadsheet, a data dashboard, a doc or a short animated film. The agent writes a plain folder of files.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "b9d9f066ce957d79"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/JimLiu/open-artifact",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T02:25:25+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
-    },
-    {
-      "cluster_key": "1e6985a78fe0fc71",
-      "title": "A lot of folks don't realize how much of our computer infrastructure is an improvised system prone to cascading failures.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "windows"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu A lot of folks don't realize how much of our computer infrastructure is an improvised system prone to cascading failures. You didn't need offensive AI cyberattacks to have big outages like Microsoft/FAA. Of course, now we DO have to deal with offensive AI (but also defensive AIs and patching) 2026-11-17T01:05:25.852Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "1e6985a78fe0fc71"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2htyp4bhc2t",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T01:05:25.401000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
-    },
-    {
-      "cluster_key": "5c555fbf1786e917",
-      "title": "hackclub/orchard — Open-source, self-hosted Deployment Platform. Deploy from Git to your own server with one command.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "cloud",
-        "howto",
+        "appsec",
         "linux",
+        "llm",
         "opensource",
+        "research",
         "tool",
         "windows"
       ],
-      "summary": "Turn a Linux server into a private hosting platform. Hack Club Orchard is an open-source, self-hosted platform as a service (PaaS). Connect a repository from GitHub, GitLab, Gitea or another Git host, and Orchard builds it and runs it behind HTTPS, with a Postgres database that has point-in-time restore from S3-compatible storage, logs, metrics and rollbacks. Use the dashboard, the CLI, or your AI agent through the MCP server. Orchard runs on Kubernetes, but you do not have to touch Kubernetes.",
+      "summary": "Latency, Token-Quota & Tool-Call Accelerator Plugin for Google Antigravity English · 简体中文 · Quick Start · Benchmarks · MCP Tools · Analysis Report · Changelog agy-fast is a zero-dependency, policy-compliant local MCP plugin for Google Antigravity (CLI agy, Desktop 2.0, and IDE). It cuts agent wall-clock latency, billable token quota, and upload traffic by consolidating high-frequency searches, multi-language symbol outlines, atomic multi-file edits, and build/test checks into batched local calls—and injecting a sub-50 ms workspace snapshot once per session—without altering Antigravity's native UI, diff viewer, modified-files list, checkpoints, or safety checks. Requirements: Node.js >= 20 (…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -313,7 +268,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "5c555fbf1786e917"
+        "8b4b8bbecfaf4cae"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -321,60 +276,426 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/hackclub/orchard",
+          "url": "https://github.com/INK-Q/agy-fast",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-17T03:13:58+00:00",
+      "published": "2026-11-19T04:58:46+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
+      "reject_reason": "published 2026-11-19 — outside lookback window"
     },
     {
-      "cluster_key": "b9620ef9896ea0ab",
-      "title": "trydirex/direx — Open-source marketing workspace: business context, a marketing plan and campaigns across channels.",
-      "category": "tech_ai",
-      "one_liner": "",
+      "cluster_key": "010b7d904bea9eff",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "category": "india_world",
+      "one_liner": "Nvidia reappoints Jensen Huang following White House intervention, triggering congressional investigations and market rebounds.",
       "tags": [
-        "howto",
-        "llm",
-        "opensource",
-        "threat-intel",
-        "tool"
+        "ai",
+        "markets",
+        "policy",
+        "political"
       ],
-      "summary": "Facts about your business, proposed changes to them, and claims you never want made. The plan drafter writes each email step's template, and a plan change shows its diff step by step before you accept it. Steps for email, social posts, hand-sent DMs, newsletter issues, SEO briefs and video clips. A Campaign can start on a date or when another step's output is ready, and in run mode it moves to the next step on its own. Each email step picks its own drafting mode.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
+      "summary": "Nvidia reinstated Jensen Huang as CEO shortly after his resignation over ties to a suspected Chinese spy, sparking bipartisan backlash from U.S. lawmakers. President Donald Trump claimed credit for convincing Nvidia's board to reappoint Huang to stabilize markets, adding nearly $1 trillion to the company's valuation. While the move ended a stock losing streak, lawmakers are vowing to investigate the administration's intervention and Nvidia's export compliance ahead of Huang's congressional testimony.",
+      "key_facts": [
+        "Stock jump: 31%",
+        "Market cap addition: $1 trillion"
+      ],
+      "bottom_line": "Political intervention to reinstate Nvidia's CEO has intensified scrutiny over AI supply chains and national security.",
+      "claims": [
+        {
+          "text": "Nvidia has reinstated Jensen Huang just days after rejecting his offer to return to the AI chipmaker - and less than two weeks after he was forced to resign over a reported affair with a suspected Chinese spy.",
+          "support_span": "Nvidia has reinstated Jensen Huang just days after rejecting his offer to return to the AI chipmaker - and less than two weeks after he was forced to resign over a reported affair with a suspected Chinese spy.",
+          "status": "contradicted"
+        },
+        {
+          "text": "On Monday, the US president said he \"made the deal\" to \"convince\" the tech giant's board to bring him back.",
+          "support_span": "the US president said he \"made the deal\" to \"convince\" the tech giant's board to bring him back.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 76,
+      "interest_score": 100,
+      "corroboration": 9,
+      "blend": 94.0,
+      "is_new": false,
+      "summary_source": "model",
       "alt_keys": [
-        "b9620ef9896ea0ab"
+        "010b7d904bea9eff",
+        "012a59ac52869d1b",
+        "07d27f072dc97279",
+        "0dd634861aaae263",
+        "24e7d7374a07286f",
+        "354bf133bd07149d",
+        "47cd611e22ce676a",
+        "50037045d41d4cec",
+        "571243c7a6c23545",
+        "57e4d9bc2d25bc90",
+        "58ec8f69a02abc39",
+        "5f46825b59bd103c",
+        "66cc673a6baaba00",
+        "7d5467704aab74c4",
+        "813ae3d9f9ad4fb4",
+        "a78f54e9ad78e761",
+        "b2a3f9e10a9c70bf",
+        "c681ae7d6899b735",
+        "c8ea599deb5ee3d4",
+        "e63c50b367bc2496",
+        "e67f280b332364e2",
+        "eb0c65b2b58fbc7a",
+        "ecab1061c917e910",
+        "f82422b1435f5080",
+        "fc309036a7be26c1"
+      ],
+      "critical_signal": "",
+      "priority": "critical",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/mamdani-blasts-ai-reliant-stock-market-after-jensen-huangs-return?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/nvidia-live-markets-surge-as-jensen-huang-returns-as-ceo?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "B"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+          "domain": "arstechnica.com",
+          "tier": "B"
+        },
+        {
+          "name": "DarkReading",
+          "url": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
+          "domain": "darkreading.com",
+          "tier": "B"
+        },
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/jensen-huang-is-nvidia-ceo-again-what-does-it-mean-for-indian-it-and-tech-shares-experts-explain-pick-5-stocks-to-buy-11795448522093.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        },
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/nvidia-brings-back-jensen-huang-as-ceo-ai-chipmaker-stock-rallies-31-11795443628972.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        },
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/anthropic-shares-climb-with-ai-trade-rally-on-huang-s-return-11795462011780.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        },
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/nvidias-31-surge-exposes-wall-street-s-growing-stock-trap-11795470573054.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+          "domain": "techcrunch.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "domain": "theverge.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+          "domain": "theverge.com",
+          "tier": "B"
+        },
+        {
+          "name": "Hacker News 150+",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "domain": "cnbc.com",
+          "tier": "C"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EYmc4X2wzaW5zXzZ5VXZ1cUFJbS1OYzJsZ2VSTVRnMkQteWdiN3Z0dTBlNmltdll6Vy1RWnpxVUthOF9XX3g0YmVvNWdXODJUMGpSeXdldVdYQWE3N2hCQXU3RExXSDViSWI3S2xHNVZFc0NUVmh5bGRhem5aUzdDa29xb1hH?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2c4ZVNmcHBzVFctOTBkRUd2d0VHTklseUhCcEtZT2VHbU1WbWprMUk2aDZSQ2tkZHNYVE9EWUgyaEkxeWtyN0M2V2NzR2ZCTHFmMEhvbHFDeExTNUdTeDF3WkxJZ2RSdmZ2cHBxWlFjTXdoa1hXdlZQRWtyTFFKVlJjMA?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY290QTRyd09iaGNpaWpuNmlnOHQ2MVZSMm43Q29tS05BSE00ekxCeF9DZ013THRtUzVsTUItS2FIa1R6UzdOQ2FlOFlscXRLVUdfNkhLNS1JZ0FNNTZuOEgxdVVhN2JnaDBYdVFJQXBhSUNxeFBnR0V2XzZLTzZBaEh4NVUxLWRhZjJHOGR5NGVZOXpjWGZjaVFWR0NobElUaUE?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmN5QUFQSGxDSlRyR3gxZzZQczRFSC1SNjFtY0xtMkM4cjhwbnZndkNaSW5JVDNvVVYxMDdObkhjcVZIMVpVZ2FoVFdNZ3NGQU9hckJhZUx6M0dfMERucTNVZk9aamhpRU85TE96c1pEdGUyTlhyZVRMWlNPNUJ1TG1mLTJadHltZ1Utal85WFlTb09aTXF3MTBXNG1TZ0EzeHYzUFNadw?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
+          "domain": "reuters.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-20T17:04:04+00:00",
+      "trace": [
+        "tier A (+40)",
+        "9 independent outlets (+36)",
+        "verified: 9 independent outlets",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 94 = trust 76 / interest 100 / corrob 100"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "559afc558cbe06e3",
+      "title": "Nvidia stock adds nearly $ 1T m-cap as Jensen Huang becomes CEO again! From year low to 33% surge, all losses recovered",
+      "category": "markets",
+      "one_liner": "Nvidia reinstated Jensen Huang as CEO after US government consultations cleared national security concerns, sparking a stock market recovery.",
+      "tags": [
+        "ai",
+        "hardware",
+        "markets",
+        "political"
+      ],
+      "summary": "Nvidia's board unanimously reinstated co-founder Jensen Huang as Chief Executive Officer following consultations with senior US government officials that satisfied directors regarding national security concerns. Huang had stepped down less than two weeks prior amid an alleged espionage controversy involving information sharing with Beijing, which caused Nvidia's stock to plunge nearly 40% and wiped out nearly $1 trillion in market capitalization. Following his reinstatement, Nvidia shares surged up to 33% to an intraday high of $167.20, recovering market capitalization to approximately $3.91 trillion. The leadership reversal restores stability to the chipmaker after corporate governance concerns and heavy selling pressure briefly dropped Huang in global billionaire rankings.",
+      "key_facts": [
+        "Stock surge: up to 33%",
+        "Intraday share price: $167.20",
+        "Market capitalization recovery: nearly $3.91 trillion",
+        "CEO age: 63"
+      ],
+      "bottom_line": "Nvidia's rapid reinstatement of Jensen Huang as CEO reverses an acute leadership crisis and restores nearly $1 trillion in market capitalization.",
+      "claims": [
+        {
+          "text": "Nvidia's board reinstated co-founder Jensen Huang as its chief executive, following consultations with senior US government officials that reportedly left directors confident he posed no national security risk.",
+          "support_span": "Nvidia's board reinstated co-founder Jensen Huang as its chief executive, following consultations with senior US government officials that reportedly left directors confident he posed no national security risk.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Following the announcement of his reinstatement with immediate effect, Nvidia shares staged a sharp recovery, surging as much as 33% to an intraday high of $167.20 apiece.",
+          "support_span": "Following the announcement of his reinstatement with immediate effect, Nvidia shares staged a sharp recovery, surging as much as 33% to an intraday high of $167.20 apiece.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "559afc558cbe06e3"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/nvidia-stock-adds-massive-m-cap-as-jensen-huang-becomes-ceo-again-from-year-low-to-33-surge-all-losses-recovered-11795443628684.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-23T15:16:37+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "e484eb98bc15d2fa",
+      "title": "India Glycols shares rebound 11.6% after 5-day losing run, up 1530% from 2020 lows. Should investors buy, sell or hold?",
+      "category": "markets",
+      "one_liner": "India Glycols shares rallied 11.6% on heavy volume following a demerger and a five-day losing streak.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "India Glycols shares rebounded 11.6% to close at ₹294.85 following a five-session losing streak, driven by a massive surge in trading volumes where nearly 15.5 million shares changed hands—about 39 times the weekly average. Despite the short-term recovery, the stock remains down 11% for November due to ongoing technical correction after peaking near ₹400. Financial results for Q2 FY27 showed a net profit of ₹11.24 crore and revenue of ₹358.18 crore, with year-on-year comparisons affected by the demerger of its Spirits & Biofuel and Biopharma businesses to focus on bio-based specialties. Technical analysts note that a sustained breakout above the ₹305–310 resistance band with continued volume participation is required to validate a broader short-term trend reversal.",
+      "key_facts": [
+        "Closing price: ₹294.85",
+        "Trading volume: 15.5 million shares (39x average)",
+        "Q2 FY27 net profit: ₹11.24 crore",
+        "Q2 FY27 revenue: ₹358.18 crore"
+      ],
+      "bottom_line": "Heavy trading volumes have driven an 11.6% rebound in India Glycols shares as the company pivots following its business demerger.",
+      "claims": [
+        {
+          "text": "India Glycols shares rebounded 11.6% to close at ₹294.85 following five consecutive sessions of losses, supported by a significant surge in trading volumes.",
+          "support_span": "After being stuck in losses for five consecutive trading sessions, shares of India Glycols ₹295 apiece and erasing most of their recent losses. India Glycols has witnessed a sharp technical recovery, gaining approximately 11.5% in the latest session and closing at ₹294.85, supported by a significant surge in trading volumes",
+          "status": "contradicted"
+        },
+        {
+          "text": "Around 15.5 million shares changed hands across the BSE and NSE, nearly 39 times the stock's weekly average trading volume.",
+          "support_span": "Around 15.5 million shares changed hands across the BSE and NSE, nearly 39 times the stock's weekly average trading volume, according to Trendlyne data.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "e484eb98bc15d2fa"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/trydirex/direx",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/india-glycols-shares-rebound-11-6-after-5-day-losing-run-up-1530-from-2020-lows-should-investors-buy-sell-or-hold-11795431191548.html",
+          "domain": "livemint.com",
+          "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-17T00:55:11+00:00",
+      "published": "2026-11-23T12:36:35+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "70f387957a3d406b",
+      "title": "5 energy stocks with attractive dividend yield - Hindustan Petroleum, Indian Oil, Bharat Petroleum, ONGC, to Gulf Oil",
+      "category": "markets",
+      "one_liner": "Major Indian energy PSUs like HPCL, IOCL, and BPCL delivered attractive dividend yields exceeding 4.5% in FY26.",
+      "tags": [
+        "india",
+        "markets"
+      ],
+      "summary": "Five major Indian energy corporations—HPCL, Indian Oil, BPCL, ONGC, and Gulf Oil Lubricants—have been highlighted for providing attractive dividend yields to equity investors in the 2025-26 financial year. Hindustan Petroleum Corporation Limited (HPCL) led the group with an annual dividend yield of 7.1% on a payout of ₹24.3 per share, while HPCL, Indian Oil, BPCL, and Gulf Oil all maintained yields exceeding 4.5%. Despite mixed short-term share price performance on the BSE over the preceding year, these oil and gas Public Sector Undertakings (PSUs) continue to offer dependable cash returns relative to their market capitalization.",
+      "key_facts": [
+        "HPCL FY26 dividend yield: 7.1%",
+        "HPCL dividend payout: ₹24.3 per share",
+        "Indian Oil dividend payout: ₹8.3 per share",
+        "BPCL dividend payout: ₹17.5 per share"
+      ],
+      "bottom_line": "Indian energy PSUs provide high dividend yields above 4.5%, led by HPCL at 7.1%, offering income-focused investors steady returns amidst shifting stock valuations.",
+      "claims": [
+        {
+          "text": "HPCL, Indian Oil, BPCL, ONGC and Gulf Oil Lubricants are highlighted for dividend income, with HPCL delivering a 7.1% FY26 dividend yield.",
+          "support_span": "HPCL, Indian Oil, BPCL, ONGC and Gulf Oil Lubricants are highlighted for dividend income. HPCL delivered a 7.1% FY26 dividend yield, while HPCL, Indian Oil, BPCL and Gulf Oil were reported to have yields above 4.5%.",
+          "status": "entailed"
+        },
+        {
+          "text": "HPCL shares closed 2.78% lower at ₹385 per share on BSE with a market capitalisation of ₹81,921.17 crore, having paid a ₹24.3 per share dividend in FY26.",
+          "support_span": "HPCL shares closed 2.78% lower at ₹385 per share on BSE with a market capitalisation of ₹81,921.17 crore on Monday, November 23... The PSU stock has paid ₹24.3 per share dividend in FY26, with its annual yield at 7.1%.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "70f387957a3d406b"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/5-energy-stocks-with-attractive-dividend-yield-hindustan-petroleum-indian-oil-bharat-petroleum-ongc-to-gulf-oil-11795467131434.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-24T05:00:22+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "c1addee66ece1531",
@@ -418,47 +739,6 @@
       "reject_reason": "published 2026-11-18 — outside lookback window"
     },
     {
-      "cluster_key": "78633b34927e845b",
-      "title": "SecFathy/otpkit — MCP server for temporary email & SMS — receive OTPs, verification links, and confirmation codes.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "llm",
-        "opensource"
-      ],
-      "summary": "An MCP server that creates disposable email addresses and phone numbers, checks their inboxes, and automatically extracts OTP codes and verification links from incoming messages. Zero API keys required — every email provider and the free SMS source work without authentication. otpkit runs as an MCP (Model Context Protocol) server. Any MCP-compatible client — Claude Code, Claude Desktop, Cursor, or your own agent — can call its tools to: - Create a temporary email address or get a free public phone number - Wait for an incoming message (email or SMS) - Receive the message with OTP codes and verification links already extracted Agent otpkit Provider │ │ │ ├─ create_temp_email() ───────►│ │ │◄…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "78633b34927e845b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/SecFathy/otpkit",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-17T14:43:11+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
-    },
-    {
       "cluster_key": "a09e872b67682cb3",
       "title": "Software isn't breaking down now, the incentives have broken down for years and reality has just finally caught up",
       "category": "tech_ai",
@@ -498,75 +778,18 @@
       "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
-      "cluster_key": "fa80b0281f72677f",
-      "title": "Stock market holiday next week: NSE, BSE to remain closed for Guru Nanak Jayanti on this day – Check details",
-      "category": "markets",
-      "one_liner": "NSE and BSE will remain closed on November 24 for Guru Nanak Jayanti following a strong market rally.",
-      "tags": [
-        "ai",
-        "india",
-        "markets"
-      ],
-      "summary": "The National Stock Exchange and Bombay Stock Exchange will remain closed on Tuesday, November 24, for Guru Nanak Jayanti, suspending all trading segments including equities and derivatives. The holiday follows a strong weekly rally for Indian markets driven by foreign institutional buying amid overseas tech selloffs. The next upcoming market holiday will be for Christmas on December 25.",
-      "key_facts": [
-        "Holiday date: November 24, 2026",
-        "Festival: Guru Nanak Jayanti"
-      ],
-      "bottom_line": "Holiday-shortened trading weeks require investors to account for scheduled closures during strong equity rallies.",
-      "claims": [
-        {
-          "text": "The National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) will remain shut next week on the account of Prakash Gurpurb Sri Guru Nanak Dev Jayanti.",
-          "support_span": "The National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) will remain shut next week on the account of Prakash Gurpurb Sri Guru Nanak Dev Jayanti.",
-          "status": "entailed"
-        },
-        {
-          "text": "NSE and BSE will be closed on Tuesday, November 24.",
-          "support_span": "NSE and BSE will be closed on Tuesday, November 24.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "fa80b0281f72677f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-next-week-nse-bse-to-remain-closed-for-guru-nanak-jayanti-on-this-day-november-24-tuesday-11795343116023.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-22T11:12:12+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "1f4e70aa8806fec5",
-      "title": "hovocope135-tech/DSH-projects — 探索人与 AI 的最佳协作方式 · Exploring the best way for people and AI to work together.",
+      "cluster_key": "dbd90f1ed24c71ec",
+      "title": "lukendeasy/open-diagram — Python building blocks for dense architecture diagrams that check their own layout",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "llm",
-        "opensource"
+        "opensource",
+        "windows"
       ],
-      "summary": "",
+      "summary": "Python building blocks for dense architecture diagrams that check their own layout. Website, gallery and docs: open-diagram.dev · How it compares with Mermaid, D2, draw.io, Excalidraw and archify: docs/comparison.md You describe panels, tiles, lines and groups in a short Python script. open-diagram measures every label from the font, places the blocks, and checks the result. If two panels collide or a line runs through a panel, the build says so by name. The output is an SVG (a picture made of shapes, sharp at any size) and a PNG.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -577,7 +800,7 @@
       "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "1f4e70aa8806fec5"
+        "dbd90f1ed24c71ec"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -585,27 +808,32 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/hovocope135-tech/DSH-projects",
+          "url": "https://github.com/lukendeasy/open-diagram",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-17T07:42:18+00:00",
+      "published": "2026-11-18T17:34:59+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-17 — outside lookback window"
+      "reject_reason": "published 2026-11-18 — outside lookback window"
     },
     {
-      "cluster_key": "5bf05f1ad340b093",
-      "title": "Weekly update is up! Email Dependencies & Apps: Do we still need to be dependent on email to build apps?",
-      "category": "cyber_attacks",
+      "cluster_key": "3bc2a4ffe356e3a7",
+      "title": "byttrade/bytx-skills — Crypto trading skills for AI assistants on bytx: MCP server + CLI + Claude skills.",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
-        "windows"
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "research",
+        "tool"
       ],
-      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan Weekly update is up! Email Dependencies & Apps: Do we still need to be dependent on email to build apps?",
+      "summary": "English | Русский Eight steps for one crypto trade, from \"what's moving\" to the order: scan the perps, read funding and open interest, time the entry, plan the exit, replay the rest of the session 10,000 times, size the position from the money you are ready to lose, check it against your limits, and send it — paper by default, never without your yes. Works with any AI assistant that supports MCP — for example, Claude. The logic is a Python package with an MCP server and a CLI on the bytx exchange library; for Claude there are also skills (/crypto-scanner …) on top. Paper trading runs on the exchange's live order book with virtual money: no keys, no signup. You need uv (brew install uv or cu…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -613,295 +841,230 @@
       "interest_score": 0,
       "corroboration": 1,
       "blend": 0.0,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "extract",
       "alt_keys": [
-        "5bf05f1ad340b093"
+        "3bc2a4ffe356e3a7"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Troy Hunt",
-          "url": "https://bsky.app/profile/troyhunt.com/post/3n2fzoy5jcd2q",
-          "domain": "bsky.app",
+          "name": "GitHub (new)",
+          "url": "https://github.com/byttrade/bytx-skills",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-16T07:42:01.940000+00:00",
+      "published": "2026-11-18T14:14:01+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-16 — outside lookback window"
+      "reject_reason": "published 2026-11-18 — outside lookback window"
     },
     {
-      "cluster_key": "32cb00ae7dbb122d",
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "cluster_key": "3f1b87c2efb1b2ef",
+      "title": "CVE-2026-133968: Project MONAI Project MONAI MONAI Label Path Traversal Vulnerability",
       "category": "cyber_attacks",
-      "one_liner": "Armory Castle exploited VMware vCenter CVE-2026-123890 and BeyondTrust zero-days to deploy BONESAW and compromise enterprise infrastructure.",
+      "one_liner": "CVE-2026-133968 in MONAI Label allows unauthenticated remote code execution via path traversal, requiring immediate patching.",
       "tags": [
+        "cloud",
         "cve",
         "dfir",
         "exploit",
-        "incident",
-        "malware",
-        "threat-actor",
-        "tool",
+        "policy",
+        "ransomware",
+        "threat-intel",
         "vulnerability"
       ],
-      "summary": "The suspected China-nexus cyber espionage group Armory Castle (formerly UNC5221) exploited a critical unauthenticated authentication bypass zero-day vulnerability (CVE-2026-123890, CVSS score: 9.8) in the VMware Directory Service of VMware vCenter Server in early September 2026. The attackers used a Golang-based remote exploitation utility called BONESAW to exfiltrate the LMDB database, hijack the SAML Security Token Service, and create an SSO administrator account. This campaign also leveraged a zero-day in BeyondTrust Remote Support (CVE-2026-102764, CVSS score: 9.3) to gain initial access, deploy the BARECLAW proxy tunneler, and move laterally to internal appliances using tools like nmap and JSP web shells. Broadcom released patches for vCenter and Cloud Foundation on November 19, 2026.",
+      "summary": "Project MONAI MONAI Label contains a path traversal vulnerability tracked as CVE-2026-133968 that enables unauthenticated remote attackers to write arbitrary files outside the intended datastore directory. This flaw can potentially lead to remote code execution on vulnerable systems. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog with a federal remediation deadline of November 26, 2026. Organizations are required to apply vendor mitigations or discontinue use in compliance with CISA guidelines.",
       "key_facts": [
-        "CVE-2026-123890: CVSS 9.8, VMware vCenter Server authentication bypass",
-        "CVE-2026-102764: CVSS 9.3, BeyondTrust Remote Support vulnerability",
-        "Threat Actor: Armory Castle (formerly UNC5221)",
-        "Malware families: BONESAW, BARECLAW, SLIMSAVAGE, CAGEMATCH, SAWSNAKE"
+        "CVE ID: CVE-2026-133968",
+        "Federal remediation due: 2026-11-26",
+        "Added to KEV: 2026-11-23"
       ],
-      "bottom_line": "Administrators must immediately patch VMware vCenter Server against CVE-2026-123890 to prevent unauthenticated attacker session creation and data exfiltration.",
+      "bottom_line": "Project MONAI Label contains an actively tracked path traversal vulnerability that permits unauthenticated remote code execution.",
       "claims": [
         {
-          "text": "The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized access to the system.",
-          "support_span": "The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized access to the system.",
-          "status": "entailed"
-        },
-        {
-          "text": "It has been addressed as part of patches released on November 19, 2026",
-          "support_span": "It has been addressed as part of patches released on November 19, 2026, in the following versions - ",
-          "status": "entailed"
-        },
-        {
-          "text": "BONESAW is a utility primarily built to facilitate remote exploitation written in Golang, which utilizes CVE-2026-123890 to exfiltrate the arbitrary Lightning Memory-Mapped Database (LMDB), hijack the SAML Security Token Service (STS), and create a Single Sign On (SSO) Administrator account",
-          "support_span": "“BONESAW is a utility primarily built to facilitate remote exploitation written in Golang, which utilizes CVE-2026-123890 to exfiltrate the arbitrary Lightning Memory-Mapped Database (LMDB), hijack the SAML Security Token Service (STS), and create a Single Sign On (SSO) Administrator account,” Google said.",
+          "text": "Project MONAI Label contains a path traversal vulnerability allowing arbitrary file writes and potential remote code execution.",
+          "support_span": "Project MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
           "status": "contradicted"
+        },
+        {
+          "text": "CISA added the vulnerability to its KEV catalogue on November 23, 2026.",
+          "support_span": "Added to the CISA KEV catalogue on 2026-11-23.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 37,
+      "trust_score": 82,
       "interest_score": 100,
       "corroboration": 2,
-      "blend": 69.2,
+      "blend": 80.5,
       "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "32cb00ae7dbb122d",
-        "89ffcc7fb0f54ca4",
-        "8bd3f994b4a406d5",
-        "dc6901c8a6d8ff52"
+        "3f1b87c2efb1b2ef",
+        "e33e9a527fdaa622"
+      ],
+      "critical_signal": "exploited in the wild",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+          "domain": "cisa.gov",
+          "tier": "A"
+        },
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzFmck1yVzBiakdHZGtBc3NaMmdqUnA5QUR5U0p6NUcxcElLM2Z2MTBqRXdtU2NUMWpOaS1nTi1OcHV5b19hV2F0UHJZNDNORDZDMnVuZkNwWWxYSkJDTmRUb3p6SkpkNjhaRmFORnBXRDZmY0M5R3oxaUlLcmM1WEx2eVBzRC1PNy14bHZ4SXNHNm9WNDJ0TmJtR1RMRmItQTMyei1TeEoycTJmbTFCWQ?oc=5",
+          "domain": "rescana.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+      ],
+      "published": "2026-11-22T02:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "2 independent outlets (+12)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 82 / interest 100 / corrob 50",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "a5c2634b4f17e6e1",
+      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+      "category": "cyber_attacks",
+      "one_liner": "An authenticated RCE vulnerability in Palo Alto Networks Panorama PAN-OS allows root-level code execution.",
+      "tags": [
+        "cve",
+        "exploit",
+        "llm",
+        "network",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "Palo Alto Networks has disclosed CVE-2026-0330, an authenticated remote code execution vulnerability in PAN-OS software running on Panorama. The flaw enables an authenticated administrator with network access to execute arbitrary code with root privileges on the device. Cloud NGFW, Prisma Access, and standalone firewalls remain unaffected. Palo Alto Networks noted that the risk is significantly minimized by restricting management interface access to trusted internal IP addresses and jump boxes. While no malicious exploitation has been reported, the vendor rated the issue medium severity and urged prompt remediation.",
+      "key_facts": [
+        "CVE ID: CVE-2026-0330",
+        "Product: Palo Alto Networks PAN-OS on Panorama",
+        "Severity: MEDIUM",
+        "CVSS Score: 8.6 (CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H)"
+      ],
+      "bottom_line": "Authenticated administrators can achieve root-level remote code execution on vulnerable Panorama appliances running affected PAN-OS versions.",
+      "claims": [
+        {
+          "text": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges.",
+          "support_span": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges.",
+          "status": "entailed"
+        },
+        {
+          "text": "Palo Alto Networks is not aware of any malicious exploitation of this issue.",
+          "support_span": "Palo Alto Networks is not aware of any malicious exploitation is of this issue.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "a5c2634b4f17e6e1"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        },
-        {
-          "name": "Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPblgwd1BUUGlHOVJsaTFlREJwUFNOT1NJS2ItRTh5ZzYwNWlTZTluVlhOLWwtdFViTUdUNnlRNnVSRXhEdXd1RFliNmNCMEQ4S05zSW1yU0daOHpCUi1TOEloMTVua1JkbzBjWXowTlJCcWdyTGkweDNIdm1kYXZZMXctRmtxOE9DNFNheUVWUnhpNnFHdFBRRw?oc=5",
-          "domain": "pasquale-pillitteri.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "SOC Prime",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2s0UUhIZ1lGWC1pSWpqVXl1N0VuSmluX0QteGNIREd6Q2NmQUxiQ1JwNk42UzZNZmpSMjJfWERSdm1aS052X1RfZjl2OG1CRmc3ZVN4ZFI1djFDYlRYWXZ4Zy1WVW8yN3lsRXJfbDJSbk4zaHdMVGdSZGtocS1EVHpzOHgyWWphcUdDeEpLZlZiWXdFSjFYU3ZsYW9zVkh2bEtnaXNhQkEwNWVIaWc?oc=5",
-          "domain": "soc-prime.publisher",
-          "tier": "C"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNmU0RTVlZkhSbi1kX2tyRGhaa0tjTmQtNzVGWjlKeUh5dkxtQkxiSGFNRFkzVF9HWTdzVVRqMExSbjlCSlJUc3FmcmlPOGNIVDAyd01RVllFdDZONkgzNVgwYUE3UVZYUURrR2ZVX1RGajVfbDVndVhuanJhc2VSQ1NR?oc=5",
-          "domain": "thehackernews.com",
-          "tier": "C"
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0330",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-20T06:37:47+00:00",
+      "primary_links": [
+        "https://security.paloaltonetworks.com/CVE-2026-0330"
+      ],
+      "published": "2026-11-11T17:00:00+00:00",
       "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 5/5 from cache",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from cache",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "aa0b420030455fd0",
-      "title": "Activists rally on Vizag Beach Road against data centres, demand cancellation of permissions",
+      "cluster_key": "4707ebc1f63800c8",
+      "title": "CJP’s Saurav Das claims he was stopped at Delhi airport from travelling to U.K.",
       "category": "india_world",
-      "one_liner": "Environmental activists in Visakhapatnam are protesting the rapid expansion of data centres, citing concerns over water usage and land allocation.",
+      "one_liner": "CJP leader Saurav Das claims he was blocked from traveling to the U.K. for an Oxford University lecture due to government intervention.",
       "tags": [
-        "cloud",
         "india",
-        "threat-intel"
+        "political",
+        "release"
       ],
-      "summary": "Environmental activists in Visakhapatnam, led by the NGO Green Visakha, held a rally on Beach Road to protest the proliferation of data centres in the region. Protesters raised concerns about the lack of job creation data, the allocation of ecologically sensitive land for private corporate use, and the potential impact on local water resources. The movement demands the cancellation of all permissions granted to these data centres, citing sustainability and health hazards as primary concerns. The protest highlights growing public resistance to large-scale infrastructure projects in the city.",
+      "summary": "Saurav Das, a leader of the Cockroach Janta Party (CJP), alleged that he was prevented from traveling to the U.K. by immigration authorities at Delhi airport. Das was scheduled to speak at the University of Oxford regarding the 'cockroach movement.' He claimed his passport was flagged by the government to prevent him from participating in intellectual discussions at prestigious institutions. CJP leadership has condemned the move as an attempt to silence educated voices.",
       "key_facts": [
-        "Data centre capacity: Over 6 gigawatts"
+        "Individual: Saurav Das",
+        "Organization: Cockroach Janta Party (CJP)"
       ],
-      "bottom_line": "Growing public opposition to data centre expansion in Visakhapatnam, driven by water scarcity and environmental concerns, may lead to increased regulatory scrutiny for future infrastructure projects.",
+      "bottom_line": "CJP leader Saurav Das was barred from flying to the U.K. after his passport was flagged at Delhi airport, sparking allegations of political suppression.",
       "claims": [
         {
-          "text": "Members of Green Visakha, an environmental NGO, marched from the RK Beach bus stop to the Bhagat Singh statue, raising slogans and handing out pamphlets to passers-by.",
-          "support_span": "Members of Green Visakha, an environmental NGO, marched from the RK Beach bus stop to the Bhagat Singh statue, raising slogans and handing out pamphlets to passers-by.",
-          "status": "entailed"
-        },
-        {
-          "text": "Around 44% of the households surveyed in Kochi face water shortages, while 20–25% face acute shortages.",
-          "support_span": "Around 44% of the households surveyed in Kochi face water shortages, while 20–25% face acute shortages.",
+          "text": "Cockroach Janta Party (CJP) co-convener Saurav Das on Monday (November 23, 2026) alleged that he was stopped from travelling to the U.K. to attend an event at the University of Oxford, where he was invited to speak on the \"cockroach movement.\"",
+          "support_span": "Cockroach Janta Party (CJP) co-convener Saurav Das on Monday (November 23, 2026) alleged that he was stopped from travelling to the U.K. to attend an event at the University of Oxford, where he was invited to speak on the \"cockroach movement.\"",
           "status": "contradicted"
         }
       ],
-      "trust_score": 25,
-      "interest_score": 25,
-      "corroboration": 1,
-      "blend": 25.0,
+      "trust_score": 37,
+      "interest_score": 50,
+      "corroboration": 2,
+      "blend": 46.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "aa0b420030455fd0"
+        "4707ebc1f63800c8",
+        "6f5c41c946c07287"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/cjps-saurav-das-alleges-he-was-stopped-from-flying-to-uk-at-delhi-airport-12368482#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        },
+        {
           "name": "The Hindu National",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/activists-rally-on-vizag-beach-road-against-data-centres-demand-cancellation-of-permissions/article71732166.ece",
+          "url": "https://www.thehindu.com/news/national/cjps-saurav-das-claims-he-was-stopped-at-delhi-airport-from-travelling-to-uk/article71736209.ece",
           "domain": "thehindu.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-22T17:54:22+00:00",
+      "published": "2026-11-23T19:49:46+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.1-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "67401cc888fc28c2",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "category": "cyber_attacks",
-      "one_liner": "Review N-able Mail Assure cloud security incident impacting management portals across multiple regions.",
-      "tags": [
-        "blueteam",
-        "cloud",
-        "incident",
-        "network"
-      ],
-      "summary": "N-able disclosed that unauthorized threat actors compromised a server within its Mail Assure and SpamExperts Hosted Cloud environment, causing service disruptions across Americas, APAC, and Europe. While core email filtering and mail flow remain functional, management portals, APIs, quarantine, and logging interfaces were taken offline as a security precaution. N-able states there is currently no evidence of customer mailbox or data compromise while remediation and hardening efforts continue.",
-      "key_facts": [
-        "Affected Services: Mail Assure, SpamExperts Hosted Cloud"
-      ],
-      "bottom_line": "A security breach on an N-able cloud server forced management portals and APIs offline for Mail Assure and SpamExperts services globally.",
-      "claims": [
-        {
-          "text": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and SpamExperts Hosted Cloud, causing it to disable management interfaces and APIs.",
-          "support_span": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and SpamExperts Hosted Cloud, causing it to disable management interfaces and APIs.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "67401cc888fc28c2"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T09:31:26+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from cache",
-        "blend 48 = trust 25 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "a3eac34b29cf4ec4",
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "category": "cyber_attacks",
-      "one_liner": "Immediately patch actively exploited critical vulnerabilities in VMware vCenter, Cisco Expressway, Apache Roller, and SAP NetWeaver.",
-      "tags": [
-        "cve",
-        "exploit",
-        "incident",
-        "network",
-        "threat-actor",
-        "vulnerability"
-      ],
-      "summary": "CISA added four vulnerabilities affecting Apache Roller, Cisco Expressway, SAP NetWeaver, and VMware vCenter to its Known Exploited Vulnerabilities catalog following evidence of active exploitation. CVE-2026-123890 in VMware vCenter is reportedly linked to China-nexus espionage group Armory Castle for deploying custom backdoors, while Cisco Expressway's CVE-2026-76466 was exploited against a Russian organization. Federal agencies have been directed to patch these flaws by November 23, 2026.",
-      "key_facts": [
-        "CVE-2026-129448: CVSS 9.8",
-        "CVE-2026-76466: CVSS 9.8",
-        "CVE-2025-42884: CVSS 6.5",
-        "CVE-2026-123890: CVSS 9.8"
-      ],
-      "bottom_line": "CISA mandates urgent patching of four actively exploited vulnerabilities used in cyber espionage campaigns against enterprise infrastructure.",
-      "claims": [
-        {
-          "text": "The U.S. Cybersecurity and Infrastructure Security Agency on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities catalog, citing evidence of active exploitation.",
-          "support_span": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities catalog, citing evidence of active exploitation.",
-          "status": "contradicted"
-        },
-        {
-          "text": "Federal Civilian Executive Branch agencies have been urged to patch all four vulnerabilities by November 23, 2026.",
-          "support_span": "Federal Civilian Executive Branch (FCEB) agencies have been urged to patch all four vulnerabilities by November 23, 2026, pursuant to Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "a3eac34b29cf4ec4"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-          "domain": "thehackernews.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-21T08:49:13+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 3/5 from gemini-3.1-flash-lite",
+        "blend 47 = trust 37 / interest 50 / corrob 50"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -945,41 +1108,171 @@
       "reject_reason": "published 2026-11-17 — outside lookback window"
     },
     {
-      "cluster_key": "152a72ae52b69ba7",
-      "title": "US intelligence chief defends Trump’s comments calling Putin his ‘friend’",
+      "cluster_key": "98bcc492ddfce17b",
+      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
       "category": "india_world",
-      "one_liner": "US intelligence chief defends President Trump's public camaraderie with Vladimir Putin following APEC meetings.",
+      "one_liner": "San Francisco is thriving on an AI-driven boom, but workers and analysts are increasingly wary of a potential market crash.",
+      "tags": [
+        "ai",
+        "llm",
+        "markets"
+      ],
+      "summary": "San Francisco is experiencing an economic rejuvenation driven largely by the artificial intelligence boom, which has boosted local businesses, property values, and venture capital concentration. Leading firms like OpenAI and Anthropic are headquartered in the city, creating high-paying jobs and attracting talent. However, concerns over a potential market correction or economic crash are mounting among workers and economists questioning whether AI revenue can justify massive capital expenditures. Despite these risks, lower local staffing scales in AI firms relative to past tech booms could cushion the city against severe job losses during a downturn.",
+      "key_facts": [
+        "Venture capital share: 60% of US AI VC from 2023 to 2025 went to San Francisco firms",
+        "Quarterly profit: Nvidia reported $65bn"
+      ],
+      "bottom_line": "San Francisco's AI-fueled economic revival carries structural vulnerabilities to potential market corrections, though lower employment density may soften the blow.",
+      "claims": [
+        {
+          "text": "The city saw an exodus of residents during the pandemic and its downtown was weakened by remote work, but it's now enjoying a rejuvenation, with AI being the major driver.",
+          "support_span": "The city saw an exodus of residents during the pandemic and its downtown was weakened by remote work, but it's now enjoying a rejuvenation, with AI being the major driver.",
+          "status": "entailed"
+        },
+        {
+          "text": "One study found that 60% of all venture capital invested in US AI firms from 2023 to 2025 went to the companies located in San Francisco, dwarfing the significantly smaller percentage given to companies in Silicon Valley.",
+          "support_span": "One study found that 60% of all venture capital invested in US AI firms from 2023 to 2025 went to the companies located in San Francisco, dwarfing the significantly smaller percentage given to companies in Silicon Valley.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 40.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "98bcc492ddfce17b"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-23T00:08:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 40 = trust 40 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "175191ac2585bda2",
+      "title": "GPT-6.2 Astra tops 3D benchmark, but Gemini 4 Carbon leads floor plan test",
+      "category": "tech_ai",
+      "one_liner": "OpenAI launched GPT-6.2 Astra with a 1M context window and lower API prices, leading 3D benchmarks while trailing Google in spatial floor plans.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "release",
+        "research"
+      ],
+      "summary": "OpenAI has released GPT-6.2 Astra, a flagship model that leads the AA-3D benchmark with an elite 1,318 Elo score in interactive 3D content generation while cutting API pricing by 20% to $8 per million input tokens and $40 per million output tokens. The model features a 1.05 million token context window and demonstrates strong performance on agent tests like Agents' Last Exam (~78%) and Terminal-Bench-Science 0.1 (~77%). However, independent evaluations show mixed results in spatial reasoning, where Google's Gemini 4 Carbon leads the Blueprint-Bench 2 floor plan reconstruction test with a normalized score of ~58.6%. This competitive split underscores that different labs maintain specific leads across agentic, spatial, and composite AI tasks.",
+      "key_facts": [
+        "Model release: GPT-6.2 Astra (November 17, 2026)",
+        "Context window: 1.05 million tokens",
+        "API pricing: $8 per million input tokens, $40 per million output tokens",
+        "AA-3D score: 1,318 Elo"
+      ],
+      "bottom_line": "OpenAI's GPT-6.2 Astra delivers lower API pricing and strong 3D generation capabilities, but competitive benchmarks show Google maintaining an edge in spatial reasoning.",
+      "claims": [
+        {
+          "text": "OpenAI released GPT-6.2 Astra on November 17, 2026, featuring a 1.05 million token context window and a 20% API price reduction to $8 per million input tokens and $40 per million output tokens.",
+          "support_span": "OpenAI released GPT-6.2 Astra on November 17, 2026. A lighter sibling, GPT-6.2 Sol, arrived alongside it, though it offers less capability than Astra... The most tangible change for developers is the price. API costs fell by 20% compared with the previous model, landing at $8 per million input tokens and $40 per million output tokens. Astra also ships with a 1.05 million token context window.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Astra scored 1,318 Elo points on the AA-3D benchmark, while standings put Google's Gemini 4 Carbon at the top of Blueprint-Bench 2 with a normalized connectivity score of approximately 58.6%.",
+          "support_span": "Where Astra does hold a clear 3D win is the AA-3D benchmark, which tests how well models build interactive 3D experiences. There, Astra scored 1,318 Elo points, the highest mark recorded and ahead of competing models... Standings as of November 19, 2026, however, put Google’s Gemini 4 Carbon at the top of that leaderboard, with a normalized connectivity score of approximately 58.6%.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "175191ac2585bda2"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xczNyM1JRajU4TmhrTDFEczBOdmFzOF9GcFNDNGg4cDJReTBKYVEtaXhlY0daUmpWMXFlOHdsMUw0X2JtQzR2eUJ1blFtdmFZdkRweUhaZXkxZ1RoNHNDR1U4OE00ZFFIWGdMSUFxUQ?oc=5",
+          "domain": "crypto-briefing.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-20T10:10:21+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "57f527a24a7a6eb6",
+      "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+      "category": "india_world",
+      "one_liner": "The EU's proposed 22nd Russia sanctions package targets banks, crypto platforms, and bans Russian teams and athletes from European events.",
       "tags": [
         "policy",
         "political"
       ],
-      "summary": "US Director of National Intelligence Jay Clayton defended President Donald Trump's remarks calling Russian President Vladimir Putin his \"friend\" following a historic trilateral meeting in Shenzhen, China. Clayton clarified that while Washington does not support Russia's invasion of Ukraine, building personal rapport among nuclear power leaders is appropriate for discussing nuclear risk reduction. The statements sparked debate among US lawmakers regarding foreign policy consistency toward Russia.",
+      "summary": "The European Commission has proposed its 22nd package of sanctions against Russia, targeting financial institutions, cryptocurrency platforms, and cultural participation. Commission President Ursula von der Leyen announced measures to remove 60 Russian banks from the SWIFT international payment system and establish a crypto task force to prevent sanctions evasion. The sweeping proposal also introduces a ban on Russian teams and individual athletes competing under their flag within the EU, restricts sports sponsorships, and bars Russian nationals from leadership roles in European sports federations. Additionally, the plan seeks visa restrictions for Russian ex-combatants posing regional security risks.",
       "key_facts": [
-        "Meeting date: November 19, 2026",
-        "Location: Shenzhen, China"
+        "Sanctions package: 22nd package proposed by European Commission",
+        "SWIFT removal: 60 banks targeted",
+        "Approval requirement: Endorsement by all 27 EU member states"
       ],
-      "bottom_line": "Trilateral nuclear discussions between world powers underscore shifting diplomatic postures amid ongoing geopolitical conflict.",
+      "bottom_line": "The EU is escalating economic and cultural isolation against Russia by cutting off additional banks, clamping down on crypto evasion, and banning sports participation.",
       "claims": [
         {
-          "text": "United States Director of National Intelligence Jay Clayton has faced pressure to justify President Donald Trump’s claims that his Russian counterpart Vladimir Putin is a “friend”.",
-          "support_span": "United States Director of National Intelligence Jay Clayton has faced pressure to justify President Donald Trump’s claims that his Russian counterpart Vladimir Putin is a “friend”.",
+          "text": "Commission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union.",
+          "support_span": "Commission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union.",
           "status": "entailed"
         },
         {
-          "text": "Is Vladimir Putin America’s friend? He is not America’s friend in Ukraine. Not at all. Not at all.",
-          "support_span": "Is Vladimir Putin America’s friend? He is not America’s friend in Ukraine. Not at all. Not at all.",
+          "text": "Von der Leyen said 60 banks will be removed from the Society for Worldwide Interbank Financial Telecommunication (SWIFT) messaging system used for international payments under the new proposals, which are intended to maintain economic pressure on Russia, almost five years into its full-scale invasion of Ukraine.",
+          "support_span": "Von der Leyen said 60 banks will be removed from the Society for Worldwide Interbank Financial Telecommunication (SWIFT) messaging system used for international payments under the new proposals, which are intended to maintain economic pressure on Russia, almost five years into its full-scale invasion of Ukraine.",
+          "status": "entailed"
+        },
+        {
+          "text": "She announced the creation of a crypto sanctions task force seeking to curb countries helping Russia to evade sanctions.",
+          "support_span": "She announced the creation of a crypto sanctions task force seeking to curb countries helping Russia to evade sanctions.",
+          "status": "entailed"
+        },
+        {
+          "text": "The proposed package must be endorsed by all 27 EU member countries before going into force and comes just over a month after the bloc posted the largest listing of sanctions against Russia, targeting about 1,600 Russian officials and companies linked to its arms industry.",
+          "support_span": "The proposed package must be endorsed by all 27 EU member countries before going into force and comes just over a month after the bloc parsed the largest listing of sanctions against Russia, targeting about 1,600 Russian officials and companies linked to its arms industry.",
           "status": "contradicted"
         }
       ],
-      "trust_score": 37,
-      "interest_score": 50,
-      "corroboration": 2,
-      "blend": 46.8,
+      "trust_score": 25,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "152a72ae52b69ba7",
-        "1d1c855eb159ab65"
+        "57f527a24a7a6eb6"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -987,66 +1280,57 @@
       "sources": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/us-intelligence-chief-defends-trumps-comments-calling-putin-his?traffic_source=rss",
+          "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "B"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNlR0aUswLUVNUWNuMk05NmJBSElCMzV6RWxDV2V4TmFicUFZWUFJR2pzQnd2VmNvQzhQTWtHTXZsMkkzcGMweEUyRE1FUlU1aXk5QkZCTk0tRE5fX1k2aU9jMmtOTndlTlVkaU5rT011UGgyMU1XX0JBQ3ZCb05qcEZYV3U2c003c3F3ZkRZamtvb3lDak8zR2o0dnJueWl6UkJ5RzBhTV9yUkpoaFVDVg?oc=5",
-          "domain": "reuters.com",
-          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-22T17:16:03+00:00",
+      "published": "2026-11-23T23:26:16+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 47 = trust 37 / interest 50 / corrob 50"
+        "single outlet, established publication (tier B)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "b527b6f0ddceafec",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "cluster_key": "680b35173b971311",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
       "category": "tech_ai",
-      "one_liner": "Sumitomo Life's successful AI rollout demonstrates that executive-led adoption and rigorous security vetting are key to scaling LLMs in regulated financial environments.",
+      "one_liner": "Richpanel builds automated AI customer support agents using OpenAI models and an autonomous setup manager.",
       "tags": [
+        "agents",
         "ai",
-        "llm",
-        "privacy",
-        "research"
+        "howto",
+        "llm"
       ],
-      "summary": "Sumitomo Life successfully scaled the adoption of ChatGPT Enterprise by leveraging executive leadership and a structured security review process. The company's president and senior management were early adopters, which encouraged broader employee participation across planning and investment teams. To meet strict financial security standards, the insurer collaborated with OpenAI to ensure data privacy, specifically excluding business data from model training. The implementation has resulted in significant productivity gains, with an average estimated ROI of 524% for high-frequency users.",
+      "summary": "Richpanel utilizes OpenAI models, including GPT-6 Astra, Sol, and Luna, to automate customer support tasks and achieve a 50% automation rate within 30 days. To bypass the need for forward-deployed engineers, Richpanel developed an AI manager nicknamed 'Boss AI' that writes procedures and defines how frontline support agents execute tools. The platform leverages long-context and cost-efficient models to handle hundreds of thousands of customer conversations.",
       "key_facts": [
-        "Weekly usage rate: 80%+",
-        "Average ROI: 524%",
-        "Deployment date: June 2026"
+        "Automation rate: 50% within 30 days"
       ],
-      "bottom_line": "Executive-led adoption combined with strict data privacy controls is a viable path for deploying generative AI in highly regulated financial institutions.",
+      "bottom_line": "AI management agents can automate customer service deployment workflows and eliminate manual tool configuration.",
       "claims": [
         {
-          "text": "Sumitomo Life’s executives and managers were among the first to use ChatGPT.",
-          "support_span": "Sumitomo Life’s executives and managers were among the first to use ChatGPT.",
-          "status": "contradicted"
+          "text": "Richpanel uses GPT‑6 Astra and GPT‑6.1 Sol to equip its AI support agents with tools and procedures, and GPT‑6 Luna for their conversations.",
+          "support_span": "Richpanel uses GPT‑6 Astra and GPT‑6.1 Sol to equip its AI support agents with tools and procedures, and GPT‑6 Luna for their conversations.",
+          "status": "entailed"
         },
         {
-          "text": "524% Average estimated ROI among employees using ChatGPT at least 101 times a month",
-          "support_span": "524% Average estimated ROI among employees using ChatGPT at least 101 times a month",
-          "status": "entailed"
+          "text": "Richpanel guarantees customers a 50% automation rate within the first 30 days or their money back.",
+          "support_span": "Richpanel guarantees customers a 50% automation rate within the first 30 days or their money back.",
+          "status": "contradicted"
         }
       ],
       "trust_score": 70,
       "interest_score": 50,
       "corroboration": 1,
       "blend": 47.5,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "b527b6f0ddceafec"
+        "680b35173b971311"
       ],
       "critical_signal": "",
       "priority": "important",
@@ -1054,85 +1338,145 @@
       "sources": [
         {
           "name": "OpenAI Blog",
-          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
           "domain": "openai.com",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://openai.com/business/customer-stories/sumitomo-life"
+        "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
       ],
-      "published": "2026-11-18T08:00:00+00:00",
+      "published": "2026-11-23T08:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 3/5 from cache",
+        "summary: the article's opening sentences, not model-written and not fact-checked",
+        "importance 3/5 from gemini-3.5-flash-lite",
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "6ccebafcdf30c270",
-      "title": "Here are the top AI agents that can live in your text messages",
+      "cluster_key": "ee4d766960636c35",
+      "title": "How Should an LLM See a Computer? Greptile OSWorld Data",
       "category": "tech_ai",
-      "one_liner": "Text-native AI agents like Ask Proxy, Caddy, and Comma enable users to manage complex tasks directly through standard messaging channels.",
+      "one_liner": "Greptile's OSWorld benchmark shows that providing LLM desktop agents with accessibility trees and element IDs drastically improves task execution.",
       "tags": [
         "agents",
         "ai",
-        "android",
         "howto",
-        "markets",
-        "opensource",
-        "privacy",
-        "release"
+        "linux",
+        "llm",
+        "research",
+        "tool",
+        "writeup"
       ],
-      "summary": "A growing category of AI agents allows users to interact entirely via text messaging apps like SMS, iMessage, RCS, Signal, and Telegram without installing standalone applications. Notable options include Ask Proxy, which offers personal and workplace conversational assistants with proactive task management; Caddy, which integrates directly into messaging layers to extract actionable items; and Comma, an open-source task management agent operating across browser files and messaging channels. These assistants handle scheduling, reminders, research, and cross-device workflows.",
+      "summary": "Greptile benchmarked seven OpenAI models across 172 OSWorld tasks to evaluate whether computer-use agents perform better using raw screenshots, accessibility trees, or element ID clicks. Adding serialized accessibility trees alongside screenshots significantly boosted task success rates for weaker models by eliminating visual coordinate guesswork. Furthermore, resolving element IDs directly eliminated off-by-pixel click errors, proving that structured UI representation outperforms pure vision approaches for desktop automation agents.",
       "key_facts": [
-        "Instinct valuation: $10 billion",
-        "Instinct funding round: $1 billion",
-        "Ask Proxy personal version cost: $1 per day"
+        "Tasks evaluated: 172 OSWorld tasks",
+        "Model limit: 50-step limit"
       ],
-      "bottom_line": "Messaging-native AI agents eliminate app fatigue by embedding personal and professional workflow automation directly into standard texting interfaces.",
+      "bottom_line": "Computer-use AI agents achieve higher reliability when utilizing structured accessibility trees and element IDs rather than raw pixel coordinates alone.",
       "claims": [
         {
-          "text": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.",
-          "support_span": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.",
+          "text": "Greptile benchmarked seven OpenAI models on 172 OSWorld tasks with three harnesses.",
+          "support_span": "Greptile benchmarked seven OpenAI models on 172 OSWorld tasks with three harnesses.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Accessibility trees plus ID clicks more than doubled several weaker models' scores.",
+          "support_span": "Accessibility trees plus ID clicks more than doubled several weaker models' scores.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "ee4d766960636c35"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "explainx.ai",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdGp2WEgydnhERy1jZ2V3S1NNczJ5ZVMyVHl3a0NLZXNZTWlqM0pQNC1Ed3R6YVU3cWxTMnNWVTNCV1JzZnp0ZDZ3LXpLblUzbDVFbzFxN1NvR2xxc3VwLWZoWVhDZkpKY3hRTXljYWlRaXc3ejA4azloVHIyOFl0TGozQU41MTdrYkNsZVNZaENINmFJT1RJ?oc=5",
+          "domain": "explainx-ai.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-23T00:00:00+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "4695ee870a0e6d25",
+      "title": "Press play on Elastic Security 9.6, banger after banger",
+      "category": "cyber_tools",
+      "one_liner": "Elastic Security 9.6 adds agentic automation for SOC triage and expands ransomware protection to Linux environments.",
+      "tags": [
+        "agents",
+        "ai",
+        "blueteam",
+        "dfir",
+        "linux",
+        "malware",
+        "ransomware",
+        "release"
+      ],
+      "summary": "Elastic Security 9.6 introduces 'AlertZero', an agentic layer designed to automate SOC workflows including alert triage, threat hunting, and detection engineering. The system uses 'Watches' and 'Workers' to classify alerts, group related events into investigations, and suggest rule tuning or exceptions. Additionally, the release expands ransomware protection to Linux, adds YARA memory scanning, and includes 143 AI-specific security detection rules. These features are aimed at reducing the manual burden on security analysts by providing AI-driven analysis and proposed actions.",
+      "key_facts": [],
+      "bottom_line": "Security teams can now leverage agentic workflows within Elastic to automate routine triage and detection engineering tasks.",
+      "claims": [
+        {
+          "text": "Elastic Security 9.6 introduces 'AlertZero', an agentic layer designed to automate SOC workflows including alert triage, threat hunting, and detection engineering.",
+          "support_span": "AlertZero, the agentic layer of Elastic Security First, explore the four Watches in AlertZero, along with the Workers that perform specific security tasks.",
           "status": "entailed"
         },
         {
-          "text": "Caddy lives in iMessage for iPhone users and RCS for Android users, so there’s no separate app or inbox to constantly check.",
-          "support_span": "Caddy lives in iMessage for iPhone users and RCS for Android users, so there’s no separate app or inbox to constantly check.",
+          "text": "Additionally, the release expands ransomware protection to Linux, adds YARA memory scanning, and includes 143 AI-specific security detection rules.",
+          "support_span": "Ransomware protection for Linux Elastic Defend’s behavior-based ransomware protection now extends to Linux YARA memory scanning Bring your own YARA rules to scan process memory ... 143 AI security detection rules",
           "status": "contradicted"
         }
       ],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 47.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "6ccebafcdf30c270"
+        "4695ee870a0e6d25"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-          "domain": "techcrunch.com",
+          "name": "Elastic Security Labs",
+          "url": "https://www.elastic.co/security-labs/blog/elastic-security-9-6-release-highlights",
+          "domain": "elastic.co",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T17:00:00+00:00",
+      "published": "2026-11-23T12:34:52+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from cache",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "importance 4/5 from gemini-3.1-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
