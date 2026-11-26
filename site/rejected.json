@@ -1,50 +1,6 @@
 {
-  "generated_at": "2026-11-25T05:40:45.689035+00:00",
+  "generated_at": "2026-11-26T05:12:10.488170+00:00",
   "items": [
-    {
-      "cluster_key": "c8587b3a8b62ab74",
-      "title": "\"No way to prevent this\" say users of only language where this regularly happens https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "cve",
-        "vulnerability",
-        "windows"
-      ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe \"No way to prevent this\" say users of only language where this regularly happens 2026-11-18T15:36:28.654Z",
-      "key_facts": [
-        "Identifier: CVE-2026-123633"
-      ],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c8587b3a8b62ab74"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3n2lv56lfbr2f",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-18T15:36:28.511000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-18 — outside lookback window",
-      "held_back": true
-    },
     {
       "cluster_key": "9f10c66d4fe34ca0",
       "title": "The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running…",
@@ -87,12 +43,18 @@
       "held_back": true
     },
     {
-      "cluster_key": "903196ce6ce4f243",
-      "title": "At its current shipping trend, halving the time between each model release, Google exhausts all the element names on November 24, with a final…",
+      "cluster_key": "0cced6b62981130a",
+      "title": "zou172866/Antigravity-agy-dart — Google Antigravity plugin that improves cache hits, keeps cache warm automatically, protects context quota…",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu At its current shipping trend, halving the time between each model release, Google exhausts all the element names on November 24, with a final shipping cadence of 2.5 × 10⁻²⁹ seconds (25 quectoseconds) between Tennessine and their final model, Oganesson.",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "简体中文 · English Google Antigravity plugin — Save tokens · Improve KV-cache hits · Keep cache warm automatically · Protect context quota · Rescue crashed sessions No extra dependencies · Works automatically in the background · Built-in Sidecar dashboard agy-dart is a performance, KV-cache, and context-window plugin for Google Antigravity (also supports Claude Code and Codex via --target). It reduces repeated reads and large tool results, shows prompt-cache usage, and helps you resume work in a new chat when a session fills up or stalls. Once installed, it runs automatically in the background — no new commands to learn, just chat and code as usual: When the AI needs to search several terms, it…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -103,7 +65,45 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "903196ce6ce4f243"
+        "0cced6b62981130a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/zou172866/Antigravity-agy-dart",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-20T12:39:45+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "1eccff0bef7ded38",
+      "title": "The effective end of easy distillation from OpenAI and Anthropic models may be behind the relative slowdown in open weights model progress.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The effective end of easy distillation from OpenAI and Anthropic models may be behind the relative slowdown in open weights model progress. We don’t know the extent to which distillation has been key to the rapid improvement in open weights, I guess we will find out soon.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "1eccff0bef7ded38"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -111,46 +111,44 @@
       "sources": [
         {
           "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2n3vjt7622m",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2req7quy225",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-19T03:10:07.824000+00:00",
+      "published": "2026-11-20T19:58:52.119000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
+      "reject_reason": "published 2026-11-20 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "b0d71194e0ab7437",
-      "title": "erkamyaman/safe-anything — Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked…",
-      "category": "cyber_tools",
+      "cluster_key": "d84a827a27d67e04",
+      "title": "LIUFelix2004/dsh-workbuddy — Import WorkBuddy accounts into DeepSeek Harness as model providers: one route per account, full model list…",
+      "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "appsec",
-        "blueteam",
         "llm",
         "opensource",
         "tool",
         "vulnerability"
       ],
-      "summary": "",
+      "summary": "复制插件目录 cp -r dsh-workbuddy ~/.dsh/profiles/<profile>/node_modules/dsh-workbuddy 2. 在 ~/.dsh/profiles/<profile>/cordis.patch.yml 末尾追加： - insert: - id: dsh-workbuddy name: dsh-workbuddy 3. 从 profile 的 cordis.patch.yml 删掉这几行 - insert: - id: dsh-workbuddy name: dsh-workbuddy 3. 删掉插件目录 rm -rf ~/.dsh/profiles/<profile>/node_modules/dsh-workbuddy 4.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 0.0,
       "is_new": false,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "b0d71194e0ab7437"
+        "d84a827a27d67e04"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -158,126 +156,35 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/erkamyaman/safe-anything",
+          "url": "https://github.com/LIUFelix2004/dsh-workbuddy",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-22T16:44:10+00:00",
+      "published": "2026-11-20T11:22:44+00:00",
       "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text",
+      "reject_reason": "published 2026-11-20 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "629a35cc8d295d95",
-      "title": "BoneD-Q/contextbridge — Skills-first AI context handoff with structured evidence, uncertainty tracking, validation, and cross-agent…",
+      "cluster_key": "54d1d6a0fc238e6b",
+      "title": "w1ccc/sap-data-mcp — Read-only MCP servers that let AI assistants query SAP S/4HANA through RFC/BAPI, private-cloud OData and…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
-        "howto",
-        "opensource",
-        "privacy"
-      ],
-      "summary": "Skills-first AI-to-AI document handoff using a shared folder package format (CBHF 0.1.0). ContextBridge is an open-source Agent Skills project — not a SaaS product, web dashboard, or standalone application runtime. It helps one AI agent hand work to another without silently dropping evidence, decisions, unknowns, or conflicts. 中文说明 · Getting started · Docs index When one AI produces documents for another AI (or for a later session), critical context is often lost: - What was treated as a fact vs an inference - Which claims are backed by locatable evidence - Which decisions were confirmed, and how - What remains unknown - Where sources conflict and must not be auto-resolved Plain Markdown du…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": true,
-      "summary_source": "extract",
-      "alt_keys": [
-        "629a35cc8d295d95"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/BoneD-Q/contextbridge",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T04:22:24+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "c177025b2c55b21d",
-      "title": "setyamickala/airdrop-agent — Autonomous airdrop operator: identities, wallets, socials, testnets, quests, radar — guarded CLI + MCP",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "howto",
-        "malware",
-        "opensource",
-        "tool"
-      ],
-      "summary": "A local operator for the work that happens before a token exists. Identities, wallets, social accounts, quests, testnets and waitlists — driven by one CLI and one policy engine, with an MCP surface for other agents. SQLite plus an encrypted vault in ~/.airdrop-agent. aa quest probe read the page, don't guess aa quest run dow-points --identity main run it inside policy aa cf assist --identity main one visible click when a challenge wins aa autopilot tick radar → warm → daily → quests → faucet New in 4.1 — clearance stored per host and user agent, one persistent browser profile per identity, encrypted session restore, quest login pre-flight, nineteen tested targets. You use a testnet, hold po…",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "c177025b2c55b21d"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/setyamickala/airdrop-agent",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T07:56:28+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "8b4b8bbecfaf4cae",
-      "title": "INK-Q/agy-fast — Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "appsec",
-        "linux",
+        "identity",
         "llm",
         "opensource",
-        "research",
+        "release",
         "tool",
         "windows"
       ],
-      "summary": "Latency, Token-Quota & Tool-Call Accelerator Plugin for Google Antigravity English · 简体中文 · Quick Start · Benchmarks · MCP Tools · Analysis Report · Changelog agy-fast is a zero-dependency, policy-compliant local MCP plugin for Google Antigravity (CLI agy, Desktop 2.0, and IDE). It cuts agent wall-clock latency, billable token quota, and upload traffic by consolidating high-frequency searches, multi-language symbol outlines, atomic multi-file edits, and build/test checks into batched local calls—and injecting a sub-50 ms workspace snapshot once per session—without altering Antigravity's native UI, diff viewer, modified-files list, checkpoints, or safety checks. Requirements: Node.js >= 20 (…",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -288,7 +195,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "8b4b8bbecfaf4cae"
+        "54d1d6a0fc238e6b"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -296,17 +203,62 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/INK-Q/agy-fast",
+          "url": "https://github.com/w1ccc/sap-data-mcp",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-19T04:58:46+00:00",
+      "published": "2026-11-20T15:15:23+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
+      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "48cd0f5279b8cc70",
+      "title": "AI4XE/ai4ai — Let AI manage itself — a cross-harness kit for runtime status, context renewal, self-duplication and more",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "AI4AI — Let AI manage itself more easily. AI4AI is an extension kit for AI harnesses: it abstracts extension capabilities into a unified interface — the same tool calls work across harnesses, and skills stay portable. Know Itself — understand its own runtime state, including but not limited to context usage, model, reasoning effort and window. Renew Itself — renew itself on demand, refreshing the context, shedding the burden and traveling light. Duplicate Itself — create its own copies, making task scheduling and coordination more flexible.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "48cd0f5279b8cc70"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/AI4XE/ai4ai",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-20T11:48:16+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-20 — outside lookback window",
       "held_back": true
     },
     {
@@ -355,203 +307,50 @@
       "held_back": true
     },
     {
-      "cluster_key": "df489c10521cd2bd",
-      "title": "bilawalsidhu/gods-eye-view — God's Eye View: a spy satellite simulator in your browser, except the data is real.",
-      "category": "cyber_tools",
-      "one_liner": "",
-      "tags": [
-        "ai",
-        "howto",
-        "opensource",
-        "release",
-        "tool",
-        "writeup"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "df489c10521cd2bd"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (updated)",
-          "url": "https://github.com/bilawalsidhu/gods-eye-view",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-25T05:08:41+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "5cc056bf7e69e781",
-      "title": "CybeDefend/cybedefend — Agentic ASPM, the open source Snyk alternative. A full security audit in one command",
-      "category": "cyber_tools",
+      "cluster_key": "4bc1cf56158fbc1b",
+      "title": "CVE-2026-137308 - markdownify-mcp before 1.2.0 SSRF Protection Bypass via validateUrl and validateRepoUrl",
+      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "appsec",
-        "blueteam",
-        "exploit",
+        "cve",
         "llm",
-        "tool",
+        "network",
         "vulnerability"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
+      "trust_score": 40,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 32.5,
+      "blend": 51.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "5cc056bf7e69e781"
+        "4bc1cf56158fbc1b"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/CybeDefend/cybedefend",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-23T15:36:06+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "d6a6f27fd63bf87e",
-      "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "appsec",
-        "cve",
-        "dfir",
-        "exploit",
-        "release",
-        "research",
-        "vulnerability",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 100,
-      "corroboration": 1,
-      "blend": 55.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "d6a6f27fd63bf87e"
-      ],
-      "critical_signal": "exploited in the wild",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Rescana",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5",
-          "domain": "rescana.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-22T05:36:31+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 55 = trust 10 / interest 100 / corrob 25",
-        "escalated to CRITICAL by signal: 'exploited in the wild'",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a5c2634b4f17e6e1",
-      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "cve",
-        "exploit",
-        "llm",
-        "network",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "a5c2634b4f17e6e1"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-0330",
-          "domain": "security.paloaltonetworks.com",
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-137308",
+          "domain": "cvefeed.io",
           "tier": "A"
         }
       ],
-      "primary_links": [
-        "https://security.paloaltonetworks.com/CVE-2026-0330"
-      ],
-      "published": "2026-11-11T17:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-26T02:17:02+00:00",
       "trace": [
         "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -574,14 +373,15 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 25,
+      "trust_score": 37,
       "interest_score": 100,
-      "corroboration": 1,
-      "blend": 58.8,
+      "corroboration": 2,
+      "blend": 69.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
         "1eb2d1a17c0d8436",
+        "4b2c45936088650f",
         "db22ce6bdf496569"
       ],
       "critical_signal": "",
@@ -595,6 +395,12 @@
           "tier": "B"
         },
         {
+          "name": "Meteora Web",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHZwRFVlVUV1QjVFN3dUc1pNWWhyYjdsR1hVNk5Yc2VMRl9yQlg0M1NocTFMdnptelV2TjFyTk5WYUJIN0J4RS1reEQwcTd0ZnA2aWIwTTQtVTdfZHJqME45U01sbXBvY0F2Uk4zU1dHVExzQjVvTjRaUVgxT0xWemloSE05UlR4TzhXUUdMdktBNnBuT2NhemVEQzhERzBSS3BIVHVKeVlHaXM1bnVEeUJB?oc=5",
+          "domain": "meteora-web.publisher",
+          "tier": "C"
+        },
+        {
           "name": "The Hacker News",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkl0aHN0dnlIV2d0YW80VWRuY2wyb3dHUU1oT3J0TXozZ214U2ZwV2JPVEpOT0JZQ0o1MmhNU2s0eHZNOXBiUmw4Y1Nrc0tNV193dkd3dHlxckRsUWRaWlp0cjJaSjNCeUlCdnV1NkxGd3JrdHNwS2wxZ2R6Q1pHT0dCbw?oc=5",
           "domain": "thehackernews.com",
@@ -605,26 +411,31 @@
       "published": "2026-11-24T13:28:00+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 5/5 from gemini-3.1-flash-lite",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 5/5 from cache",
+        "blend 69 = trust 37 / interest 100 / corrob 50",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "2f118ca479e5e843",
-      "title": "krispuckett/rounds — A local canvas of everything your Claude Code sessions make.",
+      "cluster_key": "197dc8b3ac4dbd20",
+      "title": "sous-labs/songe — A training engine for your local model, using your idle compute",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "llm",
+        "hardware",
+        "linux",
         "opensource",
-        "release"
+        "policy",
+        "release",
+        "threat-intel",
+        "tool"
       ],
-      "summary": "Everything your Claude Code sessions make, on one canvas. I run a lot of Claude Code sessions at once and kept losing track of what each one made. Now it all lands in one place, and I can leave notes on it. npx github:krispuckett/rounds --demo The demo is six of my public projects and the real notes I left on them. It runs in its own folder and doesn't touch your setup.",
+      "summary": "Install • How it works • Commands • Roadmap • Discord • Website Songe is a training engine for the model you already run locally. It sits between your agent and your model server as an OpenAI-compatible proxy, logs how each of the model's actions turned out, and fine-tunes a LoRA adapter on those lessons while the agent is idle. A new version is served only if it does clearly better than the one in use, and everything stays on your machine unless you enable the optional cloud learning. Training requires Apple Silicon (MLX) or an NVIDIA or AMD GPU (PyTorch); without one, Songe proxies and records only. Your corrections, stated preferences and the tools' errors become lessons for your own mod…",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -635,7 +446,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "2f118ca479e5e843"
+        "197dc8b3ac4dbd20"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -643,13 +454,102 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/krispuckett/rounds",
+          "url": "https://github.com/sous-labs/songe",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-20T05:05:28+00:00",
+      "published": "2026-11-20T11:01:20+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "e5c8b31e1bd2971d",
+      "title": "Assam To Get 3 Data Centres, Bharti Airtel Signs Deal With State Government",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "cloud",
+        "india",
+        "markets"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "e5c8b31e1bd2971d"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/assam-to-get-3-data-centres-bharti-airtel-signs-deal-with-state-government-12378460#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-26T03:33:10+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "e24e1be6f6202305",
+      "title": "nestjs/agent-skills — Agent skills for Nest framework (node.js) 🕵️‍♂️",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "llm",
+        "opensource",
+        "release",
+        "tool"
+      ],
+      "summary": "Official Agent Skills for building and extending NestJS applications with coding agents. They give an agent what its training data lacks: - the current APIs, which are often newer than the model; - Nest's first-party packages; - the mistakes that still pass tests: a sign-in that leaks which emails exist, @IsOptional() letting null through to a 500, a rate limiter that never sees the user, an event stream that outlives a revoked key, and many more. Each skill is a folder with a SKILL.md that holds its rules, plus references/ with longer recipes. Every recipe was run on the released packages. The skills work with any agent that reads the Agent Skills format: Claude Code, Codex, Cursor and oth…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "e24e1be6f6202305"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/nestjs/agent-skills",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-20T07:44:21+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
@@ -733,12 +633,51 @@
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 5/5 from gemini-3.5-flash-lite",
+        "importance 5/5 from cache",
         "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "297bc06ad6bca1bf",
+      "title": "Riemann Hypothesis may have been solved with the help of Claude.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "llm"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Riemann Hypothesis may have been solved with the help of Claude. “what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater.” alpo.ge/remark.pdf 2026-11-20T15:30:52.944Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "297bc06ad6bca1bf"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2qvqp4fts2e",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-20T15:30:42.096000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-20 — outside lookback window",
       "held_back": true
     },
     {
@@ -827,11 +766,11 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-11-23T18:32:22+00:00",
+      "published": "2026-11-23T18:23:01+00:00",
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
@@ -875,56 +814,6 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-11-19 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "ee4d766960636c35",
-      "title": "How Should an LLM See a Computer? Greptile OSWorld Data",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "howto",
-        "linux",
-        "llm",
-        "research",
-        "tool",
-        "writeup"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 43.8,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "ee4d766960636c35"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "explainx.ai",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdGp2WEgydnhERy1jZ2V3S1NNczJ5ZVMyVHl3a0NLZXNZTWlqM0pQNC1Ed3R6YVU3cWxTMnNWVTNCV1JzZnp0ZDZ3LXpLblUzbDVFbzFxN1NvR2xxc3VwLWZoWVhDZkpKY3hRTXljYWlRaXc3ejA4azloVHIyOFl0TGozQU41MTdrYkNsZVNZaENINmFJT1RJ?oc=5",
-          "domain": "explainx-ai.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-23T00:00:00+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 4/5 from cache",
-        "blend 44 = trust 10 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -973,52 +862,6 @@
         "single outlet, established publication (tier B)",
         "importance 4/5 from cache",
         "blend 48 = trust 25 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "55a686881bbe2f3f",
-      "title": "The rising cost of putting food on the table in India",
-      "category": "india_world",
-      "one_liner": "",
-      "tags": [
-        "india",
-        "markets",
-        "policy"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 40,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 51.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "55a686881bbe2f3f"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-25T01:02:13+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "summary: the article's opening sentences, not model-written and not fact-checked",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -1103,7 +946,7 @@
       "trace": [
         "tier C (+10)",
         "single tier-C source — treat with caution",
-        "importance 3/5 from gemini-3.1-flash-lite",
+        "importance 3/5 from cache",
         "blend 32 = trust 10 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
