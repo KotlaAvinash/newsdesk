@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-26T05:12:10.488170+00:00",
+  "generated_at": "2026-11-27T05:13:59.632892+00:00",
   "items": [
     {
-      "cluster_key": "9f10c66d4fe34ca0",
-      "title": "The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running…",
+      "cluster_key": "ae8cfecfa51ede87",
+      "title": "Gemini 4 tip: the difference between Gemini 4 Hydrogen on \"high\" thinking effort and that same model on \"xhigh\" is VERY significant Here's the high…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "llm",
         "windows"
       ],
-      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running at different effort levels - here's Gemini 4 Carbon, the new Gemini 4 Neon, and Gemini 4 Hydrogen at low, medium, and high 2026-11-19T06:40:18.844Z",
+      "summary": "Post Simon Willison simonwillison.net did:plc:kft6lu4trxowqmter2b6vg6z Gemini 4 tip: the difference between Gemini 4 Hydrogen on \"high\" thinking effort and that same model on \"xhigh\" is VERY significant Here's the high v.s. the xhigh pelican - high cost 3.99 cents and used 5,311 output tokens, xhigh cost 23.61 cents and used 31,477 output tokens 2026-11-21T19:06:21.841Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -21,7 +21,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "9f10c66d4fe34ca0"
+        "ae8cfecfa51ede87"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -29,32 +29,26 @@
       "sources": [
         {
           "name": "Simon Willison",
-          "url": "https://bsky.app/profile/simonwillison.net/post/3n2nhnbueh22q",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3n2tsb6pguk27",
           "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-19T06:40:15.930000+00:00",
+      "published": "2026-11-21T19:06:19.565000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
+      "reject_reason": "published 2026-11-21 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "0cced6b62981130a",
-      "title": "zou172866/Antigravity-agy-dart — Google Antigravity plugin that improves cache hits, keeps cache warm automatically, protects context quota…",
+      "cluster_key": "fac06b384050ef0f",
+      "title": "It is amazing that human language turned out to be so unreasonably effective at modeling the universe that training a system to predict what comes…",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [
-        "ai",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "简体中文 · English Google Antigravity plugin — Save tokens · Improve KV-cache hits · Keep cache warm automatically · Protect context quota · Rescue crashed sessions No extra dependencies · Works automatically in the background · Built-in Sidecar dashboard agy-dart is a performance, KV-cache, and context-window plugin for Google Antigravity (also supports Claude Code and Codex via --target). It reduces repeated reads and large tool results, shows prompt-cache usage, and helps you resume work in a new chat when a session fills up or stalls. Once installed, it runs automatically in the background — no new commands to learn, just chat and code as usual: When the AI needs to search several terms, it…",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu It is amazing that human language turned out to be so unreasonably effective at modeling the universe that training a system to predict what comes next in a sentence would get us this far.",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -65,25 +59,65 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "0cced6b62981130a"
+        "fac06b384050ef0f"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/zou172866/Antigravity-agy-dart",
-          "domain": "github.com",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2seaj2c4c2m",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-20T12:39:45+00:00",
+      "published": "2026-11-21T05:22:44.733000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "reject_reason": "published 2026-11-21 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "9d2786e702949f80",
+      "title": "We really are in a (temporary?) place where a combination of expertise and being able to work with AI allows people to do incredible things.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu We really are in a (temporary?) place where a combination of expertise and being able to work with AI allows people to do incredible things. It is no coincidence that people proving Millennium Problems have all been great mathematicians, the models can't (yet) do it all on their own.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "9d2786e702949f80"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2tj5d6rwc2m",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T16:23:06.373000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-21 — outside lookback window",
       "held_back": true
     },
     {
@@ -125,19 +159,12 @@
       "held_back": true
     },
     {
-      "cluster_key": "d84a827a27d67e04",
-      "title": "LIUFelix2004/dsh-workbuddy — Import WorkBuddy accounts into DeepSeek Harness as model providers: one route per account, full model list…",
+      "cluster_key": "5869ce14a1aad919",
+      "title": "Top expert predictions made last MONTH (post Navier-Stokes) about when the Riemann Hypotheses would be solved: Metaculus: May 2035 LEAP…",
       "category": "tech_ai",
       "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool",
-        "vulnerability"
-      ],
-      "summary": "复制插件目录 cp -r dsh-workbuddy ~/.dsh/profiles/<profile>/node_modules/dsh-workbuddy 2. 在 ~/.dsh/profiles/<profile>/cordis.patch.yml 末尾追加： - insert: - id: dsh-workbuddy name: dsh-workbuddy 3. 从 profile 的 cordis.patch.yml 删掉这几行 - insert: - id: dsh-workbuddy name: dsh-workbuddy 3. 删掉插件目录 rm -rf ~/.dsh/profiles/<profile>/node_modules/dsh-workbuddy 4.",
+      "tags": [],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Top expert predictions made last MONTH (post Navier-Stokes) about when the Riemann Hypotheses would be solved: Metaculus: May 2035 LEAP Superforecasters: 10% chance of additional Millennium problem being solved in 2026. Terrance Tao: “some combination of humans and AIs in 2050 or something\" 2026-11-22T03:45:50.247Z",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -148,209 +175,582 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "d84a827a27d67e04"
+        "5869ce14a1aad919"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/LIUFelix2004/dsh-workbuddy",
-          "domain": "github.com",
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2upc2qh322m",
+          "domain": "bsky.app",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-20T11:22:44+00:00",
+      "published": "2026-11-22T03:45:47.475000+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "reject_reason": "published 2026-11-22 — outside lookback window",
       "held_back": true
     },
     {
-      "cluster_key": "54d1d6a0fc238e6b",
-      "title": "w1ccc/sap-data-mcp — Read-only MCP servers that let AI assistants query SAP S/4HANA through RFC/BAPI, private-cloud OData and…",
+      "cluster_key": "4dddd1096949eac0",
+      "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
       "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "identity",
-        "llm",
-        "opensource",
-        "release",
-        "tool",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "54d1d6a0fc238e6b"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/w1ccc/sap-data-mcp",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-20T15:15:23+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "48cd0f5279b8cc70",
-      "title": "AI4XE/ai4ai — Let AI manage itself — a cross-harness kit for runtime status, context renewal, self-duplication and more",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "opensource",
-        "tool",
-        "windows"
-      ],
-      "summary": "AI4AI — Let AI manage itself more easily. AI4AI is an extension kit for AI harnesses: it abstracts extension capabilities into a unified interface — the same tool calls work across harnesses, and skills stay portable. Know Itself — understand its own runtime state, including but not limited to context usage, model, reasoning effort and window. Renew Itself — renew itself on demand, refreshing the context, shedding the burden and traveling light. Duplicate Itself — create its own copies, making task scheduling and coordination more flexible.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "48cd0f5279b8cc70"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/AI4XE/ai4ai",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-20T11:48:16+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "510ba3d15fa9caf6",
-      "title": "GF007/game-rebuild-kit — AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "howto",
-        "opensource",
-        "research",
-        "writeup"
-      ],
-      "summary": "Vision: analyze any game in one click and reconstruct its full implementation. Analyze: trace the algorithms, data relationships and execution flow behind game behavior. Reconstruct: reproduce game systems from recovered evidence, covering logic, animation, physics and rendering. This release provides an agent skill and a worked example. Universal one-click automation and complete reconstruction remain project goals.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "510ba3d15fa9caf6"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/GF007/game-rebuild-kit",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-20T04:14:12+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "4bc1cf56158fbc1b",
-      "title": "CVE-2026-137308 - markdownify-mcp before 1.2.0 SSRF Protection Bypass via validateUrl and validateRepoUrl",
-      "category": "cyber_attacks",
       "one_liner": "",
       "tags": [
         "agents",
         "ai",
         "appsec",
-        "cve",
+        "blueteam",
+        "dfir",
         "llm",
-        "network",
-        "vulnerability"
+        "policy",
+        "tool"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 40,
+      "trust_score": 70,
       "interest_score": 75,
       "corroboration": 1,
-      "blend": 51.2,
+      "blend": 58.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "4bc1cf56158fbc1b"
+        "4dddd1096949eac0"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "CVEFeed High",
-          "url": "https://cvefeed.io/vuln/detail/CVE-2026-137308",
-          "domain": "cvefeed.io",
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.33470",
+          "domain": "arxiv.org",
           "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-26T02:17:02+00:00",
+      "primary_links": [
+        "https://arxiv.org/abs/2611.33470"
+      ],
+      "published": "2026-11-26T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
-        "single outlet, established publication (tier A)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
         "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "21ba123e16ac253b",
+      "title": "qianyiai/KuroCat — KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "android",
+        "opensource",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "21ba123e16ac253b",
+        "329761e0c30fcf02"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/qianyiai/KuroCat",
+          "domain": "github.com",
+          "tier": "C"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/chanke17/KuroCat",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T15:49:31+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-21 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "3400785e003329cf",
+      "title": "EL4CTEO/fast-anything — Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "android",
+        "howto",
+        "llm",
+        "opensource"
+      ],
+      "summary": "Rewriting a whole app in Rust costs months, minute-long compiles and gigabytes of target/. Most of the runtime sits in a few functions anyway. fast-anything finds those functions, has your coding agent port only them to Rust, proves the port gives the same results on real recorded calls, and swaps it in. npm i -g @el4cteo/fast-anything or: cargo install fast-anything Ports are compiled with your Rust toolchain (rustup). fast-anything go --agent claude -- python app.py or: -- node app.ts / bun app.ts / deno run -A app.ts / ruby app.rb / java App.java / mvn exec:java / gradle run / go run .",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "3400785e003329cf"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/EL4CTEO/fast-anything",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T14:40:27+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-21 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "14c2f279b50e82d7",
+      "title": "Switzerland Confirms First AI-Agent Cyberattacks on Local Organisations",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "exploit",
+        "incident",
+        "opensource"
+      ],
+      "summary": "Switzerland reports its first AI-agent cyberattacks, including critical infrastructure breaches, and urges patching internet-facing systems within 24 hours. Switzerland ’s National Cyber Security Centre (NCSC) has now seen these attacks firsthand. In recent days, it received its first reports of cyberattacks on Swiss organisations carried out with the help of AI agents. The victims include critical infrastructure operators in at least two sectors. “In recent days, the NCSC has received its first reports of cyberattacks against organisations in Switzerland in which the attack was carried out with the assistance of an AI agent.” reads the report published by NCSC.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 2,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "14c2f279b50e82d7",
+        "361586e9a0c060a0"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/204004/hacking/switzerland-confirms-first-ai-agent-cyberattacks-on-local-organisations.html",
+          "domain": "securityaffairs.com",
+          "tier": "B"
+        },
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/w01fb0ss/PiBot",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T06:54:24+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-21 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "2e672ea6b291efb3",
+      "title": "Redington shares jump as Apple expands India retail network; how much does the iPhone maker contribute to its revenue?",
+      "category": "markets",
+      "one_liner": "",
+      "tags": [
+        "android",
+        "india",
+        "markets"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "2e672ea6b291efb3"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/redington-shares-jump-as-apple-expands-india-retail-network-how-much-does-the-iphone-maker-contribute-to-its-revenue-11795689140478.html",
+          "domain": "livemint.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-26T10:48:17+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "318c5b997744eaf2",
+      "title": "praseesh369/youtube-ai-video-editing-system — Storyboard, capture, and animate: an AI editing workflow for YouTube",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "tool",
+        "windows"
+      ],
+      "summary": "This system treats a video edit as a visible, inspectable pipeline: the Eyeline teleprompter captures your script and takes, editing agents propose a candidate cut, and every decision lands in readable JSON that you can open, question, and reshape. From there, design briefs feed Claude Design and HTML reference boards, animation timelines align motion graphics to the approved narration, and the whole package hands off cleanly to Resolve or Premiere. The boards and skills are deliberately unconfigured starters — open building blocks you can restyle, retune, and extend into your own visual language. Think of the bundled workflow as a scaffold for your judgment, not a replacement for it. Windo…",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "318c5b997744eaf2"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/praseesh369/youtube-ai-video-editing-system",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T17:21:17+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-21 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "f2d6acc85373ce6c",
+      "title": "A Generative AI Agent to Emulate Interactive Human-driven Vehicles for Automated Driving Testing in Urban Areas",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "research"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "f2d6acc85373ce6c"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.31797",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.31797"
+      ],
+      "published": "2026-11-26T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "3df37b44fae99b40",
+      "title": "Idunno.AntiCsrf CVE-2026-131914 Deserialization RCE Exploited in the Wild: No Fix, Remove the Module Now",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "appsec",
+        "cve",
+        "dfir",
+        "exploit",
+        "release",
+        "research",
+        "vulnerability",
+        "windows"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 10,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 55.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "3df37b44fae99b40",
+        "9724cc2d73e40a2c",
+        "d6a6f27fd63bf87e",
+        "ed3050d3c8f679d0"
+      ],
+      "critical_signal": "exploited in the wild",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Aikido Security",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tVC14RGhWbTRTY2JLRUpMdW9Yb0VBRnc2OXluc0lwMGR6ZTVKY0hYZ3BFUWV0X01CTXlWeXFualFKV1R0d2p2X2EwQW0zdHFOb0s3cE1MSjA?oc=5",
+          "domain": "aikido-security.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "CSO Online",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTm5wU3FFb1hWWVZjVEZJa0pRV0l0RHhGaG1VZmlSS3BDT01tWWkxdzY2RXRhLXNpekhsUEdRT1JmMjhWWDl0NmdhYjhnb3NZV0lSWlh0YnVlUDJzU280S2V0ZzAzT0kyYi0xejJibHktQ1pkVHNNbmF4UXVUSDdXbmc5UFhWcklsSDlnelBkUVdBWkVRRzgzeXA5TGQ4dVEyaHJ5UDZsdXZ4OUlteXhjRURrR0VyX1lITkY1VTZR?oc=5",
+          "domain": "cso-online.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVE0R3M2MW1MUHk3YmhaSGFISlFCbExNWnRZQ1k3RXdEeXVuMXhNb3Q5aGZZLUR5Smo4bnp6MnZRaE5ZWlllVDB0RGZMT1hNbGQ0NFVXQjY3Vy1nMFpWSmlOd2tnWFNhSUs1aHdJbGZRdlJhMVpfaEpPb3VZZC1MS204UkRKaDBKWklxdGdyeFNfemg5WGN2U09oc3EzM19mdVFublpnLVI3VlAy?oc=5",
+          "domain": "rescana.publisher",
+          "tier": "C"
+        },
+        {
+          "name": "Rescana",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRkttZ3Fvc1ZGZnBreEttQThvZkp6emI5cG4ydzJiUmptN19ISWFZdGNIdk1oOHFfUk95X2FvUXJhbVloelFuZTVQVEYzNjB5V3RCaWc1R2pnbVY4V1Z5b1hDYVZ1YVpRMHZ3d0ZPakt5S25qOG9kdGpfNTkxN29yUEFiTkhqZWIyWUFlcENfUk45ZlpUZnBRbnJOOTczTUl2dS1kYmJ4UVpKVFNxNlpTUlpCdlRkelFyUUpweTlvcFhEdw?oc=5",
+          "domain": "rescana.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-24T05:58:14+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 5/5 from cache",
+        "blend 55 = trust 10 / interest 100 / corrob 25",
+        "escalated to CRITICAL by signal: 'exploited in the wild'",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "5f392b2194993ecb",
+      "title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource",
+        "release",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "5f392b2194993ecb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.33227",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.33227"
+      ],
+      "published": "2026-11-26T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "791704e6d743c250",
+      "title": "Developing-Gamer/agent-sim — iOS simulators for AI agents, on Linux. The agent layer for x86Sim.",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "agents",
+        "ai",
+        "hardware",
+        "linux",
+        "llm",
+        "opensource"
+      ],
+      "summary": "iOS simulators for AI agents, on ordinary Linux machines. Safari on Apple's iOS runtime, on a Linux VM, recorded at 60 fps (the GIF is 15). Full clip · An agent driving Settings and Safari agent-sim is built on x86Sim by designgears. x86Sim is what runs Apple's iOS simulator on Linux, and it has done that since its first release. agent-sim is the agent layer on top of it.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "791704e6d743c250"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/Developing-Gamer/agent-sim",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-21T20:26:12+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-21 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "a5c2634b4f17e6e1",
+      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "cve",
+        "exploit",
+        "llm",
+        "network",
+        "release",
+        "vulnerability"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "a5c2634b4f17e6e1"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "Palo Alto PSIRT",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0330",
+          "domain": "security.paloaltonetworks.com",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://security.paloaltonetworks.com/CVE-2026-0330"
+      ],
+      "published": "2026-11-11T17:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from cache",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -373,15 +773,14 @@
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 37,
+      "trust_score": 25,
       "interest_score": 100,
-      "corroboration": 2,
-      "blend": 69.2,
+      "corroboration": 1,
+      "blend": 58.8,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
         "1eb2d1a17c0d8436",
-        "4b2c45936088650f",
         "db22ce6bdf496569"
       ],
       "critical_signal": "",
@@ -395,12 +794,6 @@
           "tier": "B"
         },
         {
-          "name": "Meteora Web",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHZwRFVlVUV1QjVFN3dUc1pNWWhyYjdsR1hVNk5Yc2VMRl9yQlg0M1NocTFMdnptelV2TjFyTk5WYUJIN0J4RS1reEQwcTd0ZnA2aWIwTTQtVTdfZHJqME45U01sbXBvY0F2Uk4zU1dHVExzQjVvTjRaUVgxT0xWemloSE05UlR4TzhXUUdMdktBNnBuT2NhemVEQzhERzBSS3BIVHVKeVlHaXM1bnVEeUJB?oc=5",
-          "domain": "meteora-web.publisher",
-          "tier": "C"
-        },
-        {
           "name": "The Hacker News",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkl0aHN0dnlIV2d0YW80VWRuY2wyb3dHUU1oT3J0TXozZ214U2ZwV2JPVEpOT0JZQ0o1MmhNU2s0eHZNOXBiUmw4Y1Nrc0tNV193dkd3dHlxckRsUWRaWlp0cjJaSjNCeUlCdnV1NkxGd3JrdHNwS2wxZ2R6Q1pHT0dCbw?oc=5",
           "domain": "thehackernews.com",
@@ -411,69 +804,133 @@
       "published": "2026-11-24T13:28:00+00:00",
       "trace": [
         "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
+        "single outlet, established publication (tier B)",
         "importance 5/5 from cache",
-        "blend 69 = trust 37 / interest 100 / corrob 50",
+        "blend 59 = trust 25 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "197dc8b3ac4dbd20",
-      "title": "sous-labs/songe — A training engine for your local model, using your idle compute",
+      "cluster_key": "842222505d59db93",
+      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
-        "hardware",
-        "linux",
-        "opensource",
-        "policy",
-        "release",
-        "threat-intel",
-        "tool"
+        "ai",
+        "llm",
+        "research"
       ],
-      "summary": "Install • How it works • Commands • Roadmap • Discord • Website Songe is a training engine for the model you already run locally. It sits between your agent and your model server as an OpenAI-compatible proxy, logs how each of the model's actions turned out, and fine-tunes a LoRA adapter on those lessons while the agent is idle. A new version is served only if it does clearly better than the one in use, and everything stays on your machine unless you enable the optional cloud learning. Training requires Apple Silicon (MLX) or an NVIDIA or AMD GPU (PyTorch); without one, Songe proxies and records only. Your corrections, stated preferences and the tools' errors become lessons for your own mod…",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "197dc8b3ac4dbd20"
+        "842222505d59db93"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/sous-labs/songe",
-          "domain": "github.com",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.31427",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.31427"
+      ],
+      "published": "2026-11-26T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "289836493636e947",
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "incident",
+        "markets",
+        "political",
+        "privacy",
+        "threat-actor"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 37,
+      "interest_score": 75,
+      "corroboration": 2,
+      "blend": 58.0,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "289836493636e947",
+        "dbfa2402c895a28e",
+        "fb95bef93309ef6e"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+          "domain": "securityweek.com",
+          "tier": "B"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/fifa-data-breach-limited",
+          "domain": "therecord.media",
+          "tier": "B"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNclJ3MDhCeGtwdVVHOWdEVjNIM2FKbmFNSG9PQ0o4UEVfaDJfUllfWThnRzY1TUZZUFpnZjhEbW9tSFRFTXhVRThuS1h4TjU5MUZsLWtwLVNXU0tMRE1iR2lZUVNsOWthcW9VZjFxMERMSm5HNzlSaUJZZ1Q4cWY2QVhQeHF5QTVLenNLQW9acEFVUGJOcjJpQVhWWXZoSzc3cnpOUVZBRV95NDZQY1puZzlzcVUyR001eWZZ?oc=5",
+          "domain": "securityweek.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-20T11:01:20+00:00",
+      "published": "2026-11-25T20:40:00+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier B (+25)",
+        "2 independent outlets (+12)",
+        "corroborated by 2 independent outlets",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 58 = trust 37 / interest 75 / corrob 50",
+        "demoted: critical capped at 5"
       ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "e5c8b31e1bd2971d",
-      "title": "Assam To Get 3 Data Centres, Bharti Airtel Signs Deal With State Government",
-      "category": "india_world",
+      "cluster_key": "ab9d68bdcca6a36c",
+      "title": "Small-cap stock under  ₹100: Metal stock jumps following stock market rally; do you own?",
+      "category": "markets",
       "one_liner": "",
       "tags": [
-        "cloud",
         "india",
         "markets"
       ],
@@ -482,160 +939,174 @@
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 50,
+      "interest_score": 25,
       "corroboration": 1,
-      "blend": 36.2,
+      "blend": 25.0,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "e5c8b31e1bd2971d"
+        "ab9d68bdcca6a36c"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "NDTV India",
-          "url": "https://www.ndtv.com/india-news/assam-to-get-3-data-centres-bharti-airtel-signs-deal-with-state-government-12378460#publisher=newsstand",
-          "domain": "ndtv.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-100-metal-stock-bombay-coated-and-special-steels-jumps-following-stock-market-rally-11795685519467.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-26T03:33:10+00:00",
+      "published": "2026-11-26T10:03:29+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 25 = trust 25 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "e24e1be6f6202305",
-      "title": "nestjs/agent-skills — Agent skills for Nest framework (node.js) 🕵️‍♂️",
+      "cluster_key": "60604a1190b5578c",
+      "title": "Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
         "agents",
+        "ai",
         "llm",
-        "opensource",
-        "release",
+        "research",
         "tool"
       ],
-      "summary": "Official Agent Skills for building and extending NestJS applications with coding agents. They give an agent what its training data lacks: - the current APIs, which are often newer than the model; - Nest's first-party packages; - the mistakes that still pass tests: a sign-in that leaks which emails exist, @IsOptional() letting null through to a 500, a rate limiter that never sees the user, an event stream that outlives a revoked key, and many more. Each skill is a folder with a SKILL.md that holds its rules, plus references/ with longer recipes. Every recipe was run on the released packages. The skills work with any agent that reads the Agent Skills format: Claude Code, Codex, Cursor and oth…",
+      "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "trust_score": 70,
+      "interest_score": 50,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 47.5,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "e24e1be6f6202305"
+        "60604a1190b5578c"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/nestjs/agent-skills",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.31638",
+          "domain": "arxiv.org",
+          "tier": "A"
         }
       ],
-      "primary_links": [],
-      "published": "2026-11-20T07:44:21+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+      "primary_links": [
+        "https://arxiv.org/abs/2611.31638"
       ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
+      "published": "2026-11-26T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 70 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
-      "cluster_key": "34e7f4ca2739caff",
-      "title": "Early fascinating work on how an AI science community would work.",
-      "category": "tech_ai",
+      "cluster_key": "e4addef3cba758f3",
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "category": "markets",
       "one_liner": "",
       "tags": [
-        "ai"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Early fascinating work on how an AI science community would work. 35 human labs deployed agents that worked with each other to do science. They published 936 papers, publicly retracted mistakes, were willing to publish nulls more than humans, and founded a peer review journal.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "34e7f4ca2739caff"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2pqcy4cbs2g",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-20T04:20:53.322000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-20 — outside lookback window",
-      "held_back": true
-    },
-    {
-      "cluster_key": "42e5f99f0a8baf4c",
-      "title": "Hackers May Have Breached FBI Database Used by Police Nationwide",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "incident"
+        "ai",
+        "hardware",
+        "llm",
+        "markets",
+        "political"
       ],
       "summary": "",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
       "trust_score": 25,
-      "interest_score": 100,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
+      "blend": 47.5,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
-        "42e5f99f0a8baf4c"
+        "e4addef3cba758f3"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "unverified",
       "sources": [
         {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/203865/cyber-crime/hackers-may-have-breached-fbi-database-used-by-police-nationwide.html",
-          "domain": "securityaffairs.com",
+          "name": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+          "domain": "cnbc.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-24T07:05:05+00:00",
+      "published": "2026-11-25T14:29:00+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
-        "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
-        "demoted: critical capped at 5"
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 48 = trust 25 / interest 75 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "6714c1c2812cc416",
+      "title": "Desperate appeals from women on death row in Iran after protests",
+      "category": "india_world",
+      "one_liner": "",
+      "tags": [
+        "policy",
+        "political",
+        "privacy"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 40,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 51.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "6714c1c2812cc416"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-26T06:01:58+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
@@ -678,6 +1149,122 @@
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
       "reject_reason": "published 2026-11-20 — outside lookback window",
+      "held_back": true
+    },
+    {
+      "cluster_key": "7ef8b6638eb57fcc",
+      "title": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [
+        "cloud",
+        "incident",
+        "opensource",
+        "privacy",
+        "research",
+        "threat-intel"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 49,
+      "interest_score": 100,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "7ef8b6638eb57fcc",
+        "8fe88d16a693488a",
+        "a147b38739e87e67"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+          "domain": "bleepingcomputer.com",
+          "tier": "B"
+        },
+        {
+          "name": "CyberScoop",
+          "url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+          "domain": "cyberscoop.com",
+          "tier": "B"
+        },
+        {
+          "name": "Meteora Web",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WaE13aU4wRENvejhlNHFwSjJKZ1B0OGJ1WDhzZjNoeGNLLU01MVJCY0EzYnRHd0JVUW9PZEdUdHEzNVFBeXI3ZmwtS3A0TXlEUHE4eFBGVzdDTFRCajVhRHFaOVFoNk5lZmE1NmVfb3dOSEZEY1ZoMERJdV9GUQ?oc=5",
+          "domain": "meteora-web.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-24T22:01:23+00:00",
+      "trace": [
+        "tier B (+25)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
+      "held_back": true
+    },
+    {
+      "cluster_key": "f4b893f6bafe5dd6",
+      "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai",
+        "cloud",
+        "hardware",
+        "llm",
+        "research",
+        "tool"
+      ],
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "f4b893f6bafe5dd6"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "unverified",
+      "sources": [
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/abs/2611.33741",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.33741"
+      ],
+      "published": "2026-11-26T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text",
       "held_back": true
     },
     {
@@ -730,93 +1317,6 @@
       "held_back": true
     },
     {
-      "cluster_key": "c2f042a0f4204554",
-      "title": "Visa Crypto Labs launches AI agent wallet that pays in OUSD",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "markets",
-        "political",
-        "release"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 10,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 32.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "c2f042a0f4204554"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Cryptonews.net",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YeHgyNnRfVVhFU1pVMFJjbktXdW5EdGVYeUM2Y1YxelNGREF3emZUZWE1MS1YRFVOcTJSbTZwc2tTdmVHbWkwYmNIQkp1cXQ3aGJrMFZsaw?oc=5",
-          "domain": "cryptonews-net.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-23T18:23:01+00:00",
-      "trace": [
-        "tier C (+10)",
-        "single tier-C source — treat with caution",
-        "importance 3/5 from cache",
-        "blend 32 = trust 10 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "8ea4efa6036dcb62",
-      "title": "> Most of Ruby's single-byte encodings have no capital ß.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "windows"
-      ],
-      "summary": "Post Xe xeiaso.net did:plc:e5nncb3dr5thdkjir5cfaqfe > Most of Ruby's single-byte encodings have no capital ß. Upcasing it writes two bytes, SS, but the loop only bounds-checks one (to < to_end). Fuck me sideways 2026-11-19T12:30:30.454Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "8ea4efa6036dcb62"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Xe Iaso",
-          "url": "https://bsky.app/profile/xeiaso.net/post/3n2o37kpgmk2a",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T12:30:30.289000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
-      "held_back": true
-    },
-    {
       "cluster_key": "4695ee870a0e6d25",
       "title": "Press play on Elastic Security 9.6, banger after banger",
       "category": "cyber_tools",
@@ -864,46 +1364,6 @@
         "blend 48 = trust 25 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text",
-      "held_back": true
-    },
-    {
-      "cluster_key": "a1ef9fb623fd4b65",
-      "title": "Playing GTA & not following the Anthropic IPO?",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "markets"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Playing GTA & not following the Anthropic IPO? I had Fable make a playable thing where you steal cars & go on missions in a world where everything from your wanted level to weather is driven by ANT's stock price market-order-city.netlify.app 2026-11-19T20:58:46.252Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "a1ef9fb623fd4b65"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "unverified",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2oxmes2es2g",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-19T20:58:45.063000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-19 — outside lookback window",
       "held_back": true
     },
     {
