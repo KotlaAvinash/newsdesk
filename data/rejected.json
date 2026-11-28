@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:13:59.632892+00:00",
+  "generated_at": "2026-11-28T04:56:38.951789+00:00",
   "items": [
     {
       "cluster_key": "ae8cfecfa51ede87",
@@ -79,6 +79,128 @@
       "reject_reason": "published 2026-11-21 — outside lookback window"
     },
     {
+      "cluster_key": "3154a23334533ab1",
+      "title": "Not that AI discourse has ever been great, but \"of course LLMs are good at math\" both misses that \"good at math\" is an *slight* understatement in…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Not that AI discourse has ever been great, but \"of course LLMs are good at math\" both misses that \"good at math\" is an *slight* understatement in the context of solving the Reimann Hypothesis & also ignores the fact that LLMs were not actually \"good at math\" until very recent breakthroughs.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "3154a23334533ab1"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2xc6e3yec2m",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-23T04:29:03.646000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-23 — outside lookback window"
+    },
+    {
+      "cluster_key": "3c5761fb11935aeb",
+      "title": "Yes, it is reasonable to expect AI models struggle more with unverifiable domains, but I do think it is worth noting that we also see very large…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "ai"
+      ],
+      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Yes, it is reasonable to expect AI models struggle more with unverifiable domains, but I do think it is worth noting that we also see very large gains in domains without automatic verification as well Here are humans evaluations of AI in writing, business problems, design, and doing freelance tasks 2026-11-23T02:45:58.650Z",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "3c5761fb11935aeb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "Ethan Mollick",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2x4fwduu22m",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-23T02:45:55.208000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-23 — outside lookback window"
+    },
+    {
+      "cluster_key": "c1fcf5e24d780360",
+      "title": "Despite years of opposition from faculty, staff, and the residents of Ypsilanti Township, the University of Michigan regents voted to approve a…",
+      "category": "cyber_attacks",
+      "one_liner": "",
+      "tags": [],
+      "summary": "Post 404 Media 404media.co did:plc:vcepp6trx4vpe5ourxso4tjl Despite years of opposition from faculty, staff, and the residents of Ypsilanti Township, the University of Michigan regents voted to approve a nuclear weapons data center. The township met right after the vote, vowing to find ways to derail their plans.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
+      "alt_keys": [
+        "c1fcf5e24d780360",
+        "d28a8f9cc96b859a"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "404 Media",
+          "url": "https://bsky.app/profile/404media.co/post/3n32uwe7u3k2r",
+          "domain": "bsky.app",
+          "tier": "C"
+        },
+        {
+          "name": "404 Media",
+          "url": "https://bsky.app/profile/404media.co/post/3n2ywzyq6xv2r",
+          "domain": "bsky.app",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-23T20:15:05.401000+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-23 — outside lookback window"
+    },
+    {
       "cluster_key": "9d2786e702949f80",
       "title": "We really are in a (temporary?) place where a combination of expertise and being able to work with AI allows people to do incredible things.",
       "category": "tech_ai",
@@ -118,41 +240,238 @@
       "reject_reason": "published 2026-11-21 — outside lookback window"
     },
     {
-      "cluster_key": "1eccff0bef7ded38",
-      "title": "The effective end of easy distillation from OpenAI and Anthropic models may be behind the relative slowdown in open weights model progress.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu The effective end of easy distillation from OpenAI and Anthropic models may be behind the relative slowdown in open weights model progress. We don’t know the extent to which distillation has been key to the rapid improvement in open weights, I guess we will find out soon.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
+      "cluster_key": "425879e0e0e66dd1",
+      "title": "CVE-2026-128796 (HIGH 8.5): System service 'antaiuiserver' exposes transaction 14 (sendMyATCmd) & 4, allowing ANY app on device to send a…",
+      "category": "cyber_attacks",
+      "one_liner": "A high-severity Android system service flaw allows any app to send AT commands to the modem, exposing sensitive identifiers and SMS control.",
+      "tags": [
+        "android",
+        "cve",
+        "exploit",
+        "privacy",
+        "vulnerability"
+      ],
+      "summary": "A critical vulnerability in the 'antaiuiserver' system service allows any application on an Android device to send arbitrary AT commands to the modem without requiring specific permissions. This exploit enables unauthorized access to sensitive hardware identifiers like IMEI, IMSI, and ICCID, as well as the ability to manage SMS messages. The flaw bypasses standard Android permission checks, posing a significant risk to device privacy and security.",
+      "key_facts": [
+        "CVE-2026-128796: CVSS 8.5 (HIGH)",
+        "Impact: Unauthorized modem access, IMEI/IMSI/ICCID theft, SMS management"
+      ],
+      "bottom_line": "This vulnerability allows any installed app to bypass Android's permission model to interact directly with the modem, necessitating a system-level patch.",
+      "claims": [
+        {
+          "text": "System service 'antaiuiserver' exposes transaction 14 (sendMyATCmd) & 4, allowing ANY app on device to send arbitrary AT commands to the modem without permissions",
+          "support_span": "System service 'antaiuiserver' exposes transaction 14 (sendMyATCmd) & 4, allowing ANY app on device to send arbitrary AT commands to the modem without permissions",
+          "status": "contradicted"
+        },
+        {
+          "text": "Enables reading IMEI, IMSI, ICCID, and managing SMS.",
+          "support_span": "Enables reading IMEI, IMSI, ICCID, and managing SMS.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
+      "blend": 70.0,
+      "is_new": true,
+      "summary_source": "model",
       "alt_keys": [
-        "1eccff0bef7ded38"
+        "425879e0e0e66dd1"
       ],
       "critical_signal": "",
-      "priority": "minor",
+      "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2req7quy225",
-          "domain": "bsky.app",
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128796",
+          "domain": "nist.gov",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-128796"
+      ],
+      "published": "2026-11-24T06:17:07.553000+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 70 = trust 70 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "5c5c5dde29caaf0a",
+      "title": "Re: CVE-2026-122093: Strong::Random versions through 0.96 for Perl allow every later rand output to be predicted from three earlier ones",
+      "category": "cyber_attacks",
+      "one_liner": "If you are using Strong::Random in Perl for security-sensitive tasks, your random number generation is predictable and must be replaced immediately.",
+      "tags": [
+        "appsec",
+        "cve",
+        "research",
+        "vulnerability"
+      ],
+      "summary": "The Perl module Strong::Random, in versions through 0.96, contains a vulnerability where subsequent random outputs can be predicted by observing three previous outputs. This flaw undermines the module's intended use as a source of randomness for cryptographic or security-sensitive applications. Security researchers recommend migrating to cryptographically secure alternatives like Crypt::URandom, Crypt::SysRandom, or Net::SSLeay's RAND_bytes().",
+      "key_facts": [
+        "CVE-2026-122093: Predictable random output",
+        "Affected versions: Strong::Random <= 0.96"
+      ],
+      "bottom_line": "Strong::Random versions 0.96 and earlier are cryptographically broken and should be replaced with secure alternatives like Crypt::URandom.",
+      "claims": [
+        {
+          "text": "Strong::Random versions through 0.96 for Perl allow every later rand output to be predicted from three earlier ones",
+          "support_span": "Strong::Random versions through 0.96 for Perl allow every later rand output to be predicted from three earlier ones",
+          "status": "entailed"
+        },
+        {
+          "text": "Replace Strong::Random with a cryptographically secure source such as Crypt::URandom or Crypt::SysRandom.",
+          "support_span": "Replace Strong::Random with a cryptographically secure source such \n|>>> as Crypt::URandom or Crypt::SysRandom.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 100,
+      "corroboration": 1,
+      "blend": 62.5,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "5c5c5dde29caaf0a",
+        "911a8bee436d28a6",
+        "9e70bb879e56d4d0",
+        "a6c691ae4e244469",
+        "a976f57b53832d78",
+        "efa0d3ae7119a71e",
+        "efc97191914b2d62"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/912",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/909",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/908",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/907",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/906",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/905",
+          "domain": "seclists.org",
+          "tier": "A"
+        },
+        {
+          "name": "oss-security",
+          "url": "https://seclists.org/oss-sec/2026/q4/904",
+          "domain": "seclists.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-27T05:30:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 5/5 from gemini-3.1-flash-lite",
+        "blend 62 = trust 40 / interest 100 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "b0d71194e0ab7437",
+      "title": "erkamyaman/safe-anything — Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked…",
+      "category": "cyber_tools",
+      "one_liner": "safe-anything is a fast, config-free Rust vulnerability scanner covering code flaws, secrets, and dependencies for local use or CI/CD pipelines.",
+      "tags": [
+        "agents",
+        "ai",
+        "appsec",
+        "cloud",
+        "llm",
+        "opensource",
+        "tool",
+        "vulnerability"
+      ],
+      "summary": "A developer named erKam Yaman has released safe-anything, a fast vulnerability scanner written entirely in Rust that detects XSS, SQL injection, leaked secrets, risky configurations, and vulnerable dependencies in a single command. The tool runs without requiring a config, account, or cloud upload, and supports machine-readable outputs such as JSON and SARIF for CI/CD pipelines. It includes 106 built-in rules mapped to CWE and OWASP categories, respects .gitignore files, and allows baseline tracking to fail only on newly introduced findings. The scanner skips specified generated directories and binary files while allowing inline comment-based rule suppression.",
+      "key_facts": [
+        "Language: Rust",
+        "Rules: 106 rules with CWE and OWASP mappings"
+      ],
+      "bottom_line": "Developers can now run a zero-config, comprehensive local vulnerability and secret scanner built in Rust that integrates cleanly into pre-commit and CI workflows.",
+      "claims": [
+        {
+          "text": "One command finds XSS, SQL injection and other vulnerabilities in your code, leaked secrets, risky mobile and cloud config, vulnerable dependencies, and the AI agent setup that writes it all.",
+          "support_span": "One command finds XSS, SQL injection and other vulnerabilities in your code, leaked secrets, risky mobile and cloud config, vulnerable dependencies, and the AI agent setup that writes it all.",
+          "status": "entailed"
+        },
+        {
+          "text": "It exits with 1 when something high or critical is found, so it works as a pre-commit or CI check as is.",
+          "support_span": "It exits with 1 when something high or critical is found, so it works as a pre-commit or CI check as is.",
+          "status": "entailed"
+        },
+        {
+          "text": "106 rules, each with a CWE id, an OWASP category and a link to the OWASP page that explains it.",
+          "support_span": "106 rules, each with a CWE id, an OWASP category and a link to the OWASP page that explains it.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 43.8,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "b0d71194e0ab7437"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/erkamyaman/safe-anything",
+          "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-20T19:58:52.119000+00:00",
+      "published": "2026-11-22T16:44:10+00:00",
       "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 4/5 from cache",
+        "blend 44 = trust 10 / interest 75 / corrob 25"
       ],
-      "reject_reason": "published 2026-11-20 — outside lookback window"
+      "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "5869ce14a1aad919",
@@ -239,7 +558,7 @@
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.CR",
+          "name": "arXiv cs.AI",
           "url": "https://arxiv.org/abs/2611.33470",
           "domain": "arxiv.org",
           "tier": "A"
@@ -248,224 +567,20 @@
       "primary_links": [
         "https://arxiv.org/abs/2611.33470"
       ],
-      "published": "2026-11-26T05:00:00+00:00",
+      "published": "2026-11-27T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
         "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
+        "importance 4/5 from cache",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "21ba123e16ac253b",
-      "title": "qianyiai/KuroCat — KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "android",
-        "opensource",
-        "windows"
-      ],
-      "summary": "",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "21ba123e16ac253b",
-        "329761e0c30fcf02"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/qianyiai/KuroCat",
-          "domain": "github.com",
-          "tier": "C"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/chanke17/KuroCat",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-21T15:49:31+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "3400785e003329cf",
-      "title": "EL4CTEO/fast-anything — Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot…",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "android",
-        "howto",
-        "llm",
-        "opensource"
-      ],
-      "summary": "Rewriting a whole app in Rust costs months, minute-long compiles and gigabytes of target/. Most of the runtime sits in a few functions anyway. fast-anything finds those functions, has your coding agent port only them to Rust, proves the port gives the same results on real recorded calls, and swaps it in. npm i -g @el4cteo/fast-anything or: cargo install fast-anything Ports are compiled with your Rust toolchain (rustup). fast-anything go --agent claude -- python app.py or: -- node app.ts / bun app.ts / deno run -A app.ts / ruby app.rb / java App.java / mvn exec:java / gradle run / go run .",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "3400785e003329cf"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/EL4CTEO/fast-anything",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-21T14:40:27+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "14c2f279b50e82d7",
-      "title": "Switzerland Confirms First AI-Agent Cyberattacks on Local Organisations",
-      "category": "cyber_attacks",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "exploit",
-        "incident",
-        "opensource"
-      ],
-      "summary": "Switzerland reports its first AI-agent cyberattacks, including critical infrastructure breaches, and urges patching internet-facing systems within 24 hours. Switzerland ’s National Cyber Security Centre (NCSC) has now seen these attacks firsthand. In recent days, it received its first reports of cyberattacks on Swiss organisations carried out with the help of AI agents. The victims include critical infrastructure operators in at least two sectors. “In recent days, the NCSC has received its first reports of cyberattacks against organisations in Switzerland in which the attack was carried out with the assistance of an AI agent.” reads the report published by NCSC.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 2,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "14c2f279b50e82d7",
-        "361586e9a0c060a0"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/204004/hacking/switzerland-confirms-first-ai-agent-cyberattacks-on-local-organisations.html",
-          "domain": "securityaffairs.com",
-          "tier": "B"
-        },
-        {
-          "name": "GitHub (new)",
-          "url": "https://github.com/w01fb0ss/PiBot",
-          "domain": "github.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-21T06:54:24+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "2e672ea6b291efb3",
-      "title": "Redington shares jump as Apple expands India retail network; how much does the iPhone maker contribute to its revenue?",
-      "category": "markets",
-      "one_liner": "Redington shares gained as Apple expands its Indian retail footprint, bolstered by strong quarterly financial results.",
-      "tags": [
-        "android",
-        "india",
-        "markets"
-      ],
-      "summary": "Redington shares rose following Apple's announcement that it will open a new official retail store in Hyderabad on December 10. Apple products are a major revenue driver for Redington, contributing 30% to its topline in the September quarter, up from 29% previously. Redington reported robust financial results for Q2 FY27, with consolidated revenue surging 48% year-on-year to ₹43,002 crore and profit after tax increasing 50% to ₹581 crore. Growth was propelled by strong performance in enterprise technology, cloud services, and mobility demand across both domestic and international markets.",
-      "key_facts": [
-        "Apple store location: Hyderabad",
-        "Apple store opening date: December 10",
-        "Apple revenue contribution to Redington: 30%",
-        "Q2 FY27 consolidated revenue: ₹43,002 crore (48% YoY growth)",
-        "Q2 FY27 PAT: ₹581 crore (50% YoY growth)"
-      ],
-      "bottom_line": "Apple's aggressive retail and manufacturing expansion in India directly benefits key distributors like Redington, fueling strong revenue and profit growth.",
-      "claims": [
-        {
-          "text": "Apple announced plans to open another retail store in India in Hyderabad on December 10.",
-          "support_span": "Apple announced plans to open another retail store in India, as the iPhone maker steps up efforts to expand its retail network... open in Hyderabad on December 10",
-          "status": "contradicted"
-        },
-        {
-          "text": "Apple contributed 30% to Redington's topline in the September quarter.",
-          "support_span": "Apple contributed 30% to Redington's topline, compared with 29% in the corresponding period last year.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 36.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "2e672ea6b291efb3"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/redington-shares-jump-as-apple-expands-india-retail-network-how-much-does-the-iphone-maker-contribute-to-its-revenue-11795689140478.html",
-          "domain": "livemint.com",
-          "tier": "B"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-26T10:48:17+00:00",
-      "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 36 = trust 25 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "318c5b997744eaf2",
-      "title": "praseesh369/youtube-ai-video-editing-system — Storyboard, capture, and animate: an AI editing workflow for YouTube",
+      "cluster_key": "4e3134df7e809adb",
+      "title": "clipy-recorder/clipy — The AI-native screen recorder. Record your screen and talk; the people you share it with and your AI agents…",
       "category": "tech_ai",
       "one_liner": "",
       "tags": [
@@ -476,7 +591,48 @@
         "tool",
         "windows"
       ],
-      "summary": "This system treats a video edit as a visible, inspectable pipeline: the Eyeline teleprompter captures your script and takes, editing agents propose a candidate cut, and every decision lands in readable JSON that you can open, question, and reshape. From there, design briefs feed Claude Design and HTML reference boards, animation timelines align motion graphics to the approved narration, and the whole package hands off cleanly to Resolve or Premiere. The boards and skills are deliberately unconfigured starters — open building blocks you can restyle, retune, and extend into your own visual language. Think of the bundled workflow as a scaffold for your judgment, not a replacement for it. Windo…",
+      "summary": "The open-source, AI-native screen recorder. Let your AI agents watch any video and see your screen. Quick start | Clipy Local docs | AREC format | Discussions | Contribute | Website X | LinkedIn | Product Hunt | Facebook In Claude Code: /plugin marketplace add clipy-recorder/clipy /plugin install watch@clipy Then hand it any video and ask: /watch what are the setup steps? /watch list every bug the speaker points out /watch ./demo.mov summarize this No account and no login. YouTube captions and Loom transcripts are fetched on your machine, and a video file is transcribed on your machine.",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 0.0,
+      "is_new": true,
+      "summary_source": "extract",
+      "alt_keys": [
+        "4e3134df7e809adb"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "GitHub (new)",
+          "url": "https://github.com/clipy-recorder/clipy",
+          "domain": "github.com",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-22T16:08:49+00:00",
+      "trace": [
+        "summary: the article's opening sentences, not model-written and not fact-checked"
+      ],
+      "reject_reason": "published 2026-11-22 — outside lookback window"
+    },
+    {
+      "cluster_key": "329761e0c30fcf02",
+      "title": "chanke17/KuroCat — KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802…",
+      "category": "tech_ai",
+      "one_liner": "",
+      "tags": [
+        "linux",
+        "opensource",
+        "windows"
+      ],
+      "summary": "Committers & Reviewers: Project maintainers of chanke17/KuroCat (reproducibly built via GitHub Actions).",
       "key_facts": [],
       "bottom_line": "",
       "claims": [],
@@ -487,7 +643,7 @@
       "is_new": false,
       "summary_source": "extract",
       "alt_keys": [
-        "318c5b997744eaf2"
+        "329761e0c30fcf02"
       ],
       "critical_signal": "",
       "priority": "minor",
@@ -495,77 +651,57 @@
       "sources": [
         {
           "name": "GitHub (new)",
-          "url": "https://github.com/praseesh369/youtube-ai-video-editing-system",
+          "url": "https://github.com/chanke17/KuroCat",
           "domain": "github.com",
           "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T17:21:17+00:00",
+      "published": "2026-11-23T01:06:18+00:00",
       "trace": [
         "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "published 2026-11-21 — outside lookback window"
+      "reject_reason": "published 2026-11-23 — outside lookback window"
     },
     {
-      "cluster_key": "f2d6acc85373ce6c",
-      "title": "A Generative AI Agent to Emulate Interactive Human-driven Vehicles for Automated Driving Testing in Urban Areas",
-      "category": "tech_ai",
-      "one_liner": "A new generative AI agent model accurately emulates safety-critical human vehicle interactions for autonomous driving tests.",
+      "cluster_key": "bc187de3fb640421",
+      "title": "I had Claude go through hundreds of email exchanges I've had with hacked companies during my disclosure efforts.",
+      "category": "cyber_attacks",
+      "one_liner": "",
       "tags": [
-        "agents",
-        "ai",
-        "research"
+        "incident",
+        "llm"
       ],
-      "summary": "Researchers propose a generative AI agent designed to emulate interactive human-driven vehicles (HDVs) for realistic automated driving safety testing in urban environments. Traditional methods struggle with occlusions, limited driving styles, and the dilution of safety-critical learning signals by normal driving behaviors. The new model integrates field-of-view visibility modeling, a dynamic mixture-of-experts network for diverse interaction styles, and residual reinforcement learning to refine generated trajectories. Experiments on the INTERACTION dataset show that the method reduces Jensen-Shannon divergence by up to 87.1% compared to baseline models.",
-      "key_facts": [
-        "Divergence reduction: 39.9% to 87.1% lower JSD"
-      ],
-      "bottom_line": "Incorporating field-of-view occlusion modeling and residual reinforcement learning significantly improves the realism of emulated human driving interactions for autonomous vehicle testing.",
-      "claims": [
-        {
-          "text": "Our method reduces Jensen--Shannon divergence (JSD) by 39.9%--87.1% across five interaction characteristics compared with a state-of-the-art baseline.",
-          "support_span": "Experiments on the INTERACTION dataset show that our method reduces Jensen--Shannon divergence (JSD) by 39.9%--87.1% across five interaction characteristics compared with a state-of-the-art baseline.",
-          "status": "contradicted"
-        },
-        {
-          "text": "The agent incorporates field-of-view modeling to account for driver visibility under occlusion.",
-          "support_span": "The agent incorporates field-of-view modeling to account for driver visibility under occlusion and characterizes the interaction process using five metrics spanning its initial, intermediate, and final stages.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
+      "summary": "Post Troy Hunt troyhunt.com did:plc:hg47czad2gksha3a7iyhwyan I had Claude go through hundreds of email exchanges I've had with hacked companies during my disclosure efforts. There are some *really* stark patterns, especially in whose interests are put first...",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
+      "blend": 0.0,
+      "is_new": false,
+      "summary_source": "extract",
       "alt_keys": [
-        "f2d6acc85373ce6c"
+        "bc187de3fb640421"
       ],
       "critical_signal": "",
-      "priority": "important",
+      "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.31797",
-          "domain": "arxiv.org",
-          "tier": "A"
+          "name": "Troy Hunt",
+          "url": "https://bsky.app/profile/troyhunt.com/post/3n2xnxvezr222",
+          "domain": "bsky.app",
+          "tier": "C"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.31797"
-      ],
-      "published": "2026-11-26T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-23T08:00:11.788000+00:00",
       "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-23 — outside lookback window"
     },
     {
       "cluster_key": "3df37b44fae99b40",
@@ -661,178 +797,79 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "5f392b2194993ecb",
-      "title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
-      "category": "tech_ai",
-      "one_liner": "Static auditing via Proteus-OT shows that over 20% of LLM-generated PLC code contains vendor-protocol mismatches, while a simple trailing newline reliably distinguishes human code.",
+      "cluster_key": "74aa0355f9dc4890",
+      "title": "CVE-2026-138034 - bigcommerce-api-mcp before 1.0.1 Missing Authentication via SSE Transport Routes",
+      "category": "cyber_attacks",
+      "one_liner": "Unauthenticated attackers can query BigCommerce store records via Model Context Protocol tools due to missing middleware validation on bigcommerce-api-mcp endpoints.",
       "tags": [
-        "ai",
-        "llm",
-        "opensource",
+        "agents",
+        "appsec",
+        "cve",
+        "exploit",
         "release",
-        "research",
-        "tool"
+        "tool",
+        "vulnerability"
       ],
-      "summary": "Researchers have identified metadata-conditioned, import-level vendor-protocol incompatibilities in LLM-generated PLC code by building Proteus-OT, a label-free static verifier over documented bindings. Across 883 generated scripts, 20.4% carried an import-level mismatch against the declared target. Furthermore, provenance classification revealed that the trailing newline, present in 95.2% of human files and none of the generated ones, uniquely separates the classes on its own. These findings show that vendor-protocol consistency is a useful static audit target, whereas repository-labelled provenance classification is not authorship detection.",
+      "summary": "The bigcommerce-api-mcp package prior to version 1.0.1 contains a missing authentication vulnerability in its SSE transport routes. Because the /sse and /messages endpoints skip the authenticateRequest middleware, remote unauthenticated attackers can open an SSE connection to obtain a session ID and POST JSON-RPC tool calls to /messages. This allows adversaries to extract store product, order, and customer records by abusing the operator's stored BigCommerce API key.",
       "key_facts": [
-        "Analyzed scripts: 883",
-        "Mismatch rate: 20.4%",
-        "Human files with trailing newline: 95.2%"
+        "CVE-2026-138034: Missing authentication vulnerability",
+        "Affected versions: bigcommerce-api-mcp before 1.0.1",
+        "Affected endpoints: /sse, /messages"
       ],
-      "bottom_line": "LLM-generated industrial control code frequently contains protocol mismatches despite importing valid packages, highlighting the need for specialized static verification.",
+      "bottom_line": "Users must update bigcommerce-api-mcp before version 1.0.1 to prevent unauthenticated remote tool execution and sensitive store data exposure.",
       "claims": [
         {
-          "text": "Across 883 generated scripts, 180 carry an import-level mismatch against the declared target (20.4%).",
-          "support_span": "Across 883 generated scripts, 180 carry an import-level mismatch against the declared target (20.4%);",
+          "text": "CVE-2026-138034 bigcommerce-api-mcp before 1.0.1 contains a missing authentication vulnerability that allows remote unauthenticated attackers to invoke MCP tools because the /sse and /messages routes skip the authenticateRequest middleware.",
+          "support_span": "CVE-2026-138034 bigcommerce-api-mcp before 1.0.1 contains a missing authentication vulnerability that allows remote unauthenticated attackers to invoke MCP tools because the /sse and /messages routes skip the authenticateRequest middleware.",
           "status": "contradicted"
         },
         {
-          "text": "The trailing newline present in 95.2% of human files and in none of the generated ones separates the classes on its own.",
-          "support_span": "The trailing newline present in 95.2% of human files and in none of the generated ones separates the classes on its own.",
-          "status": "contradicted"
+          "text": "Attackers can open /sse to obtain a session id and POST JSON-RPC tool calls to /messages to retrieve store product, order and customer records using the operator's BigCommerce API key.",
+          "support_span": "Attackers can open /sse to obtain a session id and POST JSON-RPC tool calls to /messages to retrieve store product, order and customer records using the operator's BigCommerce API key.",
+          "status": "entailed"
         }
       ],
-      "trust_score": 70,
-      "interest_score": 50,
+      "trust_score": 40,
+      "interest_score": 75,
       "corroboration": 1,
-      "blend": 47.5,
+      "blend": 51.2,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "5f392b2194993ecb"
+        "74aa0355f9dc4890",
+        "75c81fdffce17d5d",
+        "ed935f47788a2a21"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2611.33227",
-          "domain": "arxiv.org",
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-138034",
+          "domain": "cvefeed.io",
           "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.33227"
-      ],
-      "published": "2026-11-26T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "2 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "791704e6d743c250",
-      "title": "Developing-Gamer/agent-sim — iOS simulators for AI agents, on Linux. The agent layer for x86Sim.",
-      "category": "tech_ai",
-      "one_liner": "",
-      "tags": [
-        "agents",
-        "ai",
-        "hardware",
-        "linux",
-        "llm",
-        "opensource"
-      ],
-      "summary": "iOS simulators for AI agents, on ordinary Linux machines. Safari on Apple's iOS runtime, on a Linux VM, recorded at 60 fps (the GIF is 15). Full clip · An agent driving Settings and Safari agent-sim is built on x86Sim by designgears. x86Sim is what runs Apple's iOS simulator on Linux, and it has done that since its first release. agent-sim is the agent layer on top of it.",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "791704e6d743c250"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
+        },
         {
-          "name": "GitHub (new)",
-          "url": "https://github.com/Developing-Gamer/agent-sim",
-          "domain": "github.com",
-          "tier": "C"
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-137953",
+          "domain": "cvefeed.io",
+          "tier": "A"
+        },
+        {
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-137954",
+          "domain": "cvefeed.io",
+          "tier": "A"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-21T20:26:12+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-21 — outside lookback window"
-    },
-    {
-      "cluster_key": "a5c2634b4f17e6e1",
-      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
-      "category": "cyber_attacks",
-      "one_liner": "An authenticated RCE vulnerability in Palo Alto Networks Panorama PAN-OS allows root-level code execution.",
-      "tags": [
-        "cve",
-        "exploit",
-        "llm",
-        "network",
-        "release",
-        "vulnerability"
-      ],
-      "summary": "Palo Alto Networks has disclosed CVE-2026-0330, an authenticated remote code execution vulnerability in PAN-OS software running on Panorama. The flaw enables an authenticated administrator with network access to execute arbitrary code with root privileges on the device. Cloud NGFW, Prisma Access, and standalone firewalls remain unaffected. Palo Alto Networks noted that the risk is significantly minimized by restricting management interface access to trusted internal IP addresses and jump boxes. While no malicious exploitation has been reported, the vendor rated the issue medium severity and urged prompt remediation.",
-      "key_facts": [
-        "CVE ID: CVE-2026-0330",
-        "Product: Palo Alto Networks PAN-OS on Panorama",
-        "Severity: MEDIUM",
-        "CVSS Score: 8.6 (CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H)"
-      ],
-      "bottom_line": "Authenticated administrators can achieve root-level remote code execution on vulnerable Panorama appliances running affected PAN-OS versions.",
-      "claims": [
-        {
-          "text": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges.",
-          "support_span": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges.",
-          "status": "entailed"
-        },
-        {
-          "text": "Palo Alto Networks is not aware of any malicious exploitation of this issue.",
-          "support_span": "Palo Alto Networks is not aware of any malicious exploitation is of this issue.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "a5c2634b4f17e6e1"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Palo Alto PSIRT",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-0330",
-          "domain": "security.paloaltonetworks.com",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://security.paloaltonetworks.com/CVE-2026-0330"
-      ],
-      "published": "2026-11-11T17:00:00+00:00",
+      "published": "2026-11-27T16:18:07+00:00",
       "trace": [
         "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from cache",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
-        "demoted: critical capped at 5"
+        "single outlet, established publication (tier A)",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 51 = trust 40 / interest 75 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -870,14 +907,16 @@
           "status": "contradicted"
         }
       ],
-      "trust_score": 25,
+      "trust_score": 49,
       "interest_score": 100,
-      "corroboration": 1,
-      "blend": 58.8,
-      "is_new": true,
+      "corroboration": 3,
+      "blend": 79.8,
+      "is_new": false,
       "summary_source": "model",
       "alt_keys": [
         "1eb2d1a17c0d8436",
+        "2a37c829d2331509",
+        "4b2c45936088650f",
         "db22ce6bdf496569"
       ],
       "critical_signal": "",
@@ -885,10 +924,22 @@
       "verdict": "rejected",
       "sources": [
         {
+          "name": "Cyble",
+          "url": "https://cyble.com/blog/cve-2026-123890-vcenter-zero-day-patching/",
+          "domain": "cyble.com",
+          "tier": "B"
+        },
+        {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
           "domain": "thehackernews.com",
           "tier": "B"
+        },
+        {
+          "name": "Meteora Web",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHZwRFVlVUV1QjVFN3dUc1pNWWhyYjdsR1hVNk5Yc2VMRl9yQlg0M1NocTFMdnptelV2TjFyTk5WYUJIN0J4RS1reEQwcTd0ZnA2aWIwTTQtVTdfZHJqME45U01sbXBvY0F2Uk4zU1dHVExzQjVvTjRaUVgxT0xWemloSE05UlR4TzhXUUdMdktBNnBuT2NhemVEQzhERzBSS3BIVHVKeVlHaXM1bnVEeUJB?oc=5",
+          "domain": "meteora-web.publisher",
+          "tier": "C"
         },
         {
           "name": "The Hacker News",
@@ -898,332 +949,177 @@
         }
       ],
       "primary_links": [],
-      "published": "2026-11-24T13:28:00+00:00",
+      "published": "2026-11-24T08:06:53+00:00",
       "trace": [
         "tier B (+25)",
-        "single outlet, established publication (tier B)",
+        "3 independent outlets (+24)",
+        "verified: 3 independent outlets",
         "importance 5/5 from cache",
-        "blend 59 = trust 25 / interest 100 / corrob 25",
+        "blend 80 = trust 49 / interest 100 / corrob 75",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "842222505d59db93",
-      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-      "category": "tech_ai",
-      "one_liner": "Separating task and interface competence in LLM agents via harness rehearsal and cross-harness supervision prevents catastrophic performance drops across different harnesses.",
+      "cluster_key": "a408fa9da5438e7a",
+      "title": "CVE-2026-137963 - ToolJet before 3.21.96-LTS Hard-Coded JWT and Encryption Keys in Helm Chart",
+      "category": "cyber_attacks",
+      "one_liner": "ToolJet Helm charts ship with hard-coded JWT secret and encryption keys, allowing complete unauthenticated account takeover and credential decryption.",
       "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "research"
+        "appsec",
+        "cloud",
+        "cve",
+        "exploit",
+        "identity",
+        "vulnerability"
       ],
-      "summary": "LLM agents often fail when switching between harnesses because task competence and interface competence are decoupled. To address this, the authors distinguish between task knowledge and harness operation ability, showing that single-harness training can catastrophically degrade performance on alternative interfaces through negative interference. They introduce harness rehearsal—distillation using traces with minimal task content to practice target interfaces—which, when combined with cross-harness task supervision, dramatically improves multi-turn performance. Furthermore, on-policy reinforcement learning is found to be more robust against single-harness performance degradation than distillation.",
+      "summary": "ToolJet versions prior to 3.21.96-LTS contain a hard-coded credentials vulnerability in its Helm chart configuration. Specifically, the values.yaml file sets secret_key_base and lockbox_key to static published constants. Unauthenticated attackers can exploit this by signing session tokens with the known key to impersonate any user and decrypt all stored datasource credentials across the deployment.",
       "key_facts": [
-        "BFCL V3 multi-turn improvement with Qwen3-4B: 58.8% combined score (vs 8.5% and 32.5% individually)"
+        "CVE-2026-137963: Hard-coded credentials vulnerability",
+        "Affected versions: ToolJet before 3.21.96-LTS",
+        "Affected parameters: secret_key_base, lockbox_key"
       ],
-      "bottom_line": "Agentic training must explicitly decouple task knowledge from harness interfaces using harness rehearsal to avoid catastrophic degradation when changing deployment harnesses.",
+      "bottom_line": "Administrators must upgrade ToolJet to version 3.21.96-LTS or later to eliminate hard-coded Helm chart secrets that permit full application compromise.",
       "claims": [
         {
-          "text": "This study addresses this gap by introducing a hierarchical prompting framework that conditions LLM agents with demographic, psychological, and contextual cues to generate event-conditioned emotional responses to real-world events.",
-          "support_span": "This study addresses this gap by introducing a hierarchical prompting framework that conditions LLM agents with demographic, psychological, and contextual cues to generate event-conditioned emotional responses to real-world events.",
+          "text": "CVE-2026-137963 ToolJet before 3.21.96-LTS contains a hard-coded credentials vulnerability where the Helm chart values.yaml sets secret_key_base and lockbox_key to a static published constant.",
+          "support_span": "CVE-2026-137963 ToolJet before 3.21.96-LTS contains a hard-coded credentials vulnerability where the Helm chart values.yaml sets secret_key_base and lockbox_key to a static published constant.",
           "status": "contradicted"
         },
         {
-          "text": "Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface.",
-          "support_span": "Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface.",
-          "status": "entailed"
-        },
-        {
-          "text": "To disentangle task and interface supervision, we introduce harness rehearsal: distillation on traces that carry minimal task knowledge while exercising the target interface.",
-          "support_span": "To disentangle task and interface supervision, we introduce harness rehearsal: distillation on traces that carry minimal task knowledge while exercising the target interface.",
+          "text": "Unauthenticated attackers can sign session tokens with the known key to impersonate any user and decrypt all stored datasource credentials.",
+          "support_span": "Unauthenticated attackers can sign session tokens with the known key to impersonate any user and decrypt all stored datasource credentials.",
           "status": "entailed"
         }
       ],
-      "trust_score": 70,
-      "interest_score": 75,
+      "trust_score": 40,
+      "interest_score": 100,
       "corroboration": 1,
-      "blend": 58.8,
+      "blend": 62.5,
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "842222505d59db93"
+        "a408fa9da5438e7a"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.31427",
-          "domain": "arxiv.org",
+          "name": "CVEFeed High",
+          "url": "https://cvefeed.io/vuln/detail/CVE-2026-137963",
+          "domain": "cvefeed.io",
           "tier": "A"
         }
       ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.31427"
-      ],
-      "published": "2026-11-26T05:00:00+00:00",
+      "primary_links": [],
+      "published": "2026-11-27T16:18:08+00:00",
       "trace": [
         "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "single outlet, established publication (tier A)",
+        "importance 5/5 from gemini-3.5-flash-lite",
+        "blend 62 = trust 40 / interest 100 / corrob 25",
         "demoted: critical capped at 5"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "289836493636e947",
-      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-      "category": "cyber_attacks",
-      "one_liner": "FIFA suffers a cyberattack resulting in the unauthorized access and exposure of internal personal and business data.",
+      "cluster_key": "2b016f2c7904d1e3",
+      "title": "7wdn/7paws — Windows 与 macOS 的 3D 桌面小猫桌宠：响应全局键鼠、敲键追光标、摸猫呼噜；支持照片取色或 AI（内置 MCP）定制专属猫咪，闲置后睡觉。",
+      "category": "tech_ai",
+      "one_liner": "",
       "tags": [
-        "incident",
-        "markets",
-        "political",
-        "privacy",
-        "threat-actor"
+        "agents",
+        "ai",
+        "hardware",
+        "opensource",
+        "windows"
       ],
-      "summary": "FIFA has confirmed it was the victim of a cyberattack that allowed hackers to access a limited set of personal and business information. The soccer governing body stated it is working closely with law enforcement, though it did not disclose the timing of the breach or the exact data compromised. The incident follows claims by a group called the Handsome Boy Hacking Club, which posted screenshots and claimed responsibility for leaking over 12 gigabytes of internal documents. The breach compounds pressures on FIFA President Gianni Infantino as he attempts to extend his presidency and defend past strategic initiatives.",
-      "key_facts": [
-        "Claimed data leak size: >12 gigabytes"
-      ],
-      "bottom_line": "FIFA is investigating a cyberattack that exposed internal documents and personal data following claims of a 12GB data leak by a hacking group.",
-      "claims": [
-        {
-          "text": "FIFA was the victim of a cyberattack gaining access to personal and business information.",
-          "support_span": "FIFA was the victim of a cyberattack that saw hackers gain access to what soccer’s world governing body describes as a “limited set of personal and business information,” it said Thursday.",
-          "status": "entailed"
-        },
-        {
-          "text": "A group calling itself the Handsome Boy Hacking Club posted screenshots of what it claimed were FIFA files.",
-          "support_span": "Last week, a group calling itself the Handsome Boy Hacking Club posted screenshot on X of what it claimed were FIFA files.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 37,
-      "interest_score": 75,
-      "corroboration": 2,
-      "blend": 58.0,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "289836493636e947",
-        "dbfa2402c895a28e",
-        "fb95bef93309ef6e"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
-          "domain": "securityweek.com",
-          "tier": "B"
-        },
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/fifa-data-breach-limited",
-          "domain": "therecord.media",
-          "tier": "B"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNclJ3MDhCeGtwdVVHOWdEVjNIM2FKbmFNSG9PQ0o4UEVfaDJfUllfWThnRzY1TUZZUFpnZjhEbW9tSFRFTXhVRThuS1h4TjU5MUZsLWtwLVNXU0tMRE1iR2lZUVNsOWthcW9VZjFxMERMSm5HNzlSaUJZZ1Q4cWY2QVhQeHF5QTVLenNLQW9acEFVUGJOcjJpQVhWWXZoSzc3cnpOUVZBRV95NDZQY1puZzlzcVUyR001eWZZ?oc=5",
-          "domain": "securityweek.com",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-25T20:40:00+00:00",
-      "trace": [
-        "tier B (+25)",
-        "2 independent outlets (+12)",
-        "corroborated by 2 independent outlets",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 58 = trust 37 / interest 75 / corrob 50",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "ab9d68bdcca6a36c",
-      "title": "Small-cap stock under  ₹100: Metal stock jumps following stock market rally; do you own?",
-      "category": "markets",
-      "one_liner": "Bombay Coated and Special Steels reported strong Q2 revenue and profit growth despite margin pressures from rising input costs.",
-      "tags": [
-        "india",
-        "markets"
-      ],
-      "summary": "Bombay Coated and Special Steels reported strong Q2 FY27 results, with revenue jumping 50.15% year-on-year to ₹2,802.38 million and sales volume rising 21.8% to 27,835 metric tonnes. Profit after tax increased 39.97% to ₹48.38 million, though operating margins remained pressured by higher input and employee costs, with EBITDA margin declining to 6.36%. Managing Director Nitin Vijaykumar Gupta noted that home and commercial appliances drove 86.9% of H1 revenue. The company debuted on the NSE and BSE on November 5, 2026, following a ₹183.06-crore IPO subscribed 60.77 times.",
-      "key_facts": [
-        "Q2 FY27 revenue: ₹2,802.38 million (+50.15% YoY)",
-        "Q2 FY27 PAT: ₹48.38 million (+39.97% YoY)",
-        "IPO issue size: ₹183.06-crore",
-        "IPO subscription: 60.77 times"
-      ],
-      "bottom_line": "Strong volume growth in appliance and engineering sectors drives financial performance for recently listed Bombay Coated and Special Steels.",
-      "claims": [
-        {
-          "text": "Bombay Coated and Special Steels reported a strong year-on-year performance in the second quarter of FY27, with revenue from operations rising 50.15% to ₹2,802.38 million.",
-          "support_span": "Bombay Coated and Special Steels reported a strong year-on-year performance in the second quarter of FY27, with revenue from operations rising 50.15% to ₹2,802.38 million, compared with ₹1,866.38 million in the corresponding quarter last year.",
-          "status": "contradicted"
-        },
-        {
-          "text": "PAT increased 39.97% year-on-year to ₹48.38 million in Q2 FY27.",
-          "support_span": "On the bottom line, Bombay Coated and Special Steels posted a 39.97% YoY increase in profit after tax (PAT) to ₹48.38 million in Q2 FY27, compared with ₹34.56 million in Q2 FY26.",
-          "status": "entailed"
-        }
-      ],
-      "trust_score": 25,
-      "interest_score": 25,
+      "summary": "",
+      "key_facts": [],
+      "bottom_line": "",
+      "claims": [],
+      "trust_score": 0,
+      "interest_score": 0,
       "corroboration": 1,
-      "blend": 25.0,
+      "blend": 0.0,
       "is_new": true,
-      "summary_source": "model",
+      "summary_source": "extract",
       "alt_keys": [
-        "ab9d68bdcca6a36c"
+        "2b016f2c7904d1e3"
       ],
       "critical_signal": "",
       "priority": "minor",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "Livemint Markets",
-          "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-100-metal-stock-bombay-coated-and-special-steels-jumps-following-stock-market-rally-11795685519467.html",
-          "domain": "livemint.com",
-          "tier": "B"
+          "name": "GitHub (new)",
+          "url": "https://github.com/7wdn/7paws",
+          "domain": "github.com",
+          "tier": "C"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-26T10:03:29+00:00",
+      "published": "2026-11-22T15:40:42+00:00",
       "trace": [
-        "tier B (+25)",
-        "single outlet, established publication (tier B)",
-        "importance 2/5 from gemini-3.5-flash-lite",
-        "blend 25 = trust 25 / interest 25 / corrob 25"
+        "summary: the article's opening sentences, not model-written and not fact-checked"
       ],
-      "reject_reason": "1 claim(s) not supported by the source text"
+      "reject_reason": "published 2026-11-22 — outside lookback window"
     },
     {
-      "cluster_key": "60604a1190b5578c",
-      "title": "Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding",
-      "category": "tech_ai",
-      "one_liner": "Wavefront improves LLM speculative decoding throughput by using low-rank base models with parallel causal refinement correction heads.",
-      "tags": [
-        "agents",
-        "ai",
-        "llm",
-        "research",
-        "tool"
-      ],
-      "summary": "Wavefront is a novel inference-time method for speculative decoding that addresses token dependence limitations in parallel block drafters by shrinking the base model and strengthening the correction head. By replacing the full lm_head with a learned low-rank base, conditioning the correction head on the entire drafted prefix, and resolving it via parallel Jacobi passes, Wavefront achieves a fixed-budget draft step that is captured as a single CUDA graph in vLLM. Benchmarks on Qwen3-8B and Qwen3.8-27B show that Wavefront significantly increases generation throughput over existing drafters like xPress, DSpark, and DFlash across math, code, chat, and long-context prompts.",
-      "key_facts": [
-        "Evaluated models: Qwen3-8B, Qwen3.8-27B",
-        "Concurrency load: up to 32"
-      ],
-      "bottom_line": "Wavefront accelerates LLM inference serving by replacing full lm_heads with low-rank bases and parallel Jacobi refinement passes.",
-      "claims": [
-        {
-          "text": "Wavefront replaces the full lm_head with a learned low-rank base and conditions the correction head on the drafted prefix.",
-          "support_span": "Wavefront replaces the full lm_head with a learned low-rank base, conditions the correction head on the whole drafted prefix within the same block, and resolves it with a few parallel Jacobi passes.",
-          "status": "entailed"
-        },
-        {
-          "text": "Wavefront improves throughput over xPress, DSpark and DFlash on Qwen3-8B across benchmarks.",
-          "support_span": "On Qwen3-8B, Wavefront improves throughput over xPress, DSpark and DFlash by 2.6%, 10.7% and 23.6% on average across math, code, chat and agentic benchmarks...",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 70,
-      "interest_score": 50,
-      "corroboration": 1,
-      "blend": 47.5,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "60604a1190b5578c"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2611.31638",
-          "domain": "arxiv.org",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [
-        "https://arxiv.org/abs/2611.31638"
-      ],
-      "published": "2026-11-26T05:00:00+00:00",
-      "trace": [
-        "tier A (+40)",
-        "primary source anchor (+30)",
-        "verified: primary source artifact",
-        "importance 3/5 from gemini-3.5-flash-lite",
-        "blend 48 = trust 70 / interest 50 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "e4addef3cba758f3",
-      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "cluster_key": "c7081f0162ccbed9",
+      "title": "Pulse of the Street: Profit booking snaps four-week rally; markets brace consolidation?",
       "category": "markets",
-      "one_liner": "Jensen Huang's brief exit and return to Nvidia underscores how the U.S.-China AI race hinges on retaining top engineering talent.",
+      "one_liner": "Indian equities break a four-week winning streak on profit booking despite massive foreign portfolio inflows.",
       "tags": [
         "ai",
         "hardware",
-        "llm",
-        "markets",
-        "political"
+        "india",
+        "markets"
       ],
-      "summary": "Jensen Huang's return as CEO of Nvidia after a brief resignation highlights how the U.S.-China AI competition centers heavily on human engineering and research talent alongside semiconductors. Donald Trump defended his intervention to keep Huang in the U.S., warning that Chinese competitors would readily recruit top talent. With China leading in global AI talent share according to Carnegie Endowment research, companies increasingly navigate mixed-market recruitment and compensation strategies across the U.S., Canada, and Asia.",
+      "summary": "Domestic Indian equities broke a four-week winning streak as investors booked profits following a strong monthly rally, with the Nifty 50 and Sensex both falling about 0.7-0.8% for the week and dropping 1.2% on Friday. Foreign portfolio investors (FPIs) injected nearly ₹31,500 crore into Indian equities during the week, bringing November's total FPI inflow to ₹1.45 trillion. Analysts note that valuations remain elevated, prompting technical consolidation despite strong domestic liquidity and strong long-term AI and infrastructure fundamentals. Market participants are now awaiting upcoming September-quarter GDP data, projected by economists to grow at 7.6%.",
       "key_facts": [
-        "Resignation date: Nov. 12",
-        "Return date: Nov. 23"
+        "Nifty closing: 25,607.20",
+        "Sensex closing: 83,339.26",
+        "Weekly FPI purchases: ₹31,500 crore",
+        "Total November FPI inflows: ₹1.45 trillion",
+        "Expected GDP growth: 7.6%"
       ],
-      "bottom_line": "Retention of key engineering and research talent is as vital to national artificial intelligence competitiveness as semiconductor manufacturing.",
+      "bottom_line": "Market participants should monitor forthcoming September-quarter GDP figures and corporate earnings to gauge India's economic growth premium.",
       "claims": [
         {
-          "text": "Jensen Huang resigned Nov. 12 after reports of an affair with a woman U.S. intelligence reportedly believes has links to Chinese intelligence.",
-          "support_span": "Jensen Huang resigned Nov. 12 after reports of an affair with a woman U.S. intelligence reportedly believes has links to Chinese intelligence.",
-          "status": "contradicted"
+          "text": "Domestic equities snapped a four-week winning streak as investors booked profits following a sharp month-long rally.",
+          "support_span": "Domestic equities snapped a four-week winning streak as investors booked profits following a sharp month-long rally.",
+          "status": "entailed"
         },
         {
-          "text": "He returned on Nov. 23, news which sent Nvidia shares surging.",
-          "support_span": "He returned on Nov. 23, news which sent Nvidia shares surging.",
-          "status": "entailed"
+          "text": "FPIs have bought ₹1.45 trillion worth of Indian equities so far in November, providing substantial support to the mar…",
+          "support_span": "FPIs have bought ₹1.45 trillion worth of Indian equities so far in November, providing substantial support to the mar…",
+          "status": "contradicted"
         }
       ],
       "trust_score": 25,
       "interest_score": 75,
       "corroboration": 1,
       "blend": 47.5,
-      "is_new": false,
+      "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "e4addef3cba758f3"
+        "c7081f0162ccbed9"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
-          "domain": "cnbc.com",
+          "name": "Livemint Markets",
+          "url": "https://www.livemint.com/market/stock-market-bse-sensex-nse-nifty-shares-indian-equities-technology-ai-11795785437907.html",
+          "domain": "livemint.com",
           "tier": "B"
         }
       ],
       "primary_links": [],
-      "published": "2026-11-25T14:29:00+00:00",
+      "published": "2026-11-27T16:28:12+00:00",
       "trace": [
         "tier B (+25)",
         "single outlet, established publication (tier B)",
@@ -1233,204 +1129,34 @@
       "reject_reason": "1 claim(s) not supported by the source text"
     },
     {
-      "cluster_key": "6714c1c2812cc416",
-      "title": "Desperate appeals from women on death row in Iran after protests",
-      "category": "india_world",
-      "one_liner": "Amnesty International and UN experts report a surge in death sentences for women protesters in Iran following the January unrest.",
-      "tags": [
-        "policy",
-        "political",
-        "privacy"
-      ],
-      "summary": "Taraneh Rahimi, a 21-year-old on death row in Iran, and her twin sister Romina were arrested following anti-government protests in January, facing severe abuse and torture in custody. Taraneh was convicted of moharebeh—a capital offense under Islamic penal code involving weapon use—after interrogators reportedly threatened her sister, while Romina received a 25-year prison sentence. UN human rights experts and Amnesty International note an alarming rise in politically motivated death sentences and executions targeting women protesters following the widespread civil unrest.",
-      "key_facts": [
-        "Age of defendants: 21",
-        "Prison sentence for Romina: 25 years"
-      ],
-      "bottom_line": "Human rights organizations have highlighted an unprecedented rise in death sentences and torture targeting female political prisoners in Iran.",
-      "claims": [
-        {
-          "text": "Taraneh Rahimi was sentenced to death in connection with the January protests in Iran.",
-          "support_span": "Taraneh is one of six women who have been sentenced to death this year in connection with the January protests, according to the UN's human rights rapporteur for Iran, Mai Sato.",
-          "status": "entailed"
-        },
-        {
-          "text": "Romina was sentenced to 25 years in jail for aiding and abetting moharebeh.",
-          "support_span": "Romina was sentenced to 25 years in jail for the lesser charge of aiding and abiding moharebeh, according to Sato, the UN rapporteur.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 40,
-      "interest_score": 75,
-      "corroboration": 1,
-      "blend": 51.2,
-      "is_new": true,
-      "summary_source": "model",
-      "alt_keys": [
-        "6714c1c2812cc416"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "tier": "A"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-26T06:01:58+00:00",
-      "trace": [
-        "tier A (+40)",
-        "single outlet, established publication (tier A)",
-        "importance 4/5 from gemini-3.5-flash-lite",
-        "blend 51 = trust 40 / interest 75 / corrob 25"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "297bc06ad6bca1bf",
-      "title": "Riemann Hypothesis may have been solved with the help of Claude.",
+      "cluster_key": "6109b6ac57f84587",
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
       "category": "tech_ai",
-      "one_liner": "",
+      "one_liner": "Partial routing enables a frontier lead LLM to delegate subtasks to cheaper models based on past run traces, cutting costs while raising performance.",
       "tags": [
-        "llm"
-      ],
-      "summary": "Post Ethan Mollick emollick.bsky.social did:plc:flxq4uyjfotciovpw3x3fxnu Riemann Hypothesis may have been solved with the help of Claude. “what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater.” alpo.ge/remark.pdf 2026-11-20T15:30:52.944Z",
-      "key_facts": [],
-      "bottom_line": "",
-      "claims": [],
-      "trust_score": 0,
-      "interest_score": 0,
-      "corroboration": 1,
-      "blend": 0.0,
-      "is_new": false,
-      "summary_source": "extract",
-      "alt_keys": [
-        "297bc06ad6bca1bf"
-      ],
-      "critical_signal": "",
-      "priority": "minor",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "Ethan Mollick",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2qvqp4fts2e",
-          "domain": "bsky.app",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-20T15:30:42.096000+00:00",
-      "trace": [
-        "summary: the article's opening sentences, not model-written and not fact-checked"
-      ],
-      "reject_reason": "published 2026-11-20 — outside lookback window"
-    },
-    {
-      "cluster_key": "7ef8b6638eb57fcc",
-      "title": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
-      "category": "cyber_attacks",
-      "one_liner": "A data breach hit an unclassified open-source intelligence analysis system used by the CIA and ODNI, exposing analyst search queries.",
-      "tags": [
-        "cloud",
-        "incident",
-        "opensource",
-        "privacy",
-        "research",
-        "threat-intel"
-      ],
-      "summary": "The Central Intelligence Agency (CIA) and the Office of the Director of National Intelligence (ODNI) have confirmed a data breach affecting an open-source intelligence analysis system. The intrusion exposed unclassified material, including public and commercial data feeds such as news and satellite imagery. Security experts note that even though classified networks remain untouched, attackers gaining access to intelligence analysis search histories can track U.S. spy priorities and intelligence blind spots. The incident follows other recent security agency breaches involving the FBI and NSA.",
-      "key_facts": [],
-      "bottom_line": "Compromise of unclassified open-source intelligence systems at the CIA and ODNI exposes analytical priorities and blind spots to external adversaries.",
-      "claims": [
-        {
-          "text": "The CIA and Office of the Director of National Intelligence have discovered a data breach of an open-source intelligence analysis system, CyberScoop has confirmed.",
-          "support_span": "The CIA and Office of the Director of National Intelligence have discovered a data breach of an open-source intelligence analysis system, CyberScoop has confirmed.",
-          "status": "entailed"
-        },
-        {
-          "text": "“The hack did not involve our classified networks or classified information, and no other systems are currently at risk,” the source said.",
-          "support_span": "“The hack did not involve our classified networks or classified information, and no other systems are currently at risk,” the source said.",
-          "status": "contradicted"
-        }
-      ],
-      "trust_score": 49,
-      "interest_score": 100,
-      "corroboration": 3,
-      "blend": 79.8,
-      "is_new": false,
-      "summary_source": "model",
-      "alt_keys": [
-        "7ef8b6638eb57fcc",
-        "8fe88d16a693488a",
-        "a147b38739e87e67"
-      ],
-      "critical_signal": "",
-      "priority": "important",
-      "verdict": "rejected",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-          "domain": "bleepingcomputer.com",
-          "tier": "B"
-        },
-        {
-          "name": "CyberScoop",
-          "url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
-          "domain": "cyberscoop.com",
-          "tier": "B"
-        },
-        {
-          "name": "Meteora Web",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WaE13aU4wRENvejhlNHFwSjJKZ1B0OGJ1WDhzZjNoeGNLLU01MVJCY0EzYnRHd0JVUW9PZEdUdHEzNVFBeXI3ZmwtS3A0TXlEUHE4eFBGVzdDTFRCajVhRHFaOVFoNk5lZmE1NmVfb3dOSEZEY1ZoMERJdV9GUQ?oc=5",
-          "domain": "meteora-web.publisher",
-          "tier": "C"
-        }
-      ],
-      "primary_links": [],
-      "published": "2026-11-24T22:01:23+00:00",
-      "trace": [
-        "tier B (+25)",
-        "3 independent outlets (+24)",
-        "verified: 3 independent outlets",
-        "importance 5/5 from gemini-3.5-flash-lite",
-        "blend 80 = trust 49 / interest 100 / corrob 75",
-        "demoted: critical capped at 5"
-      ],
-      "reject_reason": "1 claim(s) not supported by the source text"
-    },
-    {
-      "cluster_key": "f4b893f6bafe5dd6",
-      "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
-      "category": "tech_ai",
-      "one_liner": "FlashProve-Next provides verifiable zero-knowledge inference proofs for production LLM APIs without modifying native float serving.",
-      "tags": [
+        "agents",
         "ai",
-        "cloud",
-        "hardware",
         "llm",
+        "privacy",
         "research",
         "tool"
       ],
-      "summary": "FlashProve-Next introduces a verifiable inference system for production LLM APIs that generates zero-knowledge-masked proofs for individual responses without altering native native serving architectures like FlashAttention or bf16/fp8/mxfp4 precision. The framework utilizes a non-depleting Reed-Solomon weight commitment model opened via hidden column openings, alongside local per-operator rounding contracts that eliminate integer surrogates. It supports cost-weighted spot-checking for public verification and incorporates formal mechanizations across 28 Lean 4 modules. Benchmarks on Blackwell hardware demonstrate scalable verification across models ranging from Qwen3-0.6B to live vLLM Qwen3-30B-A3B-FP8 instances.",
+      "summary": "To overcome the efficiency limitations of routing entire agentic tasks to a single model, researchers have introduced partial routing, a trace-tuned delegation framework. By analyzing past execution runs from both a frontier lead model and a cheaper worker model, the system identifies recurring subtasks and measures quality and cost without requiring model retraining. A delegation parameter, delta, guides the lead model on when and what subtasks to delegate dynamically during execution. Evaluations on ViBench and Terminal-Bench 4.0 demonstrate that partial routing improves mean task performance while significantly reducing execution costs compared to using the lead model alone or standard task-level routing.",
       "key_facts": [
-        "Formal verification modules: 28 Lean 4 modules (696 declarations)",
-        "Proof generation and verification benchmark: Qwen3-30B-A3B-FP8 verified via Rust fpn-verify"
+        "ViBench Score Improvement: 70.2 to 78.5 at 19% lower cost",
+        "Terminal-Bench Pass Rate Improvement: 54% to 61%",
+        "Delegation Parameter delta: 0.75"
       ],
-      "bottom_line": "Clients can now cryptographically verify production LLM API execution parameters and weights without sacrificing native floating-point performance or disclosing proprietary model weights.",
+      "bottom_line": "Partial routing improves agentic workflow efficiency by letting a frontier lead model delegate specific subtasks to cheaper worker models using historical execution data.",
       "claims": [
         {
-          "text": "FlashProve-Next produces verifiable, zero-knowledge-masked proofs for individual LLM API responses without modifying native serving.",
-          "support_span": "FlashProve-Next produces verifiable, zero-knowledge-masked proofs for individual LLM API responses without modifying native serving",
+          "text": "We introduce partial routing, which guides a frontier lead model to delegate suitable subtasks to a cheaper worker model.",
+          "support_span": "We introduce partial routing, which guides a frontier lead model to delegate suitable subtasks to a cheaper worker model.",
           "status": "entailed"
         },
         {
-          "text": "Twenty-eight Lean 4 modules mechanize round-by-round soundness and verifiers.",
-          "support_span": "Twenty-eight Lean 4 modules (696 declarations, zero sorry, standard axioms only) mechanize round-by-round soundness, bucketed sampling, \nmathbb{F}_{p^3} constrained-mask binding, causal masking, six IR gadgets, and executable FPN2 verifiers.",
+          "text": "With ̈́ʹ = 0.75, it raises the lead's ViBench score from 70.2 to 78.5 at 19% lower cost, and its Terminal-Bench pass rate from 54% to 61% at similar cost.",
+          "support_span": "With ̈́ʹ = 0.75, it raises the lead's ViBench score from 70.2 to 78.5 at 19% lower cost, and its Terminal-Bench pass rate from 54% to 61% at similar cost.",
           "status": "contradicted"
         }
       ],
@@ -1441,23 +1167,23 @@
       "is_new": true,
       "summary_source": "model",
       "alt_keys": [
-        "f4b893f6bafe5dd6"
+        "6109b6ac57f84587"
       ],
       "critical_signal": "",
       "priority": "important",
       "verdict": "rejected",
       "sources": [
         {
-          "name": "arXiv cs.CR",
-          "url": "https://arxiv.org/abs/2611.33741",
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.33402",
           "domain": "arxiv.org",
           "tier": "A"
         }
       ],
       "primary_links": [
-        "https://arxiv.org/abs/2611.33741"
+        "https://arxiv.org/abs/2611.33402"
       ],
-      "published": "2026-11-26T05:00:00+00:00",
+      "published": "2026-11-27T05:00:00+00:00",
       "trace": [
         "tier A (+40)",
         "primary source anchor (+30)",
@@ -1465,6 +1191,188 @@
         "importance 4/5 from gemini-3.5-flash-lite",
         "blend 59 = trust 70 / interest 75 / corrob 25",
         "demoted: critical capped at 5"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "32bd0eea8142a885",
+      "title": "The Indian 'Tamasha queen' whose fans paid for a show that never happened",
+      "category": "india_world",
+      "one_liner": "The life of legendary Maharashtrian folk artist Vithabai Narayangaonkar has inspired a Bollywood musical amid debates over caste representation.",
+      "tags": [
+        "india"
+      ],
+      "summary": "Vithabai Narayangaonkar, a legendary folk artist and icon of Maharashtra's Tamasha and Lavani traditional theatre, has inspired an upcoming Bollywood musical titled Eetha, starring Shraddha Kapoor and directed by Laxman Utekar. Vithabai was renowned for her resilience, quick wit, and outspoken performances addressing caste discrimination and social realities while facing severe hardships. However, the film's adaptation has drawn criticism from critics for altering the protagonist's name and omitting explicit ties to her Dalit community background.",
+      "key_facts": [
+        "Movie release date: December 4",
+        "Protagonist birth year: 1935"
+      ],
+      "bottom_line": "The cinematic adaptation of folk icon Vithabai Narayangaonkar's life has sparked discussions regarding the accurate portrayal of Dalit history and Tamasha culture.",
+      "claims": [
+        {
+          "text": "Vithabai's life has inspired a Bollywood musical, Eetha, starring Shraddha Kapoor, and due for release on 4 December.",
+          "support_span": "Vithabai's life has inspired a Bollywood musical, Eetha, starring Shraddha Kapoor, and due for release on 4 December.",
+          "status": "contradicted"
+        },
+        {
+          "text": "Directed by Laxman Utekar, Eetha is based on Yogiraj Bagul's Marathi book chronicling Vithabai's life.",
+          "support_span": "Directed by Laxman Utekar, Eetha is based on Yogiraj Bagul's Marathi book chronicling Vithabai's life.",
+          "status": "entailed"
+        },
+        {
+          "text": "Vithabai was born during a Tamasha performance, in 1935.",
+          "support_span": "Vithabai was born during a Tamasha performance, in 1935.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 40,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 28.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "32bd0eea8142a885"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj20q9pw0116o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-28T00:50:11+00:00",
+      "trace": [
+        "tier A (+40)",
+        "single outlet, established publication (tier A)",
+        "importance 2/5 from gemini-3.5-flash-lite",
+        "blend 29 = trust 40 / interest 25 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "38d356c5545c6b76",
+      "title": "BJP, poll body conspiring to add fake voters in U.P., says Akhilesh",
+      "category": "india_world",
+      "one_liner": "SP chief Akhilesh Yadav accused the BJP and election officials of adding fake voters to electoral rolls in Uttar Pradesh.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "Samajwadi Party president Akhilesh Yadav has criticized the Uttar Pradesh government and the Election Commission, highlighting conflicting figures between Chief Minister Yogi Adityanath and Chief Electoral Officer Navdeep Rinwa regarding missing voters. Yadav accused the BJP of conspiring to add millions of fake and duplicate votes through Form 6 applications in urban constituencies like Allahabad, Ghaziabad, and Varanasi. He also questioned frequent administrative transfers during the special summary revision and demanded that voter ID cards be metal-made and linked directly with Aadhaar biometrics.",
+      "key_facts": [
+        "Date: November 27, 2026"
+      ],
+      "bottom_line": "Akhilesh Yadav raised allegations of electoral manipulation in Uttar Pradesh, pointing to discrepancies in missing voter figures and calling for Aadhaar-linked biometric verification.",
+      "claims": [
+        {
+          "text": "Samajwadi Party (SP) president Akhilesh Yadav on Friday (November 27, 2026) questioned the conflicting figures cited by Uttar Pradesh Chief Minister Yogi Adityanath and the State’s Chief Electoral Officer Navdeep Rinwa over missing voters, wondering who was telling the truth.",
+          "support_span": "Samajwadi Party (SP) president Akhilesh Yadav on Friday (November 27, 2026) questioned the conflicting figures cited by Uttar Pradesh Chief Minister Yogi Adityanath and the State’s Chief Electoral Officer Navdeep Rinwa over missing voters, wondering who was telling the truth.",
+          "status": "entailed"
+        },
+        {
+          "text": "Mr. Yadav said that the BJP and the Election Commission are “conspiring to add millions of fake votes through Form 6”.",
+          "support_span": "Mr. Yadav said that the BJP and the Election Commission are “conspiring to add millions of fake votes through Form 6”.",
+          "status": "contradicted"
+        },
+        {
+          "text": "He demanded that voter ID cards be linked with Aadhaar and that biometric verification be conducted.",
+          "support_span": "He demanded that voter ID cards be linked with Aadhaar and that biometric verification be conducted.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 50,
+      "corroboration": 1,
+      "blend": 36.2,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "38d356c5545c6b76"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/who-is-lying-akhilesh-questions-up-cm-ceo-over-conflicting-missing-voter-figures/article71750331.ece",
+          "domain": "thehindu.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-27T18:08:37+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 3/5 from gemini-3.5-flash-lite",
+        "blend 36 = trust 25 / interest 50 / corrob 25"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "fb5714c40dcad429",
+      "title": "Sigma Lithium Resources (SGML) Stock Price, Chart & Analysis",
+      "category": "cyber_tools",
+      "one_liner": "Sigma Lithium exhibits rapid revenue growth paired with high net debt and a weak fundamental investment score.",
+      "tags": [
+        "markets",
+        "research"
+      ],
+      "summary": "Sigma Lithium Resources (SGML) closed at $3.99 on NASDAQ with a market capitalization of $448.51 million as of late November 2026. The company reported strong quarterly revenue growth of 223.9% year-over-year alongside a 135.2% increase in earnings per share, though it maintains a net debt of CAD 137.1 million, which is 3.3 times its EBITDA. The stock carries no dividend and holds a weak Belegger score of 16 out of 100 based on Buffett and Lynch valuation rules.",
+      "key_facts": [
+        "Stock ticker: SGML.US",
+        "ISIN: CA8265991023",
+        "Market cap: $448.51M",
+        "Share price: $3.99",
+        "Revenue growth: 223.9%"
+      ],
+      "bottom_line": "Sigma Lithium trades at $3.99 with triple-digit revenue growth but a high debt-to-EBITDA ratio and no dividend payouts.",
+      "claims": [
+        {
+          "text": "The last price of Sigma Lithium Resources is $3.99, as of Nov 25 22:00, on NASDAQ.",
+          "support_span": "The last price of Sigma Lithium Resources is $3.99, as of Nov 25 22:00, on NASDAQ.",
+          "status": "contradicted"
+        },
+        {
+          "text": "The market cap of Sigma Lithium Resources is $448.5M.",
+          "support_span": "The market cap of Sigma Lithium Resources is $448.5M.",
+          "status": "entailed"
+        }
+      ],
+      "trust_score": 10,
+      "interest_score": 25,
+      "corroboration": 1,
+      "blend": 21.2,
+      "is_new": false,
+      "summary_source": "model",
+      "alt_keys": [
+        "fb5714c40dcad429"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "www.debelegger.nl",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DaXFUWDk0NjdpWDRVeHlFRXhrdkFjdzc3NWs0MF81MkJxcmJRQUs5X2h2bVlyUVVPWHZDbjVzdU1zdE1lNV9nRlhyZHB3bnlNWXBKZg?oc=5",
+          "domain": "www-debelegger-nl.publisher",
+          "tier": "C"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-26T22:17:06+00:00",
+      "trace": [
+        "tier C (+10)",
+        "single tier-C source — treat with caution",
+        "importance 2/5 from cache",
+        "blend 21 = trust 10 / interest 25 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
     },
@@ -1528,6 +1436,125 @@
         "blend 48 = trust 70 / interest 50 / corrob 25"
       ],
       "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "694233d30265edcf",
+      "title": "Ahead Of UP Assembly Elections, 30 IPS Officers Transferred",
+      "category": "india_world",
+      "one_liner": "Uttar Pradesh transfers 30 IPS officers ahead of the upcoming 2027 state assembly elections.",
+      "tags": [
+        "india",
+        "political"
+      ],
+      "summary": "The Uttar Pradesh administration has transferred 30 Indian Police Service (IPS) officers in a major bureaucratic reshuffle. This administrative overhaul is implemented in preparation for the upcoming 2027 Uttar Pradesh Assembly elections.",
+      "key_facts": [
+        "Count: 30 IPS officers",
+        "Event: UP Assembly Elections 2027"
+      ],
+      "bottom_line": "The transfer of 30 IPS officers in Uttar Pradesh signals early administrative preparations by the state government for the 2027 assembly elections.",
+      "claims": [
+        {
+          "text": "Ahead Of UP Assembly Elections, 30 IPS Officers Transferred",
+          "support_span": "Ahead Of UP Assembly Elections, 30 IPS Officers Transferred",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 25,
+      "interest_score": 0,
+      "corroboration": 1,
+      "blend": 13.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "694233d30265edcf"
+      ],
+      "critical_signal": "",
+      "priority": "minor",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "NDTV India",
+          "url": "https://www.ndtv.com/india-news/ahead-of-uttar-pradesh-assembly-elections-30-ips-officers-transferred-12387532#publisher=newsstand",
+          "domain": "ndtv.com",
+          "tier": "B"
+        }
+      ],
+      "primary_links": [],
+      "published": "2026-11-28T03:41:15+00:00",
+      "trace": [
+        "tier B (+25)",
+        "single outlet, established publication (tier B)",
+        "importance 1/5 from gemini-3.5-flash-lite",
+        "blend 14 = trust 25 / interest 0 / corrob 25"
+      ],
+      "reject_reason": "1 claim(s) not supported by the source text"
+    },
+    {
+      "cluster_key": "5ddc80c89f837629",
+      "title": "Letting Models Manage Their Own Context: Where We Stand",
+      "category": "tech_ai",
+      "one_liner": "Giving language models direct control over context compaction via APIs boosts task accuracy while reducing token consumption.",
+      "tags": [
+        "agents",
+        "ai",
+        "llm",
+        "opensource",
+        "privacy",
+        "research",
+        "tool"
+      ],
+      "summary": "Researchers investigated model-driven context management where AI agents decide when and what to compact through a context API rather than relying on external agent harness compactions. Testing this in NVIDIA's open source NOOA harness across document research and machine learning engineering, they found that models using the context API achieve higher accuracy with fewer input tokens. For instance, GPT 6.1 tripled its score on OfficeQA Pro v2 at a 32K budget, jumping from 21% to 56%. Furthermore, inference engines reusing the KV cache of unchanged suffixes can cut prefill compute by up to 15% per request without sacrificing accuracy.",
+      "key_facts": [
+        "Benchmark: OfficeQA Pro v2",
+        "GPT 6.1 score improvement: 21% to 56% at 32K budget",
+        "KV cache edit savings: up to 15% cut in prefill compute"
+      ],
+      "bottom_line": "AI developer tooling should incorporate model-driven context APIs and KV cache editing to lower prefill costs and improve agent efficiency.",
+      "claims": [
+        {
+          "text": "GPT 6.1 nearly triples its score at a 32K budget on OfficeQA Pro v2 (21%->56%), and Kimi gains with up to 41% fewer input tokens.",
+          "support_span": "GPT 6.1 nearly triples its score at a 32K budget on OfficeQA Pro v2 (21%~$\rightarrow$~56%), and \textbf{Kimi gains with up to 41% fewer input tokens}.",
+          "status": "contradicted"
+        },
+        {
+          "text": "By reusing the KV cache of the unchanged suffix after an edit, we cut prefill compute by up to 15% per request with no measurable change in accuracy.",
+          "support_span": "by reusing the KV cache of the unchanged suffix after an edit, \textbf{we cut prefill compute by up to 15% per request with no measurable change in accuracy}.",
+          "status": "contradicted"
+        }
+      ],
+      "trust_score": 70,
+      "interest_score": 75,
+      "corroboration": 1,
+      "blend": 58.8,
+      "is_new": true,
+      "summary_source": "model",
+      "alt_keys": [
+        "5ddc80c89f837629"
+      ],
+      "critical_signal": "",
+      "priority": "important",
+      "verdict": "rejected",
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.34147",
+          "domain": "arxiv.org",
+          "tier": "A"
+        }
+      ],
+      "primary_links": [
+        "https://arxiv.org/abs/2611.34147"
+      ],
+      "published": "2026-11-27T05:00:00+00:00",
+      "trace": [
+        "tier A (+40)",
+        "primary source anchor (+30)",
+        "verified: primary source artifact",
+        "importance 4/5 from gemini-3.5-flash-lite",
+        "blend 59 = trust 70 / interest 75 / corrob 25",
+        "demoted: critical capped at 5"
+      ],
+      "reject_reason": "2 claim(s) not supported by the source text"
     },
     {
       "cluster_key": "4695ee870a0e6d25",
